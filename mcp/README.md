@@ -1,8 +1,9 @@
-# aiact-mcp — MCP server for AI Act Explorer NL
+# dora-mcp — MCP server for DORA Explorer NL
 
-Exposes the Dutch AI Act corpus (base text + digital-omnibus amendment layer)
-over the Model Context Protocol: stdio for Claude Desktop/Code, streamable
-HTTP for claude.ai custom connectors.
+Exposes the Dutch DORA corpus (Verordening (EU) 2022/2554 + RoI-ITS
+2024/2956 + onderaannemings-RTS 2025/532) over the Model Context Protocol:
+stdio for Claude Desktop/Code, streamable HTTP for claude.ai custom
+connectors.
 
 Search relevance is identical to the site: both use
 `src/lib/search-core.ts` (MiniSearch config, Dutch normalization, snippets).
@@ -11,12 +12,11 @@ Search relevance is identical to the site: both use
 
 | Tool | Input | Returns |
 |---|---|---|
-| `search_ai_act` | `query`, `limit?`, `type?` | hits with deep links + snippets |
-| `get_article` | `number` (`"6"`, `"75 bis"`) | full article text, omnibus flag |
-| `get_recital` | `number` (1–180) | recital text |
-| `get_annex` | `roman` (`"III"`) | annex text (incl. omnibus annexes) |
-| `get_structure` | — | compact TOC with omnibus insertions |
-| `get_amendments` | `article?` | omnibus overview or per-article diff |
+| `search_dora` | `query`, `limit?`, `type?`, `instrument?` | hits with deep links + snippets |
+| `get_article` | `number`, `instrument?` (default `dora`) | full article text |
+| `get_recital` | `number`, `instrument?` | recital text |
+| `get_annex` | `roman` (`"III"`, RoI-ITS only) | annex text incl. template tables |
+| `get_structure` | — | compact TOC of all three instruments |
 
 All output is markdown with deep links to `BASE_URL` so Claude can cite.
 
@@ -40,9 +40,9 @@ The whole build is CommonJS — the repo root `package.json` has no
 ```json
 {
   "mcpServers": {
-    "ai-act-nl": {
+    "dora-nl": {
       "command": "node",
-      "args": ["/home/supergoose/ai-act-explorer-nl/mcp/dist/mcp/src/stdio.js"]
+      "args": ["/home/supergoose/dora-explorer-nl/mcp/dist/mcp/src/stdio.js"]
     }
   }
 }
@@ -62,17 +62,17 @@ The whole build is CommonJS — the repo root `package.json` has no
 | `PORT` | `3108` | listen port (binds 127.0.0.1) |
 | `BASE_URL` | `https://dora.mrfrank.dev` | prefix for deep links in output |
 | `MCP_TOKEN` | unset | if set, require `Authorization: Bearer` (Claude API MCP connector / Agents). Leave unset for claude.ai custom connectors — they have no static-token field. |
-| `AIACT_DATA_DIR` | `<repo>/data/generated` | corpus location override |
+| `DORA_DATA_DIR` | `<repo>/data/generated` | corpus location override |
 
 ## Deployment (this VPS)
 
-systemd user unit `~/.config/systemd/user/aiact-mcp.service`
+systemd user unit `~/.config/systemd/user/dora-mcp.service`
 (linger is enabled):
 
 ```sh
 systemctl --user daemon-reload
-systemctl --user enable --now aiact-mcp
-systemctl --user status aiact-mcp
+systemctl --user enable --now dora-mcp
+systemctl --user status dora-mcp
 curl -s 127.0.0.1:3108/healthz
 ```
 
@@ -82,11 +82,11 @@ site from `/var/www/dora.mrfrank.dev` (publish with `scripts/deploy-site.sh`).
 TLS = Cloudflare Origin CA cert (`/etc/nginx/ssl/mrfrank.dev.{pem,key}`),
 zone SSL mode Full (strict).
 
-Fallback without systemd: `tmux new-session -d -s aiact-mcp 'node /home/supergoose/ai-act-explorer-nl/mcp/dist/mcp/src/http.js'`.
+Fallback without systemd: `tmux new-session -d -s dora-mcp 'node /home/supergoose/ai-act-explorer-nl/mcp/dist/mcp/src/http.js'`.
 
 **nvm caveat**: `ExecStart` hardcodes the node path
 (`~/.nvm/versions/node/v24.14.0/bin/node`). After a node upgrade, update the
-unit and `systemctl --user daemon-reload && systemctl --user restart aiact-mcp`.
+unit and `systemctl --user daemon-reload && systemctl --user restart dora-mcp`.
 
 ## Reloading data
 
@@ -94,6 +94,6 @@ The corpus is read **once at startup**. After `npm run parse` or the
 `update-source` skill:
 
 ```sh
-systemctl --user restart aiact-mcp     # remote server
+systemctl --user restart dora-mcp     # remote server
 # stdio servers pick up new data on next launch (Claude Desktop restart)
 ```

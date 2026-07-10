@@ -3,11 +3,10 @@ import type {
   Article,
   ArticleParagraph,
   ContentNode,
-  DiffSegment,
   Footnote,
   RefSpan,
 } from "../../src/lib/types.js";
-import { BASE_URL, type ResolvedArticle } from "./data.js";
+import { BASE_URL, INSTRUMENTS, type InstrumentId } from "./data.js";
 
 /** Mirror of LinkedText: splice refs into markdown links, right-to-left so
  *  earlier offsets stay valid. Refs hold site-internal hrefs. */
@@ -75,70 +74,44 @@ function renderParagraphs(paragraphs: ArticleParagraph[]): string {
     .join("\n\n");
 }
 
-function contextLine(a: {
-  chapter: string;
-  chapterTitle: string;
-  section: number | null;
-  sectionTitle: string | null;
-}): string {
-  const section =
-    a.section != null ? ` · Afdeling ${a.section}${a.sectionTitle ? ` — ${a.sectionTitle}` : ""}` : "";
-  return `*Hoofdstuk ${a.chapter} — ${a.chapterTitle}${section}*`;
+function contextLine(a: Article, instrument: InstrumentId): string {
+  const spec = INSTRUMENTS[instrument];
+  if (!a.chapter) return `*${spec.citation}*`;
+  const section = a.section
+    ? ` · Afdeling ${a.section}${a.sectionTitle ? ` — ${a.sectionTitle}` : ""}`
+    : "";
+  return `*${spec.citation} · Hoofdstuk ${a.chapter} — ${a.chapterTitle}${section}*`;
 }
 
-function deepLinks(slug: string, paragraphs: ArticleParagraph[]): string {
+function deepLinks(instrument: InstrumentId, nummer: number, paragraphs: ArticleParagraph[]): string {
+  const prefix = INSTRUMENTS[instrument].routePrefix;
   const links = paragraphs
     .filter((p) => p.number != null)
-    .map((p) => `- ${BASE_URL}/artikel/${slug}#${p.anchor}`);
-  return [`**Deep links**`, `- ${BASE_URL}/artikel/${slug}`, ...links].join("\n");
+    .map((p) => `- ${BASE_URL}${prefix}/artikel/${nummer}#${p.anchor}`);
+  return [`**Deep links**`, `- ${BASE_URL}${prefix}/artikel/${nummer}`, ...links].join("\n");
 }
 
-export function renderArticle(resolved: ResolvedArticle): string {
-  if (resolved.kind === "base") {
-    const a = resolved.article;
-    return [
-      `# Artikel ${a.number} — ${a.title}`,
-      contextLine(a),
-      renderParagraphs(a.paragraphs),
-      renderFootnotes(a.footnotes),
-      deepLinks(String(a.number), a.paragraphs),
-    ]
-      .filter(Boolean)
-      .join("\n\n");
-  }
-  const s = resolved.spec;
+export function renderArticle(a: Article, instrument: InstrumentId): string {
   return [
-    `# Artikel ${s.displayNumber} — ${s.title}`,
-    contextLine(resolved),
-    `> Ingevoegd door de digitale omnibus (PE-CONS 30/26) — nog niet in werking.`,
-    renderParagraphs(s.paragraphs),
-    deepLinks(s.slug, s.paragraphs),
+    `# Artikel ${a.number} — ${a.title}`,
+    contextLine(a, instrument),
+    renderParagraphs(a.paragraphs),
+    renderFootnotes(a.footnotes),
+    deepLinks(instrument, a.number, a.paragraphs),
   ]
     .filter(Boolean)
     .join("\n\n");
 }
 
-export function renderAnnex(a: Annex, isNew: boolean): string {
+export function renderAnnex(a: Annex, instrument: InstrumentId): string {
+  const prefix = INSTRUMENTS[instrument].routePrefix;
   return [
     `# Bijlage ${a.roman} — ${a.title}`,
-    isNew ? `> Toegevoegd door de digitale omnibus (PE-CONS 30/26) — nog niet in werking.` : "",
+    `*${INSTRUMENTS[instrument].citation}*`,
     renderNodes(a.content),
     renderFootnotes(a.footnotes),
-    `**Deep link**: ${BASE_URL}/bijlage/${a.roman.toLowerCase()}`,
+    `**Deep link**: ${BASE_URL}${prefix}/bijlage/${a.roman.toLowerCase()}`,
   ]
     .filter(Boolean)
     .join("\n\n");
-}
-
-/** Word-diff segments → running text with ~~del~~ / **ins** markup. */
-export function renderSegments(segments: DiffSegment[]): string {
-  return segments
-    .map((s) => {
-      const t = s.text;
-      if (!t.trim()) return t;
-      if (s.op === "del") return `~~${t.trim()}~~${t.endsWith(" ") ? " " : ""}`;
-      if (s.op === "ins") return `**${t.trim()}**${t.endsWith(" ") ? " " : ""}`;
-      return t;
-    })
-    .join("");
 }

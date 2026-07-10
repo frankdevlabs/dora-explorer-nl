@@ -5,10 +5,10 @@ import { createServer } from "./server.js";
 async function main() {
   const server = createServer();
   await server.connect(new StdioServerTransport());
-  console.error("aiact-mcp: stdio server ready");
+  console.error("dora-mcp: stdio server ready");
 }
 
 main().catch((e) => {
-  console.error("aiact-mcp: fatal:", e);
+  console.error("dora-mcp: fatal:", e);
   process.exit(1);
 });

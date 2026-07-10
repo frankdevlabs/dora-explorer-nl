@@ -35,7 +35,7 @@ app.post("/mcp", async (req: Request, res: Response) => {
     await server.connect(transport);
     await transport.handleRequest(req, res, req.body);
   } catch (e) {
-    console.error("aiact-mcp: request failed:", e);
+    console.error("dora-mcp: request failed:", e);
     if (!res.headersSent) {
       res.status(500).json({
         jsonrpc: "2.0",
@@ -57,5 +57,5 @@ app.get("/mcp", reject405);
 app.delete("/mcp", reject405);
 
 app.listen(PORT, "127.0.0.1", () => {
-  console.error(`aiact-mcp: streamable HTTP server on 127.0.0.1:${PORT}`);
+  console.error(`dora-mcp: streamable HTTP server on 127.0.0.1:${PORT}`);
 });
