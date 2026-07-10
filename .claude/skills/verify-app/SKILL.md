@@ -10,10 +10,10 @@ check list change with nearly every epic. Update them in the same commit as
 the feature; a mismatch usually means this skill is stale, not that the app
 is broken — check `git log` before debugging.
 
-> **Epic-3 state:** full multi-instrument explorer (dora 64 art / 106 rct;
-> its 7 art / 15 rct / 4 anx; rts 7 art / 13 rct; **227 exported HTML
-> pages** incl. /its and /rts routes). Assessment/register are still AI-Act
-> placeholders (epics 5-8); MCP lands in epic 4.
+> **Epic-8 state:** full app (corpus + assessments + register werkbank;
+> **235 exported HTML pages**). Verify chain: verify-data,
+> verify-assessment (entity 18/57, supplier 11/48), verify-roi (15
+> templates / 98 kolommen + export fixtures), verify-search.
 
 ## 1. Build (includes data verification)
 

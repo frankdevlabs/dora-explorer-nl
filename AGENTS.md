@@ -73,10 +73,11 @@ All EUR-Lex sources are WAF-blocked; fetch via
 - GitHub: `frankdevlabs/dora-explorer-nl`; commit as
   `frankdevlabs <29236012+frankdevlabs@users.noreply.github.com>`.
 
-## State (epics 0-6 done; 7-8 pending)
+## State (epics 0-8 done)
 
-Corpus, crossrefs, UI, MCP and both assessments are live. Pending: the RoI
-werkbank op `/register` (epic 7: templates.json afgeleid uit de geparste
-ITS-bijlage I + relationele records + volledigheidsdashboard) en de exports
-(epic 8: CSV per template + leveranciersuitvraag). Deploy-blocker: de
-Cloudflare-DNS-record voor dora.mrfrank.dev (zie epic-4-doc).
+Alles uit het initiële plan is gebouwd: corpus, crossrefs, UI, MCP, beide
+assessments, de registerwerkbank (`/register`, schema afgeleid via
+`scripts/build-roi-schema.ts`) en de exports. Openstaand: de
+Cloudflare-DNS-record voor dora.mrfrank.dev (site geeft 526 aan de edge; de
+origin is klaar — zie docs/epics/epic-4-mcp-deploy.md) en de optionele
+epic 9 (recital-map, DORA↔ITS/RTS-panelen).

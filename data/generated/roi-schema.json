@@ -1,0 +1,1222 @@
+{
+ "meta": {
+  "source": "Uitvoeringsverordening (EU) 2024/2956, geconsolideerd 02024R2956-20241202 (incl. rectificatie 19.9.2025)",
+  "derived": "scripts/build-roi-schema.ts over data/generated/its/annexes.json"
+ },
+ "templates": [
+  {
+   "code": "B_01.01",
+   "name": "Entiteit die het informatieregister bijhoudt",
+   "description": "In dit model wordt de entiteit geïdentificeerd die het informatieregister bijhoudt op respectievelijk entiteits-, gesubconsolideerd en geconsolideerd niveau.",
+   "columns": [
+    {
+     "code": "B_01.01.0010",
+     "label": "LEI van de financiële entiteit die het informatieregister bijhoudt",
+     "soort": "Alfanumeriek",
+     "instruction": "Vermeld de financiële entiteit die het informatieregister bijhoudt, aan de hand van de LEI, de alfanumerieke code met 20 tekens die is gebaseerd op de ISO 17442-norm.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_01.01.0020",
+     "label": "Naam van de financiële entiteit",
+     "soort": "Alfanumeriek",
+     "instruction": "Juridische naam van de financiële entiteit die het informatieregister bijhoudt.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_01.01.0030",
+     "label": "Land van de financiële entiteit",
+     "soort": "Land",
+     "instruction": "Geef de tweelettercode volgens ISO 3166-1 van het land waar de licentie of de registratie van de in het informatieregister opgegeven entiteit is afgegeven.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_01.01.0040",
+     "label": "Soort financiële entiteit",
+     "soort": "Gesloten reeks keuzemogelijkheden",
+     "instruction": "Vermeld de soort financiële entiteit aan de hand van een van de keuzemogelijkheden in de volgende gesloten lijst: 1. kredietinstellingen 2. betalingsinstellingen, met inbegrip van betalingsinstellingen die zijn vrijgesteld krachtens Richtlijn (EU) 2015/2366 van het Europees Parlement en de Raad (1) 3. aanbieders van rekeninginformatiediensten 4. instellingen voor elektronisch geld, met inbegrip van instellingen voor elektronisch geld die zijn vrijgesteld krachtens Richtlijn 2009/110/EG van het Europees Parlement en de Raad (2) 5. beleggingsondernemingen 6. op grond van Verordening (EU) 2023/1114 van het Europees Parlement en de Raad (3) vergunde aanbieders van cryptoactivadiensten 7. op grond van Verordening (EU) 2023/1114 vergunde uitgevers van activagerelateerde tokens 8. centrale effectenbewaarinstellingen 9. centrale tegenpartijen 10. handelsplatformen 11. transactieregisters 12. beheerders van alternatieve beleggingsinstellingen 13. beheermaatschappijen 14. aanbieders van datarapporteringsdiensten 15. verzekerings- en herverzekeringsondernemingen 16. verzekeringstussenpersonen, herverzekeringstussenpersonen en nevenverzekeringstussenpersonen 17. instellingen voor bedrijfspensioenvoorziening 18. ratingbureaus 19. beheerders van kritieke benchmarks 20. aanbieders van crowdfundingdiensten 21. securitisatieregisters 22. andere financiële entiteit Wanneer het informatieregister op groepsniveau wordt bijgehouden door de moederonderneming die zelf niet verplicht is om een dergelijk register bij te houden, d.w.z. niet onder de definitie van financiële entiteit valt als bedoeld in artikel 2 van Verordening (EU) 2022/2554 (bv. financiële holding, gemengde financiële holding of gemengde holding), wordt de keuzemogelijkheid “andere financiële entiteit” geselecteerd.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_01.01.0050",
+     "label": "Bevoegde autoriteit",
+     "soort": "Alfanumeriek",
+     "instruction": "Vermeld de in artikel 46 van Verordening (EU) 2022/2554 genoemde bevoegde autoriteit aan wie het informatieregister wordt gemeld.",
+     "mandatoryRaw": "Verplicht in geval van melding",
+     "mandatory": false,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_01.01.0060",
+     "label": "Datum van melding",
+     "soort": "Datum",
+     "instruction": "Geef de datum van melding volgens de ISO 8601-code (jjjj-mm-dd).",
+     "mandatoryRaw": "Verplicht in geval van melding",
+     "mandatory": false,
+     "source": "manual",
+     "askSupplier": false
+    }
+   ]
+  },
+  {
+   "code": "B_01.02",
+   "name": "Lijst van entiteiten binnen de consolidatiekring",
+   "description": "In dit model worden alle entiteiten geïdentificeerd die tot de groep behoren. Wanneer de financiële entiteit die verantwoordelijk is voor het bijhouden van het informatieregister, niet tot een groep behoort, wordt alleen die financiële entiteit opgegeven in dit model.",
+   "columns": [
+    {
+     "code": "B_01.02.0010",
+     "label": "LEI van de financiële entiteit",
+     "soort": "Alfanumeriek",
+     "instruction": "Vermeld de financiële entiteit die in het informatieregister wordt opgegeven, aan de hand van de LEI, de alfanumerieke code met 20 tekens die is gebaseerd op de ISO 17442-norm.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "auto",
+     "askSupplier": false
+    },
+    {
+     "code": "B_01.02.0020",
+     "label": "Naam van de financiële entiteit",
+     "soort": "Alfanumeriek",
+     "instruction": "Juridische naam van de financiële entiteit die in het informatieregister wordt opgegeven.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_01.02.0030",
+     "label": "Land van de financiële entiteit",
+     "soort": "Land",
+     "instruction": "Geef de tweelettercode volgens ISO 3166-1 van het land waar de licentie of de registratie van de in het informatieregister opgegeven financiële entiteit is afgegeven.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_01.02.0040",
+     "label": "Soort financiële entiteit",
+     "soort": "Gesloten reeks keuzemogelijkheden",
+     "instruction": "Vermeld de soort financiële entiteit aan de hand van een van de keuzemogelijkheden in de volgende gesloten lijst: 1. kredietinstellingen 2. betalingsinstellingen, met inbegrip van bij Richtlijn (EU) 2015/2366 vrijgestelde betalingsinstellingen 3. aanbieders van rekeninginformatiediensten 4. instellingen voor elektronisch geld, met inbegrip van krachtens Richtlijn 2009/110/EG vrijgestelde instellingen voor elektronisch geld 5. beleggingsondernemingen 6. op grond van Verordening (EU) 2023/1114 vergunde aanbieders van cryptoactivadiensten 7. op grond van Verordening (EU) 2023/1114 vergunde uitgevers van activagerelateerde tokens 8. centrale effectenbewaarinstellingen 9. centrale tegenpartijen 10. handelsplatformen 11. transactieregisters 12. beheerders van alternatieve beleggingsinstellingen 13. beheermaatschappijen 14. aanbieders van datarapporteringsdiensten 15. verzekerings- en herverzekeringsondernemingen 16. verzekeringstussenpersonen, herverzekeringstussenpersonen en nevenverzekeringstussenpersonen 17. instellingen voor bedrijfspensioenvoorziening 18. ratingbureaus 19. beheerders van kritieke benchmarks 20. aanbieders van crowdfundingdiensten 21. securitisatieregisters 22. andere financiële entiteit 23. niet-financiële entiteit: aanbieder van ICT-diensten binnen een groep 24. niet-financiële entiteit: andere.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_01.02.0050",
+     "label": "Hiërarchie van de financiële entiteit binnen de groep (indien van toepassing)",
+     "soort": "Gesloten reeks keuzemogelijkheden",
+     "instruction": "Bepaal de hiërarchie van de financiële entiteit in de consolidatie aan de hand van een van de keuzemogelijkheden in de volgende gesloten lijst: 1. de financiële entiteit is de uiteindelijke moederonderneming in de consolidatie; 2. de financiële entiteit is de moederonderneming van een gesubconsolideerd deel in de consolidatie; 3. de financiële entiteit is een dochteronderneming in de consolidatie en is geen moederonderneming van een gesubconsolideerd deel; 4. de financiële entiteit is geen deel van een groep; 5. de financiële entiteit is een aanbieder van diensten aan wie de financiële entiteit (of de derde aanbieder van diensten die namens haar optreedt) alle operationele activiteiten uitbesteedt. Valt een entiteit onder meer dan één keuzemogelijkheid uit de bovenstaande gesloten lijst, dan wordt de keuzemogelijkheid met het hoogste hiërarchische niveau geselecteerd.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_01.02.0060",
+     "label": "LEI van de directe moederonderneming van de financiële entiteit",
+     "soort": "Alfanumeriek",
+     "instruction": "Vermeld de directe moederonderneming van de financiële entiteit die in het informatieregister wordt opgegeven, aan de hand van de LEI, de alfanumerieke code met 20 tekens die is gebaseerd op de ISO 17442-norm.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_01.02.0070",
+     "label": "Datum van de laatste bijwerking",
+     "soort": "Datum",
+     "instruction": "Vermeld de datum, volgens de ISO 8601-code (jjjj-mm-dd), van de laatste bijwerking of wijziging die in het informatieregister werd doorgevoerd voor de financiële entiteit.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_01.02.0080",
+     "label": "Datum van opname in het informatieregister",
+     "soort": "Datum",
+     "instruction": "Vermeld de datum van opname van de financiële entiteit in het informatieregister volgens de ISO 8601-code (jjjj-mm-dd).",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_01.02.0090",
+     "label": "Datum van schrapping uit het informatieregister",
+     "soort": "Datum",
+     "instruction": "Vermeld de datum van schrapping van de financiële entiteit uit het informatieregister volgens de ISO 8601-code (jjjj-mm-dd). Wanneer de financiële entiteit niet is geschrapt, wordt “9999-12-31” opgegeven.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_01.02.0100",
+     "label": "Valuta",
+     "soort": "Valuta",
+     "instruction": "Geef de ISO 4217-lettercode van de valuta die wordt gebruikt voor de opstelling van de financiële overzichten van de financiële entiteit. Alle bedragen luiden in de valuta die de financiële entiteit zelf gebruikt voor het opstellen van de financiële overzichten op entiteits-, gesubconsolideerd en geconsolideerd niveau, zoals van toepassing.",
+     "mandatoryRaw": "Alleen verplicht indien B_01.02.0110 is ingevuld",
+     "mandatory": false,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_01.02.0110",
+     "label": "Waarde van de totale activa van de financiële entiteit",
+     "soort": "Monetair",
+     "instruction": "Monetaire waarde van de totale activa van de financiële entiteit zoals opgegeven in haar jaarrekening van het jaar voorafgaand aan de datum van laatste bijwerking van het informatieregister. De monetaire waarde wordt in eenheden opgegeven. Raadpleeg bijlage IV voor het invullen van deze kolom.",
+     "mandatoryRaw": "Verplicht indien de entiteit een financiële entiteit is",
+     "mandatory": false,
+     "source": "manual",
+     "askSupplier": false
+    }
+   ]
+  },
+  {
+   "code": "B_01.03",
+   "name": "Lijst van bijkantoren",
+   "description": "In dit model worden de bijkantoren geïdentificeerd van de financiële entiteiten waarnaar in model B_01.02 wordt verwezen.",
+   "columns": [
+    {
+     "code": "B_01.03.0010",
+     "label": "Identificatiecode van het bijkantoor",
+     "soort": "Alfanumeriek",
+     "instruction": "Vermeld een bijkantoor van een financiële entiteit dat zich buiten het land van vestiging bevindt, aan de hand van een unieke code voor elk bijkantoor. Gebruik daarvoor een van de keuzemogelijkheden in de volgende gesloten lijst: a) LEI van het bijkantoor indien uniek voor dat bijkantoor en verschillend van B_01.03.0020; b) andere identificatiecode die de financiële entiteit gebruikt voor de identificatie van het bijkantoor (wanneer de LEI van het bijkantoor gelijk is aan die in model B_01.03.0020 of aan de LEI van een ander bijkantoor).",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_01.03.0020",
+     "label": "LEI van de hoofdzetel van de financiële entiteit waartoe het bijkantoor behoort",
+     "soort": "Alfanumeriek",
+     "instruction": "Zoals opgegeven in B_01.02.0010 Vermeld de hoofdzetel van de financiële entiteit waartoe het bijkantoor behoort, aan de hand van de LEI, de alfanumerieke code met 20 tekens die is gebaseerd op de ISO 17442-norm.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_01.03.0030",
+     "label": "Naam van het bijkantoor",
+     "soort": "Alfanumeriek",
+     "instruction": "Geef de naam van het bijkantoor.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_01.03.0040",
+     "label": "Land van het bijkantoor",
+     "soort": "Land",
+     "instruction": "Geef de tweelettercode volgens ISO 3166-1 van het land van vestiging van het bijkantoor.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    }
+   ]
+  },
+  {
+   "code": "B_02.01",
+   "name": "Contractuele overeenkomsten — algemene informatie",
+   "description": "In dit model zijn alle contractuele overeenkomsten met directe derde aanbieders van ICT-diensten opgenomen. Voor elke contractuele overeenkomst met een directe derde aanbieder van ICT-diensten kent de financiële entiteit die het informatieregister bijhoudt, een uniek “referentienummer van de contractuele overeenkomst” toe zodat de contractuele overeenkomst zelf ondubbelzinnig kan worden onderscheiden.",
+   "columns": [
+    {
+     "code": "B_02.01.0010",
+     "label": "Referentienummer van de contractuele overeenkomst",
+     "soort": "Alfanumeriek",
+     "instruction": "Vermeld de contractuele overeenkomst tussen de financiële entiteit of, in het geval van een groep, de dochteronderneming en de directe derde aanbieder van ICT-diensten. Het referentienummer van de contractuele overeenkomst is het interne referentienummer van de contractuele overeenkomst dat door de financiële entiteit is toegekend. Het referentienummer van de contractuele overeenkomst is uniek en in de tijd consistent op entiteits-, gesubconsolideerd en geconsolideerd niveau, zoals van toepassing. Het referentienummer van de contractuele overeenkomst wordt consistent toegepast in alle modellen van het informatieregister wanneer wordt verwezen naar dezelfde contractuele overeenkomst. Wanneer een entiteit namens een financiële entiteit optreedt voor alle activiteiten van de financiële entiteit, met inbegrip van de ICT-diensten (zie overweging 7), mag het bij het referentienummer van de contractuele overeenkomst gaan om de contractuele overeenkomst tussen de entiteit en haar directe derde aanbieder van ICT-diensten.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "assessment:s1.1",
+     "askSupplier": false
+    },
+    {
+     "code": "B_02.01.0020",
+     "label": "Soort contractuele overeenkomst",
+     "soort": "Gesloten reeks keuzemogelijkheden",
+     "instruction": "Vermeld de soort contractuele overeenkomst aan de hand van een van de keuzemogelijkheden in de volgende gesloten lijst: 1. op zichzelf staande overeenkomst; 2. overkoepelende contractuele overeenkomst/contractuele hoofdovereenkomst; 3. eropvolgende of bijbehorende overeenkomst.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "assessment:s1.4",
+     "askSupplier": false
+    },
+    {
+     "code": "B_02.01.0030",
+     "label": "Referentienummer van de overkoepelende contractuele overeenkomst",
+     "soort": "Alfanumeriek",
+     "instruction": "Niet van toepassing indien de contractuele overeenkomst de “overkoepelende contractuele overeenkomst” of een “op zichzelf staande overeenkomst” is. Geef in de overige gevallen het referentienummer van de contractuele overeenkomst op, dat gelijk moet zijn aan de waarde in kolom B_02.01.0010 bij het opgeven van de overkoepelende contractuele overeenkomst.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_02.01.0040",
+     "label": "Valuta van het in B_02.01.0050 opgegeven bedrag",
+     "soort": "Valuta",
+     "instruction": "Geef de ISO 4217-lettercode van de valuta van het bedrag in B_02.01.0050.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_02.01.0050",
+     "label": "Jaarlijkse uitgaven of geraamde kosten van de contractuele overeenkomst voor het afgelopen jaar",
+     "soort": "Monetair",
+     "instruction": "Jaarlijkse uitgaven of geraamde kosten (of overdrachten binnen de groep) van de contractuele overeenkomst van de ICT-diensten voor het afgelopen jaar. De monetaire waarde wordt in eenheden opgegeven. De jaarlijkse uitgaven of geraamde kosten luiden in de in B_01.02.0040 opgegeven valuta. In het geval van een overkoepelende overeenkomst met eropvolgende of bijbehorende overeenkomsten is de som van de jaarlijkse uitgaven of geraamde kosten die voor de eropvolgende of bijbehorende overeenkomsten worden opgegeven gelijk aan de totale uitgaven of geraamde kosten voor de gehele contractuele overeenkomst. Er is geen herhaling of verdubbeling van jaarlijkse uitgaven of geraamde kosten. De volgende gevallen moeten tot uiting komen: a) wanneer de jaarlijkse uitgaven of geraamde kosten niet zijn bepaald op het niveau van de overkoepelende overeenkomst (d.w.z. gelijk zijn aan 0), worden de jaarlijkse uitgaven of geraamde kosten vermeld op het niveau van elke eropvolgende of bijbehorende overeenkomst; b) wanneer de jaarlijkse uitgaven of geraamde kosten niet kunnen worden opgegeven voor elke eropvolgende of bijbehorende overeenkomst, worden de totale jaarlijkse uitgaven of geraamde kosten opgegeven op het niveau van de overkoepelende overeenkomst; c) wanneer er jaarlijkse uitgaven of geraamde kosten verbonden zijn aan elk niveau van de overeenkomst, d.w.z. de overkoepelende en de eropvolgende of bijbehorende overeenkomsten, en die informatie beschikbaar is, worden de jaarlijkse uitgaven of geraamde kosten opgegeven zonder verdubbeling op elk niveau van de contractuele overeenkomst.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    }
+   ]
+  },
+  {
+   "code": "B_02.02",
+   "name": "Contractuele overeenkomsten — specifieke informatie",
+   "description": "In dit model worden nadere gegevens verstrekt over elke contractuele overeenkomst die in model B_02.01 is opgenomen voor: a) de ICT-diensten die in het toepassingsgebied van de contractuele overeenkomst zijn opgenomen; b) de functies van de financiële entiteiten die door deze ICT-diensten worden ondersteund; c) andere belangrijke informatie over de verleende specifieke ICT-diensten (bv. opzegtermijn, wet die de overeenkomst regelt enz.).",
+   "columns": [
+    {
+     "code": "B_02.02.0010",
+     "label": "Referentienummer van de contractuele overeenkomst",
+     "soort": "Alfanumeriek",
+     "instruction": "Zoals opgegeven in B_02.01.0010",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "auto",
+     "askSupplier": false
+    },
+    {
+     "code": "B_02.02.0020",
+     "label": "LEI van de financiële entiteit die gebruikmaakt van de ICT-dienst(en)",
+     "soort": "Alfanumeriek",
+     "instruction": "Zoals opgegeven in B_04.01.0020 Vermeld de financiële entiteit die van de ICT-dienst(en) gebruikmaakt, aan de hand van de LEI, de alfanumerieke code met 20 tekens die is gebaseerd op de ISO 17442-norm.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "auto",
+     "askSupplier": false
+    },
+    {
+     "code": "B_02.02.0030",
+     "label": "Identificatiecode van de derde aanbieder van ICT-diensten",
+     "soort": "Alfanumeriek",
+     "instruction": "Zoals opgegeven in B_05.01.0010 Code voor de identificatie van de derde aanbieder van ICT-diensten, zoals opgegeven in B_05.01.0010 voor die aanbieder.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_02.02.0040",
+     "label": "Soort code voor de identificatie van de derde aanbieder van ICT-diensten",
+     "soort": "Patroon",
+     "instruction": "Zoals opgegeven in B_05.01.0020 Soort code voor de identificatie van de derde aanbieder van ICT-diensten in B_02.02.0030 zoals opgegeven in 05.01.0020 voor die aanbieder.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_02.02.0050",
+     "label": "Functie-identificatiecode",
+     "soort": "Patroon",
+     "instruction": "Zoals omschreven door de financiële entiteit in B_06.01.0010",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_02.02.0060",
+     "label": "Soort ICT-diensten",
+     "soort": "Gesloten reeks keuzemogelijkheden",
+     "instruction": "Een van de soorten ICT-diensten die zijn opgenomen in bijlage III",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "assessment:s1.5",
+     "askSupplier": false
+    },
+    {
+     "code": "B_02.02.0070",
+     "label": "Begindatum van de contractuele overeenkomst",
+     "soort": "Datum",
+     "instruction": "Geef de datum van inwerkingtreding van de contractuele overeenkomst zoals vermeld in de contractuele overeenkomst, volgens de ISO 8601-code (jjjj-mm-dd).",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_02.02.0080",
+     "label": "Einddatum van de contractuele overeenkomst",
+     "soort": "Datum",
+     "instruction": "Geef de einddatum zoals vermeld in de contractuele overeenkomst, volgens de ISO 8601-code (jjjj-mm-dd). Wanneer de contractuele overeenkomst van onbepaalde duur is, wordt “9999-12-31” ingevuld. Wanneer de contractuele overeenkomst werd stopgezet op een andere datum dan de einddatum, wordt de datum van stopzetting ingevuld. Wanneer de contractuele overeenkomst voorziet in een verlenging, wordt de datum van de contractverlenging ingevuld, zoals vermeld in de contractuele overeenkomst.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_02.02.0090",
+     "label": "Reden van de stopzetting of beëindiging van de contractuele overeenkomst",
+     "soort": "Gesloten reeks keuzemogelijkheden",
+     "instruction": "Wanneer de contractuele overeenkomst werd stopgezet of beëindigd, geef dan de reden van de stopzetting of beëindiging van de contractuele overeenkomst aan de hand van een van de keuzemogelijkheden uit de volgende gesloten lijst: 1. stopzetting niet om dwingende redenen: de contractuele overeenkomst is afgelopen/beëindigd en werd niet verlengd door een van de partijen; 2. stopzetting om dwingende redenen: de contractuele overeenkomst werd stopgezet omdat de derde aanbieder van ICT-diensten een inbreuk heeft gepleegd op de toepasselijke wet- of regelgeving of contractuele bepalingen; 3. stopzetting om dwingende redenen: de contractuele overeenkomst werd stopgezet omdat belemmeringen van de zijde van de derde aanbieder van ICT-diensten werden geconstateerd die de ondersteunde functie kunnen wijzigen; 4. stopzetting om dwingende redenen: de contractuele overeenkomst werd stopgezet vanwege tekortkomingen van de derde aanbieder van ICT-diensten met betrekking tot het beheer en de beveiliging van gevoelige gegevens of informatie vanuit een van de tegenpartijen; 5. stopzetting op verzoek van een bevoegde autoriteit: de contractuele overeenkomst werd stopgezet op verzoek van een bevoegde autoriteit; 6. overige: de contractuele overeenkomst werd door een van de partijen stopgezet om een andere reden dan de in de punten 1 tot 5 genoemde redenen.",
+     "mandatoryRaw": "Verplicht indien de contractuele overeenkomst is stopgezet",
+     "mandatory": false,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_02.02.0100",
+     "label": "Opzegtermijn voor de financiële entiteit die van de ICT-dienst(en) gebruikmaakt",
+     "soort": "Natuurlijk getal",
+     "instruction": "Geef de opzegtermijn bij stopzetting van de contractuele overeenkomst door de financiële entiteit in een situatie met ongewijzigd beleid. De opzegtermijn is het aantal kalenderdagen vanaf de dag waarop de tegenpartij het verzoek om stopzetting van de ICT-dienst heeft ontvangen.",
+     "mandatoryRaw": "Verplicht indien de ICT-dienst een kritieke of belangrijke functie ondersteunt",
+     "mandatory": false,
+     "source": "assessment:s7.8",
+     "askSupplier": false
+    },
+    {
+     "code": "B_02.02.0110",
+     "label": "Opzegtermijn voor de derde aanbieder van ICT-diensten",
+     "soort": "Natuurlijk getal",
+     "instruction": "Geef de opzegtermijn bij stopzetting van de contractuele overeenkomst door de derde aanbieder van ICT-diensten in een situatie met ongewijzigd beleid. De opzegtermijn is het aantal kalenderdagen vanaf de dag waarop de tegenpartij het verzoek om stopzetting van de ICT-dienst heeft ontvangen.",
+     "mandatoryRaw": "Verplicht indien de ICT-dienst een kritieke of belangrijke functie ondersteunt",
+     "mandatory": false,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_02.02.0120",
+     "label": "Land van het toepasselijke recht voor de contractuele overeenkomst",
+     "soort": "Land",
+     "instruction": "Vermeld het land van het toepasselijke recht voor de contractuele overeenkomst aan de hand van de tweelettercode volgens ISO 3166-1.",
+     "mandatoryRaw": "Verplicht indien de ICT-dienst een kritieke of belangrijke functie ondersteunt",
+     "mandatory": false,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_02.02.0130",
+     "label": "Land van verlening van de ICT-diensten",
+     "soort": "Land",
+     "instruction": "Vermeld het land vanwaaruit de ICT-diensten worden verleend, aan de hand van de tweelettercode volgens ISO 3166-1.",
+     "mandatoryRaw": "Verplicht indien de ICT-dienst een kritieke of belangrijke functie ondersteunt",
+     "mandatory": false,
+     "source": "assessment:s1.6",
+     "askSupplier": true
+    },
+    {
+     "code": "B_02.02.0140",
+     "label": "Opslag van gegevens",
+     "soort": "[Ja/Nee]",
+     "instruction": "Houdt de ICT-dienst verband met (of voorziet deze in) de opslag van gegevens (ook tijdelijk)? Gebruik een van de keuzemogelijkheden in de volgende gesloten lijst: 1. ja 2. nee",
+     "mandatoryRaw": "Verplicht indien de ICT-dienst een kritieke of belangrijke functie ondersteunt",
+     "mandatory": false,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_02.02.0150",
+     "label": "Locatie van de gegevens in rust (opslag)",
+     "soort": "Land",
+     "instruction": "Vermeld het land van de locatie waar zich de gegevens in rust bevinden (opslag), aan de hand van de tweelettercode volgens ISO 3166-1. Als er meerdere landen zijn, wordt voor elk ander land een extra rij gebruikt.",
+     "mandatoryRaw": "Verplicht indien “ja” is opgegeven in B_02.02.0140",
+     "mandatory": false,
+     "source": "assessment:s1.7",
+     "askSupplier": true
+    },
+    {
+     "code": "B_02.02.0160",
+     "label": "Locatie van het gegevensbeheer (verwerking)",
+     "soort": "Land",
+     "instruction": "Vermeld het land van de locatie waar de gegevens worden beheerd (verwerking), aan de hand van de tweelettercode volgens ISO 3166-1. Als er meerdere landen zijn, wordt voor elk ander land een extra rij gebruikt.",
+     "mandatoryRaw": "Verplicht indien de ICT-dienst is gebaseerd op of voorziet in gegevensverwerking",
+     "mandatory": false,
+     "source": "assessment:s1.8",
+     "askSupplier": true
+    },
+    {
+     "code": "B_02.02.0170",
+     "label": "Gevoeligheid van de gegevens die door de derde aanbieder van ICT-diensten worden opgeslagen",
+     "soort": "Gesloten reeks keuzemogelijkheden",
+     "instruction": "Vermeld het niveau van gevoeligheid van de gegevens die door de derde aanbieder van ICT-diensten worden opgeslagen of verwerkt, aan de hand van een van de keuzemogelijkheden uit de volgende gesloten lijst: 1. gering 2. gemiddeld 3. hoog De meest gevoelige gegevens krijgen voorrang: bv. als zowel “gemiddeld” als “hoog” van toepassing zijn, wordt “hoog” geselecteerd.",
+     "mandatoryRaw": "Verplicht indien de derde aanbieder van ICT-diensten gegevens opslaat en indien de ICT-dienst een kritieke of belangrijke functie of een wezenlijk onderdeel daarvan ondersteunt",
+     "mandatory": false,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_02.02.0180",
+     "label": "Mate van afhankelijkheid van de ICT-dienst die de kritieke of belangrijke functie ondersteunt",
+     "soort": "Gesloten reeks keuzemogelijkheden",
+     "instruction": "Gebruik daarvoor een van de keuzemogelijkheden in de volgende gesloten lijst: 1. niet significant; 2. geringe afhankelijkheid: bij onderbreking van de diensten, zouden de ondersteunde functies geen grote gevolgen ervan ondervinden (geen onderbreking, geen aanzienlijke schade) of de onderbreking kan snel en met minimale gevolgen voor de ondersteunde functies worden opgelost; 3. wezenlijke afhankelijkheid: bij onderbreking van de diensten, zouden de ondersteunde functies aanzienlijke gevolgen ervan ondervinden indien de onderbreking meer dan enkele minuten/uren zou duren, en de onderbreking kan schade veroorzaken, maar is beheersbaar; 4. volledige afhankelijkheid: bij onderbreking van de diensten, zouden de ondersteunde functies onmiddellijk en ernstig worden onderbroken/schade oplopen, voor een lange periode.",
+     "mandatoryRaw": "Verplicht indien de ICT-dienst een kritieke of belangrijke functie of een wezenlijk onderdeel daarvan ondersteunt",
+     "mandatory": false,
+     "source": "assessment:s5.1",
+     "askSupplier": false
+    }
+   ]
+  },
+  {
+   "code": "B_02.03",
+   "name": "Lijst van contractuele overeenkomsten binnen de groep",
+   "description": "In dit model worden de verbanden geïdentificeerd tussen de contractuele overeenkomsten binnen de groep en contractuele overeenkomsten met derde aanbieders van ICT-diensten die niet tot de groep behoren, aan de hand van contractuele referentienummers wanneer een deel van de toeleveringsketen van ICT-diensten binnen de groep ligt.",
+   "columns": [
+    {
+     "code": "B_02.03.0010",
+     "label": "Referentienummer van de contractuele overeenkomst",
+     "soort": "Alfanumeriek",
+     "instruction": "Referentienummer van de contractuele overeenkomst tussen de entiteit die van de verleende ICT-dienst(en) gebruikmaakt, en de aanbieder van ICT-diensten binnen de groep. Het referentienummer van de contractuele overeenkomst is uniek en consistent in de tijd en in de gehele groep.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_02.03.0020",
+     "label": "Contractuele overeenkomst die verband houdt met de in B_02.03.0010 genoemde contractuele overeenkomst",
+     "soort": "Alfanumeriek",
+     "instruction": "Referentienummer van de contractuele overeenkomst tussen de aanbieder van ICT-diensten binnen de groep van de contractuele overeenkomst in B_02.03.0010 en de directe derde aanbieder van ICT-diensten.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    }
+   ]
+  },
+  {
+   "code": "B_03.01",
+   "name": "Entiteiten die de contractuele overeenkomsten voor het ontvangen van ICT-diensten ondertekenen namens de entiteiten die van de ICT-dienst(en) gebruikmaken",
+   "description": "In dit model wordt informatie verstrekt over de entiteit die de contractuele overeenkomsten met de directe derde aanbieder van ICT-diensten ondertekent namens de entiteit die van de ICT-diensten gebruikmaakt. Wanneer het informatieregister wordt bijgehouden op entiteitsniveau, is de entiteit die de contractuele overeenkomst ondertekent, en de entiteit die van de ICT-diensten gebruikmaakt, de financiële entiteit die het informatieregister bijhoudt. In het kader van subconsolidatie of consolidatie is de financiële entiteit die van de ICT-diensten gebruikmaakt, niet noodzakelijk de entiteit die de contractuele overeenkomst met de derde aanbieders van ICT-diensten ondertekent.",
+   "columns": [
+    {
+     "code": "B_03.01.0010",
+     "label": "Referentienummer van de contractuele overeenkomst",
+     "soort": "Alfanumeriek",
+     "instruction": "Zoals opgegeven in B_02.02.0010 Geef het referentienummer van de contractuele overeenkomst die door de onderneming is ondertekend.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "auto",
+     "askSupplier": false
+    },
+    {
+     "code": "B_03.01.0020",
+     "label": "LEI van de entiteit die de contractuele overeenkomst ondertekent",
+     "soort": "Alfanumeriek",
+     "instruction": "Vermeld de onderneming die de contractuele overeenkomst ondertekent, aan de hand van de LEI, de alfanumerieke code met 20 tekens die is gebaseerd op de ISO 17442-norm of de EUID.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "auto",
+     "askSupplier": false
+    }
+   ]
+  },
+  {
+   "code": "B_03.02",
+   "name": "Derde aanbieders van ICT-diensten die de contractuele overeenkomsten voor het verlenen van ICT-diensten ondertekenen",
+   "description": "In dit model worden alle in model B_05.01 genoemde derde aanbieders van ICT-diensten geïdentificeerd die de in model B_02.01 genoemde contractuele overeenkomsten voor het verlenen van de ICT-diensten ondertekenen.",
+   "columns": [
+    {
+     "code": "B_03.02.0010",
+     "label": "Referentienummer van de contractuele overeenkomst",
+     "soort": "Alfanumeriek",
+     "instruction": "Zoals opgegeven in B_02.02.0010 Geef het referentienummer van de contractuele overeenkomst die door de derde aanbieder van ICT-diensten werd ondertekend.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "auto",
+     "askSupplier": false
+    },
+    {
+     "code": "B_03.02.0020",
+     "label": "Identificatiecode van de derde aanbieder van ICT-diensten",
+     "soort": "Alfanumeriek",
+     "instruction": "Zoals opgegeven in B_05.01.0010 Code voor de identificatie van de derde aanbieder van ICT-diensten, zoals opgegeven in B_05.01.0020 voor die aanbieder.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "auto",
+     "askSupplier": false
+    },
+    {
+     "code": "B_03.02.0030",
+     "label": "Soort code voor de identificatie van de derde aanbieder van ICT-diensten",
+     "soort": "Patroon",
+     "instruction": "Zoals opgegeven in B_05.01.0020 Soort code voor de identificatie van de derde aanbieder van ICT-diensten in B_03.02.0020 zoals opgegeven in 05.01.0020 voor die aanbieder.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "auto",
+     "askSupplier": false
+    }
+   ]
+  },
+  {
+   "code": "B_03.03",
+   "name": "Entiteiten die de contractuele overeenkomsten voor het verlenen van (een) ICT-dienst(en) aan andere entiteiten binnen de consolidatiekring ondertekenen",
+   "description": "In dit model worden alle in model B_01.02 genoemde entiteiten geïdentificeerd die de in model B_02.01 genoemde contractuele overeenkomsten voor het aanbieden van de ICT-diensten aan de andere entiteiten in de consolidatie ondertekenen.",
+   "columns": [
+    {
+     "code": "B_03.03.0010",
+     "label": "Referentienummer van de contractuele overeenkomst",
+     "soort": "Alfanumeriek",
+     "instruction": "Zoals opgegeven in B_02.02.0010 Geef het referentienummer van de contractuele overeenkomst die door de entiteit werd ondertekend voor het verlenen van (de) ICT-dienst(en).",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_03.03.0020",
+     "label": "LEI van de financiële entiteit die ICT-diensten verleent",
+     "soort": "Alfanumeriek",
+     "instruction": "Zoals opgegeven in B_01.02.0010 Vermeld de entiteit die ICT-diensten verleent, aan de hand van de LEI, de alfanumerieke code met 20 tekens die is gebaseerd op de ISO 17442-norm.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    }
+   ]
+  },
+  {
+   "code": "B_04.01",
+   "name": "Entiteiten die van de ICT-diensten gebruikmaken",
+   "description": "In dit model worden alle entiteiten geïdentificeerd die van de ICT-diensten van de derde aanbieders van ICT-diensten gebruikmaken en in het informatieregister zijn geregistreerd. De entiteiten die van de ICT-diensten gebruikmaken, zijn de financiële entiteiten van het toepassingsgebied van de verordening of de aanbieders van ICT-diensten binnen de groep. Wanneer het informatieregister wordt bijgehouden op entiteitsniveau, zijn de entiteit die de contractuele overeenkomst ondertekent, en de entiteit die van de ICT-diensten gebruikmaakt, de financiële entiteit die het register bijhoudt.",
+   "columns": [
+    {
+     "code": "B_04.01.0010",
+     "label": "Referentienummer van de contractuele overeenkomst",
+     "soort": "Alfanumeriek",
+     "instruction": "Zoals opgegeven in B_02.01.0010 Geef het referentienummer van de contractuele overeenkomst met de financiële entiteit die van de ICT-diensten gebruikmaakt.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "auto",
+     "askSupplier": false
+    },
+    {
+     "code": "B_04.01.0020",
+     "label": "LEI van de financiële entiteit die gebruikmaakt van de ICT-dienst(en)",
+     "soort": "Alfanumeriek",
+     "instruction": "Vermeld de financiële entiteit die van de ICT-dienst(en) gebruikmaakt, aan de hand van de LEI, de alfanumerieke code met 20 tekens die is gebaseerd op de ISO 17442-norm.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "auto",
+     "askSupplier": false
+    },
+    {
+     "code": "B_04.01.0030",
+     "label": "Aard van de financiële entiteit die van de ICT-dienst(en) gebruikmaakt",
+     "soort": "Gesloten reeks keuzemogelijkheden",
+     "instruction": "Gebruik daarvoor een van de keuzemogelijkheden in de volgende gesloten lijst: 1. de financiële entiteit die van de ICT-dienst(en) gebruikmaakt, is een bijkantoor van een financiële entiteit; 2. de financiële entiteit die van de ICT-dienst(en) gebruikmaakt, is geen bijkantoor.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "auto",
+     "askSupplier": false
+    },
+    {
+     "code": "B_04.01.0040",
+     "label": "Identificatiecode van het bijkantoor",
+     "soort": "Alfanumeriek",
+     "instruction": "Identificatiecode van het bijkantoor zoals opgegeven in B_01.03.0010.",
+     "mandatoryRaw": "Verplicht indien de financiële entiteit die gebruikmaakt van de ICT-dienst(en), een bijkantoor is van een financiële entiteit (B_04.01.0030)",
+     "mandatory": false,
+     "source": "manual",
+     "askSupplier": false
+    }
+   ]
+  },
+  {
+   "code": "B_05.01",
+   "name": "Derde aanbieders van ICT-diensten",
+   "description": "In dit model wordt algemene informatie verstrekt ter identificatie van: a) de directe derde aanbieders van ICT-diensten; b) de aanbieders van ICT-diensten binnen de groep; c) alle onderaannemers die zijn opgenomen in model B_05.02 over de toeleveringsketen van ICT-diensten; d) de uiteindelijke moederonderneming van de derde aanbieders van ICT-diensten die in de punten a), b) en c) zijn opgenomen.",
+   "columns": [
+    {
+     "code": "B_05.01.0010",
+     "label": "Identificatiecode van de derde aanbieder van ICT-diensten",
+     "soort": "Alfanumeriek",
+     "instruction": "Code voor de identificatie van de derde aanbieder van ICT-diensten. Wordt de LEI gebruikt, dan wordt een alfanumerieke code met 20 tekens gegeven die is gebaseerd op de ISO 17442-norm. Wordt de EUID gebruikt, dan wordt deze gegeven overeenkomstig artikel 9 van Uitvoeringsverordening (EU) 2021/1042 van de Commissie.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "assessment:s1.3",
+     "askSupplier": true
+    },
+    {
+     "code": "B_05.01.0020",
+     "label": "Soort code voor de identificatie van de derde aanbieder van ICT-diensten",
+     "soort": "Patroon",
+     "instruction": "Soort code voor de identificatie van de derde aanbieder van ICT-diensten zoals opgegeven in B_05.01.0010. 1. “LEI” voor LEI; 2. “EUID” voor EUID; 3. CRN voor ondernemingsnummer; 4. VAT voor btw-nummer; 5. PNR voor paspoortnummer; 6. NIN voor nationaal identiteitskaartnummer. Bij rechtspersonen mag alleen de in B_05.01.0070 opgegeven LEI of EUID worden gebruikt, terwijl bij een individu die handelt in een zakelijke hoedanigheid, een andere code mag worden gebruikt. Bij rechtspersonen die niet in de Unie zijn gevestigd, mag alleen de LEI worden gebruikt.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "supplier",
+     "askSupplier": true
+    },
+    {
+     "code": "B_05.01.0030",
+     "label": "Aanvullende identificatiecode van de derde aanbieder van ICT-diensten",
+     "soort": "Alfanumeriek",
+     "instruction": "Aanvullende code voor de identificatie van de derde aanbieder van ICT-diensten, indien beschikbaar.",
+     "mandatoryRaw": "Facultatief",
+     "mandatory": false,
+     "source": "supplier",
+     "askSupplier": true
+    },
+    {
+     "code": "B_05.01.0040",
+     "label": "Soort aanvullende code voor de identificatie van de derde aanbieder van ICT-diensten",
+     "soort": "Patroon",
+     "instruction": "Soort aanvullende code voor de identificatie van de derde aanbieder van ICT-diensten zoals opgegeven in B_05.01.0030: 1. “LEI” voor LEI; 2. “EUID” voor EUID; 3. CRN voor ondernemingsnummer; 4. VAT voor btw-nummer; 5. PNR voor paspoortnummer; 6. NIN voor nationaal identiteitskaartnummer. Bij rechtspersonen wordt de in B_05.01.0070 opgegeven LEI of EUID gebruikt, terwijl bij een individu die handelt in een zakelijke hoedanigheid, een andere code mag worden gebruikt. Bij rechtspersonen die niet in de Unie zijn gevestigd, mag alleen de LEI worden gebruikt.",
+     "mandatoryRaw": "Verplicht indien B_05.01.0030 is ingevuld",
+     "mandatory": false,
+     "source": "supplier",
+     "askSupplier": true
+    },
+    {
+     "code": "B_05.01.0050",
+     "label": "Juridische naam van de derde aanbieder van ICT-diensten",
+     "soort": "Alfanumeriek",
+     "instruction": "Juridische naam van de derde aanbieder van ICT-diensten zoals in het handelsregister geregistreerd in het Latijnse, het cyrillische of het Griekse schrift.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "assessment:s1.2",
+     "askSupplier": true
+    },
+    {
+     "code": "B_05.01.0060",
+     "label": "Naam van de derde aanbieder van ICT-diensten in Latijns schrift",
+     "soort": "Alfanumeriek",
+     "instruction": "Naam van de derde aanbieder van ICT-diensten in Latijns schrift. Zelfde naam van de derde aanbieder van ICT-diensten in Latijns schrift als in B_05.01.0050.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "supplier",
+     "askSupplier": true
+    },
+    {
+     "code": "B_05.01.0070",
+     "label": "Soort persoon van de derde aanbieder van ICT-diensten",
+     "soort": "Gesloten reeks keuzemogelijkheden",
+     "instruction": "Gebruik daarvoor een van de keuzemogelijkheden in de volgende gesloten lijst: 1. rechtspersoon, behalve individuen handelend in een zakelijke hoedanigheid; 2. individu handelend in een zakelijke hoedanigheid.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "supplier",
+     "askSupplier": true
+    },
+    {
+     "code": "B_05.01.0080",
+     "label": "Land van de hoofdzetel van de derde aanbieder van ICT-diensten",
+     "soort": "Land",
+     "instruction": "Geef de tweelettercode volgens ISO 3166-1 van het land waar de wereldwijd opererende hoofdzetel van de derde aanbieder van ICT-diensten gevestigd is (gewoonlijk is dit het land waar deze fiscaal is gevestigd).",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "supplier",
+     "askSupplier": true
+    },
+    {
+     "code": "B_05.01.0090",
+     "label": "Valuta van het in B_05.01.0100 opgegeven bedrag",
+     "soort": "Valuta",
+     "instruction": "Geef de ISO 4217-lettercode van de valuta van het bedrag in B_05.01.0100. Alle bedragen luiden in de valuta die de financiële entiteit zelf gebruikt voor het opstellen van de financiële overzichten op entiteits-, gesubconsolideerd en geconsolideerd niveau, zoals van toepassing.",
+     "mandatoryRaw": "Verplicht indien B_05.01.0100 is ingevuld",
+     "mandatory": false,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_05.01.0100",
+     "label": "Totale jaarlijkse uitgaven of geraamde kosten van de derde aanbieder van ICT-diensten",
+     "soort": "Monetair",
+     "instruction": "Jaarlijkse uitgaven of geraamde kosten voor het gebruik van de ICT-diensten van de derde aanbieder van ICT-diensten aan de entiteiten die van de ICT-diensten gebruikmaken. De monetaire waarde wordt in eenheden opgegeven.",
+     "mandatoryRaw": "Verplicht indien de derde aanbieder van ICT-diensten een directe derde aanbieder van ICT-diensten is",
+     "mandatory": false,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_05.01.0110",
+     "label": "Identificatiecode van de uiteindelijke moederonderneming van de derde aanbieder van ICT-diensten",
+     "soort": "Alfanumeriek",
+     "instruction": "Code voor de identificatie van de uiteindelijke moederonderneming van de derde aanbieder van ICT-diensten. De code voor de identificatie van de uiteindelijke moederonderneming in dit veld komt overeen met die welke in B_05.01.0010 is gegeven voor die uiteindelijke moederonderneming. Wanneer de derde aanbieder van ICT-diensten geen deel uitmaakt van een groep, wordt dezelfde identificatiecode voor de identificatie van die derde aanbieder gegeven als in B_05.01.0010.",
+     "mandatoryRaw": "Verplicht indien de derde aanbieder van ICT-diensten niet de uiteindelijke moederonderneming is",
+     "mandatory": false,
+     "source": "supplier",
+     "askSupplier": true
+    },
+    {
+     "code": "B_05.01.0120",
+     "label": "Soort code voor de identificatie van de uiteindelijke moederonderneming van de derde aanbieder van ICT-diensten",
+     "soort": "Patroon",
+     "instruction": "Soort code voor de identificatie van de uiteindelijke moederonderneming van de derde aanbieder van ICT-diensten in B_05.01.0110. De soort code voor de identificatie van de uiteindelijke moederonderneming in dit veld komt overeen met die welke in B_05.01.0020 is gegeven voor die uiteindelijke moederonderneming. Wanneer de derde aanbieder van ICT-diensten geen deel uitmaakt van een groep, wordt dezelfde soort identificatiecode voor de identificatie van die derde aanbieder gegeven als in B_05.01.0020.",
+     "mandatoryRaw": "Verplicht indien de derde aanbieder van ICT-diensten niet de uiteindelijke moederonderneming is",
+     "mandatory": false,
+     "source": "supplier",
+     "askSupplier": true
+    }
+   ]
+  },
+  {
+   "code": "B_05.02",
+   "name": "Toeleveringsketen van ICT-diensten",
+   "description": "In dit model worden de derde aanbieders van ICT-diensten die deel uitmaken van dezelfde toeleveringsketen van ICT-diensten, geïdentificeerd en met elkaar verbonden. Financiële entiteiten onderscheiden en rangschikken de derde aanbieders van ICT-diensten voor elke ICT-dienst die in elke contractuele overeenkomst is opgenomen. Voorbeeld: een financiële entiteit heeft een contractuele overeenkomst met een derde aanbieder van ICT-diensten (“derde aanbieder van ICT-diensten X”) om twee specifieke ICT-diensten te ontvangen (“ICT-dienst A” en “ICT-dienst B”) en de aanbieder van de dienst doet een beroep op een onderaannemer (“derde aanbieder van ICT-diensten Y”) om een van deze diensten te verlenen (“ICT-dienst B”). — Met betrekking tot ICT-dienst A bestaat de toeleveringsketen van ICT-diensten uit een derde aanbieder van ICT-diensten, derde aanbieder van ICT-diensten X, die als nummer “1” wordt gerangschikt in het model. Derde aanbieder van ICT-diensten X is de directe derde aanbieder van ICT-diensten. — Met betrekking tot ICT-dienst B bestaat de toeleveringsketen van ICT-diensten uit twee derde aanbieders van ICT-diensten:— a) derde aanbieder van ICT-diensten X, die als nummer “1” wordt gerangschikt in het model; derde aanbieder van ICT-diensten X is de directe derde aanbieder van ICT-diensten; b) derde aanbieder van ICT-diensten Y die als nummer “2” wordt gerangschikt in het model; derde aanbieder van ICT-diensten Y is een onderaannemer. — Alle derde aanbieders van ICT-diensten die tot dezelfde toeleveringsketen van ICT-diensten behoren, delen hetzelfde “referentienummer van de contractuele overeenkomst” als vermeld in model B_02.01, en dezelfde soort ICT-diensten.",
+   "columns": [
+    {
+     "code": "B_05.02.0010",
+     "label": "Referentienummer van de contractuele overeenkomst",
+     "soort": "Alfanumeriek",
+     "instruction": "Zoals opgegeven in B_02.01.0010",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "auto",
+     "askSupplier": false
+    },
+    {
+     "code": "B_05.02.0020",
+     "label": "Soort ICT-diensten",
+     "soort": "Gesloten reeks keuzemogelijkheden",
+     "instruction": "Een van de soorten ICT-diensten die zijn opgenomen in bijlage III",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "supplier",
+     "askSupplier": true
+    },
+    {
+     "code": "B_05.02.0030",
+     "label": "Identificatiecode van de derde aanbieder van ICT-diensten",
+     "soort": "Alfanumeriek",
+     "instruction": "Zoals opgegeven in B_05.01.0010 voor die derde aanbieder van ICT-diensten. Voorbeelden: — de identificatiecode van de directe derde aanbieder van ICT-diensten die ICT-diensten verleent aan de financiële entiteit die er gebruik van maakt; — de identificatiecode van de onderaannemer met rang 2 die diensten verleent aan de directe derde aanbieder van ICT-diensten.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "supplier",
+     "askSupplier": true
+    },
+    {
+     "code": "B_05.02.0040",
+     "label": "Soort code voor de identificatie van de derde aanbieder van ICT-diensten",
+     "soort": "Patroon",
+     "instruction": "Zoals opgegeven in B_05.01.0020 voor die derde aanbieder van ICT-diensten.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "supplier",
+     "askSupplier": true
+    },
+    {
+     "code": "B_05.02.0050",
+     "label": "Rang",
+     "soort": "Natuurlijk getal",
+     "instruction": "Wanneer de derde aanbieder van ICT-diensten de contractuele overeenkomst met de financiële entiteit ondertekent, wordt deze beschouwd als een directe derde aanbieder van ICT-diensten en wordt rang “1” opgegeven. Wanneer de derde aanbieder van ICT-diensten de contractuele overeenkomst met de directe derde aanbieder van ICT-diensten ondertekent, wordt deze beschouwd als een onderaannemer en wordt rang “2” opgegeven. Dezelfde lijn wordt gevolgd voor alle volgende onderaannemers door de rang te verhogen. Wanneer meerdere derde aanbieders van ICT-diensten dezelfde rang hebben in de toeleveringsketen van ICT-diensten, geven de financiële entiteiten dezelfde rang op voor al die derde aanbieders van ICT-diensten.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "supplier",
+     "askSupplier": true
+    },
+    {
+     "code": "B_05.02.0060",
+     "label": "Identificatiecode van de ontvanger van ICT-diensten van een onderaannemer",
+     "soort": "Alfanumeriek",
+     "instruction": "Leeg laten indien de derde aanbieder van ICT-diensten (model B_05.02.0030) een directe derde aanbieder van ICT-diensten is, d.w.z. rang r = 1 heeft (model B_05.02.0050). Wanneer de derde aanbieder van ICT-diensten rang r = n heeft, waarbij n>1, geef dan de “identificatiecode van de ontvanger van de dienst van een onderaannemer” met rang r = n – 1, die de ICT-dienst (ook indien gedeeltelijk) in onderaanneming gaf aan de derde aanbieder van ICT-diensten met rang r = n. Voorbeelden: — de identificatiecode van de directe derde aanbieder van ICT-diensten die de dienst ontvangt van de onderaannemer met rang 2; — de identificatiecode van de onderaannemer met rang 2 die de dienst ontvangt van de onderaannemer met rang 3. De code voor de identificatie van de ontvanger van ICT-diensten van een onderaannemer komt overeen met die welke in B_05.01.0010 is gegeven voor die aanbieder.",
+     "mandatoryRaw": "Verplicht, niet van toepassing voor rang 1",
+     "mandatory": false,
+     "source": "supplier",
+     "askSupplier": true
+    },
+    {
+     "code": "B_05.02.0070",
+     "label": "Soort code voor de identificatie van de ontvanger van ICT-diensten van een onderaannemer",
+     "soort": "Patroon",
+     "instruction": "Leeg laten wanneer de derde aanbieder van ICT-diensten (model B_05.02.0030) rang “1” heeft (model B_05.02.0050). Wanneer de derde aanbieder van ICT-diensten rang r = n heeft waarbij n>1, geef dan de “Soort code voor de identificatie van de ontvanger van ICT-diensten van een onderaannemer” met rang r = n – 1 die de ICT-dienst (ook indien gedeeltelijk) in onderaanneming gaf aan de derde aanbieder van ICT-diensten met rang r = n. 1. “LEI” voor LEI; 2. “EUID” voor EUID; 3. CRN voor ondernemingsnummer; 4. VAT voor btw-nummer; 5. PNR voor paspoortnummer; 6. NIN voor nationaal identiteitskaartnummer. De soort code voor de identificatie van de ontvanger van ICT-diensten van een onderaannemer komt overeen met die welke in B_05.01.0020 is gegeven voor die aanbieder.",
+     "mandatoryRaw": "Verplicht, niet van toepassing voor rang 1",
+     "mandatory": false,
+     "source": "supplier",
+     "askSupplier": true
+    }
+   ]
+  },
+  {
+   "code": "B_06.01",
+   "name": "Functie-identificatie",
+   "description": "Dit model is bedoeld voor het onderscheiden van en verstrekken van informatie over de functies van de financiële entiteit die gebruikmaakt van de ICT-diensten. In de informatie die in dit model moet worden verstrekt, nemen financiële entiteiten een unieke identificator op (de “functie-identificatiecode”) voor elke combinatie van LEI, vergunde activiteit en functie van een financiële entiteit. Voorbeeld: een financiële entiteit (LEI: 21USLEIC20231109J3Z8) die actief is in het kader van twee vergunde activiteiten (“activiteit A” en “activiteit B”) krijgt twee unieke “functie-identificatiecodes” voor dezelfde functie X (bv. verkoop) uitgevoerd voor respectievelijk activiteit A en activiteit B. De functie-identificatiecode is: F1 voor de combinatie van “21USLEIC20231109J3Z8”“Activiteit A” en “Functie X”; F2 voor de combinatie van “21USLEIC20231109J3Z8”“Activiteit B” en “Functie X”.",
+   "columns": [
+    {
+     "code": "B_06.01.0010",
+     "label": "Functie-identificatiecode",
+     "soort": "Patroon",
+     "instruction": "De functie-identificatiecode bestaat uit de hoofdletter F, gevolgd door een natuurlijk getal (bv. F1 voor de 1e functie-identificatiecode, “Fn” voor de ne functie-identificatiecode waarbij “n” een natuurlijk nummer is). Elke combinatie van “LEI van de financiële entiteit die gebruikmaakt van de ICT-dienst(en)” (B_06.01.0040), “Functienaam” (B_06.01.0030) en “Vergunde activiteit” (B_06.01.0020) krijgt een unieke functie-identificatiecode. Voorbeeld: een financiële entiteit die actief is in het kader van twee vergunde activiteiten (“activiteit A” en “activiteit B”) krijgt twee unieke “functie-identificatiecodes” voor dezelfde functie X (bv. verkoop) uitgevoerd voor activiteit A en voor activiteit B.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "auto",
+     "askSupplier": false
+    },
+    {
+     "code": "B_06.01.0020",
+     "label": "Vergunde activiteit",
+     "soort": "Gesloten reeks keuzemogelijkheden",
+     "instruction": "Een van de vergunde activiteiten als genoemd in de onderliggende rechtshandelingen als vermeld in bijlage II voor de verschillende soorten financiële entiteiten. Wanneer de functie niet gekoppeld is aan een geregistreerde of vergunde activiteit, worden “ondersteuningsfuncties” opgegeven.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_06.01.0030",
+     "label": "Functienaam",
+     "soort": "Alfanumeriek",
+     "instruction": "Functienaam volgens de interne organisatie van de financiële entiteit.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "assessment:s4.1",
+     "askSupplier": false
+    },
+    {
+     "code": "B_06.01.0040",
+     "label": "LEI van de financiële entiteit",
+     "soort": "Alfanumeriek",
+     "instruction": "Zoals opgegeven in B_04.01.0020 Vermeld de financiële entiteit aan de hand van de LEI, de alfanumerieke code met 20 tekens die is gebaseerd op de ISO 17442-norm.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "auto",
+     "askSupplier": false
+    },
+    {
+     "code": "B_06.01.0050",
+     "label": "Beoordeling van het kritieke karakter of het belang",
+     "soort": "Gesloten reeks keuzemogelijkheden",
+     "instruction": "Gebruik deze kolom om aan te geven of de functie kritiek of belangrijk is volgens de beoordeling van de financiële entiteit. Gebruik daarvoor een van de keuzemogelijkheden in de volgende gesloten lijst: 1. ja 2. nee 3. geen beoordeling uitgevoerd",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "assessment:s4.2",
+     "askSupplier": false
+    },
+    {
+     "code": "B_06.01.0060",
+     "label": "Reden voor het kritieke karakter of belang",
+     "soort": "Alfanumeriek",
+     "instruction": "Korte toelichting bij de redenen voor het indelen van de functie als kritiek of belangrijk (maximaal 300 tekens).",
+     "mandatoryRaw": "Facultatief",
+     "mandatory": false,
+     "source": "assessment:s4.3",
+     "askSupplier": false
+    },
+    {
+     "code": "B_06.01.0070",
+     "label": "Datum van de laatste beoordeling van het kritieke karakter of belang",
+     "soort": "Datum",
+     "instruction": "Geef de datum, volgens de ISO 8601-code (jjjj-mm-dd), van de laatste beoordeling van het kritieke karakter of belang wanneer de functie wordt ondersteund door ICT-diensten van derde aanbieders van ICT-diensten. Wanneer geen beoordeling van het kritieke karakter of belang heeft plaatsgevonden, wordt “9999-12-31” ingevuld.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "assessment:s4.4",
+     "askSupplier": false
+    },
+    {
+     "code": "B_06.01.0080",
+     "label": "Hersteltijddoelstelling voor de functie",
+     "soort": "Natuurlijk getal",
+     "instruction": "In aantal uren. Wanneer de hersteltijddoelstelling minder dan 1 uur bedraagt, wordt “1” opgegeven. Wanneer de hersteltijddoelstelling van de functie niet is omschreven, wordt “0” opgegeven.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_06.01.0090",
+     "label": "Herstelpuntdoelstelling voor de functie",
+     "soort": "Natuurlijk getal",
+     "instruction": "In aantal uren. Wanneer de herstelpuntdoelstelling minder dan 1 uur bedraagt, wordt “1” opgegeven. Wanneer de herstelpuntdoelstelling van de functie niet is omschreven, wordt “0” opgegeven.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_06.01.0100",
+     "label": "Impact van stopzetting van de functie",
+     "soort": "Gesloten reeks keuzemogelijkheden",
+     "instruction": "Gebruik deze kolom om aan te geven welke impact stopzetting van de functie heeft volgens de beoordeling van de financiële entiteit. Gebruik daarvoor een van de keuzemogelijkheden in de volgende gesloten lijst: 1. gering 2. gemiddeld 3. groot 4. geen beoordeling uitgevoerd",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "manual",
+     "askSupplier": false
+    }
+   ]
+  },
+  {
+   "code": "B_07.01",
+   "name": "Beoordelingen van de ICT-diensten",
+   "description": "Dit model bevat informatie over de risicobeoordeling van de ICT-diensten (bv. substitueerbaarheid, datum laatste audit enz.) wanneer die ICT-diensten een kritieke of belangrijke functie of een wezenlijk onderdeel daarvan ondersteunen.",
+   "columns": [
+    {
+     "code": "B_07.01.0010",
+     "label": "Referentienummer van de contractuele overeenkomst",
+     "soort": "Alfanumeriek",
+     "instruction": "Zoals opgegeven in B_02.01.0010",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "auto",
+     "askSupplier": false
+    },
+    {
+     "code": "B_07.01.0020",
+     "label": "Identificatiecode van de derde aanbieder van ICT-diensten",
+     "soort": "Alfanumeriek",
+     "instruction": "Zoals opgegeven in B_05.01.0010",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "auto",
+     "askSupplier": false
+    },
+    {
+     "code": "B_07.01.0030",
+     "label": "Soort code voor de identificatie van de derde aanbieder van ICT-diensten",
+     "soort": "Patroon",
+     "instruction": "Zoals opgegeven in B_05.01.0020",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "auto",
+     "askSupplier": false
+    },
+    {
+     "code": "B_07.01.0040",
+     "label": "Soort ICT-diensten",
+     "soort": "Gesloten reeks keuzemogelijkheden",
+     "instruction": "Een van de soorten ICT-diensten die zijn opgenomen in bijlage III",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "auto",
+     "askSupplier": false
+    },
+    {
+     "code": "B_07.01.0050",
+     "label": "Substitueerbaarheid van de derde aanbieder van ICT-diensten",
+     "soort": "Gesloten reeks keuzemogelijkheden",
+     "instruction": "Gebruik deze kolom om de resultaten van de beoordeling door de financiële entiteit te verstrekken met betrekking tot de mate van substitueerbaarheid van de derde aanbieder van ICT-diensten om de specifieke ICT-diensten te leveren die een kritieke of belangrijke functie ondersteunen. Gebruik daarvoor een van de keuzemogelijkheden in de volgende gesloten lijst: 1. niet substitueerbaar 2. zeer complexe substitueerbaarheid 3. gemiddelde complexiteit wat substitueerbaarheid betreft 4. eenvoudig substitueerbaar",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "assessment:s11.1",
+     "askSupplier": false
+    },
+    {
+     "code": "B_07.01.0060",
+     "label": "Reden waarom de derde aanbieder van ICT-diensten als niet of moeilijk te vervangen wordt beschouwd",
+     "soort": "Gesloten reeks keuzemogelijkheden",
+     "instruction": "Gebruik daarvoor een van de keuzemogelijkheden in de volgende gesloten lijst: 1. het ontbreken van reële, ook gedeeltelijke, alternatieven als gevolg van het beperkte aantal derde aanbieders van ICT-diensten die actief zijn op een specifieke markt, of het marktaandeel van de betrokken derde aanbieder van ICT-diensten, of de technische complexiteit of geavanceerdheid die in het geding is, onder meer met betrekking tot eigendomstechnologie, of de specifieke kenmerken van de organisatie of activiteit van de derde aanbieder van ICT-diensten; 2. moeilijkheden in verband met het geheel of gedeeltelijk migreren van de relevante gegevens en werklast van de desbetreffende derde aanbieder van ICT-diensten naar een andere derde aanbieder van ICT-diensten of wanneer deze geherintegreerd worden in de werkzaamheden van de financiële entiteit, omdat het migratieproces beduidende financiële kosten, tijd of andere middelen kan meebrengen, dan wel omdat de financiële entiteit kan worden blootgesteld aan een verhoogd ICT-risico of andere operationele risico’s; 3. beide redenen genoemd in de punten 1 en 2.",
+     "mandatoryRaw": "Verplicht wanneer in B_07.01.0041 “niet substitueerbaar” of “zeer complexe substitueerbaarheid” werd geselecteerd",
+     "mandatory": false,
+     "source": "manual",
+     "askSupplier": false
+    },
+    {
+     "code": "B_07.01.0070",
+     "label": "Datum van de laatste audit van de derde aanbieder van ICT-diensten",
+     "soort": "Datum",
+     "instruction": "Gebruik deze kolom voor de datum van de laatste audit van de specifieke ICT-diensten van de derde aanbieder van ICT-diensten. Deze kolom heeft betrekking op audits die werden uitgevoerd door een van de volgende partijen: a) de interne auditafdeling of enig ander bijkomende gekwalificeerd personeel van de financiële entiteit; b) een gezamenlijk team, samen met andere klanten van dezelfde derde aanbieder van ICT-diensten (“gebundelde audit”); c) een derde partij die door de gecontroleerde entiteit wordt aangewezen om de dienstverlener door te lichten. Deze kolom heeft niet betrekking op de ontvangst- of referentiedatum van certificeringen van derde partijen of interneauditverslagen van de derde aanbieder van ICT-diensten, de jaarlijkse monitoringdatum van de overeenkomst door de financiële entiteit of de evaluatiedatum van de door de financiële entiteit uitgevoerde risicobeoordeling. Deze kolom wordt gebruikt voor alle soorten audits die door een van de in de punten a), b) en c) genoemde partijen worden uitgevoerd met betrekking tot alle of een deel van de ICT-diensten van de derde aanbieder van ICT-diensten. Voor de datum wordt de ISO 8601-code (jjjj-mm-dd) gebruikt. Wanneer geen audit heeft plaatsgevonden, wordt “9999-12-31” ingevuld.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "assessment:s11.2",
+     "askSupplier": false
+    },
+    {
+     "code": "B_07.01.0080",
+     "label": "Aanwezigheid van een exitplan",
+     "soort": "[Ja/Nee]",
+     "instruction": "Gebruik deze kolom om aan te geven of er een exitplan van de derde aanbieder van ICT-diensten voorhanden is met betrekking tot de verleende specifieke ICT-diensten. Gebruik daarvoor een van de keuzemogelijkheden in de volgende gesloten lijst: 1. ja 2. nee",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "assessment:s10.2",
+     "askSupplier": false
+    },
+    {
+     "code": "B_07.01.0090",
+     "label": "Mogelijkheid om de contractueel overeengekomen ICT-dienst opnieuw te integreren",
+     "soort": "Gesloten reeks keuzemogelijkheden",
+     "instruction": "Gebruik daarvoor een van de keuzemogelijkheden in de volgende gesloten lijst: 1. gemakkelijk 2. moeilijk 3. zeer complex Gebruik deze kolom wanneer de ICT-dienst wordt verleend door een derde aanbieder van ICT-diensten die geen deel uitmaakt van de groep.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "assessment:s11.3",
+     "askSupplier": false
+    },
+    {
+     "code": "B_07.01.0100",
+     "label": "Impact van stopzetting van de ICT-diensten",
+     "soort": "Gesloten reeks keuzemogelijkheden",
+     "instruction": "Gebruik deze kolom om aan te geven welke impact stopzetting van de ICT-diensten van de derde aanbieder van ICT-diensten heeft op de financiële entiteit, volgens de beoordeling van de financiële entiteit. Gebruik daarvoor een van de keuzemogelijkheden in de volgende gesloten lijst: 1. gering 2. gemiddeld 3. groot 4. geen beoordeling uitgevoerd",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "assessment:s11.4",
+     "askSupplier": false
+    },
+    {
+     "code": "B_07.01.0110",
+     "label": "Zijn alternatieve derde aanbieders van ICT-diensten in kaart gebracht?",
+     "soort": "Gesloten reeks keuzemogelijkheden",
+     "instruction": "Gebruik daarvoor een van de keuzemogelijkheden in de volgende gesloten lijst: 1. ja 2. nee  3. geen beoordeling uitgevoerd  Voor elke derde aanbieder van ICT-diensten die een kritieke of belangrijk functie ondersteunt, wordt de beoordeling om een alternatieve dienstverlener in kaart te brengen uitgevoerd.",
+     "mandatoryRaw": "Verplicht",
+     "mandatory": true,
+     "source": "assessment:s11.5",
+     "askSupplier": false
+    },
+    {
+     "code": "B_07.01.0120",
+     "label": "Identificatie van alternatieve derde aanbieders van ICT-diensten",
+     "soort": "Alfanumeriek",
+     "instruction": "Indien “ja” is opgegeven in B_07.01.0110, kan in deze kolom aanvullende informatie worden verstrekt.",
+     "mandatoryRaw": "Facultatief",
+     "mandatory": false,
+     "source": "manual",
+     "askSupplier": false
+    }
+   ]
+  },
+  {
+   "code": "B_99.01",
+   "name": "Definities van entiteiten die van de ICT-diensten gebruikmaken",
+   "description": "Dit model bevat entiteitsinterne uitleg, betekenissen en definities van de gesloten reeks indicatoren die de financiële entiteit in het informatieregister gebruikt. Voorbeeld: in model B_07.01 geeft de financiële entiteit een indicatie van de impact van stopzetting van de ICT-diensten aan de hand van een gesloten reeks keuzemogelijkheden (gering, gemiddeld, groot). In model B_99.01 geeft de financiële entiteit nadere uitleg over de betekenis van deze keuzemogelijkheden.",
+   "columns": []
+  }
+ ],
+ "closedLists": {
+  "B_02.01.0020": [
+   "1. Op zichzelf staande overeenkomst",
+   "2. Overkoepelende overeenkomst",
+   "3. Eropvolgende of bijbehorende overeenkomst"
+  ],
+  "B_02.02.0170": [
+   "1. gering",
+   "2. gemiddeld",
+   "3. hoog"
+  ],
+  "B_07.01.0050": [
+   "1. niet substitueerbaar",
+   "2. zeer complexe substitueerbaarheid",
+   "3. gemiddelde complexiteit wat substitueerbaarheid betreft",
+   "4. eenvoudig substitueerbaar"
+  ],
+  "B_07.01.0090": [
+   "1. gemakkelijk",
+   "2. moeilijk",
+   "3. zeer complex"
+  ],
+  "B_07.01.0100": [
+   "1. gering",
+   "2. gemiddeld",
+   "3. groot"
+  ],
+  "B_06.01.0100": [
+   "1. gering",
+   "2. gemiddeld",
+   "3. groot"
+  ]
+ },
+ "sCodes": [
+  {
+   "code": "S01",
+   "label": "ICT-projectbeheer",
+   "description": "Verlening van diensten in verband met projectbeheerder (PMO)."
+  },
+  {
+   "code": "S02",
+   "label": "ICT-ontwikkeling",
+   "description": "Verlening van diensten in verband met bedrijfsanalyse, software-ontwerp en -ontwikkeling, testen."
+  },
+  {
+   "code": "S03",
+   "label": "ICT-helpdesk en eerstelijnsondersteuning",
+   "description": "Verlening van diensten in verband met helpdeskondersteuning en eerstelijnsondersteuning bij ICT-incidenten."
+  },
+  {
+   "code": "S04",
+   "label": "ICT-beveiligingsbeheerdiensten",
+   "description": "Verlening van diensten in verband met ICT-beveiliging (bescherming, detectie, respons en herstel), met inbegrip van afhandeling van beveiligingsincidenten en forensisch onderzoek."
+  },
+  {
+   "code": "S05",
+   "label": "Verstrekking van gegevens",
+   "description": "Inschrijving op de diensten van gegevensverstrekkers (digitale gegevensdienst)."
+  },
+  {
+   "code": "S06",
+   "label": "Gegevensanalyse",
+   "description": "Verlening van diensten in verband met ondersteuning voor gegevensanalyse (digitale gegevensdienst)."
+  },
+  {
+   "code": "S07",
+   "label": "ICT, faciliteiten en hostingdiensten (behalve clouddiensten)",
+   "description": "Aanbieden van ICT-infrastructuur, -faciliteiten en -hostingdiensten, inclusief de verstrekking van nutsvoorzieningen (elektriciteit, warmtebeheer enz.), toegang tot telecom en fysieke beveiliging (behalve clouddiensten), verrichten van betalingsverwerkingsactiviteiten of exploiteren van betalingsinfrastructuren."
+  },
+  {
+   "code": "S08",
+   "label": "Berekening",
+   "description": "Verlening van digitale verwerkingscapaciteit (inclusief gegevensberekening), uitgezonderd berekeningsdiensten uitgevoerd in het kader van een cloudomgeving."
+  },
+  {
+   "code": "S09",
+   "label": "Gegevensopslag buiten de cloud",
+   "description": "Aanbieden van een gegevensopslagplatform (uitgezonderd clouddiensten)."
+  },
+  {
+   "code": "S10",
+   "label": "Telecomprovider",
+   "description": "Activiteiten voor telecommunicatiesystemen en stroombeheer. Traditionele analoge telefoondiensten zijn uitdrukkelijk uitgesloten overeenkomstig artikel 3, punt 21, van Verordening (EU) 2022/2554."
+  },
+  {
+   "code": "S11",
+   "label": "Netwerkinfrastructuur",
+   "description": "Levering van netwerkinfrastructuur."
+  },
+  {
+   "code": "S12",
+   "label": "Hardware en fysieke toestellen",
+   "description": "Levering van werkstations, telefoons, servers, gegevensopslagapparaten, apparaten enz. in de vorm van een dienst."
+  },
+  {
+   "code": "S13",
+   "label": "Softwarelicenties (uitgezonderd SaaS)",
+   "description": "Software laten draaien in bedrijfsruimten."
+  },
+  {
+   "code": "S14",
+   "label": "Operationeel ICT-beheer (inclusief onderhoud)",
+   "description": "Verlening van diensten in verband met de configuratie, het onderhoud, de installatie, het capaciteitsbeheer, het bedrijfscontinuïteitsbeheer enz. van infrastructuur (systemen en hardware behalve netwerken). Inclusief beheerde dienstverleners (managed service providers, MSP’s)."
+  },
+  {
+   "code": "S15",
+   "label": "ICT-consultancy",
+   "description": "Verlening van intellectuele/deskundige ICT-diensten."
+  },
+  {
+   "code": "S16",
+   "label": "ICT-risicobeheer",
+   "description": "Controle van de naleving van de vereisten inzake ICT-risicobeheer overeenkomstig artikel 6, lid 10, van Verordening (EU) 2022/2554."
+  },
+  {
+   "code": "S17",
+   "label": "Clouddiensten: IaaS",
+   "description": "Infrastructuur als dienst."
+  },
+  {
+   "code": "S18",
+   "label": "Clouddiensten: PaaS",
+   "description": "Platform als dienst."
+  },
+  {
+   "code": "S19",
+   "label": "Clouddiensten: SaaS",
+   "description": "Software als dienst."
+  }
+ ]
+}

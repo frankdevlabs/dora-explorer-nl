@@ -3,12 +3,25 @@
  * the single source of truth; a supplier assessment does not own its data
  * but attaches to an arrangement record via `answers`.
  *
- * Relational keys: `contractRef` (arrangement, user-assigned, unique),
- * `providerCode` (LEI/EUID), `functionId`. Records for the other ITS
- * templates (entity block, group entities, chain links, service-function
- * links, service assessments) are added in epic 7; the state shape is
- * versioned from day one so migrations stay possible.
+ * Relational keys: the contract reference number (answer s1.1) links all
+ * template rows of one arrangement; the provider id (s1.3) identifies the
+ * direct provider; chain rows (B_05.02) carry rank + subcontractor ids.
  */
+
+/** One B_05.02 row: a link in the ICT supply chain of this arrangement. */
+export interface RoiChainRow {
+  id: string;
+  /** S01-S19 service type of the (sub)contracted service. */
+  serviceType: string;
+  /** LEI/EUID of the provider at this rank. */
+  providerCode: string;
+  /** "lei" | "euid" (B_05.02.0040 code type). */
+  codeType: string;
+  /** Rank: 1 = direct provider, >1 = subcontractor (ITS art. 2). */
+  rank: string;
+  /** LEI/EUID of the recipient of this subcontractor's service (rank 1: the provider itself). */
+  recipientCode: string;
+}
 
 export interface RoiArrangement {
   id: string;
@@ -16,6 +29,10 @@ export interface RoiArrangement {
   name: string;
   /** Supplier-assessment answers (question ids s1.1…), the RoI field source. */
   answers: Record<string, string>;
+  /** Manual field overrides keyed by ITS column code; win over answers. */
+  manual?: Record<string, string>;
+  /** ICT supply chain rows (B_05.02). */
+  chain?: RoiChainRow[];
   createdAt: number;
   updatedAt: number;
 }
@@ -23,4 +40,6 @@ export interface RoiArrangement {
 export interface RoiState {
   v: 1;
   arrangements: RoiArrangement[];
+  /** Entity block (B_01.01 fields, keyed by column code). */
+  entity?: Record<string, string>;
 }

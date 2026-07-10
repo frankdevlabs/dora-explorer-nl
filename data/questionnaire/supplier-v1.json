@@ -32,19 +32,38 @@
      "id": "s1.3",
      "text": "Identificatiecode van de aanbieder (LEI of, voor EU-entiteiten, EUID)",
      "help": "Voor buiten de Unie gevestigde rechtspersonen is uitsluitend de LEI toegestaan (rectificatie ITS). Verifieer in GLEIF/BRIS — ontbrekende of ongeldige codes zijn de nr. 1 datakwaliteitsfout uit de ESA dry run.",
-     "refs": [{ "label": "ITS art. 3, lid 6", "href": "/its/artikel/3#lid-6" }],
+     "refs": [
+      {
+       "label": "ITS art. 3, lid 6",
+       "href": "/its/artikel/3#lid-6"
+      }
+     ],
      "answerType": "text",
      "roi": "B_05.01.0010"
     },
     {
      "id": "s1.4",
      "text": "Soort contractuele overeenkomst",
-     "refs": [{ "label": "ITS bijlage I (B_02.01)", "href": "/its/bijlage/i" }],
+     "refs": [
+      {
+       "label": "ITS bijlage I (B_02.01)",
+       "href": "/its/bijlage/i"
+      }
+     ],
      "answerType": "choice",
      "options": [
-      { "value": "zelfstandig", "label": "Op zichzelf staande overeenkomst" },
-      { "value": "overkoepelend", "label": "Overkoepelende (master) overeenkomst" },
-      { "value": "vervolg", "label": "Eropvolgende of bijbehorende overeenkomst" }
+      {
+       "value": "1",
+       "label": "Op zichzelf staande overeenkomst"
+      },
+      {
+       "value": "2",
+       "label": "Overkoepelende (master) overeenkomst"
+      },
+      {
+       "value": "3",
+       "label": "Eropvolgende of bijbehorende overeenkomst"
+      }
      ],
      "roi": "B_02.01.0020"
     },
@@ -52,28 +71,90 @@
      "id": "s1.5",
      "text": "Soort ICT-dienst (hoofdcategorie, S01–S19)",
      "help": "Kies de identificatiecode uit bijlage III van de ITS. Eén contract valt in de praktijk vaak uiteen in meerdere dienstregels (bv. S17 IaaS + S04 beveiliging); registreer die apart in het register.",
-     "refs": [{ "label": "ITS bijlage III — S01–S19", "href": "/its/bijlage/iii" }],
+     "refs": [
+      {
+       "label": "ITS bijlage III — S01–S19",
+       "href": "/its/bijlage/iii"
+      }
+     ],
      "answerType": "choice",
      "options": [
-      { "value": "S01", "label": "S01 — ICT-projectbeheer" },
-      { "value": "S02", "label": "S02 — ICT-ontwikkeling" },
-      { "value": "S03", "label": "S03 — ICT-helpdesk / eerstelijnsondersteuning" },
-      { "value": "S04", "label": "S04 — ICT-beveiligingsbeheerdiensten" },
-      { "value": "S05", "label": "S05 — Levering van gegevens" },
-      { "value": "S06", "label": "S06 — Gegevensanalyse" },
-      { "value": "S07", "label": "S07 — ICT-, faciliteiten- en hostingdiensten (excl. cloud)" },
-      { "value": "S08", "label": "S08 — Computatie" },
-      { "value": "S09", "label": "S09 — Niet-cloud datadiensten (opslag)" },
-      { "value": "S10", "label": "S10 — Telecomdragers" },
-      { "value": "S11", "label": "S11 — Netwerkinfrastructuur" },
-      { "value": "S12", "label": "S12 — Hardware en fysieke apparaten" },
-      { "value": "S13", "label": "S13 — Softwarelicenties (excl. SaaS)" },
-      { "value": "S14", "label": "S14 — ICT-operationeel beheer (incl. onderhoud)" },
-      { "value": "S15", "label": "S15 — ICT-consultancy" },
-      { "value": "S16", "label": "S16 — ICT-risicobeheer" },
-      { "value": "S17", "label": "S17 — Cloud IaaS" },
-      { "value": "S18", "label": "S18 — Cloud PaaS" },
-      { "value": "S19", "label": "S19 — Cloud SaaS" }
+      {
+       "value": "S01",
+       "label": "S01 — ICT-projectbeheer"
+      },
+      {
+       "value": "S02",
+       "label": "S02 — ICT-ontwikkeling"
+      },
+      {
+       "value": "S03",
+       "label": "S03 — ICT-helpdesk / eerstelijnsondersteuning"
+      },
+      {
+       "value": "S04",
+       "label": "S04 — ICT-beveiligingsbeheerdiensten"
+      },
+      {
+       "value": "S05",
+       "label": "S05 — Levering van gegevens"
+      },
+      {
+       "value": "S06",
+       "label": "S06 — Gegevensanalyse"
+      },
+      {
+       "value": "S07",
+       "label": "S07 — ICT-, faciliteiten- en hostingdiensten (excl. cloud)"
+      },
+      {
+       "value": "S08",
+       "label": "S08 — Computatie"
+      },
+      {
+       "value": "S09",
+       "label": "S09 — Niet-cloud datadiensten (opslag)"
+      },
+      {
+       "value": "S10",
+       "label": "S10 — Telecomdragers"
+      },
+      {
+       "value": "S11",
+       "label": "S11 — Netwerkinfrastructuur"
+      },
+      {
+       "value": "S12",
+       "label": "S12 — Hardware en fysieke apparaten"
+      },
+      {
+       "value": "S13",
+       "label": "S13 — Softwarelicenties (excl. SaaS)"
+      },
+      {
+       "value": "S14",
+       "label": "S14 — ICT-operationeel beheer (incl. onderhoud)"
+      },
+      {
+       "value": "S15",
+       "label": "S15 — ICT-consultancy"
+      },
+      {
+       "value": "S16",
+       "label": "S16 — ICT-risicobeheer"
+      },
+      {
+       "value": "S17",
+       "label": "S17 — Cloud IaaS"
+      },
+      {
+       "value": "S18",
+       "label": "S18 — Cloud PaaS"
+      },
+      {
+       "value": "S19",
+       "label": "S19 — Cloud SaaS"
+      }
      ],
      "roi": "B_02.02.0060"
     },
@@ -107,9 +188,19 @@
      "id": "s2.1",
      "text": "Betreft de overeenkomst een ICT-dienst: een digitale dienst of gegevensdienst die doorlopend via ICT-systemen wordt verleend (inclusief hardware als dienst en technische ondersteuning)?",
      "help": "Zo nee, dan valt de overeenkomst buiten het ICT-derdenrisicokader van DORA en stopt dit assessment. Traditionele analoge telefoniediensten tellen niet als ICT-dienst.",
-     "refs": [{ "label": "Art. 3 — Definities (punt 21)", "href": "/artikel/3" }],
+     "refs": [
+      {
+       "label": "Art. 3 — Definities (punt 21)",
+       "href": "/artikel/3"
+      }
+     ],
      "answerType": "janee",
-     "effects": [{ "when": "ja", "setFlag": "ict_dienst" }]
+     "effects": [
+      {
+       "when": "ja",
+       "setFlag": "ict_dienst"
+      }
+     ]
     }
    ]
   },
@@ -117,15 +208,27 @@
    "id": "m3",
    "nr": 3,
    "title": "Intra-groep (art. 3, punt 20)",
-   "showIf": { "flag": "ict_dienst" },
+   "showIf": {
+    "flag": "ict_dienst"
+   },
    "questions": [
     {
      "id": "s3.1",
      "text": "Wordt de dienst geleverd door een aanbieder binnen de eigen groep (intra-groepsdienstverlener)?",
      "help": "Intra-groepsdiensten vallen volledig onder het kader (register, contracteisen); de risicobeoordeling mag wel meewegen dat de aanbieder binnen de groep staat.",
-     "refs": [{ "label": "Art. 3 — Definities", "href": "/artikel/3" }],
+     "refs": [
+      {
+       "label": "Art. 3 — Definities",
+       "href": "/artikel/3"
+      }
+     ],
      "answerType": "janee",
-     "effects": [{ "when": "ja", "setFlag": "intra_groep" }]
+     "effects": [
+      {
+       "when": "ja",
+       "setFlag": "intra_groep"
+      }
+     ]
     }
    ]
   },
@@ -133,9 +236,16 @@
    "id": "m4",
    "nr": 4,
    "title": "Functieclassificatie (art. 3, punt 22)",
-   "showIf": { "flag": "ict_dienst" },
+   "showIf": {
+    "flag": "ict_dienst"
+   },
    "intro": "Classificeer de bedrijfsfunctie(s) die de dienst ondersteunt. Dit voedt model B_06.01 en is de hoofdschakelaar voor de aanvullende verplichtingen.",
-   "refs": [{ "label": "Art. 3 — Definities (punt 22)", "href": "/artikel/3" }],
+   "refs": [
+    {
+     "label": "Art. 3 — Definities (punt 22)",
+     "href": "/artikel/3"
+    }
+   ],
    "questions": [
     {
      "id": "s4.1",
@@ -147,9 +257,19 @@
      "id": "s4.2",
      "text": "Is die functie kritiek of belangrijk: zou verstoring wezenlijk afbreuk doen aan de financiële prestaties, de soliditeit of continuïteit van diensten, of aan de blijvende naleving van de vergunningsvoorwaarden?",
      "help": "Toets beide poten van art. 3, punt 22: (1) materiële impact op prestaties/continuïteit, of (2) materiële impact op vergunningsnaleving. Koppel de beoordeling aan de bedrijfsimpactanalyse.",
-     "refs": [{ "label": "Art. 3 — Definities (punt 22)", "href": "/artikel/3" }],
+     "refs": [
+      {
+       "label": "Art. 3 — Definities (punt 22)",
+       "href": "/artikel/3"
+      }
+     ],
      "answerType": "janee",
-     "effects": [{ "when": "ja", "setFlag": "kof_functie" }],
+     "effects": [
+      {
+       "when": "ja",
+       "setFlag": "kof_functie"
+      }
+     ],
      "roi": "B_06.01.0050"
     },
     {
@@ -170,23 +290,42 @@
    "id": "m5",
    "nr": 5,
    "title": "Ondersteunt de dienst een kritieke of belangrijke functie?",
-   "showIf": { "flag": "ict_dienst" },
+   "showIf": {
+    "flag": "ict_dienst"
+   },
    "questions": [
     {
      "id": "s5.1",
      "text": "Ondersteunt deze ICT-dienst een kritieke of belangrijke functie, of een materieel onderdeel daarvan?",
      "help": "Dit is de hoofdschakelaar: bij 'ja' gelden de aanvullende contractuele bepalingen (art. 30, lid 3), de onderaannemingsvoorwaarden (RTS 2025/532), de meldplicht en de volledige keten in het informatieregister.",
-     "refs": [{ "label": "Art. 28, lid 3", "href": "/artikel/28#lid-3" }],
+     "refs": [
+      {
+       "label": "Art. 28, lid 3",
+       "href": "/artikel/28#lid-3"
+      }
+     ],
      "answerType": "janee",
-     "effects": [{ "when": "ja", "setFlag": "cif_dienst" }],
+     "effects": [
+      {
+       "when": "ja",
+       "setFlag": "cif_dienst"
+      }
+     ],
      "roi": "B_02.02.0180"
     },
     {
      "id": "s5.2",
      "text": "Is (of wordt) de bevoegde autoriteit tijdig geïnformeerd over deze voorgenomen contractuele overeenkomst voor een kritieke of belangrijke functie (en over een functie die kritiek of belangrijk is gewórden)?",
-     "refs": [{ "label": "Art. 28, lid 3", "href": "/artikel/28#lid-3" }],
+     "refs": [
+      {
+       "label": "Art. 28, lid 3",
+       "href": "/artikel/28#lid-3"
+      }
+     ],
      "answerType": "janeenvt",
-     "showIf": { "flag": "cif_dienst" },
+     "showIf": {
+      "flag": "cif_dienst"
+     },
      "obligation": true
     }
    ]
@@ -195,40 +334,72 @@
    "id": "m6",
    "nr": 6,
    "title": "Precontractuele beoordeling (art. 28, lid 4; art. 29)",
-   "showIf": { "flag": "ict_dienst" },
+   "showIf": {
+    "flag": "ict_dienst"
+   },
    "refs": [
-    { "label": "Art. 28, lid 4", "href": "/artikel/28#lid-4" },
-    { "label": "Art. 29 — Concentratierisico", "href": "/artikel/29" }
+    {
+     "label": "Art. 28, lid 4",
+     "href": "/artikel/28#lid-4"
+    },
+    {
+     "label": "Art. 29 — Concentratierisico",
+     "href": "/artikel/29"
+    }
    ],
    "questions": [
     {
      "id": "s6.1",
      "text": "Is vóór het aangaan beoordeeld of de overeenkomst een kritieke of belangrijke functie betreft en zijn alle relevante risico's (incl. concentratierisico) geïdentificeerd?",
-     "refs": [{ "label": "Art. 28, lid 4", "href": "/artikel/28#lid-4" }],
+     "refs": [
+      {
+       "label": "Art. 28, lid 4",
+       "href": "/artikel/28#lid-4"
+      }
+     ],
      "answerType": "janeenvt",
      "obligation": true
     },
     {
      "id": "s6.2",
      "text": "Is due diligence op de aanbieder uitgevoerd (geschiktheid, informatiebeveiligingsnormen, vergunningen/registraties waar vereist)?",
-     "refs": [{ "label": "Art. 28, lid 5", "href": "/artikel/28#lid-5" }],
+     "refs": [
+      {
+       "label": "Art. 28, lid 5",
+       "href": "/artikel/28#lid-5"
+      }
+     ],
      "answerType": "janeenvt",
      "obligation": true
     },
     {
      "id": "s6.3",
      "text": "Is bij de keuze gewogen of de aanbieder moeilijk vervangbaar is en of er al meerdere (kritieke) contracten bij deze of nauw verbonden aanbieders lopen?",
-     "refs": [{ "label": "Art. 29, lid 1", "href": "/artikel/29#lid-1" }],
+     "refs": [
+      {
+       "label": "Art. 29, lid 1",
+       "href": "/artikel/29#lid-1"
+      }
+     ],
      "answerType": "janeenvt",
-     "showIf": { "flag": "cif_dienst" },
+     "showIf": {
+      "flag": "cif_dienst"
+     },
      "obligation": true
     },
     {
      "id": "s6.4",
      "text": "Als onderaanneming van de kritieke dienst mogelijk is: zijn de voor- en nadelen daarvan (met name bij onderaannemers in derde landen) beoordeeld?",
-     "refs": [{ "label": "Art. 29, lid 2", "href": "/artikel/29#lid-2" }],
+     "refs": [
+      {
+       "label": "Art. 29, lid 2",
+       "href": "/artikel/29#lid-2"
+      }
+     ],
      "answerType": "janeenvt",
-     "showIf": { "flag": "cif_dienst" },
+     "showIf": {
+      "flag": "cif_dienst"
+     },
      "obligation": true
     }
    ]
@@ -237,9 +408,16 @@
    "id": "m7",
    "nr": 7,
    "title": "Contractuele minimumbepalingen — alle overeenkomsten (art. 30, lid 2)",
-   "showIf": { "flag": "ict_dienst" },
+   "showIf": {
+    "flag": "ict_dienst"
+   },
    "intro": "Deze elementen moeten in élk ICT-contract staan, kritiek of niet. Loop het contract punt voor punt na.",
-   "refs": [{ "label": "Art. 30, lid 2", "href": "/artikel/30#lid-2" }],
+   "refs": [
+    {
+     "label": "Art. 30, lid 2",
+     "href": "/artikel/30#lid-2"
+    }
+   ],
    "questions": [
     {
      "id": "s7.1",
@@ -303,8 +481,22 @@
    "id": "m8",
    "nr": 8,
    "title": "Aanvullende bepalingen — kritieke of belangrijke functies (art. 30, lid 3)",
-   "showIf": { "all": [{ "flag": "ict_dienst" }, { "flag": "cif_dienst" }] },
-   "refs": [{ "label": "Art. 30, lid 3", "href": "/artikel/30#lid-3" }],
+   "showIf": {
+    "all": [
+     {
+      "flag": "ict_dienst"
+     },
+     {
+      "flag": "cif_dienst"
+     }
+    ]
+   },
+   "refs": [
+    {
+     "label": "Art. 30, lid 3",
+     "href": "/artikel/30#lid-3"
+    }
+   ],
    "questions": [
     {
      "id": "s8.1",
@@ -327,7 +519,12 @@
     {
      "id": "s8.4",
      "text": "d) De verplichting om deel te nemen aan de TLPT's van de entiteit (art. 26–27)?",
-     "refs": [{ "label": "Art. 26, lid 3", "href": "/artikel/26#lid-3" }],
+     "refs": [
+      {
+       "label": "Art. 26, lid 3",
+       "href": "/artikel/26#lid-3"
+      }
+     ],
      "answerType": "janeenvt",
      "obligation": true
     },
@@ -349,59 +546,123 @@
    "id": "m9",
    "nr": 9,
    "title": "Onderaanneming (art. 30, lid 2, punt a; RTS 2025/532)",
-   "showIf": { "all": [{ "flag": "ict_dienst" }, { "flag": "cif_dienst" }] },
+   "showIf": {
+    "all": [
+     {
+      "flag": "ict_dienst"
+     },
+     {
+      "flag": "cif_dienst"
+     }
+    ]
+   },
    "intro": "De onderaannemings-RTS (in werking 22 juli 2025) stelt voorwaarden voor het toestaan van onderaanneming van ICT-diensten die kritieke of belangrijke functies ondersteunen. Het geschrapte ontwerp-artikel over ketenmonitoring is niet vervallen als norm: monitoring loopt via art. 29, lid 2, DORA.",
    "refs": [
-    { "label": "RTS — overzicht", "href": "/rts" },
-    { "label": "Art. 29, lid 2", "href": "/artikel/29#lid-2" }
+    {
+     "label": "RTS — overzicht",
+     "href": "/rts"
+    },
+    {
+     "label": "Art. 29, lid 2",
+     "href": "/artikel/29#lid-2"
+    }
    ],
    "questions": [
     {
      "id": "s9.1",
      "text": "Staat het contract onderaanneming van (materiële onderdelen van) de kritieke of belangrijke functie toe?",
-     "refs": [{ "label": "Art. 30, lid 2", "href": "/artikel/30#lid-2" }],
+     "refs": [
+      {
+       "label": "Art. 30, lid 2",
+       "href": "/artikel/30#lid-2"
+      }
+     ],
      "answerType": "janee",
-     "effects": [{ "when": "ja", "setFlag": "subcontracting_toegestaan" }]
+     "effects": [
+      {
+       "when": "ja",
+       "setFlag": "subcontracting_toegestaan"
+      }
+     ]
     },
     {
      "id": "s9.2",
      "text": "Is vóór het toestaan beoordeeld of en hoe (potentieel lange of complexe) ketens van onderaanneming het vermogen om te monitoren aantasten (due diligence en risicobeoordeling conform RTS art. 3)?",
-     "refs": [{ "label": "RTS art. 3", "href": "/rts/artikel/3" }],
+     "refs": [
+      {
+       "label": "RTS art. 3",
+       "href": "/rts/artikel/3"
+      }
+     ],
      "answerType": "janeenvt",
-     "showIf": { "flag": "subcontracting_toegestaan" },
+     "showIf": {
+      "flag": "subcontracting_toegestaan"
+     },
      "obligation": true
     },
     {
      "id": "s9.3",
      "text": "Specificeert het contract de voorwaarden van RTS art. 4 (o.a. doorwerking van monitorings-, beveiligings- en continuïteitseisen naar onderaannemers, en welke diensten wel/niet mogen worden uitbesteed)?",
-     "refs": [{ "label": "RTS art. 4", "href": "/rts/artikel/4" }],
+     "refs": [
+      {
+       "label": "RTS art. 4",
+       "href": "/rts/artikel/4"
+      }
+     ],
      "answerType": "janeenvt",
-     "showIf": { "flag": "subcontracting_toegestaan" },
+     "showIf": {
+      "flag": "subcontracting_toegestaan"
+     },
      "obligation": true
     },
     {
      "id": "s9.4",
      "text": "Zijn kennisgeving en beoordeling van materiële wijzigingen in de onderaannemingsketen geregeld (RTS art. 5), met bezwaars- of beëindigingsmogelijkheid?",
-     "refs": [{ "label": "RTS art. 5", "href": "/rts/artikel/5" }],
+     "refs": [
+      {
+       "label": "RTS art. 5",
+       "href": "/rts/artikel/5"
+      }
+     ],
      "answerType": "janeenvt",
-     "showIf": { "flag": "subcontracting_toegestaan" },
+     "showIf": {
+      "flag": "subcontracting_toegestaan"
+     },
      "obligation": true
     },
     {
      "id": "s9.5",
      "text": "Bestaat een beëindigingsrecht bij onderaanneming in strijd met de contractvoorwaarden (RTS art. 6)?",
-     "refs": [{ "label": "RTS art. 6", "href": "/rts/artikel/6" }],
+     "refs": [
+      {
+       "label": "RTS art. 6",
+       "href": "/rts/artikel/6"
+      }
+     ],
      "answerType": "janeenvt",
-     "showIf": { "flag": "subcontracting_toegestaan" },
+     "showIf": {
+      "flag": "subcontracting_toegestaan"
+     },
      "obligation": true
     },
     {
      "id": "s9.6",
      "text": "Zijn de onderaannemers die de kritieke dienst daadwerkelijk ondersteunen in kaart gebracht, met ranking (direct = 1, dieper > 1) en geldige LEI/EUID, voor model B_05.02?",
      "help": "Alleen onderaannemers die de dienst 'daadwerkelijk ondersteunen' hoeven in het register — niet elke hulpleverancier. Vraag de keten uit bij de directe aanbieder (zie de leveranciersuitvraag in het register, epic 8).",
-     "refs": [{ "label": "ITS art. 2 — Ranking", "href": "/its/artikel/2" }, { "label": "ITS art. 3, lid 2", "href": "/its/artikel/3#lid-2" }],
+     "refs": [
+      {
+       "label": "ITS art. 2 — Ranking",
+       "href": "/its/artikel/2"
+      },
+      {
+       "label": "ITS art. 3, lid 2",
+       "href": "/its/artikel/3#lid-2"
+      }
+     ],
      "answerType": "janeenvt",
-     "showIf": { "flag": "subcontracting_toegestaan" },
+     "showIf": {
+      "flag": "subcontracting_toegestaan"
+     },
      "obligation": true
     }
    ]
@@ -410,10 +671,18 @@
    "id": "m10",
    "nr": 10,
    "title": "Beëindiging en exit (art. 28, lid 7–8)",
-   "showIf": { "flag": "ict_dienst" },
+   "showIf": {
+    "flag": "ict_dienst"
+   },
    "refs": [
-    { "label": "Art. 28, lid 7", "href": "/artikel/28#lid-7" },
-    { "label": "Art. 28, lid 8", "href": "/artikel/28#lid-8" }
+    {
+     "label": "Art. 28, lid 7",
+     "href": "/artikel/28#lid-7"
+    },
+    {
+     "label": "Art. 28, lid 8",
+     "href": "/artikel/28#lid-8"
+    }
    ],
    "questions": [
     {
@@ -425,9 +694,16 @@
     {
      "id": "s10.2",
      "text": "Is er voor deze dienst een gedocumenteerde en voldoende geteste exitstrategie met transitieplan (alternatieven, migratie van gegevens, continuïteit tijdens de overgang)?",
-     "refs": [{ "label": "Art. 28, lid 8", "href": "/artikel/28#lid-8" }],
+     "refs": [
+      {
+       "label": "Art. 28, lid 8",
+       "href": "/artikel/28#lid-8"
+      }
+     ],
      "answerType": "janeenvt",
-     "showIf": { "flag": "cif_dienst" },
+     "showIf": {
+      "flag": "cif_dienst"
+     },
      "obligation": true,
      "roi": "B_07.01.0080"
     }
@@ -437,19 +713,45 @@
    "id": "m11",
    "nr": 11,
    "title": "Beoordeling van de dienst (model B_07.01)",
-   "showIf": { "all": [{ "flag": "ict_dienst" }, { "flag": "cif_dienst" }] },
+   "showIf": {
+    "all": [
+     {
+      "flag": "ict_dienst"
+     },
+     {
+      "flag": "cif_dienst"
+     }
+    ]
+   },
    "intro": "Deze beoordeling is de eigen analyse van de entiteit en vult model B_07.01 (verplicht voor diensten die kritieke of belangrijke functies ondersteunen).",
-   "refs": [{ "label": "ITS bijlage I (B_07.01)", "href": "/its/bijlage/i" }],
+   "refs": [
+    {
+     "label": "ITS bijlage I (B_07.01)",
+     "href": "/its/bijlage/i"
+    }
+   ],
    "questions": [
     {
      "id": "s11.1",
      "text": "Substitueerbaarheid van de aanbieder",
      "answerType": "choice",
      "options": [
-      { "value": "niet", "label": "Niet substitueerbaar" },
-      { "value": "zeer_complex", "label": "Zeer complex te vervangen" },
-      { "value": "complex", "label": "Complex te vervangen" },
-      { "value": "makkelijk", "label": "Gemakkelijk te vervangen" }
+      {
+       "value": "1",
+       "label": "Niet substitueerbaar"
+      },
+      {
+       "value": "2",
+       "label": "Zeer complexe substitueerbaarheid"
+      },
+      {
+       "value": "3",
+       "label": "Gemiddelde complexiteit wat substitueerbaarheid betreft"
+      },
+      {
+       "value": "4",
+       "label": "Eenvoudig substitueerbaar"
+      }
      ],
      "roi": "B_07.01.0050"
     },
@@ -464,9 +766,18 @@
      "text": "Mogelijkheid om de dienst opnieuw te integreren (insourcen)",
      "answerType": "choice",
      "options": [
-      { "value": "makkelijk", "label": "Gemakkelijk" },
-      { "value": "complex", "label": "Complex" },
-      { "value": "zeer_complex", "label": "Zeer complex" }
+      {
+       "value": "1",
+       "label": "Gemakkelijk"
+      },
+      {
+       "value": "2",
+       "label": "Moeilijk"
+      },
+      {
+       "value": "3",
+       "label": "Zeer complex"
+      }
      ],
      "roi": "B_07.01.0090"
     },
@@ -475,10 +786,18 @@
      "text": "Impact van stopzetting van de ICT-dienst",
      "answerType": "choice",
      "options": [
-      { "value": "gering", "label": "Gering" },
-      { "value": "aanzienlijk", "label": "Aanzienlijk" },
-      { "value": "ernstig", "label": "Ernstig" },
-      { "value": "volledig", "label": "Volledige verstoring" }
+      {
+       "value": "1",
+       "label": "Gering"
+      },
+      {
+       "value": "2",
+       "label": "Gemiddeld"
+      },
+      {
+       "value": "3",
+       "label": "Groot"
+      }
      ],
      "roi": "B_07.01.0100"
     },
