@@ -23,10 +23,13 @@ method). Plan/status per feature: `docs/epics/`.
 2. **Never edit the legal text itself.** All base-corpus content comes
    deterministically from the EUR-Lex HTML files in `data/source/` — no
    manual or LLM transcription, ever. Wording bugs are parser bugs.
-   **Editorial-metadata carve-out:** curated machine-readable metadata (e.g.
-   `data/source/roi/templates.json`, the RoI template schema) is clearly not
-   legal text and must never alter the rendering of legal text; it feeds the
-   assessment/register tools and is gated by its own verify script.
+   **Editorial-metadata carve-out (rule 2b):** curated machine-readable
+   metadata is clearly not legal text and must never alter the rendering of
+   legal text. Three such layers exist: the RoI provenance-overlay in
+   `scripts/build-roi-schema.ts`, `data/source/recital-article-map.json`
+   (recital↔artikel; procedure: `.claude/skills/curate-recital-map/`) and
+   `data/source/l2-map.json` (DORA↔ITS/RTS). Each is gated by its own
+   verify script.
 3. `npm run build` = `parse → verify → next build`. If a verify script fails,
    fix the parser or curated source (or, after a deliberate source update,
    the assertions) — don't loosen assertions to pass. Re-pin exact counts

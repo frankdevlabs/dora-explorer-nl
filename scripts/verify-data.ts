@@ -242,8 +242,12 @@ assert.deepEqual(
 // pinned 2026-07 after the epic-2 negative sweep (every emitted ref audited
 // against its after-context; 0 foreign-qualifier hits; 5 suppressed bare
 // refs all inside quoted text of amendment arts 59-63): dora 178, its 26,
-// rts 10
-const REF_EXPECT: Record<string, number> = { dora: 178, its: 26, rts: 10 };
+// rts 10. Re-pinned epic 9: 178→176 — the refuter pass caught two
+// "respectievelijk"-constructions the sweep missed (rct 34 "punt c)
+// respectievelijk punt e), van die verordening" = AVG; art 44 "van
+// respectievelijk Verordeningen (EU) nr. 1093/2010 …"); grammar now
+// consumes/excludes both.
+const REF_EXPECT: Record<string, number> = { dora: 176, its: 26, rts: 10 };
 
 function collectRefs(inst: string): { href: string; where: string }[] {
   const out: { href: string; where: string }[] = [];
@@ -270,7 +274,7 @@ for (const [inst, expected] of Object.entries(REF_EXPECT)) {
   assert.equal(refs.length, expected, `${inst}: ref count drifted (${refs.length})`);
   refTotal += refs.length;
 }
-assert.equal(refTotal, 214, "total ref count");
+assert.equal(refTotal, 212, "total ref count"); // 214→212, see re-pin note above
 
 // positive spot checks: the cross-instrument resolver (ITS/RTS text linking
 // into DORA's unprefixed routes)

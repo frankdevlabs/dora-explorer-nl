@@ -1,0 +1,694 @@
+{
+ "meta": {
+  "version": 1,
+  "complete": false,
+  "reviewedCount": 0,
+  "pairCount": 172
+ },
+ "byRecital": {
+  "dora:8": [
+   "dora:1",
+   "dora:46"
+  ],
+  "dora:12": [
+   "dora:1"
+  ],
+  "dora:13": [
+   "dora:4"
+  ],
+  "dora:16": [
+   "dora:1"
+  ],
+  "dora:18": [
+   "dora:47"
+  ],
+  "dora:20": [
+   "dora:31",
+   "dora:32"
+  ],
+  "dora:21": [
+   "dora:4",
+   "dora:16"
+  ],
+  "dora:22": [
+   "dora:18"
+  ],
+  "dora:23": [
+   "dora:23"
+  ],
+  "dora:24": [
+   "dora:19",
+   "dora:20"
+  ],
+  "dora:26": [
+   "dora:24",
+   "dora:26"
+  ],
+  "dora:28": [
+   "dora:28",
+   "dora:30"
+  ],
+  "dora:29": [
+   "dora:28",
+   "dora:30"
+  ],
+  "dora:31": [
+   "dora:31"
+  ],
+  "dora:32": [
+   "dora:45"
+  ],
+  "dora:33": [
+   "dora:45"
+  ],
+  "dora:34": [
+   "dora:45"
+  ],
+  "dora:35": [
+   "dora:3"
+  ],
+  "dora:36": [
+   "dora:4"
+  ],
+  "dora:37": [
+   "dora:2",
+   "dora:46"
+  ],
+  "dora:38": [
+   "dora:5",
+   "dora:6"
+  ],
+  "dora:39": [
+   "dora:2"
+  ],
+  "dora:40": [
+   "dora:2"
+  ],
+  "dora:41": [
+   "dora:2"
+  ],
+  "dora:42": [
+   "dora:16"
+  ],
+  "dora:43": [
+   "dora:5",
+   "dora:6",
+   "dora:16",
+   "dora:24",
+   "dora:26"
+  ],
+  "dora:44": [
+   "dora:26"
+  ],
+  "dora:45": [
+   "dora:5"
+  ],
+  "dora:46": [
+   "dora:5"
+  ],
+  "dora:47": [
+   "dora:6"
+  ],
+  "dora:48": [
+   "dora:7"
+  ],
+  "dora:49": [
+   "dora:11",
+   "dora:12"
+  ],
+  "dora:50": [
+   "dora:12"
+  ],
+  "dora:51": [
+   "dora:19"
+  ],
+  "dora:52": [
+   "dora:19",
+   "dora:22"
+  ],
+  "dora:53": [
+   "dora:18",
+   "dora:20"
+  ],
+  "dora:54": [
+   "dora:23"
+  ],
+  "dora:55": [
+   "dora:21"
+  ],
+  "dora:56": [
+   "dora:24",
+   "dora:25",
+   "dora:26"
+  ],
+  "dora:57": [
+   "dora:26"
+  ],
+  "dora:58": [
+   "dora:26"
+  ],
+  "dora:59": [
+   "dora:26"
+  ],
+  "dora:60": [
+   "dora:26"
+  ],
+  "dora:61": [
+   "dora:26",
+   "dora:27"
+  ],
+  "dora:62": [
+   "dora:28"
+  ],
+  "dora:63": [
+   "dora:3"
+  ],
+  "dora:64": [
+   "dora:28"
+  ],
+  "dora:65": [
+   "dora:28"
+  ],
+  "dora:66": [
+   "dora:28",
+   "dora:29"
+  ],
+  "dora:67": [
+   "dora:29",
+   "dora:33"
+  ],
+  "dora:68": [
+   "dora:30"
+  ],
+  "dora:69": [
+   "dora:30"
+  ],
+  "dora:70": [
+   "dora:3"
+  ],
+  "dora:71": [
+   "dora:30"
+  ],
+  "dora:72": [
+   "dora:30"
+  ],
+  "dora:73": [
+   "dora:30"
+  ],
+  "dora:74": [
+   "dora:28",
+   "dora:30"
+  ],
+  "dora:75": [
+   "dora:30"
+  ],
+  "dora:76": [
+   "dora:31",
+   "dora:32"
+  ],
+  "dora:77": [
+   "dora:31"
+  ],
+  "dora:78": [
+   "dora:31"
+  ],
+  "dora:80": [
+   "dora:35",
+   "dora:38",
+   "dora:39"
+  ],
+  "dora:81": [
+   "dora:31"
+  ],
+  "dora:82": [
+   "dora:31"
+  ],
+  "dora:83": [
+   "dora:36"
+  ],
+  "dora:84": [
+   "dora:31"
+  ],
+  "dora:86": [
+   "dora:32"
+  ],
+  "dora:87": [
+   "dora:31"
+  ],
+  "dora:88": [
+   "dora:35",
+   "dora:37",
+   "dora:38",
+   "dora:39"
+  ],
+  "dora:89": [
+   "dora:31",
+   "dora:35",
+   "dora:42"
+  ],
+  "dora:90": [
+   "dora:42"
+  ],
+  "dora:91": [
+   "dora:34",
+   "dora:35"
+  ],
+  "dora:92": [
+   "dora:28"
+  ],
+  "dora:93": [
+   "dora:42"
+  ],
+  "dora:94": [
+   "dora:44"
+  ],
+  "dora:95": [
+   "dora:40"
+  ],
+  "dora:96": [
+   "dora:43"
+  ],
+  "dora:97": [
+   "dora:48",
+   "dora:50",
+   "dora:54"
+  ],
+  "dora:98": [
+   "dora:31",
+   "dora:43",
+   "dora:57"
+  ],
+  "dora:99": [
+   "dora:15",
+   "dora:20",
+   "dora:26",
+   "dora:28"
+  ],
+  "dora:100": [
+   "dora:20",
+   "dora:28"
+  ],
+  "dora:101": [
+   "dora:59",
+   "dora:60",
+   "dora:61",
+   "dora:62"
+  ],
+  "dora:102": [
+   "dora:59",
+   "dora:60",
+   "dora:61",
+   "dora:62",
+   "dora:63"
+  ],
+  "dora:103": [
+   "dora:59",
+   "dora:60",
+   "dora:61",
+   "dora:62",
+   "dora:63"
+  ],
+  "dora:104": [
+   "dora:58"
+  ],
+  "its:1": [
+   "dora:28",
+   "its:3"
+  ],
+  "its:2": [
+   "its:3",
+   "its:6"
+  ],
+  "its:3": [
+   "dora:28",
+   "its:5"
+  ],
+  "its:4": [
+   "its:3",
+   "its:4"
+  ],
+  "its:5": [
+   "its:5"
+  ],
+  "its:6": [
+   "its:2",
+   "its:3"
+  ],
+  "its:7": [
+   "its:5"
+  ],
+  "its:8": [
+   "its:3"
+  ],
+  "its:9": [
+   "dora:31",
+   "its:3"
+  ],
+  "its:10": [
+   "its:5"
+  ],
+  "its:11": [
+   "its:3"
+  ],
+  "its:12": [
+   "its:3",
+   "its:4"
+  ],
+  "rts:1": [
+   "rts:1",
+   "rts:3"
+  ],
+  "rts:2": [
+   "dora:28",
+   "rts:3"
+  ],
+  "rts:3": [
+   "rts:1"
+  ],
+  "rts:4": [
+   "dora:30",
+   "rts:3"
+  ],
+  "rts:5": [
+   "rts:1"
+  ],
+  "rts:6": [
+   "rts:2"
+  ],
+  "rts:7": [
+   "rts:4"
+  ],
+  "rts:8": [
+   "rts:3",
+   "rts:4",
+   "rts:5"
+  ],
+  "rts:9": [
+   "rts:3"
+  ],
+  "rts:10": [
+   "rts:4",
+   "rts:5"
+  ],
+  "rts:11": [
+   "rts:5",
+   "rts:6"
+  ]
+ },
+ "byArticle": {
+  "dora:1": [
+   "dora:8",
+   "dora:12",
+   "dora:16"
+  ],
+  "dora:46": [
+   "dora:8",
+   "dora:37"
+  ],
+  "dora:4": [
+   "dora:13",
+   "dora:21",
+   "dora:36"
+  ],
+  "dora:47": [
+   "dora:18"
+  ],
+  "dora:31": [
+   "dora:20",
+   "dora:31",
+   "dora:76",
+   "dora:77",
+   "dora:78",
+   "dora:81",
+   "dora:82",
+   "dora:84",
+   "dora:87",
+   "dora:89",
+   "dora:98",
+   "its:9"
+  ],
+  "dora:32": [
+   "dora:20",
+   "dora:76",
+   "dora:86"
+  ],
+  "dora:16": [
+   "dora:21",
+   "dora:42",
+   "dora:43"
+  ],
+  "dora:18": [
+   "dora:22",
+   "dora:53"
+  ],
+  "dora:23": [
+   "dora:23",
+   "dora:54"
+  ],
+  "dora:19": [
+   "dora:24",
+   "dora:51",
+   "dora:52"
+  ],
+  "dora:20": [
+   "dora:24",
+   "dora:53",
+   "dora:99",
+   "dora:100"
+  ],
+  "dora:24": [
+   "dora:26",
+   "dora:43",
+   "dora:56"
+  ],
+  "dora:26": [
+   "dora:26",
+   "dora:43",
+   "dora:44",
+   "dora:56",
+   "dora:57",
+   "dora:58",
+   "dora:59",
+   "dora:60",
+   "dora:61",
+   "dora:99"
+  ],
+  "dora:28": [
+   "dora:28",
+   "dora:29",
+   "dora:62",
+   "dora:64",
+   "dora:65",
+   "dora:66",
+   "dora:74",
+   "dora:92",
+   "dora:99",
+   "dora:100",
+   "its:1",
+   "its:3",
+   "rts:2"
+  ],
+  "dora:30": [
+   "dora:28",
+   "dora:29",
+   "dora:68",
+   "dora:69",
+   "dora:71",
+   "dora:72",
+   "dora:73",
+   "dora:74",
+   "dora:75",
+   "rts:4"
+  ],
+  "dora:45": [
+   "dora:32",
+   "dora:33",
+   "dora:34"
+  ],
+  "dora:3": [
+   "dora:35",
+   "dora:63",
+   "dora:70"
+  ],
+  "dora:2": [
+   "dora:37",
+   "dora:39",
+   "dora:40",
+   "dora:41"
+  ],
+  "dora:5": [
+   "dora:38",
+   "dora:43",
+   "dora:45",
+   "dora:46"
+  ],
+  "dora:6": [
+   "dora:38",
+   "dora:43",
+   "dora:47"
+  ],
+  "dora:7": [
+   "dora:48"
+  ],
+  "dora:11": [
+   "dora:49"
+  ],
+  "dora:12": [
+   "dora:49",
+   "dora:50"
+  ],
+  "dora:22": [
+   "dora:52"
+  ],
+  "dora:21": [
+   "dora:55"
+  ],
+  "dora:25": [
+   "dora:56"
+  ],
+  "dora:27": [
+   "dora:61"
+  ],
+  "dora:29": [
+   "dora:66",
+   "dora:67"
+  ],
+  "dora:33": [
+   "dora:67"
+  ],
+  "dora:35": [
+   "dora:80",
+   "dora:88",
+   "dora:89",
+   "dora:91"
+  ],
+  "dora:38": [
+   "dora:80",
+   "dora:88"
+  ],
+  "dora:39": [
+   "dora:80",
+   "dora:88"
+  ],
+  "dora:36": [
+   "dora:83"
+  ],
+  "dora:37": [
+   "dora:88"
+  ],
+  "dora:42": [
+   "dora:89",
+   "dora:90",
+   "dora:93"
+  ],
+  "dora:34": [
+   "dora:91"
+  ],
+  "dora:44": [
+   "dora:94"
+  ],
+  "dora:40": [
+   "dora:95"
+  ],
+  "dora:43": [
+   "dora:96",
+   "dora:98"
+  ],
+  "dora:48": [
+   "dora:97"
+  ],
+  "dora:50": [
+   "dora:97"
+  ],
+  "dora:54": [
+   "dora:97"
+  ],
+  "dora:57": [
+   "dora:98"
+  ],
+  "dora:15": [
+   "dora:99"
+  ],
+  "dora:59": [
+   "dora:101",
+   "dora:102",
+   "dora:103"
+  ],
+  "dora:60": [
+   "dora:101",
+   "dora:102",
+   "dora:103"
+  ],
+  "dora:61": [
+   "dora:101",
+   "dora:102",
+   "dora:103"
+  ],
+  "dora:62": [
+   "dora:101",
+   "dora:102",
+   "dora:103"
+  ],
+  "dora:63": [
+   "dora:102",
+   "dora:103"
+  ],
+  "dora:58": [
+   "dora:104"
+  ],
+  "its:3": [
+   "its:1",
+   "its:2",
+   "its:4",
+   "its:6",
+   "its:8",
+   "its:9",
+   "its:11",
+   "its:12"
+  ],
+  "its:6": [
+   "its:2"
+  ],
+  "its:5": [
+   "its:3",
+   "its:5",
+   "its:7",
+   "its:10"
+  ],
+  "its:4": [
+   "its:4",
+   "its:12"
+  ],
+  "its:2": [
+   "its:6"
+  ],
+  "rts:1": [
+   "rts:1",
+   "rts:3",
+   "rts:5"
+  ],
+  "rts:3": [
+   "rts:1",
+   "rts:2",
+   "rts:4",
+   "rts:8",
+   "rts:9"
+  ],
+  "rts:2": [
+   "rts:6"
+  ],
+  "rts:4": [
+   "rts:7",
+   "rts:8",
+   "rts:10"
+  ],
+  "rts:5": [
+   "rts:8",
+   "rts:10",
+   "rts:11"
+  ],
+  "rts:6": [
+   "rts:11"
+  ]
+ }
+}

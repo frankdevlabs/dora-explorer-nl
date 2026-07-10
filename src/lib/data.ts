@@ -10,8 +10,10 @@ import rtsArticlesJson from "../../data/generated/rts/articles.json";
 import rtsRecitalsJson from "../../data/generated/rts/recitals.json";
 import rtsAnnexesJson from "../../data/generated/rts/annexes.json";
 import rtsTocJson from "../../data/generated/rts/toc.json";
+import recitalMapJson from "../../data/generated/recital-map.json";
+import l2MapJson from "../../data/generated/l2-map.json";
 import { INSTRUMENTS, type InstrumentId } from "./instruments";
-import type { Annex, Article, Recital, Toc } from "./types";
+import type { Annex, Article, L2MapGenerated, Recital, RecitalMapGenerated, Toc } from "./types";
 import { flattenNodes } from "./flatten";
 
 interface Corpus {
@@ -225,3 +227,76 @@ export function annexPrevNext(
     next: link(idx >= 0 ? order[idx + 1] : undefined),
   };
 }
+
+// ---------------------------------------------------------------------------
+// Editorial maps (epic 9): recital↔article + DORA↔level-2
+
+const recitalMap = recitalMapJson as unknown as RecitalMapGenerated;
+const l2Map = l2MapJson as unknown as L2MapGenerated;
+
+export interface RelatedRecital {
+  instrument: InstrumentId;
+  number: number;
+  href: string;
+  snippet: string;
+}
+
+/** Recitals mapped to an article, with a short opening snippet. */
+export function getRecitalsForArticle(
+  nummer: number | string,
+  instrument: InstrumentId = "dora",
+): RelatedRecital[] {
+  return (recitalMap.byArticle[`${instrument}:${nummer}`] ?? []).flatMap((key) => {
+    const [inst, num] = key.split(":") as [InstrumentId, string];
+    const r = getRecital(Number(num), inst);
+    if (!r) return [];
+    return [
+      {
+        instrument: inst,
+        number: r.number,
+        href: `${INSTRUMENTS[inst].routePrefix}/overweging/${r.number}`,
+        snippet: clip(r.paragraphs[0]?.text ?? "", 100),
+      },
+    ];
+  });
+}
+
+export interface RelatedArticle {
+  instrument: InstrumentId;
+  number: number;
+  href: string;
+  label: string;
+  title: string;
+}
+
+/** Articles a recital motivates, in document order. */
+export function getArticlesForRecital(
+  nummer: number,
+  instrument: InstrumentId = "dora",
+): RelatedArticle[] {
+  return (recitalMap.byRecital[`${instrument}:${nummer}`] ?? []).flatMap((key) => {
+    const [inst, num] = key.split(":") as [InstrumentId, string];
+    const a = getArticle(Number(num), inst);
+    if (!a) return [];
+    return [
+      {
+        instrument: inst,
+        number: a.number,
+        href: `${INSTRUMENTS[inst].routePrefix}/artikel/${a.number}`,
+        label: `Art. ${a.number}`,
+        title: a.title,
+      },
+    ];
+  });
+}
+
+/** ITS/RTS provisions implementing a DORA article. */
+export function getL2ForArticle(nummer: number | string) {
+  return l2Map.byDora[String(nummer)] ?? [];
+}
+
+/** DORA basis articles for an ITS/RTS article. */
+export function getDoraBasis(instrument: InstrumentId, nummer: number | string) {
+  return l2Map.byTarget[`${instrument}:${nummer}`] ?? [];
+}
+

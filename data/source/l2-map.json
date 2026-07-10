@@ -1,0 +1,20 @@
+{
+ "meta": { "version": 1 },
+ "links": [
+  { "dora": "28", "lid": 9, "target": "its", "label": "RoI-ITS (2024/2956) — standaardmodellen voor het informatieregister" },
+  { "dora": "28", "lid": 3, "target": "its:2", "label": "Ranking van aanbieders in de toeleveringsketen" },
+  { "dora": "28", "lid": 3, "target": "its:3", "label": "Algemene vereisten en reikwijdte van de registermodellen" },
+  { "dora": "28", "lid": 3, "target": "its:4", "label": "Gegevensformaat van het register" },
+  { "dora": "28", "lid": 3, "target": "its:5", "label": "Inhoud van het informatieregister" },
+  { "dora": "28", "lid": 3, "target": "its:6", "label": "Register op gesubconsolideerd en geconsolideerd niveau" },
+  { "dora": "28", "lid": 3, "target": "its:bijlage:i", "label": "Instructies en kolomdefinities per template (B_01.01–B_99.01)" },
+  { "dora": "28", "lid": 3, "target": "its:bijlage:iii", "label": "Taxonomie van ICT-diensten (S01–S19)" },
+  { "dora": "30", "lid": 5, "target": "rts", "label": "Onderaannemings-RTS (2025/532) — voorwaarden voor uitbesteding van KOF-diensten" },
+  { "dora": "30", "lid": 5, "target": "rts:1", "label": "Algemeen risicoprofiel en complexiteit (proportionaliteit)" },
+  { "dora": "30", "lid": 2, "target": "rts:4", "label": "Voorwaarden waaronder onderaanneming mag worden toegestaan" },
+  { "dora": "30", "lid": 2, "target": "rts:5", "label": "Materiële veranderingen in de onderaannemingsketen" },
+  { "dora": "30", "lid": 2, "target": "rts:6", "label": "Beëindiging bij onderaanneming in strijd met het contract" },
+  { "dora": "29", "lid": 2, "target": "rts:3", "label": "Due diligence en risicobeoordeling van (lange) onderaannemingsketens" },
+  { "dora": "28", "lid": 2, "target": "rts:2", "label": "Consistente toepassing binnen een groep" }
+ ]
+}

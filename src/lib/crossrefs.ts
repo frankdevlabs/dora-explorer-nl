@@ -59,7 +59,7 @@ const CITATION_FORMS: { id: InstrumentId; re: RegExp }[] = (
 
 // "van/bij <some other instrument>" → reference into another act, skip
 const OTHER_INSTRUMENT =
-  /,?[  ]*(?:van|bij)[  ]+(?:(?:de|het|die|dat|een)[  ]+)?(?:[A-ZÉ][\w-]*[  ]+)?[\w-]*(?:[Vv]erordening(?:en)?|[Rr]ichtlijn(?:en)?|[Bb]esluit(?:en)?|[Aa]anbeveling(?:en)?|[Vv]erdrag(?:en)?|[Hh]andvest|[Oo]vereenkomst(?:en)?|[Aa]kkoord|[Pp]rotocol)\b/y;
+  /,?[  ]*(?:van|bij)[  ]+(?:respectievelijk[  ]+)?(?:(?:de|het|die|dat|een)[  ]+)?(?:[A-ZÉ][\w-]*[  ]+)?[\w-]*(?:[Vv]erordening(?:en)?|[Rr]ichtlijn(?:en)?|[Bb]esluit(?:en)?|[Aa]anbeveling(?:en)?|[Vv]erdrag(?:en)?|[Hh]andvest|[Oo]vereenkomst(?:en)?|[Aa]kkoord|[Pp]rotocol)\b/y;
 const TREATY = /,?[  ]*VW?EU\b/y;
 
 const ORDINAL =
@@ -182,6 +182,14 @@ function eatSubRefs(c: Cursor): SubRefs {
         break;
       }
       out.punten.push(...ts);
+    } else if (c.eat(/,?[  ]+respectievelijk[  ]+punt[  ]+/y)) {
+      const t = c.eat(PUNT_TOKEN);
+      if (!t) {
+        c.i = save;
+        break;
+      }
+      // "punt c) respectievelijk punt e)" — consumed (no own anchor) so the
+      // exclusion lookahead runs after it; caught rct 34's AVG-ref (epic 9)
     } else if (c.eat(new RegExp(`,[  ]*${ORDINAL.source}[  ]+alinea`, "y"))) {
       // alinea has no anchor; consumed so the exclusion lookahead runs after it
     } else if (c.eat(/,[  ]*(?:en[  ]+)?[a-z]{1,2}\)(?:[  ]+en[  ]+[a-z]{1,2}\))*/y)) {

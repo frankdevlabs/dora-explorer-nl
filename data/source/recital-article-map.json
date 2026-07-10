@@ -1,0 +1,962 @@
+{
+ "meta": {
+  "version": 1,
+  "complete": false
+ },
+ "dora": {
+  "1": {
+   "articles": [],
+   "reviewed": false,
+   "note": "Contextuele achtergrond: digitalisering en ICT-afhankelijkheid van de financiële sector."
+  },
+  "2": {
+   "articles": [],
+   "reviewed": false,
+   "note": "Contextuele schets van digitalisering van financiële diensten en verwevenheid."
+  },
+  "3": {
+   "articles": [],
+   "reviewed": false,
+   "note": "Achtergrond: ESRB-verslag over systemisch cyberrisico en besmettingsgevaar."
+  },
+  "4": {
+   "articles": [],
+   "reviewed": false,
+   "note": "Achtergrond: internationale beleids- en normalisatie-initiatieven inzake ICT-risico."
+  },
+  "5": {
+   "articles": [],
+   "reviewed": false,
+   "note": "Achtergrond: ICT-risico onderbelicht in regelgeving na de financiële crisis."
+  },
+  "6": {
+   "articles": [],
+   "reviewed": false,
+   "note": "Achtergrond: FinTech-actieplan van de Commissie (2018)."
+  },
+  "7": {
+   "articles": [],
+   "reviewed": false,
+   "note": "Achtergrond: gezamenlijk technisch advies van de ETA's (2019)."
+  },
+  "8": {
+   "articles": [
+    "1",
+    "46"
+   ],
+   "reviewed": false,
+   "note": "Rulebook uitbreiden met digitale weerbaarheid; mandaten bevoegde autoriteiten versterken."
+  },
+  "9": {
+   "articles": [],
+   "reviewed": false,
+   "note": "Interne-marktrechtvaardiging: uiteenlopende nationale benaderingen belemmeren grensoverschrijdende dienstverlening."
+  },
+  "10": {
+   "articles": [],
+   "reviewed": false,
+   "note": "Contextueel: lacunes en overlappingen bij incidentmelding en weerbaarheidstesten."
+  },
+  "11": {
+   "articles": [],
+   "reviewed": false,
+   "note": "Rechtsgrondslag artikel 114 VWEU; harmonisatiedoelstelling, geen specifieke bepaling."
+  },
+  "12": {
+   "articles": [
+    "1"
+   ],
+   "reviewed": false,
+   "note": "Consolidatie van alle ICT-risicoregels in één handeling: onderwerp verordening."
+  },
+  "13": {
+   "articles": [
+    "4"
+   ],
+   "reviewed": false,
+   "note": "Zelfde beginselgebaseerde regels naar omvang en risicoprofiel: evenredigheidsbeginsel."
+  },
+  "14": {
+   "articles": [],
+   "reviewed": false,
+   "note": "Instrumentkeuze: verordening boven richtlijn; geen specifieke bepaling."
+  },
+  "15": {
+   "articles": [],
+   "reviewed": false,
+   "note": "Achtergrond: NIS-richtlijn en NIS2 als horizontaal cyberbeveiligingskader."
+  },
+  "16": {
+   "articles": [
+    "1"
+   ],
+   "reviewed": false,
+   "note": "DORA als lex specialis ten opzichte van NIS2 (artikel 1, lid 2)."
+  },
+  "17": {
+   "articles": [],
+   "reviewed": false,
+   "note": "Voorbehoud nationale veiligheid en essentiële staatsfuncties; declaratoir."
+  },
+  "18": {
+   "articles": [
+    "47"
+   ],
+   "reviewed": false,
+   "note": "Samenwerking met NIS2-structuren, samenwerkingsgroep en CSIRT's."
+  },
+  "19": {
+   "articles": [],
+   "reviewed": false,
+   "note": "Afbakening met CER-richtlijn 2022/2557; vrijstelling staat in die richtlijn zelf."
+  },
+  "20": {
+   "articles": [
+    "31",
+    "32"
+   ],
+   "reviewed": false,
+   "note": "Oversightkader dekt kritieke derde aanbieders, inclusief clouddiensten; complementair aan NIS2."
+  },
+  "21": {
+   "articles": [
+    "4",
+    "16"
+   ],
+   "reviewed": false,
+   "note": "Verhoogd weerbaarheidsniveau met evenredige toepassing; micro-ondernemingen, vereenvoudigd kader, evenredig ibpv-toezicht."
+  },
+  "22": {
+   "articles": [
+    "18"
+   ],
+   "reviewed": false,
+   "note": "Uiteenlopende nationale drempels en taxonomieën motiveren geharmoniseerde incidentclassificatie."
+  },
+  "23": {
+   "articles": [
+    "23"
+   ],
+   "reviewed": false,
+   "note": "PSD2-melding vervalt; betalingsgerelateerde incidenten voortaan onder deze verordening gemeld."
+  },
+  "24": {
+   "articles": [
+    "19",
+    "20"
+   ],
+   "reviewed": false,
+   "note": "Eén gestroomlijnd meldkader, ETA-uitwerking van modellen, vrijwillige melding cyberdreigingen."
+  },
+  "25": {
+   "articles": [],
+   "reviewed": false,
+   "note": "Probleemschets: versnipperde testkaders per subsector, dubbele kosten; context voor hoofdstuk IV."
+  },
+  "26": {
+   "articles": [
+    "24",
+    "26"
+   ],
+   "reviewed": false,
+   "note": "Gecoördineerde testregeling en wederzijdse erkenning van geavanceerde tests (TLPT)."
+  },
+  "27": {
+   "articles": [],
+   "reviewed": false,
+   "note": "Achtergrond: toenemende afhankelijkheid van ICT-diensten; geen specifieke bepaling gemotiveerd."
+  },
+  "28": {
+   "articles": [
+    "28",
+    "30"
+   ],
+   "reviewed": false,
+   "note": "Zwakke contractuele positie en onderaannemingsmonitoring motiveren derdenrisicobeheer en contractbepalingen."
+  },
+  "29": {
+   "articles": [
+    "28",
+    "30"
+   ],
+   "reviewed": false,
+   "note": "Kernbeginselen derdenrisicobeheer plus contractuele basisrechten bij uitvoering en beëindiging."
+  },
+  "30": {
+   "articles": [],
+   "reviewed": false,
+   "note": "Landschapsschets: richtsnoeren en nationale lacunes rond concentratierisico; opmaat naar oversightkader."
+  },
+  "31": {
+   "articles": [
+    "31"
+   ],
+   "reviewed": false,
+   "note": "Oversightkader voor kritieke derde aanbieders; intragroepdienstverlening onder hetzelfde kader."
+  },
+  "32": {
+   "articles": [
+    "45"
+   ],
+   "reviewed": false,
+   "note": "Nut van inlichtingenuitwisseling over dreigingen; belemmeringen bij gebrek aan Unierichtsnoeren."
+  },
+  "33": {
+   "articles": [
+    "45"
+   ],
+   "reviewed": false,
+   "note": "Versterking van kanalen voor informatie-uitwisseling met marktdeelnemers en niet-toezichthoudende autoriteiten."
+  },
+  "34": {
+   "articles": [
+    "45"
+   ],
+   "reviewed": false,
+   "note": "Vrijwillige uitwisselingsregelingen conform mededinging en AVG; parser-ref naar art. 6 (AVG) gefixt in epic 9."
+  },
+  "35": {
+   "articles": [
+    "3"
+   ],
+   "reviewed": false,
+   "note": "Brede definitie ICT-diensten incl. over-the-top; PSTN/POTS uitgesloten."
+  },
+  "36": {
+   "articles": [
+    "4"
+   ],
+   "reviewed": false,
+   "note": "Toepassing afgestemd op omvang en risicoprofiel: evenredigheidsbeginsel."
+  },
+  "37": {
+   "articles": [
+    "2",
+    "46"
+   ],
+   "reviewed": false,
+   "note": "Rekeninginformatiedienstaanbieders en vrijgestelde egeld-/betalingsinstellingen binnen scope; aanwijzing bevoegde autoriteit."
+  },
+  "38": {
+   "articles": [
+    "5",
+    "6"
+   ],
+   "reviewed": false,
+   "note": "Complexere governance en drie verdedigingslinies alleen verplicht voor niet-micro-ondernemingen."
+  },
+  "39": {
+   "articles": [
+    "2"
+   ],
+   "reviewed": false,
+   "note": "Sectorspecifiek vrijgestelde entiteiten en mkb-verzekeringstussenpersonen buiten toepassingsgebied."
+  },
+  "40": {
+   "articles": [
+    "2"
+   ],
+   "reviewed": false,
+   "note": "Lidstaatoptie om artikel 2, lid 5, punten 4-23 RKV-entiteiten vrij te stellen."
+  },
+  "41": {
+   "articles": [
+    "2"
+   ],
+   "reviewed": false,
+   "note": "Uitsluiting MiFID-artikel 2/3-personen uit toepassingsgebied, behoudens CSD's, icbe's en (her)verzekeraars."
+  },
+  "42": {
+   "articles": [
+    "16"
+   ],
+   "reviewed": false,
+   "note": "Vereenvoudigd ICT-risicobeheerkader voor kleine/vrijgestelde entiteiten conform evenredigheidsbeginsel."
+  },
+  "43": {
+   "articles": [
+    "5",
+    "6",
+    "16",
+    "24",
+    "26"
+   ],
+   "reviewed": false,
+   "note": "Vrijstellingen micro-ondernemingen en vereenvoudigd-kaderentiteiten: governance, kaderplichten, testprogramma en TLPT."
+  },
+  "44": {
+   "articles": [
+    "26"
+   ],
+   "reviewed": false,
+   "note": "TLPT-kosten slechts voor klein percentage aangemerkte financiële entiteiten."
+  },
+  "45": {
+   "articles": [
+    "5"
+   ],
+   "reviewed": false,
+   "note": "Centrale, actieve rol leidinggevend orgaan bij sturing ICT-risicobeheerkader en weerbaarheidsstrategie."
+  },
+  "46": {
+   "articles": [
+    "5"
+   ],
+   "reviewed": false,
+   "note": "Eindverantwoordelijkheid leidinggevend orgaan impliceert voldoende ICT-investeringen en budget."
+  },
+  "47": {
+   "articles": [
+    "6"
+   ],
+   "reviewed": false,
+   "note": "Beginselgebaseerde structurering; vrijheid in modelkeuze mits functies (identificatie t/m communicatie, art. 8-14) gedekt."
+  },
+  "48": {
+   "articles": [
+    "7"
+   ],
+   "reviewed": false,
+   "note": "Geactualiseerde, betrouwbare ICT-systemen met voldoende capaciteit en technologische weerbaarheid."
+  },
+  "49": {
+   "articles": [
+    "11",
+    "12"
+   ],
+   "reviewed": false,
+   "note": "Bedrijfscontinuïteits- en herstelplannen plus back-upbeleid voor snelle incidentafhandeling."
+  },
+  "50": {
+   "articles": [
+    "12"
+   ],
+   "reviewed": false,
+   "note": "Flexibele hersteltijd- en herstelpuntdoelstellingen, met evaluatie effect op marktefficiëntie."
+  },
+  "51": {
+   "articles": [
+    "19"
+   ],
+   "reviewed": false,
+   "note": "Geharmoniseerde rechtstreekse rapportage van ernstige ICT-incidenten aan bevoegde autoriteit."
+  },
+  "52": {
+   "articles": [
+    "19",
+    "22"
+   ],
+   "reviewed": false,
+   "note": "Doorgifte incidentinformatie aan niet-financiële autoriteiten en feedback/richtsnoeren van toezichthouders."
+  },
+  "53": {
+   "articles": [
+    "18",
+    "20"
+   ],
+   "reviewed": false,
+   "note": "Materialiteitsdrempels en rapportagetermijnen via RTS, alleen ernstige incidenten."
+  },
+  "54": {
+   "articles": [
+    "23"
+   ],
+   "reviewed": false,
+   "note": "Rapportage betalingsgerelateerde operationele/beveiligingsincidenten, voorheen onder Richtlijn (EU) 2015/2366."
+  },
+  "55": {
+   "articles": [
+    "21"
+   ],
+   "reviewed": false,
+   "note": "ETA-haalbaarheidsverslag over centralisatie incidentmeldingen in één EU-hub."
+  },
+  "56": {
+   "articles": [
+    "24",
+    "25",
+    "26"
+   ],
+   "reviewed": false,
+   "note": "Getrapt testregime: basistests voor allen, TLPT alleen voor voldoende ontwikkelde, systemische entiteiten."
+  },
+  "57": {
+   "articles": [
+    "26"
+   ],
+   "reviewed": false,
+   "note": "Eén TLPT in lidstaat van herkomst dekt grensoverschrijdende groepsinfrastructuur; kosten in één rechtsgebied."
+  },
+  "58": {
+   "articles": [
+    "26"
+   ],
+   "reviewed": false,
+   "note": "Aanwijzing nationale autoriteit(en) verantwoordelijk voor TLPT, benut Tiber-EU-deskundigheid."
+  },
+  "59": {
+   "articles": [
+    "26"
+   ],
+   "reviewed": false,
+   "note": "Entiteit bepaalt zelf welke kritieke of belangrijke functies de TLPT dekt."
+  },
+  "60": {
+   "articles": [
+    "26"
+   ],
+   "reviewed": false,
+   "note": "Gebundeld TLPT-testen alleen onder voorwaarden en met waarborgen (aangewezen leidende entiteit)."
+  },
+  "61": {
+   "articles": [
+    "26",
+    "27"
+   ],
+   "reviewed": false,
+   "note": "Interne testers bij TLPT, rotatie, externe dreigingsinformatie en wederzijdse erkenning van attesten."
+  },
+  "62": {
+   "articles": [
+    "28"
+   ],
+   "reviewed": false,
+   "note": "Beginselgebaseerde regels voor bewaking van ICT-derdenrisico, vooral kritieke of belangrijke functies."
+  },
+  "63": {
+   "articles": [
+    "3"
+   ],
+   "reviewed": false,
+   "note": "Reikwijdte begrip derde aanbieder van ICT-diensten: cloud, intragroep, betalingsverwerkers; uitzonderingen."
+  },
+  "64": {
+   "articles": [
+    "28"
+   ],
+   "reviewed": false,
+   "note": "Volledige eigen verantwoordelijkheid en evenredige monitoring van derdenrisico naar aard en omvang."
+  },
+  "65": {
+   "articles": [
+    "28"
+   ],
+   "reviewed": false,
+   "note": "Strategie ICT-derdenrisico door leidinggevend orgaan en informatieregister, opvraagbaar door toezichthouder."
+  },
+  "66": {
+   "articles": [
+    "28",
+    "29"
+   ],
+   "reviewed": false,
+   "note": "Precontractuele analyse, due diligence, belangenconflicten, concentratierisico en beëindigingsgronden."
+  },
+  "67": {
+   "articles": [
+    "29",
+    "33"
+   ],
+   "reviewed": false,
+   "note": "Geleidelijke aanpak concentratierisico zonder plafonds; lead overseer let op concentratie en onderaanbesteding."
+  },
+  "68": {
+   "articles": [
+    "30"
+   ],
+   "reviewed": false,
+   "note": "Harmonisatie van belangrijke elementen in contracten met derde aanbieders van ICT-diensten."
+  },
+  "69": {
+   "articles": [
+    "30"
+   ],
+   "reviewed": false,
+   "note": "Heronderhandeling van contracten om verplichte contractuele kernbepalingen op te nemen."
+  },
+  "70": {
+   "articles": [
+    "3"
+   ],
+   "reviewed": false,
+   "note": "Definitie kritieke of belangrijke functie omvat kritieke functies uit Richtlijn 2014/59/EU."
+  },
+  "71": {
+   "articles": [
+    "30"
+   ],
+   "reviewed": false,
+   "note": "Verplichte contractinhoud voor alle ICT-diensten: beschrijvingen, locaties, gegevensbescherming, beëindiging."
+  },
+  "72": {
+   "articles": [
+    "30"
+   ],
+   "reviewed": false,
+   "note": "Extra contractbepalingen bij kritieke of belangrijke functies: dienstenniveaus, rapportage, noodplannen, TLPT-medewerking."
+  },
+  "73": {
+   "articles": [
+    "30"
+   ],
+   "reviewed": false,
+   "note": "Contractuele toegangs-, inspectie- en auditrechten voor entiteit en autoriteiten."
+  },
+  "74": {
+   "articles": [
+    "28",
+    "30"
+   ],
+   "reviewed": false,
+   "note": "Exitstrategieën, overgangsperioden en afwikkelingsbestendige contractbepalingen."
+  },
+  "75": {
+   "articles": [
+    "30"
+   ],
+   "reviewed": false,
+   "note": "Vrijwillig gebruik van modelcontractbepalingen voor cloudcomputingdiensten."
+  },
+  "76": {
+   "articles": [
+    "31",
+    "32"
+   ],
+   "reviewed": false,
+   "note": "Rechtvaardiging Unie-oversightkader voor kritieke derde aanbieders; geen model voor andere sectoren."
+  },
+  "77": {
+   "articles": [
+    "31"
+   ],
+   "reviewed": false,
+   "note": "Aanwijzingsregeling met kwantitatieve en kwalitatieve criteria, vrijwillige deelname en ESCB-vrijstelling."
+  },
+  "78": {
+   "articles": [
+    "31"
+   ],
+   "reviewed": false,
+   "note": "Vrijstellingen van oversight: financiële entiteiten als aanbieder, intragroep, één-lidstaat-aanbieders."
+  },
+  "79": {
+   "articles": [],
+   "reviewed": false,
+   "note": "Achtergrond: systeemrisico van ICT-afhankelijkheid motiveert oversightkader in het algemeen."
+  },
+  "80": {
+   "articles": [
+    "35",
+    "38",
+    "39"
+   ],
+   "reviewed": false,
+   "note": "Medewerking kritieke aanbieder aan lead overseer; inspecties, opvolging aanbevelingen, sancties bij weigering."
+  },
+  "81": {
+   "articles": [
+    "31"
+   ],
+   "reviewed": false,
+   "note": "Verplichte dochteronderneming in de Unie voor kritieke derde-landaanbieders na aanwijzing."
+  },
+  "82": {
+   "articles": [
+    "31"
+   ],
+   "reviewed": false,
+   "note": "Dochterondernemingsvereiste impliceert geen datalokalisatie; dienstverlening vanuit derde landen blijft mogelijk."
+  },
+  "83": {
+   "articles": [
+    "36"
+   ],
+   "reviewed": false,
+   "note": "Uitoefening oversightbevoegdheden in derde landen onder voorwaarden plus administratieve samenwerkingsregelingen."
+  },
+  "84": {
+   "articles": [
+    "31"
+   ],
+   "reviewed": false,
+   "note": "Groepen wijzen één rechtspersoon aan als coördinatiepunt richting lead overseer."
+  },
+  "85": {
+   "articles": [],
+   "reviewed": false,
+   "note": "Contextueel: nationale oversightbevoegdheden voor niet-kritieke aanbieders blijven onaangetast."
+  },
+  "86": {
+   "articles": [
+    "32"
+   ],
+   "reviewed": false,
+   "note": "Gemengd Comité coördineert; oversightforum als voorbereidend subcomité."
+  },
+  "87": {
+   "articles": [
+    "31"
+   ],
+   "reviewed": false,
+   "note": "Toewijzing van lead overseer aan een van de drie ETA's."
+  },
+  "88": {
+   "articles": [
+    "35",
+    "37",
+    "38",
+    "39"
+   ],
+   "reviewed": false,
+   "note": "Bevoegdheden lead overseer: informatie, onderzoeken en inspecties, gezamenlijke Unie-aanpak."
+  },
+  "89": {
+   "articles": [
+    "31",
+    "35",
+    "42"
+   ],
+   "reviewed": false,
+   "note": "Rechten aanbieders: gemotiveerde verklaring bij aanwijzing, reactie op aanbevelingen, openbaarmaking niet-naleving."
+  },
+  "90": {
+   "articles": [
+    "42"
+   ],
+   "reviewed": false,
+   "note": "Bevoegde autoriteiten volgen naleving aanbevelingen op; vrijwillige raadpleging NIS2-autoriteiten."
+  },
+  "91": {
+   "articles": [
+    "34",
+    "35"
+   ],
+   "reviewed": false,
+   "note": "Operationele beginselen: JON-coördinatie, NIS2-consistentie, zorgvuldigheid jegens klanten buiten toepassingsgebied."
+  },
+  "92": {
+   "articles": [
+    "28"
+   ],
+   "reviewed": false,
+   "note": "Oversightkader vervangt eigen derdenrisicobeheer en volledige verantwoordelijkheid financiële entiteiten niet."
+  },
+  "93": {
+   "articles": [
+    "42"
+   ],
+   "reviewed": false,
+   "note": "Bevoegde autoriteiten steunen op beoordeling lead overseer; maatregelen vooraf gecoördineerd."
+  },
+  "94": {
+   "articles": [
+    "44"
+   ],
+   "reviewed": false,
+   "note": "Samenwerkingsregelingen van ETA's met toezichthouders uit derde landen."
+  },
+  "95": {
+   "articles": [
+    "40"
+   ],
+   "reviewed": false,
+   "note": "Gezamenlijke onderzoeksteams per kritieke aanbieder, met nationale expertise."
+  },
+  "96": {
+   "articles": [
+    "43"
+   ],
+   "reviewed": false,
+   "note": "Financiering oversight via vergoedingen; hybride model voor ICT-systemen ETA's."
+  },
+  "97": {
+   "articles": [
+    "50",
+    "54",
+    "48"
+   ],
+   "reviewed": false,
+   "note": "Toezicht- en sanctiebevoegdheden, bekendmaking maatregelen, samenwerking autoriteiten inclusief ECB."
+  },
+  "98": {
+   "articles": [
+    "31",
+    "43",
+    "57"
+   ],
+   "reviewed": false,
+   "note": "Gedelegeerde handelingen: aanscherping criticiteitscriteria en harmonisatie oversightvergoedingen."
+  },
+  "99": {
+   "articles": [
+    "15",
+    "20",
+    "26",
+    "28"
+   ],
+   "reviewed": false,
+   "note": "RTS-mandaten: ICT-risicobeheer, incidentrapportage, tests en monitoring derdenrisico."
+  },
+  "100": {
+   "articles": [
+    "20",
+    "28"
+   ],
+   "reviewed": false,
+   "note": "ITS: gestandaardiseerde templates voor incidentmelding en het informatieregister."
+  },
+  "101": {
+   "articles": [
+    "59",
+    "60",
+    "61",
+    "62"
+   ],
+   "reviewed": false,
+   "note": "ETA's actualiseren bestaande ICT-risicoregels uit CRA-, EMIR-, MiFIR- en CSDR-verordeningen."
+  },
+  "102": {
+   "articles": [
+    "59",
+    "60",
+    "61",
+    "62",
+    "63"
+   ],
+   "reviewed": false,
+   "note": "Consolidatie vereist wijziging van vijf verordeningen inclusief benchmarkverordening."
+  },
+  "103": {
+   "articles": [
+    "59",
+    "60",
+    "61",
+    "62",
+    "63"
+   ],
+   "reviewed": false,
+   "note": "Inperking machtigingen operationeel risico in gewijzigde verordeningen; overname in DORA."
+  },
+  "104": {
+   "articles": [
+    "58"
+   ],
+   "reviewed": false,
+   "note": "Commissie-evaluatie of betalingssystemen en verwerkingsentiteiten binnen toepassingsgebied moeten vallen."
+  },
+  "105": {
+   "articles": [],
+   "reviewed": false,
+   "note": "Contextueel: subsidiariteits- en evenredigheidsbeginsel."
+  },
+  "106": {
+   "articles": [],
+   "reviewed": false,
+   "note": "Contextueel: raadpleging Europese Toezichthouder voor gegevensbescherming."
+  }
+ },
+ "its": {
+  "1": {
+   "articles": [
+    "3",
+    "dora:28"
+   ],
+   "reviewed": false,
+   "note": "Noodzaak standaardmodellen voor het register van artikel 28, lid 3, DORA; basis voor toezicht en aanwijzing."
+  },
+  "2": {
+   "articles": [
+    "6",
+    "3"
+   ],
+   "reviewed": false,
+   "note": "Groepen: register op gesubconsolideerd/geconsolideerd niveau, optie centraal register."
+  },
+  "3": {
+   "articles": [
+    "dora:28",
+    "5"
+   ],
+   "reviewed": false,
+   "note": "Risicogebaseerd beheer per artikel 28, lid 1, punt b), DORA; kritikaliteitsbeoordeling in register."
+  },
+  "4": {
+   "articles": [
+    "3",
+    "4"
+   ],
+   "reviewed": false,
+   "note": "Lessen uitbestedingsregisters: technologieneutrale open tabellen met relationele sleutels."
+  },
+  "5": {
+   "articles": [
+    "5"
+   ],
+   "reviewed": false,
+   "note": "Intragroepsovereenkomsten koppelen aan externe overeenkomsten via specifiek model (B_02.03)."
+  },
+  "6": {
+   "articles": [
+    "2",
+    "3"
+   ],
+   "reviewed": false,
+   "note": "Onderaannemingsketens: alleen onderaannemers registreren die kritieke of belangrijke functies ondersteunen."
+  },
+  "7": {
+   "articles": [
+    "5"
+   ],
+   "reviewed": false,
+   "note": "Bij volledige uitbesteding blijft register verplicht; directe aanbieders geregistreerd, uitvoerder als registerbeheerder."
+  },
+  "8": {
+   "articles": [
+    "3"
+   ],
+   "reviewed": false,
+   "note": "Vier sleutels koppelen gegevens tussen de modellen van het register."
+  },
+  "9": {
+   "articles": [
+    "3",
+    "dora:31"
+   ],
+   "reviewed": false,
+   "note": "Identificatie aanbieders via LEI/EUID; mede voor aanwijzing kritieke aanbieders (artikel 31 DORA)."
+  },
+  "10": {
+   "articles": [
+    "5"
+   ],
+   "reviewed": false,
+   "note": "Financiële entiteiten wijzen zelf functies aan via de functie-identificatiecode (model B_06.01)."
+  },
+  "11": {
+   "articles": [
+    "3"
+   ],
+   "reviewed": false,
+   "note": "Juistheid en consistentie van gegevens en identificatiecodes over alle consolidatieniveaus."
+  },
+  "12": {
+   "articles": [
+    "3",
+    "4"
+   ],
+   "reviewed": false,
+   "note": "Gegevenskwaliteitsbeginselen en modelstructuur afgestemd op rapporteringsvereisten."
+  },
+  "13": {
+   "articles": [],
+   "reviewed": false,
+   "note": "Procedureel: gebaseerd op door de ETA's ingediende ontwerpnormen."
+  },
+  "14": {
+   "articles": [],
+   "reviewed": false,
+   "note": "Procedureel: openbare raadplegingen en advies stakeholdersgroepen ETA's."
+  },
+  "15": {
+   "articles": [],
+   "reviewed": false,
+   "note": "Procedureel: raadpleging Europese Toezichthouder voor gegevensbescherming."
+  }
+ },
+ "rts": {
+  "1": {
+   "articles": [
+    "1",
+    "3"
+   ],
+   "reviewed": false,
+   "note": "Ketens van ICT-onderaannemers in kaart brengen; ketencomplexiteit als risico-element."
+  },
+  "2": {
+   "articles": [
+    "3",
+    "dora:28"
+   ],
+   "reviewed": false,
+   "note": "Focus op onderaannemers die de dienst daadwerkelijk schragen; informatieregister art. 28, lid 3 DORA."
+  },
+  "3": {
+   "articles": [
+    "1"
+   ],
+   "reviewed": false,
+   "note": "Evenredigheid: diversiteit entiteiten bepaalt te beoordelen elementen."
+  },
+  "4": {
+   "articles": [
+    "3",
+    "dora:30"
+   ],
+   "reviewed": false,
+   "note": "Toestemming ex art. 30, lid 2 DORA; risicobeoordeling vóór uitbesteding, verantwoordelijkheid blijft."
+  },
+  "5": {
+   "articles": [
+    "1"
+   ],
+   "reviewed": false,
+   "note": "Intragroepsaanbieders gelden ook als ICT-onderaannemers (vgl. groepselement art. 1)."
+  },
+  "6": {
+   "articles": [
+    "2"
+   ],
+   "reviewed": false,
+   "note": "Moederonderneming borgt consistente groepstoepassing van onderaannemingsbeleid."
+  },
+  "7": {
+   "articles": [
+    "4"
+   ],
+   "reviewed": false,
+   "note": "Levenscyclus contractuele regeling; eisen neerleggen in contract bij toegestane uitbesteding."
+  },
+  "8": {
+   "articles": [
+    "3",
+    "4",
+    "5"
+   ],
+   "reviewed": false,
+   "note": "Contractvoorwaarden: planning, risicobeoordeling, due diligence, goedkeuring, materiële aanpassingen."
+  },
+  "9": {
+   "articles": [
+    "3"
+   ],
+   "reviewed": false,
+   "note": "Geschiktheidstoets kandidaat-onderaannemer: middelen, deskundigheid, informatiebeveiliging, interne controles."
+  },
+  "10": {
+   "articles": [
+    "4",
+    "5"
+   ],
+   "reviewed": false,
+   "note": "Monitoring van prestaties en informatie over veranderingen in de uitbestedingsketen."
+  },
+  "11": {
+   "articles": [
+    "5",
+    "6"
+   ],
+   "reviewed": false,
+   "note": "Vooraf informeren over veranderingen; beëindigingsrecht bij overschrijden risicotolerantie."
+  },
+  "12": {
+   "articles": [],
+   "reviewed": false,
+   "note": "Procedureel: ESA-consultaties, kosten-batenanalyse, stakeholdersgroepen."
+  },
+  "13": {
+   "articles": [],
+   "reviewed": false,
+   "note": "Procedureel: raadpleging Europese Toezichthouder voor gegevensbescherming."
+  }
+ }
+}

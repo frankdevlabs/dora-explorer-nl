@@ -1,6 +1,6 @@
 import { readFileSync } from "node:fs";
 import { join, resolve } from "node:path";
-import type { Annex, Article, Recital, SearchDoc, Toc } from "../../src/lib/types.js";
+import type { Annex, Article, L2MapGenerated, Recital, RecitalMapGenerated, SearchDoc, Toc } from "../../src/lib/types.js";
 import { INSTRUMENTS, INSTRUMENT_IDS, type InstrumentId } from "../../src/lib/instruments.js";
 import { createSearchIndex } from "../../src/lib/search-core.js";
 
@@ -34,6 +34,9 @@ export const corpora: Record<InstrumentId, Corpus> = Object.fromEntries(
 ) as Record<InstrumentId, Corpus>;
 
 export const index = createSearchIndex(load<SearchDoc[]>(join(DATA_DIR, "search-docs.json")));
+
+export const recitalMap = load<RecitalMapGenerated>(join(DATA_DIR, "recital-map.json"));
+export const l2Map = load<L2MapGenerated>(join(DATA_DIR, "l2-map.json"));
 
 export { INSTRUMENTS, INSTRUMENT_IDS, type InstrumentId };
 

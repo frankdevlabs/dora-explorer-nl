@@ -100,3 +100,69 @@ export interface SearchDoc {
   url: string;
   text: string;
 }
+
+// ---------------------------------------------------------------------------
+// Recital↔article map (curated editorial layer, epic 9). Multi-instrument:
+// per-instrument entry blocks; article values are "28" (own instrument) or
+// "dora:28"/"its:2"/"rts:3" (explicit). Generated form uses composite
+// "inst:number" keys throughout.
+
+export interface RecitalMapEntry {
+  /** Article refs the recital motivates. Empty + reviewed = "none relevant". */
+  articles: string[];
+  /** False while drafted by the curation skill, true after human review. */
+  reviewed: boolean;
+  /** Dutch editorial aid; not rendered in v1. */
+  note?: string;
+}
+
+export interface RecitalMapSource {
+  meta: {
+    version: number;
+    /** False while curation is in progress; verify-recital-map skips
+     *  exact-count assertions until flipped. */
+    complete: boolean;
+  };
+  /** Keyed "1".."106" — every DORA recital present, reviewed or not. */
+  dora: Record<string, RecitalMapEntry>;
+  /** Keyed "1".."15". */
+  its: Record<string, RecitalMapEntry>;
+  /** Keyed "1".."13". */
+  rts: Record<string, RecitalMapEntry>;
+}
+
+export interface RecitalMapGenerated {
+  meta: { version: number; complete: boolean; reviewedCount: number; pairCount: number };
+  /** "inst:recital" → article keys ("inst:number") in document order. */
+  byRecital: Record<string, string[]>;
+  /** "inst:article" → recital keys ("inst:number") in document order (inverse). */
+  byArticle: Record<string, string[]>;
+}
+
+// ---------------------------------------------------------------------------
+// DORA↔level-2 map (curated editorial layer, epic 9): which ITS/RTS
+// provisions implement which DORA article.
+
+export interface L2Link {
+  /** DORA article number ("28"). */
+  dora: string;
+  /** Optional lid the empowerment/duty sits in (display only). */
+  lid?: number;
+  /** "its:3" | "rts:4" (article), "its:bijlage:iii", or bare "its"/"rts" (index page). */
+  target: string;
+  /** Short Dutch description of what the target regulates. */
+  label: string;
+}
+
+export interface L2MapSource {
+  meta: { version: number };
+  links: L2Link[];
+}
+
+export interface L2MapGenerated {
+  meta: { version: number; linkCount: number };
+  /** DORA article number → links (source order). */
+  byDora: Record<string, { target: string; lid?: number; label: string; href: string }[]>;
+  /** "its:3"-style article key → DORA basis articles (unique, ascending). */
+  byTarget: Record<string, { dora: string; lid?: number; label: string }[]>;
+}

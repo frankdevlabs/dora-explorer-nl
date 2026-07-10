@@ -10,10 +10,11 @@ check list change with nearly every epic. Update them in the same commit as
 the feature; a mismatch usually means this skill is stale, not that the app
 is broken — check `git log` before debugging.
 
-> **Epic-8 state:** full app (corpus + assessments + register werkbank;
-> **235 exported HTML pages**). Verify chain: verify-data,
-> verify-assessment (entity 18/57, supplier 11/48), verify-roi (15
-> templates / 98 kolommen + export fixtures), verify-search.
+> **Epic-9 state:** full app (corpus + assessments + register werkbank +
+> editorial maps; **235 exported HTML pages**). Verify chain: verify-data
+> (212 refs), verify-assessment (entity 18/57, supplier 11/48), verify-roi
+> (15 templates / 98 kolommen), verify-recital-map (172 pairs, two-regime),
+> verify-l2-map (15 links), verify-search.
 
 ## 1. Build (includes data verification)
 
@@ -45,6 +46,8 @@ curl -s "http://localhost:$PORT/search-docs.json" | head -c 100            # JSO
 curl -s "http://localhost:$PORT/its/bijlage/i" | grep -c "B_05.01.0010"     # >= 1 (RoI-kolomcodes)
 curl -s "http://localhost:$PORT/its/bijlage/iii" | grep -c "S19"            # >= 1 (taxonomie)
 curl -s "http://localhost:$PORT/rts/artikel/3" | grep -c "due diligence"    # >= 1
+curl -s "http://localhost:$PORT/artikel/28" | grep -c "Uitvoeringsbepalingen" # >= 1 (l2-paneel)
+curl -s "http://localhost:$PORT/rts/artikel/3" | grep -c "Grondslag in DORA"  # >= 1
 ```
 
 ## 3. Browser checks (Playwright, optional but thorough)

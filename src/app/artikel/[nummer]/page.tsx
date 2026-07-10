@@ -4,7 +4,8 @@ import { ArticleBody } from "@/components/content/ArticleBody";
 import { Breadcrumbs, type Crumb } from "@/components/layout/Breadcrumbs";
 import { PrevNextNav } from "@/components/layout/PrevNextNav";
 import { RegisterTab } from "@/components/layout/RegisterTab";
-import { articlePrevNext, getArticle, getArticleOrder } from "@/lib/data";
+import { L2Panel, RelatedRecitals } from "@/components/content/RelatedRecitals";
+import { articlePrevNext, getArticle, getArticleOrder, getL2ForArticle, getRecitalsForArticle } from "@/lib/data";
 
 export const dynamicParams = false;
 
@@ -58,6 +59,8 @@ export default async function ArtikelPage({ params }: Props) {
         </p>
       </header>
       <ArticleBody article={article} />
+      <RelatedRecitals recitals={getRecitalsForArticle(article.number)} />
+      <L2Panel links={getL2ForArticle(article.number)} />
       <PrevNextNav {...articlePrevNext(nummer)} />
     </article>
   );

@@ -11,12 +11,29 @@ import {
   getArticle,
   getRecital,
   index,
+  l2Map,
   normalizeArticleInput,
+  recitalMap,
 } from "./data.js";
 import { renderAnnex, renderArticle, renderText } from "./render.js";
 
 const text = (md: string) => ({ content: [{ type: "text" as const, text: md }] });
 const err = (md: string) => ({ content: [{ type: "text" as const, text: md }], isError: true });
+
+/** "dora:28" → deep link + label for MCP output. */
+function compositeArticleLink(key: string): string {
+  const [inst, num] = key.split(":") as [InstrumentId, string];
+  const prefix = INSTRUMENTS[inst].routePrefix;
+  const tag = inst === "dora" ? "" : ` (${INSTRUMENTS[inst].label})`;
+  return `[artikel ${num}${tag}](${BASE_URL}${prefix}/artikel/${num})`;
+}
+
+function compositeRecitalLink(key: string): string {
+  const [inst, num] = key.split(":") as [InstrumentId, string];
+  const prefix = INSTRUMENTS[inst].routePrefix;
+  const tag = inst === "dora" ? "" : ` (${INSTRUMENTS[inst].label})`;
+  return `[overweging ${num}${tag}](${BASE_URL}${prefix}/overweging/${num})`;
+}
 
 const instrumentEnum = z
   .enum(["dora", "its", "rts"])
@@ -91,7 +108,27 @@ export function createServer(): McpServer {
           `Artikel "${number}" niet gevonden in ${INSTRUMENTS[inst].citation} (bereik: 1–${max}).`,
         );
       }
-      return text(renderArticle(article, inst));
+      let md = renderArticle(article, inst);
+      const related = recitalMap.byArticle[`${inst}:${article.number}`];
+      if (related?.length) {
+        md += `\n\n**Relevante overwegingen:** ${related.map(compositeRecitalLink).join(" · ")}`;
+      }
+      if (inst === "dora") {
+        const l2 = l2Map.byDora[String(article.number)];
+        if (l2?.length) {
+          md += `\n\n**Uitvoeringsbepalingen (ITS/RTS):** ${l2
+            .map((l) => `[${l.target}](${BASE_URL}${l.href}) — ${l.label}`)
+            .join(" · ")}`;
+        }
+      } else {
+        const basis = l2Map.byTarget[`${inst}:${article.number}`];
+        if (basis?.length) {
+          md += `\n\n**Grondslag in DORA:** ${basis
+            .map((b) => `[artikel ${b.dora}${b.lid !== undefined ? `, lid ${b.lid}` : ""}](${BASE_URL}/artikel/${b.dora})`)
+            .join(" · ")}`;
+        }
+      }
+      return text(md);
     },
   );
 
@@ -117,8 +154,12 @@ export function createServer(): McpServer {
       }
       const prefix = INSTRUMENTS[inst].routePrefix;
       const body = r.paragraphs.map((p) => renderText(p.text, p.refs)).join("\n\n");
+      const slugs = recitalMap.byRecital[`${inst}:${r.number}`];
+      const related = slugs?.length
+        ? `\n\n**Relevante artikelen:** ${slugs.map(compositeArticleLink).join(" · ")}`
+        : "";
       return text(
-        `# Overweging ${r.number}\n\n*${INSTRUMENTS[inst].citation}*\n\n${body}\n\n**Deep link**: ${BASE_URL}${prefix}/overweging/${r.number}`,
+        `# Overweging ${r.number}\n\n*${INSTRUMENTS[inst].citation}*\n\n${body}${related}\n\n**Deep link**: ${BASE_URL}${prefix}/overweging/${r.number}`,
       );
     },
   );

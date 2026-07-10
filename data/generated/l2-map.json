@@ -1,0 +1,183 @@
+{
+ "meta": {
+  "version": 1,
+  "linkCount": 15
+ },
+ "byDora": {
+  "28": [
+   {
+    "target": "its",
+    "lid": 9,
+    "label": "RoI-ITS (2024/2956) — standaardmodellen voor het informatieregister",
+    "href": "/its"
+   },
+   {
+    "target": "its:2",
+    "lid": 3,
+    "label": "Ranking van aanbieders in de toeleveringsketen",
+    "href": "/its/artikel/2"
+   },
+   {
+    "target": "its:3",
+    "lid": 3,
+    "label": "Algemene vereisten en reikwijdte van de registermodellen",
+    "href": "/its/artikel/3"
+   },
+   {
+    "target": "its:4",
+    "lid": 3,
+    "label": "Gegevensformaat van het register",
+    "href": "/its/artikel/4"
+   },
+   {
+    "target": "its:5",
+    "lid": 3,
+    "label": "Inhoud van het informatieregister",
+    "href": "/its/artikel/5"
+   },
+   {
+    "target": "its:6",
+    "lid": 3,
+    "label": "Register op gesubconsolideerd en geconsolideerd niveau",
+    "href": "/its/artikel/6"
+   },
+   {
+    "target": "its:bijlage:i",
+    "lid": 3,
+    "label": "Instructies en kolomdefinities per template (B_01.01–B_99.01)",
+    "href": "/its/bijlage/i"
+   },
+   {
+    "target": "its:bijlage:iii",
+    "lid": 3,
+    "label": "Taxonomie van ICT-diensten (S01–S19)",
+    "href": "/its/bijlage/iii"
+   },
+   {
+    "target": "rts:2",
+    "lid": 2,
+    "label": "Consistente toepassing binnen een groep",
+    "href": "/rts/artikel/2"
+   }
+  ],
+  "29": [
+   {
+    "target": "rts:3",
+    "lid": 2,
+    "label": "Due diligence en risicobeoordeling van (lange) onderaannemingsketens",
+    "href": "/rts/artikel/3"
+   }
+  ],
+  "30": [
+   {
+    "target": "rts",
+    "lid": 5,
+    "label": "Onderaannemings-RTS (2025/532) — voorwaarden voor uitbesteding van KOF-diensten",
+    "href": "/rts"
+   },
+   {
+    "target": "rts:1",
+    "lid": 5,
+    "label": "Algemeen risicoprofiel en complexiteit (proportionaliteit)",
+    "href": "/rts/artikel/1"
+   },
+   {
+    "target": "rts:4",
+    "lid": 2,
+    "label": "Voorwaarden waaronder onderaanneming mag worden toegestaan",
+    "href": "/rts/artikel/4"
+   },
+   {
+    "target": "rts:5",
+    "lid": 2,
+    "label": "Materiële veranderingen in de onderaannemingsketen",
+    "href": "/rts/artikel/5"
+   },
+   {
+    "target": "rts:6",
+    "lid": 2,
+    "label": "Beëindiging bij onderaanneming in strijd met het contract",
+    "href": "/rts/artikel/6"
+   }
+  ]
+ },
+ "byTarget": {
+  "its:2": [
+   {
+    "dora": "28",
+    "lid": 3,
+    "label": "Ranking van aanbieders in de toeleveringsketen"
+   }
+  ],
+  "its:3": [
+   {
+    "dora": "28",
+    "lid": 3,
+    "label": "Algemene vereisten en reikwijdte van de registermodellen"
+   }
+  ],
+  "its:4": [
+   {
+    "dora": "28",
+    "lid": 3,
+    "label": "Gegevensformaat van het register"
+   }
+  ],
+  "its:5": [
+   {
+    "dora": "28",
+    "lid": 3,
+    "label": "Inhoud van het informatieregister"
+   }
+  ],
+  "its:6": [
+   {
+    "dora": "28",
+    "lid": 3,
+    "label": "Register op gesubconsolideerd en geconsolideerd niveau"
+   }
+  ],
+  "rts:1": [
+   {
+    "dora": "30",
+    "lid": 5,
+    "label": "Algemeen risicoprofiel en complexiteit (proportionaliteit)"
+   }
+  ],
+  "rts:4": [
+   {
+    "dora": "30",
+    "lid": 2,
+    "label": "Voorwaarden waaronder onderaanneming mag worden toegestaan"
+   }
+  ],
+  "rts:5": [
+   {
+    "dora": "30",
+    "lid": 2,
+    "label": "Materiële veranderingen in de onderaannemingsketen"
+   }
+  ],
+  "rts:6": [
+   {
+    "dora": "30",
+    "lid": 2,
+    "label": "Beëindiging bij onderaanneming in strijd met het contract"
+   }
+  ],
+  "rts:3": [
+   {
+    "dora": "29",
+    "lid": 2,
+    "label": "Due diligence en risicobeoordeling van (lange) onderaannemingsketens"
+   }
+  ],
+  "rts:2": [
+   {
+    "dora": "28",
+    "lid": 2,
+    "label": "Consistente toepassing binnen een groep"
+   }
+  ]
+ }
+}
