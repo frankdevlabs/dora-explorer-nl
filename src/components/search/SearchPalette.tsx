@@ -95,8 +95,8 @@ export function SearchPalette() {
         )}
         {query.trim().length < 2 && (
           <p className="p-4 text-sm text-muted">
-            Typ minimaal twee tekens. Voorbeeld: <em>verboden praktijken</em>,{" "}
-            <em>hoog risico</em>, <em>transparantie</em>.
+            Typ minimaal twee tekens. Voorbeeld: <em>informatieregister</em>,{" "}
+            <em>kritieke of belangrijke functie</em>, <em>onderaanneming</em>.
           </p>
         )}
         {(Object.keys(TYPE_META) as (keyof typeof TYPE_META)[]).map((type) => {
@@ -120,6 +120,11 @@ export function SearchPalette() {
                   <span className="min-w-0">
                     <span className="block truncate text-sm font-medium">
                       <Highlight text={h.heading} terms={h.terms} />
+                      {h.instrument !== "dora" && (
+                        <span className="ml-2 rounded border border-line px-1 py-0.5 align-middle text-[10px] font-medium uppercase tracking-wide text-muted">
+                          {h.instrument === "its" ? "RoI-ITS" : "RTS"}
+                        </span>
+                      )}
                     </span>
                     <span className="mt-0.5 line-clamp-2 text-xs text-muted">
                       <Highlight text={makeSnippet(h.text, h.terms)} terms={h.terms} />

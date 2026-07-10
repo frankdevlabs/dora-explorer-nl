@@ -66,6 +66,11 @@ export function SearchResults() {
               <span className="text-xs font-medium uppercase tracking-wide text-accent">
                 {TYPE_LABEL[h.type as keyof typeof TYPE_LABEL]}
               </span>
+              {h.instrument !== "dora" && (
+                <span className="ml-2 rounded border border-line px-1.5 py-0.5 text-[10px] font-medium uppercase tracking-wide text-muted">
+                  {h.instrument === "its" ? "RoI-ITS" : "RTS"}
+                </span>
+              )}
               <span className="mt-1 block font-medium group-hover:text-accent">
                 <Highlight text={h.heading} terms={h.terms} />
               </span>

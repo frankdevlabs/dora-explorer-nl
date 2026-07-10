@@ -19,6 +19,30 @@ export default function Home() {
         </p>
       </header>
 
+      <section aria-label="Uitvoeringshandelingen" className="mb-10 grid gap-3 sm:grid-cols-2">
+        <Link
+          href="/its"
+          className="group rounded-lg border border-line p-4 hover:border-accent"
+        >
+          <p className="font-semibold group-hover:text-accent">RoI-ITS</p>
+          <p className="mt-1 text-sm text-muted">
+            Uitvoeringsverordening (EU) 2024/2956 — de templates voor het
+            informatieregister (art. 28, lid 3) en de S01–S19-taxonomie.
+          </p>
+        </Link>
+        <Link
+          href="/rts"
+          className="group rounded-lg border border-line p-4 hover:border-accent"
+        >
+          <p className="font-semibold group-hover:text-accent">Onderaannemings-RTS</p>
+          <p className="mt-1 text-sm text-muted">
+            Gedelegeerde Verordening (EU) 2025/532 — voorwaarden voor
+            onderaanneming van ICT-diensten die kritieke of belangrijke functies
+            ondersteunen (art. 30, lid 5).
+          </p>
+        </Link>
+      </section>
+
       <nav aria-label="Volledige inhoudsopgave" className="space-y-8">
         {toc.chapters.map((c) => (
           <section key={c.roman} id={`hoofdstuk-${c.roman.toLowerCase()}`} className="scroll-mt-20">

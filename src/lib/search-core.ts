@@ -41,13 +41,13 @@ export const TYPEAHEAD_SEARCH_OPTIONS: SearchOptions = {
   boost: { heading: 3 },
 };
 
-export type SearchHit = SearchResult & Pick<SearchDoc, "heading" | "url" | "type" | "text" | "ref">;
+export type SearchHit = SearchResult & Pick<SearchDoc, "heading" | "url" | "type" | "text" | "ref" | "instrument">;
 
 /** Build the MiniSearch index over a corpus — shared by the site and the MCP server. */
 export function createSearchIndex(docs: SearchDoc[]): MiniSearch<SearchDoc> {
   const mini = new MiniSearch<SearchDoc>({
     fields: ["heading", "text"],
-    storeFields: ["heading", "url", "type", "text", "ref"],
+    storeFields: ["heading", "url", "type", "text", "ref", "instrument"],
     processTerm: normalizeTerm,
     searchOptions: TYPEAHEAD_SEARCH_OPTIONS,
   });

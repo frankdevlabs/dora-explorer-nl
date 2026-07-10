@@ -127,6 +127,26 @@ export function SidebarToc({ toc, onNavigate }: SidebarTocProps) {
           </Link>
         )}
         <Link
+          href="/its"
+          onClick={onNavigate}
+          className={cn(
+            "block rounded px-2 py-1.5 font-medium hover:bg-surface",
+            pathname.startsWith("/its") && "text-accent",
+          )}
+        >
+          RoI-ITS <span className="text-xs font-normal text-muted">(2024/2956)</span>
+        </Link>
+        <Link
+          href="/rts"
+          onClick={onNavigate}
+          className={cn(
+            "block rounded px-2 py-1.5 font-medium hover:bg-surface",
+            pathname.startsWith("/rts") && "text-accent",
+          )}
+        >
+          Onderaannemings-RTS <span className="text-xs font-normal text-muted">(2025/532)</span>
+        </Link>
+        <Link
           href="/assessment"
           onClick={onNavigate}
           className={cn(
