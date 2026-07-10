@@ -1,11 +1,9 @@
 # Epic 4 — MCP server + first deploy
 
-**Status**: done at the origin (July 2026); **blocked on one user action**:
-the Cloudflare zone returns error 526 for dora.mrfrank.dev — the proxied
-DNS record for this hostname does not point at this VPS (the origin serves
-the wildcard CF Origin cert correctly, verified with SNI curl). Add a
-proxied A record `dora.mrfrank.dev → 95.111.243.79` in the CF dashboard
-(aia.mrfrank.dev works; same cert, same nginx pattern).
+**Status**: done (July 2026). Initially blocked on a missing Cloudflare
+DNS record (edge 526 while the origin was verified OK); after the user
+added the proxied A record `dora.mrfrank.dev → 95.111.243.79` the site,
+`/healthz` and `POST /mcp` all pass through the edge (checked 10-7-2026).
 **Goal**: explorer live at https://dora.mrfrank.dev, MCP at `/mcp`.
 
 ## Design decisions

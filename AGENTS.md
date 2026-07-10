@@ -77,7 +77,6 @@ All EUR-Lex sources are WAF-blocked; fetch via
 
 Alles uit het initiële plan is gebouwd: corpus, crossrefs, UI, MCP, beide
 assessments, de registerwerkbank (`/register`, schema afgeleid via
-`scripts/build-roi-schema.ts`) en de exports. Openstaand: de
-Cloudflare-DNS-record voor dora.mrfrank.dev (site geeft 526 aan de edge; de
-origin is klaar — zie docs/epics/epic-4-mcp-deploy.md) en de optionele
-epic 9 (recital-map, DORA↔ITS/RTS-panelen).
+`scripts/build-roi-schema.ts`) en de exports. Site en MCP zijn live
+op https://dora.mrfrank.dev. Openstaand: alleen de optionele epic 9
+(recital-map, DORA↔ITS/RTS-panelen).
