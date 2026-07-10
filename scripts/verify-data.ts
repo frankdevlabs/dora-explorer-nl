@@ -237,6 +237,72 @@ assert.deepEqual(
   "its anx III: S01-S19",
 );
 
+// ------------------------------------------------- cross-references (epic 2)
+
+// pinned 2026-07 after the epic-2 negative sweep (every emitted ref audited
+// against its after-context; 0 foreign-qualifier hits; 5 suppressed bare
+// refs all inside quoted text of amendment arts 59-63): dora 178, its 26,
+// rts 10
+const REF_EXPECT: Record<string, number> = { dora: 178, its: 26, rts: 10 };
+
+function collectRefs(inst: string): { href: string; where: string }[] {
+  const out: { href: string; where: string }[] = [];
+  const articles = load<Article[]>(`data/generated/${inst}/articles.json`);
+  const recitals = load<Recital[]>(`data/generated/${inst}/recitals.json`);
+  const annexes = load<Annex[]>(`data/generated/${inst}/annexes.json`);
+  const walk = (nodes: ContentNode[], where: string) => {
+    for (const n of nodes) {
+      if (n.type === "text") for (const r of n.refs ?? []) out.push({ href: r.href, where });
+      if (n.type === "list") for (const item of n.items) walk(item.content, where);
+    }
+  };
+  for (const a of articles) for (const p of a.paragraphs) walk(p.content, `art ${a.number}`);
+  for (const r of recitals)
+    for (const p of r.paragraphs)
+      for (const s of p.refs ?? []) out.push({ href: s.href, where: `rct ${r.number}` });
+  for (const a of annexes) walk(a.content, `anx ${a.roman}`);
+  return out;
+}
+
+let refTotal = 0;
+for (const [inst, expected] of Object.entries(REF_EXPECT)) {
+  const refs = collectRefs(inst);
+  assert.equal(refs.length, expected, `${inst}: ref count drifted (${refs.length})`);
+  refTotal += refs.length;
+}
+assert.equal(refTotal, 214, "total ref count");
+
+// positive spot checks: the cross-instrument resolver (ITS/RTS text linking
+// into DORA's unprefixed routes)
+const itsRefs = collectRefs("its");
+assert.ok(
+  itsRefs.some((r) => r.where === "art 3" && r.href === "/artikel/28#lid-3"),
+  "its art 3 → dora art 28(3)",
+);
+const rtsRefs = collectRefs("rts");
+assert.ok(
+  rtsRefs.some((r) => r.where === "art 4" && r.href === "/artikel/30#lid-3-c"),
+  "rts art 4 → dora art 30(3)(c)",
+);
+assert.ok(
+  rtsRefs.some((r) => r.href === "/#hoofdstuk-iv"),
+  "rts → dora hoofdstuk IV homepage anchor",
+);
+// negative: nothing may ever resolve into the sectoral acts DORA art 2/3
+// cites (Richtlijn 2013/36/EU, Verordening (EU) 2016/679, ...) — those have
+// no routes here, so any such bug surfaces as an unresolvable-target throw
+// in the parser; belt-and-braces, assert no ref leaves the three route roots
+for (const inst of Object.keys(REF_EXPECT)) {
+  for (const r of collectRefs(inst)) {
+    assert.ok(
+      /^\/(?:(?:its|rts)\/)?(?:artikel|overweging|bijlage)\/|^\/(?:its\/|rts\/)?#hoofdstuk-/.test(
+        r.href,
+      ),
+      `${inst} ${r.where}: unexpected href shape ${r.href}`,
+    );
+  }
+}
+
 // ------------------------------------------------- search docs
 
 const docs = load<SearchDoc[]>("data/generated/search-docs.json");

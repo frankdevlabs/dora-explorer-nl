@@ -1,26 +1,35 @@
 /**
- * Detect internal cross-references ("artikel 6, lid 2, punt c)", "bijlage III,
- * punt 2", "hoofdstuk V") in a plain-text string and return them as char-offset
- * RefSpans. Pure text analysis: hrefs are *candidates* — the parser post-pass
- * validates page targets against the parsed corpus and strips fragments whose
- * anchor does not exist (or is not unique) on the target page.
+ * Detect internal cross-references ("artikel 6, lid 2, punt c)", "hoofdstuk V")
+ * in a plain-text string and return them as char-offset RefSpans. Pure text
+ * analysis: hrefs are *candidates* — the parser post-pass validates page
+ * targets against the parsed corpus and strips fragments whose anchor does
+ * not exist (or is not unique) on the target page.
+ *
+ * Multi-instrument (epic 2): every reference resolves to a *target
+ * instrument*. A bare reference ("artikel 5") targets the instrument the
+ * text belongs to (ctx.instrument). An explicit qualifier can retarget it:
+ * "artikel 28, lid 3, van Verordening (EU) 2022/2554" inside the ITS or RTS
+ * links into DORA's unprefixed routes; the registered citation forms of all
+ * three instruments resolve, every other instrument ("van Verordening (EU)
+ * 2016/679", "van Richtlijn 2013/36/EU", VWEU/VEU, …) excludes the phrase.
  *
  * Span granularity: a single-target reference gets one span over the whole
  * phrase ("artikel 98, lid 2"). Enumerations and ranges emit one span per
- * number token, the first extended left to include the keyword ("artikelen 53"
- * → /artikel/53, "55" → /artikel/55). Range interiors ("91 tot en met 94")
- * only link the endpoints — the other numbers do not occur in the text.
+ * number token, the first extended left to include the keyword ("artikelen
+ * 53" → /artikel/53, "55" → /artikel/55). Range interiors ("91 tot en met
+ * 94") only link the endpoints — the other numbers do not occur in the text.
  *
- * Exclusions (checked before emitting): trailing VWEU/VEU ("artikel 16 VWEU",
- * "artikel 4, lid 2, VEU") and "van/bij <other instrument>" ("van Verordening
- * (EU) 2016/679", "van die verordening", "van het Handvest"). Self-forms stay
- * linkable: "van deze verordening", "van de onderhavige verordening", "van
- * Verordening (EU) 2024/1689". With linkBareRefs=false (amendment articles
- * 102–110, which quote text of other acts) only the explicit self-forms link.
+ * Conjunction distribution: an instrument qualifier after the last conjunct
+ * ("artikel 6, lid 4, en artikel 9, lid 2, van Verordening (EU) 2016/679")
+ * applies to ALL conjuncts — the lookahead parses through en/of chains and
+ * defers to whatever qualifies the final phrase.
  */
+import { INSTRUMENTS, type InstrumentId } from "./instruments";
 import type { RefSpan } from "./types";
 
 export interface RefContext {
+  /** Instrument the analysed text belongs to. */
+  instrument: InstrumentId;
   selfType: "artikel" | "overweging" | "bijlage";
   selfRef: string;
   /** When false, only refs followed by an explicit self-instrument form link. */
@@ -30,9 +39,24 @@ export interface RefContext {
 const ROMAN = /[IVX]+(?![A-Za-z])/y;
 const KEYWORD = /\b([Aa]rtikel(?:en)?|[Bb]ijlagen?|[Hh]oofdstuk(?:ken)?|[Oo]verweging(?:en)?)[  ]/g;
 
-// "van deze verordening" / "van Verordening (EU) 2024/1689" → explicitly this act
-const SELF_INSTRUMENT =
-  /,?[  ]*(?:van|bij)[  ]+(?:(?:de[  ]+)?onderhavige[  ]+verordening|deze[  ]+verordening|Verordening[  ]+\(EU\)[  ]+2024\/1689)/y;
+// "van deze verordening" / "van deze uitvoeringsverordening" / "van de
+// onderhavige verordening" → explicitly the act the text belongs to
+const SELF_FORM =
+  /,?[  ]*(?:van|bij)[  ]+(?:(?:de[  ]+)?onderhavige[  ]+(?:uitvoerings|gedelegeerde[  ]+)?verordening|deze[  ]+(?:uitvoerings|gedelegeerde[  ]+)?verordening)/y;
+
+// registered citation forms → their instrument (escaped for regex)
+const CITATION_FORMS: { id: InstrumentId; re: RegExp }[] = (
+  Object.values(INSTRUMENTS) as { id: InstrumentId; citation: string }[]
+).map(({ id, citation }) => ({
+  id,
+  re: new RegExp(
+    `,?[  ]*(?:van|bij)[  ]+${citation
+      .replace(/[()\\/]/g, (ch) => `\\${ch}`)
+      .replace(/[  ]+/g, "[  ]+")}(?![\\d/])`,
+    "y",
+  ),
+}));
+
 // "van/bij <some other instrument>" → reference into another act, skip
 const OTHER_INSTRUMENT =
   /,?[  ]*(?:van|bij)[  ]+(?:(?:de|het|die|dat|een)[  ]+)?(?:[A-ZÉ][\w-]*[  ]+)?[\w-]*(?:[Vv]erordening(?:en)?|[Rr]ichtlijn(?:en)?|[Bb]esluit(?:en)?|[Aa]anbeveling(?:en)?|[Vv]erdrag(?:en)?|[Hh]andvest|[Oo]vereenkomst(?:en)?|[Aa]kkoord|[Pp]rotocol)\b/y;
@@ -41,7 +65,7 @@ const TREATY = /,?[  ]*VW?EU\b/y;
 const ORDINAL =
   /(?:eerste|tweede|derde|vierde|vijfde|zesde|zevende|achtste|negende|tiende|laatste)/;
 
-const ARTIKEL_NUM = /\d+(?![\d/])(?!\.\d)(?:[  ]+(?:bis|ter|quater|quinquies)\b)?/y;
+const ARTIKEL_NUM = /\d+(?![\d/])(?!\.\d)/y;
 const PLAIN_NUM = /\d+(?![\d/])(?!\.\d)/y;
 // ", en artikel …" / " of de artikelen …" — a conjunction chaining to another
 // reference phrase, whose trailing instrument qualifier distributes back
@@ -172,21 +196,34 @@ function eatSubRefs(c: Cursor): SubRefs {
   return out;
 }
 
-/** Excluded / allowed lookahead at the end of a parsed phrase.
+/**
+ * Resolve the qualifier at the end of a parsed phrase to a target
+ * instrument, or null when the phrase must not link.
  *
  * An instrument qualifier after the last conjunct distributes over the whole
  * conjunction ("artikel 6, lid 4, en artikel 9, lid 2, punt g), van
  * Verordening (EU) 2016/679" excludes artikel 6 too), so a bare-looking
  * phrase followed by ", en <reference phrase>" defers to whatever qualifies
- * that next phrase. */
-function allowedHere(c: Cursor, linkBareRefs: boolean, depth = 0): boolean {
+ * that next phrase.
+ */
+function resolveTarget(
+  c: Cursor,
+  ctx: RefContext,
+  linkBareRefs: boolean,
+  depth = 0,
+): InstrumentId | null {
   const at = (re: RegExp) => {
     re.lastIndex = c.i;
     return re.test(c.s);
   };
-  if (at(SELF_INSTRUMENT)) return true;
-  if (at(TREATY)) return false;
-  if (at(OTHER_INSTRUMENT)) return false;
+  if (at(SELF_FORM)) return ctx.instrument;
+  // registered citation forms resolve cross-instrument; check before the
+  // generic other-instrument exclusion, which would also match them
+  for (const { id, re } of CITATION_FORMS) {
+    if (at(re)) return id;
+  }
+  if (at(TREATY)) return null;
+  if (at(OTHER_INSTRUMENT)) return null;
   if (depth < 4) {
     const look = new Cursor(c.s, c.i);
     if (look.eat(CONJ)) {
@@ -209,11 +246,11 @@ function allowedHere(c: Cursor, linkBareRefs: boolean, depth = 0): boolean {
         } else {
           parsed = eatNumberList(look, PLAIN_NUM).length > 0;
         }
-        if (parsed) return allowedHere(look, linkBareRefs, depth + 1);
+        if (parsed) return resolveTarget(look, ctx, linkBareRefs, depth + 1);
       }
     }
   }
-  return linkBareRefs;
+  return linkBareRefs ? ctx.instrument : null;
 }
 
 export function findRefs(text: string, ctx: RefContext): RefSpan[] {
@@ -228,51 +265,53 @@ export function findRefs(text: string, ctx: RefContext): RefSpan[] {
 
     let produced: RefSpan[] | null = null;
     if (keyword === "artikel" || keyword === "artikelen") {
-      produced = parseArtikel(c, kw.index, linkBareRefs);
+      produced = parseArtikel(c, kw.index, ctx, linkBareRefs);
     } else if (keyword === "bijlage" || keyword === "bijlagen") {
-      produced = parseBijlage(c, kw.index, linkBareRefs);
+      produced = parseBijlage(c, kw.index, ctx, linkBareRefs);
     } else if (keyword === "hoofdstuk" || keyword === "hoofdstukken") {
-      produced = parseHoofdstuk(c, kw.index, linkBareRefs);
+      produced = parseHoofdstuk(c, kw.index, ctx, linkBareRefs);
     } else if (keyword === "overweging" || keyword === "overwegingen") {
-      produced = parseOverweging(c, kw.index, linkBareRefs);
+      produced = parseOverweging(c, kw.index, ctx, linkBareRefs);
     }
     if (!produced) continue;
 
     // drop links that resolve to the current page without a deep-link fragment
+    const ownPrefix = INSTRUMENTS[ctx.instrument].routePrefix;
     const selfHref =
       ctx.selfType === "artikel"
-        ? `/artikel/${ctx.selfRef}`
+        ? `${ownPrefix}/artikel/${ctx.selfRef}`
         : ctx.selfType === "bijlage"
-          ? `/bijlage/${ctx.selfRef.toLowerCase()}`
-          : `/overweging/${ctx.selfRef}`;
+          ? `${ownPrefix}/bijlage/${ctx.selfRef.toLowerCase()}`
+          : `${ownPrefix}/overweging/${ctx.selfRef}`;
     spans.push(...produced.filter((s) => s.href !== selfHref));
     KEYWORD.lastIndex = c.i;
   }
   return spans;
 }
 
-// "75 ter" → "75ter", matching NewArticleSpec.slug (omnibus-inserted articles)
-function artikelSlug(value: string): string {
-  return value.toLowerCase().replace(/[^a-z0-9]+/g, "");
-}
-
-function parseArtikel(c: Cursor, phraseStart: number, linkBareRefs: boolean): RefSpan[] | null {
-  // optional Latin suffix: "artikel 75 ter" is its own article, not artikel 75
+function parseArtikel(
+  c: Cursor,
+  phraseStart: number,
+  ctx: RefContext,
+  linkBareRefs: boolean,
+): RefSpan[] | null {
   const numbers = eatNumberList(c, ARTIKEL_NUM);
   if (numbers.length === 0) return null;
   const sub = numbers.length === 1 ? eatSubRefs(c) : { lids: [], punten: [], end: c.i };
-  if (!allowedHere(c, linkBareRefs)) return null;
+  const target = resolveTarget(c, ctx, linkBareRefs);
+  if (target === null) return null;
+  const prefix = INSTRUMENTS[target].routePrefix;
 
   if (numbers.length > 1) {
     // enumeration/range: one span per number token, first includes the keyword
     return numbers.map((n, i) => ({
       start: i === 0 ? phraseStart : n.start,
       end: n.end,
-      href: `/artikel/${artikelSlug(n.value)}`,
+      href: `${prefix}/artikel/${n.value}`,
     }));
   }
 
-  const page = `/artikel/${artikelSlug(numbers[0].value)}`;
+  const page = `${prefix}/artikel/${numbers[0].value}`;
   const { lids, punten } = sub;
   if (lids.length === 0 && punten.length === 0) {
     return [{ start: phraseStart, end: numbers[0].end, href: page }];
@@ -301,7 +340,12 @@ function parseArtikel(c: Cursor, phraseStart: number, linkBareRefs: boolean): Re
   }));
 }
 
-function parseBijlage(c: Cursor, phraseStart: number, linkBareRefs: boolean): RefSpan[] | null {
+function parseBijlage(
+  c: Cursor,
+  phraseStart: number,
+  ctx: RefContext,
+  linkBareRefs: boolean,
+): RefSpan[] | null {
   const romans = eatNumberList(c, ROMAN);
   if (romans.length === 0) return null;
   let punten: NumToken[] = [];
@@ -312,16 +356,18 @@ function parseBijlage(c: Cursor, phraseStart: number, linkBareRefs: boolean): Re
     punten = sub.punten;
     end = sub.end;
   }
-  if (!allowedHere(c, linkBareRefs)) return null;
+  const target = resolveTarget(c, ctx, linkBareRefs);
+  if (target === null) return null;
+  const prefix = INSTRUMENTS[target].routePrefix;
 
   if (romans.length > 1 || punten.length === 0) {
     return romans.map((r, i) => ({
       start: i === 0 ? phraseStart : r.start,
       end: i === 0 && romans.length === 1 ? end : r.end,
-      href: `/bijlage/${r.value.toLowerCase()}`,
+      href: `${prefix}/bijlage/${r.value.toLowerCase()}`,
     }));
   }
-  const page = `/bijlage/${romans[0].value.toLowerCase()}`;
+  const page = `${prefix}/bijlage/${romans[0].value.toLowerCase()}`;
   return punten.map((p, i) => ({
     start: i === 0 ? phraseStart : p.start,
     end: p.end,
@@ -329,27 +375,43 @@ function parseBijlage(c: Cursor, phraseStart: number, linkBareRefs: boolean): Re
   }));
 }
 
-function parseHoofdstuk(c: Cursor, phraseStart: number, linkBareRefs: boolean): RefSpan[] | null {
+function parseHoofdstuk(
+  c: Cursor,
+  phraseStart: number,
+  ctx: RefContext,
+  linkBareRefs: boolean,
+): RefSpan[] | null {
   const romans = eatNumberList(c, ROMAN);
   if (romans.length === 0) return null;
   // chapter afdelingen have no homepage anchors; consume for the lookahead
-  const afd = c.eat(/,[  ]*afdeling(?:en)?[  ]+\d+(?:[  ]+en[  ]+\d+)?/y);
-  if (!allowedHere(c, linkBareRefs)) return null;
+  const afd = c.eat(/,[  ]*afdeling(?:en)?[  ]+[IVX\d]+(?:[  ]+en[  ]+[IVX\d]+)?/y);
+  const target = resolveTarget(c, ctx, linkBareRefs);
+  if (target === null) return null;
+  // chapter anchors live on the instrument's index page; only DORA (the
+  // unprefixed homepage) has one — ITS/RTS have no chapters at all
+  const prefix = INSTRUMENTS[target].routePrefix;
   const end = romans.length === 1 && afd ? c.i : undefined;
   return romans.map((r, i) => ({
     start: i === 0 ? phraseStart : r.start,
     end: i === 0 && end !== undefined ? end : r.end,
-    href: `/#hoofdstuk-${r.value.toLowerCase()}`,
+    href: `${prefix}/#hoofdstuk-${r.value.toLowerCase()}`,
   }));
 }
 
-function parseOverweging(c: Cursor, phraseStart: number, linkBareRefs: boolean): RefSpan[] | null {
+function parseOverweging(
+  c: Cursor,
+  phraseStart: number,
+  ctx: RefContext,
+  linkBareRefs: boolean,
+): RefSpan[] | null {
   const numbers = eatNumberList(c, PLAIN_NUM);
   if (numbers.length === 0) return null;
-  if (!allowedHere(c, linkBareRefs)) return null;
+  const target = resolveTarget(c, ctx, linkBareRefs);
+  if (target === null) return null;
+  const prefix = INSTRUMENTS[target].routePrefix;
   return numbers.map((n, i) => ({
     start: i === 0 ? phraseStart : n.start,
     end: n.end,
-    href: `/overweging/${n.value}`,
+    href: `${prefix}/overweging/${n.value}`,
   }));
 }

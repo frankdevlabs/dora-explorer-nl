@@ -3,7 +3,14 @@
   "number": 1,
   "paragraphs": [
    {
-    "text": "Het is noodzakelijk standaardmodellen op te stellen ten behoeve van het informatieregister voor alle contractuele overeenkomsten over het gebruik van informatie- en communicatietechnologiediensten (ICT-diensten) van derde aanbieders van ICT-diensten als bedoeld in artikel 28, lid 3, van Verordening (EU) 2022/2554. De informatie uit dat register is van essentieel belang voor het interne ICT-risicobeheer van de financiële entiteiten, voor het doeltreffende toezicht op de financiële entiteiten door hun bevoegde autoriteiten en voor het instellen en uitoefenen van oversight over de kritieke derde aanbieders van ICT-diensten door de lead overseer. Verder is die informatie van essentieel belang voor de jaarlijkse procedure voor de aanwijzing van kritieke derde aanbieders van ICT-diensten door de Europese Bankautoriteit, de Europese Autoriteit voor verzekeringen en bedrijfspensioenen en de Europese Autoriteit voor effecten en markten (gezamenlijk de “Europese toezichthoudende autoriteiten” (ETA’s) genoemd)."
+    "text": "Het is noodzakelijk standaardmodellen op te stellen ten behoeve van het informatieregister voor alle contractuele overeenkomsten over het gebruik van informatie- en communicatietechnologiediensten (ICT-diensten) van derde aanbieders van ICT-diensten als bedoeld in artikel 28, lid 3, van Verordening (EU) 2022/2554. De informatie uit dat register is van essentieel belang voor het interne ICT-risicobeheer van de financiële entiteiten, voor het doeltreffende toezicht op de financiële entiteiten door hun bevoegde autoriteiten en voor het instellen en uitoefenen van oversight over de kritieke derde aanbieders van ICT-diensten door de lead overseer. Verder is die informatie van essentieel belang voor de jaarlijkse procedure voor de aanwijzing van kritieke derde aanbieders van ICT-diensten door de Europese Bankautoriteit, de Europese Autoriteit voor verzekeringen en bedrijfspensioenen en de Europese Autoriteit voor effecten en markten (gezamenlijk de “Europese toezichthoudende autoriteiten” (ETA’s) genoemd).",
+    "refs": [
+     {
+      "start": 265,
+      "end": 282,
+      "href": "/artikel/28#lid-3"
+     }
+    ]
    }
   ]
  },
@@ -19,7 +26,14 @@
   "number": 3,
   "paragraphs": [
    {
-    "text": "Op grond van artikel 28, lid 1, punt b), van Verordening (EU) 2022/2554 moet bij het beheer van het ICT-risico van derde aanbieders door financiële entiteiten rekening worden gehouden met de aard, de schaal, de complexiteit en het belang van ICT-gerelateerde afhankelijkheden en met de risico’s die voortvloeien uit contractuele overeenkomsten die met derde aanbieders van ICT-diensten zijn gesloten over het gebruik van ICT-diensten. Bij die risicobeoordeling moet rekening worden gehouden met het kritieke karakter of het belang van de diensten, processen of functies van de financiële entiteit en met de potentiële gevolgen voor de continuïteit en beschikbaarheid van financiële diensten en activiteiten, op entiteits- en op groepsniveau."
+    "text": "Op grond van artikel 28, lid 1, punt b), van Verordening (EU) 2022/2554 moet bij het beheer van het ICT-risico van derde aanbieders door financiële entiteiten rekening worden gehouden met de aard, de schaal, de complexiteit en het belang van ICT-gerelateerde afhankelijkheden en met de risico’s die voortvloeien uit contractuele overeenkomsten die met derde aanbieders van ICT-diensten zijn gesloten over het gebruik van ICT-diensten. Bij die risicobeoordeling moet rekening worden gehouden met het kritieke karakter of het belang van de diensten, processen of functies van de financiële entiteit en met de potentiële gevolgen voor de continuïteit en beschikbaarheid van financiële diensten en activiteiten, op entiteits- en op groepsniveau.",
+    "refs": [
+     {
+      "start": 13,
+      "end": 39,
+      "href": "/artikel/28#lid-1-b"
+     }
+    ]
    }
   ]
  },

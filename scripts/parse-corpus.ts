@@ -30,6 +30,7 @@ import { mkdirSync, readFileSync, writeFileSync, copyFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { INSTRUMENTS, type InstrumentId } from "../src/lib/instruments";
+import { findRefs, type RefContext } from "../src/lib/crossrefs";
 import { assignItemAnchors, flattenNodes, markerToSlug } from "../src/lib/flatten";
 import type {
   Annex,
@@ -514,16 +515,19 @@ function parseOjArticles(file: string): Article[] {
 }
 
 // =================================================================
-// Per-instrument pipeline
+// Phase A: parse every instrument
 // =================================================================
 
-const summary: string[] = [];
-const allSearchDocs: SearchDoc[] = [];
+interface ParsedInstrument {
+  articles: Article[];
+  annexes: Annex[];
+  chapters: ChapterInfo[];
+  recitals: Recital[];
+  footnoteCount: number;
+}
 
+const parsedById = new Map<InstrumentId, ParsedInstrument>();
 for (const src of SOURCES) {
-  const spec = INSTRUMENTS[src.id];
-  const prefix = spec.routePrefix;
-
   let articles: Article[];
   let annexes: Annex[] = [];
   let chapters: ChapterInfo[] = [];
@@ -538,6 +542,175 @@ for (const src of SOURCES) {
     articles = parseOjArticles(src.articles.file);
   }
   const recitals = parseOjRecitals(src.recitals.file);
+  parsedById.set(src.id, { articles, annexes, chapters, recitals, footnoteCount });
+}
+
+// =================================================================
+// Phase B: internal cross-references (epic 2)
+//
+// Post-pass over the full multi-instrument corpus: detect "artikel 6,
+// lid 2"-style references in every text node and attach char-offset
+// RefSpans. Every candidate href is validated against the just-built union
+// corpus: an unresolvable page target is a grammar bug (throw); a fragment
+// whose anchor does not exist — or is not unique — on the target page is
+// stripped, leaving the page link.
+// =================================================================
+
+/** Anchor ids that occur exactly once on a page (duplicates are unreliable jump targets). */
+function uniqueAnchors(ids: string[]): Set<string> {
+  const counts = new Map<string, number>();
+  for (const id of ids) counts.set(id, (counts.get(id) ?? 0) + 1);
+  return new Set([...counts].filter(([, n]) => n === 1).map(([id]) => id));
+}
+
+function collectItemAnchors(nodes: ContentNode[], into: string[]): void {
+  for (const n of nodes) {
+    if (n.type !== "list") continue;
+    for (const item of n.items) {
+      if (item.anchor) into.push(item.anchor);
+      collectItemAnchors(item.content, into);
+    }
+  }
+}
+
+interface ResolvedCorpus {
+  articleAnchors: Map<string, Set<string>>;
+  annexAnchors: Map<string, Set<string>>;
+  chapterRomans: Set<string>;
+  recitalNumbers: Set<string>;
+}
+
+const resolvers = new Map<InstrumentId, ResolvedCorpus>();
+for (const [id, parsed] of parsedById) {
+  const articleAnchors = new Map<string, Set<string>>();
+  for (const a of parsed.articles) {
+    const ids: string[] = [];
+    for (const p of a.paragraphs) {
+      ids.push(p.anchor);
+      collectItemAnchors(p.content, ids);
+    }
+    articleAnchors.set(String(a.number), uniqueAnchors(ids));
+  }
+  const annexAnchors = new Map<string, Set<string>>();
+  for (const a of parsed.annexes) {
+    const ids: string[] = [];
+    collectItemAnchors(a.content, ids);
+    annexAnchors.set(a.roman.toLowerCase(), uniqueAnchors(ids));
+  }
+  resolvers.set(id, {
+    articleAnchors,
+    annexAnchors,
+    chapterRomans: new Set(parsed.chapters.map((c) => c.roman.toLowerCase())),
+    recitalNumbers: new Set(parsed.recitals.map((r) => String(r.number))),
+  });
+}
+
+let refCount = 0;
+const refCountByInstrument = new Map<InstrumentId, number>();
+
+/** Split an href into its target instrument and instrument-local path. */
+function splitHref(href: string): { instrument: InstrumentId; page: string; fragment?: string } {
+  const [full, fragment] = href.split("#");
+  const m = full.match(/^\/(its|rts)(\/.*|\/?$)/);
+  const instrument = (m ? m[1] : "dora") as InstrumentId;
+  let page = m ? m[2] || "/" : full;
+  if (page === "") page = "/";
+  return { instrument, page, fragment };
+}
+
+/** Validate a candidate href; returns it with the fragment stripped if unanchorable. */
+function resolveRefHref(href: string, where: string): string {
+  const { instrument, page, fragment } = splitHref(href);
+  const corpus = resolvers.get(instrument)!;
+  if (page === "/") {
+    // index-page chapter anchor: /#hoofdstuk-iii
+    const roman = fragment?.replace(/^hoofdstuk-/, "") ?? "";
+    if (!corpus.chapterRomans.has(roman))
+      throw new Error(`${where}: unresolvable chapter ref ${href}`);
+    return href;
+  }
+  let anchors: Set<string> | undefined;
+  const art = page.match(/^\/artikel\/(\d+)$/);
+  const anx = page.match(/^\/bijlage\/([a-z]+)$/);
+  const rct = page.match(/^\/overweging\/(\d+)$/);
+  if (art) anchors = corpus.articleAnchors.get(art[1]);
+  else if (anx) anchors = corpus.annexAnchors.get(anx[1]);
+  else if (!rct || !corpus.recitalNumbers.has(rct[1])) {
+    throw new Error(`${where}: unresolvable cross-reference target ${href}`);
+  }
+  if ((art || anx) && !anchors)
+    throw new Error(`${where}: unresolvable cross-reference target ${href}`);
+  if (!fragment) return href;
+  const pagePart = href.split("#")[0];
+  return anchors?.has(fragment) ? href : pagePart;
+}
+
+function annotateNodes(nodes: ContentNode[], ctx: RefContext, selfHref: string, where: string): void {
+  for (const n of nodes) {
+    if (n.type === "text") {
+      const refs = findRefs(n.text, ctx)
+        .map((r) => ({ ...r, href: resolveRefHref(r.href, where) }))
+        // fragment stripping can reduce a deep link to a plain self-page link
+        .filter((r) => r.href !== selfHref);
+      if (refs.length > 0) {
+        n.refs = refs;
+        refCount += refs.length;
+        refCountByInstrument.set(
+          ctx.instrument,
+          (refCountByInstrument.get(ctx.instrument) ?? 0) + refs.length,
+        );
+      }
+    } else if (n.type === "list") {
+      for (const item of n.items) annotateNodes(item.content, ctx, selfHref, where);
+    }
+  }
+}
+
+for (const [id, parsed] of parsedById) {
+  const prefix = INSTRUMENTS[id].routePrefix;
+  for (const a of parsed.articles) {
+    const ctx: RefContext = {
+      instrument: id,
+      selfType: "artikel",
+      selfRef: String(a.number),
+      // dora arts 59-63 amend other acts and quote their text; only explicit
+      // self-forms may link there
+      linkBareRefs: !(id === "dora" && a.number >= 59 && a.number <= 63),
+    };
+    for (const p of a.paragraphs) {
+      annotateNodes(p.content, ctx, `${prefix}/artikel/${a.number}`, `${id} artikel ${a.number}`);
+    }
+  }
+  for (const r of parsed.recitals) {
+    const ctx: RefContext = { instrument: id, selfType: "overweging", selfRef: String(r.number) };
+    for (const p of r.paragraphs) {
+      const refs = findRefs(p.text, ctx)
+        .map((s) => ({ ...s, href: resolveRefHref(s.href, `${id} overweging ${r.number}`) }))
+        .filter((s) => s.href !== `${prefix}/overweging/${r.number}`);
+      if (refs.length > 0) {
+        p.refs = refs;
+        refCount += refs.length;
+        refCountByInstrument.set(id, (refCountByInstrument.get(id) ?? 0) + refs.length);
+      }
+    }
+  }
+  for (const a of parsed.annexes) {
+    const ctx: RefContext = { instrument: id, selfType: "bijlage", selfRef: a.roman };
+    annotateNodes(a.content, ctx, `${prefix}/bijlage/${a.roman.toLowerCase()}`, `${id} bijlage ${a.roman}`);
+  }
+}
+
+// =================================================================
+// Phase C: toc, search docs, write
+// =================================================================
+
+const summary: string[] = [];
+const allSearchDocs: SearchDoc[] = [];
+
+for (const src of SOURCES) {
+  const spec = INSTRUMENTS[src.id];
+  const prefix = spec.routePrefix;
+  const { articles, annexes, chapters, recitals, footnoteCount } = parsedById.get(src.id)!;
 
   const toc: Toc = {
     chapters: chapters.map((c): TocChapter => {
@@ -662,7 +835,8 @@ for (const src of SOURCES) {
 
   summary.push(
     `${src.id}: ${articles.length} art, ${recitals.length} rct, ${annexes.length} anx, ` +
-      `${chapters.length} cpt, ${footnoteCount} fn, ${searchDocs.length} docs`,
+      `${chapters.length} cpt, ${footnoteCount} fn, ${searchDocs.length} docs, ` +
+      `${refCountByInstrument.get(src.id) ?? 0} refs`,
   );
 }
 
@@ -672,4 +846,4 @@ writeFileSync(
 );
 copyFileSync(join(root, "data/generated/search-docs.json"), join(root, "public/search-docs.json"));
 
-console.log(`parsed — ${summary.join(" | ")} | ${allSearchDocs.length} search docs total`);
+console.log(`parsed — ${summary.join(" | ")} | ${allSearchDocs.length} search docs, ${refCount} refs total`);

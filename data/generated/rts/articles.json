@@ -128,7 +128,14 @@
         "content": [
          {
           "type": "text",
-          "text": "de vraag of de ICT-onderaannemers die ICT-diensten leveren die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunen, zijn geregistreerd bij of onderworpen aan toezicht of oversight door een bevoegde autoriteit in een lidstaat, of zijn onderworpen aan het oversightraamwerk op grond van hoofdstuk V, afdeling II, van Verordening (EU) 2022/2554;"
+          "text": "de vraag of de ICT-onderaannemers die ICT-diensten leveren die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunen, zijn geregistreerd bij of onderworpen aan toezicht of oversight door een bevoegde autoriteit in een lidstaat, of zijn onderworpen aan het oversightraamwerk op grond van hoofdstuk V, afdeling II, van Verordening (EU) 2022/2554;",
+          "refs": [
+           {
+            "start": 313,
+            "end": 337,
+            "href": "/#hoofdstuk-v"
+           }
+          ]
          }
         ],
         "anchor": "punt-h"
@@ -245,7 +252,14 @@
         "content": [
          {
           "type": "text",
-          "text": "de due diligence-processen voor de derde aanbieder van ICT-diensten borgen dat deze in staat is tot het selecteren en beoordelen van de operationele en financiële mogelijkheden van potentiële ICT-onderaannemers om de ICT-diensten aan te bieden die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunen, onder meer door, wanneer daartoe door de financiële entiteit verzocht, deel te nemen aan tests op digitale operationele weerbaarheid als bedoeld in hoofdstuk IV van Verordening (EU) 2022/2554;"
+          "text": "de due diligence-processen voor de derde aanbieder van ICT-diensten borgen dat deze in staat is tot het selecteren en beoordelen van de operationele en financiële mogelijkheden van potentiële ICT-onderaannemers om de ICT-diensten aan te bieden die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunen, onder meer door, wanneer daartoe door de financiële entiteit verzocht, deel te nemen aan tests op digitale operationele weerbaarheid als bedoeld in hoofdstuk IV van Verordening (EU) 2022/2554;",
+          "refs": [
+           {
+            "start": 477,
+            "end": 489,
+            "href": "/#hoofdstuk-iv"
+           }
+          ]
          }
         ],
         "anchor": "lid-1-a"
@@ -325,7 +339,14 @@
         "content": [
          {
           "type": "text",
-          "text": "de financiële entiteit heeft de ICT-concentratierisico’s op entiteitsniveau beoordeeld overeenkomstig artikel 29 van Verordening (EU) 2022/2554;"
+          "text": "de financiële entiteit heeft de ICT-concentratierisico’s op entiteitsniveau beoordeeld overeenkomstig artikel 29 van Verordening (EU) 2022/2554;",
+          "refs": [
+           {
+            "start": 102,
+            "end": 112,
+            "href": "/artikel/29"
+           }
+          ]
          }
         ],
         "anchor": "lid-1-i"
@@ -461,7 +482,14 @@
         "content": [
          {
           "type": "text",
-          "text": "dat de contractuele regeling tussen de ICT-diensten en zijn onderaannemers de vereisten bevat wat betreft de bedrijfsnoodplannen als bedoeld in artikel 30, lid 3, punt c), van Verordening (EU) 2022/2554 en de met betrekking tot die plannen door de ICT-onderaannemers te leveren dienstenniveaus;"
+          "text": "dat de contractuele regeling tussen de ICT-diensten en zijn onderaannemers de vereisten bevat wat betreft de bedrijfsnoodplannen als bedoeld in artikel 30, lid 3, punt c), van Verordening (EU) 2022/2554 en de met betrekking tot die plannen door de ICT-onderaannemers te leveren dienstenniveaus;",
+          "refs": [
+           {
+            "start": 144,
+            "end": 170,
+            "href": "/artikel/30#lid-3-c"
+           }
+          ]
          }
         ],
         "anchor": "lid-1-h"
@@ -471,7 +499,14 @@
         "content": [
          {
           "type": "text",
-          "text": "dat de contractuele regelingen tussen de derde aanbieder van ICT-diensten en zijn onderaannemers de ICT-beveiligingsstandaarden en eventuele aanvullende beveiligingseisen specificeert als bedoeld in artikel 30, lid 3, punt c), van Verordening (EU) 2022/2554;"
+          "text": "dat de contractuele regelingen tussen de derde aanbieder van ICT-diensten en zijn onderaannemers de ICT-beveiligingsstandaarden en eventuele aanvullende beveiligingseisen specificeert als bedoeld in artikel 30, lid 3, punt c), van Verordening (EU) 2022/2554;",
+          "refs": [
+           {
+            "start": 199,
+            "end": 225,
+            "href": "/artikel/30#lid-3-c"
+           }
+          ]
          }
         ],
         "anchor": "lid-1-i"
@@ -481,7 +516,14 @@
         "content": [
          {
           "type": "text",
-          "text": "dat de onderaannemer de financiële entiteit en de betrokken bevoegde autoriteiten en afwikkelingsautoriteiten dezelfde rechten van toegang, inspectie en audit moet verlenen als bedoeld in artikel 30, lid 3, punt e), van Verordening (EU) 2022/2554;"
+          "text": "dat de onderaannemer de financiële entiteit en de betrokken bevoegde autoriteiten en afwikkelingsautoriteiten dezelfde rechten van toegang, inspectie en audit moet verlenen als bedoeld in artikel 30, lid 3, punt e), van Verordening (EU) 2022/2554;",
+          "refs": [
+           {
+            "start": 188,
+            "end": 214,
+            "href": "/artikel/30#lid-3-e"
+           }
+          ]
          }
         ],
         "anchor": "lid-1-j"
@@ -501,7 +543,19 @@
         "content": [
          {
           "type": "text",
-          "text": "dat de financiële entiteit het recht heeft het contract met de derde aanbieder van ICT-diensten op te zeggen wanneer de voorwaarden van hetzij artikel 6 van deze verordening, hetzij artikel 28, lid 7, van Verordening (EU) 2022/2554 zijn vervuld."
+          "text": "dat de financiële entiteit het recht heeft het contract met de derde aanbieder van ICT-diensten op te zeggen wanneer de voorwaarden van hetzij artikel 6 van deze verordening, hetzij artikel 28, lid 7, van Verordening (EU) 2022/2554 zijn vervuld.",
+          "refs": [
+           {
+            "start": 143,
+            "end": 152,
+            "href": "/rts/artikel/6"
+           },
+           {
+            "start": 182,
+            "end": 199,
+            "href": "/artikel/28#lid-7"
+           }
+          ]
          }
         ],
         "anchor": "lid-1-l"

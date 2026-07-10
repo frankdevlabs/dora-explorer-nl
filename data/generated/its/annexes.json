@@ -18,7 +18,24 @@
    },
    {
     "type": "text",
-    "text": "In deel 2 zijn de instructies uiteengezet die de financiële entiteiten moeten volgen om elke kolom van elk model in te vullen. Bij het invullen van de informatie in bepaalde kolommen verwijzen de financiële entiteiten naar de bijlagen II, III en IV of andere externe bronnen. In die gevallen is de referentie naar de relevante bijlagen of externe bronnen in de instructies vermeld."
+    "text": "In deel 2 zijn de instructies uiteengezet die de financiële entiteiten moeten volgen om elke kolom van elk model in te vullen. Bij het invullen van de informatie in bepaalde kolommen verwijzen de financiële entiteiten naar de bijlagen II, III en IV of andere externe bronnen. In die gevallen is de referentie naar de relevante bijlagen of externe bronnen in de instructies vermeld.",
+    "refs": [
+     {
+      "start": 226,
+      "end": 237,
+      "href": "/its/bijlage/ii"
+     },
+     {
+      "start": 239,
+      "end": 242,
+      "href": "/its/bijlage/iii"
+     },
+     {
+      "start": 246,
+      "end": 248,
+      "href": "/its/bijlage/iv"
+     }
+    ]
    },
    {
     "type": "heading",
@@ -1002,7 +1019,14 @@
       "content": [
        {
         "type": "text",
-        "text": "dezelfde “soort ICT-diensten” als in bijlage III."
+        "text": "dezelfde “soort ICT-diensten” als in bijlage III.",
+        "refs": [
+         {
+          "start": 37,
+          "end": 48,
+          "href": "/its/bijlage/iii"
+         }
+        ]
        }
       ],
       "anchor": "punt-b"
@@ -1011,7 +1035,14 @@
    },
    {
     "type": "text",
-    "text": "Elke derde aanbieder van ICT-diensten die deel uitmaakt van dezelfde toeleveringsketen van ICT-diensten, krijgt een “rang” (model B_05.02.0050) voor de identificatie van de positie ervan binnen de toeleveringsketen van ICT-diensten. Wanneer meerdere derde aanbieders van ICT-diensten dezelfde positie binnen dezelfde toeleveringsketen van ICT-diensten hebben, krijgen die aanbieders dezelfde rang. Overeenkomstig artikel 2 krijgen de directe derde aanbieders van ICT-diensten derhalve rang “1”. Indien de rang hoger is dan 1, zijn de derde aanbieders van ICT-diensten onderaannemers."
+    "text": "Elke derde aanbieder van ICT-diensten die deel uitmaakt van dezelfde toeleveringsketen van ICT-diensten, krijgt een “rang” (model B_05.02.0050) voor de identificatie van de positie ervan binnen de toeleveringsketen van ICT-diensten. Wanneer meerdere derde aanbieders van ICT-diensten dezelfde positie binnen dezelfde toeleveringsketen van ICT-diensten hebben, krijgen die aanbieders dezelfde rang. Overeenkomstig artikel 2 krijgen de directe derde aanbieders van ICT-diensten derhalve rang “1”. Indien de rang hoger is dan 1, zijn de derde aanbieders van ICT-diensten onderaannemers.",
+    "refs": [
+     {
+      "start": 413,
+      "end": 422,
+      "href": "/its/artikel/2"
+     }
+    ]
    },
    {
     "type": "text",

@@ -11,7 +11,14 @@
   "number": 2,
   "paragraphs": [
    {
-    "text": "Bij de onderaannemers die ICT-diensten leveren die kritieke of belangrijke functies ondersteunen, moet de aandacht van financiële entiteiten in het bijzonder en doorlopend gaan naar de onderaannemers die daadwerkelijk aan de basis liggen van de ICT-dienst die kritieke of belangrijke functies ondersteunt, daaronder begrepen alle onderaannemers die ICT-diensten leveren waarvan de verstoring de veiligheid of de continuïteit van de dienstverlening zouden verstoren zoals vastgelegd in het in artikel 28, lid 3, van Verordening (EU) 2022/2554 bedoelde informatieregister."
+    "text": "Bij de onderaannemers die ICT-diensten leveren die kritieke of belangrijke functies ondersteunen, moet de aandacht van financiële entiteiten in het bijzonder en doorlopend gaan naar de onderaannemers die daadwerkelijk aan de basis liggen van de ICT-dienst die kritieke of belangrijke functies ondersteunt, daaronder begrepen alle onderaannemers die ICT-diensten leveren waarvan de verstoring de veiligheid of de continuïteit van de dienstverlening zouden verstoren zoals vastgelegd in het in artikel 28, lid 3, van Verordening (EU) 2022/2554 bedoelde informatieregister.",
+    "refs": [
+     {
+      "start": 492,
+      "end": 509,
+      "href": "/artikel/28#lid-3"
+     }
+    ]
    }
   ]
  },
@@ -27,7 +34,14 @@
   "number": 4,
   "paragraphs": [
    {
-    "text": "Wanneer overeenkomstig artikel 30, lid 2, van Verordening (EU) 2022/2554 toegestaan door financiële entiteiten, kan het gebruik dat derde aanbieders van ICT-diensten maken van uitbestede ICT-diensten die kritieke of belangrijke functies ondersteunen, niets afdoen aan de uiteindelijke verantwoordelijkheid voor de leidinggevende organen van de financiële entiteiten om hun risico’s te beheren en hun verplichtingen uit hoofde van wet- en regelgeving na te komen. Wanneer uitbesteding van ICT-diensten die kritieke of belangrijke functies ondersteunen, is toegestaan, is het van belang dat financiële entiteiten een duidelijke en holistische kijk hebben op de risico’s die verbonden zijn aan het uitbesteden van diensten die kritieke of belangrijke functies ondersteunen, zodat zij deze risico’s kunnen monitoren, beheren en mitigeren. Daarom moeten zij die risico’s beoordelen voordat zij die diensten uitbesteden."
+    "text": "Wanneer overeenkomstig artikel 30, lid 2, van Verordening (EU) 2022/2554 toegestaan door financiële entiteiten, kan het gebruik dat derde aanbieders van ICT-diensten maken van uitbestede ICT-diensten die kritieke of belangrijke functies ondersteunen, niets afdoen aan de uiteindelijke verantwoordelijkheid voor de leidinggevende organen van de financiële entiteiten om hun risico’s te beheren en hun verplichtingen uit hoofde van wet- en regelgeving na te komen. Wanneer uitbesteding van ICT-diensten die kritieke of belangrijke functies ondersteunen, is toegestaan, is het van belang dat financiële entiteiten een duidelijke en holistische kijk hebben op de risico’s die verbonden zijn aan het uitbesteden van diensten die kritieke of belangrijke functies ondersteunen, zodat zij deze risico’s kunnen monitoren, beheren en mitigeren. Daarom moeten zij die risico’s beoordelen voordat zij die diensten uitbesteden.",
+    "refs": [
+     {
+      "start": 23,
+      "end": 40,
+      "href": "/artikel/30#lid-2"
+     }
+    ]
    }
   ]
  },
