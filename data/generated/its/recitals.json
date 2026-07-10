@@ -1,0 +1,122 @@
+[
+ {
+  "number": 1,
+  "paragraphs": [
+   {
+    "text": "Het is noodzakelijk standaardmodellen op te stellen ten behoeve van het informatieregister voor alle contractuele overeenkomsten over het gebruik van informatie- en communicatietechnologiediensten (ICT-diensten) van derde aanbieders van ICT-diensten als bedoeld in artikel 28, lid 3, van Verordening (EU) 2022/2554. De informatie uit dat register is van essentieel belang voor het interne ICT-risicobeheer van de financiële entiteiten, voor het doeltreffende toezicht op de financiële entiteiten door hun bevoegde autoriteiten en voor het instellen en uitoefenen van oversight over de kritieke derde aanbieders van ICT-diensten door de lead overseer. Verder is die informatie van essentieel belang voor de jaarlijkse procedure voor de aanwijzing van kritieke derde aanbieders van ICT-diensten door de Europese Bankautoriteit, de Europese Autoriteit voor verzekeringen en bedrijfspensioenen en de Europese Autoriteit voor effecten en markten (gezamenlijk de “Europese toezichthoudende autoriteiten” (ETA’s) genoemd)."
+   }
+  ]
+ },
+ {
+  "number": 2,
+  "paragraphs": [
+   {
+    "text": "Om toezichtresultaten te waarborgen die in overeenstemming zijn met de bestaande toezichtkaders, moet de moederonderneming van financiële entiteiten die deel uitmaken van een groep als gedefinieerd in Verordening (EU) 2022/2554, bepalen welke entiteiten op gesubconsolideerd en op geconsolideerd niveau moeten worden opgenomen in het informatieregister overeenkomstig de Uniewetgeving inzake financiële diensten. Om de administratieve kosten van groepen te beperken, moeten groepen de mogelijkheid hebben om een centraal informatieregister op entiteits-, gesubconsolideerd en geconsolideerd niveau op te stellen voor alle contractuele overeenkomsten inzake het gebruik van ICT-diensten van derde aanbieders aan alle financiële entiteiten die deel uitmaken van die groep. In die gevallen moet een centraal informatieregister het mogelijk maken dat elke financiële entiteit aan haar verplichting voldoet om het informatieregister bij te houden op entiteits- en gesubconsolideerd niveau zoals van toepassing, met inbegrip van de verslaglegging aan haar bevoegde autoriteit."
+   }
+  ]
+ },
+ {
+  "number": 3,
+  "paragraphs": [
+   {
+    "text": "Op grond van artikel 28, lid 1, punt b), van Verordening (EU) 2022/2554 moet bij het beheer van het ICT-risico van derde aanbieders door financiële entiteiten rekening worden gehouden met de aard, de schaal, de complexiteit en het belang van ICT-gerelateerde afhankelijkheden en met de risico’s die voortvloeien uit contractuele overeenkomsten die met derde aanbieders van ICT-diensten zijn gesloten over het gebruik van ICT-diensten. Bij die risicobeoordeling moet rekening worden gehouden met het kritieke karakter of het belang van de diensten, processen of functies van de financiële entiteit en met de potentiële gevolgen voor de continuïteit en beschikbaarheid van financiële diensten en activiteiten, op entiteits- en op groepsniveau."
+   }
+  ]
+ },
+ {
+  "number": 4,
+  "paragraphs": [
+   {
+    "text": "Bepaalde sectorspecifieke Uniewetgeving inzake financiële diensten bevat uitbestedingsvereisten. Die vereisten zijn verder ontwikkeld in door de ETA’s uitgebrachte richtsnoeren. In het kader van die richtsnoeren wordt van sommige financiële entiteiten verwacht dat zij specifieke informatie over hun onderaanbestedingsovereenkomsten registreren, in een aantal gevallen ook in de vorm van registers, in het kader van hun uitbestedingsrisicobeheer. De afgelopen jaren hebben verschillende nationale bevoegde autoriteiten en de ECB informatie die in de registers zijn opgenomen verzameld in het kader van hun toezicht op de naleving van de uitbestedingsvereisten door financiële entiteiten. Op grond van de lessen die getrokken zijn uit de verschillende gegevensverzamelingsexercities die de ETA’s en de bevoegde autoriteiten de afgelopen paar jaar op uitbestedingsregisters hebben uitgevoerd, moeten de standaardmodellen op technologieneutrale wijze worden opgesteld met open tabellen, met een vooraf bepaald aantal kolommen en een onbepaald aantal rijen. Daarnaast moeten de standaardmodellen aan elkaar worden gekoppeld door middel van verschillende specifieke sleutels die een relationele structuur vormen tussen die modellen."
+   }
+  ]
+ },
+ {
+  "number": 5,
+  "paragraphs": [
+   {
+    "text": "Om ICT-diensten te ontvangen van een derde aanbieder van ICT-diensten, met inbegrip van aanbieders van ICT-diensten binnen een groep, sluiten de financiële entiteiten een schriftelijke overeenkomst met de derde aanbieder van ICT-diensten. In het geval van groepen kunnen de aanbieders van ICT-diensten binnen de groep een overeenkomst sluiten met een derde ICT-aanbieder die niet tot de groep behoort om ICT-diensten aan te bieden aan een of meer financiële entiteiten van de groep. Om de volledige toeleveringsketen van ICT-diensten te bestrijken, moeten de financiële entiteiten die het informatieregister bijhouden, informatie opgeven over de contractuele overeenkomst met hun aanbieders van ICT-diensten binnen de groep en over de regeling die is getroffen tussen de aanbieders van ICT-diensten binnen de groep en de derde ICT-aanbieders buiten de groep als onderaannemers. Derhalve moet het informatieregister een specifiek model bevatten dat afstemming tussen de overeenkomsten binnen de groep en de overeenkomsten met derde aanbieders van ICT-diensten die extern zijn ten aanzien van de groep mogelijk maakt."
+   }
+  ]
+ },
+ {
+  "number": 6,
+  "paragraphs": [
+   {
+    "text": "De verlening van ICT-diensten aan financiële entiteiten kan afhankelijk zijn van mogelijk lange of ingewikkelde onderaannemingsketens die door de financiële entiteiten moeten worden gemonitord. Financiële entiteiten moeten de bijbehorende risico’s beoordelen, zoals het risico van concentratie van ICT-derden met betrekking tot de derde aanbieders van ICT-diensten die een kritieke of belangrijke functie of wezenlijke onderdelen daarvan ondersteunen, vanuit een risicogebaseerde benadering en het beginsel van evenredigheid. Om die beoordeling mogelijk te maken, moeten financiële entiteiten alleen worden verplicht om in het informatieregister de onderaannemers te registreren die daadwerkelijk ICT-diensten verlenen die de kritieke of belangrijke functies of wezenlijke onderdelen daarvan ondersteunen, met inbegrip van alle onderaannemers die ICT-diensten verlenen die van dien belang zijn dat, wanneer ze onderbroken zouden worden, de beveiliging of de continuïteit van de dienstverlening in het gedrang zou komen. Bij het identificeren van die onderaannemers moeten de financiële entiteiten rekening houden met aspecten inzake de continuïteit van bedrijfs- en ICT-diensten en inzake de ICT-beveiliging."
+   }
+  ]
+ },
+ {
+  "number": 7,
+  "paragraphs": [
+   {
+    "text": "Financiële entiteiten moeten een informatieregister bijhouden, ook wanneer een financiële entiteit al haar activiteiten uitbesteedt aan een andere entiteit, omdat het bijhouden van het informatieregister bijdraagt tot de operationele weerbaarheid van die financiële entiteit. Daarom moeten, wanneer een entiteit namens een financiële entiteit optreedt voor alle activiteiten van de financiële entiteit (met inbegrip van de ICT-diensten), de directe derde aanbieders van ICT-diensten aan die entiteit worden geregistreerd in de desbetreffende modellen van het informatieregister van de financiële entiteit. In dat geval wordt de entiteit alleen geregistreerd als entiteit die het register bijhoudt."
+   }
+  ]
+ },
+ {
+  "number": 8,
+  "paragraphs": [
+   {
+    "text": "Omwille van de transparantie en om de contractuele overeenkomsten te kunnen vergelijken en deze doorlopend te kunnen monitoren, moet het informatieregister toegespitst zijn op de operationele verbanden tussen de financiële entiteiten en de derde aanbieders van ICT-diensten. Daartoe moet het informatieregister gebruikmaken van vier sleutels, die onder meer relevante gegevens aan elkaar koppelen in de verschillende modellen van het informatieregister: i) het referentienummer van de contractuele overeenkomst tussen de financiële entiteit die de overeenkomst ondertekent, en de directe derde aanbieder van ICT-diensten, ii) een passende identificatiecode van de financiële entiteiten en de derde aanbieders van ICT-diensten, iii) de functie-identificatiecode, en iv) de soort ICT-diensten."
+   }
+  ]
+ },
+ {
+  "number": 9,
+  "paragraphs": [
+   {
+    "text": "Teneinde de contractuele overeenkomsten tussen de financiële entiteiten en de derde aanbieders van ICT-diensten passend te documenteren, zoals voorgeschreven door Verordening (EU) 2022/2554, worden derde aanbieders van ICT-diensten geacht een identificatienummer te verstrekken op basis waarvan zij consistent en nauwkeurig kunnen worden geïdentificeerd door de financiële entiteiten en door de ETA’s, het oversightforum en de bevoegde autoriteiten bij het uitoefenen van hun toezichthoudende bevoegdheden, onder meer voor de aanwijzing van kritieke derde aanbieders van ICT-diensten op grond van artikel 31 van die verordening. Met betrekking tot rechtspersonen zijn de LEI en de EUID erkende internationale en Europese identificatiecodes die de consistente, unieke en robuuste identificatie van ondernemingen waarborgen. Derhalve moet een van deze twee identificatiecodes worden gebruikt om de in de Unie gevestigde derde aanbieders van ICT-diensten te identificeren voor de toepassing van die verordening, en worden beschouwd als informatie die voor alle contractuele overeenkomsten van toepassing is, terwijl de in derde landen gevestigde derde aanbieders van ICT-diensten alleen mogen worden geïdentificeerd met de LEI. In de modellen die worden gebruikt voor het informatieregister over de derde aanbieders van ICT-diensten, moet een van beide identificatiecodes worden gegeven voor aanbieders van ICT-diensten die rechtspersoon zijn, terwijl het voor natuurlijke personen die optreden in de hoedanigheid van aanbieders van ICT-diensten toegestaan is om een andere identificatiecode te gebruiken."
+   }
+  ]
+ },
+ {
+  "number": 10,
+  "paragraphs": [
+   {
+    "text": "Alle financiële entiteiten, met inbegrip van financiële entiteiten van dezelfde groep, hebben hun eigen interne taxonomie van functies, afhankelijk van hun bedrijfsmodel en interne organisatie. Om een duidelijke monitoring mogelijk te maken waarbij een onderscheid wordt gemaakt tussen de functies van de financiële entiteiten en de ICT-diensten, moeten de financiële entiteiten zelf relevante functies aanwijzen door gebruik te maken van de functie-identificatiecode op individueel en op groepsniveau."
+   }
+  ]
+ },
+ {
+  "number": 11,
+  "paragraphs": [
+   {
+    "text": "Om de operabiliteit van het informatieregister op entiteits-, gesubconsolideerd en geconsolideerd niveau mogelijk te maken in alle financiële entiteiten die deel uitmaken van dezelfde groep, moeten de financiële entiteiten toezien op de juistheid en consistentie van alle gegevens in dat register. Met het oog op die operabiliteit is het met name noodzakelijk om voor consistentie te zorgen bij de consolidatie van de identificatiecodes, namelijk de referentienummers van de contractuele overeenkomsten, de functie-identificatiecode, de LEI van de financiële entiteiten en de identificatiecodes van de derde aanbieders van ICT-diensten."
+   }
+  ]
+ },
+ {
+  "number": 12,
+  "paragraphs": [
+   {
+    "text": "Teneinde consistentie en harmonisatie te garanderen en omslachtige herverwerking van gegevens voor rapporteringsdoeleinden te voorkomen, moet bij de structuur van de modellen en in de vereisten voor de gegevenselementen rekening worden gehouden met gegevensbeheer- en rapporteringsperspectieven. Om ervoor te zorgen dat de in het informatieregister opgegeven informatie volledig vergelijkbaar is met de informatie die in andere regelgevende en statistische rapporteringen wordt verstrekt, moeten de financiële entiteiten de beginselen inzake gegevenskwaliteit toepassen bij het bijhouden van dat register."
+   }
+  ]
+ },
+ {
+  "number": 13,
+  "paragraphs": [
+   {
+    "text": "Deze verordening is gebaseerd op de ontwerpen van technische uitvoeringsnormen die de ETA’s bij de Commissie hebben ingediend."
+   }
+  ]
+ },
+ {
+  "number": 14,
+  "paragraphs": [
+   {
+    "text": "De ETA’s hebben openbare raadplegingen gehouden over de ontwerpen van technische uitvoeringsnormen waarop deze verordening is gebaseerd, de mogelijke kosten en baten daarvan geanalyseerd en het advies ingewonnen van de stakeholdersgroepen van de ETA’s, die zijn opgericht overeenkomstig artikel 37 van Verordening (EU) nr. 1093/2010 van het Europees Parlement en de Raad (2), artikel 37 van Verordening (EU) nr. 1094/2010 van het Europees Parlement en de Raad (3) en artikel 37 van Verordening (EU) nr. 1095/2010 van het Europees Parlement en de Raad (4)."
+   }
+  ]
+ },
+ {
+  "number": 15,
+  "paragraphs": [
+   {
+    "text": "De Europese Toezichthouder voor gegevensbescherming is geraadpleegd overeenkomstig artikel 42, lid 1, van Verordening (EU) 2018/1725 van het Europees Parlement en de Raad (5),"
+   }
+  ]
+ }
+]

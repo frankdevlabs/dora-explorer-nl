@@ -91,9 +91,9 @@ export function SidebarToc({ toc, onNavigate }: SidebarTocProps) {
             <Collapsible.Content className="ml-2 border-l border-line pl-2">
               {c.articles.map(renderEntry)}
               {c.sections.map((s) => (
-                <div key={s.number} className="mt-1">
+                <div key={s.roman} className="mt-1">
                   <p className="px-2 py-1 text-xs font-medium uppercase tracking-wide text-muted">
-                    Afdeling {s.number} — {s.title}
+                    Afdeling {s.roman}{s.title ? ` — ${s.title}` : ""}
                   </p>
                   {s.articles.map(renderEntry)}
                 </div>

@@ -1,0 +1,714 @@
+[
+ {
+  "number": 1,
+  "title": "Algemeen risicoprofiel en complexiteit",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten houden rekening met hun grootte en hun algehele risicoprofiel en de aard, schaal en elementen van toegenomen of verminderde complexiteit van hun diensten, activiteiten en operaties, met inbegrip van elementen met betrekking tot:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "het soort ICT-diensten dat kritieke of belangrijke functies ondersteunt die onder de contractuele regeling tussen de financiële entiteit en de derde aanbieder van ICT-diensten vallen;"
+         }
+        ],
+        "anchor": "punt-a"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "het soort ICT-diensten dat onder de contractuele regeling tussen de derde aanbieder van ICT-diensten en zijn onderaannemers valt;"
+         }
+        ],
+        "anchor": "punt-b"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de locatie van de ICT-onderaannemer die ICT-diensten aanbiedt die kritieke of belangrijke functies, of een materieel onderdeel daarvan, ondersteunen, of van zijn moederonderneming;"
+         }
+        ],
+        "anchor": "punt-c"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de lengte en complexiteit van de keten van door de derde aanbieder van ICT-diensten ingeschakelde onderaannemers die ICT-diensten leveren die kritieke of belangrijke functies, of een materieel onderdeel daarvan, ondersteunen;"
+         }
+        ],
+        "anchor": "punt-d"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "e)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de aard van de data die worden gedeeld met ICT-onderaannemers die ICT-diensten leveren die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunen;"
+         }
+        ],
+        "anchor": "punt-e"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "f)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de vraag of de ICT-diensten die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunen, worden aangeboden door onderaannemers die zijn gevestigd in een lidstaat of in een derde land, met inbegrip van de locatie van waaruit de ICT-diensten daadwerkelijk worden aangeboden en de locatie waar de data daadwerkelijk worden verwerkt en opgeslagen;"
+         }
+        ],
+        "anchor": "punt-f"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "g)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de vraag of de ICT-onderaannemers die ICT-diensten leveren die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunen, deel uitmaken van dezelfde groep als de financiële entiteit waaraan die diensten worden aangeboden;"
+         }
+        ],
+        "anchor": "punt-g"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "h)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de vraag of de ICT-onderaannemers die ICT-diensten leveren die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunen, zijn geregistreerd bij of onderworpen aan toezicht of oversight door een bevoegde autoriteit in een lidstaat, of zijn onderworpen aan het oversightraamwerk op grond van hoofdstuk V, afdeling II, van Verordening (EU) 2022/2554;"
+         }
+        ],
+        "anchor": "punt-h"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "i)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de vraag of de ICT-onderaannemers die ICT-diensten leveren die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunen, beschikken over een vergunning verleend door, zijn geregistreerd door of onderworpen aan toezicht of oversight door een toezichthouder uit een derde land;"
+         }
+        ],
+        "anchor": "punt-i"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "j)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de vraag of het leveren van ICT-diensten die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunen, geconcentreerd is bij één onderaannemer van een derde aanbieder van ICT-diensten of een klein aantal van dergelijke onderaannemers;"
+         }
+        ],
+        "anchor": "punt-j"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "k)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de vraag of de uitbesteding van ICT-diensten die kritieke of belangrijke functies, of materiële onderdelen daarvan, een impact zou hebben op de overdraagbaarheid van die ICT-diensten aan een andere derde aanbieder van ICT-diensten;"
+         }
+        ],
+        "anchor": "punt-k"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "l)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de potentiële impact van storingen op de continuïteit en beschikbaarheid van de ICT-diensten die kritieke of belangrijke functies, of materiële delen daarvan, ondersteunen, en door de derde aanbieder van ICT-diensten worden aangeboden, wanneer wordt gebruikgemaakt van een onderaannemer die ICT-diensten aanbiedt die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunen."
+         }
+        ],
+        "anchor": "punt-l"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 2,
+  "title": "Toepassing binnen een groep",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Wanneer deze verordening op gesubconsolideerd of geconsolideerd niveau van toepassing is, ziet de moederonderneming die ervoor verantwoordelijk is om voor de groep geconsolideerde of gesubconsolideerde jaarrekeningen te verschaffen, erop toe dat de voorwaarden voor het uitbesteden van het gebruik van ICT-diensten die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunen, wanneer die uitbesteding is toegestaan op grond van contractuele regelingen betreffende het gebruik van ICT-diensten, coherent worden toegepast binnen alle financiële entiteiten die onderdeel zijn van de groep, en adequaat zijn voor de daadwerkelijke toepassing van deze verordening op alle betrokken niveaus."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 3,
+  "title": "Due diligence en risicobeoordeling wat betreft het gebruik van kritieke of belangrijke functies ondersteunende onderaannemers",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "Een financiële entiteit beslist, voordat zij een contractuele regeling met een derde aanbieder van ICT-diensten aangaat, of die derde aanbieder van ICT-diensten een ICT-dienst die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunt, mag uitbesteden. De financiële entiteit gaat dit soort contractuele regeling alleen aan wanneer zij zich ervan vergewist heeft dat alle volgende voorwaarden zijn nageleefd:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de due diligence-processen voor de derde aanbieder van ICT-diensten borgen dat deze in staat is tot het selecteren en beoordelen van de operationele en financiële mogelijkheden van potentiële ICT-onderaannemers om de ICT-diensten aan te bieden die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunen, onder meer door, wanneer daartoe door de financiële entiteit verzocht, deel te nemen aan tests op digitale operationele weerbaarheid als bedoeld in hoofdstuk IV van Verordening (EU) 2022/2554;"
+         }
+        ],
+        "anchor": "lid-1-a"
+       },
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de derde aanbieder van ICT-diensten is in staat om alle onderaannemers te identificeren die ICT-diensten leveren die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunen, om de financiële entiteit van die onderaannemers kennis te geven en haar over hen te informeren, en is in staat de financiële entiteit alle informatie te verstrekken die nodig mocht zijn om de voorwaarden uit hoofde van dit artikel te toetsen;"
+         }
+        ],
+        "anchor": "lid-1-b"
+       },
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de derde aanbieder van ICT-diensten zorgt ervoor dat de contractuele regelingen met de ondernemers die ICT-diensten leveren die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunen, de financiële entiteit in staat stellen haar eigen verplichtingen uit hoofde van Verordening (EU) 2022/2554 en toepasselijke Uniewetgeving en nationale wetgeving na te komen;"
+         }
+        ],
+        "anchor": "lid-1-c"
+       },
+       {
+        "marker": "d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de onderaannemer verleent de financiële entiteit en bevoegde autoriteiten en afwikkelingsautoriteiten dezelfde contractuele rechten van toegang en inspectie als die welke door de derde aanbieder van ICT-diensten zijn verleend;"
+         }
+        ],
+        "anchor": "lid-1-d"
+       },
+       {
+        "marker": "e)",
+        "content": [
+         {
+          "type": "text",
+          "text": "onverminderd de eindverantwoordelijkheid van de financiële entiteit om haar verplichtingen uit hoofde van wet- en regelgeving na te komen, beschikt de derde aanbieder van ICT-diensten zelf over voldoende mogelijkheden, deskundigheid en adequate financiële, personele en technische middelen om de ICT-risico’s op het niveau van de onderaannemers te monitoren, onder meer door het toepassen van passende standaarden inzake informatiebeveiliging en door het beschikken over een passende organisatiestructuur, risicomanagement en interne controles, en rapportage van en respons op incidenten;"
+         }
+        ],
+        "anchor": "lid-1-e"
+       },
+       {
+        "marker": "f)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de financiële entiteit beschikt over voldoende mogelijkheden, deskundigheid en adequate financiële, personele en technische middelen om de ICT-risico’s te monitoren met betrekking tot de uitbestede dienst die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunt, onder meer door het toepassen van passende standaarden inzake informatiebeveiliging en door te beschikken over een passende organisatiestructuur en risicomanagement, incidentrespons, bedrijfscontinuïteit en interne controles;"
+         }
+        ],
+        "anchor": "lid-1-f"
+       },
+       {
+        "marker": "g)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de financiële entiteit heeft een beoordeling gemaakt van de impact die een mogelijk falen van een onderaannemer die ICT-diensten aanbiedt die kritieke of belangrijke functies, of een materieel onderdeel daarvan, ondersteunen, heeft op de digitale operationele weerbaarheid en financiële robuustheid van de financiële entiteit;"
+         }
+        ],
+        "anchor": "lid-1-g"
+       },
+       {
+        "marker": "h)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de financiële entiteit heeft de risico’s beoordeeld die aan de locatie van de potentiële onderaannemers verbonden zijn ten aanzien van de door de derde aanbieder van ICT-diensten aangeboden ICT-diensten die kritieke of belangrijke functies, of een materieel onderdeel daarvan, ondersteunen;"
+         }
+        ],
+        "anchor": "lid-1-h"
+       },
+       {
+        "marker": "i)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de financiële entiteit heeft de ICT-concentratierisico’s op entiteitsniveau beoordeeld overeenkomstig artikel 29 van Verordening (EU) 2022/2554;"
+         }
+        ],
+        "anchor": "lid-1-i"
+       },
+       {
+        "marker": "j)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de financiële entiteit heeft beoordeeld of er belemmeringen zijn voor het uitoefenen van rechten inzake audit, inspectie en toegang door de bevoegde autoriteiten, afwikkelingsautoriteiten of de financiële entiteit, daaronder begrepen door hen aangestelde personen."
+         }
+        ],
+        "anchor": "lid-1-j"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten die gebruikmaken van derde aanbieders van ICT-diensten die ICT-diensten die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunen, voeren periodiek de in lid 1, punten f) tot en met j), bedoelde risicobeoordeling uit voor mogelijke veranderingen in hun zakelijke omgeving, onder meer voor veranderingen in de ondersteunde bedrijfsfuncties, in risicobeoordelingen die ICT-dreigingen, ICT-concentratierisico’s en geopolitieke risico’s omvatten."
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "anchor": "lid-3",
+    "content": [
+     {
+      "type": "text",
+      "text": "Vertrouwen op de uitkomsten van de door hun derde aanbieders van ICT-diensten uitgevoerde risicobeoordelingen van hun ondernemers wat betreft het nakomen van de in dit artikel bepaalde verplichtingen, houdt geen beperking in van de eindverantwoordelijkheid van financiële entiteiten om hun verplichtingen uit hoofde van wet- en regelgeving na te leven op grond van Verordening (EU) 2022/2554."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 4,
+  "title": "Voorwaarden waarop ICT-diensten die kritieke of belangrijke functies, of een materieel onderdeel daarvan, ondersteunen, mogen worden uitbesteed",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "De contractuele regelingen die de financiële entiteit en de derde aanbieder van ICT-diensten aangaan, identificeren welke ICT-diensten die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunen, in aanmerking komen voor uitbesteding en op welke voorwaarden. Dat contract specificeert:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "dat de derde aanbieder van ICT-diensten verantwoordelijk is voor het leveren van de door de onderaannemers aangeboden diensten;"
+         }
+        ],
+        "anchor": "lid-1-a"
+       },
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "dat de derde aanbieder van ICT-diensten verplicht is alle uitbestede ICT-diensten die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunen, te monitoren zodat zijn contractuele verplichtingen ten aanzien van de financiële entiteit doorlopend worden vervuld;"
+         }
+        ],
+        "anchor": "lid-1-b"
+       },
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de monitoring- en rapportageverplichtingen van de derde aanbieder van ICT-diensten ten aanzien van de financiële entiteit wat betreft onderaannemers die ICT-diensten leveren die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunen;"
+         }
+        ],
+        "anchor": "lid-1-c"
+       },
+       {
+        "marker": "d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "dat de derde aanbieder van ICT-diensten alle risico’s moet beoordelen die verbonden zijn aan de locatie van de actuele of potentiële onderaannemers die ICT-diensten leveren die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunen, en van hun moederonderneming, en aan de locatie van waaruit de betrokken ICT-diensten worden aangeboden;"
+         }
+        ],
+        "anchor": "lid-1-d"
+       },
+       {
+        "marker": "e)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de locatie van data die worden verwerkt of opgeslagen door de onderaannemer (in voorkomend geval);"
+         }
+        ],
+        "anchor": "lid-1-e"
+       },
+       {
+        "marker": "f)",
+        "content": [
+         {
+          "type": "text",
+          "text": "dat de derde aanbieder van ICT-diensten in zijn contract met zijn onderaannemers de monitoring- en rapportageverplichtingen van de onderaannemer moet specificeren ten aanzien van de derde aanbieder van ICT-diensten en, wanneer overeengekomen, ten aanzien van de financiële entiteit;"
+         }
+        ],
+        "anchor": "lid-1-f"
+       },
+       {
+        "marker": "g)",
+        "content": [
+         {
+          "type": "text",
+          "text": "dat de derde aanbieder van ICT-diensten de continuïteit borgt van de ICT-diensten die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunen, doorheen de hele keten van onderaannemers wanneer een ICT-onderaannemer zijn contractuele verplichtingen niet nakomt;"
+         }
+        ],
+        "anchor": "lid-1-g"
+       },
+       {
+        "marker": "h)",
+        "content": [
+         {
+          "type": "text",
+          "text": "dat de contractuele regeling tussen de ICT-diensten en zijn onderaannemers de vereisten bevat wat betreft de bedrijfsnoodplannen als bedoeld in artikel 30, lid 3, punt c), van Verordening (EU) 2022/2554 en de met betrekking tot die plannen door de ICT-onderaannemers te leveren dienstenniveaus;"
+         }
+        ],
+        "anchor": "lid-1-h"
+       },
+       {
+        "marker": "i)",
+        "content": [
+         {
+          "type": "text",
+          "text": "dat de contractuele regelingen tussen de derde aanbieder van ICT-diensten en zijn onderaannemers de ICT-beveiligingsstandaarden en eventuele aanvullende beveiligingseisen specificeert als bedoeld in artikel 30, lid 3, punt c), van Verordening (EU) 2022/2554;"
+         }
+        ],
+        "anchor": "lid-1-i"
+       },
+       {
+        "marker": "j)",
+        "content": [
+         {
+          "type": "text",
+          "text": "dat de onderaannemer de financiële entiteit en de betrokken bevoegde autoriteiten en afwikkelingsautoriteiten dezelfde rechten van toegang, inspectie en audit moet verlenen als bedoeld in artikel 30, lid 3, punt e), van Verordening (EU) 2022/2554;"
+         }
+        ],
+        "anchor": "lid-1-j"
+       },
+       {
+        "marker": "k)",
+        "content": [
+         {
+          "type": "text",
+          "text": "dat de derde aanbieder van ICT-diensten de financiële entiteit in kennis moet stellen van materiële veranderingen in uitbestedingsregelingen;"
+         }
+        ],
+        "anchor": "lid-1-k"
+       },
+       {
+        "marker": "l)",
+        "content": [
+         {
+          "type": "text",
+          "text": "dat de financiële entiteit het recht heeft het contract met de derde aanbieder van ICT-diensten op te zeggen wanneer de voorwaarden van hetzij artikel 6 van deze verordening, hetzij artikel 28, lid 7, van Verordening (EU) 2022/2554 zijn vervuld."
+         }
+        ],
+        "anchor": "lid-1-l"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Wanneer veranderingen met betrekking tot contractuele overeenkomsten tussen de financiële entiteit en derde aanbieders van ICT-diensten die een ICT-dienst leveren die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunt, noodzakelijk zijn geworden om aan deze verordening te voldoen, worden deze tijdig en zo spoedig mogelijk geïmplementeerd. De financiële entiteit documenteert het voor de implementatie geplande tijdschema."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 5,
+  "title": "Materiële veranderingen in uitbestedingsregelingen van ICT-diensten die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunen",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "De contractuele regeling bepaalt dat de derde aanbieder van ICT-diensten de financiële entiteit ruim vooraf informeert over beoogde materiële veranderingen van zijn uitbestedingsregelingen, zodat de financiële entiteit een beoordeling kan maken van:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de impact op de risico’s waaraan zij is blootgesteld of kan worden blootgesteld;"
+         }
+        ],
+        "anchor": "lid-1-a"
+       },
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de vraag of die materiële veranderingen van invloed kunnen zijn op het vermogen van de derde aanbieder van ICT-diensten om zijn contractuele verplichtingen ten aanzien van de financiële entiteit na te komen."
+         }
+        ],
+        "anchor": "lid-1-b"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "De contractuele regeling bevat een redelijke opzegtermijn voor de financiële entiteit om de veranderingen goed te keuren of daartegen bezwaar te maken."
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "anchor": "lid-3",
+    "content": [
+     {
+      "type": "text",
+      "text": "De derde aanbieder van ICT-diensten implementeert de materiële veranderingen van zijn aanbestedingsregelingen pas nadat de financiële entiteit tegen het eind van de opzegtermijn de veranderingen ofwel heeft goedgekeurd of daartegen geen bezwaar heeft gemaakt."
+     }
+    ]
+   },
+   {
+    "number": 4,
+    "anchor": "lid-4",
+    "content": [
+     {
+      "type": "text",
+      "text": "Wanneer de financiële entiteit van oordeel is dat de in lid 1 bedoelde materiële veranderingen de risicotolerantie van de financiële entiteit te boven gaan, doet de financiële entiteit vóór het eind van de opzegtermijn het volgende:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "zij informeert de derde aanbieder van ICT-diensten in die zin;"
+         }
+        ],
+        "anchor": "lid-4-a"
+       },
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "zij maakt bezwaar tegen de veranderingen en eist aanpassingen aan die veranderingen voordat deze worden geïmplementeerd."
+         }
+        ],
+        "anchor": "lid-4-b"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 6,
+  "title": "Beëindiging van het contract tussen de financiële entiteit en de derde aanbieder van ICT-diensten",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "De financiële entiteit heeft het recht om in de contractuele regeling met de derde aanbieder van ICT-diensten te bepalen dat de contractuele regeling wordt beëindigd in elk van de volgende gevallen:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de financiële entiteit heeft bezwaar gemaakt tegen materiële veranderingen in de uitbestedingsregelingen die kritieke of belangrijke functies ondersteunen, en heeft om aanpassingen van die regelingen verzocht, maar de derde aanbieder van ICT-diensten heeft die materiële veranderingen niettemin geïmplementeerd;"
+         }
+        ],
+        "anchor": "punt-a"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de derde aanbieder van ICT-diensten heeft zonder toestemming van de financiële entiteit materiële veranderingen van uitbestedingsregelingen die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunen, geïmplementeerd vóór het eind van de opzegtermijn;"
+         }
+        ],
+        "anchor": "punt-b"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de derde aanbieder van ICT-diensten heeft een ICT-dienst die een kritieke of belangrijke functie, of materiële onderdelen daarvan, ondersteunt, uitbesteed waarvoor er in het contract tussen de financiële entiteit en de derde aanbieder van ICT-diensten geen expliciete toestemming was om deze uit te besteden."
+         }
+        ],
+        "anchor": "punt-c"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 7,
+  "title": "Inwerkingtreding",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Deze verordening treedt in werking op de twintigste dag na die van de bekendmaking ervan in het Publicatieblad van de Europese Unie."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ }
+]

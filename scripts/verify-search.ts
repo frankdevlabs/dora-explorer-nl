@@ -58,28 +58,24 @@ interface Golden {
 }
 
 const GOLDEN: Golden[] = [
-  // the failure that motivated the overhaul: rare term + ubiquitous terms
-  { q: "kredietwaardigheid natuurlijke personen", top1: "anx-iii-punt-5" },
-  // synonym expansion (kredietscore) and compound stem via prefix (krediet)
-  { q: "kredietscore", top1: "anx-iii-punt-5" },
-  { q: "krediet", top1: "anx-iii-punt-5" },
-  { q: "uitkeringen essentiële diensten", topN: { id: "anx-iii-punt-5", n: 3 } },
   // reference fast-path pins the named doc regardless of BM25
-  { q: "artikel 6 lid 2", top1: "art-6-lid-2" },
-  { q: "artikel 6, lid 2", top1: "art-6-lid-2" },
-  { q: "overweging 58", top1: "rct-58" },
-  { q: "bijlage iii punt 5", top1: "anx-iii-punt-5" },
-  { q: "artikel 5", top1: "art-5-", note: "all leden of art 5 float up; any lid first" },
+  { q: "artikel 28 lid 3", top1: "dora-art-28-lid-3" },
+  { q: "artikel 28, lid 3", top1: "dora-art-28-lid-3" },
+  { q: "overweging 58", top1: "dora-rct-58" },
+  { q: "artikel 5", top1: "dora-art-5-", note: "all leden of art 5 float up; any lid first" },
+  // instrument-qualified references pin the satellite acts
+  { q: "its artikel 2", top1: "its-art-2-" },
+  { q: "rts artikel 3 lid 1", top1: "rts-art-3-lid-1" },
+  { q: "its bijlage iii", top1: "its-anx-iii-" },
   // domain queries: statutory provision within the top ranks
-  { q: "biometrische identificatie op afstand", top1: "anx-iii-punt-1" },
-  { q: "subliminale technieken", topN: { id: "art-5-lid-1", n: 3 } },
-  { q: "gezichtsherkenning databank", topN: { id: "art-5-lid-1", n: 3 } },
-  { q: "deepfake transparantie", topN: { id: "art-50-lid-4", n: 3 } },
-  { q: "emotieherkenning werkplek", topN: { id: "art-5-lid-1", n: 3 } },
-  { q: "algemene doeleinden systeemrisico", top1: "art-51-lid-1" },
+  { q: "informatieregister handhaven actualiseren", top1: "dora-art-28-lid-3" },
+  { q: "kritieke of belangrijke functie definitie", topN: { id: "dora-art-3-inhoud", n: 3 } },
+  { q: "dreigingsgestuurde penetratietests", topN: { id: "dora-art-26-lid-2", n: 3 } },
+  { q: "exitstrategie", topN: { id: "dora-art-28-lid-8", n: 5 } },
+  { q: "ranking toeleveringsketen", top1: "its-art-2-inhoud" },
+  { q: "soort ICT-diensten", topN: { id: "its-anx-iii-1", n: 3 } },
   // typeahead surface: typo tolerance (fuzzy) and mid-word prefix
-  { q: "sublimnale technieken", surface: "site", topN: { id: "art-5-lid-1", n: 3 } },
-  { q: "transparantiever", surface: "site", top1: "art-13-lid-1" },
+  { q: "informatieregster", surface: "site", top1: "its-anx-i-", note: "fuzzy match still reaches informatieregister docs" },
 ];
 
 for (const g of GOLDEN) {
@@ -104,10 +100,10 @@ for (const g of GOLDEN) {
 
 // ------------------------------------------------- snippet regression
 
-const p5 = searchDocs(index, "kredietwaardigheid natuurlijke personen", 1, PRECISION_SEARCH_OPTIONS)[0];
+const reg = searchDocs(index, "informatieregister handhaven actualiseren", 1, PRECISION_SEARCH_OPTIONS)[0];
 assert.ok(
-  makeSnippet(p5.text, p5.terms, 200).includes("kredietwaardigheid"),
-  "snippet for the motivating query must show the credit-scoring region",
+  makeSnippet(reg.text, reg.terms, 200).includes("informatieregister"),
+  "snippet for the register query must show the register region",
 );
 
 console.log(`verify-search: ${GOLDEN.length} golden queries + synonym invariants passed`);

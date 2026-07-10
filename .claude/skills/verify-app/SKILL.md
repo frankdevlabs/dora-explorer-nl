@@ -10,10 +10,9 @@ check list change with nearly every epic. Update them in the same commit as
 the feature; a mismatch usually means this skill is stale, not that the app
 is broken — check `git log` before debugging.
 
-> **Epic-0 state:** the corpus is still the AI Act placeholder (113 articles,
-> 180 recitals, 13 annexes; ~322 pages). All content-specific greps below are
-> TODO(epic-1): re-pin them to DORA phrases once the multi-instrument corpus
-> lands (DORA 64 articles / 106 recitals / 0 annexes + ITS + RTS pages).
+> **Epic-1 state:** the DORA corpus is live (dora 64 art / 106 rct; its 7
+> art / 15 rct / 4 anx; rts 7 art / 13 rct; 181 static pages, DORA routes
+> only). /its + /rts pages land in epic 3; re-pin the page count then.
 
 ## 1. Build (includes data verification)
 
@@ -36,13 +35,13 @@ tmux list-sessions | grep dora-dev \
 
 ```bash
 PORT=3107
-# TODO(epic-1): re-pin greps to DORA content, e.g.:
-#   /artikel/28  → "informatieregister" / register van informatie
-#   /artikel/3   → 'id="punt-22"' (kritieke of belangrijke functie)
-#   /its/bijlage/i → templatecodes B_01.01
-curl -s "http://localhost:$PORT/" | grep -c "DORA"                       # >= 1
-curl -s "http://localhost:$PORT/overweging/42" | grep -c "Overweging 42" # >= 1
-curl -s "http://localhost:$PORT/search-docs.json" | head -c 100          # JSON array
+curl -s "http://localhost:$PORT/" | grep -c "DORA"                        # >= 1
+curl -s "http://localhost:$PORT/artikel/28" | grep -c "informatieregister" # >= 1
+curl -s "http://localhost:$PORT/artikel/3"  | grep -c 'id="punt-22"'       # 1 (CIF-definitie)
+curl -s "http://localhost:$PORT/artikel/26" | grep -c "penetratietest"     # >= 1
+curl -s "http://localhost:$PORT/overweging/106" | grep -c "Overweging 106" # >= 1
+curl -s "http://localhost:$PORT/search-docs.json" | head -c 100            # JSON array
+# TODO(epic-3): /its/bijlage/i → grep B_01.01; /rts/artikel/3 → due diligence
 ```
 
 ## 3. Browser checks (Playwright, optional but thorough)
@@ -66,18 +65,17 @@ const page = await browser.newPage();
 const errors = [];
 page.on("console", (m) => m.type() === "error" && errors.push(m.text()));
 
-// 1. palette search navigates to a deep link
-// TODO(epic-1): query "informatieregister" should land on /artikel/28
+// 1. palette search navigates to a deep link (art 28 = informatieregister)
 await page.goto(BASE);
 await page.keyboard.press("Control+k");
-await page.getByPlaceholder(/zoek/i).fill("verboden praktijken"); // TODO(epic-1)
+await page.getByPlaceholder(/zoek/i).fill("informatieregister handhaven");
 await page.waitForTimeout(600);
 await page.keyboard.press("Enter");
 await page.waitForURL(/artikel\//);
 
-// 2. deep link target visible (TODO(epic-1): pick a DORA lid anchor)
-await page.goto(`${BASE}/artikel/5#lid-1-a`);
-if (!(await page.locator("#lid-1-a").isVisible())) throw new Error("deep link not visible");
+// 2. deep link target visible (art 28 lid 3: informatieregister)
+await page.goto(`${BASE}/artikel/28#lid-3`);
+if (!(await page.locator("#lid-3").isVisible())) throw new Error("deep link not visible");
 
 // 3. search page renders highlights
 await page.goto(`${BASE}/zoeken?q=risicobeheer`);

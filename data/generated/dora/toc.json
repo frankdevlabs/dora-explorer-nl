@@ -1,0 +1,361 @@
+{
+ "chapters": [
+  {
+   "roman": "I",
+   "title": "Algemene bepalingen",
+   "sections": [],
+   "articles": [
+    {
+     "number": 1,
+     "title": "Onderwerp"
+    },
+    {
+     "number": 2,
+     "title": "Toepassingsgebied"
+    },
+    {
+     "number": 3,
+     "title": "Definities"
+    },
+    {
+     "number": 4,
+     "title": "Evenredigheidsbeginsel"
+    }
+   ]
+  },
+  {
+   "roman": "II",
+   "title": "ICT-risicobeheer",
+   "sections": [
+    {
+     "roman": "I",
+     "title": "",
+     "articles": [
+      {
+       "number": 5,
+       "title": "Governance en organisatie"
+      }
+     ]
+    },
+    {
+     "roman": "II",
+     "title": "",
+     "articles": [
+      {
+       "number": 6,
+       "title": "Kader voor ICT-risicobeheer"
+      },
+      {
+       "number": 7,
+       "title": "ICT-systemen, -protocollen en -instrumenten"
+      },
+      {
+       "number": 8,
+       "title": "Identificatie"
+      },
+      {
+       "number": 9,
+       "title": "Bescherming en voorkoming"
+      },
+      {
+       "number": 10,
+       "title": "Detectie"
+      },
+      {
+       "number": 11,
+       "title": "Respons en herstel"
+      },
+      {
+       "number": 12,
+       "title": "Back-upbeleid en -procedures, terugzettings- en herstelprocedures en -methoden"
+      },
+      {
+       "number": 13,
+       "title": "Scholing en ontwikkeling"
+      },
+      {
+       "number": 14,
+       "title": "Communicatie"
+      },
+      {
+       "number": 15,
+       "title": "Verdere harmonisatie van ICT-risicobeheersinstrumenten, -methoden, -processen en -beleidslijnen"
+      },
+      {
+       "number": 16,
+       "title": "Vereenvoudigd kader voor ICT-risicobeheer"
+      }
+     ]
+    }
+   ],
+   "articles": []
+  },
+  {
+   "roman": "III",
+   "title": "Beheer, classificatie en rapportage van ICT-gerelateerde incidenten",
+   "sections": [],
+   "articles": [
+    {
+     "number": 17,
+     "title": "Beheerproces voor ICT-gerelateerde incidenten"
+    },
+    {
+     "number": 18,
+     "title": "Classificatie van ICT-gerelateerde incidenten en cyberdreigingen"
+    },
+    {
+     "number": 19,
+     "title": "Rapportage van ernstige ICT-gerelateerde incidenten en vrijwillige melding van significante cyberdreigingen"
+    },
+    {
+     "number": 20,
+     "title": "Harmonisatie van inhoud en modellen van rapportage"
+    },
+    {
+     "number": 21,
+     "title": "Centralisatie van meldingen van ernstige ICT-gerelateerde incidenten"
+    },
+    {
+     "number": 22,
+     "title": "Feedback van toezichthouders"
+    },
+    {
+     "number": 23,
+     "title": "Betalingsgerelateerde operationele of beveiligingsincidenten die kredietinstellingen, betalingsinstellingen, aanbieders van rekeninginformatiediensten en instellingen voor elektronisch geld betreffen"
+    }
+   ]
+  },
+  {
+   "roman": "IV",
+   "title": "Testen van digitale operationele weerbaarheid",
+   "sections": [],
+   "articles": [
+    {
+     "number": 24,
+     "title": "Algemene vereisten voor uitvoering van tests van digitale operationele weerbaarheid"
+    },
+    {
+     "number": 25,
+     "title": "Testen van ICT-instrumenten en -systemen"
+    },
+    {
+     "number": 26,
+     "title": "Geavanceerde tests van ICT-instrumenten, -systemen en -processen op basis van TLPT"
+    },
+    {
+     "number": 27,
+     "title": "Vereisten voor testers voor het uitvoeren van TLPT"
+    }
+   ]
+  },
+  {
+   "roman": "V",
+   "title": "Beheer van ICT-risico van derde aanbieders",
+   "sections": [
+    {
+     "roman": "I",
+     "title": "Basisbeginselen voor een degelijk beheer van het ICT-risico van derde aanbieders",
+     "articles": [
+      {
+       "number": 28,
+       "title": "Algemene beginselen"
+      },
+      {
+       "number": 29,
+       "title": "Voorlopige beoordeling van het ICT-concentratierisico op het niveau van de entiteit"
+      },
+      {
+       "number": 30,
+       "title": "Belangrijke contractuele bepalingen"
+      }
+     ]
+    },
+    {
+     "roman": "II",
+     "title": "Oversightkader voor kritieke derde aanbieders van ICT-diensten",
+     "articles": [
+      {
+       "number": 31,
+       "title": "Aanwijzing van kritieke derde aanbieders van ICT-diensten"
+      },
+      {
+       "number": 32,
+       "title": "Structuur van het oversightkader"
+      },
+      {
+       "number": 33,
+       "title": "Taken van de lead overseer"
+      },
+      {
+       "number": 34,
+       "title": "Operationele coördinatie tussen de lead overseers"
+      },
+      {
+       "number": 35,
+       "title": "Bevoegdheden van de lead overseer"
+      },
+      {
+       "number": 36,
+       "title": "Uitoefening van de bevoegdheden van de lead overseer buiten de Unie"
+      },
+      {
+       "number": 37,
+       "title": "Verzoek om informatie"
+      },
+      {
+       "number": 38,
+       "title": "Algemene onderzoeken"
+      },
+      {
+       "number": 39,
+       "title": "Inspecties"
+      },
+      {
+       "number": 40,
+       "title": "Oversight tijdens de uitvoering"
+      },
+      {
+       "number": 41,
+       "title": "Harmonisatie van de voorwaarden voor de uitoefening van de oversightactiviteiten"
+      },
+      {
+       "number": 42,
+       "title": "Vervolgmaatregelen van de bevoegde autoriteiten"
+      },
+      {
+       "number": 43,
+       "title": "Oversightvergoedingen"
+      },
+      {
+       "number": 44,
+       "title": "Internationale samenwerking"
+      }
+     ]
+    }
+   ],
+   "articles": []
+  },
+  {
+   "roman": "VI",
+   "title": "Regelingen voor de uitwisseling van informatie",
+   "sections": [],
+   "articles": [
+    {
+     "number": 45,
+     "title": "Regelingen voor uitwisseling van informatie en inlichtingen over cyberdreiging"
+    }
+   ]
+  },
+  {
+   "roman": "VII",
+   "title": "Bevoegde autoriteiten",
+   "sections": [],
+   "articles": [
+    {
+     "number": 46,
+     "title": "Bevoegde autoriteiten"
+    },
+    {
+     "number": 47,
+     "title": "Samenwerking met structuren en autoriteiten die zijn opgericht bij Richtlijn (EU) 2022/2555"
+    },
+    {
+     "number": 48,
+     "title": "Samenwerking tussen autoriteiten"
+    },
+    {
+     "number": 49,
+     "title": "Sectoroverschrijdende financiële oefeningen, communicatie en samenwerking"
+    },
+    {
+     "number": 50,
+     "title": "Administratieve strafmaatregelen en corrigerende maatregelen"
+    },
+    {
+     "number": 51,
+     "title": "Uitoefening van de bevoegdheid tot het nemen van administratieve strafmaatregelen en corrigerende maatregelen"
+    },
+    {
+     "number": 52,
+     "title": "Strafrechtelijke maatregelen"
+    },
+    {
+     "number": 53,
+     "title": "Kennisgevingsverplichting"
+    },
+    {
+     "number": 54,
+     "title": "Bekendmaking van administratieve strafmaatregelen"
+    },
+    {
+     "number": 55,
+     "title": "Beroepsgeheim"
+    },
+    {
+     "number": 56,
+     "title": "Gegevensbescherming"
+    }
+   ]
+  },
+  {
+   "roman": "VIII",
+   "title": "Gedelegeerde handelingen",
+   "sections": [],
+   "articles": [
+    {
+     "number": 57,
+     "title": "Uitoefening van de bevoegdheidsdelegatie"
+    }
+   ]
+  },
+  {
+   "roman": "IX",
+   "title": "Overgangs- en slotbepalingen",
+   "sections": [
+    {
+     "roman": "I",
+     "title": "",
+     "articles": [
+      {
+       "number": 58,
+       "title": "Evaluatieclausule"
+      }
+     ]
+    },
+    {
+     "roman": "II",
+     "title": "Wijzigingen",
+     "articles": [
+      {
+       "number": 59,
+       "title": "Wijzigingen van Verordening (EG) nr. 1060/2009"
+      },
+      {
+       "number": 60,
+       "title": "Wijzigingen van Verordening (EU) nr. 648/2012"
+      },
+      {
+       "number": 61,
+       "title": "Wijzigingen van Verordening (EU) nr. 909/2014"
+      },
+      {
+       "number": 62,
+       "title": "Wijzigingen van Verordening (EU) nr. 600/2014"
+      },
+      {
+       "number": 63,
+       "title": "Wijziging van Verordening (EU) 2016/1011"
+      },
+      {
+       "number": 64,
+       "title": "Inwerkingtreding en toepassing"
+      }
+     ]
+    }
+   ],
+   "articles": []
+  }
+ ],
+ "annexes": [],
+ "recitalCount": 106
+}

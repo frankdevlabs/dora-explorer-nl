@@ -18,12 +18,20 @@ Volledig statische Next.js-site (`output: 'export'`), geen database. Zoeken
 gebeurt client-side met MiniSearch over een build-time index (Ctrl+K / ⌘K).
 Geporteerd van [ai-act-explorer-nl](https://github.com/frankdevlabs/ai-act-explorer-nl).
 
-## Bronnen (CELEX)
+## Bronnen (CELEX, opgehaald juli 2026)
 
-_Wordt ingevuld bij epic 1 (source survey): geconsolideerde DORA-tekst,
-OJ-preambule, ITS 2024/2956 (incl. rectificatie 19-9-2025), RTS 2025/532._
-Alle EUR-Lex-bronnen zitten achter een AWS-WAF; ophalen via
-`python3 ~/law-tracker/lib/fetch_blocked_doc.py "<url>" "<out>"`.
+| Instrument | Artikelen/bijlagen | Overwegingen |
+|---|---|---|
+| DORA | `02022R2554-20221227` (geconsolideerd) → `data/source/dora_nl_consolidated.html` | `32022R2554` (OJ) → `dora_nl_oj.html` |
+| RoI-ITS | `02024R2956-20241202` (geconsolideerd, **incl. rectificatie 19-9-2025**) → `its_nl_consolidated.html` | `32024R2956` (OJ) → `its_nl_oj.html` |
+| RTS onderaanneming | `32025R0532` (OJ; geen geconsolideerde versie — geen wijzigingen) → `rts_nl_oj.html` | idem |
+
+Dialecten: geconsolideerd (DORA/ITS-artikelen; zelfde markup als het
+AI-Act-project) en nieuw OJ-formaat (alle overwegingen + RTS-artikelen; de
+DORA-OJ van december 2022 gebruikt al het nieuwe formaat, incl. `rct_N`-ids).
+RTS-artikelnummering is de definitieve (1–7, ná schrapping van het
+ontwerp-artikel 5). Alle EUR-Lex-bronnen zitten achter een AWS-WAF; ophalen
+via `python3 ~/law-tracker/lib/fetch_blocked_doc.py "<url>" "<out>"`.
 
 ## Ontwikkelen
 

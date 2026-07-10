@@ -12,19 +12,16 @@
  * Single tokens only — multi-word entries would be re-tokenized by MiniSearch.
  */
 export const SYNONYM_GROUPS: string[][] = [
-  ["kredietwaardigheid", "kredietscore", "krediet"],
-  ["biometrie", "biometrisch", "biometrische"],
-  ["emotieherkenning", "emotie", "emoties"],
-  ["conformiteitsbeoordeling", "conformiteit"],
-  ["rechtshandhaving", "politie"],
-  ["onderwijs", "opleiding", "beroepsonderwijs"],
-  ["migratie", "asiel", "grenstoezicht"],
-  ["deepfake", "deepfakes"],
-  ["werknemer", "werkgever", "arbeid"],
-  ["uitkering", "uitkeringen", "bijstand"],
-  ["strafbare", "strafbaar", "misdrijven"],
-  ["profilering", "profileren"],
-  ["werving", "sollicitatie"],
+  ["informatieregister", "register"],
+  ["uitbesteding", "uitbesteden", "onderaannemer", "onderaannemers", "onderaanneming"],
+  ["incident", "incidenten"],
+  ["cyberdreiging", "cyberdreigingen", "dreiging", "dreigingen"],
+  ["penetratietests", "penetratietest", "tlpt"],
+  ["weerbaarheid", "veerkracht"],
+  ["exitstrategie", "exitstrategieen", "exit"],
+  ["kritieke", "kritiek", "belangrijke"],
+  ["toeleveringsketen", "keten", "ranking"],
+  ["melding", "meldingen", "rapportage"],
 ];
 
 /** term → the other members of its group. */

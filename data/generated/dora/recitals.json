@@ -1,0 +1,853 @@
+[
+ {
+  "number": 1,
+  "paragraphs": [
+   {
+    "text": "In het digitale tijdperk ondersteunt informatie- en communicatietechnologie (ICT) complexe systemen die worden gebruikt voor dagelijkse activiteiten. ICT houdt belangrijke sectoren van onze economie draaiende, waaronder de financiële sector, en verbetert de werking van de interne markt. Meer digitalisering en onderlinge verwevenheid vergroten ook het ICT-risico, waardoor de samenleving als geheel, en het financiële stelsel in het bijzonder, kwetsbaarder wordt voor cyberdreigingen of ICT-verstoringen. Hoewel het alomtegenwoordige gebruik van ICT-systemen en een hoge mate van digitalisering en connectiviteit tegenwoordig belangrijke kenmerken zijn van de activiteiten van financiële entiteiten in de Unie, moet hun digitale weerbaarheid nog beter worden aangepakt en in hun ruimere operationele kaders worden ingebouwd."
+   }
+  ]
+ },
+ {
+  "number": 2,
+  "paragraphs": [
+   {
+    "text": "Het gebruik van ICT heeft in de afgelopen decennia een centrale rol gekregen in de verlening van financiële diensten, zodat ICT nu van cruciaal belang is voor de werking van typische dagelijkse functies van alle financiële entiteiten. Digitalisering komt tegenwoordig onder andere naar voren bij bijvoorbeeld betalingen, die steeds minder met op contant geld en papier gebaseerde methoden plaatsvinden en steeds vaker met behulp van digitale oplossingen plaatsvinden, alsook effectenclearing en -afwikkeling, elektronische en algoritmische handel, lenings- en financieringsverrichtingen, peer-to-peerfinanciering, kredietbeoordeling, schadebeheer en backofficeverrichtingen. De verzekeringssector is ook getransformeerd door het gebruik van ICT-technologie, van de opkomst van verzekeringstussenpersonen die met InsurTech werken en hun diensten online aanbieden tot het digitaal afsluiten van verzekeringen. Niet alleen is het geldwezen in de hele sector grotendeels digitaal geworden, maar digitalisering heeft ook gezorgd voor sterkere onderlinge verbanden en afhankelijkheden binnen de financiële sector en met derde aanbieders van infrastructuur en diensten."
+   }
+  ]
+ },
+ {
+  "number": 3,
+  "paragraphs": [
+   {
+    "text": "Het Europees Comité voor systeemrisico’s (ESRB) heeft in een in 2020 uitgebracht verslag over systemisch cyberrisico bevestigd hoe de bestaande hoge mate van verwevenheid tussen financiële entiteiten, financiële markten en financiëlemarktinfrastructuren, en met name de onderlinge afhankelijkheid van hun ICT-systemen, een systeemkwetsbaarheid zou kunnen vormen, omdat lokale cyberincidenten zich snel van elk van de ongeveer 22 000 financiële entiteiten van de Unie zouden kunnen verspreiden naar het gehele financiële stelsel, niet gehinderd door geografische grenzen. Ernstige ICT-inbreuken die zich in de financiële sector voordoen, hebben niet alleen gevolgen voor afzonderlijke financiële entiteiten. Zij begunstigen ook de verspreiding van lokale kwetsbaarheden via de financiële transmissiekanalen en kunnen negatieve gevolgen voor de stabiliteit van het financiële stelsel van de Unie meebrengen, waaronder liquiditeitsruns en een algeheel verlies van vertrouwen in de financiële markten."
+   }
+  ]
+ },
+ {
+  "number": 4,
+  "paragraphs": [
+   {
+    "text": "De laatste jaren hebben internationale, uniale en nationale beleidsmakers, toezichthouders en normalisatie-instellingen zich beziggehouden met het ICT-risico en is geprobeerd de digitale weerbaarheid te vergroten, normen vast te stellen en regelgevings- of toezichtwerkzaamheden te coördineren. Op internationaal niveau streven het Bazels Comité voor bankentoezicht, het Comité betalingen en marktinfrastructuur, de Raad voor financiële stabiliteit, het Financial Stability Institute en de G-7 en G20 ernaar de bevoegde autoriteiten en marktdeelnemers in verschillende rechtsgebieden te voorzien van instrumenten om de weerbaarheid van hun financiële stelsels te verbeteren. Die werkzaamheden zijn ook ingegeven door de noodzaak om terdege rekening te houden met het ICT-risico in de context van een onderling zeer sterk verbonden mondiaal financieel stelsel en om te streven naar meer consistentie van relevante beste praktijken."
+   }
+  ]
+ },
+ {
+  "number": 5,
+  "paragraphs": [
+   {
+    "text": "Ondanks gerichte uniale en nationale beleids- en wetgevingsinitiatieven blijft het ICT-risico een uitdaging vormen voor de operationele weerbaarheid, prestaties en stabiliteit van het financiële stelsel van de Unie. De hervormingen die op de financiële crisis van 2008 volgden, hebben in de eerste plaats de financiële weerbaarheid van de financiële sector van de Unie versterkt en hadden als doel het concurrentievermogen en de stabiliteit van de Unie te waarborgen uit economisch, prudentieel en marktgedragsoogpunt. Hoewel ICT-beveiliging en digitale weerbaarheid deel uitmaken van operationeel risico, hebben zij in de regelgevingsagenda na de financiële crisis minder aandacht gekregen en zijn ze alleen op sommige gebieden van het financiëledienstenbeleid en het regelgevingslandschap van de Unie ontwikkeld, of slechts in een paar lidstaten."
+   }
+  ]
+ },
+ {
+  "number": 6,
+  "paragraphs": [
+   {
+    "text": "In haar mededeling van 8 maart 2018 met als titel “FinTech-actieplan: voor een meer concurrerende en innovatieve Europese financiële sector”, benadrukte de Commissie dat het van het grootste belang is de financiële sector van de Unie weerbaarder te maken, onder andere vanuit operationeel oogpunt, om te zorgen voor de technologische veiligheid en goede werking ervan en voor een snel herstel van ICT-inbreuken en -incidenten, zodat uiteindelijk financiële diensten in de hele Unie doeltreffend en vlot kunnen worden verricht, ook in stresssituaties, terwijl het vertrouwen van consumenten en markten behouden blijft."
+   }
+  ]
+ },
+ {
+  "number": 7,
+  "paragraphs": [
+   {
+    "text": "In april 2019 hebben de Europese toezichthoudende autoriteit (Europese Bankautoriteit) (EBA) opgericht bij Verordening (EU) nr. 1093/2010 van het Europees Parlement en de Raad (4) , de Europese toezichthoudende autoriteit (Europese Autoriteit voor verzekeringen en bedrijfspensioenen) (Eiopa) opgericht bij Verordening (EU) nr. 1094/2010 van het Europees Parlement en de Raad (5) en de Europese toezichthoudende autoriteit (Europese Autoriteit voor effecten en markten) (ESMA) opgericht bij Verordening (EU) nr. 1095/2010 van het Europees Parlement en de Raad (6) (gezamenlijk bekend als “Europese toezichthoudende autoriteiten” of “ETA’s”) gezamenlijk technische adviezen uitgebracht waarin werd opgeroepen tot een samenhangende aanpak van het ICT-risico in de financiële sector en werd aanbevolen om op evenredige wijze de digitale operationele weerbaarheid van de financiëledienstensector te versterken door middel van een sectorspecifiek initiatief van de Unie."
+   }
+  ]
+ },
+ {
+  "number": 8,
+  "paragraphs": [
+   {
+    "text": "De financiële sector van de Unie wordt gereglementeerd door een gemeenschappelijk rulebook en is onderworpen aan een Europees systeem van financieel toezicht. Niettemin zijn de bepalingen inzake digitale operationele weerbaarheid en ICT-beveiliging nog niet volledig of consistent geharmoniseerd, hoewel digitale operationele weerbaarheid cruciaal is voor de financiële stabiliteit en marktintegriteit in het digitale tijdperk, en niet minder belangrijk is dan bijvoorbeeld gemeenschappelijke prudentiële of marktgedragsnormen. Het gemeenschappelijk rulebook en het toezichtsysteem moeten daarom ook voor digitale operationele weerbaarheid worden ontwikkeld, door de mandaten van de bevoegde autoriteiten te versterken om hen in staat te stellen toezicht te houden op het beheer van het ICT-risico in de financiële sector, teneinde de integriteit en efficiëntie van de interne markt te beschermen en de ordelijke werking ervan te vergemakkelijken."
+   }
+  ]
+ },
+ {
+  "number": 9,
+  "paragraphs": [
+   {
+    "text": "Verschillen in wetgeving en ongelijke nationale regelgevings- of toezichtsbenaderingen met betrekking tot het ICT-risico leiden tot obstakels voor de werking van de interne markt voor financiële diensten die de vlotte uitoefening van de vrijheid van vestiging en het verlenen van diensten belemmeren voor financiële entiteiten die grensoverschrijdend actief zijn. De concurrentie tussen hetzelfde type financiële entiteiten in verschillende lidstaten zou ook kunnen worden verstoord. Dit is in het bijzonder het geval op gebieden waar de harmonisatie op Unieniveau zeer beperkt is gebleven, zoals bij het testen van de digitale operationele weerbaarheid, of geheel ontbreekt, zoals bij het monitoren van het ICT-risico van derde aanbieders. Verschillen als gevolg van geplande ontwikkelingen op nationaal niveau zouden verdere belemmeringen voor de werking van de interne markt meebrengen, ten nadele van de marktdeelnemers en de financiële stabiliteit."
+   }
+  ]
+ },
+ {
+  "number": 10,
+  "paragraphs": [
+   {
+    "text": "Doordat ICT-risico tot nu toe slechts ten dele op Unieniveau is aangepakt, bestaan op belangrijke gebieden — zoals het melden van ICT-gerelateerde incidenten en het testen van digitale operationele weerbaarheid — lacunes of overlappingen, alsook inconsistenties als gevolg van uiteenlopende nationale regels of kosteninefficiënte toepassing van overlappende regels. Dit is met name nadelig voor een ICT-intensieve gebruiker als de financiële sector, aangezien technologische risico’s zich niet door grenzen laten tegenhouden en de financiële sector zijn diensten op brede grensoverschrijdende schaal binnen en buiten de Unie verleent. Individuele financiële entiteiten die grensoverschrijdend actief zijn of over meerdere vergunningen beschikken (een financiële entiteit kan bijvoorbeeld vergunningen als bank, als beleggingsonderneming en als betalingsinstelling hebben die elk zijn afgegeven door verschillende bevoegde autoriteiten in een of meer lidstaten) hebben te maken met operationele uitdagingen wanneer zij zelf op samenhangende en kosteneffectieve manier het ICT-risico moeten aanpakken en de negatieve gevolgen van ICT-incidenten moeten beperken."
+   }
+  ]
+ },
+ {
+  "number": 11,
+  "paragraphs": [
+   {
+    "text": "Aangezien het gemeenschappelijk rulebook niet vergezeld ging van een uitgebreid kader voor ICT- of operationeel risico, is verdere harmonisatie van essentiële vereisten inzake digitale operationele weerbaarheid voor alle financiële entiteiten geboden. Indien financiële entiteiten op basis van die essentiële vereisten hun ICT-capaciteiten en algehele weerbaarheid opbouwden om operationele storingen te weerstaan, zou dit helpen om de stabiliteit en integriteit van de financiële markten van de Unie te behouden en aldus bijdragen tot het waarborgen van een hoog niveau van bescherming van beleggers en consumenten in de Unie. Aangezien deze verordening beoogt bij te dragen tot de vlotte werking van de interne markt, moet zij gebaseerd zijn op de bepalingen van artikel 114 van het Verdrag betreffende de werking van de Europese Unie (“VWEU”), geïnterpreteerd in overeenstemming met de vaste rechtspraak van het Hof van Justitie van de Europese Unie (“Hof van Justitie”)."
+   }
+  ]
+ },
+ {
+  "number": 12,
+  "paragraphs": [
+   {
+    "text": "Deze verordening is gericht op het consolideren en verbeteren van de vereisten inzake ICT-risico die deel uitmaken van de vereisten inzake operationeel risico, en welke tot dusver afzonderlijk zijn behandeld in verschillende rechtshandelingen van de Unie. Hoewel de belangrijkste categorieën financiële risico’s (bv. kredietrisico, marktrisico, tegenpartijkredietrisico en liquiditeitsrisico, marktgedragrisico) in die rechtshandelingen aan bod kwamen, werden ten tijde van de vaststelling ervan niet alle componenten van operationele weerbaarheid behandeld. In de regels inzake operationeel risico die in die rechtshandelingen van de Unie verder zijn uitgewerkt, is vaak gekozen voor een traditionele kwantitatieve aanpak van risico’s (namelijk de vaststelling van een kapitaalvereiste om het ICT-risico te dekken), in plaats van gerichte kwalitatieve regels voor bescherming, opsporing, inperking, herstel en reparatie bij ICT-gerelateerde incidenten of voor capaciteit inzake rapportage en digitale tests. Die handelingen waren in de eerste plaats bedoeld om essentiële regels inzake prudentieel toezicht, marktintegriteit of marktgedrag vast te stellen en deze bij te werken. Door de verschillende regels inzake ICT-risico te consolideren en bij te werken, zouden alle bepalingen met betrekking tot digitaal risico in de financiële sector voor de eerste keer op consistente wijze in één wetgevingshandeling moeten worden samengebracht. Deze verordening vult dus leemten op in sommige van de eerdere rechtshandelingen of neemt inconsistenties daarin weg, ook wat betreft de daarin gebruikte terminologie, en verwijst expliciet naar ICT-risico door middel van gerichte regels inzake ICT-risicobeheercapaciteiten, rapportage van incidenten, tests van de operationele weerbaarheid en bewaking van het ICT-risico van derde aanbieders. Deze verordening moet dus ook het bewustzijn inzake het ICT-risico vergroten en erkennen dat ICT-incidenten en een gebrek aan operationele weerbaarheid de gezondheid van financiële entiteiten in gevaar kunnen brengen."
+   }
+  ]
+ },
+ {
+  "number": 13,
+  "paragraphs": [
+   {
+    "text": "Financiële entiteiten moeten, rekening houdend met hun omvang en algeheel risicoprofiel en de aard, schaal en complexiteit van hun diensten, activiteiten en verrichtingen, dezelfde benadering en dezelfde op beginselen gebaseerde regels volgen wanneer zij ICT-risico aanpakken. Consistentie draagt bij tot een groter vertrouwen in het financiële stelsel en tot het behoud van de stabiliteit ervan, met name in tijden van grote afhankelijkheid van ICT-systemen, -platforms en -infrastructuren, waardoor het digitale risico stijgt. De inachtneming van elementaire cyberhygiëne kan ook grote schade voor de economie voorkomen door de gevolgen en kosten van ICT-verstoringen tot een minimum te beperken."
+   }
+  ]
+ },
+ {
+  "number": 14,
+  "paragraphs": [
+   {
+    "text": "Een verordening helpt de complexiteit van de regelgeving te verminderen, bevordert de convergentie van het toezicht en vergroot de rechtszekerheid, en draagt ook bij tot het beperken van de nalevingskosten, vooral voor financiële entiteiten die grensoverschrijdend actief zijn, en tot het verminderen van concurrentieverstoringen. Voor de vaststelling van een gemeenschappelijk kader voor de digitale operationele weerbaarheid van financiële entiteiten kan daarom het best een verordening worden gekozen om te zorgen voor een homogene en coherente toepassing van alle componenten van het ICT-risicobeheer door de financiële sector van de Unie."
+   }
+  ]
+ },
+ {
+  "number": 15,
+  "paragraphs": [
+   {
+    "text": "Richtlijn (EU) 2016/1148 van het Europees Parlement en de Raad (7) was het eerste horizontale kader voor cyberbeveiliging dat op Unieniveau werd vastgesteld en dat ook van toepassing is op drie soorten financiële entiteiten, namelijk kredietinstellingen, handelsplatformen en centrale tegenpartijen. Aangezien Richtlijn (EU) 2016/1148 voorziet in een mechanisme voor de identificatie op nationaal niveau van aanbieders van essentiële diensten, werden echter alleen bepaalde door de lidstaten geïdentificeerde kredietinstellingen, handelsplatformen en centrale tegenpartijen in de praktijk binnen het toepassingsgebied ervan gebracht zodat zij moeten voldoen aan de daarin vastgestelde vereisten inzake ICT-beveiliging en melding van incidenten. Richtlijn (EU) 2022/2555 van het Europees Parlement en de Raad (8) stelt een uniform criterium vast om te bepalen welke entiteiten binnen het toepassingsgebied ervan vallen (size-capregel) en behoudt ook de drie soorten financiële entiteiten binnen dat toepassingsgebied."
+   }
+  ]
+ },
+ {
+  "number": 16,
+  "paragraphs": [
+   {
+    "text": "Aangezien deze verordening het niveau van harmonisatie van de verschillende onderdelen van digitale weerbaarheid verhoogt door vereisten inzake ICT-risicobeheer en rapportage van ICT-gerelateerde incidenten in te voeren die strenger zijn dan die welke in het huidige Unierecht inzake financiële diensten zijn opgenomen, komt dit hogere niveau echter ook neer op een grotere harmonisatie in vergelijking met de vereisten van Richtlijn (EU) 2022/2555. Deze verordening is dus een lex specialis ten opzichte van Richtlijn (EU) 2022/2555. Tegelijkertijd is het cruciaal om een sterke relatie tussen de financiële sector en het thans in Richtlijn (EU) 2022/2555 vastgelegde horizontale cyberbeveiligingskader van de Unie te handhaven, teneinde te zorgen voor samenhang met de door de lidstaten ingevoerde cyberbeveiligingsstrategieën, en financiële toezichthouders te kunnen wijzen op cyberincidenten die gevolgen hebben voor de andere sectoren die onder die Richtlijn vallen."
+   }
+  ]
+ },
+ {
+  "number": 17,
+  "paragraphs": [
+   {
+    "text": "Overeenkomstig artikel 4, lid 2, van het Verdrag betreffende de Europese Unie en onverminderd de rechterlijke toetsing door het Hof van Justitie, mag deze verordening geen afbreuk doen aan de verantwoordelijkheid van de lidstaten met betrekking tot essentiële staatsfuncties op het gebied van openbare veiligheid, defensie en de bescherming van de nationale veiligheid, bijvoorbeeld met betrekking tot het verstrekken van informatie die in strijd zou zijn met de bescherming van de nationale veiligheid."
+   }
+  ]
+ },
+ {
+  "number": 18,
+  "paragraphs": [
+   {
+    "text": "Om sectoroverschrijdend leren mogelijk te maken en daadwerkelijk gebruik te maken van de ervaringen van andere sectoren bij de aanpak van cyberdreigingen, moeten de in Richtlijn (EU) 2022/2555 bedoelde financiële entiteiten deel blijven uitmaken van het “ecosysteem” van die richtlijn (bijvoorbeeld de samenwerkingsgroep en computer security incident response teams (CSIRT’s)). De ETA’s en nationale bevoegde autoriteiten moeten in staat zijn deel te nemen aan de strategische beleidsdiscussies en de technische werkzaamheden van de samenwerkingsgroep uit hoofde van die richtlijn, en daarnaast moeten zij in staat zijn informatie uit te wisselen en te blijven samenwerken met de overeenkomstig die richtlijn aangewezen of ingestelde centrale contactpunten. De bevoegde autoriteiten in de zin van deze verordening moeten ook overleg plegen en samenwerken met de CSIRT’s. De bevoegde autoriteiten moeten ook technisch advies kunnen inwinnen bij de overeenkomstig Richtlijn (EU) 2022/2555 aangewezen of ingestelde bevoegde autoriteiten, en samenwerkingsovereenkomsten kunnen sluiten om te zorgen voor coördinatiemechanismen voor doeltreffende en snelle respons."
+   }
+  ]
+ },
+ {
+  "number": 19,
+  "paragraphs": [
+   {
+    "text": "Gezien de sterke verwevenheid tussen de digitale en de fysieke weerbaarheid van financiële entiteiten behoeft deze verordening en Richtlijn (EU) 2022/2557 van het Europees Parlement en de Raad (9) een coherente aanpak met betrekking tot de weerbaarheid van kritieke entiteiten. Aangezien de fysieke weerbaarheid van financiële entiteiten breed wordt aangepakt door de in deze verordening genoemde verplichtingen inzake ICT-risicobeheer en -rapportage, mogen de in de hoofdstukken III en IV van Richtlijn (EU)2022/2557/ vastgelegde verplichtingen niet van toepassing zijn op financiële entiteiten die binnen het toepassingsgebied van die richtlijn vallen."
+   }
+  ]
+ },
+ {
+  "number": 20,
+  "paragraphs": [
+   {
+    "text": "Aanbieders van cloudcomputingdiensten zijn een van de categorieën digitale infrastructuur die onder Richtlijn (EU) 2022/2555 vallen. Het bij deze verordening vastgestelde oversightkader van de Unie (oversightkader) is van toepassing op alle kritieke derde aanbieders van ICT-diensten, waaronder aanbieders van cloudcomputingdiensten die ICT-diensten aan financiële entiteiten verlenen, en moet als complementair aan het krachtens Richtlijn (EU) 2022/2555 verrichte toezicht worden beschouwd. Bovendien moet het bij deze verordening vastgestelde oversightkader betrekking hebben op aanbieders van cloudcomputingdiensten, gezien het ontbreken van een horizontaal kader van de Unie tot oprichting van een autoriteit voor digitale oversight."
+   }
+  ]
+ },
+ {
+  "number": 21,
+  "paragraphs": [
+   {
+    "text": "Om het ICT-risico volledig onder controle te houden, moeten financiële entiteiten beschikken over alomvattende capaciteiten die een krachtig en doeltreffend ICT-risicobeheer mogelijk maken, evenals specifieke mechanismen en beleidsmaatregelen voor de respons op alle ICT-gerelateerde incidenten en voor het melden van ernstige ICT-gerelateerde incidenten. Evenzo moeten financiële entiteiten beschikken over beleidsmaatregelen voor het testen van ICT-systemen, -controles en -procedés en voor het beheren van het ICT-risico van derde aanbieders. Het referentieniveau voor de digitale operationele weerbaarheid van financiële entiteiten moet worden verhoogd, terwijl eveneens een evenredige toepassing van de vereisten mogelijk moet zijn voor bepaalde financiële entiteiten, in het bijzonder micro-ondernemingen, evenals financiële entiteiten die onderworpen zijn aan een vereenvoudigd kader voor ICT-risicobeheer. Om een efficiënt toezicht op instellingen voor bedrijfspensioenvoorziening te bewerkstelligen dat evenredig is en de administratieve lasten voor de bevoegde autoriteiten vermindert, moet in de betrokken nationale toezichtregelingen voor dergelijke financiële entiteiten rekening worden gehouden met hun omvang en algeheel risicoprofiel en met de aard, schaal en complexiteit van hun diensten, activiteiten en verrichtingen, zelfs wanneer de in artikel 5 van Richtlijn (EU) 2016/2341 van het Europees Parlement en de Raad (10) vastgestelde drempels worden overschreden. De toezichtactiviteiten moeten in de eerste plaats gericht zijn op de noodzaak om ernstige risico’s in verband met het ICT-risicobeheer van een bepaalde entiteit aan te pakken."
+   },
+   {
+    "text": "De bevoegde autoriteiten moeten ook een waakzame maar evenredige aanpak hanteren met betrekking tot het toezicht op instellingen voor bedrijfspensioenvoorziening die overeenkomstig artikel 31 van Richtlijn (EU) 2016/2341 een aanzienlijk deel van hun kernactiviteiten, zoals vermogensbeheer, actuariële berekeningen, boekhouding en gegevensbeheer, uitbesteden aan dienstverleners."
+   }
+  ]
+ },
+ {
+  "number": 22,
+  "paragraphs": [
+   {
+    "text": "De drempels en taxonomieën voor de rapportage van ICT-gerelateerde incidenten variëren aanzienlijk op nationaal niveau. Hoewel via de relevante werkzaamheden van het Agentschap van de Europese Unie voor cyberbeveiliging (Enisa), dat is opgericht bij Verordening (EU) 2019/881 van het Europees Parlement en de Raad (11), en de samenwerkingsgroep uit hoofde van Richtlijn (EU) 2022/2555 overeenstemming kan worden bereikt, kunnen voor de overige financiële entiteiten verschillende benaderingen inzake het bepalen van de drempels en het gebruik van taxonomieën bestaan of ontstaan. Die verschillen brengen met zich mee dat financiële entiteiten aan vele vereisten moeten voldoen, vooral wanneer zij in verschillende lidstaten actief zijn en wanneer zij deel uitmaken van een financiële groep. Bovendien kunnen dergelijke verschillen een belemmering vormen voor de totstandbrenging van verdere uniforme of gecentraliseerde mechanismen van de Unie die het rapportageproces versnellen en een snelle en vlotte uitwisseling van informatie tussen bevoegde autoriteiten ondersteunen, wat cruciaal is voor het aanpakken van het ICT-risico in geval van grootschalige aanvallen met potentieel systemische gevolgen."
+   }
+  ]
+ },
+ {
+  "number": 23,
+  "paragraphs": [
+   {
+    "text": "Om de administratieve lasten en mogelijk overlappende rapportageverplichtingen voor bepaalde financiële entiteiten te verminderen, mag de verplichting tot melding van incidenten krachtens Richtlijn (EU) 2015/2366 van het Europees Parlement en de Raad (12) niet langer van toepassing zijn op betalingsdienstaanbieders die binnen het toepassingsgebied van deze verordening vallen. Bijgevolg moeten kredietinstellingen, instellingen voor elektronisch geld, betalingsinstellingen en aanbieders van rekeninginformatiediensten, als bedoeld in artikel 33, lid 1, van die richtlijn, vanaf de datum van inwerkingtreding van deze verordening, krachtens deze verordening alle betalingsgerelateerde operationele of beveiligingsincidenten melden die eerder op grond van die richtlijn werden gemeld, ongeacht of dergelijke incidenten ICT-gerelateerd zijn."
+   }
+  ]
+ },
+ {
+  "number": 24,
+  "paragraphs": [
+   {
+    "text": "Om de bevoegde autoriteiten in staat te stellen toezicht te houden met behulp van een volledig overzicht van de aard, de frequentie, het belang en de impact van ICT-gerelateerde incidenten en om de uitwisseling van informatie tussen relevante overheidsinstanties, waaronder rechtshandhavingsinstanties en afwikkelingsautoriteiten, te bevorderen, moet bij deze verordening een robuuste regeling voor het melden van ICT-gerelateerde incidenten worden vastgesteld met voorschriften die tekortkomingen in het recht inzake financiële diensten aanpakken en tevens, ter verlichting van de kosten, bestaande overlappingen en doublures wegnemen. Het is essentieel de regeling voor het melden van ICT-gerelateerde incidenten te harmoniseren door te bepalen dat de rapportage van alle financiële entiteiten aan hun bevoegde autoriteiten gebeurt via één enkel gestroomlijnd kader zoals uiteengezet in deze verordening. Daarnaast moeten de ETA’s de bevoegdheid krijgen om voor de rapportage van ICT-gerelateerde incidenten relevante elementen nader uit te werken, zoals taxonomie, tijdschema’s, datasets, modellen en toepasselijke drempels. Ten behoeve van volledige overeenstemming met Richtlijn (EU) 2022/2555 moeten financiële entiteiten op vrijwillige basis significante cyberdreigingen aan de relevante bevoegde autoriteit kunnen melden wanneer zij van oordeel zijn dat de cyberdreiging relevant is voor het financiële stelsel, gebruikers van diensten of cliënten."
+   }
+  ]
+ },
+ {
+  "number": 25,
+  "paragraphs": [
+   {
+    "text": "In bepaalde financiële subsectoren zijn voorschriften voor het testen van de digitale operationele weerbaarheid ontwikkeld, leidend tot niet altijd volledig op elkaar afgestemde kaders. Dit kan voor grensoverschrijdende financiële entiteiten leiden tot dubbele kosten en maakt de wederzijdse erkenning van de resultaten van digitale-operationele-weerbaarheidtests complex, wat dan weer tot versnippering van de interne markt kan leiden."
+   }
+  ]
+ },
+ {
+  "number": 26,
+  "paragraphs": [
+   {
+    "text": "Bovendien blijven, wanneer ICT-tests niet verplicht zijn, kwetsbaarheden onontdekt, waardoor de financiële entiteit aan ICT-risico’s wordt blootgesteld en uiteindelijk de financiële sector een groter stabiliteits- en integriteitsrisico loopt. Zonder optreden van de Unie blijft het testen van de digitale operationele weerbaarheid inconsistent en komt er geen systeem voor de wederzijdse erkenning van testresultaten tussen verschillende rechtsgebieden. Daarnaast is het onwaarschijnlijk dat andere financiële subsectoren op betekenisvolle schaal testregelingen invoeren, waardoor zij verstoken blijven van de potentiële voordelen van een testkader als het gaat om het onthullen van ICT-kwetsbaarheden en -risico’s en het testen van verdedigingscapaciteiten en bedrijfscontinuïteit, zaken die helpen het vertrouwen van klanten, leveranciers en zakenpartners te vergroten. Om die overlappingen, verschillen en leemten te verhelpen, moeten regels worden vastgesteld voor een gecoördineerde testregeling door financiële entiteiten en bevoegde autoriteiten, zodat de wederzijdse erkenning van geavanceerde tests voor financiële entiteiten die de criteria van deze verordening vervullen, wordt vergemakkelijkt."
+   }
+  ]
+ },
+ {
+  "number": 27,
+  "paragraphs": [
+   {
+    "text": "Dat financiële entiteiten sterk op het gebruik van ICT-diensten leunen, komt deels doordat zij zich moeten aanpassen aan een opkomende concurrerende digitale mondiale economie, zij hun bedrijfsefficiëntie moeten verbeteren, en zij voldoen moeten aan de vraag van de consument. De aard en de omvang van die afhankelijkheid is de laatste jaren voortdurend in beweging, resulterend in een daling van de kosten van financiële bemiddeling en in mogelijkheden tot bedrijfsuitbreiding en schaalbaarheid bij de ontplooiing van financiële activiteiten, en in een breed aanbod aan ICT-instrumenten voor de aansturing van complexe interne processen."
+   }
+  ]
+ },
+ {
+  "number": 28,
+  "paragraphs": [
+   {
+    "text": "Het grootschalige gebruik van ICT-diensten komt tot uiting in complexe contractuele overeenkomsten, waarbij financiële entiteiten vaak moeilijkheden ondervinden om te onderhandelen over contractuele voorwaarden die zijn afgestemd op de prudentiële normen of andere regelgevingsvereisten waaraan zij onderworpen zijn. Het kan ook moeilijk zijn specifieke rechten af te dwingen, zoals toegangsrechten of auditrechten, zelfs wanneer deze laatste contractueel zijn vastgelegd. Bovendien voorzien veel van die contractuele overeenkomsten niet in voldoende waarborgen voor de volwaardige monitoring van onderaannemingsprocessen, zodat de financiële entiteit niet langer in staat is de bijbehorende risico’s te beoordelen. Aangezien derde aanbieders van ICT-diensten vaak gestandaardiseerde diensten aanbieden aan verschillende soorten klanten, houden de contractuele overeenkomsten ook niet altijd voldoende rekening met de individuele of specifieke behoeften van actoren uit de financiële sector."
+   }
+  ]
+ },
+ {
+  "number": 29,
+  "paragraphs": [
+   {
+    "text": "Het Unierecht inzake financiële diensten bevat enkele algemene voorschriften voor uitbesteding, maar daarmee is de monitoring van de contractuele dimensie nog niet volledig in het Unierecht verankerd. Bij ontstentenis van duidelijke, op maat gesneden Unienormen voor contractuele overeenkomsten met derde aanbieders van ICT-diensten wordt de externe bron van ICT-risico niet grondig aangepakt. Het is bijgevolg zaak bepaalde kernbeginselen vast te stellen als leidraad voor het beheer van ICT-risico’s van derden door financiële entiteiten. Die beginselen zijn des te belangrijker wanneer financiële entiteiten ter ondersteuning van kritieke of belangrijke functies een beroep op derde aanbieders van ICT-diensten doen. Aan die beginselen moet een reeks contractuele basisrechten worden gehangen met betrekking tot verschillende elementen van de uitvoering en beëindiging van contractuele overeenkomsten, teneinde bepaalde minimumwaarborgen te verstrekken die het vermogen van de financiële entiteiten moeten versterken om alle mogelijke ICT-risico’s op het niveau van derde aanbieders van diensten doeltreffend te monitoren. Die beginselen vormen een aanvulling op het voor uitbestedingen geldende sectorale recht."
+   }
+  ]
+ },
+ {
+  "number": 30,
+  "paragraphs": [
+   {
+    "text": "De homogeniteit en convergentie met betrekking tot de monitoring van het ICT-risico van derde aanbieders en de ICT-afhankelijkheden van derde partijen laat momenteel te wensen over. Ondanks inspanningen op het vlak van uitbestedingen, zoals de EBA-richtsnoeren inzake uitbesteding van 2019 en de ESMA-richtsnoeren over uitbesteding aan aanbieders van clouddiensten van 2021, komt de bredere kwestie van de bestrijding van systeemrisico’s die kunnen voortvloeien uit de blootstelling van de financiële sector aan een beperkt aantal kritieke derde aanbieders van ICT-diensten, in het Unierecht onvoldoende aan de orde. Dit wordt nog verergerd door het ontbreken van nationale regelgeving inzake mandaten en instrumenten waarmee financiële toezichthouders zich een goed inzicht in de afhankelijkheden van derden op ICT-gebied zouden kunnen verschaffen en de uit de concentratie van dergelijke afhankelijkheden voortvloeiende risico’s adequaat monitoren."
+   }
+  ]
+ },
+ {
+  "number": 31,
+  "paragraphs": [
+   {
+    "text": "Rekening houdend met de potentiële systeemrisico’s die de toegenomen uitbesteding en de concentratie van ICT bij derden meebrengen, en met het feit dat nationale mechanismen financiële toezichthouders onvoldoende middelen bieden om de gevolgen van het ICT-risico bij kritieke derde aanbieders van ICT-diensten te kunnen kwantificeren, kwalificeren en herstellen, moet een passend oversightkader tot stand worden gebracht voor de voortdurende monitoring van activiteiten van voor financiële entiteiten kritieke derde aanbieders van ICT-diensten, daarbij zorgend voor vertrouwelijkheid en veiligheid van klanten die geen financiële entiteiten zijn. Aan ICT-dienstverlening binnen een financiële groep zijn specifieke risico’s en voordelen verbonden die evenwel niet automatisch aangemerkt mogen worden als minder risicovol dan ICT-dienstverlening door externe aanbieders. Interne ICT-dienstverlening moet derhalve aan hetzelfde regelgevingskader worden onderworpen. Dat neemt niet weg dat bij interne ICT-dienstverlening vanuit de financiële groep zelf, financiële entiteiten een betere grip op intragroepaanbieders zouden kunnen hebben, iets waarmee bij de algehele risicobeoordeling rekening gehouden moet worden."
+   }
+  ]
+ },
+ {
+  "number": 32,
+  "paragraphs": [
+   {
+    "text": "Aangezien ICT-risico’s steeds complexer en geavanceerder worden, staan of vallen goede opsporings- en preventiemaatregelen op het vlak van ICT-risico grotendeels met regelmatige uitwisseling van inlichtingen over dreigingen en kwetsbaarheid tussen financiële entiteiten. Uitwisseling van inlichtingen helpt de bewustwording over cyberdreigingen te vergroten. Dit helpt dan weer het vermogen van financiële entiteiten om te voorkomen dat cyberdreigingen tot werkelijke ICT-gerelateerde incidenten uitgroeien te vergroten, en ook kunnen financiële entiteiten dan de impact van ICT-gerelateerde incidenten beter beheersen en sneller ervan herstellen. Bij ontstentenis van richtsnoeren op Unieniveau zijn er verschillende factoren die een dergelijke informatie-uitwisseling lijken te verhinderen, met name onzekerheid over de verenigbaarheid met de regels inzake gegevensbescherming, antitrust en aansprakelijkheid."
+   }
+  ]
+ },
+ {
+  "number": 33,
+  "paragraphs": [
+   {
+    "text": "Voorts leidt twijfel over het soort informatie dat met andere marktdeelnemers of niet-toezichthoudende autoriteiten (zoals Enisa voor analytische input of Europol voor rechtshandhavingsdoeleinden) mag worden uitgewisseld, ertoe dat nuttige informatie wordt achtergehouden. De informatie-uitwisseling blijft derhalve zowel qua omvang als qua kwaliteit vooralsnog beperkt en gefragmenteerd, waarbij relevante uitwisselingen meestal lokaal plaatsvinden (via nationale initiatieven) zonder samenhangende Uniebrede regelingen voor informatie-uitwisseling die zijn toegesneden op de behoeften van een geïntegreerd financieel stelsel. Het is daarom belangrijk dat die communicatiekanalen versterkt worden."
+   }
+  ]
+ },
+ {
+  "number": 34,
+  "paragraphs": [
+   {
+    "text": "Financiële entiteiten moeten worden aangemoedigd informatie en inlichtingen over cyberdreigingen tussen elkaar uit te wisselen, en hun individuele kennis en praktische ervaring op strategisch, tactisch en operationeel niveau collectief te benutten, om zo via deelname in informatie-uitwisselingsregelingen beter in staat te zijn cyberdreigingen adequaat te beoordelen, te monitoren, af te weren en aan te pakken. Op Unieniveau moeten er derhalve mechanismen voor vrijwillige informatie-uitwisseling mogelijk worden gemaakt die, wanneer zij in vertrouwde omgevingen worden uitgevoerd, de gehele financiële sector helpen cyberdreigingen te voorkomen en collectief aan te pakken door de verspreiding van ICT-risico snel te beperken en mogelijke besmetting via de financiële kanalen te verhinderen. Die mechanismen moeten in overeenstemming zijn met de toepasselijke mededingingsregels van de Unie uiteengezet in de mededeling van de Commissie van 14 januari 2011 met als titel “Richtsnoeren inzake de toepasselijkheid van artikel 101 van het Verdrag betreffende de werking van de Europese Unie op horizontale samenwerkingsovereenkomsten”, en met haar gegevensbeschermingsregels, meer in het bijzonder Verordening (EU) 2016/679 van het Europees Parlement en de Raad (13). Ook moeten ze gevestigd worden op een of meer van de in artikel 6 van die verordening vastgestelde rechtsgrondslagen, zoals in de context van de verwerking van persoonsgegevens die noodzakelijk is voor de behartiging van het gerechtvaardigde belang van de verwerkingsverantwoordelijke of van een derde, als bedoeld in artikel 6, lid 1, punt f), van die verordening, alsmede in de context van de verwerking van persoonsgegevens die noodzakelijk is om te voldoen aan een wettelijke verplichting waaraan de verwerkingsverantwoordelijke onderworpen is, noodzakelijk voor de vervulling van een taak van algemeen belang of een taak in het kader van de uitoefening van het openbaar gezag dat aan de verwerkingsverantwoordelijke is opgedragen, als bedoeld in artikel 6, lid 1, punt c) respectievelijk punt e), van die verordening."
+   }
+  ]
+ },
+ {
+  "number": 35,
+  "paragraphs": [
+   {
+    "text": "Voor een hoog niveau van digitale operationele weerbaarheid in de hele financiële sector en om daarbij gelijke tred te kunnen houden met de technologische ontwikkelingen, moet deze verordening betrekking hebben op risico’s die uit alle soorten ICT-diensten voortvloeien. Daartoe moet in de context van deze verordening de definitie van ICT-diensten breed worden opgevat en aldus mede digitale en gegevensdiensten omvatten die doorlopend via ICT-systemen aan een of meer interne of externe gebruikers worden geleverd. Die definitie moet onder meer betrekking hebben op zogeheten over-the-topdiensten, die onder de categorie elektronische-communicatiediensten vallen. Uitsluitend de beperkte categorie bestaande uit traditionele, als PSTN-diensten (Public Switched Telephone Network services) aan te merken analoge telefoondiensten, vaste telefoondiensten, verouderde telefoondiensten (Plain Old Telephone Service — POTS), en vastelijntelefoondiensten moet ervan worden uitgesloten."
+   }
+  ]
+ },
+ {
+  "number": 36,
+  "paragraphs": [
+   {
+    "text": "Ondanks de brede dekking waarin deze verordening voorziet, moet bij de toepassing van de regels inzake digitale operationele weerbaarheid rekening worden gehouden met aanzienlijke verschillen tussen financiële entiteiten qua omvang en qua algeheel risicoprofiel. Als algemeen beginsel geldt dat financiële entiteiten, wanneer zij middelen en capaciteiten vrijmaken voor de uitvoering van het kader voor ICT-risicobeheer, hun ICT-gerelateerde behoeften naar behoren moeten afstemmen op hun omvang en algeheel risicoprofiel, en op de aard, schaal en complexiteit van hun diensten, activiteiten en verrichtingen terwijl de bevoegde autoriteiten de daarbij gehanteerde benadering moeten blijven beoordelen en evalueren."
+   }
+  ]
+ },
+ {
+  "number": 37,
+  "paragraphs": [
+   {
+    "text": "Aanbieders van rekeninginformatiediensten, in de zin van artikel 33, lid 1, van Richtlijn (EU) 2015/2366, vallen uitdrukkelijk onder het toepassingsgebied van deze verordening, rekening houdend met de specifieke aard van hun activiteiten en de daaruit voortvloeiende risico’s. Onder het toepassingsgebied van deze verordening vallen tevens alle instellingen voor elektronisch geld en betalingsinstellingen die krachtens artikel 9, lid 1, van Richtlijn 2009/110/EG van het Europees Parlement en de Raad (14) en artikel 32, lid 1, van Richtlijn (EU) 2015/2366 van het Europees Parlement en de Raad zijn vrijgesteld, zelfs indien zij niet over een vergunning overeenkomstig Richtlijn 2009/110/EG voor de uitgifte van elektronisch geld beschikken, of over een vergunning overeenkomstig Richtlijn (EU) 2015/2366 voor het aanbieden en uitvoeren van betalingsdiensten. Postcheque- en girodiensten als bedoeld in artikel 2, lid 5, punt 3, van Richtlijn 2013/36/EU van het Europees Parlement en de Raad (15) zijn evenwel uitgesloten van het toepassingsgebied van deze verordening. De bevoegde autoriteit die is aangewezen overeenkomstig artikel 22 van Richtlijn (EU) 2015/2366, dient de bevoegde autoriteit te zijn voor betalingsinstellingen die krachtens Richtlijn (EU) 2015/2366 zijn vrijgesteld, voor instellingen voor elektronisch geld die zijn vrijgesteld krachtens Richtlijn 2009/110/EG, en voor aanbieders van rekeninginformatiediensten als bedoeld in artikel 33, lid 1, van Richtlijn (EU) 2015/2366."
+   }
+  ]
+ },
+ {
+  "number": 38,
+  "paragraphs": [
+   {
+    "text": "Aangezien grotere financiële entiteiten over meer middelen zouden kunnen beschikken en snel financiële middelen kunnen inzetten om governancestructuren te ontwikkelen en diverse bedrijfsstrategieën op te zetten, moeten alleen financiële entiteiten die geen micro-ondernemingen in de zin van deze verordening zijn, verplicht worden complexere governanceregelingen op te zetten. Dergelijke entiteiten zijn met name beter toegerust om specifieke beheersfuncties op te zetten voor het toezicht op regelingen met derde aanbieders van ICT-diensten of voor crisisbeheer, om hun ICT-risicobeheer te organiseren volgens het model van drie verdedigingslinies, of om een intern risicobeheer- en controlemodel op te zetten en hun ICT-risicobeheerkader aan interne audits te onderwerpen."
+   }
+  ]
+ },
+ {
+  "number": 39,
+  "paragraphs": [
+   {
+    "text": "Sommige financiële entiteiten zijn uit hoofde van het desbetreffende sectorspecifieke Unierecht vrijgesteld of aan een zeer licht regelgevingskader onderworpen. Het gaat daarbij onder meer om beheerders van alternatieve beleggingsfondsen als bedoeld in artikel 3, lid 2, van Richtlijn 2011/61/EU van het Europees Parlement en de Raad (16), verzekerings- en herverzekeringsondernemingen als bedoeld in artikel 4 van Richtlijn 2009/138/EG van het Europees Parlement en de Raad (17), en instellingen voor bedrijfspensioenvoorziening die pensioenregelingen uitvoeren die samen niet meer dan 15 deelnemers tellen. In het licht van die vrijstellingen zou het niet evenredig zijn de betroffen financiële entiteiten onder het toepassingsgebied van deze verordening te laten vallen. Bovendien erkent deze verordening de specifieke kenmerken van de verzekeringsbemiddelingsmarktstructuur, om welke reden verzekeringstussenpersonen, herverzekeringstussenpersonen en nevenverzekeringstussenpersonen die als micro-ondernemingen of als kleine of middelgrote ondernemingen kunnen worden aangemerkt, niet onder deze verordening dienen te vallen."
+   }
+  ]
+ },
+ {
+  "number": 40,
+  "paragraphs": [
+   {
+    "text": "Aangezien de in artikel 2, lid 5, punten 4 tot en met 23, van Richtlijn 2013/36/EU bedoelde entiteiten niet onder het toepassingsgebied van die richtlijn vallen, moeten de lidstaten ervoor kunnen kiezen dit soort op hun respectieve grondgebied gevestigde entiteiten vrij te stellen van de toepassing van deze verordening."
+   }
+  ]
+ },
+ {
+  "number": 41,
+  "paragraphs": [
+   {
+    "text": "Om deze verordening in overeenstemming te brengen met het toepassingsgebied van Richtlijn 2014/65/EU van het Europees Parlement en de Raad (18), is het tevens passend natuurlijke en rechtspersonen als bedoeld in de artikelen 2 en 3 van die richtlijn die zonder een vergunning uit hoofde van Richtlijn 2014/65/EU beleggingsdiensten mogen verrichten, van het toepassingsgebied van deze verordening uit te sluiten. Artikel 2 van Richtlijn 2014/65/EU sluit echter ook entiteiten die voor de toepassing van deze verordening als financiële entiteiten kwalificeren, zoals centrale effectenbewaarinstellingen, instellingen voor collectieve belegging of verzekerings- en herverzekeringsondernemingen, uit van het toepassingsgebied van die richtlijn. De uitsluiting van de in de artikelen 2 en 3 van die richtlijn bedoelde personen en entiteiten van het toepassingsgebied van deze verordening mag niet gelden voor die centrale effectenbewaarinstellingen, instellingen voor collectieve belegging of verzekerings- en herverzekeringsondernemingen."
+   }
+  ]
+ },
+ {
+  "number": 42,
+  "paragraphs": [
+   {
+    "text": "Op grond van sectorspecifiek Unierecht gelden voor sommige financiële entiteiten lichtere eisen of vrijstellingen om redenen die verband houden met hun omvang of de door hen verleende diensten. Die categorie van financiële entiteiten betreft onder meer kleine en niet-verweven beleggingsondernemingen, kleine instellingen voor bedrijfspensioenvoorziening die door de betrokken lidstaat van het toepassingsgebied van Richtlijn (EU) 2016/2341 kunnen worden uitgesloten onder de voorwaarden van artikel 5 van die richtlijn en die pensioenregelingen met bij elkaar niet meer dan 100 deelnemers uitvoeren, alsmede instellingen die krachtens Richtlijn 2013/36/EU zijn vrijgesteld. Het is derhalve overeenkomstig het evenredigheidsbeginsel en met het oog op de geest van het sectorspecifieke Unierecht, tevens passend die financiële entiteiten aan een vereenvoudigd kader voor ICT-risicobeheer in het kader van deze verordening te onderwerpen. Het evenredige karakter van het kader voor ICT-risicobeheer dat die financiële entiteiten bestrijkt, mag niet worden gewijzigd bij de door de ETA’s te ontwikkelen technische reguleringsnormen. Bovendien is het, overeenkomstig het evenredigheidsbeginsel, passend tevens betalingsinstellingen als bedoeld in artikel 32, lid 1, van Richtlijn (EU) 2015/2366 en instellingen voor elektronisch geld als bedoeld in artikel 9 van Richtlijn 2009/110/EG die overeenkomstig het nationale recht tot omzetting van die rechtshandelingen van de Unie zijn vrijgesteld, aan een vereenvoudigd kader voor ICT-risicobeheer uit hoofde van deze verordening te onderwerpen, waarbij zij aangetekend dat betalingsinstellingen en instellingen voor elektronisch geld die niet zijn vrijgesteld overeenkomstig hun respectieve nationale recht tot omzetting van sectoraal Unierecht wel in overeenstemming met het algemene kader van deze verordening moeten zijn."
+   }
+  ]
+ },
+ {
+  "number": 43,
+  "paragraphs": [
+   {
+    "text": "Evenzo mogen financiële entiteiten die als micro-ondernemingen worden aangemerkt of onder het vereenvoudigde kader voor ICT-risicobeheer in het kader van deze verordening vallen, niet worden verplicht om een functie in te stellen voor het toezicht op hun regelingen met derde aanbieders van ICT-diensten inzake het gebruik van ICT-diensten, of om een lid van het hoger management aan te wijzen dat verantwoordelijk is voor het toezicht op de desbetreffende risicoblootstelling en relevante documentatie; noch om de verantwoordelijkheid voor het beheer van en het toezicht op het ICT-risico aan een controlefunctie toe te wijzen en te zorgen voor passende onafhankelijkheid van die controlefunctie ter voorkoming van belangenconflicten; noch om het kader voor ICT-risicobeheer ten minste eenmaal per jaar te documenteren en te evalueren; noch om het kader voor ICT-risicobeheer regelmatig aan een interne audit te onderwerpen; noch om diepgaande analyses uit te voeren na grote veranderingen in hun infrastructuur en processen voor netwerk- en informatiesystemen; noch om regelmatig risicoanalyses uit te voeren voor legacy-ICT-systemen; noch om de uitvoering van de ICT-respons- en herstelplannen aan een onafhankelijke interne audit te onderwerpen; noch om over een crisisbeheersfunctie te beschikken, noch om de tests van bedrijfscontinuïteit en -respons en herstelplannen uit te breiden om rekening te houden met de scenario’s voor de overschakeling tussen primaire ICT-infrastructuur en de reservefaciliteiten; noch om bevoegde autoriteiten die hierom verzoeken een raming te verstrekken van de geaggregeerde jaarlijkse kosten en verliezen als gevolg van ernstige ICT-gerelateerde incidenten, noch om overbodige ICT-capaciteiten in stand te houden; noch om de nationale bevoegde autoriteiten in kennis te stellen van wijzigingen op basis van evaluaties naar aanleiding van ICT-gerelateerde incidenten; noch om voortdurend toezicht te houden op relevante technologische ontwikkelingen, noch om als integraal onderdeel van het kader voor ICT-risicobeheer waarin deze verordening voorziet een alomvattend programma voor het testen van digitale operationele weerbaarheid op te zetten, of om een strategie inzake ICT-risico’s van derden vast te stellen en regelmatig te evalueren. Daarnaast moet van micro-ondernemingen uitsluitend worden gevraagd op basis van hun risicoprofiel na te gaan of dergelijke overbodige ICT-capaciteiten behouden moeten worden. Voor micro-ondernemingen moet een flexibelere regeling worden ontworpen wat programma’s voor het testen van digitale operationele weerbaarheid betreft. Bij het bepalen van het type uit te voeren tests en de frequentie van die tests, moeten zij een goede afweging maken tussen de doelstelling een hoge digitale operationele weerbaarheid te handhaven, de beschikbare middelen en hun algehele risicoprofiel. Micro-ondernemingen en financiële entiteiten die onder het vereenvoudigde kader voor ICT-risicobeheer uit hoofde van deze verordening vallen, moeten worden vrijgesteld van de verplichting om ICT-instrumenten, -systemen en -processen aan geavanceerde tests op basis van dreigingsgestuurde penetratietests (threat led penetration testing — TLPT) te onderwerpen, aangezien alleen financiële entiteiten die de criteria van deze verordening vervullen verplicht moeten worden dergelijke tests uit te voeren. Gezien hun beperkte mogelijkheden moeten micro-ondernemingen met hun derde aanbieder van ICT-diensten kunnen overeenkomen de rechten van toegang, inspectie en audit van de financiële entiteit te delegeren aan een door de derde aanbieder aan te wijzen onafhankelijke derde partij, op voorwaarde dat de financiële entiteit te allen tijde alle relevante informatie en zekerheid met betrekking tot de prestaties van de derde aanbieder van ICT-diensten bij de respectieve onafhankelijke derde partij kan opvragen."
+   }
+  ]
+ },
+ {
+  "number": 44,
+  "paragraphs": [
+   {
+    "text": "Aangezien alleen die financiële entiteiten die worden aangemerkt voor geavanceerde tests op digitale weerbaarheid verplicht moeten zijn om dreigingsgestuurde penetratietests uit te voeren, moeten de administratieve processen en de financiële kosten die de uitvoering van dergelijke tests meebrengt, gedragen worden door een klein percentage van de financiële entiteiten."
+   }
+  ]
+ },
+ {
+  "number": 45,
+  "paragraphs": [
+   {
+    "text": "Om te zorgen voor volledige afstemming en algehele samenhang tussen de bedrijfsstrategieën van financiële entiteiten enerzijds en de uitvoering van ICT-risicobeheer anderzijds, moeten de leidinggevende organen van de financiële entiteit worden verplicht een centrale en actieve rol te blijven spelen bij het sturen en aanpassen van het kader voor ICT-risicobeheer en de algemene strategie voor digitale operationele weerbaarheid. De door de leidinggevende organen te volgen aanpak moet niet alleen gericht zijn op middelen ter waarborging van de weerbaarheid van de ICT-systemen, maar ook op personen en processen. Daarvoor dient een reeks beleidsmaatregelen die alle niveaus van de organisatie en bij alle personeelsleden een sterk bewustzijn van cyberrisico’s bevorderen en de wil ondersteunen om op alle niveaus een strikte cyberhygiëne in acht te nemen. Een overkoepelend beginsel van die alomvattende aanpak moet zijn dat het leidinggevend orgaan de uiteindelijke verantwoordelijkheid draagt voor het beheer van het ICT-risico van een financiële entiteit, vertaald in een voortdurende betrokkenheid van het leidinggevend orgaan bij de controle van de monitoring van het ICT-risicobeheer."
+   }
+  ]
+ },
+ {
+  "number": 46,
+  "paragraphs": [
+   {
+    "text": "Het beginsel dat het leidinggevend orgaan de volledige en uiteindelijke verantwoordelijkheid draagt voor het beheer van het ICT-risico van de financiële entiteit, betekent bovendien dat moet worden gezorgd voor voldoende ICT-gerelateerde investeringen en een budget waarmee de financiële entiteit grote digitale operationele weerbaarheid kan verwezenlijken."
+   }
+  ]
+ },
+ {
+  "number": 47,
+  "paragraphs": [
+   {
+    "text": "Deze verordening, die geïnspireerd is op relevante internationale, nationale en sectorale beste praktijken, normen, richtsnoeren, aanbevelingen en benaderingen ten aanzien van het beheer van het cyberrisico, bevordert een reeks beginselen die de algemene structurering van het ICT-risicobeheer ondersteunen. Dat betekent dat zolang de belangrijkste door financiële entiteiten gecreëerde capaciteiten de uiteenlopende functies in het ICT-risicobeheer (identificatie, bescherming en voorkoming, detectie, respons en herstel, scholing en ontwikkeling en communicatie) ten goede komen, het de financiële entiteiten vrij zou moeten staan om anders opgezette of gecategoriseerde modellen voor ICT-risicobeheer te gebruiken."
+   }
+  ]
+ },
+ {
+  "number": 48,
+  "paragraphs": [
+   {
+    "text": "Om gelijke tred te houden met ontwikkelingen in het cyberdreigingslandschap, moeten financiële entiteiten geactualiseerde ICT-systemen in stand houden die betrouwbaar zijn en niet alleen de gegevensverwerking kunnen garanderen die nodig is voor hun dienstverlening, maar die ook voor voldoende technologische weerbaarheid zorgen, opdat zij adequaat kunnen inspelen op extra verwerkingsbehoeften als gevolg van gespannen marktomstandigheden of andere ongunstige situaties."
+   }
+  ]
+ },
+ {
+  "number": 49,
+  "paragraphs": [
+   {
+    "text": "Er zijn efficiënte bedrijfscontinuïteits- en herstelplannen nodig om financiële entiteiten in staat te stellen ICT-gerelateerde incidenten snel op te lossen, met name cyberaanvallen, door overeenkomstig hun backupbeleid de schade te beperken en prioriteit te geven aan de hervatting van activiteiten en aan herstelmaatregelen. Een dergelijke hervatting mag echter op geen enkele wijze ten koste gaan van de integriteit en veiligheid van de netwerk- en informatiesystemen of de beschikbaarheid, authenticiteit, integriteit of vertrouwelijkheid van gegevens."
+   }
+  ]
+ },
+ {
+  "number": 50,
+  "paragraphs": [
+   {
+    "text": "Hoewel deze verordening financiële entiteiten toestaat op flexibele wijze hun eigen hersteltijd- en herstelpuntdoelstellingen vast te stellen en daarbij derhalve ten volle rekening te houden met de aard en het kritieke karakter van de betrokken functies en met eventuele specifieke bedrijfsbehoeften, moeten zij bij deze verordening verplicht worden om bij het vaststellen van dergelijke doelstellingen toch ook het mogelijke algemene effect op de marktefficiëntie te evalueren."
+   }
+  ]
+ },
+ {
+  "number": 51,
+  "paragraphs": [
+   {
+    "text": "Daders van cyberaanvallen zijn doorgaans op zoek naar financieel gewin rechtstreeks aan de bron, met alle verregaande gevolgen voor financiële entiteiten van dien. Om te voorkomen dat ICT-systemen aan integriteit inboeten of onbeschikbaar worden, en dus om inbreuken op gegevens en schade aan fysieke ICT-infrastructuur te voorkomen, moet de rapportage van ernstige ICT-gerelateerde incidenten door financiële entiteiten aanzienlijk worden verbeterd en gestroomlijnd. De rapportage van ICT-gerelateerde incidenten moet worden geharmoniseerd door alle financiële entiteiten te verplichten rechtstreeks aan hun desbetreffende bevoegde autoriteiten te rapporteren. Staat een financiële entiteit onder toezicht van meer dan één nationale bevoegde autoriteit, dan bepaalt de lidstaat aan welke ene daarvan de rapportage gericht moet worden. Kredietinstellingen die overeenkomstig artikel 6, lid 4, van Verordening (EU) nr. 1024/2013 van de Raad (19) als significant zijn geclassificeerd, moeten deze rapportage indienen bij de nationale bevoegde autoriteiten, die het verslag vervolgens aan de Europese Centrale Bank (ECB) toezenden."
+   }
+  ]
+ },
+ {
+  "number": 52,
+  "paragraphs": [
+   {
+    "text": "De rechtstreekse rapportage moet het financiële toezichthouders mogelijk maken zich onmiddellijke toegang tot informatie over ernstige ICT-gerelateerde incidenten te verschaffen. Financiële toezichthouders moeten op hun beurt bijzonderheden over ernstige ICT-gerelateerde incidenten doorgeven aan publieke niet-financiële autoriteiten (bijvoorbeeld bevoegde autoriteiten en centrale contactpunten uit hoofde van Richtlijn (EU) 2022/2555, nationale gegevensbeschermingsautoriteiten en rechtshandhavingsautoriteiten voor ernstige ICT-gerelateerde incidenten van criminele aard), teneinde die autoriteiten bewuster van dergelijke incidenten te maken en, wat CSIRT’s betreft, om in voorkomend geval snelle bijstand aan financiële entiteiten te faciliteren. Voorts moeten de lidstaten financiële entiteiten kunnen verplichten dergelijke informatie zelf aan overheidsinstanties buiten het financiëledienstengebied te verstrekken. Dankzij die informatiestromen moeten financiële entiteiten snel hun voordeel kunnen doen met relevante technische input, advies over corrigerende maatregelen en daaropvolgende follow-up door deze overheidsinstanties. De informatie over ernstige ICT-gerelateerde incidenten moet onderling worden gedeeld: de financiële toezichthouders moeten de financiële entiteit alle nodige feedback of richtsnoeren geven, en de ETA’s moeten geanonimiseerde gegevens over cyberdreigingen en -kwetsbaarheden in verband met een incident delen, dit alles met het oog op een bredere collectieve verdediging."
+   }
+  ]
+ },
+ {
+  "number": 53,
+  "paragraphs": [
+   {
+    "text": "Hoewel van alle financiële entiteiten moet worden vereist dat zij incidenten melden, wordt niet verwacht dat dit vereiste hen alle op dezelfde wijze treft. Relevante materialiteitsdrempels en rapportagetermijnen moeten immers naar behoren worden aangepast in het kader van gedelegeerde handelingen die gebaseerd zijn op de door de ETA’s te ontwikkelen technische reguleringsnormen, zodat alleen ernstige ICT-incidenten worden bestreken. Bovendien moet bij het vastleggen van termijnen voor rapportageverplichtingen rekening worden gehouden met de specifieke kenmerken van financiële entiteiten."
+   }
+  ]
+ },
+ {
+  "number": 54,
+  "paragraphs": [
+   {
+    "text": "Deze verordening moet kredietinstellingen, betalingsinstellingen, dienstverleners van rekeninginformatie en instellingen voor elektronisch geld verplichten, alle betalingsgerelateerde operationele of beveiligingsincidenten — die voorheen werden gemeld uit hoofde van Richtlijn (EU) 2015/2366 — te rapporteren, ongeacht de ICT-aard van het incident."
+   }
+  ]
+ },
+ {
+  "number": 55,
+  "paragraphs": [
+   {
+    "text": "De ETA’s moeten worden belast met het beoordelen van de haalbaarheid van en de voorwaarden voor een mogelijke centralisatie van rapporten over ICT-incidenten op Unieniveau. Een dergelijke centralisatie zou kunnen bestaan uit één EU-hub voor de melding van ernstige ICT-incidenten; deze ontvangt ofwel rechtstreeks rapporten en stelt de nationale bevoegde autoriteiten daarvan automatisch in kennis, ofwel ontvangt de hub slechts de relevante rapporten die hem door de nationale autoriteiten worden toegezonden, bewaart hij deze centraal en heeft hij zodoende een coördinerende rol. De ETA’s moeten belast worden met de opstelling, in overleg met de ECB en Enisa, van een gezamenlijk verslag waarin wordt nagegaan of het haalbaar is één EU-hub op te richten."
+   }
+  ]
+ },
+ {
+  "number": 56,
+  "paragraphs": [
+   {
+    "text": "Om een hoog niveau van digitale operationele weerbaarheid te bereiken, en in overeenstemming met zowel de relevante internationale normen (bv. de fundamentele elementen van de G-7 voor dreigingsgestuurde penetratietests) als de in de Unie gebruikte kaders zoals Tiber-EU, moeten financiële entiteiten hun ICT-systemen en hun personeel dat ICT-taken heeft, regelmatig testen op de effectiviteit van hun preventie-, detectie-, respons- en herstelcapaciteiten, om zo potentiële ICT-kwetsbaarheden aan het licht te brengen en te verhelpen. Gelet op de verschillende niveaus van cyberbeveiligingsparaatheid die tussen en binnen de verschillende financiële subsectoren van financiële entiteiten bestaan, moeten de tests verschillende instrumenten en acties omvatten, variërend van de beoordeling van basisvereisten (bv. kwetsbaarheidsbeoordelingen en -scans, open-sourceanalyses, beoordelingen van netwerkbeveiliging, kloofanalyses, fysieke beveiligingsonderzoeken, vragenlijsten, oplossingen voor scanningsoftware, beoordelingen van broncodes indien mogelijk, op scenario’s gebaseerde tests, compatibiliteitstests, prestatietests en end-to-endtests) tot geavanceerdere tests door middel van dreigingsgestuurde penetratietests. Zulke geavanceerde tests zouden alleen vereist moeten zijn voor financiële entiteiten die in ICT-opzicht voldoende ontwikkeld zijn om deze tests redelijkerwijs uit te kunnen voeren. Het testen van de digitale operationele weerbaarheid dat uit hoofde van deze verordening vereist is, moet dus strenger zijn voor die financiële entiteiten die de criteria van deze verordening vervullen (bijvoorbeeld grote, systemische en in ICT-opzicht ontwikkelde kredietinstellingen, effectenbeurzen, centrale effectenbewaarinstellingen en centrale tegenpartijen) dan voor andere financiële entiteiten. Het testen van digitale operationele weerbaarheid door middel van dreigingsgestuurde penetratietests moet worden toegespitst op financiële entiteiten die actief zijn in subsectoren van de belangrijkste financiële diensten en die een systemische rol hebben (bijvoorbeeld betalingen, bankieren, en clearing en afwikkeling) en minder van toepassing zijn op andere subsectoren (bijvoorbeeld vermogensbeheerders en kredietbeoordelaars)."
+   }
+  ]
+ },
+ {
+  "number": 57,
+  "paragraphs": [
+   {
+    "text": "Financiële entiteiten die werkzaam zijn in activiteiten over de grenzen heen en gebruikmaken van de vrijheid van vestiging of dienstverrichting binnen de Unie, moeten in hun lidstaat van herkomst voldoen aan één reeks geavanceerde testvereisten (d.w.z. dreigingsgestuurde penetratietests). Deze tests moeten uitgevoerd worden in de ICT-infrastructuur in alle rechtsgebieden waar de grensoverschrijdende financiële groep binnen de Unie actief is. Dit moet ervoor zorgen dat deze groepen in slechts één rechtsgebied ICT-testkosten hoeven te maken."
+   }
+  ]
+ },
+ {
+  "number": 58,
+  "paragraphs": [
+   {
+    "text": "Om gebruik te maken van de deskundigheid die sommige instanties reeds in huis hebben — met name in de uitvoering van het Tiber-EU-kader — moet deze verordening de lidstaten de mogelijkheid bieden één overheidsinstantie aan te wijzen als nationaal verantwoordelijke dienst voor alle dreigingsgestuurde penetratietests in de financiële sector, dan wel verschillende instanties die, indien er niet één enkele overheidsinstantie wordt aangewezen, de uitoefening van de met dreigingsgestuurde penetratietests verband houdende taken delegeren aan een andere bevoegde nationale financiële autoriteit."
+   }
+  ]
+ },
+ {
+  "number": 59,
+  "paragraphs": [
+   {
+    "text": "Aangezien deze verordening niet vereist dat financiële entiteiten alle kritieke of belangrijke functies in één enkele dreigingsgestuurde penetratietest dekken, moeten financiële entiteiten vrijelijk kunnen bepalen welke en hoeveel kritieke of belangrijke functies in een dergelijke test worden opgenomen."
+   }
+  ]
+ },
+ {
+  "number": 60,
+  "paragraphs": [
+   {
+    "text": "Gebundeld testen in de zin van deze Verordening (dat wil zeggen: verschillende financiële entiteiten nemen deel aan een dreigingsgestuurde penetratietest, en een derde aanbieder van ICT-diensten kan rechtstreeks contractuele overeenkomsten treffen met een externe tester) mag alleen worden toegestaan indien redelijkerwijs kan worden verwacht dat de kwaliteit of de beveiliging van de diensten die door de derde aanbieder van ICT-diensten worden geleverd aan klanten die buiten het toepassingsgebied van deze verordening vallende entiteiten zijn, of de vertrouwelijkheid van de gegevens met betrekking tot dergelijke diensten, negatief worden beïnvloed. Gebundeld testen moet ook onderworpen zijn aan waarborgen (leiding in handen van één aangewezen financiële entiteit, ijking van het aantal deelnemende financiële entiteiten) om zo voor de betrokken financiële entiteiten een rigoureuze testoefening te garanderen die voldoet aan de doelstellingen van de dreigingsgestuurde penetratie uit hoofde van deze verordening."
+   }
+  ]
+ },
+ {
+  "number": 61,
+  "paragraphs": [
+   {
+    "text": "Om te kunnen gebruikmaken van interne middelen op bedrijfsniveau moet deze verordening het gebruik van interne testers voor een dreigingsgestuurde penetratie toestaan, op voorwaarde dat er toestemming van de toezichthouder is, er geen belangenconflicten zijn, en het gebruik van interne testers periodiek (dat wil zeggen: ten minste om de drie tests) wordt afgewisseld met het gebruik van externe testers; daarbij moet ook worden geëist dat de verstrekker van de inlichtingen over dreigingen in de dreigingsgestuurde penetratie altijd extern is ten opzichte van de geteste financiële entiteit. De verantwoordelijkheid voor de uitvoering van dreigingsgestuurde penetraties moet volledig bij de financiële entiteit blijven berusten. Attesten die door de autoriteiten worden verstrekt, mogen uitsluitend wederzijdse erkenning tot doel hebben en niet in de weg staan van eventuele vervolgmaatregelen die nodig zijn om het ICT-risico te verhelpen waaraan de financiële entiteit is blootgesteld. Dergelijke attesten mogen ook niet worden beschouwd als een goedkeuring door de toezichthouder van het vermogen van een financiële entiteit ICT-risico’s te beheersen en te beperken."
+   }
+  ]
+ },
+ {
+  "number": 62,
+  "paragraphs": [
+   {
+    "text": "Voor een gedegen bewaking van het ICT-derdenrisico in de financiële sector moet een reeks op beginselen gebaseerde regels worden vastgelegd als leidraad voor financiële entiteiten bij de bewaking van risico’s die ontstaan in functies die zijn uitbesteed aan derde aanbieders van ICT-diensten. Dit geldt met name voor ICT-diensten die kritieke of belangrijke functies ondersteunen, alsmede meer in het algemeen voor alle vormen van afhankelijkheid van ICT-derden."
+   }
+  ]
+ },
+ {
+  "number": 63,
+  "paragraphs": [
+   {
+    "text": "Gelet op de complexiteit van de verschillende bronnen van ICT-risico en de veelheid en diversiteit van verleners van technologische oplossingen die een soepele verlening van financiële diensten mogelijk maken, moet deze verordening dienovereenkomstig betrekking hebben op een veelheid van derde aanbieders van ICT-diensten, waaronder verleners van cloudcomputingdiensten, software, diensten voor data-analyse en verleners van datacentrumdiensten. Aangezien financiële entiteiten op effectieve en coherente wijze alle soorten risico’s moeten kennen en beheersen — ook bij ICT-diensten die binnen een financiële groep worden aanbesteed — moet het duidelijk zijn dat ook ondernemingen die deel uitmaken van een financiële groep en die hoofdzakelijk ICT-diensten verlenen aan hun moederonderneming, aan dochterondernemingen of aan bijkantoren van hun moederonderneming, alsmede financiële entiteiten die ICT-diensten verlenen aan andere financiële entiteiten, moeten worden beschouwd als derde aanbieders van ICT-diensten in de zin van deze verordening. Tot slot moeten, in het licht van de zich ontwikkelende markt voor betalingsdiensten die steeds afhankelijker worden van complexe technische oplossingen, en in het licht van opkomende betalingsdiensten en betalingsoplossingen, deelnemers in het geheel van betalingsdiensten die betalingsverwerkingsactiviteiten verrichten of betalingsinfrastructuren exploiteren, ook worden beschouwd als derde aanbieders van ICT-diensten in de zin van deze verordening; een uitzondering geldt voor centrale banken wanneer deze betalings- of effectenafwikkelingen verrichten, en overheidsinstanties wanneer deze ICT-diensten verlenen in het kader van de verrichting van overheidsfuncties."
+   }
+  ]
+ },
+ {
+  "number": 64,
+  "paragraphs": [
+   {
+    "text": "Een financiële entiteit moet te allen tijde volledig verantwoordelijk blijven voor de naleving van haar in deze verordening vervatte verplichtingen. Financiële entiteiten moeten een evenredige benadering hanteren van de monitoring van de risico’s die zich voordoen op het niveau van derde aanbieders van ICT-diensten, en wel door terdege te letten op de aard, de omvang, de complexiteit en het belang van hun ICT-afhankelijkheden, alsook op het kritieke karakter of het belang van de diensten, processen of functies die onder de contractuele overeenkomsten vallen. Tot slot dient de monitoring gebaseerd te zijn op een zorgvuldige beoordeling van de mogelijke impact op de continuïteit en de kwaliteit van de financiële diensten die zij verlenen aan individuen en groepen, naargelang het geval."
+   }
+  ]
+ },
+ {
+  "number": 65,
+  "paragraphs": [
+   {
+    "text": "De monitoring moet een strategische benadering volgen van het ICT-risico dat bestaat wanneer derde dienstverleners in de arm worden genomen. Deze benadering moet geformaliseerd worden doordat het leidinggevend orgaan van de financiële entiteit een specifieke strategie voor het ICT-risico van derde dienstverleners heeft die is gebaseerd op een continue screening van alle ICT-afhankelijkheden van derden. Om ervoor te zorgen dat toezichthouders zich beter bewust zijn van de afhankelijkheden van ICT-derden en om de werkzaamheden in verband met het bij deze verordening ingestelde oversightkader verder te ondersteunen, moeten alle financiële entiteiten worden verplicht een register bij te houden met informatie over alle contractuele overeenkomsten inzake het gebruik van ICT-diensten die door derde aanbieders van ICT-diensten worden geleverd. Financiële toezichthouders moeten het volledige register kunnen opvragen of om bepaalde delen daarvan kunnen verzoeken om zo essentiële informatie te kunnen verkrijgen waarmee zij een beter inzicht kunnen krijgen in de ICT-afhankelijkheden van financiële entiteiten."
+   }
+  ]
+ },
+ {
+  "number": 66,
+  "paragraphs": [
+   {
+    "text": "Een grondige analyse voorafgaand aan het sluiten van contracten moet de basis vormen voor en voorafgaan aan de formele sluiting van contractuele overeenkomsten. De analyse moet zich met name richten op elementen als het kritieke karakter en het belang van de diensten waarop het beoogde ICT-contract betrekking heeft, de nodige goedkeuringen door de toezichthouder, eventuele andere voorwaarden, en het mogelijke concentratierisico van de contracten. Ook moet aandacht worden geschonken aan zorgvuldigheidseisen bij de selectie en beoordeling van derde aanbieders van ICT-diensten en aan mogelijke belangenconflicten. Bij contractuele overeenkomsten die kritieke of belangrijke functies betreffen, moeten financiële entiteiten letten op het gebruik door derde aanbieders van ICT-diensten van de meest actuele en hoogste normen voor informatiebeveiliging. De beëindiging van contractuele overeenkomsten zou in ieder geval het gevolg kunnen zijn van een reeks omstandigheden waaruit tekortkomingen op het niveau van de derde aanbieder van ICT-diensten blijken; met name valt te denken aan ernstige inbreuken op wetten of contractuele voorwaarden, omstandigheden waaruit een mogelijke wijziging van de uitvoering van de in de contractuele overeenkomsten voorziene functies blijkt, aanwijzingen dat er zwakke punten zijn bij de derde aanbieder van ICT-diensten in diens algemene ICT-risicobeheer, of omstandigheden die erop wijzen dat de relevante bevoegde autoriteit niet in staat is daadwerkelijk toezicht uit te oefenen op de financiële entiteit."
+   }
+  ]
+ },
+ {
+  "number": 67,
+  "paragraphs": [
+   {
+    "text": "Om de systemische impact van het risico van concentratie van ICT-derden te beperken, wordt in deze verordening een evenwichtige aanpak bepleit door middel van een flexibele en geleidelijke aanpak van zulk concentratierisico. Het opleggen van onwrikbare risicoplafonds of strikte beperkingen zou immers de bedrijfsvoering kunnen belemmeren en de contractvrijheid kunnen beperken. Financiële entiteiten moeten de contractuele overeenkomsten die zij willen sluiten, grondig onderzoeken om na te gaan hoe groot de kans is dat een dergelijk risico zich zal voordoen, onder meer door overeenkomsten tot onderaanbesteding onder de loep te nemen, met name indien die worden gesloten met derde aanbieders van ICT-diensten die in een derde land zijn gevestigd. Ten behoeve van een billijk evenwicht tussen contractuele vrijheid en financiële stabiliteit wordt het op dit ogenblik niet wenselijk geacht te voorzien in regels betreffende strikte plafonds voor en beperkingen van ICT-blootstellingen aan derden. Een lead overseer die conform deze verordening wordt aangewezen, moet in het kader van het oversightkader bijzondere aandacht schenken aan kritieke derde aanbieders van ICT-diensten en dient een volledig beeld te krijgen van de omvang van onderlinge afhankelijkheden, specifieke gevallen aan het licht te brengen waarin een hoge mate van concentratie van kritieke derde aanbieders van ICT-diensten in de Unie waarschijnlijk de stabiliteit en integriteit van het financiële stelsel van de Unie onder druk zal zetten, en, wanneer zo’n specifiek risico wordt ontdekt, in dialoog treden met de betrokken kritieke derde aanbieders van ICT-diensten."
+   }
+  ]
+ },
+ {
+  "number": 68,
+  "paragraphs": [
+   {
+    "text": "Om regelmatig het vermogen te evalueren en te monitoren van een derde aanbieder van ICT-diensten, veilig diensten aan een financiële entiteit te verlenen zonder nadelige gevolgen voor de digitale operationele weerbaarheid van een financiële entiteit, moeten een aantal belangrijke elementen in de contractuele overeenkomsten met derde aanbieders van ICT-diensten worden geharmoniseerd. Dergelijke harmonisatie moet minimumgebieden bestrijken die cruciaal zijn voor een volledige monitoring door de financiële entiteit van de risico’s die gepaard kunnen gaan met het in de arm nemen van derde aanbieders van ICT-diensten. Dit gelet op de noodzaak voor een financiële entiteit om haar digitale weerbaarheid veilig te stellen; een financiële entiteit is immers sterk afhankelijk van de stabiliteit, de functionaliteit, de beschikbaarheid en de veiligheid van de ICT-diensten die haar worden verleend."
+   }
+  ]
+ },
+ {
+  "number": 69,
+  "paragraphs": [
+   {
+    "text": "Indien er opnieuw moet worden onderhandeld over contractuele overeenkomsten om deze af te stemmen op de vereisten van deze verordening, moeten financiële entiteiten en derde aanbieders van ICT-diensten ervoor zorgen dat de belangrijkste contractuele bepalingen die deze verordening voorschrijft, in de nieuwe overeenkomsten worden opgenomen."
+   }
+  ]
+ },
+ {
+  "number": 70,
+  "paragraphs": [
+   {
+    "text": "De definitie van “kritieke of belangrijke functie” in deze verordening omvat de “kritieke functies” als bedoeld in artikel 2, lid 1, punt 35, van Richtlijn 2014/59/EU van het Europees Parlement en de Raad (20). Dienovereenkomstig worden functies die overeenkomstig Richtlijn 2014/59/EU als kritiek worden beschouwd, opgenomen in de definitie van kritieke functies in de zin van deze verordening."
+   }
+  ]
+ },
+ {
+  "number": 71,
+  "paragraphs": [
+   {
+    "text": "Ongeacht het kritieke karakter of het belang van de door ICT-diensten ondersteunde functie, moeten contractuele overeenkomsten met name de volledige beschrijvingen bevatten van functies en diensten, van de locaties waar dergelijke functies worden geleverd en waar data worden verwerkt, alsmede een indicatie van de beschrijvingen van het dienstverleningsniveau. Andere cruciale elementen om de monitoring door de financiële entiteit van het ICT-risico van derde aanbieders mogelijk te maken, zijn: contractuele bepalingen waarin wordt gespecificeerd hoe derde aanbieders van ICT-diensten de toegankelijkheid, beschikbaarheid, integriteit, beveiliging en bescherming van persoonsgegevens verzekeren, bepalingen tot vaststelling van de relevante garanties inzake de toegang, het herstel en de teruggave in geval van insolventie, afwikkeling of stopzetting van de bedrijfsactiviteiten van de derde aanbieder van ICT-diensten. Ook belangrijk zijn contractuele bepalingen waarin van de derde aanbieder van ICT-diensten wordt verlangd dat deze assistentie biedt bij ICT-incidenten in verband met de diensten die hij verleent, en wel zonder extra kosten of tegen kosten die van tevoren zijn afgesproken, alsmede contractuele bepalingen waarin de derde aanbieder van ICT-diensten wordt verplicht volledig samen te werken met de bevoegde autoriteiten en de afwikkelingsautoriteiten van de financiële entiteit, en bepalingen inzake beëindigingsrechten en de bijbehorende minimumopzegtermijnen voor de beëindiging van de contractuele overeenkomsten, in overeenstemming met de verwachtingen van de bevoegde autoriteiten en de afwikkelingsautoriteiten."
+   }
+  ]
+ },
+ {
+  "number": 72,
+  "paragraphs": [
+   {
+    "text": "Benevens dergelijke contractuele bepalingen, en om ervoor te zorgen dat financiële entiteiten de volledige controle behouden over alle ontwikkelingen op het niveau van derde partijen die hun ICT-beveiliging in het gedrang kunnen brengen, moeten de contracten voor de levering van ICT-diensten die kritieke of belangrijke functies ondersteunen, ook voorzien in het volgende: specificatie van de volledige beschrijvingen van het dienstenniveau, met precieze kwantitatieve en kwalitatieve prestatiedoelstellingen, opdat zonder onnodige vertraging corrigerende maatregelen kunnen worden getroffen indien de overeengekomen dienstenniveaus niet gehaald worden; de relevante kennisgevingsperioden en rapportageverplichtingen van de derde aanbieder van ICT-diensten in geval van ontwikkelingen met een potentiële materiële impact op het vermogen van de derde aanbieder van ICT-diensten om hun respectieve ICT-diensten daadwerkelijk te leveren; een verplichting voor de derde aanbieder van ICT-diensten om bedrijfsnoodplannen uit te voeren en te testen en te beschikken over ICT-beveiligingsmaatregelen, -instrumenten en -beleidsmaatregelen die een veilige dienstverlening mogelijk maken, en om deel te nemen aan en volledig mee te werken aan de TLPT die door de financiële entiteit wordt uitgevoerd."
+   }
+  ]
+ },
+ {
+  "number": 73,
+  "paragraphs": [
+   {
+    "text": "Contracten voor het leveren van ICT-diensten ter ondersteuning van kritieke of belangrijke functies moeten tevens bepalingen bevatten inzake rechten van toegang, inspectie en audit door de financiële entiteit of een aangewezen derde, alsook het recht om kopieën te maken. Dit zijn cruciale instrumenten voor de permanente monitoring door de financiële entiteit van de prestaties van de derde aanbieder van ICT-diensten, evenals de volledige medewerking van de dienstverlener tijdens inspecties. Evenzo moet de autoriteit van de financiële entiteit het recht hebben om, na kennisgeving, de derde aanbieder van ICT-diensten te inspecteren en te auditen, onder het voorbehoud van de bescherming van vertrouwelijke informatie."
+   }
+  ]
+ },
+ {
+  "number": 74,
+  "paragraphs": [
+   {
+    "text": "Dergelijke contractuele overeenkomsten moeten ook voorzien in specifieke exitstrategieën die met name verplichte overgangsperioden mogelijk maken waarin de derde aanbieder van ICT-diensten de relevante diensten moeten blijven verrichten om zo het risico op verstoringen bij de financiële entiteit te beperken, dan wel de financiële entiteit in staat te stellen daadwerkelijk over te stappen naar andere derde aanbieders van ICT-diensten, of anders over te gaan op interne oplossingen, een en ander in overeenstemming met de complexiteit van de verleende ICT-dienst. Bovendien moeten financiële entiteiten die binnen het toepassingsgebied van Richtlijn 2014/59/EU vallen, ervoor zorgen dat de relevante contracten voor ICT-diensten degelijk en volledig afdwingbaar zijn in geval van afwikkeling van die financiële entiteiten. Daarom moeten die financiële entiteiten erop toezien dat, in overeenstemming met de verwachtingen van de afwikkelingsautoriteiten, hun contracten voor ICT-diensten afwikkelingsbestendig zijn. Zolang zij aan hun betalingsverplichtingen blijven voldoen, moeten die financiële entiteiten er onder meer voor zorgen dat hun contracten voor ICT-diensten clausules bevatten voor niet-beëindiging, niet-opschorting en niet-wijziging op grond van herstructurering of afwikkeling."
+   }
+  ]
+ },
+ {
+  "number": 75,
+  "paragraphs": [
+   {
+    "text": "Bovendien kan het vrijwillige gebruik van modelcontractbepalingen die door overheidsinstellingen of de instellingen van de Unie zijn ontwikkeld, en in het bijzonder het gebruik van door de Commissie ontwikkelde bepalingen inzake cloudcomputingdiensten, de financiële entiteiten en derde aanbieders van ICT-diensten meer zekerheid bieden doordat zij meer rechtszekerheid hebben over het gebruik van cloudcomputingdiensten in de financiële sector, in volledige overeenstemming met de vereisten en verwachtingen van het Unierecht inzake financiële diensten. De ontwikkeling van modelcontractbepalingen bouwt voort op maatregelen die al waren gepland in het FinTech-actieplan uit 2018. Daarin werd het voornemen van de Commissie aangekondigd om de ontwikkeling van modelcontractbepalingen voor de uitbesteding van cloudcomputingdiensten door financiële entiteiten aan te moedigen en te vergemakkelijken, waarbij gebruik wordt gemaakt van sectoroverschrijdende inspanningen van belanghebbenden op het gebied van cloudcomputingdiensten, die de Commissie met hulp van de financiële sector heeft vergemakkelijkt."
+   }
+  ]
+ },
+ {
+  "number": 76,
+  "paragraphs": [
+   {
+    "text": "Om de convergentie en efficiëntie van de verschillende benaderingen voor toezicht op risico’s bij derde aanbieders van ICT-diensten in de financiële sector te bevorderen, alsmede om de digitale operationele weerbaarheid te versterken van financiële entiteiten die afhankelijk zijn van kritieke derde aanbieders van ICT-diensten voor het verlenen van ICT-diensten die het leveren van financiële diensten ondersteunen, en zo bij te dragen aan het behoud van de stabiliteit van het financiële stelsel van de Unie en de integriteit van de interne markt voor financiële diensten, moeten kritieke derde aanbieders van ICT-diensten onderworpen zijn aan een oversightkader van de Unie. Hoewel de oprichting van het oversightkader gerechtvaardigd is door de toegevoegde waarde van maatregelen op het niveau van de Unie en door de inherente rol en specifieke kenmerken van het gebruik van ICT-diensten bij de verlening van financiële diensten, moet tegelijkertijd in herinnering worden gebracht dat deze oplossing alleen geschikt lijkt in het kader van deze verordening, die specifiek betrekking heeft op digitale operationele weerbaarheid in de financiële sector. Dit oversightkader mag echter niet worden beschouwd als een nieuw model voor Unietoezicht op andere gebieden van financiële diensten en activiteiten."
+   }
+  ]
+ },
+ {
+  "number": 77,
+  "paragraphs": [
+   {
+    "text": "Het oversightkader moet alleen van toepassing zijn op kritieke derde aanbieders van ICT-diensten. Daarom moet er een aanwijzingsregeling komen waarmee de omvang en de aard van de afhankelijkheid van de financiële sector van dergelijke derde aanbieders van ICT-diensten kan worden beoordeeld. Die regeling moet kwantitatieve en kwalitatieve criteria omvatten om de kritische parameters vast te stellen op basis waarvan entiteiten al dan niet onder het oversightkader vallen. Om de nauwkeurigheid van die beoordeling te waarborgen, en ongeacht de bedrijfsstructuur van de derde aanbieder van ICT-diensten, moet in deze criteria in het geval van een derde aanbieder van ICT-diensten die deel uitmaakt van een grotere groep, gekeken worden naar de gehele groepsstructuur van de derde aanbieder van ICT-diensten. Enerzijds moeten kritieke derde aanbieders van ICT-diensten die niet automatisch worden aangewezen op grond van de toepassing van die criteria, de mogelijkheid hebben om vrijwillig deel te nemen aan het oversightkader. Anderzijds moeten derde aanbieders van ICT-diensten die reeds onderworpen zijn aan oversightregelingen die de uitvoering van de taken van het Europees Stelsel van centrale banken als bedoeld in artikel 127, lid 2, VWEU, steunen, worden vrijgesteld."
+   }
+  ]
+ },
+ {
+  "number": 78,
+  "paragraphs": [
+   {
+    "text": "Evenzo moeten financiële entiteiten die ICT-diensten verlenen aan andere financiële entiteiten, en die weliswaar behoren tot de categorie van derde aanbieders van ICT-diensten als bedoeld in deze verordening, ook van het oversightkader worden vrijgesteld. Zij zijn immers reeds onderworpen zijn aan toezichtsregelingen die zijn opgericht bij het desbetreffende Unierecht inzake financiële diensten. In voorkomend geval moeten de bevoegde autoriteiten bij hun toezichtactiviteiten letten op het ICT-risico voor financiële entiteiten dat uitgaat van financiële entiteiten die zelf ICT-diensten verlenen. Evenzo moet, gelet op de reeds bestaande regelingen voor risicobewaking op groepsniveau, dezelfde vrijstelling gelden voor derde aanbieders van ICT-diensten die hoofdzakelijk diensten verlenen aan entiteiten van hun eigen groep. Derde aanbieders van ICT-diensten die uitsluitend in één lidstaat ICT-diensten verlenen aan financiële entiteiten die ook uitsluitend in die lidstaat actief zijn, moeten ook van de aanwijzingsregeling worden vrijgesteld wegens het beperkte karakter van hun activiteiten en het ontbreken van gevolgen over de grenzen heen."
+   }
+  ]
+ },
+ {
+  "number": 79,
+  "paragraphs": [
+   {
+    "text": "De digitale transformatie in de financiële dienstverlening heeft geleid tot een ongekende mate van gebruik van en afhankelijkheid van ICT-diensten. Aangezien het ondenkbaar is geworden dat financiële diensten worden verleend zonder gebruik te maken van cloudcomputingdiensten, softwareoplossingen en datadiensten, is het financiële ecosysteem van de Unie intrinsiek afhankelijk geworden van bepaalde ICT-diensten die door leveranciers van die diensten worden verleend. Sommige van die leveranciers die innovatoren zijn in de ontwikkeling en toepassing van op ICT gebaseerde technologieën, spelen een belangrijke rol bij de levering van financiële diensten of zijn geïntegreerd in de waardeketen van financiële diensten. Zo zijn zij kritiek geworden voor de stabiliteit en integriteit van het financiële stelsel van de Unie. Deze wijdverbreide afhankelijkheid van diensten van kritieke derde aanbieders van ICT-diensten, in combinatie met de onderlinge afhankelijkheid van de informatiesystemen van verschillende marktdeelnemers, creëert een rechtstreeks en potentieel ernstig risico voor het systeem van financiële diensten van de Unie en voor de continuïteit van de verlening van financiële diensten indien kritieke derde aanbieders van ICT-diensten zouden worden getroffen door operationele verstoringen of belangrijke cyberincidenten. Cyberincidenten kunnen zich bij uitstek veel sneller in het gehele financiële stelsel vermenigvuldigen en zich daarin in een aanzienlijk sneller tempo verspreiden dan andere soorten risico’s die in de financiële sector worden gemonitord. Ook kunnen cyberincidenten zich over meerdere sectoren en over geografische grenzen heen uitstrekken. Zij kunnen uitgroeien tot een systemische crisis waarin het vertrouwen in het financiële stelsel wordt uitgehold door de verstoring van functies die de reële economie ondersteunen, of door aanzienlijke financiële verliezen die een niveau kunnen bereiken waar het financiële stelsel niet tegen bestand is of waarvoor zware maatregelen ter schokabsorptie moeten worden genomen. Om dit soort scenario’s die de financiële stabiliteit en integriteit van de Unie in gevaar te brengen, te voorkomen, is het essentieel de praktijken inzake toezicht op ICT-risico’s bij derden in de financiële sector meer op één lijn te brengen, met name door middel van nieuwe regels die oversight van de Unie op kritieke derde aanbieders van ICT-diensten mogelijk maken."
+   }
+  ]
+ },
+ {
+  "number": 80,
+  "paragraphs": [
+   {
+    "text": "Het oversightkader is grotendeels afhankelijk van de mate van samenwerking tussen de lead overseer en de kritieke derde aanbieder van ICT-diensten die aan financiële entiteiten diensten levert die van invloed zijn op de verlening van financiële diensten door deze entiteiten. Succesvol oversight is onder meer gebaseerd op het vermogen van de lead overseer, daadwerkelijk monitoringmissies en -inspecties uit te voeren om de regels, de controles en de processen die door kritieke derde aanbieders van ICT-diensten worden gebruikt, te beoordelen, alsook de potentiële cumulatieve impact van hun activiteiten op de financiële stabiliteit en de integriteit van het financiële stelsel te beoordelen. Tegelijkertijd is het cruciaal dat kritieke derde aanbieders van ICT-diensten de aanbevelingen van de lead overseer opvolgen en diens bevindingen op zorgwekkende punten ter harte nemen. Aangezien een gebrek aan medewerking van een kritieke derde aanbieder van ICT-diensten die diensten verleent welke van invloed zijn op de verlening van financiële diensten, zoals een weigering om toegang te verlenen tot zijn kantoren of informatie te verstrekken, uiteindelijk de lead overseer essentiële instrumenten voor de beoordeling van ICT-risico’s van derden zou ontnemen, alsook negatieve gevolgen zou kunnen hebben voor de financiële stabiliteit en de integriteit van het financiële stelsel, moet ook worden voorzien in een sanctieregeling die past bij een eventuele weigering om mee te werken."
+   }
+  ]
+ },
+ {
+  "number": 81,
+  "paragraphs": [
+   {
+    "text": "Tegen deze achtergrond mag de noodzaak voor de lead overseer om dwangsommen op te leggen, waarmee kritieke derde aanbieders van ICT-diensten kunnen worden gedwongen te voldoen aan de transparantie- en toegangsverplichtingen van deze verordening, niet in gevaar komen door moeilijkheden bij de inning van deze dwangsommen wanneer het kritieke derde aanbieders van ICT-diensten betreft die in derde landen zijn gevestigd. Ten behoeve van de afdwingbaarheid van dergelijke sancties en om een snelle inzet mogelijk te maken van procedures waarbij de rechten van verdediging van kritieke derde aanbieders van ICT-diensten in het kader van de aanwijzingsregeling en de uitvaardiging van aanbevelingen worden gehandhaafd, moeten die kritieke derde aanbieders van ICT-diensten, die diensten aan financiële entiteiten verlenen welke van invloed zijn op de verlening van financiële diensten, worden verplicht een adequate zakelijke aanwezigheid in de Unie te hebben. Gezien de aard van het oversight en het ontbreken van vergelijkbare regelingen in andere rechtsgebieden, zijn er geen geschikte alternatieve mechanismen om deze doelstelling te waarborgen door middel van doeltreffende samenwerking met financiële toezichthouders in derde landen bij de monitoring van de impact van digitale operationele risico’s van systemische derde aanbieders van ICT-diensten die worden aangemerkt als kritieke derde aanbieders van ICT-diensten die in derde landen zijn gevestigd. Om ICT-diensten aan financiële entiteiten in de Unie te kunnen blijven verlenen, moet een in een derde land gevestigde derde aanbieder van ICT-diensten die overeenkomstig deze verordening als cruciaal is aangewezen, binnen twaalf maanden na aanwijzing al het nodige doen om ervoor te zorgen dat hij een aanwezigheid in de Unie heeft door een dochteronderneming op te richten, zoals gedefinieerd in het acquis van de Unie, namelijk in Richtlijn 2013/34/EU van het Europees Parlement en de Raad (21)."
+   }
+  ]
+ },
+ {
+  "number": 82,
+  "paragraphs": [
+   {
+    "text": "De eis om een dochteronderneming op te richten in de Unie mag de kritieke derde aanbieder van ICT-diensten niet beletten ICT-diensten en de daarmee verband houdende technische ondersteuning te verlenen vanuit faciliteiten en infrastructuur die zich buiten de Unie bevinden. Deze verordening legt geen verplichting tot datalokalisatie op, aangezien de verordening niet voorziet in opslag of verwerking van data binnen de Unie."
+   }
+  ]
+ },
+ {
+  "number": 83,
+  "paragraphs": [
+   {
+    "text": "Kritieke derde aanbieders van ICT-diensten moeten in staat zijn overal ter wereld ICT-diensten aan te bieden, dus niet noodzakelijk of niet alleen vanuit bedrijfsruimten die zich in de Unie bevinden. Oversightactiviteiten moeten eerst worden uitgevoerd in bedrijfsruimten binnen de Unie en door interactie met in de Unie gevestigde entiteiten, met inbegrip van de dochterondernemingen die zijn opgericht door kritieke derde aanbieders van ICT-diensten op grond van deze verordening. Het is evenwel denkbaar dat dit soort acties in de Unie ontoereikend zijn om de lead overseer in staat te stellen zijn taken uit hoofde van deze verordening volledig en doeltreffend uit te voeren. De lead overseer moet daarom ook in derde landen toezicht kunnen uitoefenen. De uitoefening van zijn bevoegdheid tot oversight in derde landen moet de lead overseer in staat stellen de faciliteiten te onderzoeken van waaruit de ICT-diensten of de technische ondersteuningsdiensten daadwerkelijk door de kritieke derde aanbieder van ICT-diensten worden geleverd of beheerd; ook moet dit oversight de lead overseer een volledig en operationeel inzicht bieden in het ICT-risicobeheer van de kritieke derde aanbieder van ICT-diensten. De mogelijkheid voor de lead overseer om, in zijn hoedanigheid van agentschap van de Unie, bevoegdheden uit te oefenen buiten het grondgebied van de Unie moet naar behoren aan voorwaarden zijn gebonden, met name de toestemming van de betrokken kritieke derde aanbieder van ICT-diensten. Evenzo moeten de relevante autoriteiten van het derde land in kennis worden gesteld van de uitoefening van de activiteiten van de lead overseer op hun grondgebied en moeten zij daartegen geen bezwaar hebben gemaakt. Gelet op het belang van een efficiënte uitvoering van deze activiteiten, en onverminderd de bevoegdheden van de instellingen van de Unie en van de lidstaten op dit terrein, moeten de bevoegdheden van de lead overseer tevens ten volle worden verankerd in regelingen voor administratieve samenwerking met de betrokken autoriteiten van het derde land. Daarom moet deze verordening de ETA’s in staat stellen met de autoriteiten in derde landen regelingen voor administratieve samenwerking te treffen die voor het overige geen wettelijke verplichtingen voor de Unie of de lidstaten mogen creëren."
+   }
+  ]
+ },
+ {
+  "number": 84,
+  "paragraphs": [
+   {
+    "text": "Om de communicatie met de lead overseer te vergemakkelijken en een passende vertegenwoordiging te waarborgen, moeten kritieke derde aanbieders van ICT-diensten die deel uitmaken van een groep, één rechtspersoon als hun coördinatiepunt aanwijzen."
+   }
+  ]
+ },
+ {
+  "number": 85,
+  "paragraphs": [
+   {
+    "text": "Het oversightkader mag geen afbreuk doen aan de bevoegdheid van de lidstaten om hun eigen oversight- of monitoringtaken uit te voeren met betrekking tot derde aanbieders van ICT-diensten die niet als kritiek zijn aangewezen in de zin van deze verordening, maar die op nationaal niveau belangrijk worden geacht."
+   }
+  ]
+ },
+ {
+  "number": 86,
+  "paragraphs": [
+   {
+    "text": "Om de meerlagige institutionele architectuur op het gebied van financiële diensten te benutten, moet het Gemengd Comité van de ETA’s blijven zorgen voor algehele sectoroverschrijdende coördinatie van alle aangelegenheden die verband houden met ICT-risico’s, in overeenstemming met de taken van het Comité op het gebied van cyberbeveiliging. Het Comité moet worden ondersteund door een nieuw subcomité (het oversightforum) dat voorbereidende werkzaamheden verricht voor zowel de afzonderlijke besluiten die gericht zijn tot kritieke derde aanbieders van ICT-diensten als voor het doen van collectieve aanbevelingen, met name in verband met het benchmarken van de oversightprogramma’s voor kritieke derde aanbieders van ICT-diensten en het in kaart brengen van beste praktijken voor het omgaan van ICT-concentratierisico’s."
+   }
+  ]
+ },
+ {
+  "number": 87,
+  "paragraphs": [
+   {
+    "text": "Om ervoor te zorgen dat op het niveau van de Unie adequaat en doeltreffend toezicht wordt uitgeoefend op kritieke derde aanbieders van ICT-diensten, wordt in deze verordening bepaald dat ieder van de drie ETA’s kan worden aangewezen als lead overseer. De individuele toewijzing van een kritieke derde aanbieder van ICT-diensten aan een van de drie ETA’s moet gebaseerd zijn op een beoordeling van de dominerende positie van financiële entiteiten die actief zijn in de financiële sectoren waarvoor die ETA verantwoordelijk is. Deze benadering moet leiden tot een evenwichtige verdeling van taken en verantwoordelijkheden over de drie ETA’s die oversightfuncties hebben, en leiden tot een optimaal gebruik van personele middelen en technische expertise die in ieder van de drie ETA’s voorhanden zijn."
+   }
+  ]
+ },
+ {
+  "number": 88,
+  "paragraphs": [
+   {
+    "text": "Lead overseers moeten de nodige bevoegdheden krijgen om onderzoeken te verrichten, inspecties ter plaatse en daarbuiten uit te voeren in de gebouwen en op de locaties van kritieke derde aanbieders van ICT-diensten, en volledige en actuele informatie te verkrijgen. Die bevoegdheden moeten de lead overseer in staat stellen een gedegen inzicht te krijgen in het soort, de omvang en de impact van het ICT-risico van derden voor financiële entiteiten en, uiteindelijk, voor het financiële stelsel van de Unie. De ETA’s moeten de leiding over het oversight krijgen. Dit is een voorwaarde voor een goed begrip van en een betere greep op de systemische dimensie van ICT-risico’s in de financiële sector. De impact van kritieke derde aanbieders van ICT-diensten op de financiële sector in de Unie en de mogelijke problemen als gevolg van het daaraan verbonden ICT-concentratierisico vragen om een gezamenlijke aanpak op het niveau van de Unie. De gelijktijdige en afzonderlijke uitvoering van meerdere audits en toegangsrechten door een reeks van bevoegde autoriteiten, zonder enige of slechts met weinig coördinatie, zou het de financiële toezichthouders onmogelijk maken een volledig en alomvattend overzicht te krijgen van het ICT-risico van derden in de Unie. Ook zou dit leiden tot redundantie, extra lasten en complexiteit voor kritieke derde aanbieders van ICT-diensten, die immers zouden worden onderworpen aan tal van verzoeken om monitoring en inspectie."
+   }
+  ]
+ },
+ {
+  "number": 89,
+  "paragraphs": [
+   {
+    "text": "Gezien de aanzienlijke gevolgen voor de derde aanbieder van ICT-diensten die als kritiek wordt aangewezen, moet deze verordening ervoor zorgen dat de rechten van eenmaal aangewezen derde aanbieders van ICT-diensten gedurende de gehele tenuitvoerlegging van het oversightkader worden geëerbiedigd. Voordat een dienstverlener als kritiek wordt aangewezen, moet deze bijvoorbeeld het recht hebben een gemotiveerde verklaring in te dienen bij de lead overseer met alle informatie die relevant is voor de beoordeling in verband met de eventuele aanwijzing. Aangezien de lead overseer de bevoegdheid moet hebben om aanbevelingen over ICT-risico’s te doen en oplossingen daarvoor aan te dragen — waaronder de bevoegdheid zich te verzetten tegen contractueleovereenkomsten die uiteindelijk gevolgen zullen hebben voor de stabiliteit van de financiële entiteit of zelfs van het gehele financiële stelsel — moeten kritieke derde aanbieders van ICT-diensten ook de mogelijkheid krijgen om voorafgaand aan de definitieve opstelling van deze aanbevelingen uitleg te geven over de verwachte gevolgen van de in de aanbeveling opgenomen oplossingen voor klanten die entiteiten zijn welke buiten het toepassingsgebied van deze verordening vallen en om oplossingen te formuleren om risico’s te mitigeren. Kritieke derde aanbieders van ICT-diensten die het niet eens zijn met de aanbevelingen, moeten de gelegenheid hebben een gemotiveerde uitleg te geven van hun voornemen om de aanbevelingen niet te onderschrijven. Indien zulk een gemotiveerde toelichting niet wordt gegeven of ontoereikend wordt bevonden, moet de lead overseer een openbare kennisgeving van de niet-naleving doen."
+   }
+  ]
+ },
+ {
+  "number": 90,
+  "paragraphs": [
+   {
+    "text": "In het kader van het prudentieel toezicht op financiële entiteiten moeten de bevoegde autoriteiten naar behoren nagaan of de aanbevelingen van de lead overseer inhoudelijk worden nageleefd. De bevoegde autoriteiten moeten van financiële entiteiten kunnen vereisen dat zij aanvullende maatregelen nemen om de in de aanbevelingen van de lead overseer genoemde risico’s te verhelpen, en dat zij te zijner tijd bericht doen uitgaan dat dit gebeurd is. Indien de lead overseer aanbevelingen richt tot kritieke derde aanbieders van ICT-diensten die onder toezicht staan uit hoofde van Richtlijn (EU) 2022/2555 , moeten de bevoegde autoriteiten op vrijwillige basis en alvorens aanvullende maatregelen te nemen de bevoegde autoriteiten uit hoofde van die richtlijn kunnen raadplegen om zo een gecoördineerde aanpak van de betrokken kritieke derde aanbieders van ICT-diensten te bevorderen."
+   }
+  ]
+ },
+ {
+  "number": 91,
+  "paragraphs": [
+   {
+    "text": "Bij de uitoefening van het oversight moeten drie operationele beginselen gelden, die gericht zijn op: a) nauwe coördinatie tussen de ETA’s in hun rol van lead overseer, en wel via een gezamenlijk oversightnetwerk (joint oversight network — JON); b) consistentie met het kader dat is vastgelegd in Richtlijn (EU) 2022/2555 (door middel van een vrijwillige raadpleging van organen uit hoofde van die richtlijn om zo overlapping van maatregelen ten aanzien van kritieke derde aanbieders van ICT-diensten te voorkomen, en c) het toepassen van zorgvuldigheid om het potentiële risico te beperken van verstoring van diensten die door kritieke derde aanbieders van ICT-diensten worden verleend aan klanten die entiteiten zijn welke buiten het toepassingsgebied van deze verordening vallen."
+   }
+  ]
+ },
+ {
+  "number": 92,
+  "paragraphs": [
+   {
+    "text": "Het oversightkader mag niet in de plaats komen van, noch op enigerlei wijze of ten enigen dele in de plaats treden van het vereiste voor financiële entiteiten om zelf de risico’s te beheren die voortvloeien uit het gebruik van derde aanbieders van ICT-diensten, óók hun verplichting om permanent de contractuele overeenkomsten te monitoren die zijn gesloten met kritieke derde aanbieders van ICT-diensten. Evenzo mag het oversightkader geen afbreuk doen aan de volledige verantwoordelijkheid van financiële entiteiten voor de naleving en de kwijting van alle wettelijke verplichtingen die zijn vastgelegd in deze verordening en in het desbetreffende recht inzake financiële diensten."
+   }
+  ]
+ },
+ {
+  "number": 93,
+  "paragraphs": [
+   {
+    "text": "Om doublures en overlappingen te voorkomen, moeten de bevoegde autoriteiten ervan afzien, zelf maatregelen te nemen om de risico’s van de kritieke derde aanbieder van ICT-diensten te monitoren. Zij moeten in dit verband vertrouwen op de beoordeling van de lead overseer in kwestie. Alle maatregelen moeten in ieder geval van tevoren worden gecoördineerd en overeengekomen met de lead overseer, gelet op de uitoefening van diens taken in het oversightkader."
+   }
+  ]
+ },
+ {
+  "number": 94,
+  "paragraphs": [
+   {
+    "text": "Om convergentie op internationaal niveau inzake het gebruik van beste praktijken bij de toetsing en monitoring van digitaal risicobeheer bij derde aanbieders van ICT-diensten te bevorderen, moeten de ETA’s worden aangemoedigd samenwerkingsregelingen te sluiten met toezichthoudende en regelgevende autoriteiten van derde landen die op dit terrein werkzaam zijn."
+   }
+  ]
+ },
+ {
+  "number": 95,
+  "paragraphs": [
+   {
+    "text": "Om de specifieke vaardigheden, de technische expertise en de expertise van deskundigen op het gebied van operationele en ICT-risico’s binnen de bevoegde autoriteiten, de drie ETA’s, en, op vrijwillige basis, de uit hoofde van Richtlijn (EU) 2022/2555 bevoegde autoriteiten ten volle te benutten, moet de lead overseer gebruikmaken van nationale toezichtcapaciteiten en -kennis, en specifieke onderzoeksteams oprichten voor iedere kritieke derde aanbieder van ICT-diensten. Multidisciplinaire teams moeten worden samengebracht ter ondersteuning van de voorbereiding en de uitvoering van oversightactiviteiten, inclusief algemene onderzoeken en inspecties ter plaatse bij kritieke derde aanbieders van ICT-diensten, alsook ter ondersteuning van eventuele follow-up hiervan indien dit nodig is."
+   }
+  ]
+ },
+ {
+  "number": 96,
+  "paragraphs": [
+   {
+    "text": "Hoewel het de bedoeling is dat de kosten van oversighttaken volledig worden gefinancierd uit vergoedingen die worden aangerekend aan kritieke derde aanbieders van ICT-diensten, zullen de ETA’s waarschijnlijk vóór de start van het oversightkader kosten maken voor de implementatie van specifieke ICT-systemen ter ondersteuning van het aanstaande oversight, aangezien deze specifieke systemen vooraf moeten worden ontwikkeld en uitgerold. Deze verordening voorziet daarom in een hybride financieringsmodel: het oversightkader moet volledig worden gefinancierd uit vergoedingen, terwijl de ontwikkeling van de ICT-systemen van de ETA’s moet worden gefinancierd uit bijdragen van de Unie en de bevoegde nationale autoriteiten."
+   }
+  ]
+ },
+ {
+  "number": 97,
+  "paragraphs": [
+   {
+    "text": "De bevoegde autoriteiten moeten over alle toezicht-, onderzoeks- en sanctiebevoegdheden beschikken die vereist zijn willen zij de taken uit hoofde van deze verordening naar behoren kunnen uitvoeren. Zij moeten in beginsel de administratieve strafmaatregelen die zij opleggen, bekendmaken. Aangezien financiële entiteiten en derde aanbieders van ICT-diensten gevestigd kunnen zijn in verschillende lidstaten en kunnen ressorteren onder het toezicht van verschillende bevoegde autoriteiten, moet de toepassing van deze verordening vergemakkelijkt worden via, enerzijds, nauwe samenwerking tussen de relevante bevoegde autoriteiten, waaronder de ECB wat betreft de specifieke taken die de bank bij Verordening (EU) nr. 1024/2013 van de Raad zijn opgedragen, en, anderzijds, overleg met de ETA’s via wederzijdse uitwisseling van informatie en verlening van bijstand bij relevante toezichtactiviteiten."
+   }
+  ]
+ },
+ {
+  "number": 98,
+  "paragraphs": [
+   {
+    "text": "Om de criteria voor de aanwijzing van derde aanbieders van ICT-diensten tot kritieke dienstverleners kwantitatief en kwalitatief aan te scherpen en om de oversightvergoedingen te harmoniseren, moet aan de Commissie de bevoegdheid worden gedelegeerd om overeenkomstig artikel 290 VWEU handelingen vast te stellen ter aanvulling van deze verordening, en wel door nader te specificeren welke systemische impact een storing of een operationele uitval van een derde aanbieder van ICT-diensten zou kunnen hebben voor de financiële entiteiten waaraan deze derde aanbieder ICT-diensten verleent, het aantal mondiaal systeemrelevante instellingen (MSI’s) of andere systeemrelevante instellingen (ASI’s) die afhankelijk zijn van de derde aanbieder van ICT-diensten in kwestie, het aantal derde aanbieders van ICT-diensten dat op een bepaalde markt actief is, de kosten van de migratie van data en de ICT-werkbelasting naar een andere derde aanbieder van ICT-diensten, alsook het bedrag van de oversightvergoedingen en de wijze waarop deze moeten worden betaald. Het is van bijzonder belang dat de Commissie bij haar voorbereidende werkzaamheden tot passende raadplegingen overgaat, onder meer op deskundigenniveau, en dat deze raadplegingen plaatsvinden in overeenstemming met de beginselen die zijn vastgelegd in het Interinstitutioneel Akkoord van 13 april 2016 over beter wetgeven (22). Met name om te zorgen voor gelijke deelname aan de voorbereiding van gedelegeerde handelingen moeten het Europees Parlement en de Raad alle documenten op hetzelfde tijdstip ontvangen als de deskundigen van de lidstaten, en moeten hun deskundigen systematisch toegang hebben tot de vergaderingen van de deskundigengroepen van de Commissie die zich bezighouden met de voorbereiding van de gedelegeerde handelingen."
+   }
+  ]
+ },
+ {
+  "number": 99,
+  "paragraphs": [
+   {
+    "text": "Technische reguleringsnormen moeten een consistente harmonisatie van de in deze verordening neergelegde voorschriften bewerkstelligen. In hun rol van organen met hooggespecialiseerde expertise moeten de ETA’s ontwerpen van technische reguleringsnormen ontwikkelen die geen beleidskeuzen inhouden en die aan de Commissie moeten worden voorgelegd. Er moeten technische reguleringsnormen worden ontwikkeld op het gebied van ICT-risicobeheer, rapportage van ernstige ICT-incidenten, tests, en op het gebied van essentiële vereisten voor een degelijke monitoring van het ICT-risico van derde dienstverleners. De Commissie en de ETA’s dienen ervoor te zorgen dat deze normen en vereisten door alle financiële entiteiten kunnen worden toegepast op een wijze die in verhouding staat tot hun omvang en algehele risicoprofiel, alsook de aard, de omvang en de complexiteit van de entiteiten en hun activiteiten. De Commissie dient bevoegd te zijn deze technische uitvoeringsnormen vast te stellen bij gedelegeerde handeling, krachtens artikel 290 VWEU en in overeenstemming met artikel 10 tot en met 14 van de Verordeningen (EU) nr. 1093/2010, (EU) nr. 1094/2010 en (EU) nr. 1095/2010."
+   }
+  ]
+ },
+ {
+  "number": 100,
+  "paragraphs": [
+   {
+    "text": "Om de vergelijkbaarheid van meldingen van ernstige ICT-incidenten en van ernstige betalingsgerelateerde operationele of beveiligingsincidenten te vergemakkelijken en om te zorgen voor transparantie inzake contractuele overeenkomsten voor het gebruik van derde aanbieders van ICT-diensten moeten de ETA’s technische uitvoeringsnormen ontwikkelen waarin gestandaardiseerde templates, formulieren en procedures voor het melden van ernstige ICT-incidenten en van ernstige betalingsgerelateerde operationele of beveiligingsincidenten door financiële entiteiten worden vastgelegd, alsook gestandaardiseerde templates voor het informatieregister. Bij het ontwikkelen van deze normen moeten de ETA’s letten op de omvang en het algemene risicoprofiel van de financiële entiteit, alsook met de aard, de schaal en de complexiteit van haar diensten en activiteiten. De Commissie dient bevoegd te zijn bij uitvoeringshandeling deze technische uitvoeringsnormen vast te stellen, krachtens artikel 291 VWEU en in overeenstemming met artikel 15 van de Verordeningen (EU) nr. 1093/2010, (EU) nr. 1094/2010 en (EU) nr. 1095/2010."
+   }
+  ]
+ },
+ {
+  "number": 101,
+  "paragraphs": [
+   {
+    "text": "Aangezien verdere vereisten reeds zijn vastgesteld bij gedelegeerde en uitvoeringshandelingen op basis van technische regulerings- en uitvoeringsnormen in de Verordeningen (EG) nr. 1060/2009 (23), (EU) nr. 648/2012 (24), (EU) nr. 600/2014 (25) en (EU) nr. 909/2014 van het Europees Parlement en de Raad (26), is het passend de ETA’s, afzonderlijk of gezamenlijk via het Gemengd Comité, opdracht te geven bij de Commissie technische regulerings- of uitvoeringsnormen in te dienen met het oog op de vaststelling van gedelegeerde en uitvoeringshandelingen waarin de bestaande regels voor ICT-risicobeheer worden overgenomen en bijgewerkt."
+   }
+  ]
+ },
+ {
+  "number": 102,
+  "paragraphs": [
+   {
+    "text": "Aangezien deze verordening, samen met Richtlijn (EU) 2022/2556 van het Europees Parlement en de Raad (27) , een consolidatie inhoudt van de bepalingen inzake ICT-risicobeheer in verschillende verordeningen en richtlijnen van het acquis van de Unie op het gebied van financiële diensten, onder meer de Verordeningen (EG) nr. 1060/2009, (EU) nr. 648/2012, (EU) nr. 600/2014, en (EU) nr. 909/2014 en Verordening (EU) 2016/1011 van het Europees Parlement en de Raad (28), moeten deze verordeningen ten behoeve van volledige consistentie worden gewijzigd om te verduidelijken dat de relevante bepalingen inzake ICT-risico’s in de onderhavige verordening zijn opgenomen."
+   }
+  ]
+ },
+ {
+  "number": 103,
+  "paragraphs": [
+   {
+    "text": "Bijgevolg moet de werkingssfeer van de relevante artikelen in verband met operationele risico’s, waarvoor in de Verordeningen (EG) nr. 1060/2009, (EU) nr. 648/2012, (EU) nr. 600/2014, (EU) nr. 909/2014 en (EU) 2016/1011 machtigingen zijn verleend om gedelegeerde handelingen en uitvoeringshandelingen vast te stellen, worden beperkt teneinde alle bepalingen betreffende de aspecten van digitale operationele weerbaarheid die thans deel uitmaken van genoemde verordeningen, over te nemen in de onderhavige verordening."
+   }
+  ]
+ },
+ {
+  "number": 104,
+  "paragraphs": [
+   {
+    "text": "Het potentiële systemische cyberrisico bij het gebruik van ICT-infrastructuren die de exploitatie van betalingssystemen en de verrichting van activiteiten ter betalingsverwerking mogelijk maken, moet op het niveau van de Unie naar behoren worden aangepakt door middel van geharmoniseerde regels inzake digitale weerbaarheid. Daartoe moet de Commissie onverwijld beoordelen of het toepassingsgebied van deze verordening moet worden herzien en moet zij deze evaluatie afstemmen op de resultaten van de uitgebreide evaluatie waarin Richtlijn (EU) 2015/2366 voorziet. Talrijke grootschalige aanvallen in de afgelopen tien jaar tonen aan hoe betalingssystemen kwetsbaar zijn geworden voor cyberdreigingen. Betalingssystemen en activiteiten inzake betalingsverwerkingen vormen de belangrijkste schakel van de keten van betalingsdiensten en zijn sterk verweven met het algemene financiële stelsel, waardoor zij van cruciaal belang zijn geworden voor de werking van de financiële markten van de Unie. Cyberaanvallen op dergelijke systemen kunnen ernstige operationele bedrijfsverstoringen veroorzaken met rechtstreekse gevolgen voor belangrijke economische functies, zoals het faciliteren van betalingen, en met indirecte gevolgen voor de daaraan gerelateerde economische processen. Totdat op Unieniveau een geharmoniseerde regeling en het toezicht op exploitanten van betalingssystemen en verwerkingsentiteiten zijn ingevoerd, kunnen de lidstaten, met het oog op de toepassing van soortgelijke marktpraktijken, inspiratie putten uit de in deze verordening vastgestelde vereisten inzake digitale operationele weerbaarheid wanneer zij regels toepassen op exploitanten van betalingssystemen en op verwerkingsentiteiten die onder toezicht staan in hun eigen rechtsgebied."
+   }
+  ]
+ },
+ {
+  "number": 105,
+  "paragraphs": [
+   {
+    "text": "Daar de doelstelling van deze verordening, te weten het bereiken van een hoog niveau van digitale operationele weerbaarheid voor gereguleerde financiële entiteiten, niet voldoende door de lidstaten kan worden verwezenlijkt, omdat zulks de harmonisatie vereist van een aantal verschillende voorschriften van Unie- en nationaal recht, maar vanwege de omvang en de gevolgen ervan beter door de Unie kan worden verwezenlijkt, kan de Unie, overeenkomstig het in artikel 5 van het Verdrag betreffende de Europese Unie neergelegde subsidiariteitsbeginsel, maatregelen nemen. Overeenkomstig het in hetzelfde artikel neergelegde evenredigheidsbeginsel gaat deze verordening niet verder dan nodig is om die doelstelling te verwezenlijken."
+   }
+  ]
+ },
+ {
+  "number": 106,
+  "paragraphs": [
+   {
+    "text": "Overeenkomstig artikel 42, lid 1, van Verordening (EU) 2018/1725 van het Europees Parlement en de Raad (29) is de Europese Toezichthouder voor gegevensbescherming geraadpleegd, en op 10 mei 2021 heeft hij een advies uitgebracht (30),"
+   }
+  ]
+ }
+]

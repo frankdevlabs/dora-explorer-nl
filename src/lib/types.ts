@@ -39,7 +39,9 @@ export interface Article {
   title: string;
   chapter: string;
   chapterTitle: string;
-  section: number | null;
+  /** Section (afdeling) roman numeral as displayed ("I", "II"); null when
+   *  the article sits directly under its chapter. */
+  section: string | null;
   sectionTitle: string | null;
   paragraphs: ArticleParagraph[];
   footnotes: Footnote[];
@@ -69,7 +71,8 @@ export interface TocEntry {
 }
 
 export interface TocSection {
-  number: number;
+  /** Roman numeral as displayed ("I", "II"). */
+  roman: string;
   title: string;
   articles: TocEntry[];
 }
@@ -90,6 +93,8 @@ export interface Toc {
 export interface SearchDoc {
   id: string;
   type: "artikel" | "overweging" | "bijlage";
+  /** Which instrument the doc belongs to (dora | its | rts). */
+  instrument: string;
   ref: string;
   heading: string;
   url: string;

@@ -63,13 +63,27 @@ const tokenize: (text: string) => string[] = MiniSearch.getDefault("tokenize");
  * so searchDocs can pin the intended doc ahead of BM25's opinion.
  */
 export function parseReferenceQuery(query: string): { exact?: string; prefix?: string } | null {
-  const q = query.trim().toLowerCase();
+  let q = query.trim().toLowerCase();
+  // optional instrument qualifier ("its artikel 2", "rts artikel 3");
+  // unqualified references pin the main act (dora)
+  let instrument = "dora";
+  const im = q.match(/^(dora|its|rts)\s+(.*)$/);
+  if (im) {
+    instrument = im[1];
+    q = im[2];
+  }
   let m = q.match(/^artikel\s+(\d+)(?:\s*,?\s*lid\s+(\d+))?$/);
-  if (m) return m[2] ? { exact: `art-${m[1]}-lid-${m[2]}` } : { prefix: `art-${m[1]}-` };
+  if (m)
+    return m[2]
+      ? { exact: `${instrument}-art-${m[1]}-lid-${m[2]}` }
+      : { prefix: `${instrument}-art-${m[1]}-` };
   m = q.match(/^overweging\s+(\d+)$/);
-  if (m) return { exact: `rct-${m[1]}` };
+  if (m) return { exact: `${instrument}-rct-${m[1]}` };
   m = q.match(/^bijlage\s+([ivxlc]+)(?:\s*,?\s*punt\s+(\d+|[a-z]))?$/);
-  if (m) return m[2] ? { exact: `anx-${m[1]}-punt-${m[2]}` } : { prefix: `anx-${m[1]}-` };
+  if (m)
+    return m[2]
+      ? { exact: `${instrument}-anx-${m[1]}-punt-${m[2]}` }
+      : { prefix: `${instrument}-anx-${m[1]}-` };
   return null;
 }
 

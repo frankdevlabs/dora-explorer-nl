@@ -39,9 +39,9 @@ export default function Home() {
               ))}
             </ul>
             {c.sections.map((s) => (
-              <div key={s.number} className="mt-4">
+              <div key={s.roman} className="mt-4">
                 <h3 className="text-sm font-medium uppercase tracking-wide text-muted">
-                  Afdeling {s.number} — {s.title}
+                  Afdeling {s.roman}{s.title ? ` — ${s.title}` : ""}
                 </h3>
                 <ul className="mt-2 space-y-1">
                   {s.articles.map((a) => (

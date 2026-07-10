@@ -1,0 +1,554 @@
+[
+ {
+  "number": 1,
+  "title": "Definities",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Voor de toepassing van deze verordening wordt verstaan onder:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "1)",
+        "content": [
+         {
+          "type": "text",
+          "text": "“directe derde aanbieder van ICT-diensten”: een derde aanbieder van ICT-diensten of een aanbieder van ICT-diensten binnen een groep die een contractuele overeenkomst heeft gesloten met:"
+         },
+         {
+          "type": "list",
+          "items": [
+           {
+            "marker": "a)",
+            "content": [
+             {
+              "type": "text",
+              "text": "een financiële entiteit om rechtstreeks ICT-diensten te verlenen aan die financiële entiteit;"
+             }
+            ]
+           },
+           {
+            "marker": "b)",
+            "content": [
+             {
+              "type": "text",
+              "text": "een financiële of niet-financiële entiteit om diensten te verlenen aan andere financiële entiteiten binnen dezelfde groep;"
+             }
+            ]
+           }
+          ]
+         }
+        ],
+        "anchor": "punt-1"
+       },
+       {
+        "marker": "2)",
+        "content": [
+         {
+          "type": "text",
+          "text": "“toeleveringsketen van ICT-diensten”: een opeenvolging van contractuele overeenkomsten in verband met de ICT-dienst die door de directe derde aanbieder van ICT-diensten aan de financiële entiteit wordt verleend en die aanvangt bij de directe derde aanbieder van ICT-diensten die een of meer andere derde aanbieders van ICT-diensten als tegenpartij heeft (onderaannemers);"
+         }
+        ],
+        "anchor": "punt-2"
+       },
+       {
+        "marker": "3)",
+        "content": [
+         {
+          "type": "text",
+          "text": "“ranking”: de positie van een derde aanbieder van ICT-diensten in de toeleveringsketen van ICT-diensten."
+         }
+        ],
+        "anchor": "punt-3"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 2,
+  "title": "Ranking van derde aanbieders van ICT-diensten in de toeleveringsketen",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten kennen aan iedere derde aanbieder van ICT-diensten een ranking toe. De ranking kan een natuurlijk getal groter of gelijk aan “1” zijn, waarbij geldt dat hoe lager het natuurlijke getal van de ranking is, hoe dichter de overeenkomst zich bij de financiële entiteit bevindt."
+     },
+     {
+      "type": "text",
+      "text": "De ranking van de directe derde aanbieder van ICT-diensten in de toeleveringsketen van ICT-diensten bedraagt steeds “1”."
+     },
+     {
+      "type": "text",
+      "text": "De ranking van de onderaannemer in de toeleveringsketen van ICT-diensten is steeds groter dan “1”."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 3,
+  "title": "Algemene vereisten voor de modellen van het informatieregister",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten gebruiken de in bijlage I tot en met IV bedoelde modellen om het informatieregister overeenkomstig artikel 28, lid 3, van Verordening (EU) 2022/2554 op entiteits- of op gesubconsolideerd en geconsolideerd niveau bij te houden."
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten waarborgen dat in de in lid 1 bedoelde modellen al het volgende wordt opgenomen:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de relevante informatie over alle ICT-diensten van directe derde aanbieders van ICT-diensten;"
+         }
+        ],
+        "anchor": "lid-2-a"
+       },
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over alle onderaannemers die daadwerkelijk ICT-diensten verlenen die de kritieke of belangrijke functies of wezenlijke onderdelen daarvan ondersteunen."
+         }
+        ],
+        "anchor": "lid-2-b"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "anchor": "lid-3",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten zien erop toe dat de informatie in de in lid 1 bedoelde modellen nauwkeurig en consistent is. Financiële entiteiten evalueren de informatie in de modellen regelmatig en corrigeren eventuele geconstateerde fouten of afwijkingen onmiddellijk."
+     },
+     {
+      "type": "text",
+      "text": "In het geval van groepen zorgen de financiële entiteiten die verantwoordelijk zijn voor het bijhouden van het informatieregister op gesubconsolideerd en geconsolideerd niveau, ervoor dat de informatie op entiteitsniveau in de consolidatie correct is en overeenstemt met de informatie op gesubconsolideerd en geconsolideerd niveau."
+     }
+    ]
+   },
+   {
+    "number": 4,
+    "anchor": "lid-4",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten zien erop toe dat de informatie in de in lid 1 bedoelde modellen voldoen aan de volgende beginselen inzake gegevenskwaliteit:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "nauwkeurigheid,"
+         }
+        ],
+        "anchor": "lid-4-a"
+       },
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "volledigheid,"
+         }
+        ],
+        "anchor": "lid-4-b"
+       },
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "consistentie,"
+         }
+        ],
+        "anchor": "lid-4-c"
+       },
+       {
+        "marker": "d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "integriteit,"
+         }
+        ],
+        "anchor": "lid-4-d"
+       },
+       {
+        "marker": "e)",
+        "content": [
+         {
+          "type": "text",
+          "text": "uniformiteit,"
+         }
+        ],
+        "anchor": "lid-4-e"
+       },
+       {
+        "marker": "f)",
+        "content": [
+         {
+          "type": "text",
+          "text": "geldigheid."
+         }
+        ],
+        "anchor": "lid-4-f"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 5,
+    "anchor": "lid-5",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten gebruiken een geldige en actieve identificatiecode voor juridische entiteiten (LEI) of de in artikel 16 van Richtlijn (EU) 2017/1132 bedoelde Europese unieke identificatiecode (“EUID”), en indien beschikbaar beide identificatiecodes, om al hun derde aanbieders van ICT-diensten die rechtspersoon zijn te identificeren, behalve individuen die handelen in de uitoefening van bedrijf."
+     }
+    ]
+   },
+   {
+    "number": 6,
+    "anchor": "lid-6",
+    "content": [
+     {
+      "type": "text",
+      "text": "Wanneer een ICT-dienst van een directe derde aanbieder van ICT-diensten een kritieke of belangrijke functie van de financiële entiteiten ondersteunt, zorgen die financiële entiteiten er via de directe derde aanbieder van ICT-diensten voor dat alle onderaannemers van de overeenkomstig lid 2, punt b), in het informatieregister opgenomen directe derde aanbieder van ICT-diensten die daadwerkelijk ICT-diensten verlenen of ondersteunen die kritieke of belangrijke functies ondersteunen, een geldige en actieve LEI gebruiken of hun EUID verstrekken, en indien beschikbaar beide identificatiecodes, tenzij deze onderaannemers individuen zijn die handelen in een zakelijke hoedanigheid."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 4,
+  "title": "Vereiste inzake het gegevensformaat",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "Tenzij anders vermeld in de instructies, bestaat elk model dat deel uitmaakt van het informatieregister, uit een tabel met een vooraf bepaald aantal kolommen en een onbepaald aantal rijen."
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten vullen elk gegevenselement in met één enkele waarde. Wanneer meer dan een waarde geldig is voor een specifiek gegevenselement, voegen de financiële entiteiten in het overeenkomstige model een aanvullende rij toe voor elke geldige waarde."
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "anchor": "lid-3",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten vullen alle gegevenselementen van het informatieregister in op entiteits-, gesubconsolideerd en geconsolideerd niveau, zoals van toepassing."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 5,
+  "title": "Inhoud van het informatieregister",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "Overeenkomstig de in bijlage I vermelde instructies vermelden financiële entiteiten in het informatieregister de volgende informatie:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "algemene informatie over de financiële entiteit die het informatieregister bijhoudt op respectievelijk entiteits-, gesubconsolideerd en geconsolideerd niveau, zoals gespecificeerd in model B_01.01 van bijlage I;"
+         }
+        ],
+        "anchor": "lid-1-a"
+       },
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "algemene informatie over de entiteiten in de consolidatie zoals gespecificeerd in model B_01.02 van bijlage I;"
+         }
+        ],
+        "anchor": "lid-1-b"
+       },
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "identificatie van de bijkantoren van de financiële entiteiten die buiten het in model B_01.02 opgenomen land van vestiging zijn gevestigd, zoals gespecificeerd in model B_01.03 van bijlage I;"
+         }
+        ],
+        "anchor": "lid-1-c"
+       },
+       {
+        "marker": "d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "algemene informatie over de contractuele overeenkomsten zoals gespecificeerd in model B_02.01 van bijlage I;"
+         }
+        ],
+        "anchor": "lid-1-d"
+       },
+       {
+        "marker": "e)",
+        "content": [
+         {
+          "type": "text",
+          "text": "specifieke informatie over de contractuele overeenkomsten zoals gespecificeerd in model B_02.02 van bijlage I;"
+         }
+        ],
+        "anchor": "lid-1-e"
+       },
+       {
+        "marker": "f)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over de verbanden tussen de contractuele overeenkomsten binnen de groep en contractuele overeenkomsten met derde aanbieders van ICT-diensten die niet tot de groep behoren, aan de hand van contractuele referentienummers wanneer een deel van de toeleveringsketen van ICT-diensten binnen de groep ligt zoals gespecificeerd in model B_02.03 van bijlage I;"
+         }
+        ],
+        "anchor": "lid-1-f"
+       },
+       {
+        "marker": "g)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over de entiteiten die de contractuele overeenkomsten met de directe derde aanbieders van ICT-diensten voor het ontvangen van ICT-diensten ondertekenen namens de entiteiten die gebruikmaken van de ICT-diensten zoals gespecificeerd in model B_03.01 van bijlage I;"
+         }
+        ],
+        "anchor": "lid-1-g"
+       },
+       {
+        "marker": "h)",
+        "content": [
+         {
+          "type": "text",
+          "text": "identificatie van de derde aanbieders van ICT-diensten die de contractuele overeenkomsten voor het aanbieden van ICT-diensten ondertekenen zoals gespecificeerd in model B_03.02 van bijlage I;"
+         }
+        ],
+        "anchor": "lid-1-h"
+       },
+       {
+        "marker": "i)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over de entiteiten die de contractuele overeenkomsten voor het aanbieden van ICT-diensten aan andere entiteiten in de consolidatie afsluiten zoals gespecificeerd in model B_03.03 van bijlage I;"
+         }
+        ],
+        "anchor": "lid-1-i"
+       },
+       {
+        "marker": "j)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over de entiteiten die gebruikmaken van ICT-diensten van de derde aanbieder van ICT-diensten zoals opgenomen in model B_04.01 van bijlage I;"
+         }
+        ],
+        "anchor": "lid-1-j"
+       },
+       {
+        "marker": "k)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over de directe derde aanbieders van ICT-diensten en onderaannemers zoals gespecificeerd in model B_05.01 van bijlage I;"
+         }
+        ],
+        "anchor": "lid-1-k"
+       },
+       {
+        "marker": "l)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over de toeleveringsketen van ICT-diensten zoals gespecificeerd in model B_05.02 van bijlage I;"
+         }
+        ],
+        "anchor": "lid-1-l"
+       },
+       {
+        "marker": "m)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over de identificatie van de functies zoals gespecificeerd in model B_06.01 van bijlage I;"
+         }
+        ],
+        "anchor": "lid-1-m"
+       },
+       {
+        "marker": "n)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over de beoordeling van de ICT-diensten van derde aanbieders van ICT-diensten die een kritieke of belangrijke functie of wezenlijke onderdelen daarvan ondersteunen zoals gespecificeerd in model B_07.01 van bijlage I;"
+         }
+        ],
+        "anchor": "lid-1-n"
+       },
+       {
+        "marker": "o)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over de terminologie die wordt gebruikt door financiële entiteiten, en de termen die zijn opgenomen in de gesloten lijsten en classificatiesystemen die worden gebruikt bij het invullen van de modellen als gespecificeerd in model B_99.01 van bijlage I."
+         }
+        ],
+        "anchor": "lid-1-o"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Wanneer dit relevant is voor hun risicobeheer of contractbeheer, mogen financiële entiteiten aanvullende informatie opnemen in het informatieregister in de vorm die het meest passend is voor de doeleinden van die aanvullende informatie."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 6,
+  "title": "Toepassingsgebied van het informatieregister op gesubconsolideerd en geconsolideerd niveau",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "In het geval van groepen nemen de moederondernemingen de relevante sectorale Uniewetgeving in acht wanneer zij bepalen welke entiteiten in het informatieregister moeten worden opgenomen."
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "In een informatieregister dat wordt bijgehouden op gesubconsolideerd en op geconsolideerd niveau, worden alle financiële entiteiten en aanbieders van ICT-diensten binnen de groep opgenomen die deel uitmaken van de subgroep en de groep."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 7,
+  "title": "Inwerkingtreding",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Deze verordening treedt in werking op de twintigste dag na die van de bekendmaking ervan in het Publicatieblad van de Europese Unie."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ }
+]

@@ -34,7 +34,7 @@ export default async function ArtikelPage({ params }: Props) {
   const crumbs: Crumb[] = [
     { label: `Hoofdstuk ${article.chapter}`, href: `/#hoofdstuk-${article.chapter.toLowerCase()}` },
   ];
-  if (article.section !== null && article.sectionTitle) {
+  if (article.section !== null) {
     crumbs.push({ label: `Afdeling ${article.section}` });
   }
   crumbs.push({ label: display });
@@ -52,7 +52,9 @@ export default async function ArtikelPage({ params }: Props) {
         <h1 className="mt-1 text-2xl font-bold text-balance">{article.title}</h1>
         <p className="mt-2 text-sm text-muted">
           Hoofdstuk {article.chapter} — {article.chapterTitle}
-          {article.sectionTitle ? ` · Afdeling ${article.section} — ${article.sectionTitle}` : ""}
+          {article.section
+            ? ` · Afdeling ${article.section}${article.sectionTitle ? ` — ${article.sectionTitle}` : ""}`
+            : ""}
         </p>
       </header>
       <ArticleBody article={article} />
