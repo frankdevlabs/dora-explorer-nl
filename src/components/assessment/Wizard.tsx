@@ -2,15 +2,12 @@
 
 import { useMemo, useState, useSyncExternalStore } from "react";
 import Link from "next/link";
-import { useSearchParams } from "next/navigation";
-import { AlertTriangle, ArrowLeft, ArrowRight, CheckCircle2 } from "lucide-react";
-import { getQuestionnaire } from "@/lib/assessment/data";
-import { computeVisibility, evaluate } from "@/lib/assessment/engine";
-import { setAnswer, useAssessments } from "@/lib/assessment/store";
-import type { HelpContent, Module, Question } from "@/lib/assessment/types";
-import { Panel, RefRow, type Previews } from "./shared";
+import { ArrowLeft, ArrowRight, CheckCircle2 } from "lucide-react";
+import { computeVisibility, progress } from "@/lib/assessment/engine-core";
+import type { HelpContent, Module, Question, Questionnaire } from "@/lib/assessment/types";
+import { HelpText, Panel, RefRow, type Previews } from "./shared";
 
-function useMounted(): boolean {
+export function useMounted(): boolean {
   return useSyncExternalStore(
     () => () => {},
     () => true,
@@ -75,70 +72,42 @@ function AnswerInput({
   );
 }
 
-/** Editorial help/intro: a plain string or a sequence of paragraphs and bullet lists. */
-function HelpText({ content, className }: { content: HelpContent; className: string }) {
-  const blocks = typeof content === "string" ? [content] : content;
-  return (
-    <div className={className}>
-      {blocks.map((b, i) =>
-        typeof b === "string" ? (
-          <p key={i}>{b}</p>
-        ) : (
-          <ul key={i} className="list-disc space-y-1 pl-5">
-            {b.bullets.map((li, j) => (
-              <li key={j}>{li}</li>
-            ))}
-          </ul>
-        ),
-      )}
-    </div>
-  );
-}
-
 function ModuleStep({
   module,
   answers,
   visibleQuestions,
-  systemId,
+  onAnswer,
   previews,
 }: {
   module: Module;
   answers: Record<string, string>;
   visibleQuestions: Set<string>;
-  systemId: string;
+  onAnswer: (questionId: string, value: string) => void;
   previews: Previews;
 }) {
   const questions = module.questions.filter((q) => visibleQuestions.has(q.id));
   return (
     <div className="space-y-4">
-      {module.intro && <HelpText content={module.intro} className="space-y-1.5 text-sm text-muted" />}
+      {module.intro && (
+        <HelpText content={module.intro as HelpContent} className="space-y-1.5 text-sm text-muted" />
+      )}
       {module.refs && <RefRow refs={module.refs} previews={previews} />}
       {questions.map((q) => {
         const value = answers[q.id] ?? "";
-        const stop = q.prohibition && value === "ja";
         return (
-          <div
-            key={q.id}
-            className={`rounded-lg border p-4 ${
-              stop ? "border-red-600/60 bg-red-600/5" : "border-line bg-surface"
-            }`}
-          >
+          <div key={q.id} className="rounded-lg border border-line bg-surface p-4">
             <p className="text-sm">
               <span className="mr-2 font-mono text-xs text-muted">{q.id}</span>
               {q.text}
             </p>
             {q.help && (
-              <HelpText content={q.help} className="mt-1 space-y-1.5 text-xs leading-relaxed text-muted" />
+              <HelpText
+                content={q.help}
+                className="mt-1 space-y-1.5 text-xs leading-relaxed text-muted"
+              />
             )}
             <RefRow refs={q.refs} previews={previews} />
-            <AnswerInput question={q} value={value} onChange={(v) => setAnswer(systemId, q.id, v)} />
-            {stop && (
-              <p className="mt-2 flex items-center gap-2 text-sm font-medium text-red-700 dark:text-red-400">
-                <AlertTriangle className="size-4 shrink-0" />
-                Verboden praktijk (art. 5): niet inzetten, bestaand gebruik staken en direct
-                escaleren naar Legal &amp; Compliance.
-              </p>
-            )}
+            <AnswerInput question={q} value={value} onChange={(v) => onAnswer(q.id, v)} />
           </div>
         );
       })}
@@ -146,35 +115,35 @@ function ModuleStep({
   );
 }
 
-export function Wizard({ previews }: { previews: Previews }) {
-  const mounted = useMounted();
-  const params = useSearchParams();
-  const systems = useAssessments();
-  const questionnaire = getQuestionnaire();
-  const sysId = params.get("sys") ?? "";
-  const system = systems.find((s) => s.id === sysId);
+/**
+ * Generic module-stepper over any questionnaire. Storage-agnostic: the
+ * caller supplies answers + onAnswer (entity store or RoI arrangement) and
+ * the result-page href.
+ */
+export function Wizard({
+  questionnaire,
+  title,
+  answers,
+  onAnswer,
+  resultHref,
+  previews,
+}: {
+  questionnaire: Questionnaire;
+  title: string;
+  answers: Record<string, string>;
+  onAnswer: (questionId: string, value: string) => void;
+  resultHref: string;
+  previews: Previews;
+}) {
   const [activeModuleId, setActiveModuleId] = useState<string | null>(null);
-
-  const answers = useMemo(() => system?.answers ?? {}, [system]);
   const ctx = useMemo(() => computeVisibility(questionnaire, answers), [questionnaire, answers]);
-  const evaluation = useMemo(() => evaluate(questionnaire, answers), [questionnaire, answers]);
-
-  if (!mounted) return <div className="py-12 text-center text-sm text-muted">Laden…</div>;
-  if (!system) {
-    return (
-      <div className="py-12 text-center text-sm text-muted">
-        Beoordeling niet gevonden.{" "}
-        <Link href="/assessment" className="text-accent hover:underline">
-          Terug naar het overzicht
-        </Link>
-        .
-      </div>
-    );
-  }
+  const { answered, total } = progress(questionnaire, answers, ctx);
 
   const visibleModules = questionnaire.modules.filter((m) => ctx.visibleModules.has(m.id));
   const moduleDone = (m: Module) =>
-    m.questions.filter((q) => ctx.visibleQuestions.has(q.id)).every((q) => (answers[q.id] ?? "") !== "");
+    m.questions
+      .filter((q) => ctx.visibleQuestions.has(q.id))
+      .every((q) => (answers[q.id] ?? "") !== "");
   const active =
     visibleModules.find((m) => m.id === activeModuleId) ??
     visibleModules.find((m) => !moduleDone(m)) ??
@@ -185,42 +154,31 @@ export function Wizard({ previews }: { previews: Previews }) {
     <div className="space-y-6">
       <div className="flex flex-wrap items-center justify-between gap-2">
         <div>
-          <h1 className="text-xl font-semibold tracking-tight">{system.name}</h1>
+          <h1 className="text-xl font-semibold tracking-tight">{title}</h1>
           <p className="text-xs text-muted">
-            {evaluation.answered} van {evaluation.total} vragen beantwoord
+            {answered} van {total} vragen beantwoord
           </p>
         </div>
         <Link
-          href={`/assessment/resultaat?sys=${system.id}`}
+          href={resultHref}
           className="flex h-9 items-center gap-2 rounded-md border border-line px-3 text-sm text-accent hover:border-accent"
         >
           Naar resultaat <ArrowRight className="size-4" />
         </Link>
       </div>
 
-      {evaluation.stops.length > 0 && (
-        <div className="flex items-start gap-2 rounded-lg border border-red-600/60 bg-red-600/5 p-3 text-sm text-red-700 dark:text-red-400">
-          <AlertTriangle className="mt-0.5 size-4 shrink-0" />
-          <span>
-            Eén of meer antwoorden wijzen op een verboden praktijk (vraag{" "}
-            {evaluation.stops.join(", ")}). Rond de beoordeling af voor het dossier, maar zet de
-            toepassing niet in.
-          </span>
-        </div>
-      )}
-
       <nav className="flex flex-wrap gap-1.5" aria-label="Modules">
         {visibleModules.map((m) => {
           const done = moduleDone(m);
           const current = m.id === active.id;
           const visible = m.questions.filter((q) => ctx.visibleQuestions.has(q.id));
-          const answered = visible.filter((q) => (answers[q.id] ?? "") !== "").length;
+          const answeredCount = visible.filter((q) => (answers[q.id] ?? "") !== "").length;
           return (
             <button
               key={m.id}
               type="button"
               onClick={() => setActiveModuleId(m.id)}
-              title={`${m.title} — ${answered}/${visible.length} beantwoord`}
+              title={`${m.title} — ${answeredCount}/${visible.length} beantwoord`}
               className={`flex items-center gap-1 rounded-md border px-2 py-1 text-xs ${
                 current
                   ? "border-accent bg-accent/10 font-medium text-accent"
@@ -239,7 +197,7 @@ export function Wizard({ previews }: { previews: Previews }) {
           module={active}
           answers={answers}
           visibleQuestions={ctx.visibleQuestions}
-          systemId={system.id}
+          onAnswer={onAnswer}
           previews={previews}
         />
       </Panel>
@@ -263,7 +221,7 @@ export function Wizard({ previews }: { previews: Previews }) {
           </button>
         ) : (
           <Link
-            href={`/assessment/resultaat?sys=${system.id}`}
+            href={resultHref}
             className="flex h-9 items-center gap-2 rounded-md bg-accent px-4 text-sm font-medium text-white dark:text-background"
           >
             Afronden — naar resultaat <ArrowRight className="size-4" />

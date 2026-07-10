@@ -73,13 +73,10 @@ All EUR-Lex sources are WAF-blocked; fetch via
 - GitHub: `frankdevlabs/dora-explorer-nl`; commit as
   `frankdevlabs <29236012+frankdevlabs@users.noreply.github.com>`.
 
-## Temporary state (epic 1 done, epics 2-8 pending)
+## State (epics 0-6 done; 7-8 pending)
 
-The corpus is the real multi-instrument DORA corpus
-(`scripts/parse-corpus.ts` → `data/generated/{dora,its,rts}/`). Still
-placeholder: the assessment content
-(`data/questionnaire/assessment-v1.json`, `/assessment`, `/register` — AI
-Act era, replaced in epics 5–8; `verify-assessment` is out of the `npm run
-verify` chain until then), cross-references (epic 2 — `crossrefs.ts` still
-carries the AI Act grammar, the parser emits no refs yet), the `/its` and
-`/rts` routes (epic 3) and the MCP server (epic 4, does not compile).
+Corpus, crossrefs, UI, MCP and both assessments are live. Pending: the RoI
+werkbank op `/register` (epic 7: templates.json afgeleid uit de geparste
+ITS-bijlage I + relationele records + volledigheidsdashboard) en de exports
+(epic 8: CSV per template + leveranciersuitvraag). Deploy-blocker: de
+Cloudflare-DNS-record voor dora.mrfrank.dev (zie epic-4-doc).

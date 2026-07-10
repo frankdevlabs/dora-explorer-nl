@@ -1,33 +1,54 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
-import { AssessmentHome } from "@/components/assessment/AssessmentHome";
-import { getQuestionnaire } from "@/lib/assessment/data";
+import { getEntityQuestionnaire } from "@/lib/assessment/data";
 
 export const metadata: Metadata = {
-  title: "AI Act-assessment",
+  title: "DORA-assessment",
   description:
-    "Beoordeel per AI-toepassing de verplichtingen onder de AI-verordening (EU) 2024/1689: kwalificatie, rol, verboden praktijken, hoogrisicoclassificatie, transparantie en registerinvoer. Alle gegevens blijven lokaal in de browser.",
+    "Twee zelfbeoordelingen onder DORA (Verordening (EU) 2022/2554): het regime en de verplichtingen van de financiële entiteit, en per ICT-overeenkomst of de dienst een kritieke of belangrijke functie ondersteunt. Alle gegevens blijven lokaal in de browser.",
 };
 
 export default function AssessmentPage() {
-  const q = getQuestionnaire();
+  const q = getEntityQuestionnaire();
   return (
     <div>
       <Breadcrumbs crumbs={[{ label: "Assessment" }]} />
-      <h1 className="mb-2 text-2xl font-bold">AI Act-assessment</h1>
-      <p className="mb-2 text-sm text-muted">
-        Doorloop per (voorgenomen) AI-toepassing een intake-vragenlijst van 18 modules:
-        kwalificatie (art. 3), rolbepaling, verboden praktijken (art. 5), hoogrisicoclassificatie
-        (art. 6, bijlagen I en III), verplichtingen per rol (art. 16/26/27/53), transparantie
-        (art. 50), AI-geletterdheid (art. 4) en raakvlakken met AVG en DORA. De uitkomst is een
-        risicoklasse, een verplichtingen-checklist met toepasselijke data en een kant-en-klare rij
-        voor het <Link href="/register" className="text-accent hover:underline">AI-register</Link>.
+      <h1 className="mb-2 text-2xl font-bold">DORA-assessment</h1>
+      <p className="mb-6 text-sm text-muted">
+        Twee vragenlijsten die samen het ICT-derdenrisicokader afdekken. Alle antwoorden blijven
+        lokaal in de browser (localStorage); niets wordt verstuurd.
       </p>
-      <p className="mb-6 rounded-md border border-line bg-surface px-3 py-2 text-xs text-muted">
+
+      <div className="mb-6 grid gap-3 sm:grid-cols-2">
+        <Link
+          href="/assessment/entiteit"
+          className="group rounded-lg border border-line p-4 hover:border-accent"
+        >
+          <p className="font-semibold group-hover:text-accent">Entiteit</p>
+          <p className="mt-1 text-sm text-muted">
+            Voor de financiële entiteit als geheel: toepassingsgebied (art. 2), proportionaliteit
+            en regime (art. 4/16), ICT-risicobeheer, incidenten, testen/TLPT, derdenrisico en het
+            informatieregister — met een verplichtingen-checklist per pijler.
+          </p>
+        </Link>
+        <Link
+          href="/assessment/leverancier"
+          className="group rounded-lg border border-line p-4 hover:border-accent"
+        >
+          <p className="font-semibold group-hover:text-accent">Leverancier / overeenkomst</p>
+          <p className="mt-1 text-sm text-muted">
+            Per ICT-contractuele overeenkomst: is het een ICT-dienst, ondersteunt die een kritieke
+            of belangrijke functie (art. 3, punt 22), en welke verplichtingen gelden dan —
+            basisset (art. 30, lid 2) of aanvullend (art. 30, lid 3 + RTS 2025/532). Voedt het
+            informatieregister.
+          </p>
+        </Link>
+      </div>
+
+      <p className="rounded-md border border-line bg-surface px-3 py-2 text-xs text-muted">
         {q.meta.disclaimer}
       </p>
-      <AssessmentHome />
     </div>
   );
 }

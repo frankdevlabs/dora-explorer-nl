@@ -1,0 +1,650 @@
+{
+ "meta": {
+  "version": 1,
+  "kind": "entity",
+  "title": "DORA-assessment — financiële entiteit",
+  "updated": "2026-07-10",
+  "basis": "Verordening (EU) 2022/2554 (DORA); Uitvoeringsverordening (EU) 2024/2956 (informatieregister); Gedelegeerde Verordening (EU) 2025/532 (onderaanneming)",
+  "disclaimer": "Deze zelfbeoordeling is een redactioneel hulpmiddel en vervangt de verordening niet. Raadpleeg de gelinkte bepalingen en zo nodig een adviseur; aan de uitkomst kunnen geen rechten worden ontleend."
+ },
+ "modules": [
+  {
+   "id": "m1",
+   "nr": 1,
+   "title": "Identificatie van de entiteit",
+   "intro": "Basisgegevens van de financiële entiteit. Deze voeden ook model B_01.01 van het informatieregister.",
+   "questions": [
+    {
+     "id": "e1.1",
+     "text": "Naam van de financiële entiteit",
+     "answerType": "text"
+    },
+    {
+     "id": "e1.2",
+     "text": "LEI van de entiteit (20 tekens, ISO 17442)",
+     "help": "De LEI identificeert de entiteit in het informatieregister (B_01.01.0010) en bij de toezichthouder. Controleer de code in GLEIF.",
+     "answerType": "text"
+    },
+    {
+     "id": "e1.3",
+     "text": "Soort financiële entiteit",
+     "help": "Kies de categorie uit artikel 2, lid 1, DORA die de vergunning van de entiteit het best beschrijft.",
+     "refs": [{ "label": "Art. 2, lid 1", "href": "/artikel/2#lid-1" }],
+     "answerType": "choice",
+     "options": [
+      { "value": "kredietinstelling", "label": "Kredietinstelling" },
+      { "value": "betalingsinstelling", "label": "Betalingsinstelling / e-geldinstelling" },
+      { "value": "beleggingsonderneming", "label": "Beleggingsonderneming" },
+      { "value": "crypto", "label": "Aanbieder van cryptoactivadiensten" },
+      { "value": "beheerder", "label": "Beheerder van beleggingsinstellingen (abi-beheerder/icbe)" },
+      { "value": "verzekeraar", "label": "Verzekerings- of herverzekeringsonderneming" },
+      { "value": "tussenpersoon", "label": "Verzekerings-/herverzekeringstussenpersoon" },
+      { "value": "ibpv", "label": "Instelling voor bedrijfspensioenvoorziening (IBPV)" },
+      { "value": "handelsinfra", "label": "Marktinfrastructuur (handelsplatform, CCP, CSD, transactieregister)" },
+      { "value": "overig", "label": "Overige categorie uit art. 2, lid 1 (o.a. ratingbureau, benchmarkbeheerder, crowdfunding)" }
+     ]
+    },
+    {
+     "id": "e1.4",
+     "text": "Bevoegde toezichthouder voor DORA-naleving",
+     "help": "In Nederland: de vergunningverlenende toezichthouder (AFM of DNB) houdt toezicht op DORA-naleving (Besluit EU-verordeningen Wft, bijlage 35).",
+     "answerType": "choice",
+     "options": [
+      { "value": "afm", "label": "AFM" },
+      { "value": "dnb", "label": "DNB" },
+      { "value": "ecb", "label": "ECB (SSM)" },
+      { "value": "anders", "label": "Andere autoriteit" }
+     ]
+    },
+    {
+     "id": "e1.5",
+     "text": "Maakt de entiteit deel uit van een groep waarvoor het informatieregister ook op gesubconsolideerd of geconsolideerd niveau moet worden bijgehouden?",
+     "refs": [{ "label": "Art. 28, lid 3", "href": "/artikel/28#lid-3" }],
+     "answerType": "janee",
+     "effects": [{ "when": "ja", "setFlag": "groep" }]
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "nr": 2,
+   "title": "Toepassingsgebied (art. 2)",
+   "intro": "DORA geldt voor de financiële entiteiten van artikel 2, lid 1. Artikel 2, lid 3, sluit een aantal kleine of al anders gereguleerde entiteiten volledig uit.",
+   "refs": [
+    { "label": "Art. 2 — Toepassingsgebied", "href": "/artikel/2" }
+   ],
+   "questions": [
+    {
+     "id": "e2.1",
+     "text": "Valt de entiteit onder een van de categorieën van artikel 2, lid 1 (zoals hierboven gekozen)?",
+     "help": "Twijfelgeval? Toets de precieze definitie in artikel 2, lid 1, punten a) tot en met u), aan de vergunning van de entiteit. Zelfstandige kredietaanbieders zonder een van deze vergunningen vallen buiten DORA.",
+     "refs": [{ "label": "Art. 2, lid 1", "href": "/artikel/2#lid-1" }],
+     "answerType": "janee",
+     "effects": [{ "when": "ja", "setFlag": "in_scope" }]
+    },
+    {
+     "id": "e2.2",
+     "text": "Is de entiteit uitgesloten op grond van artikel 2, lid 3?",
+     "help": [
+      "Uitgesloten zijn onder meer:",
+      {
+       "bullets": [
+        "abi-beheerders als bedoeld in art. 3, lid 2, van Richtlijn 2011/61/EU;",
+        "verzekeraars/herverzekeraars als bedoeld in art. 4 van Richtlijn 2009/138/EG;",
+        "IBPV's met pensioenregelingen met in totaal minder dan 15 deelnemers;",
+        "vrijgestelde personen als bedoeld in de artikelen 2 en 3 van Richtlijn 2014/65/EU;",
+        "bepaalde verzekeringstussenpersonen (micro-, kleine of middelgrote ondernemingen);",
+        "postale girodiensten als bedoeld in art. 2, lid 5, punt 3, van Richtlijn 2013/36/EU."
+       ]
+      }
+     ],
+     "refs": [{ "label": "Art. 2, lid 3", "href": "/artikel/2#lid-3" }],
+     "answerType": "janee",
+     "showIf": { "flag": "in_scope" },
+     "effects": [{ "when": "ja", "setFlag": "uitgesloten" }]
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "nr": 3,
+   "title": "Proportionaliteit en regime (art. 4 en 16)",
+   "intro": "Het evenredigheidsbeginsel van artikel 4 kleurt de hele toepassing: omvang, risicoprofiel en complexiteit bepalen de diepgang. Daarnaast geldt voor een limitatieve lijst kleine entiteiten het vereenvoudigde kader van artikel 16 in plaats van de artikelen 5 tot en met 15.",
+   "showIf": { "all": [{ "flag": "in_scope" }, { "not": { "flag": "uitgesloten" } }] },
+   "refs": [
+    { "label": "Art. 4 — Evenredigheidsbeginsel", "href": "/artikel/4" },
+    { "label": "Art. 16 — Vereenvoudigd kader", "href": "/artikel/16" }
+   ],
+   "questions": [
+    {
+     "id": "e3.1",
+     "text": "Is de entiteit een micro-onderneming (minder dan 10 werknemers én jaaromzet/balanstotaal ≤ 2 miljoen EUR)?",
+     "help": "Micro-ondernemingen krijgen op veel plaatsen lichtere verplichtingen (o.a. testen, TLPT, governance-detail), maar blijven volledig binnen DORA.",
+     "refs": [{ "label": "Art. 3 — Definities", "href": "/artikel/3" }],
+     "answerType": "janee",
+     "effects": [{ "when": "ja", "setFlag": "micro" }]
+    },
+    {
+     "id": "e3.2",
+     "text": "Behoort de entiteit tot de artikel 16-categorieën (o.a. kleine, niet-verweven beleggingsondernemingen; vrijgestelde betalings-/e-geldinstellingen; kleine IBPV's)?",
+     "help": "Voor deze entiteiten gelden de artikelen 5 t/m 15 niet; in plaats daarvan geldt het vereenvoudigde ICT-risicobeheerkader van artikel 16, lid 1.",
+     "refs": [{ "label": "Art. 16, lid 1", "href": "/artikel/16#lid-1" }],
+     "answerType": "janee",
+     "effects": [{ "when": "ja", "setFlag": "vereenvoudigd" }]
+    },
+    {
+     "id": "e3.3",
+     "text": "Is de evenredigheidsafweging (aard, omvang, complexiteit, risicoprofiel) gedocumenteerd als onderbouwing van de gekozen diepgang?",
+     "refs": [{ "label": "Art. 4, lid 2", "href": "/artikel/4#lid-2" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "nr": 4,
+   "title": "Governance en organisatie (art. 5)",
+   "showIf": { "all": [{ "flag": "in_scope" }, { "not": { "flag": "uitgesloten" } }] },
+   "refs": [{ "label": "Art. 5 — Governance en organisatie", "href": "/artikel/5" }],
+   "questions": [
+    {
+     "id": "e4.1",
+     "text": "Heeft het leidinggevend orgaan de eindverantwoordelijkheid voor het ICT-risicobeheer expliciet belegd en vastgelegd?",
+     "refs": [{ "label": "Art. 5, lid 2", "href": "/artikel/5#lid-2" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    },
+    {
+     "id": "e4.2",
+     "text": "Keurt het leidinggevend orgaan de strategie voor digitale operationele weerbaarheid en het beleid periodiek goed en ziet het toe op de uitvoering?",
+     "refs": [{ "label": "Art. 5, lid 2", "href": "/artikel/5#lid-2" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    },
+    {
+     "id": "e4.3",
+     "text": "Onderhouden de leden van het leidinggevend orgaan actueel voldoende kennis van ICT-risico (opleidingen, ook voor personeel)?",
+     "refs": [{ "label": "Art. 5, lid 4", "href": "/artikel/5#lid-4" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    },
+    {
+     "id": "e4.4",
+     "text": "Is er een rol of functie aangewezen voor het monitoren van de overeenkomsten met derde ICT-aanbieders (of zijn die taken belegd bij een lid van de directie)?",
+     "refs": [{ "label": "Art. 5, lid 3", "href": "/artikel/5#lid-3" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    }
+   ]
+  },
+  {
+   "id": "m5",
+   "nr": 5,
+   "title": "Kader voor ICT-risicobeheer (art. 6)",
+   "showIf": { "all": [{ "flag": "in_scope" }, { "not": { "flag": "uitgesloten" } }, { "not": { "flag": "vereenvoudigd" } }] },
+   "refs": [{ "label": "Art. 6 — Kader voor ICT-risicobeheer", "href": "/artikel/6" }],
+   "questions": [
+    {
+     "id": "e5.1",
+     "text": "Is er een gedocumenteerd, degelijk en volledig ICT-risicobeheerkader dat ten minste jaarlijks (micro: periodiek) wordt geëvalueerd?",
+     "refs": [{ "label": "Art. 6, lid 1", "href": "/artikel/6#lid-1" }, { "label": "Art. 6, lid 5", "href": "/artikel/6#lid-5" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    },
+    {
+     "id": "e5.2",
+     "text": "Is de digitale-operationele-weerbaarheidsstrategie vastgelegd, inclusief risicotolerantie en KPI's?",
+     "refs": [{ "label": "Art. 6, lid 8", "href": "/artikel/6#lid-8" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    },
+    {
+     "id": "e5.3",
+     "text": "Is het ICT-risicobeheer belegd bij een controlefunctie met passende onafhankelijkheid (drie verdedigingslinies of vergelijkbaar model)?",
+     "refs": [{ "label": "Art. 6, lid 4", "href": "/artikel/6#lid-4" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    },
+    {
+     "id": "e5.4",
+     "text": "Wordt het kader periodiek onderworpen aan interne audit door auditors met voldoende ICT-kennis, met een formele opvolgingsprocedure voor bevindingen?",
+     "refs": [{ "label": "Art. 6, lid 6", "href": "/artikel/6#lid-6" }, { "label": "Art. 6, lid 7", "href": "/artikel/6#lid-7" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    }
+   ]
+  },
+  {
+   "id": "m6",
+   "nr": 6,
+   "title": "Identificatie en bescherming (art. 7–9)",
+   "showIf": { "all": [{ "flag": "in_scope" }, { "not": { "flag": "uitgesloten" } }, { "not": { "flag": "vereenvoudigd" } }] },
+   "refs": [
+    { "label": "Art. 7 — ICT-systemen", "href": "/artikel/7" },
+    { "label": "Art. 8 — Identificatie", "href": "/artikel/8" },
+    { "label": "Art. 9 — Bescherming en preventie", "href": "/artikel/9" }
+   ],
+   "questions": [
+    {
+     "id": "e6.1",
+     "text": "Zijn alle ondersteunde bedrijfsfuncties, informatie- en ICT-activa (inclusief afhankelijkheden van derde aanbieders) geïdentificeerd, geclassificeerd en gedocumenteerd, met jaarlijkse actualisering?",
+     "refs": [{ "label": "Art. 8, lid 1", "href": "/artikel/8#lid-1" }, { "label": "Art. 8, lid 4", "href": "/artikel/8#lid-4" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    },
+    {
+     "id": "e6.2",
+     "text": "Zijn verouderde ICT-systemen (legacy) geïnventariseerd en wordt hun risico specifiek beoordeeld?",
+     "refs": [{ "label": "Art. 8, lid 7", "href": "/artikel/8#lid-7" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    },
+    {
+     "id": "e6.3",
+     "text": "Gebruikt de entiteit actuele, betrouwbare en voldoende schaalbare ICT-systemen en -instrumenten?",
+     "refs": [{ "label": "Art. 7", "href": "/artikel/7" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    },
+    {
+     "id": "e6.4",
+     "text": "Zijn er beveiligingsbeleid, -procedures en -instrumenten voor beschikbaarheid, authenticiteit, integriteit en vertrouwelijkheid (o.a. netwerkbeveiliging, sterke authenticatie, encryptie- en patchbeleid)?",
+     "refs": [{ "label": "Art. 9, lid 2", "href": "/artikel/9#lid-2" }, { "label": "Art. 9, lid 4", "href": "/artikel/9#lid-4" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "nr": 7,
+   "title": "Detectie, respons en herstel (art. 10–12)",
+   "showIf": { "all": [{ "flag": "in_scope" }, { "not": { "flag": "uitgesloten" } }, { "not": { "flag": "vereenvoudigd" } }] },
+   "refs": [
+    { "label": "Art. 10 — Detectie", "href": "/artikel/10" },
+    { "label": "Art. 11 — Respons en herstel", "href": "/artikel/11" },
+    { "label": "Art. 12 — Back-up en herstel", "href": "/artikel/12" }
+   ],
+   "questions": [
+    {
+     "id": "e7.1",
+     "text": "Zijn er mechanismen om afwijkende activiteiten en ICT-incidenten snel te detecteren, met meerdere controlelagen en alarmdrempels?",
+     "refs": [{ "label": "Art. 10, lid 1", "href": "/artikel/10#lid-1" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    },
+    {
+     "id": "e7.2",
+     "text": "Is er een ICT-bedrijfscontinuïteitsbeleid met plannen, respons- en herstelprocedures die jaarlijks worden getest?",
+     "refs": [{ "label": "Art. 11, lid 1", "href": "/artikel/11#lid-1" }, { "label": "Art. 11, lid 6", "href": "/artikel/11#lid-6" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    },
+    {
+     "id": "e7.3",
+     "text": "Zijn back-upbeleid en terugzettings-/herstelprocedures vastgesteld en worden ze periodiek getest, met een van de productie gescheiden hersteldomein?",
+     "refs": [{ "label": "Art. 12, lid 1", "href": "/artikel/12#lid-1" }, { "label": "Art. 12, lid 3", "href": "/artikel/12#lid-3" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    },
+    {
+     "id": "e7.4",
+     "text": "Is er een crisiscommunicatieplan en zijn crisisbeheerfuncties belegd?",
+     "refs": [{ "label": "Art. 11, lid 7", "href": "/artikel/11#lid-7" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    }
+   ]
+  },
+  {
+   "id": "m8",
+   "nr": 8,
+   "title": "Leren, evolueren en communicatie (art. 13–14)",
+   "showIf": { "all": [{ "flag": "in_scope" }, { "not": { "flag": "uitgesloten" } }, { "not": { "flag": "vereenvoudigd" } }] },
+   "refs": [
+    { "label": "Art. 13 — Leren en evolueren", "href": "/artikel/13" },
+    { "label": "Art. 14 — Communicatie", "href": "/artikel/14" }
+   ],
+   "questions": [
+    {
+     "id": "e8.1",
+     "text": "Worden incidenten en verstoringen nabesproken (post-incident reviews bij ernstige incidenten) en leiden lessen tot aanpassing van het kader?",
+     "refs": [{ "label": "Art. 13, lid 2", "href": "/artikel/13#lid-2" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    },
+    {
+     "id": "e8.2",
+     "text": "Zijn er programma's voor bewustwording en periodieke opleiding over digitale operationele weerbaarheid voor personeel en management?",
+     "refs": [{ "label": "Art. 13, lid 6", "href": "/artikel/13#lid-6" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    },
+    {
+     "id": "e8.3",
+     "text": "Zijn er communicatieplannen richting cliënten, tegenpartijen en het publiek voor (ten minste ernstige) ICT-incidenten?",
+     "refs": [{ "label": "Art. 14, lid 1", "href": "/artikel/14#lid-1" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    }
+   ]
+  },
+  {
+   "id": "m9",
+   "nr": 9,
+   "title": "Vereenvoudigd ICT-risicobeheerkader (art. 16)",
+   "showIf": { "all": [{ "flag": "in_scope" }, { "not": { "flag": "uitgesloten" } }, { "flag": "vereenvoudigd" }] },
+   "refs": [{ "label": "Art. 16 — Vereenvoudigd kader", "href": "/artikel/16" }],
+   "questions": [
+    {
+     "id": "e9.1",
+     "text": "Is er een gedocumenteerd vereenvoudigd ICT-risicobeheerkader dat de belangrijkste afhankelijkheden en risico's dekt en periodiek wordt geëvalueerd?",
+     "refs": [{ "label": "Art. 16, lid 1", "href": "/artikel/16#lid-1" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    },
+    {
+     "id": "e9.2",
+     "text": "Worden systemen beschermd, incidenten gedetecteerd en afgehandeld, en continuïteit geborgd (inclusief back-ups) op een wijze die past bij het risicoprofiel?",
+     "refs": [{ "label": "Art. 16, lid 1", "href": "/artikel/16#lid-1" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    }
+   ]
+  },
+  {
+   "id": "m10",
+   "nr": 10,
+   "title": "Incidentbeheerproces (art. 17)",
+   "showIf": { "all": [{ "flag": "in_scope" }, { "not": { "flag": "uitgesloten" } }] },
+   "refs": [{ "label": "Art. 17 — Incidentbeheerproces", "href": "/artikel/17" }],
+   "questions": [
+    {
+     "id": "e10.1",
+     "text": "Is er een ICT-incidentbeheerproces om incidenten te detecteren, registreren, categoriseren en af te handelen, inclusief wortel-oorzaakanalyse?",
+     "refs": [{ "label": "Art. 17, lid 1", "href": "/artikel/17#lid-1" }, { "label": "Art. 17, lid 3", "href": "/artikel/17#lid-3" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    },
+    {
+     "id": "e10.2",
+     "text": "Worden ook significante cyberdreigingen geregistreerd?",
+     "refs": [{ "label": "Art. 17, lid 2", "href": "/artikel/17#lid-2" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    }
+   ]
+  },
+  {
+   "id": "m11",
+   "nr": 11,
+   "title": "Classificatie van incidenten (art. 18)",
+   "showIf": { "all": [{ "flag": "in_scope" }, { "not": { "flag": "uitgesloten" } }] },
+   "refs": [{ "label": "Art. 18 — Classificatie", "href": "/artikel/18" }],
+   "questions": [
+    {
+     "id": "e11.1",
+     "text": "Classificeert de entiteit incidenten volgens de criteria van artikel 18, lid 1 (getroffen cliënten/tegenpartijen, duur, geografische spreiding, dataverlies, kritieke diensten, economische impact)?",
+     "refs": [{ "label": "Art. 18, lid 1", "href": "/artikel/18#lid-1" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    },
+    {
+     "id": "e11.2",
+     "text": "Is de drempelbepaling voor 'ernstige' incidenten (RTS-criteria) geoperationaliseerd in het incidentproces?",
+     "help": "De classificatiedrempels staan in de RTS incidentclassificatie (Gedelegeerde Verordening (EU) 2024/1772 — niet in dit corpus opgenomen).",
+     "refs": [{ "label": "Art. 18, lid 4", "href": "/artikel/18#lid-4" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    }
+   ]
+  },
+  {
+   "id": "m12",
+   "nr": 12,
+   "title": "Melding en rapportage van incidenten (art. 19–23)",
+   "showIf": { "all": [{ "flag": "in_scope" }, { "not": { "flag": "uitgesloten" } }] },
+   "refs": [{ "label": "Art. 19 — Rapportage", "href": "/artikel/19" }],
+   "questions": [
+    {
+     "id": "e12.1",
+     "text": "Is het meldproces voor ernstige incidenten ingericht (eerste kennisgeving, tussentijds verslag, eindverslag, binnen de RTS-termijnen) richting de bevoegde autoriteit?",
+     "refs": [{ "label": "Art. 19, lid 4", "href": "/artikel/19#lid-4" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    },
+    {
+     "id": "e12.2",
+     "text": "Is bepaald hoe cliënten worden geïnformeerd bij ernstige incidenten met impact op hun financiële belangen, en bij significante cyberdreigingen waar relevant?",
+     "refs": [{ "label": "Art. 19, lid 3", "href": "/artikel/19#lid-3" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    },
+    {
+     "id": "e12.3",
+     "text": "Is besloten of significante cyberdreigingen vrijwillig worden gemeld en is dat proces belegd?",
+     "refs": [{ "label": "Art. 19, lid 2", "href": "/artikel/19#lid-2" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    }
+   ]
+  },
+  {
+   "id": "m13",
+   "nr": 13,
+   "title": "Testen van digitale operationele weerbaarheid (art. 24–25)",
+   "showIf": { "all": [{ "flag": "in_scope" }, { "not": { "flag": "uitgesloten" } }] },
+   "refs": [
+    { "label": "Art. 24 — Testprogramma", "href": "/artikel/24" },
+    { "label": "Art. 25 — Testen van ICT-instrumenten en -systemen", "href": "/artikel/25" }
+   ],
+   "questions": [
+    {
+     "id": "e13.1",
+     "text": "Is er een risicogebaseerd testprogramma voor digitale operationele weerbaarheid als integrerend onderdeel van het ICT-risicobeheerkader?",
+     "help": "Micro-ondernemingen mogen het testprogramma combineren met een risicogebaseerde, proportionele aanpak (art. 24, lid 5).",
+     "refs": [{ "label": "Art. 24, lid 1", "href": "/artikel/24#lid-1" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    },
+    {
+     "id": "e13.2",
+     "text": "Worden alle ICT-systemen en -toepassingen die kritieke of belangrijke functies ondersteunen ten minste jaarlijks getest?",
+     "refs": [{ "label": "Art. 24, lid 6", "href": "/artikel/24#lid-6" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    },
+    {
+     "id": "e13.3",
+     "text": "Omvat het programma passende tests zoals kwetsbaarheidsscans, netwerkbeveiligingsbeoordelingen, scenario- en penetratietests?",
+     "refs": [{ "label": "Art. 25, lid 1", "href": "/artikel/25#lid-1" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    }
+   ]
+  },
+  {
+   "id": "m14",
+   "nr": 14,
+   "title": "Dreigingsgestuurde penetratietests — TLPT (art. 26–27)",
+   "showIf": { "all": [{ "flag": "in_scope" }, { "not": { "flag": "uitgesloten" } }] },
+   "refs": [
+    { "label": "Art. 26 — TLPT", "href": "/artikel/26" },
+    { "label": "Art. 27 — Testers", "href": "/artikel/27" }
+   ],
+   "questions": [
+    {
+     "id": "e14.1",
+     "text": "Is de entiteit door de bevoegde autoriteit aangewezen om TLPT uit te voeren?",
+     "help": "TLPT geldt alleen voor entiteiten die daarvoor op grond van art. 26, lid 8, derde alinea, zijn geïdentificeerd (impact, systeemrelevantie, ICT-risicoprofiel). Micro-ondernemingen zijn uitgezonderd.",
+     "refs": [{ "label": "Art. 26, lid 8", "href": "/artikel/26#lid-8" }],
+     "answerType": "janee",
+     "effects": [{ "when": "ja", "setFlag": "tlpt_aangewezen" }]
+    },
+    {
+     "id": "e14.2",
+     "text": "Wordt ten minste om de drie jaar een TLPT uitgevoerd op live productiesystemen die kritieke of belangrijke functies ondersteunen?",
+     "refs": [{ "label": "Art. 26, lid 1", "href": "/artikel/26#lid-1" }, { "label": "Art. 26, lid 2", "href": "/artikel/26#lid-2" }],
+     "answerType": "janeenvt",
+     "showIf": { "flag": "tlpt_aangewezen" },
+     "obligation": true
+    },
+    {
+     "id": "e14.3",
+     "text": "Zijn derde ICT-aanbieders wier diensten binnen de TLPT-scope vallen contractueel verplicht mee te werken (deelname of pooled testing)?",
+     "refs": [{ "label": "Art. 26, lid 3", "href": "/artikel/26#lid-3" }, { "label": "Art. 30, lid 3", "href": "/artikel/30#lid-3" }],
+     "answerType": "janeenvt",
+     "showIf": { "flag": "tlpt_aangewezen" },
+     "obligation": true
+    }
+   ]
+  },
+  {
+   "id": "m15",
+   "nr": 15,
+   "title": "TPRM-strategie en concentratierisico (art. 28, lid 1–2; art. 29)",
+   "showIf": { "all": [{ "flag": "in_scope" }, { "not": { "flag": "uitgesloten" } }] },
+   "refs": [
+    { "label": "Art. 28 — Algemene beginselen", "href": "/artikel/28" },
+    { "label": "Art. 29 — Concentratierisico", "href": "/artikel/29" }
+   ],
+   "questions": [
+    {
+     "id": "e15.1",
+     "text": "Beheert de entiteit het ICT-risico van derde aanbieders als integrerend onderdeel van het ICT-risicobeheerkader, met een strategie en (voor kritieke of belangrijke functies) een beleid?",
+     "refs": [{ "label": "Art. 28, lid 1", "href": "/artikel/28#lid-1" }, { "label": "Art. 28, lid 2", "href": "/artikel/28#lid-2" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    },
+    {
+     "id": "e15.2",
+     "text": "Maakt de entiteit gebruik van ICT-diensten die kritieke of belangrijke functies ondersteunen?",
+     "help": "Zo ja: gebruik óók het leveranciersassessment per contractuele overeenkomst; daar worden de aanvullende verplichtingen (art. 30, lid 3; RTS 2025/532) en de registerketen uitgewerkt.",
+     "refs": [{ "label": "Art. 3 — Definities (punt 22)", "href": "/artikel/3" }],
+     "answerType": "janee",
+     "effects": [{ "when": "ja", "setFlag": "cif_uitbesteed" }]
+    },
+    {
+     "id": "e15.3",
+     "text": "Wordt het ICT-concentratierisico beoordeeld (vervangbaarheid, meerdere kritieke contracten bij dezelfde of nauw verbonden aanbieders, keteneffecten)?",
+     "refs": [{ "label": "Art. 29, lid 1", "href": "/artikel/29#lid-1" }, { "label": "Art. 29, lid 2", "href": "/artikel/29#lid-2" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    }
+   ]
+  },
+  {
+   "id": "m16",
+   "nr": 16,
+   "title": "Informatieregister (art. 28, lid 3; ITS 2024/2956)",
+   "showIf": { "all": [{ "flag": "in_scope" }, { "not": { "flag": "uitgesloten" } }] },
+   "refs": [
+    { "label": "Art. 28, lid 3", "href": "/artikel/28#lid-3" },
+    { "label": "ITS — modellen (art. 3)", "href": "/its/artikel/3" },
+    { "label": "ITS — gegevensformaat (art. 4)", "href": "/its/artikel/4" }
+   ],
+   "questions": [
+    {
+     "id": "e16.1",
+     "text": "Houdt de entiteit een informatieregister bij van álle contractuele overeenkomsten over ICT-diensten (op entiteits- en waar van toepassing gesubconsolideerd/geconsolideerd niveau), met onderscheid naar kritieke of belangrijke functies?",
+     "help": "Overtreding van art. 28 valt in Nederland in boetecategorie 3 (basisbedrag € 2 mln, max € 4 mln) — het register is een hoofdnorm, geen bijzaak.",
+     "refs": [{ "label": "Art. 28, lid 3", "href": "/artikel/28#lid-3" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    },
+    {
+     "id": "e16.2",
+     "text": "Gebruikt de entiteit de ITS-modellen (B_01.01 t/m B_99.01) met de voorgeschreven codes (LEI/EUID, S01–S19, ISO-landcodes/valuta)?",
+     "refs": [{ "label": "ITS art. 3", "href": "/its/artikel/3" }, { "label": "ITS bijlage III (S-codes)", "href": "/its/bijlage/iii" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    },
+    {
+     "id": "e16.3",
+     "text": "Worden voor diensten die kritieke of belangrijke functies ondersteunen ook de onderaannemers geregistreerd die die diensten daadwerkelijk ondersteunen (ranking per ITS art. 2)?",
+     "refs": [{ "label": "ITS art. 2 — Ranking", "href": "/its/artikel/2" }, { "label": "ITS art. 3, lid 2", "href": "/its/artikel/3#lid-2" }],
+     "answerType": "janeenvt",
+     "showIf": { "flag": "cif_uitbesteed" },
+     "obligation": true
+    },
+    {
+     "id": "e16.4",
+     "text": "Is het proces voor de jaarlijkse rapportage aan de toezichthouder ingericht (referentiedatum 31 december; AFM-cyclus 2026: uiterlijk 22 maart, xBRL-CSV) en wordt de toezichthouder tijdig geïnformeerd over voorgenomen contracten voor kritieke of belangrijke functies?",
+     "refs": [{ "label": "Art. 28, lid 3", "href": "/artikel/28#lid-3" }, { "label": "ITS art. 4", "href": "/its/artikel/4" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    }
+   ]
+  },
+  {
+   "id": "m17",
+   "nr": 17,
+   "title": "Contract- en exitbeheersing (art. 28, lid 4–8; art. 30)",
+   "showIf": { "all": [{ "flag": "in_scope" }, { "not": { "flag": "uitgesloten" } }] },
+   "refs": [
+    { "label": "Art. 28, leden 4–8", "href": "/artikel/28#lid-4" },
+    { "label": "Art. 30 — Contractuele bepalingen", "href": "/artikel/30" }
+   ],
+   "questions": [
+    {
+     "id": "e17.1",
+     "text": "Vindt vóór het aangaan van een ICT-contract due diligence plaats (beoordeling of een kritieke of belangrijke functie wordt ondersteund, risico's, concentratie)?",
+     "refs": [{ "label": "Art. 28, lid 4", "href": "/artikel/28#lid-4" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    },
+    {
+     "id": "e17.2",
+     "text": "Bevatten alle ICT-contracten ten minste de elementen van artikel 30, lid 2 (beschrijving diensten, locaties, databescherming, toegang bij insolventie, dienstverleningsniveaus, incidentenbijstand, opzegrechten)?",
+     "refs": [{ "label": "Art. 30, lid 2", "href": "/artikel/30#lid-2" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    },
+    {
+     "id": "e17.3",
+     "text": "Zijn er gedocumenteerde exitstrategieën en -plannen voor diensten die kritieke of belangrijke functies ondersteunen, en beëindigingsrechten conform artikel 28, lid 7?",
+     "refs": [{ "label": "Art. 28, lid 8", "href": "/artikel/28#lid-8" }, { "label": "Art. 28, lid 7", "href": "/artikel/28#lid-7" }],
+     "answerType": "janeenvt",
+     "showIf": { "flag": "cif_uitbesteed" },
+     "obligation": true
+    }
+   ]
+  },
+  {
+   "id": "m18",
+   "nr": 18,
+   "title": "Oversight kritieke aanbieders en informatie-uitwisseling (art. 31 e.v.; art. 45)",
+   "showIf": { "all": [{ "flag": "in_scope" }, { "not": { "flag": "uitgesloten" } }] },
+   "refs": [
+    { "label": "Art. 31 — Aanwijzing CTPP's", "href": "/artikel/31" },
+    { "label": "Art. 45 — Informatie-uitwisseling", "href": "/artikel/45" }
+   ],
+   "questions": [
+    {
+     "id": "e18.1",
+     "text": "Maakt de entiteit gebruik van aanbieders die als kritieke derde aanbieder (CTPP) zijn aangewezen (o.a. AWS, Google Cloud, Microsoft, Oracle, SAP — eerste aanwijzing 18 november 2025)?",
+     "help": "De aanwijzing verlegt geen verplichtingen van de entiteit, maar het Oversight Forum kan aanbevelingen doen die doorwerken in de contractketen; volg de opvolging door de aanbieder.",
+     "refs": [{ "label": "Art. 31", "href": "/artikel/31" }],
+     "answerType": "janee",
+     "effects": [{ "when": "ja", "setFlag": "ctpp_gebruik" }]
+    },
+    {
+     "id": "e18.2",
+     "text": "Monitort de entiteit de oversight-bevindingen en aanbevelingen voor haar CTPP's en weegt zij die mee in het eigen derdenrisicobeheer?",
+     "refs": [{ "label": "Art. 42, lid 8 (opvolging)", "href": "/artikel/42#lid-8" }],
+     "answerType": "janeenvt",
+     "showIf": { "flag": "ctpp_gebruik" },
+     "obligation": true
+    },
+    {
+     "id": "e18.3",
+     "text": "Is besloten of de entiteit deelneemt aan regelingen voor het delen van cyberdreigingsinformatie en is deelname (of het afzien daarvan) vastgelegd?",
+     "refs": [{ "label": "Art. 45", "href": "/artikel/45" }],
+     "answerType": "janeenvt",
+     "obligation": true
+    }
+   ]
+  }
+ ]
+}

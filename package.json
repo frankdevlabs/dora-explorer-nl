@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "parse": "tsx scripts/parse-corpus.ts",
-    "verify": "tsx scripts/verify-data.ts && tsx scripts/verify-search.ts",
+    "verify": "tsx scripts/verify-data.ts && tsx scripts/verify-assessment.ts && tsx scripts/verify-search.ts",
     "verify:assessment": "tsx scripts/verify-assessment.ts",
     "verify:search": "tsx scripts/verify-search.ts"
   },

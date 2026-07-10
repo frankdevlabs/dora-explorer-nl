@@ -1,12 +1,13 @@
 /**
- * AI Act assessment (epic 7) — data model for the curated questionnaire in
- * data/questionnaire/assessment-v1.json. The questionnaire is editorial
- * content (like the recital map): it paraphrases obligations and deep-links
- * into the legal corpus, but never replaces it. Verified by
+ * DORA assessments (epics 5-6) — data model for the two curated
+ * questionnaires in data/questionnaire/: entity-v1.json (whole financial
+ * entity) and supplier-v1.json (one ICT contractual arrangement). The
+ * questionnaires are editorial content: they paraphrase obligations and
+ * deep-link into the legal corpus, but never replace it. Verified by
  * scripts/verify-assessment.ts (ref integrity + routing sanity + fixtures).
  */
 
-/** Deep link into the corpus, e.g. { label: "Art. 6, lid 3", href: "/artikel/6#lid-3" }. */
+/** Deep link into the corpus, e.g. { label: "Art. 28, lid 3", href: "/artikel/28#lid-3" }. */
 export interface QRef {
   label: string;
   href: string;
@@ -19,7 +20,7 @@ export type HelpContent = string | HelpBlock[];
 
 /**
  * Visibility/derivation condition. `flag` tests a derived flag (set by
- * QEffect or by the engine); `answer` tests a raw answer value.
+ * QEffect or by the outcome adapter); `answer` tests a raw answer value.
  */
 export interface QCondition {
   all?: QCondition[];
@@ -39,8 +40,7 @@ export type AnswerType = "janee" | "janeenvt" | "choice" | "text";
 
 export interface Question {
   /**
-   * Stable id ("5.1", "11.20"). The numeric prefix is historical (source
-   * workbook numbering) and need not match the displayed module number.
+   * Stable id, prefixed per questionnaire ("e1.1" entity, "s1.1" supplier).
    * Ids of stored answers persist in users' localStorage: never reuse a
    * retired id with different semantics (see RETIRED_IDS in the verify
    * script).
@@ -56,54 +56,39 @@ export interface Question {
   showIf?: QCondition;
   /** Compliance-checklist question: "nee" becomes an open action. */
   obligation?: boolean;
-  /** Art. 5 question: "ja" marks the practice as prohibited (STOP). */
-  prohibition?: boolean;
-  /** Register column fed directly by this answer. */
-  register?: string;
+  /**
+   * RoI mapping key (supplier questionnaire): the ITS template column this
+   * answer feeds, e.g. "B_02.01.0020". Consumed by src/lib/roi/mapping.ts.
+   */
+  roi?: string;
 }
 
 export interface Module {
-  /** "m1".."m18" */
+  /** Stable id ("m1".."m18"); nr is the display number. */
   id: string;
   nr: number;
   title: string;
   intro?: HelpContent;
   refs?: QRef[];
   showIf?: QCondition;
-  /** Only relevant for financial entities (DORA/Wft toggle). */
-  financeOnly?: boolean;
   questions: Question[];
-}
-
-/** Register column: value comes from a question ("q:1.1") or a derived key ("d:risicoklasse"). */
-export interface RegisterColumn {
-  id: string;
-  label: string;
-  source: string;
-  financeOnly?: boolean;
 }
 
 export interface Questionnaire {
   meta: {
     version: number;
+    /** "entity" | "supplier" — which outcome adapter interprets it. */
+    kind: string;
     title: string;
     updated: string;
     basis: string;
     disclaimer: string;
   };
   modules: Module[];
-  registerColumns: RegisterColumn[];
 }
 
 // ---------------------------------------------------------------------------
-// Engine output
-
-export type RiskClass =
-  | "geen-ai"
-  | "verboden"
-  | "hoogrisico"
-  | "transparantierisico"
-  | "minimaal";
+// Engine output (shared shapes; adapters add their own outcome types)
 
 export interface ObligationStatus {
   questionId: string;
@@ -114,42 +99,59 @@ export interface ObligationStatus {
 }
 
 export interface TimelineEntry {
-  date: string; // ISO or "van kracht"
+  date: string; // ISO
   label: string;
 }
 
-export interface Evaluation {
+/** Entity assessment: which DORA regime applies. */
+export type EntityRegime = "buiten-scope" | "volledig" | "vereenvoudigd" | "micro";
+
+export interface EntityEvaluation {
   answered: number;
   total: number;
-  kwalificatie: string;
-  rollen: string[];
-  riskClass: RiskClass;
-  /** Art. 5 hits (question ids). */
-  stops: string[];
-  annex3Categorieen: string[];
-  annex1: boolean;
-  escape: { ingeroepen: boolean; mogelijk: boolean; geblokkeerdDoorProfilering: boolean };
-  friaVereist: boolean;
-  transparantieLeden: string[];
+  inScope: boolean;
+  entityTypeLabel: string;
+  regime: EntityRegime;
+  regimeLabel: string;
+  /** Obligations grouped per visible module, in questionnaire order. */
   obligations: ObligationStatus[];
   openActions: ObligationStatus[];
   timeline: TimelineEntry[];
-  registerRow: Record<string, string>;
+  flags: Set<string>;
+}
+
+/** Supplier assessment: obligations split baseline vs CIF (epic 6). */
+export interface SupplierEvaluation {
+  answered: number;
+  total: number;
+  /** The arrangement concerns an ICT service (art. 3, punt 21). */
+  ictDienst: boolean;
+  /** The service supports a critical or important function (art. 3, punt 22). */
+  cifDienst: boolean;
+  intraGroep: boolean;
+  /** Baseline obligations (all ICT arrangements). */
+  baseline: ObligationStatus[];
+  /** Additional obligations for CIF-supporting services. */
+  cifExtra: ObligationStatus[];
+  openActions: ObligationStatus[];
+  timeline: TimelineEntry[];
+  flags: Set<string>;
 }
 
 // ---------------------------------------------------------------------------
-// Stored state (localStorage)
+// Stored state (localStorage) — entity assessments; supplier answers live on
+// the arrangement records in the RoI store (epic 7)
 
-export interface StoredSystem {
+export interface StoredEntity {
   id: string;
-  /** Display name; falls back to answer 1.1. */
+  /** Display name; falls back to answer e1.1. */
   name: string;
   answers: Record<string, string>;
   createdAt: number;
   updatedAt: number;
 }
 
-export interface AssessmentState {
+export interface EntityAssessmentState {
   v: 1;
-  systems: StoredSystem[];
+  entities: StoredEntity[];
 }
