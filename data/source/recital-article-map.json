@@ -961,622 +961,1085 @@
  },
  "criticaliteit": {
   "1": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "1",
+    "dora:31"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de twee-stapsbenadering (kwantitatieve stap 1, kwalitatieve stap 2) die artikel 1 vastlegt voor de toetsing van de criteria van artikel 31, lid 2, DORA."
   },
   "2": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "1",
+    "4"
+   ],
+   "reviewed": false,
+   "note": "Verklaart waarom het kritieke karakter van functies geen aparte stap 1-toets krijgt maar in stap 2 wordt beoordeeld — de afwijking in artikel 1 en het enkele stap 2-subcriterium van artikel 4."
   },
   "3": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "1",
+    "dora:31"
+   ],
+   "reviewed": false,
+   "note": "Licht de reikwijdte van de beoordeling toe: per aanbieder of groep conform artikel 31, lid 3, DORA, met inbegrip van ICT-onderaannemers in de aanwijzingsbeoordeling van artikel 1."
   },
   "4": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "2"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de subcriteria voor systemische effecten (aantal entiteiten, activawaarde, intensiteit van impact) die artikel 2 uitwerkt."
   },
   "5": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "3"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de subcriteria rond MSI's/ASI's, systeemrelevante entiteiten en verwevenheid die artikel 3 uitwerkt."
   },
   "6": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "4"
+   ],
+   "reviewed": false,
+   "note": "Licht de beoordeling van type en kritieke aard van ICT-diensten toe die artikel 4 als stap 2-subcriterium vastlegt."
   },
   "7": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "5"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de substitueerbaarheidsfactoren (alternatieve aanbieders, migratiekosten) die artikel 5 uitwerkt."
   },
   "8": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "6",
+    "dora:28"
+   ],
+   "reviewed": false,
+   "note": "Motiveert het gebruik van de informatieregisters van artikel 28, lid 3, DORA en andere bronnen, geregeld in artikel 6."
   }
  },
  "vergoedingen": {
   "1": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "1",
+    "dora:43"
+   ],
+   "reviewed": false,
+   "note": "Motiveert dat de jaarlijkse vergoeding de volledige oversightkosten (incl. gedelegeerde taken) dekt — de kostenraming van artikel 1 op grond van artikel 43 DORA."
   },
   "2": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "1",
+    "3"
+   ],
+   "reviewed": false,
+   "note": "Jaarperiodiciteit en volledige kostendekking: berekening op basis van geraamde directe/indirecte kosten (artikel 1) met jaarlijkse aanpassing in de berekening (artikel 3)."
   },
   "3": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "2",
+    "3"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de omzetgebaseerde verdeling: toepasselijke omzet (artikel 2) als grondslag voor de omzetcoëfficiënt in de berekening (artikel 3)."
   },
   "4": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "2"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de gecontroleerde omzetcijfers en de terugval op wereldwijde inkomsten bij ontbrekende gegevens, geregeld in artikel 2."
   },
   "5": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "3"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de minimale jaarlijkse vergoeding van artikel 3, lid 3, wegens vaste administratieve kosten."
   },
   "6": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "4"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de vaste, pro rata aangepaste vergoeding in het eerste jaar van aanwijzing, geregeld in artikel 4, leden 1 en 2."
   },
   "7": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "4",
+    "dora:31"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de niet-terugbetaalbare opt-in-vergoeding van artikel 4, lid 3, bij vrijwillige verzoeken op grond van artikel 31, lid 11, DORA."
   },
   "8": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "5"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de betalingstermijnen en betaling in één keer, geregeld in artikel 5."
   },
   "9": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "1"
+   ],
+   "reviewed": false,
+   "note": "Motiveert dat het vergoedingsniveau tekorten en overschotten vermijdt — gekoppeld aan de jaarlijkse kostenraming als grondslag in artikel 1."
   }
  },
  "onderzoeksteams": {
   "1": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "dora:40"
+   ],
+   "reviewed": false,
+   "note": "Inleidende context: het oversightkader steunt op samenwerking via de gezamenlijke onderzoeksteams van artikel 40 DORA, die deze verordening uitwerkt."
   },
   "2": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "2"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de eis van technische deskundigheid bij voordracht en de ontheffing bij aangetoond gebrek daaraan, geregeld in artikel 2 (leden 3, 5 en 6)."
   },
   "3": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "2",
+    "5"
+   ],
+   "reviewed": false,
+   "note": "Verklaart dat teamleden werknemer van de aanwijzende autoriteit blijven — achtergrond bij de benoeming (artikel 2, lid 4) en de werkafspraken (artikel 5)."
   },
   "4": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "2",
+    "3"
+   ],
+   "reviewed": false,
+   "note": "Motiveert deelname aan meerdere teams (artikel 2, lid 3) en de personeelsbepaling op basis van risicoprofiel, oversightplannen en raadpleging van netwerk en forum (artikel 3)."
   },
   "5": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "3"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de criteria en beginselen voor aantal en samenstelling van elk team, uitgewerkt in artikel 3."
   },
   "6": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "4"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de periodieke prestatiebeoordeling en de daaruit volgende wijziging van de samenstelling, geregeld in artikel 4."
   },
   "7": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "5"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de door de ETA's gespecificeerde oversightprocedures die teamleden volgen (artikel 5, lid 2)."
   },
   "8": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "5"
+   ],
+   "reviewed": false,
+   "note": "Motiveert need-to-know-toegang tot informatie, de kostenvergoedingsregelingen (in lijn met GV 2024/1505) en het vrijwaren van belangenconflicten in de regelingen van artikel 5, leden 3-5."
   },
   "9": {
    "articles": [],
-   "reviewed": false
+   "reviewed": false,
+   "note": "Procedurele overweging: de verordening berust op door de ETA's ingediende ontwerpnormen."
   },
   "10": {
    "articles": [],
-   "reviewed": false
+   "reviewed": false,
+   "note": "Procedurele overweging over de openbare raadpleging en stakeholdergroepen van het Gemengd Comité."
   }
  },
  "classificatie": {
   "1": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "reviewed": false,
+   "note": "Algemene doelstelling: eenvoudige, geharmoniseerde criteria en drempels voor het bepalen van ernstige incidenten en significante cyberdreigingen voor alle soorten financiële entiteiten."
   },
   "2": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "9"
+   ],
+   "reviewed": false,
+   "note": "Proportionaliteit van de drempels en de absolute cliëntendrempel (meer dan 100 000, gericht op grotere entiteiten) zijn uitgewerkt in de materialiteitsdrempels van artikel 9."
   },
   "3": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "9"
+   ],
+   "reviewed": false,
+   "note": "Continuïteit met bestaande meldkaders (EBA-richtsnoeren PSD2, ECB/GTM) motiveert de kalibratie van de criteria en vooral de materialiteitsdrempels van artikel 9."
   },
   "4": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "1"
+   ],
+   "reviewed": false,
+   "note": "Licht de ruime invulling van het begrip transacties toe voor het criterium hoeveelheid en aantal getroffen transacties, gespecificeerd in artikel 1."
   },
   "5": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "5",
+    "6"
+   ],
+   "reviewed": false,
+   "note": "Motiveert dat de criteria gegevensverliezen (artikel 5) en getroffen kritieke diensten (artikel 6) zo zijn gespecificeerd dat cyberaanvallen en ongeoorloofde inbreuken worden gevat."
   },
   "6": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "7"
+   ],
+   "reviewed": false,
+   "note": "Consistentie met het operationeelrisicokader van GV (EU) 2018/959 motiveert de kosten- en verliesbenadering bij de economische effecten van artikel 7."
   },
   "7": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "4"
+   ],
+   "reviewed": false,
+   "note": "Verklaart waarom het criterium geografische spreiding (artikel 4) zich richt op grensoverschrijdende gevolgen in andere lidstaten."
   },
   "8": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "8"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de combinatiebenadering van criteria met zwaarder gewicht voor bepaalde criteria, uitgewerkt in de classificatieregel van artikel 8."
   },
   "9": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "9"
+   ],
+   "reviewed": false,
+   "note": "Licht toe waarop de materialiteitsdrempels (kritieke diensten, absolute en relatieve cliënt-/transactiedrempels, impact in andere lidstaten) van artikel 9 zich richten."
   },
   "10": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "6",
+    "8",
+    "9"
+   ],
+   "reviewed": false,
+   "note": "Kwaadwillige ongeoorloofde toegang telt als getroffen kritieke dienst (artikel 6) en leidt via artikel 8, lid 1, en de drempel van artikel 9, lid 5, punt b), altijd tot een ernstig incident."
   },
   "11": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "8"
+   ],
+   "reviewed": false,
+   "note": "Motiveert dat terugkerende incidenten met eenzelfde onderliggende oorzaak collectief als één ernstig incident gelden, geregeld in artikel 8, lid 2."
   },
   "12": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "10"
+   ],
+   "reviewed": false,
+   "note": "Verklaart de benadering voor significante cyberdreigingen op basis van waarschijnlijkheid en potentiële impact, uitgewerkt in artikel 10."
   },
   "13": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "11"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de beoordeling van relevantie voor bevoegde autoriteiten in andere lidstaten (oorzaak, besmetting, getroffen groepen), uitgewerkt in artikel 11."
   },
   "14": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "12"
+   ],
+   "reviewed": false,
+   "note": "Motiveert dat de op grond van artikel 19, leden 6 en 7, DORA gedeelde informatie alle details uit de incidentverslagen omvat, geregeld in artikel 12."
   },
   "15": {
    "articles": [],
-   "reviewed": false
+   "reviewed": false,
+   "note": "Contextuele verhouding tot de AVG en de e-privacyrichtlijn (meldplichten datalekken en samenwerking met privacyautoriteiten); geen specifiek artikel in deze verordening."
   },
   "16": {
    "articles": [],
-   "reviewed": false
+   "reviewed": false,
+   "note": "Procedurele overweging: verordening gebaseerd op door de ESA's ingediende ontwerpen van technische reguleringsnormen."
   },
   "17": {
    "articles": [],
-   "reviewed": false
+   "reviewed": false,
+   "note": "Procedurele overweging: openbare consultaties en kosten-batenanalyse door het Gemengd Comité en raadpleging van de stakeholdergroepen."
   },
   "18": {
    "articles": [],
-   "reviewed": false
+   "reviewed": false,
+   "note": "Procedurele overweging: raadpleging van de Europese Toezichthouder voor gegevensbescherming."
   }
  },
  "contractbeleid": {
   "1": {
    "articles": [],
-   "reviewed": false
+   "reviewed": false,
+   "note": "Contextuele inleiding over het DORA-kader voor ICT-risico van derden; motiveert geen specifiek artikel van deze verordening."
   },
   "2": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "2",
+    "dora:28"
+   ],
+   "reviewed": false,
+   "note": "Herneemt het mandaat van artikel 28, lid 2, DORA voor het beleid en de toepassing op individuele, gesubconsolideerde en geconsolideerde basis (artikel 2)."
   },
   "3": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "1"
+   ],
+   "reviewed": false,
+   "note": "Motiveert dat het beleid rekening houdt met de diversiteit in omvang, risicoprofiel en complexiteit van financiële entiteiten (evenredigheid)."
   },
   "4": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "2"
+   ],
+   "reviewed": false,
+   "note": "Verklaart de verantwoordelijkheid van de moederonderneming voor consistente toepassing van het beleid binnen de groep."
   },
   "5": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "1",
+    "6",
+    "7"
+   ],
+   "reviewed": false,
+   "note": "Verklaart dat intragroepsaanbieders als derde aanbieders gelden en dat het beleid ook subcontractanten in de keten bestrijkt (groepslidmaatschap als element, zorgvuldigheid en belangenconflicten bij intragroepsdiensten)."
   },
   "6": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "3"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de eindverantwoordelijkheid van het leidinggevend orgaan en de ten minste jaarlijkse vaststelling en evaluatie van het beleid."
   },
   "7": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "3"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de duidelijke toewijzing van interne verantwoordelijkheden voor goedkeuring, beheer, controle en documentatie van contractuele overeenkomsten en de rapportage aan het leidinggevend orgaan."
   },
   "8": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "4"
+   ],
+   "reviewed": false,
+   "note": "Verklaart dat de structuur van het beleid alle hoofdfasen van de levenscyclus van contractuele overeenkomsten moet volgen."
   },
   "9": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "4",
+    "5",
+    "6"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de planningsfase met risicobeoordeling vooraf, het zorgvuldigheidsproces voor selectie en beoordeling van aanbieders en de niet-uitputtende lijst van beoordelingselementen."
   },
   "10": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de schriftelijke contractuele bepalingen met inspectie- en toegangsrechten, het doorlopende toezicht op de overeenkomsten en de exitstrategieën en beëindigingsprocessen."
   },
   "11": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "8"
+   ],
+   "reviewed": false,
+   "note": "Verklaart dat het beleid en de contractuele overeenkomsten de AVG-verplichtingen aanvullen; sluit aan op de contractuele bepalingen die ook andere relevante Uniewetgeving moeten bestrijken."
   },
   "12": {
    "articles": [],
-   "reviewed": false
+   "reviewed": false,
+   "note": "Procedurele overweging over de openbare raadpleging en kosten-batenanalyse door het Gemengd Comité van de ETA's."
   },
   "13": {
    "articles": [],
-   "reviewed": false
+   "reviewed": false,
+   "note": "Procedurele overweging over de raadpleging van de EDPS."
   }
  },
  "rapportage": {
   "1": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "5"
+   ],
+   "reviewed": false,
+   "note": "Motiveert consistente rapportagetermijnen voor alle soorten financiële entiteiten, afgestemd op NIS2, uitgewerkt in artikel 5."
   },
   "2": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "2",
+    "5"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de beperkte inhoud van de eerste kennisgeving (artikel 2) en een zo kort mogelijke maar flexibele indieningstermijn (artikel 5)."
   },
   "3": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "3",
+    "4"
+   ],
+   "reviewed": false,
+   "note": "Motiveert dat het tussentijdse verslag nadere informatie (artikel 3) en het eindverslag alle relevante informatie (artikel 4) bevat voor de toezichtbeoordeling."
   },
   "4": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "5"
+   ],
+   "reviewed": false,
+   "note": "Motiveert het evenwicht in de rapportagetermijnen tussen snelle informatievoorziening en voldoende tijd voor volledige informatie, uitgewerkt in artikel 5."
   },
   "5": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "5"
+   ],
+   "reviewed": false,
+   "note": "Motiveert dat de termijnen geen onevenredige last vormen voor micro-ondernemingen en dat rekening wordt gehouden met weekeinden en feestdagen (artikel 5, leden 4 tot en met 6)."
   },
   "6": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "6"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de beperktere inhoud van de vrijwillige kennisgeving van significante cyberdreigingen, uitgewerkt in artikel 6."
   },
   "7": {
    "articles": [],
-   "reviewed": false
+   "reviewed": false,
+   "note": "Procedurele overweging: verordening gebaseerd op door de ESA's ingediende ontwerpen van technische reguleringsnormen."
   },
   "8": {
    "articles": [],
-   "reviewed": false
+   "reviewed": false,
+   "note": "Procedurele overweging: openbare raadplegingen, kosten-batenanalyse en raadpleging van de stakeholdergroepen."
   },
   "9": {
    "articles": [],
-   "reviewed": false
+   "reviewed": false,
+   "note": "Procedurele overweging: raadpleging van de EDPS en algemene verwijzing naar gegevensbeschermingsbeginselen; geen specifiek artikel."
   }
  },
  "risicobeheer": {
   "1": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "1"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de evenredigheid van de vereisten naar omvang, structuur en complexiteit, uitgewerkt in artikel 1 (algemeen risicoprofiel en complexiteit)."
   },
   "2": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "2"
+   ],
+   "reviewed": false,
+   "note": "Licht de flexibiliteit toe (hergebruik bestaande documentatie, alleen essentiële elementen verplicht) die artikel 2 als algemene elementen van ICT-beveiligingsbeleidslijnen en -procedures vastlegt."
   },
   "3": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "2"
+   ],
+   "reviewed": false,
+   "note": "Toewijzing van rollen en verantwoordelijkheden voor ICT-beveiliging en consequenties van niet-naleving zijn onderdelen van artikel 2, lid 2."
   },
   "4": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "2"
+   ],
+   "reviewed": false,
+   "note": "De functiescheiding bij het toewijzen van ICT-rollen ter beperking van belangenconflicten is vastgelegd in artikel 2."
   },
   "5": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "2"
+   ],
+   "reviewed": false,
+   "note": "Verklaart waarom geen aparte bepalingen over niet-nalevingsconsequenties nodig zijn als die al elders zijn vastgelegd — een versoepeling binnen artikel 2."
   },
   "6": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "2"
+   ],
+   "reviewed": false,
+   "note": "Het ontwikkelen van ICT-beveiligingsbeleidslijnen op basis van maatgevende praktijken en normen (Verordening 1025/2012) hoort bij de algemene elementen van artikel 2."
   },
   "7": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "4",
+    "8",
+    "9"
+   ],
+   "reviewed": false,
+   "note": "Motiveert het beleid voor beheer van ICT-assets (art. 4), de beleidslijnen en procedures voor ICT-operaties (art. 8) en capaciteits- en performancemanagement (art. 9)."
   },
   "8": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "4"
+   ],
+   "reviewed": false,
+   "note": "Het vastleggen en monitoren van einddata van ondersteuning door derde aanbieders voor (kritieke) ICT-assets is geregeld in artikel 4."
   },
   "9": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "6",
+    "7"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de risicogebaseerde encryptie en cryptografische controles (art. 6) en het beheer van cryptografische sleutels (art. 7)."
   },
   "10": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "8"
+   ],
+   "reviewed": false,
+   "note": "De scheiding tussen ICT-productie- en niet-productieomgevingen en de uitzondering voor testen in productie zijn onderdeel van artikel 8, lid 2."
   },
   "11": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "10"
+   ],
+   "reviewed": false,
+   "note": "Motiveert het proactieve kwetsbaarhedenbeheer, inclusief monitoring met geautomatiseerde tools en de rol van derde aanbieders, uit artikel 10."
   },
   "12": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "10"
+   ],
+   "reviewed": false,
+   "note": "Patchmanagement als essentieel onderdeel van de ICT-beveiligingsprocedures is geregeld in artikel 10."
   },
   "13": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "10"
+   ],
+   "reviewed": false,
+   "note": "Procedures voor responsible disclosure van kwetsbaarheden aan cliënten, tegenpartijen en het publiek staan in artikel 10, lid 2, punt e)."
   },
   "14": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "20",
+    "21"
+   ],
+   "reviewed": false,
+   "note": "Unieke identificatie van personen en systemen is identiteitsbeheer (art. 20); de uitzondering voor generieke of gedeelde accounts met behoud van verantwoordingsplicht valt onder toegangscontrole (art. 21)."
   },
   "15": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "15"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de beleidslijnen en procedures voor ICT-projectmanagement, inclusief risicogebaseerd testen en rapportage aan het leidinggevend orgaan, van artikel 15."
   },
   "16": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "16"
+   ],
+   "reviewed": false,
+   "note": "Evaluatie van softwarepakketten, ICT-beveiligingstesten en broncode-analyse van aangeschafte software vallen onder artikel 16 (aanschaf, ontwikkeling en onderhoud)."
   },
   "17": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "17"
+   ],
+   "reviewed": false,
+   "note": "Motiveert het ICT-wijzigingsbeheer: functiescheiding tussen goedkeuring en implementatie, duidelijke rollen en fall-backprocedures uit artikel 17."
   },
   "18": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "22"
+   ],
+   "reviewed": false,
+   "note": "Het beleid voor ICT-incidentmanagement met relevante contacten en de analyse van significante of terugkerende incidenten is geregeld in artikel 22."
   },
   "19": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "23"
+   ],
+   "reviewed": false,
+   "note": "Het verzamelen, monitoren en analyseren van interne en externe informatiebronnen (logs, meldingen van derde aanbieders) voor vroegtijdige detectie is uitgewerkt in artikel 23."
   },
   "20": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "22"
+   ],
+   "reviewed": false,
+   "note": "Het bewaren van bewijsmateriaal over ICT-incidenten met een evenredige retentietermijn staat in artikel 22, punt d)."
   },
   "21": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "23"
+   ],
+   "reviewed": false,
+   "note": "Licht toe dat de criteria voor het activeren van detectie van en respons op ICT-incidenten in artikel 23 niet exhaustief of cumulatief zijn."
   },
   "22": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "24"
+   ],
+   "reviewed": false,
+   "note": "De onderdelen waarmee het ICT-bedrijfscontinuïteitsbeleid rekening moet houden (incidentbeheersing, wijzigingsbeheer, derde-aanbiedersrisico's) zijn geregeld in artikel 24."
   },
   "23": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "25",
+    "26"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de scenario's voor het testen van ICT-bedrijfscontinuïteitsplannen (art. 25) en de implementatie van ICT-respons- en -herstelplannen (art. 26)."
   },
   "24": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "16",
+    "17",
+    "24",
+    "25"
+   ],
+   "reviewed": false,
+   "note": "REVIEW: drafter mapte [15,17,24] op themanamen; refuter (tekstueel geverifieerd): de op CTP's/CSD's/handelsplatformen voortbouwende bepalingen staan in art. 16 (testen nieuwe ICT-systemen met clearingleden), 17 (stresstests), 24 (2-uurs-RTO) en 25 (BCP-testen met clearingleden) — art. 15 bevat geen entiteitsspecifieke bepaling. Refuter-versie toegepast; graag arbitreren."
   },
   "25": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "27",
+    "dora:6"
+   ],
+   "reviewed": false,
+   "note": "Het elektronisch doorzoekbare formaat van het verslag over de evaluatie van het raamwerk (art. 6, lid 5, DORA) is uitgewerkt in artikel 27."
   },
   "26": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "28",
+    "29"
+   ],
+   "reviewed": false,
+   "note": "Motiveert voor het vereenvoudigde raamwerk het interne governance- en controleraamwerk (art. 28) en het ene beleid voor informatiebeveiliging (art. 29)."
   },
   "27": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "dora:15",
+    "dora:16"
+   ],
+   "reviewed": false,
+   "note": "Verklaart de opzet van deze verordening als één handeling voor beide mandaten: het gewone raamwerk (art. 15 DORA) en het vereenvoudigde raamwerk (art. 16, lid 1, DORA)."
   },
   "28": {
    "articles": [],
-   "reviewed": false
+   "reviewed": false,
+   "note": "Procedurele overweging over de indiening van de ontwerp-RTS door de ESA's in overleg met ENISA; motiveert geen specifiek artikel."
   },
   "29": {
    "articles": [],
-   "reviewed": false
+   "reviewed": false,
+   "note": "Boilerplate over de publieke consultaties en stakeholdergroepen van het Gemengd Comité; motiveert geen specifiek artikel."
   },
   "30": {
    "articles": [],
-   "reviewed": false
+   "reviewed": false,
+   "note": "Gegevensbeschermingsboilerplate (toepasselijkheid AVG en Verordening 2018/1725, raadpleging EDPS); motiveert geen specifiek artikel."
   }
  },
  "oversight": {
   "1": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "dora:31"
+   ],
+   "reviewed": false,
+   "note": "Inleidende context: het Unie-oversightkader geldt voor derde aanbieders die als kritiek zijn aangewezen op grond van artikel 31 DORA."
   },
   "2": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "1"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de gedetailleerde en volledige informatie in het vrijwillige aanwijzingsverzoek en de weigering van onvolledige verzoeken, geregeld in artikel 1."
   },
   "3": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "1"
+   ],
+   "reviewed": false,
+   "note": "Motiveert het gebruik van de identificatiecode uit de op artikel 28, lid 9, DORA gebaseerde uitvoeringsverordening voor de juridische aanduiding, o.a. in artikel 1, lid 1."
   },
   "4": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "3",
+    "dora:35"
+   ],
+   "reviewed": false,
+   "note": "Motiveert dat de lead overseer tussentijdse voortgangs- en eindverslagen kan opvragen (artikel 3, lid 2) op grond van artikel 35, lid 1, punt c, DORA."
   },
   "5": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "3",
+    "dora:42"
+   ],
+   "reviewed": false,
+   "note": "Motiveert het correctieplan als vorm van de motivatie bij het opvolgen van aanbevelingen (artikel 3, lid 1), in het kader van de beoordeling van artikel 42, lid 1, DORA."
   },
   "6": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "5"
+   ],
+   "reviewed": false,
+   "note": "Motiveert het model (bijlage) voor informatie over onderaannemingsovereenkomsten, voorgeschreven door artikel 5."
   },
   "7": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "3",
+    "6"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de monitoring door de lead overseer van de opvolging van aanbevelingen (artikel 3) en de beoordeling en informatie-uitwisseling door bevoegde autoriteiten (artikel 6)."
   },
   "8": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "6"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de evenredige, risicogebaseerde beoordeling door bevoegde autoriteiten en het opvragen van de resultaten door de lead overseer, geregeld in artikel 6."
   },
   "9": {
    "articles": [],
-   "reviewed": false
+   "reviewed": false,
+   "note": "Procedurele overweging: raadpleging van de Europese Toezichthouder voor gegevensbescherming."
   },
   "10": {
    "articles": [],
-   "reviewed": false
+   "reviewed": false,
+   "note": "Procedurele overweging: de verordening berust op door de ETA's ingediende ontwerpnormen."
   },
   "11": {
    "articles": [],
-   "reviewed": false
+   "reviewed": false,
+   "note": "Procedurele overweging over de openbare raadpleging en stakeholdergroepen van het Gemengd Comité."
   }
  },
  "tlpt": {
   "1": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "1",
+    "dora:26",
+    "dora:46"
+   ],
+   "reviewed": false,
+   "note": "TIBER-EU-afstemming en de aanwijzing van de TLPT-autoriteit (art. 26, leden 9-10, en art. 46 DORA), verankerd in de definitie van TLPT-autoriteit in artikel 1."
   },
   "2": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "2"
+   ],
+   "reviewed": false,
+   "note": "Motiveert dat TLPT-autoriteiten via de criteria van artikel 2 entiteiten kunnen uitsluiten waarvoor een TLPT niet gerechtvaardigd is."
   },
   "3": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "2"
+   ],
+   "reviewed": false,
+   "note": "Licht de kwalitatieve beoordeling toe waarmee TLPT-autoriteiten onder artikel 2 andere soorten entiteiten (incl. cryptoactivadienstverleners) aan TLPT onderwerpen."
   },
   "4": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "2",
+    "16"
+   ],
+   "reviewed": false,
+   "note": "Groepsstructuur en gedeelde ICT-systemen wegen mee bij de identificatiebeoordeling (artikel 2) en bij de keuze voor een gezamenlijke TLPT (artikel 16)."
   },
   "5": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "1",
+    "3"
+   ],
+   "reviewed": false,
+   "note": "Introduceert de hoofddeelnemers (control team, blue team, TCT, aanbieder van dreigingsinformatie, testers) zoals gedefinieerd in artikel 1 en het TCT van artikel 3."
   },
   "6": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "3"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de taken van TLPT-cyberteams en testmanagers als tegenhanger van de TIBER-EU-cyberteams (artikel 3)."
   },
   "7": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "3"
+   ],
+   "reviewed": false,
+   "note": "Licht de vereiste vaardigheden van testmanagers en de toewijzing van ten minste twee testmanagers per test toe (artikel 3, lid 2)."
   },
   "8": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "3",
+    "14",
+    "dora:26"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de deelname van de TLPT-autoriteit aan alle fasen (artikel 3, lid 5) en haar validaties, uitmondend in het attest van artikel 14 (art. 26, lid 7, DORA)."
   },
   "9": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "4"
+   ],
+   "reviewed": false,
+   "note": "Geheimhouding, need-to-know-toegang, codenamen en toestemming van testmanagers vóór het informeren van personeel — de organisatorische regelingen van artikel 4."
   },
   "10": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "4",
+    "9"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de eisen aan de leider en samenstelling van het control team (artikel 4, lid 1) en de validatie van het control team in de voorbereidende fase (artikel 9)."
   },
   "11": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "5",
+    "7"
+   ],
+   "reviewed": false,
+   "note": "Onderbouwt het risicomanagement voor tests op live productiesystemen (artikel 5) en de eis van hooggekwalificeerde TLPT-aanbieders (artikel 7)."
   },
   "12": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "7"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de omvattende selectiecriteria voor testers en aanbieders van dreigingsinformatie en de scheiding van personeel binnen dezelfde aanbieder (artikel 7)."
   },
   "13": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "7"
+   ],
+   "reviewed": false,
+   "note": "Licht de uitzondering toe waarbij aanbieders die niet aan alle criteria voldoen mogen worden ingehuurd mits risicomitigatie (artikel 7, lid 2)."
   },
   "14": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "6",
+    "8",
+    "16"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de rol van de aangewezen financiële entiteit en de leidende TLPT-autoriteit bij gepoolde en gezamenlijke TLPT's (artikelen 6, 8 en 16)."
   },
   "15": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "reviewed": false,
+   "note": "Onderbouwt de vergaderingen met stakeholders in de voorbereidende, test- en afsluitende fase van het TLPT-proces."
   },
   "16": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "3"
+   ],
+   "reviewed": false,
+   "note": "Motiveert dat testmanagers een passende informatiestroom met het control team en de TLPT-aanbieders tot stand brengen (artikel 3)."
   },
   "17": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "9"
+   ],
+   "reviewed": false,
+   "note": "Licht de criteria voor de selectie van kritieke of belangrijke functies in de scope en het delen van scopinginformatie met testers en TI-aanbieder toe (artikel 9, leden 7-8)."
   },
   "18": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "10"
+   ],
+   "reviewed": false,
+   "note": "Onderbouwt het verzamelen van doelwit- en dreigingsinformatie, de feedback op het ontwerprapport en het gebruik van een nationaal dreigingslandschap (artikel 10)."
   },
   "19": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "10",
+    "11"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de toelichting van de aanbieder van dreigingsinformatie op het TTI-rapport aan de testers vóór de red-teamtestfase (overgang artikel 10 naar 11)."
   },
   "20": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "11"
+   ],
+   "reviewed": false,
+   "note": "Onderbouwt de minimumduur van twaalf weken en de bepalende factoren voor de actieve red-teamtestfase (artikel 11, lid 5)."
   },
   "21": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "11"
+   ],
+   "reviewed": false,
+   "note": "Licht de tijdens de actieve red-teamtestfase in te zetten tactieken, technieken en procedures toe (artikel 11)."
   },
   "22": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "11"
+   ],
+   "reviewed": false,
+   "note": "Motiveert het verstrekken van leg-ups door het control team wanneer testers niet verder kunnen (artikel 11, lid 8)."
   },
   "23": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "11"
+   ],
+   "reviewed": false,
+   "note": "Onderbouwt de beperkte purple teaming-oefening als laatste redmiddel tijdens de testfase (artikel 11, lid 10)."
   },
   "24": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "12"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de replay, de voorafgaande beschikbaarstelling van de red- en blue-team-testrapporten en de purple teaming in de afsluitende fase (artikel 12)."
   },
   "25": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "12"
+   ],
+   "reviewed": false,
+   "note": "Onderbouwt de wederzijdse feedback over het TLPT-proces na de replay- en purple teaming-oefeningen (artikel 12, lid 6)."
   },
   "26": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "12",
+    "13",
+    "dora:46"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de samenwerking tussen testmanagers en toezichthouders rond het samenvattende testrapport (artikel 12, lid 7) en de remediëringsplannen (artikel 13)."
   },
   "27": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "15",
+    "dora:26"
+   ],
+   "reviewed": false,
+   "note": "Licht toe dat een gemengd team van interne en externe testers voor art. 26, lid 8, DORA geldt als een TLPT met interne testers (artikel 15)."
   },
   "28": {
    "articles": [],
-   "reviewed": false
+   "reviewed": false,
+   "note": "Procedurele overweging over de door de ESA's in samenspraak met de ECB ingediende ontwerpen; geen specifieke bepaling."
   },
   "29": {
    "articles": [],
-   "reviewed": false
+   "reviewed": false,
+   "note": "Procedurele overweging over publieke consultaties, kosten-batenanalyse en stakeholdergroepen; geen specifieke bepaling."
   },
   "30": {
    "articles": [],
-   "reviewed": false
+   "reviewed": false,
+   "note": "Procedurele overweging over de raadpleging van de Europese Toezichthouder voor gegevensbescherming; geen specifieke bepaling."
   }
  },
  "formulieren": {
   "1": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "1",
+    "dora:19"
+   ],
+   "reviewed": false,
+   "note": "Motiveert één rapportagemodel met gegevensvelden per rapportagefase voor de meldingen uit artikel 19, lid 4, DORA."
   },
   "2": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "1",
+    "2"
+   ],
+   "reviewed": false,
+   "note": "Verklaart het invullen van fasegebonden gegevensvelden, het vervroegd mogen aanleveren van latere-fase-informatie en de gecombineerde indiening van kennisgeving en verslagen."
   },
   "3": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "3",
+    "classificatie:8"
+   ],
+   "reviewed": false,
+   "note": "Motiveert dat het model rapportage van terugkerende incidenten mogelijk maakt die samen een ernstig incident vormen als bedoeld in artikel 8 van de classificatie-RTS."
   },
   "4": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "1",
+    "5"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de mogelijkheid om eerder ingediende informatie bij te werken in tussentijds en eindverslag en om ernstige incidenten te herclassificeren als niet-ernstig."
   },
   "5": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "1",
+    "its:3"
+   ],
+   "reviewed": false,
+   "note": "Verklaart dat de juridische identificatie in het rapportagemodel aansluit op de identificatiecodes (LEI/EUID) van de register-ITS op grond van artikel 28, lid 9, DORA."
   },
   "6": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "6"
+   ],
+   "reviewed": false,
+   "note": "Motiveert de kennisgeving van de identiteit van de derde aan wie de rapportage is uitbesteed, vóór de eerste indiening."
   },
   "7": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "7"
+   ],
+   "reviewed": false,
+   "note": "Motiveert het geaggregeerde verslag bij incidenten bij een derde dienstverlener die meerdere financiële entiteiten in één lidstaat treffen."
   },
   "8": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "1"
+   ],
+   "reviewed": false,
+   "note": "Motiveert het technologieneutrale ontwerp van het rapportagemodel zodat het in verschillende rapportageoplossingen bruikbaar is."
   },
   "9": {
-   "articles": [],
-   "reviewed": false
+   "articles": [
+    "1",
+    "dora:19"
+   ],
+   "reviewed": false,
+   "note": "REVIEW: drafter had ook art. 6, maar de overweging gaat uitsluitend over het modelontwerp dat rapportage door uitbestede derden faciliteert (art. 1; art. 19, lid 5, DORA); art. 6 (identiteitskennisgeving) wordt door overweging 6 gemotiveerd. Refuter-versie toegepast; graag arbitreren."
   },
   "10": {
    "articles": [],
-   "reviewed": false
+   "reviewed": false,
+   "note": "Procedurele overweging: de verordening is gebaseerd op de door de ETA's ingediende ontwerpnormen."
   },
   "11": {
    "articles": [],
-   "reviewed": false
+   "reviewed": false,
+   "note": "Procedurele overweging over de openbare raadplegingen en de stakeholdergroepen van de ETA's."
   },
   "12": {
    "articles": [],
-   "reviewed": false
+   "reviewed": false,
+   "note": "Procedurele overweging over de raadpleging van de EDPS."
   }
  }
 }

@@ -3,7 +3,7 @@
   "version": 1,
   "complete": false,
   "reviewedCount": 0,
-  "pairCount": 172
+  "pairCount": 359
  },
  "byRecital": {
   "dora:8": [
@@ -393,6 +393,445 @@
   "rts:11": [
    "rts:5",
    "rts:6"
+  ],
+  "criticaliteit:1": [
+   "dora:31",
+   "criticaliteit:1"
+  ],
+  "criticaliteit:2": [
+   "criticaliteit:1",
+   "criticaliteit:4"
+  ],
+  "criticaliteit:3": [
+   "dora:31",
+   "criticaliteit:1"
+  ],
+  "criticaliteit:4": [
+   "criticaliteit:2"
+  ],
+  "criticaliteit:5": [
+   "criticaliteit:3"
+  ],
+  "criticaliteit:6": [
+   "criticaliteit:4"
+  ],
+  "criticaliteit:7": [
+   "criticaliteit:5"
+  ],
+  "criticaliteit:8": [
+   "dora:28",
+   "criticaliteit:6"
+  ],
+  "vergoedingen:1": [
+   "dora:43",
+   "vergoedingen:1"
+  ],
+  "vergoedingen:2": [
+   "vergoedingen:1",
+   "vergoedingen:3"
+  ],
+  "vergoedingen:3": [
+   "vergoedingen:2",
+   "vergoedingen:3"
+  ],
+  "vergoedingen:4": [
+   "vergoedingen:2"
+  ],
+  "vergoedingen:5": [
+   "vergoedingen:3"
+  ],
+  "vergoedingen:6": [
+   "vergoedingen:4"
+  ],
+  "vergoedingen:7": [
+   "dora:31",
+   "vergoedingen:4"
+  ],
+  "vergoedingen:8": [
+   "vergoedingen:5"
+  ],
+  "vergoedingen:9": [
+   "vergoedingen:1"
+  ],
+  "onderzoeksteams:1": [
+   "dora:40"
+  ],
+  "onderzoeksteams:2": [
+   "onderzoeksteams:2"
+  ],
+  "onderzoeksteams:3": [
+   "onderzoeksteams:2",
+   "onderzoeksteams:5"
+  ],
+  "onderzoeksteams:4": [
+   "onderzoeksteams:2",
+   "onderzoeksteams:3"
+  ],
+  "onderzoeksteams:5": [
+   "onderzoeksteams:3"
+  ],
+  "onderzoeksteams:6": [
+   "onderzoeksteams:4"
+  ],
+  "onderzoeksteams:7": [
+   "onderzoeksteams:5"
+  ],
+  "onderzoeksteams:8": [
+   "onderzoeksteams:5"
+  ],
+  "classificatie:1": [
+   "classificatie:8",
+   "classificatie:9",
+   "classificatie:10"
+  ],
+  "classificatie:2": [
+   "classificatie:9"
+  ],
+  "classificatie:3": [
+   "classificatie:9"
+  ],
+  "classificatie:4": [
+   "classificatie:1"
+  ],
+  "classificatie:5": [
+   "classificatie:5",
+   "classificatie:6"
+  ],
+  "classificatie:6": [
+   "classificatie:7"
+  ],
+  "classificatie:7": [
+   "classificatie:4"
+  ],
+  "classificatie:8": [
+   "classificatie:8"
+  ],
+  "classificatie:9": [
+   "classificatie:9"
+  ],
+  "classificatie:10": [
+   "classificatie:6",
+   "classificatie:8",
+   "classificatie:9"
+  ],
+  "classificatie:11": [
+   "classificatie:8"
+  ],
+  "classificatie:12": [
+   "classificatie:10"
+  ],
+  "classificatie:13": [
+   "classificatie:11"
+  ],
+  "classificatie:14": [
+   "classificatie:12"
+  ],
+  "contractbeleid:2": [
+   "dora:28",
+   "contractbeleid:2"
+  ],
+  "contractbeleid:3": [
+   "contractbeleid:1"
+  ],
+  "contractbeleid:4": [
+   "contractbeleid:2"
+  ],
+  "contractbeleid:5": [
+   "contractbeleid:1",
+   "contractbeleid:6",
+   "contractbeleid:7"
+  ],
+  "contractbeleid:6": [
+   "contractbeleid:3"
+  ],
+  "contractbeleid:7": [
+   "contractbeleid:3"
+  ],
+  "contractbeleid:8": [
+   "contractbeleid:4"
+  ],
+  "contractbeleid:9": [
+   "contractbeleid:4",
+   "contractbeleid:5",
+   "contractbeleid:6"
+  ],
+  "contractbeleid:10": [
+   "contractbeleid:8",
+   "contractbeleid:9",
+   "contractbeleid:10"
+  ],
+  "contractbeleid:11": [
+   "contractbeleid:8"
+  ],
+  "rapportage:1": [
+   "rapportage:5"
+  ],
+  "rapportage:2": [
+   "rapportage:2",
+   "rapportage:5"
+  ],
+  "rapportage:3": [
+   "rapportage:3",
+   "rapportage:4"
+  ],
+  "rapportage:4": [
+   "rapportage:5"
+  ],
+  "rapportage:5": [
+   "rapportage:5"
+  ],
+  "rapportage:6": [
+   "rapportage:6"
+  ],
+  "risicobeheer:1": [
+   "risicobeheer:1"
+  ],
+  "risicobeheer:2": [
+   "risicobeheer:2"
+  ],
+  "risicobeheer:3": [
+   "risicobeheer:2"
+  ],
+  "risicobeheer:4": [
+   "risicobeheer:2"
+  ],
+  "risicobeheer:5": [
+   "risicobeheer:2"
+  ],
+  "risicobeheer:6": [
+   "risicobeheer:2"
+  ],
+  "risicobeheer:7": [
+   "risicobeheer:4",
+   "risicobeheer:8",
+   "risicobeheer:9"
+  ],
+  "risicobeheer:8": [
+   "risicobeheer:4"
+  ],
+  "risicobeheer:9": [
+   "risicobeheer:6",
+   "risicobeheer:7"
+  ],
+  "risicobeheer:10": [
+   "risicobeheer:8"
+  ],
+  "risicobeheer:11": [
+   "risicobeheer:10"
+  ],
+  "risicobeheer:12": [
+   "risicobeheer:10"
+  ],
+  "risicobeheer:13": [
+   "risicobeheer:10"
+  ],
+  "risicobeheer:14": [
+   "risicobeheer:20",
+   "risicobeheer:21"
+  ],
+  "risicobeheer:15": [
+   "risicobeheer:15"
+  ],
+  "risicobeheer:16": [
+   "risicobeheer:16"
+  ],
+  "risicobeheer:17": [
+   "risicobeheer:17"
+  ],
+  "risicobeheer:18": [
+   "risicobeheer:22"
+  ],
+  "risicobeheer:19": [
+   "risicobeheer:23"
+  ],
+  "risicobeheer:20": [
+   "risicobeheer:22"
+  ],
+  "risicobeheer:21": [
+   "risicobeheer:23"
+  ],
+  "risicobeheer:22": [
+   "risicobeheer:24"
+  ],
+  "risicobeheer:23": [
+   "risicobeheer:25",
+   "risicobeheer:26"
+  ],
+  "risicobeheer:24": [
+   "risicobeheer:16",
+   "risicobeheer:17",
+   "risicobeheer:24",
+   "risicobeheer:25"
+  ],
+  "risicobeheer:25": [
+   "dora:6",
+   "risicobeheer:27"
+  ],
+  "risicobeheer:26": [
+   "risicobeheer:28",
+   "risicobeheer:29"
+  ],
+  "risicobeheer:27": [
+   "dora:15",
+   "dora:16"
+  ],
+  "oversight:1": [
+   "dora:31"
+  ],
+  "oversight:2": [
+   "oversight:1"
+  ],
+  "oversight:3": [
+   "oversight:1"
+  ],
+  "oversight:4": [
+   "dora:35",
+   "oversight:3"
+  ],
+  "oversight:5": [
+   "dora:42",
+   "oversight:3"
+  ],
+  "oversight:6": [
+   "oversight:5"
+  ],
+  "oversight:7": [
+   "oversight:3",
+   "oversight:6"
+  ],
+  "oversight:8": [
+   "oversight:6"
+  ],
+  "tlpt:1": [
+   "dora:26",
+   "dora:46",
+   "tlpt:1"
+  ],
+  "tlpt:2": [
+   "tlpt:2"
+  ],
+  "tlpt:3": [
+   "tlpt:2"
+  ],
+  "tlpt:4": [
+   "tlpt:2",
+   "tlpt:16"
+  ],
+  "tlpt:5": [
+   "tlpt:1",
+   "tlpt:3"
+  ],
+  "tlpt:6": [
+   "tlpt:3"
+  ],
+  "tlpt:7": [
+   "tlpt:3"
+  ],
+  "tlpt:8": [
+   "dora:26",
+   "tlpt:3",
+   "tlpt:14"
+  ],
+  "tlpt:9": [
+   "tlpt:4"
+  ],
+  "tlpt:10": [
+   "tlpt:4",
+   "tlpt:9"
+  ],
+  "tlpt:11": [
+   "tlpt:5",
+   "tlpt:7"
+  ],
+  "tlpt:12": [
+   "tlpt:7"
+  ],
+  "tlpt:13": [
+   "tlpt:7"
+  ],
+  "tlpt:14": [
+   "tlpt:6",
+   "tlpt:8",
+   "tlpt:16"
+  ],
+  "tlpt:15": [
+   "tlpt:9",
+   "tlpt:10",
+   "tlpt:11",
+   "tlpt:12"
+  ],
+  "tlpt:16": [
+   "tlpt:3"
+  ],
+  "tlpt:17": [
+   "tlpt:9"
+  ],
+  "tlpt:18": [
+   "tlpt:10"
+  ],
+  "tlpt:19": [
+   "tlpt:10",
+   "tlpt:11"
+  ],
+  "tlpt:20": [
+   "tlpt:11"
+  ],
+  "tlpt:21": [
+   "tlpt:11"
+  ],
+  "tlpt:22": [
+   "tlpt:11"
+  ],
+  "tlpt:23": [
+   "tlpt:11"
+  ],
+  "tlpt:24": [
+   "tlpt:12"
+  ],
+  "tlpt:25": [
+   "tlpt:12"
+  ],
+  "tlpt:26": [
+   "dora:46",
+   "tlpt:12",
+   "tlpt:13"
+  ],
+  "tlpt:27": [
+   "dora:26",
+   "tlpt:15"
+  ],
+  "formulieren:1": [
+   "dora:19",
+   "formulieren:1"
+  ],
+  "formulieren:2": [
+   "formulieren:1",
+   "formulieren:2"
+  ],
+  "formulieren:3": [
+   "classificatie:8",
+   "formulieren:3"
+  ],
+  "formulieren:4": [
+   "formulieren:1",
+   "formulieren:5"
+  ],
+  "formulieren:5": [
+   "its:3",
+   "formulieren:1"
+  ],
+  "formulieren:6": [
+   "formulieren:6"
+  ],
+  "formulieren:7": [
+   "formulieren:7"
+  ],
+  "formulieren:8": [
+   "formulieren:1"
+  ],
+  "formulieren:9": [
+   "dora:19",
+   "formulieren:1"
   ]
  },
  "byArticle": {
@@ -403,7 +842,9 @@
   ],
   "dora:46": [
    "dora:8",
-   "dora:37"
+   "dora:37",
+   "tlpt:1",
+   "tlpt:26"
   ],
   "dora:4": [
    "dora:13",
@@ -425,7 +866,11 @@
    "dora:87",
    "dora:89",
    "dora:98",
-   "its:9"
+   "its:9",
+   "criticaliteit:1",
+   "criticaliteit:3",
+   "vergoedingen:7",
+   "oversight:1"
   ],
   "dora:32": [
    "dora:20",
@@ -435,7 +880,8 @@
   "dora:16": [
    "dora:21",
    "dora:42",
-   "dora:43"
+   "dora:43",
+   "risicobeheer:27"
   ],
   "dora:18": [
    "dora:22",
@@ -448,7 +894,9 @@
   "dora:19": [
    "dora:24",
    "dora:51",
-   "dora:52"
+   "dora:52",
+   "formulieren:1",
+   "formulieren:9"
   ],
   "dora:20": [
    "dora:24",
@@ -471,7 +919,10 @@
    "dora:59",
    "dora:60",
    "dora:61",
-   "dora:99"
+   "dora:99",
+   "tlpt:1",
+   "tlpt:8",
+   "tlpt:27"
   ],
   "dora:28": [
    "dora:28",
@@ -486,7 +937,9 @@
    "dora:100",
    "its:1",
    "its:3",
-   "rts:2"
+   "rts:2",
+   "criticaliteit:8",
+   "contractbeleid:2"
   ],
   "dora:30": [
    "dora:28",
@@ -525,7 +978,8 @@
   "dora:6": [
    "dora:38",
    "dora:43",
-   "dora:47"
+   "dora:47",
+   "risicobeheer:25"
   ],
   "dora:7": [
    "dora:48"
@@ -560,7 +1014,8 @@
    "dora:80",
    "dora:88",
    "dora:89",
-   "dora:91"
+   "dora:91",
+   "oversight:4"
   ],
   "dora:38": [
    "dora:80",
@@ -579,7 +1034,8 @@
   "dora:42": [
    "dora:89",
    "dora:90",
-   "dora:93"
+   "dora:93",
+   "oversight:5"
   ],
   "dora:34": [
    "dora:91"
@@ -588,11 +1044,13 @@
    "dora:94"
   ],
   "dora:40": [
-   "dora:95"
+   "dora:95",
+   "onderzoeksteams:1"
   ],
   "dora:43": [
    "dora:96",
-   "dora:98"
+   "dora:98",
+   "vergoedingen:1"
   ],
   "dora:48": [
    "dora:97"
@@ -607,7 +1065,8 @@
    "dora:98"
   ],
   "dora:15": [
-   "dora:99"
+   "dora:99",
+   "risicobeheer:27"
   ],
   "dora:59": [
    "dora:101",
@@ -644,7 +1103,8 @@
    "its:8",
    "its:9",
    "its:11",
-   "its:12"
+   "its:12",
+   "formulieren:5"
   ],
   "its:6": [
    "its:2"
@@ -689,6 +1149,346 @@
   ],
   "rts:6": [
    "rts:11"
+  ],
+  "criticaliteit:1": [
+   "criticaliteit:1",
+   "criticaliteit:2",
+   "criticaliteit:3"
+  ],
+  "criticaliteit:4": [
+   "criticaliteit:2",
+   "criticaliteit:6"
+  ],
+  "criticaliteit:2": [
+   "criticaliteit:4"
+  ],
+  "criticaliteit:3": [
+   "criticaliteit:5"
+  ],
+  "criticaliteit:5": [
+   "criticaliteit:7"
+  ],
+  "criticaliteit:6": [
+   "criticaliteit:8"
+  ],
+  "vergoedingen:1": [
+   "vergoedingen:1",
+   "vergoedingen:2",
+   "vergoedingen:9"
+  ],
+  "vergoedingen:3": [
+   "vergoedingen:2",
+   "vergoedingen:3",
+   "vergoedingen:5"
+  ],
+  "vergoedingen:2": [
+   "vergoedingen:3",
+   "vergoedingen:4"
+  ],
+  "vergoedingen:4": [
+   "vergoedingen:6",
+   "vergoedingen:7"
+  ],
+  "vergoedingen:5": [
+   "vergoedingen:8"
+  ],
+  "onderzoeksteams:2": [
+   "onderzoeksteams:2",
+   "onderzoeksteams:3",
+   "onderzoeksteams:4"
+  ],
+  "onderzoeksteams:5": [
+   "onderzoeksteams:3",
+   "onderzoeksteams:7",
+   "onderzoeksteams:8"
+  ],
+  "onderzoeksteams:3": [
+   "onderzoeksteams:4",
+   "onderzoeksteams:5"
+  ],
+  "onderzoeksteams:4": [
+   "onderzoeksteams:6"
+  ],
+  "classificatie:8": [
+   "classificatie:1",
+   "classificatie:8",
+   "classificatie:10",
+   "classificatie:11",
+   "formulieren:3"
+  ],
+  "classificatie:9": [
+   "classificatie:1",
+   "classificatie:2",
+   "classificatie:3",
+   "classificatie:9",
+   "classificatie:10"
+  ],
+  "classificatie:10": [
+   "classificatie:1",
+   "classificatie:12"
+  ],
+  "classificatie:1": [
+   "classificatie:4"
+  ],
+  "classificatie:5": [
+   "classificatie:5"
+  ],
+  "classificatie:6": [
+   "classificatie:5",
+   "classificatie:10"
+  ],
+  "classificatie:7": [
+   "classificatie:6"
+  ],
+  "classificatie:4": [
+   "classificatie:7"
+  ],
+  "classificatie:11": [
+   "classificatie:13"
+  ],
+  "classificatie:12": [
+   "classificatie:14"
+  ],
+  "contractbeleid:2": [
+   "contractbeleid:2",
+   "contractbeleid:4"
+  ],
+  "contractbeleid:1": [
+   "contractbeleid:3",
+   "contractbeleid:5"
+  ],
+  "contractbeleid:6": [
+   "contractbeleid:5",
+   "contractbeleid:9"
+  ],
+  "contractbeleid:7": [
+   "contractbeleid:5"
+  ],
+  "contractbeleid:3": [
+   "contractbeleid:6",
+   "contractbeleid:7"
+  ],
+  "contractbeleid:4": [
+   "contractbeleid:8",
+   "contractbeleid:9"
+  ],
+  "contractbeleid:5": [
+   "contractbeleid:9"
+  ],
+  "contractbeleid:8": [
+   "contractbeleid:10",
+   "contractbeleid:11"
+  ],
+  "contractbeleid:9": [
+   "contractbeleid:10"
+  ],
+  "contractbeleid:10": [
+   "contractbeleid:10"
+  ],
+  "rapportage:5": [
+   "rapportage:1",
+   "rapportage:2",
+   "rapportage:4",
+   "rapportage:5"
+  ],
+  "rapportage:2": [
+   "rapportage:2"
+  ],
+  "rapportage:3": [
+   "rapportage:3"
+  ],
+  "rapportage:4": [
+   "rapportage:3"
+  ],
+  "rapportage:6": [
+   "rapportage:6"
+  ],
+  "risicobeheer:1": [
+   "risicobeheer:1"
+  ],
+  "risicobeheer:2": [
+   "risicobeheer:2",
+   "risicobeheer:3",
+   "risicobeheer:4",
+   "risicobeheer:5",
+   "risicobeheer:6"
+  ],
+  "risicobeheer:4": [
+   "risicobeheer:7",
+   "risicobeheer:8"
+  ],
+  "risicobeheer:8": [
+   "risicobeheer:7",
+   "risicobeheer:10"
+  ],
+  "risicobeheer:9": [
+   "risicobeheer:7"
+  ],
+  "risicobeheer:6": [
+   "risicobeheer:9"
+  ],
+  "risicobeheer:7": [
+   "risicobeheer:9"
+  ],
+  "risicobeheer:10": [
+   "risicobeheer:11",
+   "risicobeheer:12",
+   "risicobeheer:13"
+  ],
+  "risicobeheer:20": [
+   "risicobeheer:14"
+  ],
+  "risicobeheer:21": [
+   "risicobeheer:14"
+  ],
+  "risicobeheer:15": [
+   "risicobeheer:15"
+  ],
+  "risicobeheer:16": [
+   "risicobeheer:16",
+   "risicobeheer:24"
+  ],
+  "risicobeheer:17": [
+   "risicobeheer:17",
+   "risicobeheer:24"
+  ],
+  "risicobeheer:22": [
+   "risicobeheer:18",
+   "risicobeheer:20"
+  ],
+  "risicobeheer:23": [
+   "risicobeheer:19",
+   "risicobeheer:21"
+  ],
+  "risicobeheer:24": [
+   "risicobeheer:22",
+   "risicobeheer:24"
+  ],
+  "risicobeheer:25": [
+   "risicobeheer:23",
+   "risicobeheer:24"
+  ],
+  "risicobeheer:26": [
+   "risicobeheer:23"
+  ],
+  "risicobeheer:27": [
+   "risicobeheer:25"
+  ],
+  "risicobeheer:28": [
+   "risicobeheer:26"
+  ],
+  "risicobeheer:29": [
+   "risicobeheer:26"
+  ],
+  "oversight:1": [
+   "oversight:2",
+   "oversight:3"
+  ],
+  "oversight:3": [
+   "oversight:4",
+   "oversight:5",
+   "oversight:7"
+  ],
+  "oversight:5": [
+   "oversight:6"
+  ],
+  "oversight:6": [
+   "oversight:7",
+   "oversight:8"
+  ],
+  "tlpt:1": [
+   "tlpt:1",
+   "tlpt:5"
+  ],
+  "tlpt:2": [
+   "tlpt:2",
+   "tlpt:3",
+   "tlpt:4"
+  ],
+  "tlpt:16": [
+   "tlpt:4",
+   "tlpt:14"
+  ],
+  "tlpt:3": [
+   "tlpt:5",
+   "tlpt:6",
+   "tlpt:7",
+   "tlpt:8",
+   "tlpt:16"
+  ],
+  "tlpt:14": [
+   "tlpt:8"
+  ],
+  "tlpt:4": [
+   "tlpt:9",
+   "tlpt:10"
+  ],
+  "tlpt:9": [
+   "tlpt:10",
+   "tlpt:15",
+   "tlpt:17"
+  ],
+  "tlpt:5": [
+   "tlpt:11"
+  ],
+  "tlpt:7": [
+   "tlpt:11",
+   "tlpt:12",
+   "tlpt:13"
+  ],
+  "tlpt:6": [
+   "tlpt:14"
+  ],
+  "tlpt:8": [
+   "tlpt:14"
+  ],
+  "tlpt:10": [
+   "tlpt:15",
+   "tlpt:18",
+   "tlpt:19"
+  ],
+  "tlpt:11": [
+   "tlpt:15",
+   "tlpt:19",
+   "tlpt:20",
+   "tlpt:21",
+   "tlpt:22",
+   "tlpt:23"
+  ],
+  "tlpt:12": [
+   "tlpt:15",
+   "tlpt:24",
+   "tlpt:25",
+   "tlpt:26"
+  ],
+  "tlpt:13": [
+   "tlpt:26"
+  ],
+  "tlpt:15": [
+   "tlpt:27"
+  ],
+  "formulieren:1": [
+   "formulieren:1",
+   "formulieren:2",
+   "formulieren:4",
+   "formulieren:5",
+   "formulieren:8",
+   "formulieren:9"
+  ],
+  "formulieren:2": [
+   "formulieren:2"
+  ],
+  "formulieren:3": [
+   "formulieren:3"
+  ],
+  "formulieren:5": [
+   "formulieren:4"
+  ],
+  "formulieren:6": [
+   "formulieren:6"
+  ],
+  "formulieren:7": [
+   "formulieren:7"
   ]
  }
 }
