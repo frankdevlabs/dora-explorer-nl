@@ -1,7 +1,8 @@
 /**
  * Multi-instrument parser -> structured JSON in data/generated/<instrument>/.
  *
- * Three instruments, two EUR-Lex HTML dialects (epic 1):
+ * One SOURCES row per instrument (13 since epic 10 — DORA + all published
+ * level-2 acts), two EUR-Lex HTML dialects (epic 1):
  *
  * 1. Consolidated dialect (dora + its articles/annexes/TOC):
  *    div.eli-subdivision#art_N > p.title-article-norm + .eli-title

@@ -14,7 +14,9 @@ DORA assessments (entity-level and per-ICT-arrangement supplier/TPRM) and a
 Register-of-Information tool (art. 28, lid 3 DORA).
 
 Ported from `~/ai-act-explorer-nl` (see its `docs/PORTING.md` for the port
-method). Plan/status per feature: `docs/epics/`.
+method). Plan/status per feature: `docs/epics/`. Repeatable procedures:
+`.claude/skills/` (`plan-an-epic` — the working method, `add-instrument`,
+`extend-parser`, `curate-recital-map`, `verify-app`).
 
 ## Golden rules
 
@@ -103,5 +105,6 @@ assessments, de registerwerkbank (`/register`, schema afgeleid via
 Epic 10 (juli 2026) voegde de tien resterende level-2-handelingen toe —
 volledig level-2-corpus, geen openstaande mandaten. Site en MCP zijn live
 op https://dora.mrfrank.dev. Openstaand: menselijke review van de
-recital-map (complete=false) — de nieuwe instrumenten zijn geseed met lege,
-ongereviewde entries.
+recital-map (complete=false) — alle 284 entries zijn gedraft en
+adversarieel gereviewd (drafter→refuter; twee REVIEW:-gemarkeerde
+disputen wachten op arbitrage), maar nog `reviewed: false`.

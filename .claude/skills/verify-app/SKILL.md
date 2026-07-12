@@ -13,9 +13,9 @@ is broken — check `git log` before debugging.
 > **Epic-10 state:** full app, 13 instruments (DORA + 12 level-2 acts;
 > **532 exported HTML pages**). Verify chain: verify-data (563 refs, 1031
 > search docs), verify-assessment (entity 18/57, supplier 11/48), verify-roi
-> (15 templates / 98 kolommen), verify-recital-map (172 pairs, two-regime,
-> satellites seeded unreviewed), verify-l2-map (26 links), verify-search
-> (26 golden queries).
+> (15 templates / 98 kolommen), verify-recital-map (359 pairs, two-regime,
+> all drafted, human review open), verify-l2-map (26 links), verify-search
+> (32 golden queries).
 
 ## 1. Build (includes data verification)
 
