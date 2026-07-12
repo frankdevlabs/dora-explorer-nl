@@ -71,6 +71,11 @@ const SOURCES: SourceConfig[] = [
     articles: { file: "data/source/rts_nl_oj.html", dialect: "oj" },
     recitals: { file: "data/source/rts_nl_oj.html" },
   },
+  {
+    id: "criticaliteit",
+    articles: { file: "data/source/criticaliteit_nl_oj.html", dialect: "oj" },
+    recitals: { file: "data/source/criticaliteit_nl_oj.html" },
+  },
 ];
 
 const ROMAN_VALUES: Record<string, number> = { I: 1, V: 5, X: 10, L: 50, C: 100 };

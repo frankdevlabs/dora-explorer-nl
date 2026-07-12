@@ -4,7 +4,7 @@
  * Route scheme: DORA (the main act) owns the unprefixed routes; the
  * satellite acts are prefixed with their instrument id.
  */
-export type InstrumentId = "dora" | "its" | "rts";
+export type InstrumentId = "dora" | "its" | "rts" | "criticaliteit";
 
 export interface InstrumentSpec {
   id: InstrumentId;
@@ -48,9 +48,18 @@ export const INSTRUMENTS: Record<InstrumentId, InstrumentSpec> = {
     celex: "32025R0532",
     routePrefix: "/rts-onderaanneming",
   },
+  criticaliteit: {
+    id: "criticaliteit",
+    label: "Criticaliteitscriteria",
+    title:
+      "Gedelegeerde Verordening (EU) 2024/1502 tot aanvulling van Verordening (EU) 2022/2554 door nadere bepaling van de criteria om derde aanbieders van ICT-diensten als kritiek voor financiële entiteiten aan te wijzen",
+    citation: "Gedelegeerde Verordening (EU) 2024/1502",
+    celex: "32024R1502",
+    routePrefix: "/criticaliteitscriteria",
+  },
 };
 
-export const INSTRUMENT_IDS: InstrumentId[] = ["dora", "its", "rts"];
+export const INSTRUMENT_IDS: InstrumentId[] = ["dora", "its", "rts", "criticaliteit"];
 
 /** Satellite instruments (everything except DORA), in registry order. */
 export const SATELLITE_IDS: InstrumentId[] = INSTRUMENT_IDS.filter((id) => id !== "dora");

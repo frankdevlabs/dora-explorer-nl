@@ -1,3 +1,5 @@
+import type { InstrumentId } from "./instruments";
+
 /**
  * Internal cross-reference: text.slice(start, end) reads as a reference to
  * another part of the regulation ("artikel 6, lid 2"), href is the internal
@@ -116,20 +118,17 @@ export interface RecitalMapEntry {
   note?: string;
 }
 
-export interface RecitalMapSource {
+export type RecitalMapSource = {
   meta: {
     version: number;
     /** False while curation is in progress; verify-recital-map skips
      *  exact-count assertions until flipped. */
     complete: boolean;
   };
-  /** Keyed "1".."106" — every DORA recital present, reviewed or not. */
-  dora: Record<string, RecitalMapEntry>;
-  /** Keyed "1".."15". */
-  its: Record<string, RecitalMapEntry>;
-  /** Keyed "1".."13". */
-  rts: Record<string, RecitalMapEntry>;
-}
+} & {
+  /** Per instrument, keyed "1".."N" — every recital present, reviewed or not. */
+  [inst in InstrumentId]: Record<string, RecitalMapEntry>;
+};
 
 export interface RecitalMapGenerated {
   meta: { version: number; complete: boolean; reviewedCount: number; pairCount: number };

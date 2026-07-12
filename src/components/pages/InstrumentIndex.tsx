@@ -16,6 +16,13 @@ const BLURB: Record<InstrumentId, string> = {
     "aanvulling van artikel 30, lid 5, DORA. In werking sinds 22 juli 2025; " +
     "het ontwerp-artikel over monitoring van de keten is vóór vaststelling " +
     "geschrapt (ketenmonitoring loopt via artikel 29, lid 2, DORA).",
+  criticaliteit:
+    "Nadere bepaling van de criteria van artikel 31, lid 2, DORA op grond " +
+    "waarvan de ESA's derde aanbieders van ICT-diensten als kritiek aanwijzen " +
+    "(oversight): systeemimpact, systeemrelevantie van de afnemers, " +
+    "vervangbaarheid en het aantal bediende lidstaten. Relevant voor de " +
+    "aanwijzingsexercitie van de ESA's, niet als directe verplichting voor " +
+    "financiële entiteiten.",
 };
 
 /** Index page for a satellite instrument: blurb + article/annex/recital TOC. */

@@ -958,5 +958,39 @@
    "reviewed": false,
    "note": "Procedureel: raadpleging Europese Toezichthouder voor gegevensbescherming."
   }
+ },
+ "criticaliteit": {
+  "1": {
+   "articles": [],
+   "reviewed": false
+  },
+  "2": {
+   "articles": [],
+   "reviewed": false
+  },
+  "3": {
+   "articles": [],
+   "reviewed": false
+  },
+  "4": {
+   "articles": [],
+   "reviewed": false
+  },
+  "5": {
+   "articles": [],
+   "reviewed": false
+  },
+  "6": {
+   "articles": [],
+   "reviewed": false
+  },
+  "7": {
+   "articles": [],
+   "reviewed": false
+  },
+  "8": {
+   "articles": [],
+   "reviewed": false
+  }
  }
 }

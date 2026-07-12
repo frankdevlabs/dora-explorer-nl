@@ -10,6 +10,10 @@ import rtsArticlesJson from "../../data/generated/rts/articles.json";
 import rtsRecitalsJson from "../../data/generated/rts/recitals.json";
 import rtsAnnexesJson from "../../data/generated/rts/annexes.json";
 import rtsTocJson from "../../data/generated/rts/toc.json";
+import criticaliteitArticlesJson from "../../data/generated/criticaliteit/articles.json";
+import criticaliteitRecitalsJson from "../../data/generated/criticaliteit/recitals.json";
+import criticaliteitAnnexesJson from "../../data/generated/criticaliteit/annexes.json";
+import criticaliteitTocJson from "../../data/generated/criticaliteit/toc.json";
 import recitalMapJson from "../../data/generated/recital-map.json";
 import l2MapJson from "../../data/generated/l2-map.json";
 import { INSTRUMENTS, splitRoutePath, type InstrumentId } from "./instruments";
@@ -41,6 +45,12 @@ const CORPORA: Record<InstrumentId, Corpus> = {
     recitals: rtsRecitalsJson as Recital[],
     annexes: rtsAnnexesJson as Annex[],
     toc: rtsTocJson as Toc,
+  },
+  criticaliteit: {
+    articles: criticaliteitArticlesJson as Article[],
+    recitals: criticaliteitRecitalsJson as Recital[],
+    annexes: criticaliteitAnnexesJson as Annex[],
+    toc: criticaliteitTocJson as Toc,
   },
 };
 
@@ -83,11 +93,9 @@ function buildArticleOrder(instrument: InstrumentId) {
   }));
 }
 
-const articleOrders: Record<InstrumentId, { slug: string; label: string; title: string }[]> = {
-  dora: buildArticleOrder("dora"),
-  its: buildArticleOrder("its"),
-  rts: buildArticleOrder("rts"),
-};
+const articleOrders = Object.fromEntries(
+  (Object.keys(CORPORA) as InstrumentId[]).map((id) => [id, buildArticleOrder(id)]),
+) as Record<InstrumentId, { slug: string; label: string; title: string }[]>;
 
 export function getArticleOrder(instrument: InstrumentId = "dora") {
   return articleOrders[instrument];

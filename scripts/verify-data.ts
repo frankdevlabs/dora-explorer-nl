@@ -52,6 +52,8 @@ const EXPECT: Record<string, Expect> = {
   },
   its: { articles: 7, recitals: 15, annexes: 4, chapters: 0, flat: [1, 2, 7] },
   rts: { articles: 7, recitals: 13, annexes: 0, chapters: 0, flat: [1, 2, 6, 7] },
+  // pinned 2026-07 (epic 10, source 32024R1502)
+  criticaliteit: { articles: 7, recitals: 8, annexes: 0, chapters: 0, flat: [4, 7] },
 };
 
 for (const [inst, exp] of Object.entries(EXPECT)) {
@@ -179,6 +181,15 @@ spot(
 );
 spot(rts, 1, "risicoprofiel", "rts risicoprofiel");
 
+const criticaliteit = load<Article[]>("data/generated/criticaliteit/articles.json");
+// art 1(a): the two-step assessment approach over the sub-criteria
+spot(
+  criticaliteit,
+  1,
+  "voldoet aan alle “stap 1”-subcriteria van artikel 2, lid 1, artikel 3, lid 1, en artikel 5, lid 1",
+  "criticaliteit stappenbenadering",
+);
+
 // ------------------------------------------------- ITS annexes (RoI source)
 
 const itsAnnexes = load<Annex[]>("data/generated/its/annexes.json");
@@ -248,7 +259,10 @@ assert.deepEqual(
 // respectievelijk punt e), van die verordening" = AVG; art 44 "van
 // respectievelijk Verordeningen (EU) nr. 1093/2010 …"); grammar now
 // consumes/excludes both.
-const REF_EXPECT: Record<string, number> = { dora: 176, its: 26, rts: 10 };
+// epic 10: + criticaliteit 36 (audited by hand: DORA-qualified refs — art 2(1),
+// 28(3), 31(2)(a-d), 31(5), 46 — all retarget to unprefixed routes; bare refs
+// stay internal; "artikelen 2 tot en met 5" links both endpoints)
+const REF_EXPECT: Record<string, number> = { dora: 176, its: 26, rts: 10, criticaliteit: 36 };
 
 function collectRefs(inst: string): { href: string; where: string }[] {
   const out: { href: string; where: string }[] = [];
@@ -275,7 +289,7 @@ for (const [inst, expected] of Object.entries(REF_EXPECT)) {
   assert.equal(refs.length, expected, `${inst}: ref count drifted (${refs.length})`);
   refTotal += refs.length;
 }
-assert.equal(refTotal, 212, "total ref count"); // 214→212, see re-pin note above
+assert.equal(refTotal, 248, "total ref count"); // 212→248 epic 10 (criticaliteit +36)
 
 // positive spot checks: the cross-instrument resolver (ITS/RTS text linking
 // into DORA's unprefixed routes)
@@ -315,8 +329,9 @@ for (const inst of Object.keys(REF_EXPECT)) {
 
 const docs = load<SearchDoc[]>("data/generated/search-docs.json");
 // pinned 2026-07: dora 267 art-lid + 106 rct; its 16 art + 15 rct + 55 annex
-// chunks; rts 13 art + 13 rct = 485
-assert.equal(docs.length, 485, "search docs: total count");
+// chunks; rts 13 art + 13 rct = 485. Epic 10: + criticaliteit 20 art + 8 rct
+// = 513
+assert.equal(docs.length, 513, "search docs: total count");
 const ids = new Set(docs.map((d) => d.id));
 assert.equal(ids.size, docs.length, "search docs: duplicate ids");
 for (const d of docs) {

@@ -16,8 +16,8 @@ const load = <T>(rel: string): T => JSON.parse(readFileSync(join(root, rel), "ut
 const source = load<L2MapSource>("data/source/l2-map.json");
 const generated = load<L2MapGenerated>("data/generated/l2-map.json");
 
-// pinned 2026-07 (initial curation)
-assert.equal(source.links.length, 15, "l2-map: linkCount drifted");
+// pinned 2026-07 (initial curation); 15→16 epic 10 (criticaliteit index link)
+assert.equal(source.links.length, 16, "l2-map: linkCount drifted");
 assert.equal(generated.meta.linkCount, source.links.length, "l2-map: meta.linkCount");
 
 // every source link appears in byDora with a resolvable-looking href
@@ -60,6 +60,10 @@ assert.deepEqual(
   generated.byTarget["rts:3"]?.map((b) => b.dora),
   ["29"],
   "l2-map: rts art 3 grondslag",
+);
+assert.ok(
+  (generated.byDora["31"] ?? []).some((l) => l.target === "criticaliteit"),
+  "l2-map: art 31 → criticaliteitscriteria indexlink",
 );
 
 console.log(`verify-l2-map: all assertions passed (${source.links.length} links)`);

@@ -1,7 +1,7 @@
 {
  "meta": {
   "version": 1,
-  "linkCount": 15
+  "linkCount": 16
  },
  "byDora": {
   "28": [
@@ -98,6 +98,14 @@
     "lid": 2,
     "label": "Beëindiging bij onderaanneming in strijd met het contract",
     "href": "/rts-onderaanneming/artikel/6"
+   }
+  ],
+  "31": [
+   {
+    "target": "criticaliteit",
+    "lid": 6,
+    "label": "Criticaliteitscriteria (2024/1502) — nadere bepaling van de criteria om derde aanbieders van ICT-diensten als kritiek aan te wijzen",
+    "href": "/criticaliteitscriteria"
    }
   ]
  },

@@ -1,0 +1,87 @@
+[
+ {
+  "number": 1,
+  "paragraphs": [
+   {
+    "text": "Om te beoordelen of een derde aanbieder van ICT-diensten kritiek is voor financiële entiteiten, en rekening houdend met de criteria van artikel 31, lid 2, van Verordening (EU) 2022/2554, moeten de Europese toezichthoudende autoriteiten (“ETA’s”) subcriteria gebruiken in een beoordeling in twee stappen. Gezien het grote aantal ICT-diensten en de diversiteit en het aantal financiële instellingen dat van deze diensten gebruikmaakt, moet een dergelijke twee-stapsbenadering worden gevolgd om de populatie van derde aanbieders van ICT-diensten te filteren en de meest kritieke derde aanbieders van ICT-diensten te identificeren. De kwantitatieve subcriteria die als onderdeel van de eerste stap van de beoordeling moeten worden beschouwd, zijn noodzakelijk om een eerste selectie van de populatie van derde aanbieders van ICT-diensten uit te voeren waarvoor het relevant is een verdere diepgaande analyse uit te voeren in het licht van de kwalitatieve subcriteria die als onderdeel van de tweede stap van de beoordeling moeten worden beschouwd.",
+    "refs": [
+     {
+      "start": 136,
+      "end": 153,
+      "href": "/artikel/31#lid-2"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "number": 2,
+  "paragraphs": [
+   {
+    "text": "De mate waarin een door een derde aanbieder van ICT-diensten verleende ICT-dienst kritieke of belangrijke functies van de financiële entiteit ondersteunt, wordt beschouwd als een cruciaal element van de kriticiteitsbeoordeling in het algemeen. Daarom moet het belang van de activiteiten van de financiële entiteiten die door ICT-diensten worden ondersteund, worden geïntegreerd in alle subcriteria die als onderdeel van de eerste stap in aanmerking worden genomen. Bijgevolg mag er in het kader van de eerste stap van de beoordeling geen afzonderlijke kwantitatieve beoordeling zijn met betrekking tot het kritieke karakter van de functies van de financiële entiteiten. In plaats daarvan is het passend dat de ETA’s het kritieke karakter en het belang van de functies van de door ICT-diensten ondersteunde financiële entiteiten in aanmerking nemen als onderdeel van de kwalitatieve tweede stap van de beoordeling."
+   }
+  ]
+ },
+ {
+  "number": 3,
+  "paragraphs": [
+   {
+    "text": "De beoordeling moet worden uitgevoerd per individuele derde aanbieder van ICT-diensten of, in voorkomend geval, per groep van derde aanbieders van ICT-diensten indien de derde aanbieder van ICT-diensten tot een groep behoort overeenkomstig artikel 31, lid 3, van Verordening (EU) 2022/2554. Om een uitgebreide beoordeling van de potentiële systemische effecten op de financiële sector van de Unie mogelijk te maken, moeten ICT-onderaannemers van derde aanbieders van ICT-diensten ook worden onderworpen aan de beoordeling door de ETA’s en, in voorkomend geval, worden aangewezen als kritieke derde aanbieder van ICT-diensten.",
+    "refs": [
+     {
+      "start": 240,
+      "end": 257,
+      "href": "/artikel/31#lid-3"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "number": 4,
+  "paragraphs": [
+   {
+    "text": "Om de systemische effecten van de derde aanbieder van ICT-diensten op de stabiliteit, continuïteit of kwaliteit van de verlening van financiële diensten te bepalen, is het van het grootste belang een duidelijk beeld te krijgen van de omvang en de aard van de systemische effecten die een grootschalige operationele verstoring van een derde aanbieder van ICT-diensten zou hebben voor financiële entiteiten die afhankelijk zijn van diensten van een derde aanbieder van ICT-diensten, en voor het financiële stelsel. Daarom is het passend na te gaan hoeveel financiële entiteiten van een specifieke categorie financiële entiteiten dezelfde ICT-diensten gebruiken, en welke waarde hun activa hebben, om te beoordelen of het relevant is om de derde aanbieder van ICT-diensten die deze ICT-diensten aanbiedt, als kritiek te beschouwen. Voorts moet een kwalitatieve beoordeling worden uitgevoerd van het systemische belang en de verwevenheid van derde aanbieders van ICT-diensten, alsook van het belang van de door een derde aanbieder van ICT-diensten verleende diensten voor de verlening van financiële diensten door financiële entiteiten, rekening houdend met de stabiliteit en de continuïteit van de diensten, om de systemische effecten van de derde aanbieder van ICT-diensten op de activiteiten van financiële entiteiten te bepalen."
+   }
+  ]
+ },
+ {
+  "number": 5,
+  "paragraphs": [
+   {
+    "text": "Om het systemische karakter en belang te bepalen van de financiële entiteiten die van de ICT-diensten afhankelijk zijn, moet rekening worden gehouden met de aard van die financiële entiteiten. Wanneer financiële entiteiten die als MSI’s en ASI’s zijn ingedeeld of als “systemisch” zijn aangemerkt, ter ondersteuning van hun kritieke of belangrijke functies van dezelfde ICT-diensten afhankelijk zijn, is het passend te beoordelen of de derde aanbieder van ICT-diensten die deze diensten verleent, als kritiek voor de financiële sector van de Unie moet worden beschouwd. De verwevenheid tussen financiële entiteiten binnen de financiële sector van de Unie die afhankelijk zijn van ICT-diensten die door dezelfde derde aanbieder van ICT-diensten worden verleend, moet ook worden beoordeeld om te bepalen of financiële entiteiten afhankelijk zijn van die derde aanbieder van ICT-diensten."
+   }
+  ]
+ },
+ {
+  "number": 6,
+  "paragraphs": [
+   {
+    "text": "De ICT-diensten die kritieke of belangrijke functies van de financiële entiteiten ondersteunen, moeten worden beoordeeld met betrekking tot het type en de kritieke aard ervan die nodig zijn om de financiële entiteiten in staat te stellen hun activiteiten zonder verstoringen uit te voeren."
+   }
+  ]
+ },
+ {
+  "number": 7,
+  "paragraphs": [
+   {
+    "text": "In het kader van de beoordeling door de ETA’s moet, om te bepalen in hoeverre de derde aanbieder van ICT-diensten substitueerbaar is, rekening worden gehouden met het aantal derde aanbieders van ICT-diensten dat op een bepaalde markt actief is, met de vraag of alternatieve oplossingen voor dezelfde ICT-dienst voorhanden zijn, en met de kosten van de migratie van gegevens en ICT-werkbelasting naar andere derde aanbieders van ICT-diensten."
+   }
+  ]
+ },
+ {
+  "number": 8,
+  "paragraphs": [
+   {
+    "text": "Om de deugdelijkheid van het beoordelingsproces te waarborgen, is het belangrijk dat de ETA’s zich baseren op de gegevens uit de in artikel 28, lid 3, van Verordening (EU) 2022/2554 bedoelde informatieregisters en alle andere direct beschikbare informatie wanneer zij beoordelen of de derde aanbieders van ICT-diensten als kritiek moeten worden aangewezen,",
+    "refs": [
+     {
+      "start": 132,
+      "end": 149,
+      "href": "/artikel/28#lid-3"
+     }
+    ]
+   }
+  ]
+ }
+]
