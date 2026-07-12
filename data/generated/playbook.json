@@ -1,0 +1,255 @@
+{
+ "entiteit": {
+  "meta": {
+   "version": 1,
+   "kind": "entiteit",
+   "title": "DORA-playbook — financiële entiteit",
+   "updated": "2026-07-12",
+   "basis": "Verordening (EU) 2022/2554 (DORA) en alle twaalf gepubliceerde level-2-handelingen (RTS/ITS/gedelegeerde verordeningen)",
+   "disclaimer": "Dit playbook is een redactioneel hulpmiddel en vervangt de verordening niet. Elke stap verwijst naar de onderliggende bepalingen; raadpleeg de gelinkte tekst en zo nodig een adviseur. Aan dit playbook kunnen geen rechten worden ontleend."
+  },
+  "begrippen": [],
+  "fases": [
+   {
+    "id": "f0",
+    "nr": 0,
+    "titel": "Scope en regimebepaling",
+    "intro": "Stel vast of en hoe DORA op uw organisatie van toepassing is: entiteitstype, uitsluitingen, evenredigheidsregime (volledig, vereenvoudigd of micro). Gebruik de zelfbeoordeling onder /assessment voor een gestructureerde uitkomst.",
+    "instrumenten": [
+     "dora"
+    ],
+    "stappen": []
+   },
+   {
+    "id": "f1",
+    "nr": 1,
+    "titel": "Begrippenkader",
+    "intro": "De 65 definities van artikel 3 DORA bepalen de reikwijdte van elke verplichting. Dit hoofdstuk ontsluit ze als werkwoordenlijst; de definitieartikelen van de level-2-handelingen zijn opgenomen in het dekkingsregister.",
+    "instrumenten": [
+     "dora"
+    ],
+    "stappen": []
+   },
+   {
+    "id": "f2",
+    "nr": 2,
+    "titel": "Governance en organisatie",
+    "intro": "Het leidinggevend orgaan draagt de eindverantwoordelijkheid voor het ICT-risicobeheer (artikel 5 DORA): rollen, goedkeuringen, budget en opleiding.",
+    "instrumenten": [
+     "dora",
+     "risicobeheer"
+    ],
+    "stappen": []
+   },
+   {
+    "id": "f3",
+    "nr": 3,
+    "titel": "ICT-risicobeheerkader",
+    "intro": "Het volledige kader van artikel 6–15 DORA, uitgewerkt in Gedelegeerde Verordening (EU) 2024/1774. Entiteiten onder artikel 16 volgen het vereenvoudigde kader (artikel 28–41 van die verordening).",
+    "instrumenten": [
+     "dora",
+     "risicobeheer"
+    ],
+    "stappen": []
+   },
+   {
+    "id": "f4",
+    "nr": 4,
+    "titel": "ICT-incidenten: beheer, classificatie en rapportage",
+    "intro": "Incidentbeheerproces (artikel 17), classificatie (artikel 18 + GV 2024/1772), melding aan de autoriteit (artikel 19–23, GV 2025/301, UV 2025/302).",
+    "instrumenten": [
+     "dora",
+     "classificatie",
+     "rapportage",
+     "formulieren"
+    ],
+    "stappen": []
+   },
+   {
+    "id": "f5",
+    "nr": 5,
+    "titel": "Testen van digitale weerbaarheid en TLPT",
+    "intro": "Testprogramma (artikel 24–25) en dreigingsgestuurde penetratietests (artikel 26–27, GV 2025/1190).",
+    "instrumenten": [
+     "dora",
+     "tlpt"
+    ],
+    "stappen": []
+   },
+   {
+    "id": "f6",
+    "nr": 6,
+    "titel": "ICT-risico van derde aanbieders (TPRM)",
+    "intro": "Beheer van ICT-derderisico (artikel 28–30), contractbeleid (GV 2024/1773), onderaanneming (GV 2025/532) en het informatieregister (UV 2024/2956; werkbank onder /register).",
+    "instrumenten": [
+     "dora",
+     "contractbeleid",
+     "rts",
+     "its"
+    ],
+    "stappen": []
+   },
+   {
+    "id": "f7",
+    "nr": 7,
+    "titel": "Informatie-uitwisseling",
+    "intro": "Vrijwillige uitwisseling van cyberdreigingsinformatie tussen financiële entiteiten (artikel 45).",
+    "instrumenten": [
+     "dora"
+    ],
+    "stappen": []
+   },
+   {
+    "id": "f8",
+    "nr": 8,
+    "titel": "Oversight-interactie",
+    "intro": "Wat het oversightkader voor kritieke derde aanbieders (artikel 31 e.v.) betekent voor de entiteit zelf, waaronder het gebruik van niet-aangewezen aanbieders (artikel 31, lid 12).",
+    "instrumenten": [
+     "dora",
+     "criticaliteit"
+    ],
+    "stappen": []
+   }
+  ]
+ },
+ "aanbieder": {
+  "meta": {
+   "version": 1,
+   "kind": "aanbieder",
+   "title": "DORA-playbook — derde aanbieder van ICT-diensten (incl. CTPP)",
+   "updated": "2026-07-12",
+   "basis": "Verordening (EU) 2022/2554 (art. 28–44); GV (EU) 2024/1502 (criticaliteitscriteria); GV (EU) 2024/1773 (contractbeleid); GV (EU) 2025/532 (onderaanneming); GV (EU) 2025/295 (oversight); GV (EU) 2024/1505 (vergoedingen); GV (EU) 2025/420 (onderzoeksteams)",
+   "disclaimer": "Dit playbook is een redactioneel hulpmiddel en vervangt de verordening niet. Elke stap verwijst naar de onderliggende bepalingen; raadpleeg de gelinkte tekst en zo nodig een adviseur. Aan dit playbook kunnen geen rechten worden ontleend."
+  },
+  "fases": [
+   {
+    "id": "f1",
+    "nr": 1,
+    "titel": "Positiebepaling",
+    "intro": "Bepaal uw positie onder DORA: bent u een derde aanbieder van ICT-diensten, ondersteunt u kritieke of belangrijke functies, en komt u in beeld voor aanwijzing als kritieke derde aanbieder (CTPP) op basis van de criticaliteitscriteria van GV (EU) 2024/1502?",
+    "instrumenten": [
+     "dora",
+     "criticaliteit"
+    ],
+    "stappen": []
+   },
+   {
+    "id": "f2",
+    "nr": 2,
+    "titel": "Contractuele gereedheid",
+    "intro": "De contractuele minimumbepalingen van artikel 30 DORA en het contractbeleid van uw financiële klanten (GV 2024/1773), bezien vanaf de aanbiederszijde.",
+    "instrumenten": [
+     "dora",
+     "contractbeleid"
+    ],
+    "stappen": []
+   },
+   {
+    "id": "f3",
+    "nr": 3,
+    "titel": "Onderaanneming",
+    "intro": "Voorwaarden voor onderaanneming van ICT-diensten die kritieke of belangrijke functies ondersteunen (GV (EU) 2025/532).",
+    "instrumenten": [
+     "dora",
+     "rts"
+    ],
+    "stappen": []
+   },
+   {
+    "id": "f4",
+    "nr": 4,
+    "titel": "Klantverplichtingen ondersteunen",
+    "intro": "Wat financiële klanten van u nodig hebben om zelf aan DORA te voldoen: gegevens voor het informatieregister, medewerking bij incidenten en deelname aan (TLPT-)tests.",
+    "instrumenten": [
+     "dora",
+     "its",
+     "tlpt"
+    ],
+    "stappen": []
+   },
+   {
+    "id": "f5",
+    "nr": 5,
+    "titel": "CTPP-oversightregime",
+    "intro": "Voor (kandidaat-)kritieke derde aanbieders: het aanwijzingsproces, oversightvergoedingen, onderzoeken en inspecties, aanbevelingen en remediëring (artikel 31–44 DORA en de bijbehorende level-2-handelingen).",
+    "instrumenten": [
+     "dora",
+     "criticaliteit",
+     "vergoedingen",
+     "oversight",
+     "onderzoeksteams"
+    ],
+    "stappen": []
+   }
+  ]
+ },
+ "coverage": {
+  "meta": {
+   "version": 1,
+   "complete": false
+  },
+  "instruments": {
+   "dora": {
+    "artikelen": {},
+    "bijlagen": {}
+   },
+   "its": {
+    "artikelen": {},
+    "bijlagen": {}
+   },
+   "rts": {
+    "artikelen": {},
+    "bijlagen": {}
+   },
+   "risicobeheer": {
+    "artikelen": {},
+    "bijlagen": {}
+   },
+   "classificatie": {
+    "artikelen": {},
+    "bijlagen": {}
+   },
+   "rapportage": {
+    "artikelen": {},
+    "bijlagen": {}
+   },
+   "formulieren": {
+    "artikelen": {},
+    "bijlagen": {}
+   },
+   "tlpt": {
+    "artikelen": {},
+    "bijlagen": {}
+   },
+   "contractbeleid": {
+    "artikelen": {},
+    "bijlagen": {}
+   },
+   "criticaliteit": {
+    "artikelen": {},
+    "bijlagen": {}
+   },
+   "vergoedingen": {
+    "artikelen": {},
+    "bijlagen": {}
+   },
+   "oversight": {
+    "artikelen": {},
+    "bijlagen": {}
+   },
+   "onderzoeksteams": {
+    "artikelen": {},
+    "bijlagen": {}
+   }
+  }
+ },
+ "byStep": {},
+ "counts": {
+  "steps": {
+   "entiteit": 0,
+   "aanbieder": 0
+  },
+  "coverageEntries": 0,
+  "dispositions": {}
+ }
+}

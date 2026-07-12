@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "version": 1,
+    "kind": "aanbieder",
+    "title": "DORA-playbook — derde aanbieder van ICT-diensten (incl. CTPP)",
+    "updated": "2026-07-12",
+    "basis": "Verordening (EU) 2022/2554 (art. 28–44); GV (EU) 2024/1502 (criticaliteitscriteria); GV (EU) 2024/1773 (contractbeleid); GV (EU) 2025/532 (onderaanneming); GV (EU) 2025/295 (oversight); GV (EU) 2024/1505 (vergoedingen); GV (EU) 2025/420 (onderzoeksteams)",
+    "disclaimer": "Dit playbook is een redactioneel hulpmiddel en vervangt de verordening niet. Elke stap verwijst naar de onderliggende bepalingen; raadpleeg de gelinkte tekst en zo nodig een adviseur. Aan dit playbook kunnen geen rechten worden ontleend."
+  },
+  "fases": [
+    {
+      "id": "f1",
+      "nr": 1,
+      "titel": "Positiebepaling",
+      "intro": "Bepaal uw positie onder DORA: bent u een derde aanbieder van ICT-diensten, ondersteunt u kritieke of belangrijke functies, en komt u in beeld voor aanwijzing als kritieke derde aanbieder (CTPP) op basis van de criticaliteitscriteria van GV (EU) 2024/1502?",
+      "instrumenten": ["dora", "criticaliteit"],
+      "stappen": []
+    },
+    {
+      "id": "f2",
+      "nr": 2,
+      "titel": "Contractuele gereedheid",
+      "intro": "De contractuele minimumbepalingen van artikel 30 DORA en het contractbeleid van uw financiële klanten (GV 2024/1773), bezien vanaf de aanbiederszijde.",
+      "instrumenten": ["dora", "contractbeleid"],
+      "stappen": []
+    },
+    {
+      "id": "f3",
+      "nr": 3,
+      "titel": "Onderaanneming",
+      "intro": "Voorwaarden voor onderaanneming van ICT-diensten die kritieke of belangrijke functies ondersteunen (GV (EU) 2025/532).",
+      "instrumenten": ["dora", "rts"],
+      "stappen": []
+    },
+    {
+      "id": "f4",
+      "nr": 4,
+      "titel": "Klantverplichtingen ondersteunen",
+      "intro": "Wat financiële klanten van u nodig hebben om zelf aan DORA te voldoen: gegevens voor het informatieregister, medewerking bij incidenten en deelname aan (TLPT-)tests.",
+      "instrumenten": ["dora", "its", "tlpt"],
+      "stappen": []
+    },
+    {
+      "id": "f5",
+      "nr": 5,
+      "titel": "CTPP-oversightregime",
+      "intro": "Voor (kandidaat-)kritieke derde aanbieders: het aanwijzingsproces, oversightvergoedingen, onderzoeken en inspecties, aanbevelingen en remediëring (artikel 31–44 DORA en de bijbehorende level-2-handelingen).",
+      "instrumenten": ["dora", "criticaliteit", "vergoedingen", "oversight", "onderzoeksteams"],
+      "stappen": []
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "meta": { "version": 1, "complete": false },
+  "instruments": {
+    "dora": { "artikelen": {}, "bijlagen": {} },
+    "its": { "artikelen": {}, "bijlagen": {} },
+    "rts": { "artikelen": {}, "bijlagen": {} },
+    "risicobeheer": { "artikelen": {}, "bijlagen": {} },
+    "classificatie": { "artikelen": {}, "bijlagen": {} },
+    "rapportage": { "artikelen": {}, "bijlagen": {} },
+    "formulieren": { "artikelen": {}, "bijlagen": {} },
+    "tlpt": { "artikelen": {}, "bijlagen": {} },
+    "contractbeleid": { "artikelen": {}, "bijlagen": {} },
+    "criticaliteit": { "artikelen": {}, "bijlagen": {} },
+    "vergoedingen": { "artikelen": {}, "bijlagen": {} },
+    "oversight": { "artikelen": {}, "bijlagen": {} },
+    "onderzoeksteams": { "artikelen": {}, "bijlagen": {} }
+  }
+}
