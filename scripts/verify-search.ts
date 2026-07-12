@@ -76,6 +76,19 @@ const GOLDEN: Golden[] = [
   { q: "soort ICT-diensten", topN: { id: "its-anx-iii-1", n: 3 } },
   // typeahead surface: typo tolerance (fuzzy) and mid-word prefix
   { q: "informatieregster", surface: "site", top1: "its-anx-i-", note: "fuzzy match still reaches informatieregister docs" },
+  // epic 10: the ten level-2 acts — one reference + one domain query each
+  { q: "tlpt artikel 3", top1: "tlpt-art-3-" },
+  { q: "classificatie artikel 9", top1: "classificatie-art-9-" },
+  { q: "risicobeheer artikel 22", top1: "risicobeheer-art-22-" },
+  { q: "formulieren bijlage i", top1: "formulieren-anx-i-" },
+  { q: "materialiteitsdrempel cliënten tegenpartijen", topN: { id: "classificatie-art-9-lid-1", n: 3 } },
+  { q: "eerste kennisgeving vier uur", topN: { id: "rapportage-art-5-lid-1", n: 3 } },
+  { q: "oversightvergoedingen berekening omzet", topN: { id: "vergoedingen-art-2-lid-1", n: 5 } },
+  { q: "gezamenlijk onderzoeksteam samenstelling", topN: { id: "onderzoeksteams-art-2-lid-2", n: 5 } },
+  { q: "mate van substitueerbaarheid", topN: { id: "criticaliteit-art-5-lid-1", n: 5 } },
+  { q: "scoping-document", topN: { id: "tlpt-anx-ii-punt-1", n: 5 } },
+  { q: "beleid contractuele overeenkomsten inhoud", topN: { id: "contractbeleid-art-8-lid-3", n: 5 } },
+  { q: "aanbevelingen lead overseer beoordeling", topN: { id: "oversight-art-6-lid-1", n: 5 } },
 ];
 
 for (const g of GOLDEN) {

@@ -1,5 +1,46 @@
 import Link from "next/link";
 import { getToc } from "@/lib/data";
+import { INSTRUMENTS, type InstrumentId } from "@/lib/instruments";
+
+/** One-line topic per satellite, shown in the level-2 index on the homepage. */
+const TAGLINE: Record<Exclude<InstrumentId, "dora">, string> = {
+  risicobeheer:
+    "Uitwerking van het ICT-risicobeheerkader en het vereenvoudigde raamwerk (art. 15 en 16, lid 3)",
+  classificatie:
+    "Classificatie van incidenten en cyberdreigingen, materialiteitsdrempels (art. 18)",
+  rapportage: "Inhoud en termijnen van incidentmeldingen: 4u/24u, 72u, één maand (art. 20)",
+  formulieren: "Meldformulieren en procedures voor incidenten en dreigingen (art. 20)",
+  tlpt: "Dreigingsgestuurde penetratietests: wie moet testen, scope en fasen (art. 26, lid 11)",
+  its: "Templates voor het informatieregister en de S01–S19-taxonomie (art. 28, lid 9)",
+  contractbeleid:
+    "Beleid inzake contractuele overeenkomsten voor KOF-diensten (art. 28, lid 10)",
+  rts: "Onderaanneming van ICT-diensten die kritieke functies ondersteunen (art. 30, lid 5)",
+  criticaliteit: "Criteria voor de aanwijzing van kritieke derde aanbieders (art. 31, lid 6)",
+  oversight: "Uitoefening van de oversightactiviteiten door de lead overseer (art. 41)",
+  onderzoeksteams: "Samenstelling van de gezamenlijke onderzoeksteams (art. 41, lid 1, punt c))",
+  vergoedingen: "Oversightvergoedingen voor kritieke derde aanbieders (art. 43, lid 2)",
+};
+
+const SATELLITE_GROUPS: {
+  title: string;
+  themes: { name: string; ids: Exclude<InstrumentId, "dora">[] }[];
+}[] = [
+  {
+    title: "Level 2 — voor financiële entiteiten",
+    themes: [
+      { name: "Risicobeheer", ids: ["risicobeheer"] },
+      { name: "Incidenten", ids: ["classificatie", "rapportage", "formulieren"] },
+      { name: "Testen", ids: ["tlpt"] },
+      { name: "Derde aanbieders", ids: ["its", "contractbeleid", "rts"] },
+    ],
+  },
+  {
+    title: "Level 2 — oversight van kritieke derde aanbieders",
+    themes: [
+      { name: "Oversight", ids: ["criticaliteit", "oversight", "onderzoeksteams", "vergoedingen"] },
+    ],
+  },
+];
 
 export default function Home() {
   const toc = getToc();
@@ -19,28 +60,44 @@ export default function Home() {
         </p>
       </header>
 
-      <section aria-label="Uitvoeringshandelingen" className="mb-10 grid gap-3 sm:grid-cols-2">
-        <Link
-          href="/its-register"
-          className="group rounded-lg border border-line p-4 hover:border-accent"
-        >
-          <p className="font-semibold group-hover:text-accent">RoI-ITS</p>
-          <p className="mt-1 text-sm text-muted">
-            Uitvoeringsverordening (EU) 2024/2956 — de templates voor het
-            informatieregister (art. 28, lid 3) en de S01–S19-taxonomie.
-          </p>
-        </Link>
-        <Link
-          href="/rts-onderaanneming"
-          className="group rounded-lg border border-line p-4 hover:border-accent"
-        >
-          <p className="font-semibold group-hover:text-accent">Onderaannemings-RTS</p>
-          <p className="mt-1 text-sm text-muted">
-            Gedelegeerde Verordening (EU) 2025/532 — voorwaarden voor
-            onderaanneming van ICT-diensten die kritieke of belangrijke functies
-            ondersteunen (art. 30, lid 5).
-          </p>
-        </Link>
+      <section aria-label="Uitvoeringshandelingen" className="mb-10 space-y-6">
+        {SATELLITE_GROUPS.map((group) => (
+          <div key={group.title}>
+            <h2 className="border-b border-line pb-2 text-lg font-semibold">{group.title}</h2>
+            <div className="mt-3 space-y-4">
+              {group.themes.map((theme) => (
+                <div key={theme.name}>
+                  {group.themes.length > 1 && (
+                    <p className="text-xs font-medium uppercase tracking-wide text-muted">
+                      {theme.name}
+                    </p>
+                  )}
+                  <ul className="mt-1 space-y-1">
+                    {theme.ids.map((id) => {
+                      const spec = INSTRUMENTS[id];
+                      return (
+                        <li key={id}>
+                          <Link
+                            href={spec.routePrefix}
+                            className="group flex flex-col gap-x-3 rounded px-2 py-1 hover:bg-surface sm:flex-row sm:items-baseline"
+                          >
+                            <span className="w-56 shrink-0 font-medium group-hover:text-accent">
+                              {spec.label}{" "}
+                              <span className="text-xs font-normal text-muted">
+                                ({spec.citation.match(/\d{4}\/\d+/)?.[0]})
+                              </span>
+                            </span>
+                            <span className="text-sm text-muted">{TAGLINE[id]}</span>
+                          </Link>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
       </section>
 
       <nav aria-label="Volledige inhoudsopgave" className="space-y-8">

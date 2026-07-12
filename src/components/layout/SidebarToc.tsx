@@ -37,6 +37,57 @@ function ArticleLink({
   );
 }
 
+/** Collapsible list of the level-2 acts; auto-expands on a satellite page. */
+function SatelliteGroup({
+  pathname,
+  onNavigate,
+}: {
+  pathname: string;
+  onNavigate?: () => void;
+}) {
+  const activeSatellite = SATELLITE_IDS.find((id) => {
+    const prefix = INSTRUMENTS[id].routePrefix;
+    return pathname === prefix || pathname.startsWith(`${prefix}/`);
+  });
+  const [open, setOpen] = useState<boolean | null>(null);
+  const isOpen = open ?? activeSatellite !== undefined;
+  return (
+    <Collapsible.Root open={isOpen} onOpenChange={setOpen}>
+      <Collapsible.Trigger className="flex w-full items-center justify-between gap-2 rounded px-2 py-1.5 text-left font-medium hover:bg-surface">
+        <span>
+          Uitvoeringshandelingen{" "}
+          <span className="text-xs font-normal text-muted">({SATELLITE_IDS.length})</span>
+        </span>
+        <ChevronDown
+          className={cn("size-4 shrink-0 text-muted transition-transform", isOpen && "rotate-180")}
+          aria-hidden
+        />
+      </Collapsible.Trigger>
+      <Collapsible.Content className="ml-2 border-l border-line pl-2">
+        {SATELLITE_IDS.map((id) => {
+          const spec = INSTRUMENTS[id];
+          return (
+            <Link
+              key={id}
+              href={spec.routePrefix}
+              onClick={onNavigate}
+              className={cn(
+                "block rounded px-2 py-1 text-sm hover:bg-surface",
+                id === activeSatellite ? "font-medium text-accent" : "text-muted",
+              )}
+            >
+              {spec.label}{" "}
+              <span className="text-xs font-normal">
+                ({spec.citation.match(/\d{4}\/\d+/)?.[0]})
+              </span>
+            </Link>
+          );
+        })}
+      </Collapsible.Content>
+    </Collapsible.Root>
+  );
+}
+
 /** Collapsible chapter/section tree; current article's chapter auto-expands. */
 export function SidebarToc({ toc, onNavigate }: SidebarTocProps) {
   const pathname = usePathname();
@@ -127,27 +178,7 @@ export function SidebarToc({ toc, onNavigate }: SidebarTocProps) {
             Bijlagen <span className="text-xs font-normal text-muted">(I–{toc.annexes[toc.annexes.length - 1]?.roman})</span>
           </Link>
         )}
-        {SATELLITE_IDS.map((id) => {
-          const spec = INSTRUMENTS[id];
-          return (
-            <Link
-              key={id}
-              href={spec.routePrefix}
-              onClick={onNavigate}
-              className={cn(
-                "block rounded px-2 py-1.5 font-medium hover:bg-surface",
-                (pathname === spec.routePrefix ||
-                  pathname.startsWith(`${spec.routePrefix}/`)) &&
-                  "text-accent",
-              )}
-            >
-              {spec.label}{" "}
-              <span className="text-xs font-normal text-muted">
-                ({spec.citation.match(/\d{4}\/\d+/)?.[0]})
-              </span>
-            </Link>
-          );
-        })}
+        <SatelliteGroup pathname={pathname} onNavigate={onNavigate} />
         <Link
           href="/assessment"
           onClick={onNavigate}
