@@ -131,7 +131,207 @@
      "dora",
      "criticaliteit"
     ],
-    "stappen": []
+    "stappen": [
+     {
+      "id": "pa.p1",
+      "titel": "Breng uw voetafdruk in de financiële sector in kaart",
+      "doel": "Een actueel, gecategoriseerd beeld van welke financiële entiteiten uw ICT-diensten gebruiken voor kritieke of belangrijke functies, als datagrondslag voor de criticaliteitszelftoets.",
+      "acties": [
+       "Inventariseer alle klanten die financiële entiteit onder DORA zijn en label elke klant met de categorie van artikel 2, lid 1, DORA.",
+       "Markeer per klant welke van uw ICT-diensten volgens contract en informatieregister kritieke of belangrijke functies ondersteunen.",
+       "Registreer per klant of deze als MSI of ASI is ingedeeld dan wel door een bevoegde autoriteit als systeemrelevant is aangemerkt; gebruik de publieke G-SII-/O-SII-lijsten van de EBA en nationale autoriteiten en vraag zo nodig uit via accountmanagement.",
+       "Leg vast welke onderaannemers u inzet voor de diensten die kritieke of belangrijke functies van deze klanten ondersteunen (subcriterium 1.4)."
+      ],
+      "bewijsstukken": [
+       "Klantenoverzicht per DORA-categorie met markering kritieke/belangrijke functies en MSI-/ASI-status",
+       "Overzicht ingezette onderaannemers per dienst"
+      ],
+      "rollen": [
+       "sales/accountmanagement",
+       "compliance",
+       "risk"
+      ],
+      "refs": [
+       {
+        "label": "Art. 2, lid 1 GV 2024/1502",
+        "href": "/criticaliteitscriteria/artikel/2#lid-1"
+       },
+       {
+        "label": "Art. 2, lid 5 GV 2024/1502",
+        "href": "/criticaliteitscriteria/artikel/2#lid-5"
+       },
+       {
+        "label": "Art. 3, lid 1 GV 2024/1502",
+        "href": "/criticaliteitscriteria/artikel/3#lid-1"
+       },
+       {
+        "label": "Art. 5, lid 1 GV 2024/1502",
+        "href": "/criticaliteitscriteria/artikel/5#lid-1"
+       }
+      ],
+      "appliesTo": [
+       "aanbieder",
+       "ctpp"
+      ],
+      "prioriteit": "fundament"
+     },
+     {
+      "id": "pa.p2",
+      "titel": "Voer de kwantitatieve stap 1-zelftoets uit",
+      "doel": "Inschatten of u de kwantitatieve 'stap 1'-drempels haalt waarmee de ETA's aanbieders selecteren voor de diepgaande stap 2-beoordeling.",
+      "acties": [
+       "Bereken per categorie financiële entiteiten uw aandeel in het aantal entiteiten én in de totale activawaarde voor diensten die kritieke of belangrijke functies ondersteunen (subcriteria 1.1 en 1.2); beide aandelen moeten ten minste 10 % zijn voor ten minste één categorie (artikel 2, lid 4: 'elk berekend aandeel').",
+       "Tel de MSI's en ASI's onder uw kredietinstelling-klanten en toets aan de drempels van subcriterium 2.1: één MSI, ten minste drie ASI's, of één ASI met een score boven 3 000.",
+       "Toets subcriterium 2.2: één systeemrelevant aangemerkte entiteit van categorie g)–j) van artikel 2, lid 1, DORA, óf ten minste drie systeemrelevant aangemerkte financiële entiteiten die geen kredietinstelling en geen g)–j)-entiteit zijn.",
+       "Schat per categorie het aandeel klanten zonder alternatieve aanbieder met de vereiste capaciteit (4.1) en het aandeel waarvoor migratie zeer moeilijk is (4.2); haalt één van beide de 10 %, dan gelden beide subcriteria als vervuld (artikel 5, lid 4).",
+       "Leg per subcriterium de berekening, brondata en peildatum vast; benader EU-brede noemers met publieke ECB-/EBA-statistieken (schatting, geen officiële uitkomst) en herhaal de toets bij materiële wijzigingen in de klantportefeuille."
+      ],
+      "bewijsstukken": [
+       "Berekeningsdossier per subcriterium (1.1, 1.2, 2.1, 2.2, 4.1, 4.2) met brondata en peildatum",
+       "Managementrapportage met conclusie over het verwachte stap 1-resultaat"
+      ],
+      "rollen": [
+       "risk",
+       "compliance",
+       "sales/accountmanagement"
+      ],
+      "refs": [
+       {
+        "label": "Art. 1, lid 1 GV 2024/1502",
+        "href": "/criticaliteitscriteria/artikel/1#lid-1"
+       },
+       {
+        "label": "Art. 2, lid 2 GV 2024/1502",
+        "href": "/criticaliteitscriteria/artikel/2#lid-2"
+       },
+       {
+        "label": "Art. 2, lid 3 GV 2024/1502",
+        "href": "/criticaliteitscriteria/artikel/2#lid-3"
+       },
+       {
+        "label": "Art. 2, lid 4 GV 2024/1502",
+        "href": "/criticaliteitscriteria/artikel/2#lid-4"
+       },
+       {
+        "label": "Art. 3, lid 2 GV 2024/1502",
+        "href": "/criticaliteitscriteria/artikel/3#lid-2"
+       },
+       {
+        "label": "Art. 3, lid 3 GV 2024/1502",
+        "href": "/criticaliteitscriteria/artikel/3#lid-3"
+       },
+       {
+        "label": "Art. 5, lid 2 GV 2024/1502",
+        "href": "/criticaliteitscriteria/artikel/5#lid-2"
+       },
+       {
+        "label": "Art. 5, lid 3 GV 2024/1502",
+        "href": "/criticaliteitscriteria/artikel/5#lid-3"
+       },
+       {
+        "label": "Art. 5, lid 4 GV 2024/1502",
+        "href": "/criticaliteitscriteria/artikel/5#lid-4"
+       }
+      ],
+      "appliesTo": [
+       "aanbieder",
+       "ctpp"
+      ],
+      "prioriteit": "kern",
+      "afhankelijkVan": [
+       "pa.p1"
+      ]
+     },
+     {
+      "id": "pa.p3",
+      "titel": "Beoordeel de kwalitatieve stap 2-factoren",
+      "doel": "Weten welke kwalitatieve factoren de aanwijzingskans bepalen zodra de stap 1-drempels zijn gehaald, en de gevoeligste punten aantoonbaar mitigeren.",
+      "acties": [
+       "Analyseer de impact van een stopzetting van uw dienstverlening op de getroffen financiële entiteiten en hun aantal (subcriterium 1.3) en documenteer de continuïteits- en exitvoorzieningen die deze impact beperken.",
+       "Beoordeel uw afhankelijkheid van dezelfde onderaannemers voor diensten die kritieke of belangrijke functies ondersteunen (subcriterium 1.4) en reduceer single points of failure in de keten.",
+       "Breng in kaart of uw MSI-/ASI-klanten financiële-infrastructuurdiensten leveren aan andere financiële entiteiten die van dezelfde dienst afhankelijk zijn, en dus onderling verweven zijn (subcriterium 2.3).",
+       "Bepaal per dienst hoe kritiek deze uiteindelijk is voor de bedrijfsactiviteiten van uw klanten (subcriterium 3.1; let op: dit criterium kent geen eigen stap 1-drempel — de stap 1-uitkomst van de criteria a), b) en d) geldt) en onderbouw dit met de functieclassificatie uit de klantcontracten.",
+       "Onderbouw de substitueerbaarheid per dienst: reële (ook gedeeltelijke) alternatieven, uw marktaandeel, technische complexiteit en eigendomstechnologie (artikel 5, lid 5, jo. artikel 31, lid 2, punt d), i), DORA)."
+      ],
+      "bewijsstukken": [
+       "Impact- en verwevenheidsanalyse per ICT-dienst",
+       "Overzicht onderaannemersafhankelijkheden met mitigerende maatregelen",
+       "Substitueerbaarheidsonderbouwing per dienst"
+      ],
+      "rollen": [
+       "risk",
+       "CISO",
+       "juridisch"
+      ],
+      "refs": [
+       {
+        "label": "Art. 2, lid 5 GV 2024/1502",
+        "href": "/criticaliteitscriteria/artikel/2#lid-5"
+       },
+       {
+        "label": "Art. 3, lid 4 GV 2024/1502",
+        "href": "/criticaliteitscriteria/artikel/3#lid-4"
+       },
+       {
+        "label": "Art. 4 GV 2024/1502",
+        "href": "/criticaliteitscriteria/artikel/4#inhoud"
+       },
+       {
+        "label": "Art. 5, lid 5 GV 2024/1502",
+        "href": "/criticaliteitscriteria/artikel/5#lid-5"
+       },
+       {
+        "label": "Art. 31, lid 2 DORA",
+        "href": "/artikel/31#lid-2"
+       }
+      ],
+      "appliesTo": [
+       "aanbieder",
+       "ctpp"
+      ],
+      "prioriteit": "kern",
+      "afhankelijkVan": [
+       "pa.p2"
+      ]
+     },
+     {
+      "id": "pa.p4",
+      "titel": "Bewaak de registerdata over uw diensten",
+      "doel": "Zorgen dat de informatieregisters van klanten — de primaire databron van de ETA's voor de criticaliteitsbeoordeling — uw diensten, functieondersteuning en onderaannemers correct weergeven.",
+      "acties": [
+       "Lever klanten tijdig en gestructureerd de gegevens aan die zij nodig hebben voor hun informatieregister (dienstidentificatie, ondersteunde functies, onderaannemersketen).",
+       "Controleer bij elke contract- of dienstwijziging of de kwalificatie 'ondersteunt kritieke of belangrijke functies' nog klopt en laat correcties aantoonbaar doorvoeren.",
+       "Plan de jaarlijkse actualisatie van deze gegevens vóór 31 december, omdat de ETA's rekenen met de gegevens die uiterlijk dan beschikbaar zijn."
+      ],
+      "bewijsstukken": [
+       "Aanleverdossier registerdata per klant",
+       "Wijzigingslog van contract- en dienstgegevens"
+      ],
+      "rollen": [
+       "sales/accountmanagement",
+       "compliance"
+      ],
+      "refs": [
+       {
+        "label": "Art. 6, lid 1 GV 2024/1502",
+        "href": "/criticaliteitscriteria/artikel/6#lid-1"
+       },
+       {
+        "label": "Art. 6, lid 2 GV 2024/1502",
+        "href": "/criticaliteitscriteria/artikel/6#lid-2"
+       },
+       {
+        "label": "Art. 28, lid 3 DORA",
+        "href": "/artikel/28#lid-3"
+       }
+      ],
+      "appliesTo": [
+       "aanbieder",
+       "ctpp"
+      ],
+      "prioriteit": "kern"
+     }
+    ]
    },
    {
     "id": "f2",
@@ -179,7 +379,51 @@
      "oversight",
      "onderzoeksteams"
     ],
-    "stappen": []
+    "stappen": [
+     {
+      "id": "pa.p5",
+      "titel": "Bereid u voor op een mogelijke CTPP-aanwijzing",
+      "doel": "Klaarstaan om binnen de wettelijke termijn te reageren op een voorgenomen aanwijzing en de overgang naar het oversightregime beheerst te starten.",
+      "acties": [
+       "Wijs een interne verantwoordelijke en escalatielijn aan voor correspondentie van de ETA's over de criticaliteitsbeoordeling.",
+       "Houd een dossier voor een met redenen omklede verklaring indieningsklaar, onderbouwd met uw stap 1- en stap 2-zelftoets; na kennisgeving van een voorgenomen aanwijzing hebt u zes weken om in te dienen en kan de lead overseer binnen 30 kalenderdagen om aanvullende informatie verzoeken (artikel 31, lid 5, DORA).",
+       "Volg de aanwijzingscyclus van het Gemengd Comité en de aanbevelingen van het toezichtforum en actualiseer uw zelftoets vóór elke cyclus.",
+       "Houd uw onderaannemersanalyse actueel: de lead overseer past subcriterium 1.4 (afhankelijkheid van dezelfde onderaannemers) sinds 16 januari 2025 toe."
+      ],
+      "bewijsstukken": [
+       "Draaiboek reactie op voorgenomen aanwijzing",
+       "Indieningsklaar conceptdossier met redenen omklede verklaring"
+      ],
+      "rollen": [
+       "bestuur",
+       "juridisch",
+       "compliance"
+      ],
+      "refs": [
+       {
+        "label": "Art. 1, lid 2 GV 2024/1502",
+        "href": "/criticaliteitscriteria/artikel/1#lid-2"
+       },
+       {
+        "label": "Art. 7 GV 2024/1502",
+        "href": "/criticaliteitscriteria/artikel/7#inhoud"
+       },
+       {
+        "label": "Art. 31, lid 5 DORA",
+        "href": "/artikel/31#lid-5"
+       }
+      ],
+      "appliesTo": [
+       "aanbieder",
+       "ctpp"
+      ],
+      "prioriteit": "verdieping",
+      "afhankelijkVan": [
+       "pa.p2",
+       "pa.p3"
+      ]
+     }
+    ]
    }
   ]
  },
@@ -226,7 +470,168 @@
     "bijlagen": {}
    },
    "criticaliteit": {
-    "artikelen": {},
+    "artikelen": {
+     "1": {
+      "lid-1": {
+       "disposition": "stap",
+       "steps": [
+        "pa.p2",
+        "pa.p3"
+       ],
+       "note": "Twee-stapsbenadering: eerst de kwantitatieve stap 1-subcriteria, daarna de kwalitatieve stap 2-beoordeling. Afwijking voor criterium c): stap 1 bestaat daar uit de beoordeling van de criteria a), b) en d) — subcriterium 3.1 kent geen eigen stap 1-drempel.",
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "autoriteit",
+       "steps": [
+        "pa.p5"
+       ],
+       "note": "De ETA's wijzen via het Gemengd Comité, op aanbeveling van het toezichtforum en na afloop van de termijn voor een met redenen omklede verklaring (art. 31, lid 5 DORA), een aanbieder als kritiek aan. Bepaalt wanneer de aanwijzing formeel valt en binnen welk venster de aanbieder kan reageren.",
+       "reviewed": false
+      }
+     },
+     "2": {
+      "lid-1": {
+       "disposition": "stap",
+       "steps": [
+        "pa.p1",
+        "pa.p2"
+       ],
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "stap",
+       "steps": [
+        "pa.p2"
+       ],
+       "reviewed": false
+      },
+      "lid-3": {
+       "disposition": "stap",
+       "steps": [
+        "pa.p2"
+       ],
+       "reviewed": false
+      },
+      "lid-4": {
+       "disposition": "stap",
+       "steps": [
+        "pa.p2"
+       ],
+       "reviewed": false
+      },
+      "lid-5": {
+       "disposition": "stap",
+       "steps": [
+        "pa.p3"
+       ],
+       "reviewed": false
+      }
+     },
+     "3": {
+      "lid-1": {
+       "disposition": "stap",
+       "steps": [
+        "pa.p1",
+        "pa.p2"
+       ],
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "stap",
+       "steps": [
+        "pa.p2"
+       ],
+       "reviewed": false
+      },
+      "lid-3": {
+       "disposition": "stap",
+       "steps": [
+        "pa.p2"
+       ],
+       "reviewed": false
+      },
+      "lid-4": {
+       "disposition": "stap",
+       "steps": [
+        "pa.p3"
+       ],
+       "reviewed": false
+      }
+     },
+     "4": {
+      "inhoud": {
+       "disposition": "stap",
+       "steps": [
+        "pa.p3"
+       ],
+       "reviewed": false
+      }
+     },
+     "5": {
+      "lid-1": {
+       "disposition": "stap",
+       "steps": [
+        "pa.p1",
+        "pa.p2"
+       ],
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "stap",
+       "steps": [
+        "pa.p2"
+       ],
+       "reviewed": false
+      },
+      "lid-3": {
+       "disposition": "stap",
+       "steps": [
+        "pa.p2"
+       ],
+       "reviewed": false
+      },
+      "lid-4": {
+       "disposition": "stap",
+       "steps": [
+        "pa.p2"
+       ],
+       "reviewed": false
+      },
+      "lid-5": {
+       "disposition": "stap",
+       "steps": [
+        "pa.p3"
+       ],
+       "reviewed": false
+      }
+     },
+     "6": {
+      "lid-1": {
+       "disposition": "autoriteit",
+       "steps": [
+        "pa.p4"
+       ],
+       "note": "De ETA's beoordelen het kritieke karakter op basis van de informatieregisters (art. 28, lid 3 DORA) van uw klanten, aangevuld met andere beschikbare gegevens; de kwaliteit van die registerdata bepaalt dus mede uw beoordeling.",
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "autoriteit",
+       "steps": [
+        "pa.p4"
+       ],
+       "note": "Jaarlijkse peildatum: de ETA's rekenen met de meest recente gegevens van het beoordelingsjaar of met gegevens die uiterlijk 31 december van het voorafgaande jaar beschikbaar zijn gesteld — actualisatie van klantregisterdata vóór die datum telt mee.",
+       "reviewed": false
+      }
+     },
+     "7": {
+      "inhoud": {
+       "disposition": "slotbepaling",
+       "note": "Naast de standaard inwerkingtreding één materiële datum: de lead overseer past subcriterium 1.4 (afhankelijkheid van dezelfde onderaannemers, art. 2, lid 5, punt b) toe vanaf 16 januari 2025.",
+       "reviewed": false
+      }
+     }
+    },
     "bijlagen": {}
    },
    "vergoedingen": {
@@ -243,13 +648,285 @@
    }
   }
  },
- "byStep": {},
+ "byStep": {
+  "pa.p1": {
+   "step": {
+    "id": "pa.p1",
+    "titel": "Breng uw voetafdruk in de financiële sector in kaart",
+    "doel": "Een actueel, gecategoriseerd beeld van welke financiële entiteiten uw ICT-diensten gebruiken voor kritieke of belangrijke functies, als datagrondslag voor de criticaliteitszelftoets.",
+    "acties": [
+     "Inventariseer alle klanten die financiële entiteit onder DORA zijn en label elke klant met de categorie van artikel 2, lid 1, DORA.",
+     "Markeer per klant welke van uw ICT-diensten volgens contract en informatieregister kritieke of belangrijke functies ondersteunen.",
+     "Registreer per klant of deze als MSI of ASI is ingedeeld dan wel door een bevoegde autoriteit als systeemrelevant is aangemerkt; gebruik de publieke G-SII-/O-SII-lijsten van de EBA en nationale autoriteiten en vraag zo nodig uit via accountmanagement.",
+     "Leg vast welke onderaannemers u inzet voor de diensten die kritieke of belangrijke functies van deze klanten ondersteunen (subcriterium 1.4)."
+    ],
+    "bewijsstukken": [
+     "Klantenoverzicht per DORA-categorie met markering kritieke/belangrijke functies en MSI-/ASI-status",
+     "Overzicht ingezette onderaannemers per dienst"
+    ],
+    "rollen": [
+     "sales/accountmanagement",
+     "compliance",
+     "risk"
+    ],
+    "refs": [
+     {
+      "label": "Art. 2, lid 1 GV 2024/1502",
+      "href": "/criticaliteitscriteria/artikel/2#lid-1"
+     },
+     {
+      "label": "Art. 2, lid 5 GV 2024/1502",
+      "href": "/criticaliteitscriteria/artikel/2#lid-5"
+     },
+     {
+      "label": "Art. 3, lid 1 GV 2024/1502",
+      "href": "/criticaliteitscriteria/artikel/3#lid-1"
+     },
+     {
+      "label": "Art. 5, lid 1 GV 2024/1502",
+      "href": "/criticaliteitscriteria/artikel/5#lid-1"
+     }
+    ],
+    "appliesTo": [
+     "aanbieder",
+     "ctpp"
+    ],
+    "prioriteit": "fundament"
+   },
+   "playbook": "aanbieder",
+   "faseId": "f1",
+   "faseTitel": "Positiebepaling"
+  },
+  "pa.p2": {
+   "step": {
+    "id": "pa.p2",
+    "titel": "Voer de kwantitatieve stap 1-zelftoets uit",
+    "doel": "Inschatten of u de kwantitatieve 'stap 1'-drempels haalt waarmee de ETA's aanbieders selecteren voor de diepgaande stap 2-beoordeling.",
+    "acties": [
+     "Bereken per categorie financiële entiteiten uw aandeel in het aantal entiteiten én in de totale activawaarde voor diensten die kritieke of belangrijke functies ondersteunen (subcriteria 1.1 en 1.2); beide aandelen moeten ten minste 10 % zijn voor ten minste één categorie (artikel 2, lid 4: 'elk berekend aandeel').",
+     "Tel de MSI's en ASI's onder uw kredietinstelling-klanten en toets aan de drempels van subcriterium 2.1: één MSI, ten minste drie ASI's, of één ASI met een score boven 3 000.",
+     "Toets subcriterium 2.2: één systeemrelevant aangemerkte entiteit van categorie g)–j) van artikel 2, lid 1, DORA, óf ten minste drie systeemrelevant aangemerkte financiële entiteiten die geen kredietinstelling en geen g)–j)-entiteit zijn.",
+     "Schat per categorie het aandeel klanten zonder alternatieve aanbieder met de vereiste capaciteit (4.1) en het aandeel waarvoor migratie zeer moeilijk is (4.2); haalt één van beide de 10 %, dan gelden beide subcriteria als vervuld (artikel 5, lid 4).",
+     "Leg per subcriterium de berekening, brondata en peildatum vast; benader EU-brede noemers met publieke ECB-/EBA-statistieken (schatting, geen officiële uitkomst) en herhaal de toets bij materiële wijzigingen in de klantportefeuille."
+    ],
+    "bewijsstukken": [
+     "Berekeningsdossier per subcriterium (1.1, 1.2, 2.1, 2.2, 4.1, 4.2) met brondata en peildatum",
+     "Managementrapportage met conclusie over het verwachte stap 1-resultaat"
+    ],
+    "rollen": [
+     "risk",
+     "compliance",
+     "sales/accountmanagement"
+    ],
+    "refs": [
+     {
+      "label": "Art. 1, lid 1 GV 2024/1502",
+      "href": "/criticaliteitscriteria/artikel/1#lid-1"
+     },
+     {
+      "label": "Art. 2, lid 2 GV 2024/1502",
+      "href": "/criticaliteitscriteria/artikel/2#lid-2"
+     },
+     {
+      "label": "Art. 2, lid 3 GV 2024/1502",
+      "href": "/criticaliteitscriteria/artikel/2#lid-3"
+     },
+     {
+      "label": "Art. 2, lid 4 GV 2024/1502",
+      "href": "/criticaliteitscriteria/artikel/2#lid-4"
+     },
+     {
+      "label": "Art. 3, lid 2 GV 2024/1502",
+      "href": "/criticaliteitscriteria/artikel/3#lid-2"
+     },
+     {
+      "label": "Art. 3, lid 3 GV 2024/1502",
+      "href": "/criticaliteitscriteria/artikel/3#lid-3"
+     },
+     {
+      "label": "Art. 5, lid 2 GV 2024/1502",
+      "href": "/criticaliteitscriteria/artikel/5#lid-2"
+     },
+     {
+      "label": "Art. 5, lid 3 GV 2024/1502",
+      "href": "/criticaliteitscriteria/artikel/5#lid-3"
+     },
+     {
+      "label": "Art. 5, lid 4 GV 2024/1502",
+      "href": "/criticaliteitscriteria/artikel/5#lid-4"
+     }
+    ],
+    "appliesTo": [
+     "aanbieder",
+     "ctpp"
+    ],
+    "prioriteit": "kern",
+    "afhankelijkVan": [
+     "pa.p1"
+    ]
+   },
+   "playbook": "aanbieder",
+   "faseId": "f1",
+   "faseTitel": "Positiebepaling"
+  },
+  "pa.p3": {
+   "step": {
+    "id": "pa.p3",
+    "titel": "Beoordeel de kwalitatieve stap 2-factoren",
+    "doel": "Weten welke kwalitatieve factoren de aanwijzingskans bepalen zodra de stap 1-drempels zijn gehaald, en de gevoeligste punten aantoonbaar mitigeren.",
+    "acties": [
+     "Analyseer de impact van een stopzetting van uw dienstverlening op de getroffen financiële entiteiten en hun aantal (subcriterium 1.3) en documenteer de continuïteits- en exitvoorzieningen die deze impact beperken.",
+     "Beoordeel uw afhankelijkheid van dezelfde onderaannemers voor diensten die kritieke of belangrijke functies ondersteunen (subcriterium 1.4) en reduceer single points of failure in de keten.",
+     "Breng in kaart of uw MSI-/ASI-klanten financiële-infrastructuurdiensten leveren aan andere financiële entiteiten die van dezelfde dienst afhankelijk zijn, en dus onderling verweven zijn (subcriterium 2.3).",
+     "Bepaal per dienst hoe kritiek deze uiteindelijk is voor de bedrijfsactiviteiten van uw klanten (subcriterium 3.1; let op: dit criterium kent geen eigen stap 1-drempel — de stap 1-uitkomst van de criteria a), b) en d) geldt) en onderbouw dit met de functieclassificatie uit de klantcontracten.",
+     "Onderbouw de substitueerbaarheid per dienst: reële (ook gedeeltelijke) alternatieven, uw marktaandeel, technische complexiteit en eigendomstechnologie (artikel 5, lid 5, jo. artikel 31, lid 2, punt d), i), DORA)."
+    ],
+    "bewijsstukken": [
+     "Impact- en verwevenheidsanalyse per ICT-dienst",
+     "Overzicht onderaannemersafhankelijkheden met mitigerende maatregelen",
+     "Substitueerbaarheidsonderbouwing per dienst"
+    ],
+    "rollen": [
+     "risk",
+     "CISO",
+     "juridisch"
+    ],
+    "refs": [
+     {
+      "label": "Art. 2, lid 5 GV 2024/1502",
+      "href": "/criticaliteitscriteria/artikel/2#lid-5"
+     },
+     {
+      "label": "Art. 3, lid 4 GV 2024/1502",
+      "href": "/criticaliteitscriteria/artikel/3#lid-4"
+     },
+     {
+      "label": "Art. 4 GV 2024/1502",
+      "href": "/criticaliteitscriteria/artikel/4#inhoud"
+     },
+     {
+      "label": "Art. 5, lid 5 GV 2024/1502",
+      "href": "/criticaliteitscriteria/artikel/5#lid-5"
+     },
+     {
+      "label": "Art. 31, lid 2 DORA",
+      "href": "/artikel/31#lid-2"
+     }
+    ],
+    "appliesTo": [
+     "aanbieder",
+     "ctpp"
+    ],
+    "prioriteit": "kern",
+    "afhankelijkVan": [
+     "pa.p2"
+    ]
+   },
+   "playbook": "aanbieder",
+   "faseId": "f1",
+   "faseTitel": "Positiebepaling"
+  },
+  "pa.p4": {
+   "step": {
+    "id": "pa.p4",
+    "titel": "Bewaak de registerdata over uw diensten",
+    "doel": "Zorgen dat de informatieregisters van klanten — de primaire databron van de ETA's voor de criticaliteitsbeoordeling — uw diensten, functieondersteuning en onderaannemers correct weergeven.",
+    "acties": [
+     "Lever klanten tijdig en gestructureerd de gegevens aan die zij nodig hebben voor hun informatieregister (dienstidentificatie, ondersteunde functies, onderaannemersketen).",
+     "Controleer bij elke contract- of dienstwijziging of de kwalificatie 'ondersteunt kritieke of belangrijke functies' nog klopt en laat correcties aantoonbaar doorvoeren.",
+     "Plan de jaarlijkse actualisatie van deze gegevens vóór 31 december, omdat de ETA's rekenen met de gegevens die uiterlijk dan beschikbaar zijn."
+    ],
+    "bewijsstukken": [
+     "Aanleverdossier registerdata per klant",
+     "Wijzigingslog van contract- en dienstgegevens"
+    ],
+    "rollen": [
+     "sales/accountmanagement",
+     "compliance"
+    ],
+    "refs": [
+     {
+      "label": "Art. 6, lid 1 GV 2024/1502",
+      "href": "/criticaliteitscriteria/artikel/6#lid-1"
+     },
+     {
+      "label": "Art. 6, lid 2 GV 2024/1502",
+      "href": "/criticaliteitscriteria/artikel/6#lid-2"
+     },
+     {
+      "label": "Art. 28, lid 3 DORA",
+      "href": "/artikel/28#lid-3"
+     }
+    ],
+    "appliesTo": [
+     "aanbieder",
+     "ctpp"
+    ],
+    "prioriteit": "kern"
+   },
+   "playbook": "aanbieder",
+   "faseId": "f1",
+   "faseTitel": "Positiebepaling"
+  },
+  "pa.p5": {
+   "step": {
+    "id": "pa.p5",
+    "titel": "Bereid u voor op een mogelijke CTPP-aanwijzing",
+    "doel": "Klaarstaan om binnen de wettelijke termijn te reageren op een voorgenomen aanwijzing en de overgang naar het oversightregime beheerst te starten.",
+    "acties": [
+     "Wijs een interne verantwoordelijke en escalatielijn aan voor correspondentie van de ETA's over de criticaliteitsbeoordeling.",
+     "Houd een dossier voor een met redenen omklede verklaring indieningsklaar, onderbouwd met uw stap 1- en stap 2-zelftoets; na kennisgeving van een voorgenomen aanwijzing hebt u zes weken om in te dienen en kan de lead overseer binnen 30 kalenderdagen om aanvullende informatie verzoeken (artikel 31, lid 5, DORA).",
+     "Volg de aanwijzingscyclus van het Gemengd Comité en de aanbevelingen van het toezichtforum en actualiseer uw zelftoets vóór elke cyclus.",
+     "Houd uw onderaannemersanalyse actueel: de lead overseer past subcriterium 1.4 (afhankelijkheid van dezelfde onderaannemers) sinds 16 januari 2025 toe."
+    ],
+    "bewijsstukken": [
+     "Draaiboek reactie op voorgenomen aanwijzing",
+     "Indieningsklaar conceptdossier met redenen omklede verklaring"
+    ],
+    "rollen": [
+     "bestuur",
+     "juridisch",
+     "compliance"
+    ],
+    "refs": [
+     {
+      "label": "Art. 1, lid 2 GV 2024/1502",
+      "href": "/criticaliteitscriteria/artikel/1#lid-2"
+     },
+     {
+      "label": "Art. 7 GV 2024/1502",
+      "href": "/criticaliteitscriteria/artikel/7#inhoud"
+     },
+     {
+      "label": "Art. 31, lid 5 DORA",
+      "href": "/artikel/31#lid-5"
+     }
+    ],
+    "appliesTo": [
+     "aanbieder",
+     "ctpp"
+    ],
+    "prioriteit": "verdieping",
+    "afhankelijkVan": [
+     "pa.p2",
+     "pa.p3"
+    ]
+   },
+   "playbook": "aanbieder",
+   "faseId": "f5",
+   "faseTitel": "CTPP-oversightregime"
+  }
+ },
  "counts": {
   "steps": {
    "entiteit": 0,
-   "aanbieder": 0
+   "aanbieder": 5
   },
-  "coverageEntries": 0,
-  "dispositions": {}
+  "coverageEntries": 20,
+  "dispositions": {
+   "stap": 16,
+   "autoriteit": 3,
+   "slotbepaling": 1
+  }
  }
 }

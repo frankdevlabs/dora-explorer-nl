@@ -10,7 +10,69 @@
     "formulieren": { "artikelen": {}, "bijlagen": {} },
     "tlpt": { "artikelen": {}, "bijlagen": {} },
     "contractbeleid": { "artikelen": {}, "bijlagen": {} },
-    "criticaliteit": { "artikelen": {}, "bijlagen": {} },
+    "criticaliteit": {
+      "artikelen": {
+        "1": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": ["pa.p2", "pa.p3"],
+            "note": "Twee-stapsbenadering: eerst de kwantitatieve stap 1-subcriteria, daarna de kwalitatieve stap 2-beoordeling. Afwijking voor criterium c): stap 1 bestaat daar uit de beoordeling van de criteria a), b) en d) — subcriterium 3.1 kent geen eigen stap 1-drempel.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "steps": ["pa.p5"],
+            "note": "De ETA's wijzen via het Gemengd Comité, op aanbeveling van het toezichtforum en na afloop van de termijn voor een met redenen omklede verklaring (art. 31, lid 5 DORA), een aanbieder als kritiek aan. Bepaalt wanneer de aanwijzing formeel valt en binnen welk venster de aanbieder kan reageren.",
+            "reviewed": false
+          }
+        },
+        "2": {
+          "lid-1": { "disposition": "stap", "steps": ["pa.p1", "pa.p2"], "reviewed": false },
+          "lid-2": { "disposition": "stap", "steps": ["pa.p2"], "reviewed": false },
+          "lid-3": { "disposition": "stap", "steps": ["pa.p2"], "reviewed": false },
+          "lid-4": { "disposition": "stap", "steps": ["pa.p2"], "reviewed": false },
+          "lid-5": { "disposition": "stap", "steps": ["pa.p3"], "reviewed": false }
+        },
+        "3": {
+          "lid-1": { "disposition": "stap", "steps": ["pa.p1", "pa.p2"], "reviewed": false },
+          "lid-2": { "disposition": "stap", "steps": ["pa.p2"], "reviewed": false },
+          "lid-3": { "disposition": "stap", "steps": ["pa.p2"], "reviewed": false },
+          "lid-4": { "disposition": "stap", "steps": ["pa.p3"], "reviewed": false }
+        },
+        "4": {
+          "inhoud": { "disposition": "stap", "steps": ["pa.p3"], "reviewed": false }
+        },
+        "5": {
+          "lid-1": { "disposition": "stap", "steps": ["pa.p1", "pa.p2"], "reviewed": false },
+          "lid-2": { "disposition": "stap", "steps": ["pa.p2"], "reviewed": false },
+          "lid-3": { "disposition": "stap", "steps": ["pa.p2"], "reviewed": false },
+          "lid-4": { "disposition": "stap", "steps": ["pa.p2"], "reviewed": false },
+          "lid-5": { "disposition": "stap", "steps": ["pa.p3"], "reviewed": false }
+        },
+        "6": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "steps": ["pa.p4"],
+            "note": "De ETA's beoordelen het kritieke karakter op basis van de informatieregisters (art. 28, lid 3 DORA) van uw klanten, aangevuld met andere beschikbare gegevens; de kwaliteit van die registerdata bepaalt dus mede uw beoordeling.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "steps": ["pa.p4"],
+            "note": "Jaarlijkse peildatum: de ETA's rekenen met de meest recente gegevens van het beoordelingsjaar of met gegevens die uiterlijk 31 december van het voorafgaande jaar beschikbaar zijn gesteld — actualisatie van klantregisterdata vóór die datum telt mee.",
+            "reviewed": false
+          }
+        },
+        "7": {
+          "inhoud": {
+            "disposition": "slotbepaling",
+            "note": "Naast de standaard inwerkingtreding één materiële datum: de lead overseer past subcriterium 1.4 (afhankelijkheid van dezelfde onderaannemers, art. 2, lid 5, punt b) toe vanaf 16 januari 2025.",
+            "reviewed": false
+          }
+        }
+      },
+      "bijlagen": {}
+    },
     "vergoedingen": { "artikelen": {}, "bijlagen": {} },
     "oversight": { "artikelen": {}, "bijlagen": {} },
     "onderzoeksteams": { "artikelen": {}, "bijlagen": {} }
