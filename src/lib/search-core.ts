@@ -1,6 +1,13 @@
 import MiniSearch, { type SearchOptions, type SearchResult } from "minisearch";
+import { INSTRUMENT_IDS } from "./instruments";
 import { SYNONYMS } from "./search-expansion";
 import type { SearchDoc } from "./types.js";
+
+// optional instrument qualifier prefix ("its artikel 2", "tlpt artikel 3");
+// longest id first so ids that share a prefix can never mis-split
+const INSTRUMENT_QUALIFIER = new RegExp(
+  `^(${[...INSTRUMENT_IDS].sort((a, b) => b.length - a.length).join("|")})\\s+(.*)$`,
+);
 
 const DUTCH_STOPWORDS = new Set([
   "de", "het", "een", "en", "van", "in", "op", "te", "die", "dat", "voor", "met",
@@ -64,10 +71,9 @@ const tokenize: (text: string) => string[] = MiniSearch.getDefault("tokenize");
  */
 export function parseReferenceQuery(query: string): { exact?: string; prefix?: string } | null {
   let q = query.trim().toLowerCase();
-  // optional instrument qualifier ("its artikel 2", "rts artikel 3");
   // unqualified references pin the main act (dora)
   let instrument = "dora";
-  const im = q.match(/^(dora|its|rts)\s+(.*)$/);
+  const im = q.match(INSTRUMENT_QUALIFIER);
   if (im) {
     instrument = im[1];
     q = im[2];

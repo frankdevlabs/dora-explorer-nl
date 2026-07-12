@@ -5,12 +5,13 @@ import { ChevronDown } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 import type { RelatedRecital } from "@/lib/data";
+import { INSTRUMENTS, type InstrumentId } from "@/lib/instruments";
 
 function InstrumentTag({ instrument }: { instrument: string }) {
   if (instrument === "dora") return null;
   return (
     <span className="ml-1.5 rounded border border-line px-1 py-0.5 align-middle text-[10px] font-medium uppercase tracking-wide text-muted">
-      {instrument === "its" ? "RoI-ITS" : "RTS"}
+      {INSTRUMENTS[instrument as InstrumentId]?.label ?? instrument}
     </span>
   );
 }
@@ -74,14 +75,15 @@ export function L2Panel({ links }: { links: L2PanelLink[] }) {
       <Collapsible.Content>
         <ul className="mt-2 space-y-2 rounded-md border border-line p-3">
           {links.map((l) => {
-            const art = l.target.match(/^(its|rts):(\d+)$/);
-            const anx = l.target.match(/^(its|rts):bijlage:([a-z]+)$/);
-            const inst = l.target.startsWith("its") ? "RoI-ITS" : "RTS";
-            const name = art
-              ? `${inst} art. ${art[2]}`
-              : anx
-                ? `${inst} bijlage ${anx[2].toUpperCase()}`
-                : inst;
+            // target forms: "<id>" | "<id>:<artikel>" | "<id>:bijlage:<roman>"
+            const [id, ...parts] = l.target.split(":");
+            const inst = INSTRUMENTS[id as InstrumentId]?.label ?? id;
+            const name =
+              parts[0] === "bijlage"
+                ? `${inst} bijlage ${parts[1].toUpperCase()}`
+                : parts[0]
+                  ? `${inst} art. ${parts[0]}`
+                  : inst;
             return (
               <li key={l.target + (l.lid ?? "")} className="text-sm">
                 <Link href={l.href} className="font-medium text-accent hover:underline">

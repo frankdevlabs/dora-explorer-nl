@@ -35,12 +35,24 @@ function compositeRecitalLink(key: string): string {
   return `[overweging ${num}${tag}](${BASE_URL}${prefix}/overweging/${num})`;
 }
 
+const instrumentList = INSTRUMENT_IDS.map(
+  (id) => `"${id}" (${INSTRUMENTS[id].label} ${INSTRUMENTS[id].citation.match(/\d{4}\/\d+/)?.[0]}${id === "dora" ? ", default" : ""})`,
+).join(", ");
+
 const instrumentEnum = z
-  .enum(["dora", "its", "rts"])
+  .enum(INSTRUMENT_IDS as [InstrumentId, ...InstrumentId[]])
   .optional()
-  .describe(
-    'Instrument: "dora" (Verordening (EU) 2022/2554, default), "its" (RoI-ITS 2024/2956) or "rts" (onderaannemings-RTS 2025/532)',
-  );
+  .describe(`Instrument: ${instrumentList}`);
+
+const articleRanges = INSTRUMENT_IDS.map(
+  (id) => `${INSTRUMENTS[id].label}: 1-${corpora[id].articles.length}`,
+).join("; ");
+
+const recitalRanges = INSTRUMENT_IDS.map(
+  (id) => `${INSTRUMENTS[id].label}: 1-${corpora[id].recitals.length}`,
+).join("; ");
+
+const annexInstruments = INSTRUMENT_IDS.filter((id) => corpora[id].annexes.length > 0);
 
 export function createServer(): McpServer {
   const server = new McpServer({ name: "dora-explorer-nl", version: "0.1.0" });
@@ -48,14 +60,15 @@ export function createServer(): McpServer {
   server.registerTool(
     "search_dora",
     {
-      title: "Zoek in DORA + ITS + RTS",
+      title: "Zoek in DORA + uitvoeringshandelingen",
       description:
-        "Full-text search in the Dutch text of DORA (Regulation (EU) 2022/2554), the Register-of-" +
-        "Information ITS (2024/2956, incl. the 2025 corrigendum) and the subcontracting RTS " +
-        "(2025/532). Returns hits with deep links to " +
+        "Full-text search in the Dutch text of DORA (Regulation (EU) 2022/2554) and its level-2 " +
+        `acts (${INSTRUMENT_IDS.length - 1} RTS/ITS/delegated regulations). Returns hits with deep links to ` +
         BASE_URL +
         ". Query in Dutch works best. Reference queries also work: \"artikel 28 lid 3\", " +
-        '"its artikel 2", "its bijlage iii".',
+        '"its artikel 2", "its bijlage iii" (instrument ids: ' +
+        INSTRUMENT_IDS.join(", ") +
+        ").",
       inputSchema: {
         query: z.string().min(2).describe("Search terms (Dutch)"),
         limit: z.number().int().min(1).max(50).optional().describe("Max results, default 10"),
@@ -90,9 +103,7 @@ export function createServer(): McpServer {
     "get_article",
     {
       title: "Artikel ophalen",
-      description:
-        "Full Dutch text of an article. DORA: 1-64 (default instrument); RoI-ITS: 1-7; " +
-        "onderaannemings-RTS: 1-7.",
+      description: `Full Dutch text of an article. ${articleRanges}.`,
       inputSchema: {
         number: z.string().describe('Article number, e.g. "28"'),
         instrument: instrumentEnum,
@@ -136,8 +147,7 @@ export function createServer(): McpServer {
     "get_recital",
     {
       title: "Overweging ophalen",
-      description:
-        "Full Dutch text of a recital (overweging). DORA: 1-106 (default); RoI-ITS: 1-15; RTS: 1-13.",
+      description: `Full Dutch text of a recital (overweging). ${recitalRanges}.`,
       inputSchema: {
         number: z.coerce.number().int().min(1).describe("Recital number"),
         instrument: instrumentEnum,
@@ -169,22 +179,27 @@ export function createServer(): McpServer {
     {
       title: "Bijlage ophalen",
       description:
-        'Full Dutch text of an annex (bijlage) of the RoI-ITS (2024/2956) by Roman numeral: "I" ' +
-        "(instructies + kolomcodes per template), \"II\" (activiteiten per entiteitstype), \"III\" " +
-        '(S01-S19 taxonomie van ICT-diensten), "IV" (waarde totale activa). DORA and the RTS have ' +
-        "no annexes.",
+        "Full Dutch text of an annex (bijlage) by Roman numeral. Instruments with annexes: " +
+        annexInstruments
+          .map((id) => `${INSTRUMENTS[id].label} (${corpora[id].annexes.map((x) => x.roman).join(", ")})`)
+          .join("; ") +
+        '. Default instrument: "its" (RoI-ITS).',
       inputSchema: {
         roman: z.string().describe('Annex Roman numeral, e.g. "III"'),
+        instrument: instrumentEnum,
       },
     },
-    async ({ roman }) => {
+    async ({ roman, instrument }) => {
+      const inst: InstrumentId = instrument ?? "its";
       const key = roman.trim().replace(/^bijlage\s*/i, "");
-      const a = getAnnex(key, "its");
+      const a = getAnnex(key, inst);
       if (!a) {
-        const known = corpora.its.annexes.map((x) => x.roman).join(", ");
-        return err(`Bijlage "${roman}" niet gevonden. Beschikbaar (RoI-ITS): ${known}.`);
+        const known = corpora[inst].annexes.map((x) => x.roman).join(", ") || "geen";
+        return err(
+          `Bijlage "${roman}" niet gevonden in ${INSTRUMENTS[inst].citation}. Beschikbaar: ${known}.`,
+        );
       }
-      return text(renderAnnex(a, "its"));
+      return text(renderAnnex(a, inst));
     },
   );
 
@@ -193,8 +208,8 @@ export function createServer(): McpServer {
     {
       title: "Structuur (inhoudsopgave)",
       description:
-        "Compact table of contents of all three instruments: DORA chapters/sections/articles, " +
-        "ITS articles + annexes, RTS articles, recital counts.",
+        `Compact table of contents of all ${INSTRUMENT_IDS.length} instruments (DORA + its ` +
+        "level-2 acts): chapters/sections/articles, annexes, recital counts.",
       inputSchema: {},
     },
     async () => {

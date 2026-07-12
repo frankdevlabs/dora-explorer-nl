@@ -54,7 +54,7 @@ export function InstrumentRecital({
                   {a.label}
                   {a.instrument !== instrument && (
                     <span className="ml-1 text-[10px] uppercase text-muted">
-                      {a.instrument === "dora" ? "DORA" : a.instrument === "its" ? "RoI-ITS" : "RTS"}
+                      {INSTRUMENTS[a.instrument].label}
                     </span>
                   )}
                 </Link>

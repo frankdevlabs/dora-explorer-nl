@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { getSearchIndex, makeSnippet, searchDocs, type SearchHit } from "@/lib/search";
+import { INSTRUMENTS, type InstrumentId } from "@/lib/instruments";
 import { Highlight } from "./Highlight";
 
 const TYPE_LABEL = { artikel: "Artikel", overweging: "Overweging", bijlage: "Bijlage" } as const;
@@ -68,7 +69,7 @@ export function SearchResults() {
               </span>
               {h.instrument !== "dora" && (
                 <span className="ml-2 rounded border border-line px-1.5 py-0.5 text-[10px] font-medium uppercase tracking-wide text-muted">
-                  {h.instrument === "its" ? "RoI-ITS" : "RTS"}
+                  {INSTRUMENTS[h.instrument as InstrumentId]?.label ?? h.instrument}
                 </span>
               )}
               <span className="mt-1 block font-medium group-hover:text-accent">

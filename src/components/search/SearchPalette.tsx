@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import { OPEN_SEARCH_EVENT } from "@/components/layout/Header";
 import { getSearchIndex, makeSnippet, searchDocs, type SearchHit } from "@/lib/search";
+import { INSTRUMENTS, type InstrumentId } from "@/lib/instruments";
 import { Highlight } from "./Highlight";
 
 const TYPE_META = {
@@ -122,7 +123,7 @@ export function SearchPalette() {
                       <Highlight text={h.heading} terms={h.terms} />
                       {h.instrument !== "dora" && (
                         <span className="ml-2 rounded border border-line px-1 py-0.5 align-middle text-[10px] font-medium uppercase tracking-wide text-muted">
-                          {h.instrument === "its" ? "RoI-ITS" : "RTS"}
+                          {INSTRUMENTS[h.instrument as InstrumentId]?.label ?? h.instrument}
                         </span>
                       )}
                     </span>

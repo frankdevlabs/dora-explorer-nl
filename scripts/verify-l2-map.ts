@@ -35,7 +35,7 @@ for (const link of source.links) {
 
 // inverse covers exactly the concrete article targets
 const wantTargets = new Set(
-  source.links.map((l) => l.target).filter((t) => /^(its|rts):\d+$/.test(t)),
+  source.links.map((l) => l.target).filter((t) => /^[a-z]+:\d+$/.test(t)),
 );
 assert.deepEqual(new Set(Object.keys(generated.byTarget)), wantTargets, "l2-map: byTarget-keyset");
 for (const [target, list] of Object.entries(generated.byTarget)) {

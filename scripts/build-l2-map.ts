@@ -9,7 +9,7 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { INSTRUMENTS } from "../src/lib/instruments";
+import { INSTRUMENTS, SATELLITE_IDS, type InstrumentId } from "../src/lib/instruments";
 import type { Annex, Article, L2MapGenerated, L2MapSource } from "../src/lib/types";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -26,25 +26,28 @@ const doraArticles = new Set(
 );
 const l2Articles = new Set<string>();
 const l2Annexes = new Set<string>();
-for (const inst of ["its", "rts"] as const) {
+for (const inst of SATELLITE_IDS) {
   for (const a of load<Article[]>(`data/generated/${inst}/articles.json`))
     l2Articles.add(`${inst}:${a.number}`);
   for (const a of load<Annex[]>(`data/generated/${inst}/annexes.json`))
     l2Annexes.add(`${inst}:bijlage:${a.roman.toLowerCase()}`);
 }
 
-/** Resolve a target to its route; throws on unknown targets. */
+const isSatellite = (id: string): id is InstrumentId =>
+  (SATELLITE_IDS as string[]).includes(id);
+
+/** Resolve a target ("<id>" | "<id>:<art>" | "<id>:bijlage:<roman>") to its route. */
 function targetHref(target: string): string {
-  if (target === "its" || target === "rts") return INSTRUMENTS[target].routePrefix;
-  const anx = target.match(/^(its|rts):bijlage:([a-z]+)$/);
-  if (anx) {
+  if (isSatellite(target)) return INSTRUMENTS[target].routePrefix;
+  const anx = target.match(/^([a-z]+):bijlage:([a-z]+)$/);
+  if (anx && isSatellite(anx[1])) {
     if (!l2Annexes.has(target)) fail(`onbekende bijlage ${target}`);
-    return `${INSTRUMENTS[anx[1] as "its" | "rts"].routePrefix}/bijlage/${anx[2]}`;
+    return `${INSTRUMENTS[anx[1]].routePrefix}/bijlage/${anx[2]}`;
   }
-  const art = target.match(/^(its|rts):(\d+)$/);
-  if (art) {
+  const art = target.match(/^([a-z]+):(\d+)$/);
+  if (art && isSatellite(art[1])) {
     if (!l2Articles.has(target)) fail(`onbekend artikel ${target}`);
-    return `${INSTRUMENTS[art[1] as "its" | "rts"].routePrefix}/artikel/${art[2]}`;
+    return `${INSTRUMENTS[art[1]].routePrefix}/artikel/${art[2]}`;
   }
   return fail(`misvormd target ${target}`);
 }
@@ -61,7 +64,7 @@ for (const link of source.links) {
   const href = targetHref(link.target);
   (byDora[link.dora] ??= []).push({ target: link.target, lid: link.lid, label: link.label, href });
   // inverse only for concrete article targets (index/annex pages skip)
-  if (/^(its|rts):\d+$/.test(link.target)) {
+  if (/^[a-z]+:\d+$/.test(link.target)) {
     (byTarget[link.target] ??= []).push({ dora: link.dora, lid: link.lid, label: link.label });
   }
 }

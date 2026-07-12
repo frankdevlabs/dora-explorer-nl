@@ -55,6 +55,16 @@ export const INSTRUMENT_IDS: InstrumentId[] = ["dora", "its", "rts"];
 /** Satellite instruments (everything except DORA), in registry order. */
 export const SATELLITE_IDS: InstrumentId[] = INSTRUMENT_IDS.filter((id) => id !== "dora");
 
+/** Route slug of a satellite instrument (its routePrefix without the slash). */
+export function instrumentSlug(id: InstrumentId): string {
+  return INSTRUMENTS[id].routePrefix.slice(1);
+}
+
+/** Inverse of instrumentSlug; undefined for unknown slugs (incl. DORA's ""). */
+export function instrumentBySlug(slug: string): InstrumentId | undefined {
+  return SATELLITE_IDS.find((id) => instrumentSlug(id) === slug);
+}
+
 /**
  * Resolve a route path (no fragment) to its instrument and the
  * instrument-local remainder ("/artikel/3"; "/" for the index page).
