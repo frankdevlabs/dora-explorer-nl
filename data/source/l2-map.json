@@ -127,6 +127,17 @@
    "dora": "20",
    "target": "rapportage",
    "label": "Rapportage-RTS (2025/301) — inhoud en termijnen van incidentmeldingen (punt a))"
+  },
+  {
+   "dora": "15",
+   "target": "risicobeheer",
+   "label": "Risicobeheer-RTS (2024/1774) — tools, methoden, processen en beleidslijnen voor ICT-risicobeheersing"
+  },
+  {
+   "dora": "16",
+   "lid": 3,
+   "target": "risicobeheer",
+   "label": "Risicobeheer-RTS (2024/1774) — het vereenvoudigde raamwerk voor ICT-risicobeheersing (titel III)"
   }
  ]
 }

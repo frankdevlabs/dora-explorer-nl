@@ -34,6 +34,10 @@ import rapportageArticlesJson from "../../data/generated/rapportage/articles.jso
 import rapportageRecitalsJson from "../../data/generated/rapportage/recitals.json";
 import rapportageAnnexesJson from "../../data/generated/rapportage/annexes.json";
 import rapportageTocJson from "../../data/generated/rapportage/toc.json";
+import risicobeheerArticlesJson from "../../data/generated/risicobeheer/articles.json";
+import risicobeheerRecitalsJson from "../../data/generated/risicobeheer/recitals.json";
+import risicobeheerAnnexesJson from "../../data/generated/risicobeheer/annexes.json";
+import risicobeheerTocJson from "../../data/generated/risicobeheer/toc.json";
 import recitalMapJson from "../../data/generated/recital-map.json";
 import l2MapJson from "../../data/generated/l2-map.json";
 import { INSTRUMENTS, splitRoutePath, type InstrumentId } from "./instruments";
@@ -101,6 +105,12 @@ const CORPORA: Record<InstrumentId, Corpus> = {
     recitals: rapportageRecitalsJson as Recital[],
     annexes: rapportageAnnexesJson as Annex[],
     toc: rapportageTocJson as Toc,
+  },
+  risicobeheer: {
+    articles: risicobeheerArticlesJson as Article[],
+    recitals: risicobeheerRecitalsJson as Recital[],
+    annexes: risicobeheerAnnexesJson as Annex[],
+    toc: risicobeheerTocJson as Toc,
   },
 };
 

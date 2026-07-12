@@ -55,6 +55,14 @@ const BLURB: Record<InstrumentId, string> = {
     "de inhoud van de vrijwillige kennisgeving van significante " +
     "cyberdreigingen. De bijbehorende meldformulieren staan in de " +
     "Rapportage-ITS (2025/302).",
+  risicobeheer:
+    "De uitwerking van het ICT-risicobeheerkader van de artikelen 15 en 16 " +
+    "DORA: beleid en procedures voor ICT-beveiliging, encryptie, " +
+    "toegangsbeheer, ICT-operaties, netwerk- en projectbeveiliging, " +
+    "bedrijfscontinuïteit en incidentdetectie, plus het vereenvoudigde " +
+    "raamwerk voor kleine entiteiten. Geconsolideerde tekst inclusief de " +
+    "rectificaties van 2025 (o.a. de verwijzing in artikel 22 naar de " +
+    "Classificatie-RTS).",
 };
 
 /** Index page for a satellite instrument: blurb + article/annex/recital TOC. */

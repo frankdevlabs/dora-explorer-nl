@@ -40,6 +40,7 @@ import type {
   Footnote,
   ListItem,
   Recital,
+  RefSpan,
   SearchDoc,
   Toc,
   TocChapter,
@@ -100,6 +101,14 @@ const SOURCES: SourceConfig[] = [
     id: "rapportage",
     articles: { file: "data/source/rapportage_nl_oj.html", dialect: "oj" },
     recitals: { file: "data/source/rapportage_nl_oj.html" },
+  },
+  {
+    // consolidated (02024R1774-20240625) incorporates the two corrigenda,
+    // incl. the art 22(d) fix ("artikel 15" → "artikel 8, lid 2" van GV
+    // 2024/1772); recitals from the OJ publication as usual
+    id: "risicobeheer",
+    articles: { file: "data/source/risicobeheer_nl_consolidated.html", dialect: "consolidated" },
+    recitals: { file: "data/source/risicobeheer_nl_oj.html" },
   },
 ];
 
@@ -645,13 +654,20 @@ function splitHref(href: string): { instrument: InstrumentId; page: string; frag
   return { instrument, page: rest, fragment };
 }
 
-/** Validate a candidate href; returns it with the fragment stripped if unanchorable. */
-function resolveRefHref(href: string, where: string): string {
+/**
+ * Validate a candidate href; returns it with the fragment stripped if
+ * unanchorable, or null when the ref must be dropped entirely.
+ */
+function resolveRefHref(href: string, where: string): string | null {
   const { instrument, page, fragment } = splitHref(href);
   const corpus = resolvers.get(instrument)!;
   if (page === "/") {
     // index-page chapter anchor: /#hoofdstuk-iii
     const roman = fragment?.replace(/^hoofdstuk-/, "") ?? "";
+    // chapterless corpus (e.g. 2024/1774, whose title-scoped chapters the
+    // toc model can't represent): a bare chapter ref has no page to land
+    // on — drop it. Instruments WITH chapters still throw on a bad roman.
+    if (corpus.chapterRomans.size === 0) return null;
     if (!corpus.chapterRomans.has(roman))
       throw new Error(`${where}: unresolvable chapter ref ${href}`);
     return href;
@@ -677,8 +693,9 @@ function annotateNodes(nodes: ContentNode[], ctx: RefContext, selfHref: string, 
     if (n.type === "text") {
       const refs = findRefs(n.text, ctx)
         .map((r) => ({ ...r, href: resolveRefHref(r.href, where) }))
-        // fragment stripping can reduce a deep link to a plain self-page link
-        .filter((r) => r.href !== selfHref);
+        // fragment stripping can reduce a deep link to a plain self-page
+        // link; null = dropped (chapter ref into a chapterless corpus)
+        .filter((r): r is RefSpan => r.href !== null && r.href !== selfHref);
       if (refs.length > 0) {
         n.refs = refs;
         refCount += refs.length;
@@ -713,7 +730,7 @@ for (const [id, parsed] of parsedById) {
     for (const p of r.paragraphs) {
       const refs = findRefs(p.text, ctx)
         .map((s) => ({ ...s, href: resolveRefHref(s.href, `${id} overweging ${r.number}`) }))
-        .filter((s) => s.href !== `${prefix}/overweging/${r.number}`);
+        .filter((s): s is RefSpan => s.href !== null && s.href !== `${prefix}/overweging/${r.number}`);
       if (refs.length > 0) {
         p.refs = refs;
         refCount += refs.length;

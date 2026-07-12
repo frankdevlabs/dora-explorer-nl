@@ -72,6 +72,16 @@ const EXPECT: Record<string, Expect> = {
     flat: [1, 2, 4, 10, 11],
   },
   rapportage: { articles: 7, recitals: 9, annexes: 0, chapters: 0, flat: [1, 2, 3, 4, 6, 7] },
+  // pinned 2026-07 (epic 10, source 02024R1774-20240625 = incl. beide
+  // rectificaties; chapters=0 by design — the act nests chapters inside
+  // titles (tis_II.cpt_I), which the toc model doesn't represent)
+  risicobeheer: {
+    articles: 42,
+    recitals: 30,
+    annexes: 0,
+    chapters: 0,
+    flat: [1, 3, 13, 19, 21, 22, 33, 34, 35, 37, 42],
+  },
 };
 
 for (const [inst, exp] of Object.entries(EXPECT)) {
@@ -253,6 +263,15 @@ spot(
   "rapportage 4-uurstermijn",
 );
 
+const risicobeheer = load<Article[]>("data/generated/risicobeheer/articles.json");
+// art 22(d): the corrected corrigendum reference (was "artikel 15" pre-R(02))
+spot(
+  risicobeheer,
+  22,
+  "overeenkomstig artikel 8, lid 2, van Gedelegeerde Verordening (EU) 2024/1772",
+  "risicobeheer corrigendum-ref art 22",
+);
+
 // ------------------------------------------------- ITS annexes (RoI source)
 
 const itsAnnexes = load<Annex[]>("data/generated/its/annexes.json");
@@ -340,6 +359,10 @@ const REF_EXPECT: Record<string, number> = {
   classificatie: 45,
   contractbeleid: 19,
   rapportage: 22,
+  // risicobeheer 92 (random-sample audit of 14 + full target-root summary:
+  // 56 → dora, 35 internal, 1 → classificatie art 8(2) = the corrigendum
+  // ref; 2 bare "hoofdstukken … van deze titel" refs dropped by design)
+  risicobeheer: 92,
 };
 
 function collectRefs(inst: string): { href: string; where: string }[] {
@@ -367,7 +390,7 @@ for (const [inst, expected] of Object.entries(REF_EXPECT)) {
   assert.equal(refs.length, expected, `${inst}: ref count drifted (${refs.length})`);
   refTotal += refs.length;
 }
-assert.equal(refTotal, 374, "total ref count"); // 212→248→374 epic 10 (batch +126)
+assert.equal(refTotal, 466, "total ref count"); // 212→248→374→466 epic 10 (risicobeheer +92)
 
 // positive spot checks: the cross-instrument resolver (ITS/RTS text linking
 // into DORA's unprefixed routes)
@@ -409,8 +432,8 @@ const docs = load<SearchDoc[]>("data/generated/search-docs.json");
 // pinned 2026-07: dora 267 art-lid + 106 rct; its 16 art + 15 rct + 55 annex
 // chunks; rts 13 art + 13 rct = 485. Epic 10: 513 (criticaliteit) → 679
 // (vergoedingen 27 + onderzoeksteams 30 + classificatie 46 + contractbeleid
-// 42 + rapportage 21 docs)
-assert.equal(docs.length, 679, "search docs: total count");
+// 42 + rapportage 21 docs) → 820 (risicobeheer 141)
+assert.equal(docs.length, 820, "search docs: total count");
 const ids = new Set(docs.map((d) => d.id));
 assert.equal(ids.size, docs.length, "search docs: duplicate ids");
 for (const d of docs) {

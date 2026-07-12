@@ -13,7 +13,8 @@ export type InstrumentId =
   | "onderzoeksteams"
   | "classificatie"
   | "contractbeleid"
-  | "rapportage";
+  | "rapportage"
+  | "risicobeheer";
 
 export interface InstrumentSpec {
   id: InstrumentId;
@@ -111,6 +112,15 @@ export const INSTRUMENTS: Record<InstrumentId, InstrumentSpec> = {
     celex: "32025R0301",
     routePrefix: "/rts-incidentrapportage",
   },
+  risicobeheer: {
+    id: "risicobeheer",
+    label: "Risicobeheer-RTS",
+    title:
+      "Gedelegeerde Verordening (EU) 2024/1774 tot aanvulling van Verordening (EU) 2022/2554 met technische reguleringsnormen tot vaststelling van tools, methoden, processen en beleidslijnen voor ICT-risicobeheersing en het vereenvoudigde raamwerk voor ICT-risicobeheersing",
+    citation: "Gedelegeerde Verordening (EU) 2024/1774",
+    celex: "02024R1774-20240625",
+    routePrefix: "/rts-risicobeheer",
+  },
 };
 
 export const INSTRUMENT_IDS: InstrumentId[] = [
@@ -123,6 +133,7 @@ export const INSTRUMENT_IDS: InstrumentId[] = [
   "classificatie",
   "contractbeleid",
   "rapportage",
+  "risicobeheer",
 ];
 
 /** Satellite instruments (everything except DORA), in registry order. */

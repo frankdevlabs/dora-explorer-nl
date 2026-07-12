@@ -1,0 +1,263 @@
+[
+ {
+  "number": 1,
+  "paragraphs": [
+   {
+    "text": "Verordening (EU) 2022/2554 ziet op een breed scala financiële entiteiten die verschillen wat betreft omvang, structuur, interne organisatie en wat betreft de aard en complexiteit van hun activiteiten — en die dus meer of minder elementen van complexiteit of risico vertonen. Om ervoor te zorgen dat met die verschillen afdoende rekening wordt gehouden, moeten vereisten ten aanzien van beleidslijnen, procedures, protocollen en tools voor ICT-beveiliging en ten aanzien van een vereenvoudigd raamwerk voor ICT-risicobeheersing evenredig zijn aan die omvang, structuur, interne organisatie, aard en complexiteit van die financiële entiteiten en aan de daarmee samenhangende risico’s."
+   }
+  ]
+ },
+ {
+  "number": 2,
+  "paragraphs": [
+   {
+    "text": "Om diezelfde reden moeten financiële entiteiten die onder Verordening (EU) 2022/2554 vallen, een zekere mate van flexibiliteit hebben wat betreft de manier waarop zij voldoen aan vereisten ten aanzien van beleidslijnen, procedures, protocollen en tools voor ICT-beveiliging en ten aanzien van een vereenvoudigd raamwerk voor ICT-risicobeheersing Daarom moet het financiële entiteiten worden toegestaan om documentatie waarover zij al beschikken, te gebruiken om te voldoen aan documentatieverplichtingen die uit die vereisten voortvloeien. Een en ander betekent dat de uitwerking, documentatie en implementatie van specifieke beleidslijnen voor ICT-beveiliging alleen verplicht mag worden voor bepaalde essentiële elementen, onder meer rekening houdende met maatgevende praktijken (“leading practices”) en normen uit de sector. Voorts moeten, ten behoeve van specifieke aspecten van de technische implementatie, ICT-beveiligingsprocedures worden uitgewerkt, gedocumenteerd en geïmplementeerd die zien op specifieke aspecten van de technische implementatie, zoals capaciteits- en performancemanagement, kwetsbaarhedenbeheer en patchmanagement, data- en systeembeveiliging, en logging."
+   }
+  ]
+ },
+ {
+  "number": 3,
+  "paragraphs": [
+   {
+    "text": "Om ervoor te zorgen dat beleidslijnen, procedures, protocollen en tools voor ICT-beveiliging als bedoeld in titel II, hoofdstuk I, van deze verordening op termijn correct worden geïmplementeerd, is het van belang dat financiële entiteiten rollen en verantwoordelijkheden op het gebied van ICT-beveiliging correct toewijzen en handhaven en dat zij vastleggen wat de consequenties zijn van het niet naleven van beleidslijnen of -procedures voor ICT-beveiliging."
+   }
+  ]
+ },
+ {
+  "number": 4,
+  "paragraphs": [
+   {
+    "text": "Om het risico op belangenconflicten te beperken, moeten financiële entiteiten bij het toewijzen van ICT-rollen en -verantwoordelijkheden bewaken dat taken gescheiden zijn."
+   }
+  ]
+ },
+ {
+  "number": 5,
+  "paragraphs": [
+   {
+    "text": "Om flexibiliteit te verzekeren en het controleraamwerk voor financiële entiteiten te vereenvoudigen, mag van financiële entiteiten niet worden geëist dat zij specifieke bepalingen uitwerken wat betreft de consequenties van het niet naleven van in titel II, hoofdstuk I, van deze verordening bedoelde beleidslijnen, procedures en protocollen voor ICT-beveiliging indien dergelijke bepalingen al in een ander beleidsdocument of een andere procedure zijn vastgelegd."
+   }
+  ]
+ },
+ {
+  "number": 6,
+  "paragraphs": [
+   {
+    "text": "In een dynamische omgeving waar ICT-risico’s voortdurend in ontwikkeling zijn, is het van belang dat financiële entiteiten hun reeks beleidslijnen voor ICT-beveiliging ontwikkelen op basis van maatgevende praktijken en, in voorkomend geval, normen zoals gedefinieerd in artikel 2, punt 1), van Verordening nr. 1025/2012 van het Europees Parlement en de Raad (2). Hiermee zouden in titel II van deze verordening bedoelde financiële entiteiten geïnformeerd en voorbereid moeten blijven in een veranderende omgeving."
+   }
+  ]
+ },
+ {
+  "number": 7,
+  "paragraphs": [
+   {
+    "text": "Om hun digitale operationele weerbaarheid te verzekeren, moeten in titel II van deze verordening bedoelde financiële entiteiten, in het kader van hun beleidslijnen, procedures, protocollen en tools voor ICT-beveiliging, een beleid voor het beheer van ICT-assets, procedures voor capaciteits- en performancemanagement, en beleidslijnen en procedures voor ICT-operaties uitwerken en implementeren. Die beleidslijnen en procedures zijn noodzakelijk om te bewaken dat de status van ICT-assets wordt gemonitord tijdens hun gehele levenscyclus, zodat die assets effectief worden gebruikt en onderhouden (beheer ICT-assets). Die beleidslijnen en procedures moeten ook de optimalisering borgen van het functioneren van ICT-systemen en dat de performance van ICT-systemen en -capaciteit voldoet aan vastgelegde doelstellingen inzake bedrijfsvoering en informatiebeveiliging (capaciteits- en performancemanagement). Ten slotte moeten die beleidslijnen en procedures bewaken dat het courante beheer en de courante exploitatie van ICT-systemen effectief en soepel verlopen (ICT-operaties), zodat de risico’s op verlies van vertrouwelijkheid, integriteit en beschikbaarheid van gegevens minimaal blijft. Die beleidslijnen en procedures zijn dus noodzakelijk om de veiligheid van netwerken te borgen, om afdoende bescherming te bieden tegen inbraken en misbruik van gegevens, en om de beschikbaarheid, authenticiteit, integriteit en vertrouwelijkheid van gegevens veilig te stellen."
+   }
+  ]
+ },
+ {
+  "number": 8,
+  "paragraphs": [
+   {
+    "text": "Om het risico van legacy ICT-systemen correct te beheersen, moeten financiële entiteiten einddata van ondersteuning van derde aanbieders van ICT-diensten vastleggen en monitoren. Vanwege de potentiële gevolgen die een verlies van vertrouwelijkheid, integriteit en beschikbaarheid van gegevens kan hebben, moeten financiële entiteiten zich bij het vastleggen en monitoren van die einddata concentreren op de ICT-assets of -systemen die kritiek zijn voor hun bedrijfsactiviteiten."
+   }
+  ]
+ },
+ {
+  "number": 9,
+  "paragraphs": [
+   {
+    "text": "Cryptografische controles kunnen de beschikbaarheid, authenticiteit, integriteit en vertrouwelijkheid van gegevens borgen. In titel II van deze verordening bedoelde financiële entiteiten moeten dergelijke controles dus identificeren en implementeren op basis van een risicogebaseerde benadering. Daartoe encrypteren financiële entiteiten de betrokken gegevens in rust, in transit of, waar nodig, in gebruik, op basis van de uitkomsten van een tweeledig proces: dataclassificatie en een brede ICT-risicobeoordeling. Gezien de complexiteit van encryptie van gegevens in gebruik moeten in titel II van deze verordening bedoelde financiële entiteiten gegevens in gebruik alleen encrypteren wanneer zulks passend is in het licht van de uitkomsten van de ICT-risicobeoordeling. Wanneer encryptie van gegevens in gebruik echter niet doenbaar of te complex is, moeten in titel II van deze verordening bedoelde financiële entiteiten in staat zijn de vertrouwelijkheid, integriteit en beschikbaarheid van de betrokken gegevens te beschermen via andere maatregelen voor ICT-beveiliging. Gezien de snelle technologische ontwikkelingen op het gebied van cryptografische technieken moeten in titel II van deze verordening bedoelde financiële entiteiten de betrokken ontwikkelingen op het gebied van cryptoanalyse op de voet volgen en rekening houden met maatgevende praktijken en normen. In titel II van deze verordening bedoelde financiële entiteiten moeten dus een flexibele benadering hanteren, gebaseerd op het mitigeren en monitoren van risico’s, waarmee zij omgaan met het dynamische landschap van cryptografische dreigingen, met inbegrip van dreigingen die uitgaan van vooruitgang op het gebied van kwantumcomputing."
+   }
+  ]
+ },
+ {
+  "number": 10,
+  "paragraphs": [
+   {
+    "text": "Veiligheids- en operationele beleidslijnen, procedures, protocollen en tools voor ICT-operaties zijn van essentieel belang om de vertrouwelijkheid, integriteit en beschikbaarheid van gegevens te garanderen. Een cruciaal aspect daarbij is de strikte scheiding tussen ICT-productieomgevingen en de omgevingen waarin ICT-systemen worden ontwikkeld en getest of andere niet-productieomgevingen. Die scheiding moet dienen als een belangrijke ICT-beveiligingsmaatregel tegen onbedoelde en ongeautoriseerde toegang tot, wijziging en wissen van gegevens in de productieomgeving, die zou kunnen resulteren in majeure verstoringen van de bedrijfsoperaties van in titel II van deze verordening bedoelde financiële entiteiten. Gelet echter op actuele praktijken voor de ontwikkeling van ICT-systemen, moet het financiële entiteiten, in uitzonderlijke omstandigheden, toegestaan zijn om in productieomgevingen te testen, op voorwaarde dat zij dit soort testactiviteiten verantwoorden en daarvoor de vereiste goedkeuring krijgen."
+   }
+  ]
+ },
+ {
+  "number": 11,
+  "paragraphs": [
+   {
+    "text": "Doordat het ICT-landschap zich razendsnel ontwikkelt, vergen ICT-kwetsbaarheden en cyberdreigingen een proactieve en brede benadering om ICT-kwetsbaarheden in kaart te brengen, te beoordelen en aan te pakken. Zonder dit soort aanpak, zouden financiële entiteiten, hun cliënten, gebruikers of tegenpartijen sterk kunnen worden blootgesteld aan risico’s, die hun digitale operationele weerbaarheid, de beveiliging van hun netwerk en de beschikbaarheid, authenticiteit, integriteit en vertrouwelijkheid van gegevens die met beleidslijnen en procedures voor ICT-beveiliging zouden moeten worden beschermd, in het gedrang zouden brengen. In titel II van deze verordening bedoelde financiële entiteiten moeten daarom kwetsbaarheden in hun ICT-omgeving in kaart brengen en verhelpen, en zowel de financiële entiteiten als hun derde aanbieders van ICT-diensten moeten zich houden aan een coherent, transparant en verantwoordelijk raamwerk voor het omgaan met kwetsbaarheden. Om diezelfde reden moeten financiële entiteiten ICT-kwetsbaarheden monitoren met betrouwbare middelen en geautomatiseerde tools, om zich ervan te vergewissen dat derde aanbieders van ICT-diensten ervoor zorgen dat direct wordt ingegrepen op kwetsbaarheden bij aangeboden ICT-diensten."
+   }
+  ]
+ },
+ {
+  "number": 12,
+  "paragraphs": [
+   {
+    "text": "Patchmanagement moet een essentieel onderdeel zijn van die beleidslijnen en procedures voor ICT-beveiliging die, via testen en een uitrol in een gecontroleerde omgeving, geconstateerde kwetsbaarheden moeten oplossen en storingen als gevolg van de installatie van patches moet voorkomen."
+   }
+  ]
+ },
+ {
+  "number": 13,
+  "paragraphs": [
+   {
+    "text": "Om te zorgen voor tijdige en transparante communicatie van potentiële veiligheidsdreigingen die een impact kunnen hebben op de financiële entiteit en haar stakeholders, moeten financiële entiteiten procedures inrichten voor responsible disclosure van ICT-kwetsbaarheden aan cliënten, tegenpartijen en het publiek. Bij het vastleggen van die procedures moeten financiële entiteiten rekening houden met factoren zoals de ernst van de kwetsbaarheid, de potentiële impact van die kwetsbaarheid op stakeholders, en de beschikbaarheid van fixes of mitigatiemaatregelen."
+   }
+  ]
+ },
+ {
+  "number": 14,
+  "paragraphs": [
+   {
+    "text": "Om toegangsrechten aan gebruikers te kunnen toekennen, moeten in titel II van deze verordening bedoelde financiële entiteiten robuuste maatregelen inrichten om de unieke identificatie van personen en systemen die toegang zullen hebben tot de informatie van de financiële entiteit, vast te stellen. Mochten financiële entiteiten dit niet doen, zouden zij zich blootstellen aan potentiële ongeautoriseerde toegang, datalekken en frauduleuze activiteiten, en daarmee de vertrouwelijkheid, integriteit en beschikbaarheid van gevoelige financiële gegevens in het gedrang brengen. Hoewel het gebruik van generieke of gedeelde accounts bij wijze van uitzondering moet worden toegestaan in door financiële entiteiten gespecificeerde omstandigheden, moeten zij bewaken dat de verantwoordingsplicht voor acties via die accounts behouden blijft. Zonder die voorzorgen zouden potentieel kwaadwillige gebruikers onderzoeks- en corrigerende maatregelen kunnen hinderen, waardoor financiële entiteiten kwetsbaar blijven voor ongedetecteerde kwaadwillige activiteiten of sancties wegens niet-nakoming."
+   }
+  ]
+ },
+ {
+  "number": 15,
+  "paragraphs": [
+   {
+    "text": "Om de snelle vooruitgang in ICT-omgevingen te beheersen, moeten in titel II van deze verordening bedoelde financiële entiteiten robuuste beleidslijnen en procedures voor ICT-projectmanagement opzetten om de beschikbaarheid, authenticiteit, integriteit en vertrouwelijkheid van gegevens in stand te houden. Die beleidslijnen en procedures voor ICT-projectmanagement moeten de elementen in kaart brengen die noodzakelijk zijn om ICT-projecten succesvol te beheren, met inbegrip van wijzigingen aan, de aanschaf van, het onderhoud van en ontwikkelingen van de ICT-systemen van de financiële entiteit, ongeacht de methode die de financiële entiteit voor het ICT-projectmanagement heeft gekozen. In het kader van deze beleidslijnen en procedures moeten financiële entiteiten testpraktijken en -methoden vaststellen die op hun behoeften aansluiten, maar zich wel aan een risicogebaseerde benadering houden en bewaken dat een veilige, betrouwbare en weerbare ICT-omgeving in stand wordt gehouden. Om de veilige implementatie van een ICT-project te garanderen, moeten financiële entiteiten bewaken dat medewerkers uit specifieke bedrijfssectoren of rollen die door dat ICT-project zullen worden beïnvloed of geraakt, de nodige informatie en deskundigheid kunnen aandragen. Om doeltreffend oversight te garanderen, moeten verslagen over ICT-projecten, en met name over projecten die van invloed zijn op kritieke of belangrijke functies en de daarmee samenhangende risico’s, bij het leidinggevend orgaan worden ingediend. Financiële entiteiten moeten de frequentie en details van de systematische en lopende evaluaties en verslagen aanpassen aan het belang en de omvang van de betrokken ICT-projecten."
+   }
+  ]
+ },
+ {
+  "number": 16,
+  "paragraphs": [
+   {
+    "text": "Geborgd moet worden dat softwarepakketten die in titel II van deze verordening bedoelde financiële entiteiten aanschaffen en ontwikkelen, effectief en veilig geïntegreerd zijn in de bestaande ICT-omgeving, in overeenstemming met vastgestelde doelstellingen inzake bedrijfs- en informatiebeveiliging. Daarom moeten financiële entiteiten dit soort softwarepakketten grondig evalueren. Daartoe, en om kwetsbaarheden en potentiële lacunes in de beveiliging in kaart te brengen binnen zowel softwarepakketten als de ruimere ICT-systemen, moeten financiële entiteiten ICT-beveiligingstesten uitvoeren. Om de integriteit van de software te analyseren en om te garanderen dat het gebruik van die software geen ICT-beveiligingsrisico’s inhoudt, moeten financiële entiteiten ook broncodes evalueren van aangeschafte software, met inbegrip van (voor zover doenbaar) proprietary software die door derde aanbieders van ICT-diensten wordt geleverd; daarbij gebruiken zij zowel statische als dynamische testmethodes."
+   }
+  ]
+ },
+ {
+  "number": 17,
+  "paragraphs": [
+   {
+    "text": "Veranderingen houden, ongeacht de omvang ervan, inherente risico’s in en kunnen aanzienlijke risico’s inhouden op het verlies van vertrouwelijkheid, integriteit en beschikbaarheid van data — en kunnen dus leiden tot ernstige bedrijfsstoringen. Om financiële entiteiten te beschermen tegen potentiële ICT-kwetsbaarheden en zwakke punten die hen aan aanzienlijke risico’s kunnen blootstellen, is een streng verificatieproces nodig om te bevestigen dat alle veranderingen aan de noodzakelijke ICT-beveiligingseisen voldoen. In titel II van deze verordening bedoelde financiële entiteiten moeten daarom, als een essentieel onderdeel van hun beleidslijnen en procedures voor ICT-beveiliging, beschikken over deugdelijke beleidslijnen en procedures inzake het ICT-wijzigingsbeheer (“ICT change management”). Om de objectiviteit en effectiviteit van het proces voor het ICT-wijzigingsbeheer in stand te houden, om belangenconflicten te voorkomen en om te bewaken dat ICT-wijzigingen objectief worden geëvalueerd, moet er een scheiding zijn tussen de functies die verantwoordelijk zijn voor het goedkeuren van die wijzigingen, en de functies die deze wijzigingen aanvragen en implementeren. Om effectieve transities, gecontroleerde implementatie van ICT-wijzigingen en minimale verstoringen van het functioneren van de ICT-systemen te verwezenlijken, moeten financiële entiteiten duidelijke rollen en verantwoordelijkheden toewijzen die moeten borgen dat ICT-wijzigingen worden gepland, afdoende getest en dat de kwaliteit is gegarandeerd. Om ICT-systemen daadwerkelijk te blijven laten functioneren en om een vangnet te bieden voor financiële entiteiten, moeten financiële entiteiten ook fall-backprocedures uitwerken en implementeren. Financiële entiteiten moeten die fall-backprocedures duidelijk identificeren en verantwoordelijkheden toewijzen zodat snel en doeltreffend kan worden gereageerd bij onsuccesvolle ICT-wijzigingen."
+   }
+  ]
+ },
+ {
+  "number": 18,
+  "paragraphs": [
+   {
+    "text": "Om ICT-incidenten te detecteren, te beheersen en daarover verslag te doen, moeten in titel II van deze verordening bedoelde financiële entiteiten een beleid voor ICT-incidenten formuleren dat de onderdelen omvat van een proces voor het beheersen van ICT-incidenten. Daartoe brengen financiële entiteiten alle relevante contacten binnen en buiten de organisatie in kaart die kunnen bijdragen aan de correcte coördinatie en implementatie van de verschillende fasen van dat proces. Om de detectie van en respons op ICT-incidenten te optimaliseren en om voor die incidenten trends in kaart te brengen, die een belangrijke bron van informatie zijn waarmee financiële entiteiten grondoorzaken en problemen doeltreffender kunnen identificeren en aanpakken, moeten financiële entiteiten met name ICT-incidenten analyseren die zij het meest significant vinden, onder meer omdat deze zich regelmatig opnieuw voordoen."
+   }
+  ]
+ },
+ {
+  "number": 19,
+  "paragraphs": [
+   {
+    "text": "Om een vroegtijdige en effectieve detectie van afwijkende activiteiten te garanderen, moeten in titel II van deze verordening bedoelde financiële entiteiten de verschillende informatiebronnen verzamelen, monitoren en analyseren en moeten zij in dat verband rollen en verantwoordelijkheden toewijzen. Wat betreft interne informatiebronnen, logs zijn een uiterst belangrijke bron, maar financiële entiteiten mogen niet op logs alleen vertrouwen. Financiële entiteiten moeten net rekening houden met ruimere informatie zodat wat andere interne functies rapporteren, wordt meegenomen, aangezien die functies vaak een waardevolle bron van relevante informatie zijn. Om diezelfde reden moeten financiële entiteiten informatie die bij externe bronnen is verzameld, analyseren en monitoren, met inbegrip van informatie die derde aanbieders van ICT-diensten verschaffen over incidenten die hun systemen en netwerken treffen, en andere bronnen van informatie die financiële entiteiten relevant achten. Voor zover het bij die informatie om persoonsgegevens gaat, is de Uniewetgeving inzake gegevensbescherming van toepassing. De persoonsgegevens moeten beperkt blijven tot hetgeen noodzakelijk is om incidenten te detecteren."
+   }
+  ]
+ },
+ {
+  "number": 20,
+  "paragraphs": [
+   {
+    "text": "Om ICT-incidenten te helpen detecteren, moeten financiële entiteiten bewijsmateriaal over die incidenten bewaren. Om ervoor te zorgen dat dit bewijsmateriaal voldoende lang bewaard wordt, enerzijds, en om overdreven regeldruk te vermijden, anderzijds, moeten financiële entiteiten de bewaartermijn vaststellen, rekening houdende met onder meer het kritieke karakter van de gegevens en retentieverplichtingen die uit Unierecht voortvloeien."
+   }
+  ]
+ },
+ {
+  "number": 21,
+  "paragraphs": [
+   {
+    "text": "Om ervoor te zorgen dat ICT-incidenten tijdig worden gedetecteerd, mogen in titel II van deze verordening bedoelde financiële entiteiten de criteria die zijn geïdentificeerd voor het activeren van de detectie van en respons op ICT-incidenten, niet als exhaustief beschouwen. Bovendien mogen de in die criteria beschreven omstandigheden, hoewel financiële entiteiten met elk van deze criteria rekening moeten houden, zich niet terzelfdertijd voordoen en moet afdoende met het belang van de betrokken ICT-diensten rekening worden gehouden om de processen voor detectie van en respons op ICT-incidenten te activeren."
+   }
+  ]
+ },
+ {
+  "number": 22,
+  "paragraphs": [
+   {
+    "text": "Bij het inrichten van een ICT-bedrijfscontinuïteitsbeleid moeten in titel II van deze verordening bedoelde financiële entiteiten rekening houden met de essentiële onderdelen van ICT-risicobeheersing, zoals strategieën voor de beheersing van ICT-incidenten en de communicatie daarover, het proces voor het ICT-wijzigingsbeheer, en risico’s verbonden aan derde aanbieders van ICT-diensten."
+   }
+  ]
+ },
+ {
+  "number": 23,
+  "paragraphs": [
+   {
+    "text": "Het is noodzakelijk om de reeks scenario’s vast te leggen waarmee in titel II van deze verordening bedoelde financiële entiteiten rekening moeten houden voor zowel de implementatie van ICT-respons- en -herstelplannen als het testen van plannen voor ICT-bedrijfscontinuïteit. Die scenario’s moeten voor financiële entiteiten als uitgangspunt dienen bij het analyseren van zowel de relevantie als de waarschijnlijkheid van elk scenario en de noodzaak om alternatieve scenario’s uit te werken. Financiële entiteiten moeten in die scenario’s vooral kijken naar welke investering in weerbaarheidsmaatregelen doelmatiger en doeltreffender kan zijn. Door het testen van overschakeling tussen de primaire ICT-infrastructuur en eventuele redundante capaciteit, back-ups en redundante faciliteiten, moeten financiële instellingen analyseren of die capaciteit, back-up en faciliteiten over een voldoende lange periode daadwerkelijk kunnen functioneren en ervoor kunnen zorgen dat het normale functioneren van de primaire ICT-infrastructuur kan worden hersteld in lijn met de hersteldoelstellingen."
+   }
+  ]
+ },
+ {
+  "number": 24,
+  "paragraphs": [
+   {
+    "text": "Het is noodzakelijk vereisten vast te stellen voor operationeel risico, en meer bepaald vereisten voor ICT-projectmanagement en ICT-wijzigingsbeheer en het beheer van ICT-bedrijfscontinuïteit waarbij wordt voorgebouwd op de vereisten die reeds van toepassing zijn op centrale tegenpartijen, centrale effectenbewaarinstellingen en handelsplatformen op grond van, onderscheidenlijk, Verordening (EU) nr. 648/2012 (3), Verordening (EU) nr. 600/2014 (4) en Verordening (EU) nr. 909/2014 (5) van het Europees Parlement en de Raad."
+   }
+  ]
+ },
+ {
+  "number": 25,
+  "paragraphs": [
+   {
+    "text": "Artikel 6, lid 5, van Verordening (EU) 2022/2554 schrijft voor dat financiële entiteiten hun raamwerk voor ICT-risicobeheersing moeten evalueren en aan hun bevoegde autoriteit verslag moeten doen van die evaluatie. Om bevoegde autoriteiten in staat te stellen de informatie in die verslagen gemakkelijk te verwerken, en om een adequate toezending van die informatie te verzekeren, moeten financiële entiteiten die verslagen indienen in een elektronisch doorzoekbaar formaat.",
+    "refs": [
+     {
+      "start": 0,
+      "end": 16,
+      "href": "/artikel/6#lid-5"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "number": 26,
+  "paragraphs": [
+   {
+    "text": "Bij de vereisten voor financiële entiteiten die onder het in artikel 16 van Verordening (EU) 2022/2554 bedoelde vereenvoudigde raamwerk voor ICT-risicobeheersing vallen, moet de klemtoon liggen op de essentiële domeinen en elementen die, gezien schaal, risico, grootte en complexiteit van die financiële entiteiten, minimaal noodzakelijk zijn om de vertrouwelijkheid, integriteit, beschikbaarheid en authenticiteit van de gegevens en diensten van die financiële entiteiten te garanderen. In dat verband moeten die financiële entiteiten beschikken over een intern governance- en controleraamwerk met duidelijke verantwoordelijkheden, om een doeltreffend en stevig raamwerk voor risicobeheersing te kunnen laten functioneren. Voorts moeten die financiële entiteiten, om de regeldruk en operationele druk te verminderen, slechts één beleid uitwerken en documenteren: een beleid voor informatiebeveiliging dat op hoofdlijnen beginselen en regels vastlegt die noodzakelijk zijn om de vertrouwelijkheid, integriteit, beschikbaarheid en authenticiteit van gegevens en diensten van die financiële entiteiten te beschermen.",
+    "refs": [
+     {
+      "start": 61,
+      "end": 71,
+      "href": "/artikel/16"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "number": 27,
+  "paragraphs": [
+   {
+    "text": "De bepalingen van deze verordening betreffen het onderdeel van het raamwerk voor ICT-risicobeheersing en zij leggen specifieke elementen vast die van toepassing zijn op de financiële entiteiten overeenkomstig artikel 15 van Verordening (EU) 2022/2554 en richten het vereenvoudigde raamwerk voor ICT-risicobeheersing in voor de financiële entiteiten als bedoeld in artikel 16, lid 1, van die verordening. Om de coherentie te verzekeren tussen het gewone en het vereenvoudigde raamwerk voor ICT-risicobeheersing, en gelet op het feit dat die bepalingen terzelfdertijd van toepassing moeten worden, is het passend die bepalingen op te nemen in één wetgevingshandeling.",
+    "refs": [
+     {
+      "start": 209,
+      "end": 219,
+      "href": "/artikel/15"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "number": 28,
+  "paragraphs": [
+   {
+    "text": "Dezer verordening is gebaseerd op de ontwerpen van technische reguleringsnormen die bij de Commissie zijn ingediend door de Europese Bankautoriteit, de Europese Autoriteit voor verzekeringen en bedrijfspensioenen en de Europese Autoriteit voor effecten en markten, in overleg met het Agentschap van de Europese Unie voor cyberbeveiliging (ENISA)."
+   }
+  ]
+ },
+ {
+  "number": 29,
+  "paragraphs": [
+   {
+    "text": "Het Gemengd Comité van de Europese toezichthoudende autoriteiten als bedoeld in artikel 54 van Verordening (EU) nr. 1093/2010 van het Europees Parlement en de Raad (6), in artikel 54 van Verordening (EU) nr. 1094/2010 van het Europees Parlement en de Raad (7) en in artikel 54 van Verordening (EU) nr. 1095/2010 van het Europees Parlement en de Raad (8) heeft open publieke consultaties gehouden over de ontwerpen van technische reguleringsnormen waarop deze verordening is gebaseerd, heeft de mogelijke kosten en baten van die voorgestelde normen geanalyseerd en heeft het advies ingewonnen van de overeenkomstig artikel 37 van Verordening (EU) nr. 1093/2010 opgerichte Stakeholdergroep bankwezen, de overeenkomstig artikel 37 van Verordening (EU) nr. 1094/2010 opgerichte Stakeholdergroep verzekeringen en herverzekeringen en de overeenkomstig artikel 37 van Verordening (EU) nr. 1095/2010 opgerichte Stakeholdergroep effecten en markten."
+   }
+  ]
+ },
+ {
+  "number": 30,
+  "paragraphs": [
+   {
+    "text": "Voor zover verwerking van persoonsgegevens vereist is om aan de in deze handeling vermelde verplichtingen te voldoen, moeten Verordeningen (EU) 2016/679 (9) en (EU) 2018/1725 (10) van het Europees Parlement en de Raad onverkort van toepassing zijn. Zo moet bijvoorbeeld het beginsel van minimale gegevensverwerking in acht worden genomen wanneer persoonsgegevens worden verzameld om voor een adequate detectie van incidenten te zorgen. Ook de Europese Toezichthouder voor gegevensbescherming is geraadpleegd over de ontwerpversie van deze handeling,"
+   }
+  ]
+ }
+]

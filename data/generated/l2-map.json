@@ -1,9 +1,24 @@
 {
  "meta": {
   "version": 1,
-  "linkCount": 21
+  "linkCount": 23
  },
  "byDora": {
+  "15": [
+   {
+    "target": "risicobeheer",
+    "label": "Risicobeheer-RTS (2024/1774) — tools, methoden, processen en beleidslijnen voor ICT-risicobeheersing",
+    "href": "/rts-risicobeheer"
+   }
+  ],
+  "16": [
+   {
+    "target": "risicobeheer",
+    "lid": 3,
+    "label": "Risicobeheer-RTS (2024/1774) — het vereenvoudigde raamwerk voor ICT-risicobeheersing (titel III)",
+    "href": "/rts-risicobeheer"
+   }
+  ],
   "18": [
    {
     "target": "classificatie",
