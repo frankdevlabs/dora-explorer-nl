@@ -82,6 +82,12 @@ const EXPECT: Record<string, Expect> = {
     chapters: 0,
     flat: [1, 3, 13, 19, 21, 22, 33, 34, 35, 37, 42],
   },
+  // pinned 2026-07 (epic 10, sources 32025R0295, 32025R1190, 32025R0302 —
+  // the annex-bearing acts; OJ-dialect annex parser validated against the
+  // its_nl_oj.html fixture vs the consolidated ITS annexes)
+  oversight: { articles: 7, recitals: 11, annexes: 1, chapters: 0, flat: [5, 7] },
+  tlpt: { articles: 17, recitals: 30, annexes: 8, chapters: 0, flat: [1, 17] },
+  formulieren: { articles: 9, recitals: 12, annexes: 4, chapters: 0, flat: [2, 3, 5, 9] },
 };
 
 for (const [inst, exp] of Object.entries(EXPECT)) {
@@ -272,6 +278,67 @@ spot(
   "risicobeheer corrigendum-ref art 22",
 );
 
+const tlpt = load<Article[]>("data/generated/tlpt/articles.json");
+// art 2(1): the identification test (impact, systemic character, risk profile)
+spot(
+  tlpt,
+  2,
+  "rekening houdende met de impact van die financiële entiteiten op de financiële sector",
+  "tlpt identificatiecriteria",
+);
+
+const formulierenArts = load<Article[]>("data/generated/formulieren/articles.json");
+spot(
+  formulierenArts,
+  1,
+  "Financiële entiteiten gebruiken het model in bijlage I voor de indiening van de eerste kennisgeving",
+  "formulieren model bijlage I",
+);
+
+// ------------------------------------------------- OJ-dialect annexes (epic 10)
+
+// oversight anx I: the subcontracting information-sharing template
+const oversightAnnexes = load<Annex[]>("data/generated/oversight/annexes.json");
+{
+  const t = oversightAnnexes[0].content.find((n) => n.type === "table");
+  assert.ok(t && t.type === "table" && t.rows.length === 11, "oversight anx I: 11 table rows");
+  assert.equal(t!.type === "table" && t!.rows[0][0], "Informatiecategorie", "oversight anx I header");
+}
+
+// tlpt: 8 annexes I-VIII (project charter … attest)
+const tlptAnnexes = load<Annex[]>("data/generated/tlpt/annexes.json");
+assert.deepEqual(
+  tlptAnnexes.map((a) => a.roman),
+  ["I", "II", "III", "IV", "V", "VI", "VII", "VIII"],
+  "tlpt: annex romans",
+);
+assert.ok(
+  tlptAnnexes[1].title.includes("scoping-document"),
+  "tlpt anx II: scoping-document title",
+);
+
+// formulieren: incident-report template (anx I) + glossary (anx II), threat
+// notification (anx III) + glossary (anx IV); row counts pinned after
+// eyeballing the parsed tables against the OJ text
+const formulierenAnnexes = load<Annex[]>("data/generated/formulieren/annexes.json");
+{
+  const rows = (i: number) => {
+    const t = formulierenAnnexes[i].content.find((n) => n.type === "table");
+    return t && t.type === "table" ? t.rows.length : -1;
+  };
+  assert.equal(rows(0), 81, "formulieren anx I: 81 template rows");
+  assert.equal(rows(1), 81, "formulieren anx II: 81 glossary rows");
+  assert.equal(rows(2), 21, "formulieren anx III: 21 template rows");
+  assert.equal(rows(3), 21, "formulieren anx IV: 21 glossary rows");
+  assert.equal(formulierenAnnexes[1].footnotes.length, 3, "formulieren anx II: footnotes");
+  const glossary = formulierenAnnexes[1].content.find((n) => n.type === "table");
+  assert.ok(
+    glossary?.type === "table" &&
+      glossary.rows.some((r) => r.join(" ").includes("classificatiecriterium")),
+    "formulieren anx II: glossary content",
+  );
+}
+
 // ------------------------------------------------- ITS annexes (RoI source)
 
 const itsAnnexes = load<Annex[]>("data/generated/its/annexes.json");
@@ -355,7 +422,9 @@ const REF_EXPECT: Record<string, number> = {
   rts: 10,
   criticaliteit: 36,
   vergoedingen: 17,
-  onderzoeksteams: 23,
+  // onderzoeksteams 23→24: its "artikel 4 van Gedelegeerde Verordening (EU)
+  // 2025/295" became linkable when the oversight-RTS joined the registry
+  onderzoeksteams: 24,
   classificatie: 45,
   contractbeleid: 19,
   rapportage: 22,
@@ -363,6 +432,13 @@ const REF_EXPECT: Record<string, number> = {
   // 56 → dora, 35 internal, 1 → classificatie art 8(2) = the corrigendum
   // ref; 2 bare "hoofdstukken … van deze titel" refs dropped by design)
   risicobeheer: 92,
+  // annex batch (target-root summaries + random samples audited): oversight
+  // 10 → dora + 1 internal; tlpt 28 → dora, 23 internal art, 10 internal
+  // bijlage; formulieren 8 → dora, 9 own bijlagen, 4 → rapportage-RTS,
+  // 3 → classificatie-RTS
+  oversight: 11,
+  tlpt: 61,
+  formulieren: 24,
 };
 
 function collectRefs(inst: string): { href: string; where: string }[] {
@@ -390,7 +466,8 @@ for (const [inst, expected] of Object.entries(REF_EXPECT)) {
   assert.equal(refs.length, expected, `${inst}: ref count drifted (${refs.length})`);
   refTotal += refs.length;
 }
-assert.equal(refTotal, 466, "total ref count"); // 212→248→374→466 epic 10 (risicobeheer +92)
+// 212→248→374→466→563 epic 10 (annex batch +96, onderzoeksteams re-pin +1)
+assert.equal(refTotal, 563, "total ref count");
 
 // positive spot checks: the cross-instrument resolver (ITS/RTS text linking
 // into DORA's unprefixed routes)
@@ -432,8 +509,9 @@ const docs = load<SearchDoc[]>("data/generated/search-docs.json");
 // pinned 2026-07: dora 267 art-lid + 106 rct; its 16 art + 15 rct + 55 annex
 // chunks; rts 13 art + 13 rct = 485. Epic 10: 513 (criticaliteit) → 679
 // (vergoedingen 27 + onderzoeksteams 30 + classificatie 46 + contractbeleid
-// 42 + rapportage 21 docs) → 820 (risicobeheer 141)
-assert.equal(docs.length, 820, "search docs: total count");
+// 42 + rapportage 21 docs) → 820 (risicobeheer 141) → 1031 (oversight 27 +
+// tlpt 149 + formulieren 35)
+assert.equal(docs.length, 1031, "search docs: total count");
 const ids = new Set(docs.map((d) => d.id));
 assert.equal(ids.size, docs.length, "search docs: duplicate ids");
 for (const d of docs) {

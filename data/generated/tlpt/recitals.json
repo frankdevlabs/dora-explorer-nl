@@ -1,0 +1,285 @@
+[
+ {
+  "number": 1,
+  "paragraphs": [
+   {
+    "text": "Deze verordening is opgesteld overeenkomstig het TIBER-EU Framework en weerspiegelt de methodologie, het proces en de structuur van threat-led penetration tests (“TLPT’s”) zoals beschreven in TIBER-EU. Financiële entiteiten die TLPT moeten uitvoeren, kunnen verwijzen naar en toepassing geven aan het TIBER-EU Framework, of een van de nationale uitvoeringen ervan, voor zover dat raamwerk of die uitvoering in overeenstemming is met de vereisten van de artikelen 26 en 27 van Verordening (EU) 2022/2554 en met deze verordening. De aanwijzing van één enkele overheidsinstantie in de financiële sector die overeenkomstig artikel 26, lid 9, van Verordening (EU) 2022/2554 op nationaal niveau verantwoordelijk is voor TLPT-gerelateerde aangelegenheden, mag geen afbreuk doen aan de bevoegdheden van bevoegde autoriteiten die op Unieniveau zijn belast met het toezicht op bepaalde financiële entiteiten overeenkomstig artikel 46 van die verordening, zoals bijvoorbeeld aan de Europese Centrale Bank voor belangrijke kredietinstellingen, die moeten worden geacht bevoegd te zijn voor TLPT-kwesties. Indien alleen sommige van de TLPT-gerelateerde taken overeenkomstig artikel 26, lid 10, van Verordening (EU) 2022/2554 aan een andere nationale autoriteit in de financiële sector worden gedelegeerd, moet de in artikel 46 van die verordening bedoelde bevoegde autoriteit van de financiële entiteit de autoriteit blijven voor de TLPT-gerelateerde taken die niet gedelegeerd zijn.",
+    "refs": [
+     {
+      "start": 453,
+      "end": 465,
+      "href": "/artikel/26"
+     },
+     {
+      "start": 469,
+      "end": 471,
+      "href": "/artikel/27"
+     },
+     {
+      "start": 619,
+      "end": 636,
+      "href": "/artikel/26#lid-9"
+     },
+     {
+      "start": 1161,
+      "end": 1179,
+      "href": "/artikel/26#lid-10"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "number": 2,
+  "paragraphs": [
+   {
+    "text": "Gezien de complexiteit van TLPT’s en de daaraan verbonden risico’s, moet het gebruik van TLPT’s worden beperkt tot financiële entiteiten waarvoor zulks gerechtvaardigd is. Daarom moeten de autoriteiten die verantwoordelijk zijn voor TLPT-aangelegenheden (“TLPT-autoriteiten”, op het niveau van de Unie of op nationaal niveau), financiële entiteiten die actief zijn in subsectoren van financiële kerndiensten waarvoor een TLPT niet gerechtvaardigd is, uitsluiten van de scope van TLPT’s. Dat betekent dat kredietinstellingen, betaalinstellingen en instellingen voor elektronisch geld, centrale effectenbewaarinstellingen, centrale tegenpartijen, handelsplatformen, (her)verzekeringsondernemingen, ook als zij aan de kwantitatieve criteria voldoen, van de verplichting om TLPT’s uit te voeren kunnen worden vrijgesteld in het licht van een algemene beoordeling van hun ICT-risicoprofiel en -maturiteit, hun impact op de financiële sector en de daarmee samenhangende zorgen over de financiële stabiliteit."
+   }
+  ]
+ },
+ {
+  "number": 3,
+  "paragraphs": [
+   {
+    "text": "TLPT-autoriteiten moeten, in het licht van een algemene beoordeling van het ICT-risicoprofiel en de ICT-maturiteit, de impact op de financiële sector en de daarmee samenhangende zorgen over de financiële stabiliteit, beoordelen of andere soorten financiële entiteiten dan kredietinstellingen, betaalinstellingen, instellingen voor elektronisch geld, centrale tegenpartijen, centrale effectenbewaarinstellingen, handelsplatformen en (her)verzekeringsondernemingen aan TLPT’s moeten worden onderworpen. De beoordeling of die financiële entiteiten voldoen aan voornoemde kwalitatieve criteria moet inzetten op het aan de hand van sectoroverschrijdende en objectieve indicatoren identificeren van de financiële entiteiten waarvoor TLPT’s passend zijn. Tegelijkertijd moet die beoordeling of een financiële entiteit aan die kwalitatieve criteria voldoet, de aan TLPT’s te onderwerpen entiteiten beperken tot die entiteiten waarvoor zulks gerechtvaardigd is. De vraag of een financiële entiteit aan de kwalitatieve criteria voldoet, moet ook worden beantwoord in het licht van de nieuwe marktontwikkelingen en van het toenemende belang van nieuwe marktdeelnemers voor de financiële sector in de toekomst, met inbegrip van aanbieders van cryptoactivadiensten die overeenkomstig artikel 59 van Verordening (EU) 2023/1114 van het Europees Parlement en de Raad (2) een vergunning hebben gekregen."
+   }
+  ]
+ },
+ {
+  "number": 4,
+  "paragraphs": [
+   {
+    "text": "Financiële entiteiten kunnen dezelfde intragroepsaanbieder van ICT-diensten hebben of kunnen tot dezelfde groep behoren en gebruikmaken van gedeelde ICT-systemen. In dat geval is het belangrijk dat TLPT-autoriteiten, wanneer zij beoordelen of een financiële entiteit aan TLPT’s moet worden onderworpen, en of de TLPT moet worden uitgevoerd op entiteitsniveau of op groepsniveau (via een gezamenlijke TLPT), de structuur en het systemische karakter of het belang van die financiële entiteit voor de financiële sector op nationaal of Unieniveau in aanmerking nemen."
+   }
+  ]
+ },
+ {
+  "number": 5,
+  "paragraphs": [
+   {
+    "text": "Om een afspiegeling te zijn van het TIBER-EU Framework, moet in de testmethodologie een rol voor de volgende hoofddeelnemers opgenomen zijn: de financiële entiteit, met een control team (de tegenhanger van het TIBER-EU “control team”) en een blue team (de tegenhanger van het TIBER-EU “blue team”), de TLPT-autoriteit, in de vorm van een TLPT-cyberteam (de tegenhanger van de TIBER-EU “TIBER cyberteams”), een aanbieder van dreigingsinformatie, en testers (waarbij de testers de tegenhangers van de TIBER-EU “red-team provider” zijn)."
+   }
+  ]
+ },
+ {
+  "number": 6,
+  "paragraphs": [
+   {
+    "text": "Om ervoor te zorgen dat de TLPT kan profiteren van de ervaringen die zijn opgedaan in het kader van de uitvoering van TIBER-EU, en om de aan de uitvoering van TLPT’s verbonden risico’s te verminderen, moet ervoor worden gezorgd dat de verantwoordelijkheden van de TLPT-cyberteams die op het niveau van TLPT-autoriteiten worden opgericht, zo nauw mogelijk aansluiten bij die van de TIBER-EU-cyberteams. Daarom moeten de TLPT-cyberteams beschikken over testmanagers die verantwoordelijk zijn voor het overzien van individuele TLPT’s en voor het plannen en coördineren van individuele tests. TLPT-cyberteams moeten fungeren als centraal aanspreekpunt voor communicatie met interne en externe stakeholders over de tests, voor het verzamelen en verwerken van feedback en lessons learned van eerder uitgevoerde tests, en voor het ondersteunen van financiële entiteiten die TLPT’s ondergaan."
+   }
+  ]
+ },
+ {
+  "number": 7,
+  "paragraphs": [
+   {
+    "text": "Om de methodologie van het TIBER-EU Framework te weerspiegelen, moeten testmanagers over de benodigde vaardigheden en capaciteiten beschikken om adviezen te geven en testers te bevragen over hun voorstellen. De in het kader van het TIBER-EU Framework opgedane ervaringen hebben uitgewezen dat het waardevol is om aan elke test een team van ten minste twee testmanagers toe te wijzen. Om te weerspiegelen dat TLPT’s bedoeld zijn als een mogelijkheid om te leren, en om de vertrouwelijkheid van de tests te waarborgen, worden TLPT-autoriteiten sterk aangemoedigd om, tenzij zij kampen met een gebrek aan middelen of deskundigheid, te bepalen dat testmanagers voor de duur van een TLPT geen toezichtwerkzaamheden mogen uitvoeren ten aanzien van de financiële entiteit die een TLPT ondergaat."
+   }
+  ]
+ },
+ {
+  "number": 8,
+  "paragraphs": [
+   {
+    "text": "Met het oog op de samenhang met het TIBER-EU Framework is het belangrijk dat de TLPT-autoriteit de testwerkzaamheden in elk van de fasen ervan nauwlettend volgt. Gezien de aard van het testen en de risico’s die daaraan verbonden zijn, is het van fundamenteel belang dat de TLPT-autoriteit wordt betrokken bij elke specifieke testfase. In het bijzonder moet de TLPT-autoriteit worden geraadpleegd en moeten beoordelingen of besluiten van de financiële entiteiten die van invloed kunnen zijn op de doeltreffendheid van de test en een impact kunnen hebben op de aan de test verbonden risico’s, door haar worden gevalideerd. De fundamentele stappen waar een specifieke rol van de TLPT-autoriteit noodzakelijk is, zijn onder meer het valideren van bepaalde essentiële documentatie met betrekking tot de tests, de selectie van aanbieders van dreigingsinformatie en testers, en maatregelen inzake risicomanagement. De rol van de TLPT-autoriteiten, met name voor valideringen, mag niet leiden tot een buitensporige last voor die autoriteiten en moet daarom beperkt blijven tot de documenten en besluiten die rechtstreeks van invloed kunnen zijn op het uitvoeren van de TLPT. Door actief deel te nemen aan elke testfase, kunnen de TLPT-autoriteiten op doeltreffende wijze beoordelen of de financiële entiteiten de toepasselijke vereisten naleven, hetgeen die autoriteiten in staat moet stellen de in artikel 26, lid 7, van Verordening (EU) 2022/2554 bedoelde attesten af te geven.",
+    "refs": [
+     {
+      "start": 1391,
+      "end": 1408,
+      "href": "/artikel/26#lid-7"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "number": 9,
+  "paragraphs": [
+   {
+    "text": "Om ervoor te zorgen dat de omstandigheden van de tests realistisch zijn, is geheimhouding van TLPT’s van het grootste belang. Om die reden moeten de testwerkzaamheden heimelijk plaatsvinden en moeten voorzorgsmaatregelen worden genomen om de TLPT’s vertrouwelijk te houden, onder meer door zodanige codenamen te kiezen dat identificatie van de TLPT door derden wordt voorkomen. Indien personeelsleden die verantwoordelijk zijn voor de beveiliging van het financiële team, op de hoogte zijn van een geplande of lopende TLPT, zullen zij waarschijnlijk oplettender en alerter zijn dan in normale werkomstandigheden, hetgeen een vertekende uitkomst van de test zal opleveren. Personeelsleden van de financiële entiteit die geen deel uitmaken van het control team, mogen daarom alleen op de hoogte worden gesteld van geplande of lopende TLPT’s als daarvoor overtuigende redenen bestaan en na voorafgaande toestemming van de testmanagers, onder meer om de geheimhouding van de test te waarborgen indien een lid van het blue team heeft ontdekt dat de test loopt."
+   }
+  ]
+ },
+ {
+  "number": 10,
+  "paragraphs": [
+   {
+    "text": "Zoals de in het TIBER-EU Framework opgedane ervaringen met het control team hebben uitgewezen, is de selectie van een geschikte leider van het control team (control team lead) onontbeerlijk voor de veilige uitvoering van TLPT’s. De leider van het control team moet binnen de financiële entiteit kunnen beschikken over het benodigde mandaat om alle aspecten van de tests aan te sturen, zonder de vertrouwelijkheid ervan in het gedrang te brengen. Om dezelfde reden moeten de leden van het control team een grondige kennis hebben van de financiële entiteit en van de functie en strategische positionering van de leider van het control team, moeten zij over de vereiste senioriteit beschikken en moeten zij toegang hebben tot de raad van bestuur. Om het risico op compromittering van de TLPT te verkleinen, moet het control team zo klein mogelijk worden gehouden."
+   }
+  ]
+ },
+ {
+  "number": 11,
+  "paragraphs": [
+   {
+    "text": "Aan TLPT’s zijn inherente risico’s verbonden, aangezien kritieke functies worden getest in een live productieomgeving, met de kans op denial-of-service(DoS)-incidenten, onverwachte systeemcrashes, schade aan kritieke live productiesystemen of het verlies, de wijziging of openbaarmaking van data. Die risico’s onderstrepen de noodzaak van maatregelen voor robuust risicomanagement. Om de TLPT tijdens de gehele duur ervan op een gecontroleerde manier te laten verlopen, is het van groot belang dat financiële entiteiten zich te allen tijde bewust zijn van de specifieke risico’s die zich bij een TLPT voordoen en dat die risico’s worden gemitigeerd. In dat verband kan, onverminderd de interne processen van de financiële entiteit en de verantwoordelijkheden en delegaties die reeds aan de leider van het control team zijn verleend, het verstrekken van informatie over maatregelen voor TLPT-risicomanagement of, in bepaalde gevallen, de goedkeuring van die maatregelen voor risicomanagement door het leidinggevend orgaan van de financiële entiteit zelf, passend zijn. Om doeltreffende en de best gekwalificeerde professionele diensten te kunnen leveren en die risico’s te verminderen, is het ook van essentieel belang dat de testers en aanbieders van dreigingsinformatie (tezamen “de TLPT-aanbieders”) beschikken over het hoogste niveau aan vaardigheden en deskundigheid en over passende ervaring op het gebied van dreigingsinformatie en TLPT’s in de sector financiële diensten."
+   }
+  ]
+ },
+ {
+  "number": 12,
+  "paragraphs": [
+   {
+    "text": "Conventionele penetratietests bieden een gedetailleerde en nuttige beoordeling van technische en configuratiekwetsbaarheden, vaak van één enkel, afzonderlijk systeem of één enkele, afzonderlijke omgeving, maar anders dan informatiegestuurde red-teamtests beoordelen zij niet het volledige scenario van een gerichte aanval op een hele entiteit, met inbegrip van al haar medewerkers, processen en technologieën. Tijdens het selectieproces van de TLPT-aanbieders moeten financiële entiteiten zich er daarom van verzekeren dat die aanbieders beschikken over de vereiste vaardigheden om informatiegestuurde red-teamtests uit te voeren — en niet alleen penetratietests. Om die reden moeten omvattende criteria worden vastgesteld voor (interne en externe) testers en aanbieders van dreigingsinformatie (die altijd extern zijn). Wanneer de TLPT-aanbieders tot dezelfde onderneming behoren, moet het personeel dat aan een TLPT wordt toegewezen, op adequate wijze worden afgescheiden."
+   }
+  ]
+ },
+ {
+  "number": 13,
+  "paragraphs": [
+   {
+    "text": "In bepaalde uitzonderlijke omstandigheden kan zich de situatie voordoen dat financiële entiteiten geen TLPT-aanbieders kunnen inhuren die aan de omvattende criteria voldoen. Financiële entiteiten moeten daarom de mogelijkheid hebben om, wanneer zij aantonen dat dergelijke aanbieders van dreigingsinformatie niet beschikbaar zijn, personen in te zetten die niet aan alle criteria voldoen, mits zij de daaruit voortvloeiende aanvullende risico’s naar behoren mitigeren en de TLPT-autoriteit al die criteria beoordeelt."
+   }
+  ]
+ },
+ {
+  "number": 14,
+  "paragraphs": [
+   {
+    "text": "Wanneer meerdere financiële entiteiten en meerdere TLPT-autoriteiten bij een TLPT betrokken zijn, moeten de rollen van alle partijen in het TLPT-proces worden gespecificeerd om de TLPT op de meest efficiënte en veilige wijze uit te voeren. Voor het uitvoeren van gepoolde tests zijn specifieke vereisten nodig om de rol van de aangewezen financiële entiteit te specificeren, in de zin dat deze verantwoordelijk is voor het verstrekken van alle benodigde documentatie aan de leidende TLPT-autoriteit en voor het monitoren van het testproces. De aangewezen financiële entiteit moet ook verantwoordelijk zijn voor de gemeenschappelijke aspecten van de beoordeling van het risicomanagement. Niettegenstaande de rol van de aangewezen financiële entiteit mag een en ander niets afdoen aan de verplichtingen van elke financiële entiteit die aan het gepoolde TLPT-proces deelneemt, tijdens de gepoolde test. Hetzelfde beginsel moet gelden voor de uitvoering van gezamenlijke TLPT’s."
+   }
+  ]
+ },
+ {
+  "number": 15,
+  "paragraphs": [
+   {
+    "text": "Zoals de ervaring bij de uitvoering van het TIBER-EU Framework heeft geleerd, is het houden van fysieke of on-line vergaderingen met alle betrokken stakeholders (financiële entiteiten, autoriteiten, testers en aanbieders van dreigingsinformatie) de meest doelmatige manier om ervoor te zorgen dat de tests correct worden uitgevoerd. Daarom moeten in de verschillende fasen van het proces fysieke en on-line vergaderingen worden gehouden, en meer bepaald in de voorbereidingsfase, bij de start van de TLPT en om de scope ervan te bepalen; in de testfase, om het rapport inzake dreigingsinformatie en het testplan voor het red team definitief vast te leggen, en voor de wekelijkse updates, en in de afsluitende fase, bij de replay van acties van testers en het blue team, voor purple teaming en om feedback over de TLPT uit te wisselen."
+   }
+  ]
+ },
+ {
+  "number": 16,
+  "paragraphs": [
+   {
+    "text": "Om de TLPT soepel te laten verlopen, moet de TLPT-autoriteit haar verwachtingen met betrekking tot de test duidelijk presenteren aan de financiële entiteit. In dat verband moeten de testmanagers ervoor zorgen dat er een passende informatiestroom tot stand wordt gebracht met het control team binnen de financiële entiteit en met de TLPT-aanbieders."
+   }
+  ]
+ },
+ {
+  "number": 17,
+  "paragraphs": [
+   {
+    "text": "De financiële entiteit moet de in de scope van de TLPT op te nemen kritieke of belangrijke functies selecteren. Bij het selecteren van die functies moet de financiële entiteit zich baseren op verschillende criteria die verband houden met het belang van elke functie voor de financiële entiteit zelf en voor de financiële sector, op het niveau van de Unie en op nationaal niveau, niet alleen in economische zin, maar ook rekening houdende met de symbolische of politieke status van de functie. Om een soepele overgang naar de fase van het verzamelen van dreigingsinformatie te vergemakkelijken, moet het control team de testers en de aanbieder van dreigingsinformatie (threat intelligence provider) die niet bij de scoping betrokken zijn, gedetailleerde informatie over de overeengekomen scoping verstrekken."
+   }
+  ]
+ },
+ {
+  "number": 18,
+  "paragraphs": [
+   {
+    "text": "Om de testers te voorzien van de informatie die nodig is voor het simuleren van een levensechte en realistische aanval op de live systemen van de financiële entiteit die haar kritieke of belangrijke functies ondersteunen, moet de aanbieder van dreigingsinformatie inlichtingen of informatie verzamelen die ten minste twee cruciale aandachtsgebieden bestrijken: de doelwitten (door het identificeren van potentiële attack surfaces binnen de financiële entiteit) en de bedreigingen (door het identificeren van relevante dreigingsactoren en waarschijnlijke dreigingsscenario’s). Om ervoor te zorgen dat de aanbieder van dreigingsinformatie de relevante bedreigingen voor de financiële entiteit in aanmerking neemt, moeten de testers, het control team en de testmanagers feedback geven over het ontwerprapport inzake dreigingsinformatie. Indien beschikbaar, kan de aanbieder van dreigingsinformatie een door de TLPT-autoriteit voor de financiële sector van een lidstaat verstrekt algemeen dreigingslandschap gebruiken als basis voor het nationale dreigingslandschap. Voortgaande op de toepassing van het TIBER-EU Framework neemt het proces van het verzamelen van dreigingsinformatie doorgaans ongeveer vier weken in beslag."
+   }
+  ]
+ },
+ {
+  "number": 19,
+  "paragraphs": [
+   {
+    "text": "Om testers in de gelegenheid te stellen inzicht te krijgen in het document met de afbakening van de scope (“scoping-document”) en in het Target Threat Intelligence Report (TTI-rapport) en deze nader te bestuderen met het oog op het definitief vastleggen van het testplan voor het red team, is het van essentieel belang dat de testers, voorafgaand aan de red-teamtestfase van de TLPT, van de aanbieder van dreigingsinformatie een uitvoerige toelichting op het Target Threat Intelligence Report en een analyse van mogelijke dreigingsscenario’s ontvangen."
+   }
+  ]
+ },
+ {
+  "number": 20,
+  "paragraphs": [
+   {
+    "text": "Om testers in staat te stellen een realistische en omvattende test uit te voeren waarbij alle aanvalsfasen worden uitgevoerd en flags worden bereikt, moet er voldoende tijd worden uitgetrokken voor de actieve red-teamtestfase. Op basis van de ervaring die met het TIBER-EU Framework is opgedaan, moet de toegewezen tijd ten minste twaalf weken bedragen en moet deze tijd worden bepaald op basis van het aantal betrokken partijen, de scope van de TLPT, de hulpbronnen van de betrokken financiële entiteit of entiteiten, eventuele externe vereisten, en de beschikbaarheid van door de financiële entiteit verstrekte ondersteunende informatie."
+   }
+  ]
+ },
+ {
+  "number": 21,
+  "paragraphs": [
+   {
+    "text": "Tijdens de actieve red-teamtestfase moeten de testers een reeks tactieken, technieken en procedures inzetten om de live productiesystemen van de financiële entiteit adequaat te testen. Die tactieken, technieken en procedures moeten, in voorkomend geval, omvatten: reconnaissance (het verzamelen van zo veel mogelijk informatie over een doelwit), weaponization (het analyseren van informatie over de infrastructuur, faciliteiten en medewerkers, alsmede het voorbereiden van de specifiek op het doelwit gerichte operaties), delivery (de actieve lancering van de volledige aanval op het doelwit), exploitation (waarbij het doel van de testers is om de servers en netwerken van de financiële entiteit te compromitteren en het personeel ervan te exploiteren door middel van social engineering), control and movement (pogingen om vanuit gecompromitteerde systemen andere kwetsbare of hoogwaardige systemen binnen te dringen) en actions on objectives (verkrijgen van verdere toegang tot gecompromitteerde systemen en tot de doelinformatie en -data, zoals van tevoren overeengekomen in het testplan van het red team)."
+   }
+  ]
+ },
+ {
+  "number": 22,
+  "paragraphs": [
+   {
+    "text": "Bij het uitvoeren van een TLPT moeten de testers de beschikbare tijd voor het uitvoeren van de aanval, de middelen en de ethische en wettelijke grenzen in acht nemen. Indien de testers niet naar de geprogrammeerde volgende fase van de aanval kunnen doorgaan, moet het control team, met instemming van de TLPT-autoriteit, incidentele ondersteuning verlenen in de vorm van zogenoemde “leg-ups”. Leg-ups kunnen grofweg worden ingedeeld in informatie- en in toegang-leg-ups en kunnen bijvoorbeeld bestaan uit het verlenen van toegang tot ICT-systemen of interne netwerken om de test te kunnen voortzetten en de aandacht op de volgende aanvalsstappen te kunnen richten."
+   }
+  ]
+ },
+ {
+  "number": 23,
+  "paragraphs": [
+   {
+    "text": "Tijdens de actieve red teaming in de testfase moet, indien het nodig is om de TLPT, als laatste redmiddel in uitzonderlijke omstandigheden en wanneer alle alternatieve opties zijn uitgeput, te kunnen voortzetten, worden gebruikgemaakt van collaboratieve testwerkzaamheden waarbij zowel de testers als het blue team zijn betrokken. In het kader van een dergelijke beperkte purple teaming-oefening kunnen de volgende methoden worden gebruikt: catch-and-release (waarbij testers proberen de scenario’s voort te zetten, gedetecteerd te worden en vervolgens het testen te hervatten), war gaming (met complexere scenario’s om strategische besluitvorming te testen) of collaborative proof-of-concept (waarmee testers en blue-teamleden gezamenlijk specifieke beveiligingsmaatregelen, tools of technieken kunnen valideren in een gecontroleerde en coöperatieve omgeving)."
+   }
+  ]
+ },
+ {
+  "number": 24,
+  "paragraphs": [
+   {
+    "text": "De TLPT moet worden gebruikt als een leerervaring om de digitale operationele weerbaarheid van financiële entiteiten te versterken. In dat verband voeren het blue team en de testers een replay van de aanval uit en evalueren zij de stappen die zijn gezet om te leren van de testervaring, in samenwerking met de testers. Daartoe, en om een adequate voorbereiding mogelijk te maken, moeten het red-team-testrapport en het blue-team-testrapport beschikbaar worden gesteld aan alle partijen die betrokken zijn bij de replay, voordat er enige replay plaatsvindt. Daarnaast moet er in de afsluitende fase een purple teaming-oefening worden uitgevoerd om de leerervaring te maximaliseren. Methoden die voor purple teaming in de afsluitende fase kunnen worden gebruikt, zijn onder meer discussies over alternatieve aanvalsscenario’s, verkenning van alternatieve scenario’s op live systemen, of het opnieuw verkennen van geplande scenario’s op live systemen die de testers tijdens de testfase niet hebben kunnen voltooien of uitvoeren."
+   }
+  ]
+ },
+ {
+  "number": 25,
+  "paragraphs": [
+   {
+    "text": "Om de leerervaring van alle bij de TLPT betrokken partijen verder te verbeteren — ten behoeve van toekomstige tests — en om de digitale operationele weerbaarheid van financiële entiteiten te bevorderen, moeten de betrokken partijen elkaar feedback geven over het algemene proces en moeten zij met name identificeren welke activiteiten goed zijn verlopen of hadden kunnen worden verbeterd en welke aspecten van het TLPT-proces goed hebben gewerkt of vatbaar zijn voor verbetering."
+   }
+  ]
+ },
+ {
+  "number": 26,
+  "paragraphs": [
+   {
+    "text": "De in artikel 46 van Verordening (EU) 2022/2554 bedoelde bevoegde autoriteiten en, indien daarvan verschillend, de TLPT-autoriteiten moeten samenwerken om geavanceerde tests op basis van TLPT te integreren in de bestaande toezichtprocedures. In dat verband, en om te komen tot een gezamenlijk correct begrip van de TLPT-bevindingen en de wijze waarop deze moeten worden geïnterpreteerd, is het passend dat er, met name voor het samenvattende testrapport en de remediëringsplannen, een nauwe samenwerking tussen de bij de TLPT betrokken testmanagers en de verantwoordelijke toezichthouders tot stand wordt gebracht.",
+    "refs": [
+     {
+      "start": 6,
+      "end": 16,
+      "href": "/artikel/46"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "number": 27,
+  "paragraphs": [
+   {
+    "text": "Artikel 26, lid 8, eerste alinea, van Verordening (EU) 2022/2554 legt financiële entiteiten de verplichting op om bij iedere derde test externe testers in te huren. Indien financiële entiteiten zowel interne als externe testers opnemen in het team van testers, moet dat voor de toepassing van voornoemd artikel worden beschouwd als een TLPT die wordt uitgevoerd met interne testers.",
+    "refs": [
+     {
+      "start": 0,
+      "end": 32,
+      "href": "/artikel/26#lid-8"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "number": 28,
+  "paragraphs": [
+   {
+    "text": "Deze verordening is gebaseerd op de ontwerpen van technische reguleringsnormen die bij de Commissie zijn ingediend door de Europese Bankautoriteit, de Europese Autoriteit voor verzekeringen en bedrijfspensioenen en de Europese Autoriteit voor effecten en markten (de Europese toezichthoudende autoriteiten — “ESA’s”), in samenspraak met de Europese Centrale Bank."
+   }
+  ]
+ },
+ {
+  "number": 29,
+  "paragraphs": [
+   {
+    "text": "De ESA’s hebben open publieke consultaties gehouden over de ontwerpen van technische reguleringsnormen waarop deze verordening is gebaseerd, hebben de mogelijke kosten en baten ervan geanalyseerd en het advies ingewonnen van de overeenkomstig artikel 37 van Verordening (EU) nr. 1093/2010 van het Europees Parlement en de Raad (3) opgerichte Stakeholdergroep bankwezen, van de overeenkomstig artikel 37 van Verordening (EU) nr. 1094/2010 van het Europees Parlement en de Raad (4) opgerichte Stakeholdergroep verzekeringen en herverzekeringen en Stakeholdergroep bedrijfspensioenen, en van de overeenkomstig artikel 37 van Verordening (EU) nr. 1095/2010 van het Europees Parlement en de Raad (5) opgerichte Stakeholdergroep effecten en markten."
+   }
+  ]
+ },
+ {
+  "number": 30,
+  "paragraphs": [
+   {
+    "text": "Overeenkomstig artikel 42, lid 1, van Verordening (EU) 2018/1725 van het Europees Parlement en de Raad (6) is de Europese Toezichthouder voor gegevensbescherming geraadpleegd, die op 20 augustus 2024 een advies heeft uitgebracht,"
+   }
+  ]
+ }
+]

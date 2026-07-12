@@ -14,7 +14,10 @@ export type InstrumentId =
   | "classificatie"
   | "contractbeleid"
   | "rapportage"
-  | "risicobeheer";
+  | "risicobeheer"
+  | "oversight"
+  | "tlpt"
+  | "formulieren";
 
 export interface InstrumentSpec {
   id: InstrumentId;
@@ -121,6 +124,33 @@ export const INSTRUMENTS: Record<InstrumentId, InstrumentSpec> = {
     celex: "02024R1774-20240625",
     routePrefix: "/rts-risicobeheer",
   },
+  oversight: {
+    id: "oversight",
+    label: "Oversight-RTS",
+    title:
+      "Gedelegeerde Verordening (EU) 2025/295 tot aanvulling van Verordening (EU) 2022/2554 met betrekking tot technische reguleringsnormen voor de harmonisatie van de voorwaarden voor de uitoefening van de oversightactiviteiten",
+    citation: "Gedelegeerde Verordening (EU) 2025/295",
+    celex: "32025R0295",
+    routePrefix: "/rts-oversight",
+  },
+  tlpt: {
+    id: "tlpt",
+    label: "TLPT-RTS",
+    title:
+      "Gedelegeerde Verordening (EU) 2025/1190 tot aanvulling van Verordening (EU) 2022/2554 met technische reguleringsnormen tot nadere bepaling van de criteria voor het identificeren van financiële entiteiten die threat-led penetratietests moeten uitvoeren, de vereisten en normen inzake het inzetten van interne testers en de vereisten met betrekking tot de scope, testmethodologie en -aanpak voor elke fase van de tests",
+    citation: "Gedelegeerde Verordening (EU) 2025/1190",
+    celex: "32025R1190",
+    routePrefix: "/rts-tlpt",
+  },
+  formulieren: {
+    id: "formulieren",
+    label: "Rapportage-ITS",
+    title:
+      "Uitvoeringsverordening (EU) 2025/302 tot vaststelling van technische uitvoeringsnormen voor de toepassing van Verordening (EU) 2022/2554 met betrekking tot de door financiële entiteiten te gebruiken standaardformulieren en modellen en te volgen procedures voor de rapportage van een ernstig ICT-gerelateerd incident en voor de kennisgeving van een significante cyberdreiging",
+    citation: "Uitvoeringsverordening (EU) 2025/302",
+    celex: "32025R0302",
+    routePrefix: "/its-incidentrapportage",
+  },
 };
 
 export const INSTRUMENT_IDS: InstrumentId[] = [
@@ -134,6 +164,9 @@ export const INSTRUMENT_IDS: InstrumentId[] = [
   "contractbeleid",
   "rapportage",
   "risicobeheer",
+  "oversight",
+  "tlpt",
+  "formulieren",
 ];
 
 /** Satellite instruments (everything except DORA), in registry order. */

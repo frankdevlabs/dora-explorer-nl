@@ -138,6 +138,23 @@
    "lid": 3,
    "target": "risicobeheer",
    "label": "Risicobeheer-RTS (2024/1774) — het vereenvoudigde raamwerk voor ICT-risicobeheersing (titel III)"
+  },
+  {
+   "dora": "41",
+   "lid": 1,
+   "target": "oversight",
+   "label": "Oversight-RTS (2025/295) — harmonisatie van de uitoefening van de oversightactiviteiten (punten a), b) en d))"
+  },
+  {
+   "dora": "26",
+   "lid": 11,
+   "target": "tlpt",
+   "label": "TLPT-RTS (2025/1190) — criteria, scope, methodologie en samenwerking voor dreigingsgestuurde penetratietests"
+  },
+  {
+   "dora": "20",
+   "target": "formulieren",
+   "label": "Rapportage-ITS (2025/302) — standaardformulieren en procedures voor incidentmeldingen en dreigingsnotificaties (punt b))"
   }
  ]
 }

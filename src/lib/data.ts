@@ -38,6 +38,18 @@ import risicobeheerArticlesJson from "../../data/generated/risicobeheer/articles
 import risicobeheerRecitalsJson from "../../data/generated/risicobeheer/recitals.json";
 import risicobeheerAnnexesJson from "../../data/generated/risicobeheer/annexes.json";
 import risicobeheerTocJson from "../../data/generated/risicobeheer/toc.json";
+import oversightArticlesJson from "../../data/generated/oversight/articles.json";
+import oversightRecitalsJson from "../../data/generated/oversight/recitals.json";
+import oversightAnnexesJson from "../../data/generated/oversight/annexes.json";
+import oversightTocJson from "../../data/generated/oversight/toc.json";
+import tlptArticlesJson from "../../data/generated/tlpt/articles.json";
+import tlptRecitalsJson from "../../data/generated/tlpt/recitals.json";
+import tlptAnnexesJson from "../../data/generated/tlpt/annexes.json";
+import tlptTocJson from "../../data/generated/tlpt/toc.json";
+import formulierenArticlesJson from "../../data/generated/formulieren/articles.json";
+import formulierenRecitalsJson from "../../data/generated/formulieren/recitals.json";
+import formulierenAnnexesJson from "../../data/generated/formulieren/annexes.json";
+import formulierenTocJson from "../../data/generated/formulieren/toc.json";
 import recitalMapJson from "../../data/generated/recital-map.json";
 import l2MapJson from "../../data/generated/l2-map.json";
 import { INSTRUMENTS, splitRoutePath, type InstrumentId } from "./instruments";
@@ -111,6 +123,24 @@ const CORPORA: Record<InstrumentId, Corpus> = {
     recitals: risicobeheerRecitalsJson as Recital[],
     annexes: risicobeheerAnnexesJson as Annex[],
     toc: risicobeheerTocJson as Toc,
+  },
+  oversight: {
+    articles: oversightArticlesJson as Article[],
+    recitals: oversightRecitalsJson as Recital[],
+    annexes: oversightAnnexesJson as Annex[],
+    toc: oversightTocJson as Toc,
+  },
+  tlpt: {
+    articles: tlptArticlesJson as Article[],
+    recitals: tlptRecitalsJson as Recital[],
+    annexes: tlptAnnexesJson as Annex[],
+    toc: tlptTocJson as Toc,
+  },
+  formulieren: {
+    articles: formulierenArticlesJson as Article[],
+    recitals: formulierenRecitalsJson as Recital[],
+    annexes: formulierenAnnexesJson as Annex[],
+    toc: formulierenTocJson as Toc,
   },
 };
 

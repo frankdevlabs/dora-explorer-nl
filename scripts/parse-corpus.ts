@@ -110,9 +110,37 @@ const SOURCES: SourceConfig[] = [
     articles: { file: "data/source/risicobeheer_nl_consolidated.html", dialect: "consolidated" },
     recitals: { file: "data/source/risicobeheer_nl_oj.html" },
   },
+  {
+    id: "oversight",
+    articles: { file: "data/source/oversight_nl_oj.html", dialect: "oj" },
+    recitals: { file: "data/source/oversight_nl_oj.html" },
+  },
+  {
+    id: "tlpt",
+    articles: { file: "data/source/tlpt_nl_oj.html", dialect: "oj" },
+    recitals: { file: "data/source/tlpt_nl_oj.html" },
+  },
+  {
+    id: "formulieren",
+    articles: { file: "data/source/formulieren_nl_oj.html", dialect: "oj" },
+    recitals: { file: "data/source/formulieren_nl_oj.html" },
+  },
 ];
 
 const ROMAN_VALUES: Record<string, number> = { I: 1, V: 5, X: 10, L: 50, C: 100 };
+const ROMAN_UNITS: [number, string][] = [
+  [100, "C"], [90, "XC"], [50, "L"], [40, "XL"], [10, "X"], [9, "IX"], [5, "V"], [4, "IV"], [1, "I"],
+];
+function intToRoman(n: number): string {
+  let out = "";
+  for (const [v, sym] of ROMAN_UNITS) {
+    while (n >= v) {
+      out += sym;
+      n -= v;
+    }
+  }
+  return out;
+}
 function romanToInt(roman: string): number {
   let total = 0;
   for (let i = 0; i < roman.length; i++) {
@@ -239,18 +267,24 @@ function parseGridItem(ctx: ConsolidatedCtx, grid: Element): ListItem {
   return { marker, content: contentCell ? parseBlocks(ctx, contentCell) : [] };
 }
 
-/** A data table (ITS annexes: table.borderOj) -> rows of cell text. */
+/**
+ * A data table (table.borderOj / table.oj-table) -> rows of cell text.
+ * Direct rows only: cells may hold nested layout mini-tables (OJ dialect),
+ * whose text belongs to the containing cell, not to extra rows.
+ */
 function parseDataTable($: CheerioAPI, table: Element): string[][] {
   const rows: string[][] = [];
-  $(table)
-    .find("tr")
-    .each((_, tr) => {
-      const cells = $(tr)
-        .children("td, th")
-        .toArray()
-        .map((td) => cleanText($(td).text()));
-      if (cells.some((c) => c !== "")) rows.push(cells);
-    });
+  const $table = $(table);
+  const trs = $table.children("tbody").length
+    ? $table.children("tbody").children("tr")
+    : $table.children("tr");
+  trs.each((_, tr) => {
+    const cells = $(tr)
+      .children("td, th")
+      .toArray()
+      .map((td) => cleanText($(td).text()));
+    if (cells.some((c) => c !== "")) rows.push(cells);
+  });
   return rows;
 }
 
@@ -461,12 +495,34 @@ function parseOjBlocks($: CheerioAPI, container: Element): ContentNode[] {
 
 function parseOjNodes($: CheerioAPI, children: AnyNode[]): ContentNode[] {
   const nodes: ContentNode[] = [];
+  let textBuf = "";
+  const flushText = () => {
+    const text = cleanText(textBuf);
+    textBuf = "";
+    if (text) nodes.push({ type: "text", text });
+  };
   for (const child of children) {
+    if (isText(child)) {
+      textBuf += child.data;
+      continue;
+    }
     if (!isTag(child)) continue;
     const $child = $(child);
     const cls = $child.attr("class") ?? "";
+    // bare inline elements (spans directly under an enumeration div) are text
+    if (child.tagName === "span" || child.tagName === "a" || child.tagName === "em") {
+      textBuf += $child.text();
+      continue;
+    }
+    flushText();
     if (child.tagName === "p") {
       if (cls.includes("oj-ti-art") || cls.includes("oj-sti-art")) continue;
+      if (cls.includes("oj-note")) continue; // footnotes: parseOjAnnexes collects them
+      if (cls.includes("oj-ti-grseq")) {
+        const text = cleanText($child.text());
+        if (text) nodes.push({ type: "heading", text });
+        continue;
+      }
       const text = cleanText($child.text());
       if (text) nodes.push({ type: "text", text });
     } else if (child.tagName === "table") {
@@ -475,22 +531,98 @@ function parseOjNodes($: CheerioAPI, children: AnyNode[]): ContentNode[] {
         const last = nodes[nodes.length - 1];
         if (last?.type === "list") last.items.push(item);
         else nodes.push({ type: "list", items: [item] });
+      } else {
+        // not a point-list row: a real data table (annex templates,
+        // criteria matrices) — keep all rows
+        const rows = parseDataTable($, child);
+        if (rows.length > 0) nodes.push({ type: "table", rows });
       }
     } else if (child.tagName === "div") {
       if (cls.includes("eli-title")) continue;
+      if (cls.includes("oj-enumeration-spacing")) {
+        // numbered point: first p is the marker ("1."), the rest content
+        const kids = child.children.filter((c) => isTag(c) || isText(c));
+        const firstP = kids.find((c) => isTag(c) && c.tagName === "p");
+        const marker = firstP ? cleanText($(firstP as Element).text()) : "";
+        if (firstP && OJ_POINT_MARKER.test(marker)) {
+          const rest = kids.filter((c) => c !== firstP);
+          const item: ListItem = { marker, content: parseOjNodes($, rest) };
+          const last = nodes[nodes.length - 1];
+          if (last?.type === "list") last.items.push(item);
+          else nodes.push({ type: "list", items: [item] });
+          continue;
+        }
+      }
       nodes.push(...parseOjBlocks($, child));
     }
   }
+  flushText();
   return nodes;
 }
 
-/** One borderless 2-col OJ table = one point-list item. */
+/** "(a)", "a)", "1.", "12)", "i)", "—" — the marker column of a point row. */
+const OJ_POINT_MARKER = /^(?:[—–-]|\(?[a-z0-9]{1,4}\)|[a-z0-9]{1,4}\.)$/i;
+
+/**
+ * One borderless single-row 2-col OJ table = one point-list item; anything
+ * else (multi-row, ≠2 columns, non-marker first cell) is a data table.
+ */
 function parseOjPointTable($: CheerioAPI, table: Element): ListItem | null {
-  const tds = $(table).find("tr").first().children("td");
+  const trs = $(table).children("tbody").children("tr").length
+    ? $(table).children("tbody").children("tr")
+    : $(table).children("tr");
+  if (trs.length !== 1) return null;
+  const tds = trs.first().children("td");
   if (tds.length !== 2) return null;
   const marker = cleanText(tds.first().text());
+  if (!OJ_POINT_MARKER.test(marker)) return null;
   const contentCell = tds.last().get(0);
   return contentCell ? { marker, content: parseOjBlocks($, contentCell) } : null;
+}
+
+/**
+ * OJ-dialect annexes: div#anx_ROMAN (or #anx_N for a single unnumbered
+ * annex), "BIJLAGE …" + title in p.oj-doc-ti, p.oj-ti-grseq-* sub-headings,
+ * table.oj-table data tables.
+ */
+function parseOjAnnexes(file: string): Annex[] {
+  const $ = cheerio.load(readFileSync(join(root, file), "utf-8"));
+  const annexes: Annex[] = [];
+  $("div[id]").each((_, el) => {
+    const m = $(el).attr("id")!.match(/^anx_([IVXLC]+|\d+)$/);
+    if (!m) return;
+    const roman = /^\d+$/.test(m[1]) ? intToRoman(Number(m[1])) : m[1];
+    // header: first oj-doc-ti is "BIJLAGE …", the following ones the title
+    const tis = $(el)
+      .children("p.oj-doc-ti")
+      .toArray()
+      .map((p) => cleanText($(p).text()))
+      .filter(Boolean);
+    const title = tis.filter((t) => !/^BIJLAGE\b/i.test(t)).join(" — ") || `Bijlage ${roman}`;
+    const content = parseOjNodes(
+      $,
+      el.children.filter(
+        (c) => !(isTag(c) && c.tagName === "p" && ($(c).attr("class") ?? "").includes("oj-doc-ti")),
+      ),
+    );
+    assignItemAnchors(content, "");
+    // annex-local footnotes ("(1) Verordening …") sit in trailing p.oj-note
+    const footnotes: Footnote[] = [];
+    $(el)
+      .find("p.oj-note")
+      .each((_, p) => {
+        const $p = $(p);
+        const label = cleanText($p.children("a").first().text());
+        const full = cleanText($p.text());
+        const text = label && full.startsWith(label) ? full.slice(label.length).trim() : full;
+        if (!text) return;
+        const em = ($p.children("a").first().attr("id") ?? "").match(/E\d+$/);
+        footnotes.push({ id: em?.[0] ?? `fn-${footnotes.length + 1}`, label, text });
+      });
+    annexes.push({ roman, ordinal: romanToInt(roman), title, content, footnotes });
+  });
+  annexes.sort((a, b) => a.ordinal - b.ordinal);
+  return annexes;
 }
 
 function parseOjArticles(file: string): Article[] {
@@ -579,6 +711,7 @@ for (const src of SOURCES) {
     footnoteCount = parsed.footnoteCount;
   } else {
     articles = parseOjArticles(src.articles.file);
+    annexes = parseOjAnnexes(src.articles.file);
   }
   const recitals = parseOjRecitals(src.recitals.file);
   parsedById.set(src.id, { articles, annexes, chapters, recitals, footnoteCount });

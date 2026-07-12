@@ -1,0 +1,126 @@
+[
+ {
+  "number": 1,
+  "paragraphs": [
+   {
+    "text": "Om ervoor te zorgen dat financiële entiteiten ernstige incidenten op consistente wijze aan hun bevoegde autoriteiten rapporteren, en om ervoor te zorgen dat zij aan deze autoriteiten gegevens van goede kwaliteit verstrekken, moet worden aangegeven welke gegevensvelden financiële entiteiten in de verschillende fasen van de in artikel 19, lid 4, van Verordening (EU) 2022/2554 bedoelde rapportage moeten verstrekken. Het is belangrijk dat die informatie zodanig wordt gepresenteerd dat één overzicht van het incident mogelijk is. Daarom moet voor deze doeleinden één rapportagemodel worden vastgesteld.",
+    "refs": [
+     {
+      "start": 327,
+      "end": 344,
+      "href": "/artikel/19#lid-4"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "number": 2,
+  "paragraphs": [
+   {
+    "text": "Financiële entiteiten moeten de gegevensvelden van het rapportagemodel invullen die horen bij de informatievereisten van de kennisgeving of het verslag in kwestie. Financiële entiteiten die al over informatie beschikken die zij moeten verstrekken in een latere rapportagefase, d.w.z. in het tussentijdse verslag of het eindverslag, moeten de gegevens echter vroeger kunnen indienen."
+   }
+  ]
+ },
+ {
+  "number": 3,
+  "paragraphs": [
+   {
+    "text": "Aangezien meerdere of terugkerende incidenten een ernstig incident kunnen vormen als bedoeld in artikel 8 van Gedelegeerde Verordening (EU) 2024/1772 van de Commissie (2), moet het ontwerp van het rapportagemodel en van de gegevensvelden financiële entiteiten in staat stellen dergelijke terugkerende incidenten te rapporteren.",
+    "refs": [
+     {
+      "start": 96,
+      "end": 105,
+      "href": "/rts-classificatie/artikel/8"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "number": 4,
+  "paragraphs": [
+   {
+    "text": "Om ervoor te zorgen dat informatie nauwkeurig en actueel blijft, moet het rapportagemodel financiële entiteiten de gelegenheid bieden om bij de indiening van het tussentijdse en het eindverslag alle eerder ingediende informatie bij te werken en, indien nodig, ernstige incidenten als niet-ernstig te classificeren."
+   }
+  ]
+ },
+ {
+  "number": 5,
+  "paragraphs": [
+   {
+    "text": "De juridische identificatie van entiteiten moet worden afgestemd op de identificatiecodes van de technische uitvoeringsnormen die zijn vastgesteld op grond van artikel 28, lid 9, van Verordening (EU) 2022/2554.",
+    "refs": [
+     {
+      "start": 160,
+      "end": 177,
+      "href": "/artikel/28#lid-9"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "number": 6,
+  "paragraphs": [
+   {
+    "text": "Wanneer financiële entiteiten de verplichtingen om ernstige ICT-gerelateerde incidenten te rapporteren, uitbesteden aan een derde, moeten de bevoegde autoriteiten vóór de indiening van de eerste kennisgeving of het eerste verslag op de hoogte zijn van de identiteit van de derde die namens de financiële entiteit rapporteert, zodat de legitimiteit van de rapporterende derde kan worden geverifieerd."
+   }
+  ]
+ },
+ {
+  "number": 7,
+  "paragraphs": [
+   {
+    "text": "Om de gevolgen van een incident dat zich heeft voorgedaan bij of werd veroorzaakt door een derde aanbieder en dat meerdere financiële entiteiten binnen één lidstaat treft, gemakkelijk te kunnen bepalen en om de rapportage-inspanning voor financiële entiteiten te beperken, moet het rapportagemodel de indiening mogelijk maken van een geaggregeerd verslag met geaggregeerde informatie over de gevolgen van het incident voor alle geraakte financiële entiteiten die het incident als ernstig hebben geclassificeerd."
+   }
+  ]
+ },
+ {
+  "number": 8,
+  "paragraphs": [
+   {
+    "text": "Het rapportagemodel moet op een technologieneutrale manier worden ontworpen zodat het kan worden toegepast in verschillende oplossingen voor het rapporteren van incidenten die al bestaan of kunnen worden ontwikkeld voor de uitvoering van de vereisten van Verordening (EU) 2022/2554."
+   }
+  ]
+ },
+ {
+  "number": 9,
+  "paragraphs": [
+   {
+    "text": "Het ontwerp van het rapportagemodel en de gegevensvelden moet de rapportage vergemakkelijken van ernstige ICT-gerelateerde incidenten door derden waaraan financiële entiteiten hun rapportageverplichting overeenkomstig artikel 19, lid 5, van Verordening (EU) 2022/2554 hebben uitbesteed.",
+    "refs": [
+     {
+      "start": 218,
+      "end": 235,
+      "href": "/artikel/19#lid-5"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "number": 10,
+  "paragraphs": [
+   {
+    "text": "Deze verordening is gebaseerd op de ontwerpen van technische uitvoeringsnormen die de Europese toezichthoudende autoriteiten (ETA’s) bij de Commissie hebben ingediend."
+   }
+  ]
+ },
+ {
+  "number": 11,
+  "paragraphs": [
+   {
+    "text": "De Europese toezichthoudende autoriteiten hebben open publieksraadplegingen gehouden over de ontwerpen van technische uitvoeringsnormen waarop deze verordening is gebaseerd, de mogelijke daaraan verbonden kosten en baten geanalyseerd en het advies van de overeenkomstig artikel 37 van de Verordeningen (EU) nr. 1093/2010 (3), (EU) nr. 1094/2010 (4) en (EU) nr. 1095/2010 (5) van het Europees Parlement en de Raad opgerichte Stakeholdergroep bankwezen ingewonnen."
+   }
+  ]
+ },
+ {
+  "number": 12,
+  "paragraphs": [
+   {
+    "text": "De Europese Toezichthouder voor gegevensbescherming is geraadpleegd overeenkomstig artikel 42, lid 1, van Verordening (EU) 2018/1725 van het Europees Parlement en de Raad (6) en heeft op 22 juli 2024 een positief advies uitgebracht. Elke verwerking van persoonsgegevens die binnen het toepassingsgebied van deze verordening valt, moet plaatsvinden in overeenstemming met de toepasselijke beginselen inzake gegevensbescherming en de bepalingen van Verordening (EU) 2018/1725,"
+   }
+  ]
+ }
+]

@@ -195,6 +195,17 @@
      {
       "type": "text",
       "text": "Het in lid 1, punt a), bepaalde subcriterium 1.1 wordt als volgt berekend:"
+     },
+     {
+      "type": "table",
+      "rows": [
+       [
+        "aantal financiële entiteiten van een categorie financiële entiteiten als bepaald in artikel 2,lid 1,van Verordening (EU)2022/2554, waaraan ICT – diensten worden verleend door dezelfde derde aanbieder van ICT – diensten waarbij de ICT – diensten kritieke of belangrijke functies ondersteunen"
+       ],
+       [
+        "totale aantal financiële entiteiten van een categorie financiële entiteiten als bepaald in artikel 2,lid 1,van Verordening (EU)2022/2554"
+       ]
+      ]
      }
     ]
    },
@@ -205,6 +216,17 @@
      {
       "type": "text",
       "text": "Het in lid 1, punt b), bepaalde subcriterium 1.2 wordt als volgt berekend:"
+     },
+     {
+      "type": "table",
+      "rows": [
+       [
+        "totale waarde van de activa van financiële entiteiten van een categorie financiële entiteiten als bepaald in artikel 2,lid 1,van Verordening (EU)2022/2554, waaraan ICT – diensten worden verleend door dezelfde derde aanbieder van ICT – diensten waarbij de ICT – diensten kritieke of belangrijke functies ondersteunen"
+       ],
+       [
+        "totale waarde van de activa van alle financiële entiteiten van de EU van dezelfde categorie als bepaald in artikel 2,lid 1,van Verordening (EU)2022/2554"
+       ]
+      ]
      }
     ]
    },
@@ -568,6 +590,17 @@
      {
       "type": "text",
       "text": "Het in lid 1, punt a), bepaalde subcriterium 4.1 wordt als volgt berekend:"
+     },
+     {
+      "type": "table",
+      "rows": [
+       [
+        "aantal financiële entiteiten van een categorie financiële entiteiten als bepaald in artikel 2,lid 1,van Verordening (EU) 2022/2554, waarvoor geen alternatieve derde aanbieder van ICT – diensten beschikbaar is die over de vereiste capaciteit beschikt om dezelfde ICT – diensten te verlenen die kritieke of belangrijke functies van financiële entiteiten ondersteunen als die welke door de betrokken derde aanbieder van ICT – diensten worden verleend"
+       ],
+       [
+        "totale aantal financiële entiteiten van die categorie financiële entiteiten als bepaald in artikel 2,lid 1,van Verordening (EU) 2022/2554"
+       ]
+      ]
      }
     ]
    },
@@ -578,6 +611,17 @@
      {
       "type": "text",
       "text": "Het in lid 1, punt b), bepaalde subcriterium 4.2 wordt als volgt berekend:"
+     },
+     {
+      "type": "table",
+      "rows": [
+       [
+        "aantal financiële entiteiten van een categorie financiële entiteiten als bepaald in artikel 2,lid 1,van Verordening (EU) 2022/2554, waarvoor het zeer moeilijk is om een door de derde aanbieder van ICT – diensten verleende ICT – dienst die kritieke of belangrijke functies van financiële entiteiten ondersteunt naar een andere derde aanbieder van ICT – diensten te migreren"
+       ],
+       [
+        "totale aantal financiële entiteiten van de EU van die categorie financiële entiteiten als bepaald in artikel 2,lid 1,van Verordening (EU) 2022/2554"
+       ]
+      ]
      }
     ]
    },

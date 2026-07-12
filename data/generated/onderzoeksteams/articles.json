@@ -125,7 +125,14 @@
         "content": [
          {
           "type": "text",
-          "text": "het saneringsplan en de voortgangsverslagen als bedoeld in artikel 4 van Gedelegeerde Verordening (EU) 2025/295 beoordelen;"
+          "text": "het saneringsplan en de voortgangsverslagen als bedoeld in artikel 4 van Gedelegeerde Verordening (EU) 2025/295 beoordelen;",
+          "refs": [
+           {
+            "start": 59,
+            "end": 68,
+            "href": "/rts-oversight/artikel/4"
+           }
+          ]
          }
         ],
         "anchor": "lid-1-g"

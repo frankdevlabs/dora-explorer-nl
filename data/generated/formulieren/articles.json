@@ -1,0 +1,509 @@
+[
+ {
+  "number": 1,
+  "title": "Model voor het rapporteren van ernstige ICT-gerelateerde incidenten",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten gebruiken het model in bijlage I voor de indiening van de eerste kennisgeving, het tussentijdse verslag en het eindverslag als bedoeld in artikel 19, lid 4, van Verordening (EU) 2022/2554, en wel als volgt:",
+      "refs": [
+       {
+        "start": 45,
+        "end": 54,
+        "href": "/its-incidentrapportage/bijlage/i"
+       },
+       {
+        "start": 160,
+        "end": 177,
+        "href": "/artikel/19#lid-4"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "financiële entiteiten die een eerste kennisgeving doen, vullen de gegevensvelden van het model in die horen bij de informatie die overeenkomstig artikel 2 van Gedelegeerde Verordening (EU) 2025/301 van de Commissie (7) moet worden verstrekt, en mogen indien zij al over die informatie beschikken, gegevensvelden invullen waarvoor invulling niet vereist is bij een eerste kennisgeving, maar wel bij een tussentijds of een eindverslag;",
+          "refs": [
+           {
+            "start": 145,
+            "end": 154,
+            "href": "/rts-incidentrapportage/artikel/2"
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-1-a"
+       },
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "financiële entiteiten die een tussentijd verslag indienen, vullen de gegevensvelden van het model in die horen bij de informatie die overeenkomstig artikel 3 van Gedelegeerde Verordening (EU) 2025/301 moet worden verstrekt, en mogen indien zij al over de desbetreffende informatie beschikken, gegevensvelden invullen waarvoor invulling niet vereist is bij het tussentijdse verslag, maar wel bij het eindverslag.",
+          "refs": [
+           {
+            "start": 148,
+            "end": 157,
+            "href": "/rts-incidentrapportage/artikel/3"
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-1-b"
+       },
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "financiële entiteiten die een eindverslag indienen, vullen de gegevensvelden van het model in die horen bij de informatie die overeenkomstig artikel 4 van Gedelegeerde Verordening (EU) 2025/301 moet worden verstrekt.",
+          "refs": [
+           {
+            "start": 141,
+            "end": 150,
+            "href": "/rts-incidentrapportage/artikel/4"
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-1-c"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten zorgen ervoor dat de informatie in de eerste kennisgeving en in het tussentijdse en het eindverslag volledig en nauwkeurig is."
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "anchor": "lid-3",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten verstrekken, voor zover mogelijk, geraamde waarden op basis van andere beschikbare gegevens en informatie wanneer er op het moment van de rapportage geen nauwkeurige gegevens beschikbaar zijn voor de eerste kennisgeving of het tussentijdse verslag."
+     }
+    ]
+   },
+   {
+    "number": 4,
+    "anchor": "lid-4",
+    "content": [
+     {
+      "type": "text",
+      "text": "Bij de indiening van een tussentijds verslag of een eindverslag gebruiken financiële entiteiten het model van bijlage I om alle vereiste informatie in te dienen en, in voorkomend geval, de informatie van de eerste kennisgeving of van het tussentijdse verslag bij te werken.",
+      "refs": [
+       {
+        "start": 110,
+        "end": 119,
+        "href": "/its-incidentrapportage/bijlage/i"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 5,
+    "anchor": "lid-5",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten volgen bij het invullen van het model in bijlage I het glossarium van de gegevens en de instructies in bijlage II.",
+      "refs": [
+       {
+        "start": 63,
+        "end": 72,
+        "href": "/its-incidentrapportage/bijlage/i"
+       },
+       {
+        "start": 125,
+        "end": 135,
+        "href": "/its-incidentrapportage/bijlage/ii"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 2,
+  "title": "Gezamenlijke indiening van de eerste kennisgeving, het tussentijdse en het eindverslag",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten kunnen de indiening van de eerste kennisgeving, het tussentijdse en het eindverslag combineren en twee van de drie of alle drie tegelijk verstrekken wanneer de regelmatige activiteiten zijn hersteld of de analyse van de onderliggende oorzaken is voltooid en mits de termijnen van artikel 5 van Gedelegeerde Verordening (EU) 2025/301 in acht zijn genomen.",
+      "refs": [
+       {
+        "start": 302,
+        "end": 311,
+        "href": "/rts-incidentrapportage/artikel/5"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 3,
+  "title": "Terugkerende ICT-gerelateerde incidenten",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten die informatie verstrekken over niet-ernstige terugkerende ICT-gerelateerde incidenten die cumulatief beantwoorden aan de voorwaarden voor één ernstig ICT-gerelateerd incident als bedoeld in artikel 8, lid 2, van Gedelegeerde Verordening (EU) 2024/1772, verstrekken die informatie in geaggregeerde vorm.",
+      "refs": [
+       {
+        "start": 213,
+        "end": 229,
+        "href": "/rts-classificatie/artikel/8#lid-2"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 4,
+  "title": "Gebruik van beveiligde elektronische kanalen",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten gebruiken beveiligde elektronische kanalen zoals beschikbaar gesteld door hun bevoegde autoriteit om de eerste kennisgeving en het tussentijdse en het eindverslag in te dienen."
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten die de door hun bevoegde autoriteit beschikbaar gestelde beveiligde elektronische kanalen niet kunnen gebruiken, stellen hun bevoegde autoriteit via andere beveiligde middelen in kennis van een ernstig ICT-gerelateerd incident, in overleg met de bevoegde autoriteit. Indien de bevoegde autoriteit zulks verlangt, dienen financiële entiteiten de eerste kennisgeving, het tussentijdse verslag of het eindverslag via het door hun bevoegde autoriteit beschikbaar gestelde beveiligde elektronische kanaal opnieuw in zodra dit voor hen mogelijk is."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 5,
+  "title": "Herclassificatie van ernstige ICT-gerelateerde incidenten",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Indien de financiële entiteit na een verdere beoordeling concludeert dat het eerder als ernstig gerapporteerde ICT-gerelateerde incident op geen enkel moment beantwoordde aan de classificatiecriteria en drempels van artikel 8 van Gedelegeerde Verordening (EU) 2024/1772, stelt de financiële entiteit de bevoegde autoriteit ervan in kennis dat zij het ICT-gerelateerde incident heeft geherclassificeerd van ernstig in niet-ernstig, en verstrekt zij de informatie over die herclassificatie in het model in bijlage II bij deze verordening onder de velden “soort verslag” en “overige informatie”.",
+      "refs": [
+       {
+        "start": 216,
+        "end": 225,
+        "href": "/rts-classificatie/artikel/8"
+       },
+       {
+        "start": 504,
+        "end": 514,
+        "href": "/its-incidentrapportage/bijlage/ii"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 6,
+  "title": "Kennisgeving van uitbesteding van de rapportageverplichtingen",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten die de verplichting om ernstige ICT-gerelateerde incidenten te rapporteren, overeenkomstig artikel 19, lid 5, van Verordening (EU) 2022/2554 hebben uitbesteed, stellen hun bevoegde autoriteit in kennis van die uitbestedingsovereenkomst zodra de uitbestedingsovereenkomst is gesloten en vóór de indiening van de eerste kennisgeving of het eerste verslag.",
+      "refs": [
+       {
+        "start": 113,
+        "end": 130,
+        "href": "/artikel/19#lid-5"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten verstrekken de bevoegde autoriteit de naam, contactgegevens en identificatiecode van de derde partij die de kennisgevingen of verslagen van ernstige ICT-gerelateerde incidenten voor hen zal indienen."
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "anchor": "lid-3",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten die hun rapportageverplichtingen als bedoeld in artikel 19, lid 5, van Verordening (EU) 2022/2554, niet meer uitbesteden, stellen hun bevoegde autoriteit daarvan onmiddellijk in kennis.",
+      "refs": [
+       {
+        "start": 70,
+        "end": 87,
+        "href": "/artikel/19#lid-5"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 7,
+  "title": "Geaggregeerde rapportage",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "Een derde dienstverlener aan wie rapportageverplichtingen zijn uitbesteed als bedoeld in artikel 19, lid 5, van Verordening (EU) 2022/2554, kan het model in bijlage I bij deze verordening gebruiken om geaggregeerde informatie over een ernstig ICT-gerelateerd incident dat gevolgen heeft voor meerdere financiële entiteiten, in één kennisgeving of verslag te verstrekken, en kan die kennisgeving of dat verslag indienen bij de bevoegde autoriteit namens alle geraakte financiële entiteiten, mits aan elk van de volgende voorwaarden is voldaan:",
+      "refs": [
+       {
+        "start": 89,
+        "end": 106,
+        "href": "/artikel/19#lid-5"
+       },
+       {
+        "start": 157,
+        "end": 166,
+        "href": "/its-incidentrapportage/bijlage/i"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "het te rapporteren ernstige ICT-gerelateerde incident ontstond bij of werd veroorzaakt door een derde aanbieder van ICT-diensten;"
+         }
+        ],
+        "anchor": "lid-1-a"
+       },
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "die derde dienstverlener verleent de betrokken ICT-dienst aan meer dan één financiële entiteit of aan een groep;"
+         }
+        ],
+        "anchor": "lid-1-b"
+       },
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "het ICT-gerelateerde incident wordt door elke financiële entiteit die in de geaggregeerde kennisgeving of het geaggregeerde verslag wordt behandeld, als ernstig geclassificeerd;"
+         }
+        ],
+        "anchor": "lid-1-c"
+       },
+       {
+        "marker": "d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "het ernstige ICT-gerelateerde incident treft financiële entiteiten binnen één lidstaat en het geaggregeerde verslag heeft betrekking op financiële entiteiten die onder toezicht staan van dezelfde bevoegde autoriteit;"
+         }
+        ],
+        "anchor": "lid-1-d"
+       },
+       {
+        "marker": "e)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de bevoegde autoriteiten hebben deze soort financiële entiteiten uitdrukkelijk toegestaan hun rapportage te aggregeren."
+         }
+        ],
+        "anchor": "lid-1-e"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Lid 1 is niet van toepassing op kredietinstellingen die als belangrijk worden aangemerkt als bedoeld in artikel 2, punt 16, van Verordening (EU) nr. 468/2014 van de Europese Centrale Bank (8), exploitanten van handelsplatformen en centrale tegenpartijen; zij gebruiken het model in bijlage I alleen om kennisgevingen of verslagen van ernstige ICT-gerelateerde incidenten op individuele basis in te dienen bij hun bevoegde autoriteit.",
+      "refs": [
+       {
+        "start": 282,
+        "end": 291,
+        "href": "/its-incidentrapportage/bijlage/i"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "anchor": "lid-3",
+    "content": [
+     {
+      "type": "text",
+      "text": "Indien de bevoegde autoriteiten informatie verlangen over de individuele gevolgen van het ernstige ICT-gerelateerde incident voor één financiële entiteit, dient de financiële entiteit op verzoek van de bevoegde autoriteit een individuele kennisgeving of een verslag in over het ernstige ICT-gerelateerde incident."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 8,
+  "title": "Kennisgeving van significante cyberdreigingen",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten die bevoegde autoriteiten overeenkomstig artikel 19, lid 2, van Verordening (EU) 2022/2554 in kennis stellen van significante cyberdreigingen, gebruiken het model van bijlage III bij deze verordening en volgen het glossarium van de gegevens en de instructies in bijlage IV bij deze verordening.",
+      "refs": [
+       {
+        "start": 63,
+        "end": 80,
+        "href": "/artikel/19#lid-2"
+       },
+       {
+        "start": 189,
+        "end": 200,
+        "href": "/its-incidentrapportage/bijlage/iii"
+       },
+       {
+        "start": 284,
+        "end": 294,
+        "href": "/its-incidentrapportage/bijlage/iv"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten zorgen ervoor dat de informatie in de kennisgeving van significante cyberdreigingen volledig en nauwkeurig is."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 9,
+  "title": "Inwerkingtreding",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Deze verordening treedt in werking op de twintigste dag na die van de bekendmaking ervan in het Publicatieblad van de Europese Unie."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ }
+]

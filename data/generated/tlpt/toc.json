@@ -1,0 +1,38 @@
+{
+ "chapters": [],
+ "annexes": [
+  {
+   "roman": "I",
+   "title": "Inhoud van het project charter (artikel 9, lid 2, punt a))"
+  },
+  {
+   "roman": "II",
+   "title": "Inhoud van het scoping-document (artikel 9, lid 6)"
+  },
+  {
+   "roman": "III",
+   "title": "Inhoud van het Target Threat Intelligence Report (artikel 10, lid 5)"
+  },
+  {
+   "roman": "IV",
+   "title": "Inhoud van het testplan voor het red team (artikel 11, lid 1)"
+  },
+  {
+   "roman": "V",
+   "title": "Inhoud van het red-team-testrapport (artikel 12, lid 2)"
+  },
+  {
+   "roman": "VI",
+   "title": "Inhoud van het blue-team-testrapport (artikel 12, lid 4)"
+  },
+  {
+   "roman": "VII",
+   "title": "Inhoud van het rapport met een samenvatting van de relevante bevindingen van de TLPT (als bedoeld in artikel 26, lid 6, van Verordening (EU) 2022/2554)"
+  },
+  {
+   "roman": "VIII",
+   "title": "Inhoud het TLPT-attest (als bedoeld in artikel 26, lid 7, van Verordening (EU) 2022/2554)"
+  }
+ ],
+ "recitalCount": 30
+}

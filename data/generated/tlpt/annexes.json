@@ -1,0 +1,1154 @@
+[
+ {
+  "roman": "I",
+  "ordinal": 1,
+  "title": "Inhoud van het project charter (artikel 9, lid 2, punt a))",
+  "content": [
+   {
+    "type": "table",
+    "rows": [
+     [
+      "Informatie-element",
+      "Te verstrekken gegevens"
+     ],
+     [
+      "Persoon verantwoordelijk voor het projectplan, d.w.z. de leider van het control team",
+      "Naam Contactgegevens"
+     ],
+     [
+      "Testers",
+      "☐ intern ☐ extern ☐ beide"
+     ],
+     [
+      "Overeenkomstig artikel 9, lid 2, punt d), en artikel 9, lid 4, punt a), geselecteerde communicatiekanalen, waaronder: a) de te gebruiken e-mailversleuteling b) de te gebruiken onlinedatarooms c) de te gebruiken instantmessaging",
+      ""
+     ],
+     [
+      "Codenaam TLPT",
+      ""
+     ],
+     [
+      "In voorkomend geval, kritieke of belangrijke functies die de financiële entiteit uitoefent in andere lidstaten",
+      "1. lijst van kritieke of belangrijke functies uitgeoefend in een andere lidstaat 2. voor elke kritieke of belangrijke functie: de lidstaat of lidstaten waar deze worden uitgeoefend"
+     ],
+     [
+      "In voorkomend geval, de kritieke of belangrijke functies die worden ondersteund door derde aanbieders van ICT-diensten",
+      "3. lijst van kritieke of belangrijke functies ondersteund door derde aanbieders van ICT-diensten 4. voor elke functie: identificatie van de derde aanbieder van ICT-diensten"
+     ],
+     [
+      "Verwachte uiterste datums voor de voltooiing van de/het:"
+     ],
+     [
+      "1) Voorbereidende fase, overeenkomstig artikel 9",
+      "jjjj-mm-dd"
+     ],
+     [
+      "2) Testfase, overeenkomstig de artikelen 10 en 11",
+      "jjjj-mm-dd"
+     ],
+     [
+      "3) Afsluitende fase, overeenkomstig artikel 12",
+      "jjjj-mm-dd"
+     ],
+     [
+      "4) Remediëringsplan, overeenkomstig artikel 13",
+      "jjjj-mm-dd"
+     ]
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "roman": "II",
+  "ordinal": 2,
+  "title": "Inhoud van het scoping-document (artikel 9, lid 6)",
+  "content": [
+   {
+    "type": "list",
+    "items": [
+     {
+      "marker": "1.",
+      "content": [
+       {
+        "type": "text",
+        "text": "Het scoping-document bevat een lijst van alle door de financiële entiteit geïdentificeerde kritieke of belangrijke functies."
+       }
+      ],
+      "anchor": "punt-1"
+     },
+     {
+      "marker": "2.",
+      "content": [
+       {
+        "type": "text",
+        "text": "Voor elke geïdentificeerde kritieke of belangrijke functie wordt de volgende informatie opgenomen:"
+       },
+       {
+        "type": "list",
+        "items": [
+         {
+          "marker": "a)",
+          "content": [
+           {
+            "type": "text",
+            "text": "indien de kritieke of belangrijke functie niet binnen de scope van de TLPT valt: opgave van de redenen waarom deze niet is opgenomen;"
+           }
+          ]
+         },
+         {
+          "marker": "b)",
+          "content": [
+           {
+            "type": "text",
+            "text": "indien de kritieke of belangrijke functie binnen de scope van de TLPT valt:"
+           },
+           {
+            "type": "list",
+            "items": [
+             {
+              "marker": "i)",
+              "content": [
+               {
+                "type": "text",
+                "text": "opgave van de redenen om de functie in de lijst op te nemen;"
+               }
+              ]
+             },
+             {
+              "marker": "ii)",
+              "content": [
+               {
+                "type": "text",
+                "text": "het (de) geïdentificeerde ICT-systeem(systemen) dat (die) deze kritieke of belangrijke functie ondersteunt (ondersteunen);"
+               }
+              ]
+             },
+             {
+              "marker": "iii)",
+              "content": [
+               {
+                "type": "text",
+                "text": "voor elk geïdentificeerd ICT-systeem:"
+               },
+               {
+                "type": "list",
+                "items": [
+                 {
+                  "marker": "1.",
+                  "content": [
+                   {
+                    "type": "text",
+                    "text": "of het systeem is uitbesteed en zo ja, de naam van de derde aanbieder van ICT-diensten;"
+                   }
+                  ]
+                 },
+                 {
+                  "marker": "2.",
+                  "content": [
+                   {
+                    "type": "text",
+                    "text": "de rechtsgebieden waarin het ICT-systeem wordt gebruikt;"
+                   }
+                  ]
+                 },
+                 {
+                  "marker": "3.",
+                  "content": [
+                   {
+                    "type": "text",
+                    "text": "een beschrijving op hoofdlijnen van voorlopige flag(s), met vermelding van welke flag welk beveiligingsaspect van vertrouwelijkheid, integriteit, authenticiteit of beschikbaarheid betreft."
+                   }
+                  ]
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "anchor": "punt-2"
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "roman": "III",
+  "ordinal": 3,
+  "title": "Inhoud van het Target Threat Intelligence Report (artikel 10, lid 5)",
+  "content": [
+   {
+    "type": "text",
+    "text": "Het Target Threat Intelligence Report (TTI-rapport) bevat informatie over elk van de volgende elementen:"
+   },
+   {
+    "type": "list",
+    "items": [
+     {
+      "marker": "1.",
+      "content": [
+       {
+        "type": "text",
+        "text": "De algehele scope van het onderzoek naar informatie, met inbegrip van ten minste het volgende:"
+       },
+       {
+        "type": "list",
+        "items": [
+         {
+          "marker": "a)",
+          "content": [
+           {
+            "type": "text",
+            "text": "kritieke of belangrijke functies binnen de scope;"
+           }
+          ]
+         },
+         {
+          "marker": "b)",
+          "content": [
+           {
+            "type": "text",
+            "text": "de geografische locatie van die functie(s);"
+           }
+          ]
+         },
+         {
+          "marker": "c)",
+          "content": [
+           {
+            "type": "text",
+            "text": "gebruikte officiële EU-taal (-talen);"
+           }
+          ]
+         },
+         {
+          "marker": "d)",
+          "content": [
+           {
+            "type": "text",
+            "text": "de betrokken derde aanbieders van ICT-diensten;"
+           }
+          ]
+         },
+         {
+          "marker": "e)",
+          "content": [
+           {
+            "type": "text",
+            "text": "de periode waarin het onderzoek heeft plaatsgevonden."
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "anchor": "punt-1"
+     },
+     {
+      "marker": "2.",
+      "content": [
+       {
+        "type": "text",
+        "text": "Een algemene beoordeling van welke concrete, actionable informatie over de financiële entiteit te vinden is, waaronder:"
+       },
+       {
+        "type": "list",
+        "items": [
+         {
+          "marker": "a)",
+          "content": [
+           {
+            "type": "text",
+            "text": "gebruikersnamen en wachtwoorden van werknemers;"
+           }
+          ]
+         },
+         {
+          "marker": "b)",
+          "content": [
+           {
+            "type": "text",
+            "text": "lookalike-domeinen die kunnen worden verward met officiële domeinen van de financiële entiteit;"
+           }
+          ]
+         },
+         {
+          "marker": "c)",
+          "content": [
+           {
+            "type": "text",
+            "text": "technische reconnaissance: kwetsbare of exploiteerbare software, systemen en technologieën;"
+           }
+          ]
+         },
+         {
+          "marker": "d)",
+          "content": [
+           {
+            "type": "text",
+            "text": "door werknemers op internet geposte informatie over de financiële entiteit die kan worden gebruikt voor een aanval;"
+           }
+          ]
+         },
+         {
+          "marker": "e)",
+          "content": [
+           {
+            "type": "text",
+            "text": "informatie die op het darkweb te koop is;"
+           }
+          ]
+         },
+         {
+          "marker": "f)",
+          "content": [
+           {
+            "type": "text",
+            "text": "alle andere relevante informatie die op internet of in openbare netwerken beschikbaar is;"
+           }
+          ]
+         },
+         {
+          "marker": "g)",
+          "content": [
+           {
+            "type": "text",
+            "text": "in voorkomend geval, informatie over fysieke targeting, met inbegrip van manieren om toegang te krijgen tot de bedrijfsruimten van de financiële entiteit."
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "anchor": "punt-2"
+     },
+     {
+      "marker": "3.",
+      "content": [
+       {
+        "type": "text",
+        "text": "Een analyse van de dreigingsinformatie die rekening houdt met het algemene dreigingslandschap en de specifieke situatie van de financiële entiteit, met inbegrip van ten minste:"
+       },
+       {
+        "type": "list",
+        "items": [
+         {
+          "marker": "a)",
+          "content": [
+           {
+            "type": "text",
+            "text": "de geopolitieke omgeving;"
+           }
+          ]
+         },
+         {
+          "marker": "b)",
+          "content": [
+           {
+            "type": "text",
+            "text": "de economische omgeving;"
+           }
+          ]
+         },
+         {
+          "marker": "c)",
+          "content": [
+           {
+            "type": "text",
+            "text": "technologische trends en andere trends die verband houden met de activiteiten in de sector financiële diensten."
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "anchor": "punt-3"
+     },
+     {
+      "marker": "4.",
+      "content": [
+       {
+        "type": "text",
+        "text": "Dreigingsprofielen van kwaadwillende actoren (specifieke individuen/groepen of algemene categorieën) die zich op de financiële entiteit zouden kunnen richten, met inbegrip van de systemen van de financiële entiteit die kwaadwillende actoren het meest waarschijnlijk zullen compromitteren of aanvallen, mogelijke motieven, intenties en achterliggende gedachten om het potentiële doelwit uit te kiezen en mogelijke modi operandi van de aanvallers."
+       }
+      ],
+      "anchor": "punt-4"
+     },
+     {
+      "marker": "5.",
+      "content": [
+       {
+        "type": "text",
+        "text": "Dreigingsscenario’s: ten minste drie end-to-end dreigingsscenario’s voor de overeenkomstig punt 4 geïdentificeerde dreigingsprofielen met de hoogste scores voor de ernst van de dreiging. De dreigingsscenario’s beschrijven het end-to-end aanvalspad en omvatten ten minste:"
+       },
+       {
+        "type": "list",
+        "items": [
+         {
+          "marker": "a)",
+          "content": [
+           {
+            "type": "text",
+            "text": "één scenario dat voorziet in de gecompromitteerde beschikbaarheid van diensten, maar daar niet toe beperkt is;"
+           }
+          ]
+         },
+         {
+          "marker": "b)",
+          "content": [
+           {
+            "type": "text",
+            "text": "één scenario dat voorziet in de gecompromitteerde data-integriteit, maar daar niet toe beperkt is;"
+           }
+          ]
+         },
+         {
+          "marker": "c)",
+          "content": [
+           {
+            "type": "text",
+            "text": "één scenario dat voorziet in de gecompromitteerde vertrouwelijkheid van informatie, maar daar niet toe beperkt is."
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "anchor": "punt-5"
+     },
+     {
+      "marker": "6.",
+      "content": [
+       {
+        "type": "text",
+        "text": "In voorkomend geval, een beschrijving van het niet-dreigingsgestuurde scenario zoals bedoeld in artikel 10, lid 4.",
+        "refs": [
+         {
+          "start": 96,
+          "end": 113,
+          "href": "/rts-tlpt/artikel/10#lid-4"
+         }
+        ]
+       }
+      ],
+      "anchor": "punt-6"
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "roman": "IV",
+  "ordinal": 4,
+  "title": "Inhoud van het testplan voor het red team (artikel 11, lid 1)",
+  "content": [
+   {
+    "type": "text",
+    "text": "Het testplan voor het red team bevat informatie over alle volgende elementen:"
+   },
+   {
+    "type": "list",
+    "items": [
+     {
+      "marker": "a)",
+      "content": [
+       {
+        "type": "text",
+        "text": "communicatiekanalen en -procedures;"
+       }
+      ],
+      "anchor": "punt-a"
+     },
+     {
+      "marker": "b)",
+      "content": [
+       {
+        "type": "text",
+        "text": "de tactieken, technieken en procedures die wel en niet mogen worden gebruikt bij de aanval, met inbegrip van ethische grenzen voor social engineering;"
+       }
+      ],
+      "anchor": "punt-b"
+     },
+     {
+      "marker": "c)",
+      "content": [
+       {
+        "type": "text",
+        "text": "de risicomanagementsmaatregelen die de testers in acht moeten nemen;"
+       }
+      ],
+      "anchor": "punt-c"
+     },
+     {
+      "marker": "d)",
+      "content": [
+       {
+        "type": "text",
+        "text": "een beschrijving van elk scenario, met inbegrip van:"
+       },
+       {
+        "type": "list",
+        "items": [
+         {
+          "marker": "i)",
+          "content": [
+           {
+            "type": "text",
+            "text": "de gesimuleerde dreigingsactor;"
+           }
+          ]
+         },
+         {
+          "marker": "ii)",
+          "content": [
+           {
+            "type": "text",
+            "text": "zijn intentie, motieven en doelen;"
+           }
+          ]
+         },
+         {
+          "marker": "iii)",
+          "content": [
+           {
+            "type": "text",
+            "text": "de functie(s) en het (de) ondersteunende ICT-systeem(-systemen) die het doelwit zijn;"
+           }
+          ]
+         },
+         {
+          "marker": "iv)",
+          "content": [
+           {
+            "type": "text",
+            "text": "de aspecten van vertrouwelijkheid, integriteit, beschikbaarheid en authenticiteit waarop de aanval gericht is;"
+           }
+          ]
+         },
+         {
+          "marker": "v)",
+          "content": [
+           {
+            "type": "text",
+            "text": "flags;"
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "anchor": "punt-d"
+     },
+     {
+      "marker": "e)",
+      "content": [
+       {
+        "type": "text",
+        "text": "een gedetailleerde beschrijving van elk verwacht aanvalspad, waaronder de randvoorwaarden en mogelijke leg-ups door het control team, met inbegrip van termijnen voor de verstrekking en het mogelijke gebruik daarvan;"
+       }
+      ],
+      "anchor": "punt-e"
+     },
+     {
+      "marker": "f)",
+      "content": [
+       {
+        "type": "text",
+        "text": "de planning van red teaming-werkzaamheden, met inbegrip van de tijdsplanning voor de uitvoering van elk scenario, ten minste opgesplitst aan de hand van de drie fasen die een tester respectievelijk doorloopt tijdens de testfase: binnendringen in ICT-systemen van de financiële entiteit, bewegen doorheen de ICT-systemen en uiteindelijk uitvoeren van acties op doelwitten, en ten slotte zich terugtrekken uit de ICT-systemen (IN-fase, THROUGH-fase en OUT-fase);"
+       }
+      ],
+      "anchor": "punt-f"
+     },
+     {
+      "marker": "g)",
+      "content": [
+       {
+        "type": "text",
+        "text": "bijzonderheden van de infrastructuur van de financiële entiteit waarmee tijdens het testen rekening moet worden gehouden;"
+       }
+      ],
+      "anchor": "punt-g"
+     },
+     {
+      "marker": "h)",
+      "content": [
+       {
+        "type": "text",
+        "text": "eventuele aanvullende informatie of andere middelen die de testers nodig hebben om de scenario’s uit te voeren."
+       }
+      ],
+      "anchor": "punt-h"
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "roman": "V",
+  "ordinal": 5,
+  "title": "Inhoud van het red-team-testrapport (artikel 12, lid 2)",
+  "content": [
+   {
+    "type": "text",
+    "text": "Het red-team-testrapport bevat informatie over ten minste elk van de volgende elementen:"
+   },
+   {
+    "type": "list",
+    "items": [
+     {
+      "marker": "a)",
+      "content": [
+       {
+        "type": "text",
+        "text": "informatie over de uitgevoerde aanval, waaronder:"
+       },
+       {
+        "type": "list",
+        "items": [
+         {
+          "marker": "i)",
+          "content": [
+           {
+            "type": "text",
+            "text": "de kritieke of belangrijke functies en geïdentificeerde ICT-systemen, -processen en -technologieën die de kritieke of belangrijke functie ondersteunen en die het doelwit van de aanval zijn, zoals geïdentificeerd in het testplan van het red team;"
+           }
+          ]
+         },
+         {
+          "marker": "ii)",
+          "content": [
+           {
+            "type": "text",
+            "text": "een samenvatting van elk scenario;"
+           }
+          ]
+         },
+         {
+          "marker": "iii)",
+          "content": [
+           {
+            "type": "text",
+            "text": "de bereikte en niet-bereikte flags;"
+           }
+          ]
+         },
+         {
+          "marker": "iv)",
+          "content": [
+           {
+            "type": "text",
+            "text": "met en zonder succes gevolgde aanvalspaden;"
+           }
+          ]
+         },
+         {
+          "marker": "v)",
+          "content": [
+           {
+            "type": "text",
+            "text": "de tactieken, technieken en procedures die met en zonder succes zijn gebruikt;"
+           }
+          ]
+         },
+         {
+          "marker": "vi)",
+          "content": [
+           {
+            "type": "text",
+            "text": "eventuele afwijkingen van het testplan voor het red team;"
+           }
+          ]
+         },
+         {
+          "marker": "vii)",
+          "content": [
+           {
+            "type": "text",
+            "text": "eventueel verleende leg-ups;"
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "anchor": "punt-a"
+     },
+     {
+      "marker": "b)",
+      "content": [
+       {
+        "type": "text",
+        "text": "alle acties waarvan de testers wisten dat die door het blue team werden uitgevoerd om de aanval te reconstrueren en de effecten ervan te mitigeren;"
+       }
+      ],
+      "anchor": "punt-b"
+     },
+     {
+      "marker": "c)",
+      "content": [
+       {
+        "type": "text",
+        "text": "ontdekte kwetsbaarheden en andere bevindingen, waaronder:"
+       },
+       {
+        "type": "list",
+        "items": [
+         {
+          "marker": "i)",
+          "content": [
+           {
+            "type": "text",
+            "text": "een beschrijving van de kwetsbaarheden en andere bevindingen, met inbegrip van het kritieke karakter ervan;"
+           }
+          ]
+         },
+         {
+          "marker": "ii)",
+          "content": [
+           {
+            "type": "text",
+            "text": "een root cause analysis van succesvolle aanvallen;"
+           }
+          ]
+         },
+         {
+          "marker": "iii)",
+          "content": [
+           {
+            "type": "text",
+            "text": "aanbevelingen voor remediëring, met inbegrip van een indicatie van de remediëringsprioriteiten."
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "anchor": "punt-c"
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "roman": "VI",
+  "ordinal": 6,
+  "title": "Inhoud van het blue-team-testrapport (artikel 12, lid 4)",
+  "content": [
+   {
+    "type": "text",
+    "text": "Het blue-team-testrapport bevat informatie over ten minste elk van de volgende elementen:"
+   },
+   {
+    "type": "list",
+    "items": [
+     {
+      "marker": "1.",
+      "content": [
+       {
+        "type": "text",
+        "text": "voor elke door de testers in het red-team-testrapport beschreven aanvalsstap:"
+       },
+       {
+        "type": "list",
+        "items": [
+         {
+          "marker": "a)",
+          "content": [
+           {
+            "type": "text",
+            "text": "een lijst van de gedetecteerde aanvalsacties;"
+           }
+          ]
+         },
+         {
+          "marker": "b)",
+          "content": [
+           {
+            "type": "text",
+            "text": "de log entries voor die detecties;"
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "anchor": "punt-1"
+     },
+     {
+      "marker": "2.",
+      "content": [
+       {
+        "type": "text",
+        "text": "een beoordeling van de bevindingen en aanbevelingen van de testers;"
+       }
+      ],
+      "anchor": "punt-2"
+     },
+     {
+      "marker": "3.",
+      "content": [
+       {
+        "type": "text",
+        "text": "door het blue team verzameld bewijs voor de aanval door de testers;"
+       }
+      ],
+      "anchor": "punt-3"
+     },
+     {
+      "marker": "4.",
+      "content": [
+       {
+        "type": "text",
+        "text": "een root cause analysis van succesvolle aanvallen door de testers;"
+       }
+      ],
+      "anchor": "punt-4"
+     },
+     {
+      "marker": "5.",
+      "content": [
+       {
+        "type": "text",
+        "text": "een lijst van lessons learned en het vastgestelde verbeterpotentieel;"
+       }
+      ],
+      "anchor": "punt-5"
+     },
+     {
+      "marker": "6.",
+      "content": [
+       {
+        "type": "text",
+        "text": "een lijst met onderwerpen voor de purple teaming."
+       }
+      ],
+      "anchor": "punt-6"
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "roman": "VII",
+  "ordinal": 7,
+  "title": "Inhoud van het rapport met een samenvatting van de relevante bevindingen van de TLPT (als bedoeld in artikel 26, lid 6, van Verordening (EU) 2022/2554)",
+  "content": [
+   {
+    "type": "text",
+    "text": "Het samenvattende rapport van de test bevat informatie over ten minste elk van de elementen:"
+   },
+   {
+    "type": "list",
+    "items": [
+     {
+      "marker": "a)",
+      "content": [
+       {
+        "type": "text",
+        "text": "de betrokken partijen;"
+       }
+      ],
+      "anchor": "punt-a"
+     },
+     {
+      "marker": "b)",
+      "content": [
+       {
+        "type": "text",
+        "text": "het projectplan;"
+       }
+      ],
+      "anchor": "punt-b"
+     },
+     {
+      "marker": "c)",
+      "content": [
+       {
+        "type": "text",
+        "text": "de gevalideerde scope, met inbegrip van de beweegredenen voor de opneming of uitsluiting van kritieke of belangrijke functies en geïdentificeerde ICT-systemen, -processen en -technologieën die de kritieke of belangrijke functies uit de TLPT ondersteunen;"
+       }
+      ],
+      "anchor": "punt-c"
+     },
+     {
+      "marker": "d)",
+      "content": [
+       {
+        "type": "text",
+        "text": "de geselecteerde scenario’s en elke significante afwijking van het Target Threat Intelligence Report;"
+       }
+      ],
+      "anchor": "punt-d"
+     },
+     {
+      "marker": "e)",
+      "content": [
+       {
+        "type": "text",
+        "text": "de uitgevoerde aanvalspaden en gebruikte tactieken, technieken en procedures;"
+       }
+      ],
+      "anchor": "punt-e"
+     },
+     {
+      "marker": "f)",
+      "content": [
+       {
+        "type": "text",
+        "text": "de veroverde en niet-veroverde flags;"
+       }
+      ],
+      "anchor": "punt-f"
+     },
+     {
+      "marker": "g)",
+      "content": [
+       {
+        "type": "text",
+        "text": "eventuele afwijkingen van het testplan voor het red team;"
+       }
+      ],
+      "anchor": "punt-g"
+     },
+     {
+      "marker": "h)",
+      "content": [
+       {
+        "type": "text",
+        "text": "eventueel door het blue team gedetecteerde aanvalsacties;"
+       }
+      ],
+      "anchor": "punt-h"
+     },
+     {
+      "marker": "i)",
+      "content": [
+       {
+        "type": "text",
+        "text": "purple teaming in de testfase, indien uitgevoerd, en de daarmee samenhangende omstandigheden;"
+       }
+      ],
+      "anchor": "punt-i"
+     },
+     {
+      "marker": "j)",
+      "content": [
+       {
+        "type": "text",
+        "text": "eventueel gebruikte leg-ups;"
+       }
+      ],
+      "anchor": "punt-j"
+     },
+     {
+      "marker": "k)",
+      "content": [
+       {
+        "type": "text",
+        "text": "de genomen risicomanagementsmaatregelen;"
+       }
+      ],
+      "anchor": "punt-k"
+     },
+     {
+      "marker": "l)",
+      "content": [
+       {
+        "type": "text",
+        "text": "de geconstateerde kwetsbaarheden en andere bevindingen, waaronder over het kritieke karakter ervan;"
+       }
+      ],
+      "anchor": "punt-l"
+     },
+     {
+      "marker": "m)",
+      "content": [
+       {
+        "type": "text",
+        "text": "een root cause analysis van succesvolle aanvallen;"
+       }
+      ],
+      "anchor": "punt-m"
+     },
+     {
+      "marker": "n)",
+      "content": [
+       {
+        "type": "text",
+        "text": "een remediëringsplan op hoofdlijnen, waarin verbanden worden gelegd tussen de kwetsbaarheden en andere bevindingen, de root causes en de remediëringsprioriteiten;"
+       }
+      ],
+      "anchor": "punt-n"
+     },
+     {
+      "marker": "o)",
+      "content": [
+       {
+        "type": "text",
+        "text": "de uit de ontvangen feedback getrokken lessen."
+       }
+      ],
+      "anchor": "punt-o"
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "roman": "VIII",
+  "ordinal": 8,
+  "title": "Inhoud het TLPT-attest (als bedoeld in artikel 26, lid 7, van Verordening (EU) 2022/2554)",
+  "content": [
+   {
+    "type": "text",
+    "text": "Het attest bevat ten minste alle volgende gegevens:"
+   },
+   {
+    "type": "list",
+    "items": [
+     {
+      "marker": "a)",
+      "content": [
+       {
+        "type": "text",
+        "text": "over de uitgevoerde TLPT:"
+       },
+       {
+        "type": "list",
+        "items": [
+         {
+          "marker": "i)",
+          "content": [
+           {
+            "type": "text",
+            "text": "de begin- en einddatum van de TLPT;"
+           }
+          ]
+         },
+         {
+          "marker": "ii)",
+          "content": [
+           {
+            "type": "text",
+            "text": "de kritieke of belangrijke functies binnen de scope van de test;"
+           }
+          ]
+         },
+         {
+          "marker": "iii)",
+          "content": [
+           {
+            "type": "text",
+            "text": "indien van toepassing, informatie over kritieke of belangrijke functies binnen de scope van de test waarop de TLPT niet is uitgevoerd;"
+           }
+          ]
+         },
+         {
+          "marker": "iv)",
+          "content": [
+           {
+            "type": "text",
+            "text": "in voorkomend geval, andere financiële entiteiten die bij de TLPT betrokken waren;"
+           }
+          ]
+         },
+         {
+          "marker": "v)",
+          "content": [
+           {
+            "type": "text",
+            "text": "in voorkomend geval, de derde aanbieders van ICT-diensten die aan de TLPT hebben deelgenomen;"
+           }
+          ]
+         },
+         {
+          "marker": "vi)",
+          "content": [
+           {
+            "type": "text",
+            "text": "met betrekking tot testers:"
+           },
+           {
+            "type": "list",
+            "items": [
+             {
+              "marker": "1.",
+              "content": [
+               {
+                "type": "text",
+                "text": "of er interne testers zijn ingezet;"
+               }
+              ]
+             },
+             {
+              "marker": "2.",
+              "content": [
+               {
+                "type": "text",
+                "text": "of artikel 5, lid 3, tweede alinea, is toegepast door de financiële entiteit;",
+                "refs": [
+                 {
+                  "start": 3,
+                  "end": 34,
+                  "href": "/rts-tlpt/artikel/5"
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "marker": "vii)",
+          "content": [
+           {
+            "type": "text",
+            "text": "de duur (in kalenderdagen) van de actieve red-teamtestfase;"
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "anchor": "punt-a"
+     },
+     {
+      "marker": "b)",
+      "content": [
+       {
+        "type": "text",
+        "text": "indien meerdere TLPT-autoriteiten bij de TLPT betrokken waren: de andere TLPT-autoriteiten, en in welke hoedanigheid zij betrokken waren;"
+       }
+      ],
+      "anchor": "punt-b"
+     },
+     {
+      "marker": "c)",
+      "content": [
+       {
+        "type": "text",
+        "text": "een lijst van de documenten die door de TLPT-autoriteit zijn onderzocht met het oog op de afgifte van het attest."
+       }
+      ],
+      "anchor": "punt-c"
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ }
+]

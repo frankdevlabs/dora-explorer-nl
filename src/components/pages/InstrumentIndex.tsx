@@ -63,6 +63,26 @@ const BLURB: Record<InstrumentId, string> = {
     "raamwerk voor kleine entiteiten. Geconsolideerde tekst inclusief de " +
     "rectificaties van 2025 (o.a. de verwijzing in artikel 22 naar de " +
     "Classificatie-RTS).",
+  oversight:
+    "Harmonisatie van de oversightactiviteiten van de lead overseer richting " +
+    "kritieke derde aanbieders (artikel 41, lid 1, punten a), b) en d), " +
+    "DORA): informatieverstrekking en aanvraagprocedures, beoordeling van " +
+    "aanbevelingen en de opvolging door bevoegde autoriteiten, inclusief het " +
+    "model voor informatie over onderaannemingsconstructies (bijlage).",
+  tlpt:
+    "Dreigingsgestuurde penetratietests (TLPT, artikel 26, lid 11, DORA): " +
+    "welke financiële entiteiten moeten testen, de eisen per testfase " +
+    "(scoping, dreigingsanalyse, red-teamtest, afsluiting), het gebruik van " +
+    "interne testers en samenwerking tussen autoriteiten — gemodelleerd naar " +
+    "TIBER-EU. Met acht bijlagen (o.a. projectcharter, scopedocument, " +
+    "dreigingsanalyserapport, red-teamtestplan en attestatie).",
+  formulieren:
+    "De standaardformulieren, modellen en procedures voor het melden van " +
+    "ernstige ICT-gerelateerde incidenten en het kennisgeven van " +
+    "significante cyberdreigingen (artikel 20, punt b), DORA), behorend bij " +
+    "de termijnen en inhoud van de Rapportage-RTS (2025/301). Bijlagen I-II: " +
+    "datavelden en instructies voor incidentmeldingen; bijlagen III-IV: " +
+    "datavelden en instructies voor cyberdreigingsnotificaties.",
 };
 
 /** Index page for a satellite instrument: blurb + article/annex/recital TOC. */

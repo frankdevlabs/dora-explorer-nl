@@ -1,0 +1,59 @@
+[
+ {
+  "roman": "I",
+  "ordinal": 1,
+  "title": "MODEL VOOR HET DELEN VAN INFORMATIE OVER ONDERAANNEMINGSOVEREENKOMSTEN",
+  "content": [
+   {
+    "type": "table",
+    "rows": [
+     [
+      "Informatiecategorie",
+      "Belangrijkste informatie-elementen"
+     ],
+     [
+      "Algemene informatie",
+      "— Naam van de kritieke derde aanbieder van ICT-diensten. — Identificatiecode van de kritieke derde aanbieder van ICT-diensten. — Naam van de contactpersoon en contactgegevens van de kritieke derde aanbieder van ICT-diensten. — Datum van indiening van het model."
+     ],
+     [
+      "Overzicht van onderaannemingsovereenkomsten",
+      "— Overzicht van de onderaannemingsovereenkomsten, met inbegrip van een korte beschrijving van het doeleinde en toepassingsgebied van de onderaannemingsrelaties (waarin ook wordt aangegeven in welke mate de onderaannemingsovereenkomsten van kritieke aard of van belang zijn voor de kritieke derde aanbieder van ICT-diensten). — Uitsplitsing en beschrijving van de soorten ICT-diensten die in onderaanneming zijn gegeven, en het belang ervan voor de ICT-diensten die worden verleend aan financiële entiteiten, in overeenstemming met de technische uitvoeringsnormen die zijn vastgesteld in het kader van artikel 28, lid 9, van Verordening (EU) 2022/2554. — Gelieve bij het opgeven van de soorten ICT-diensten de lijst te raadplegen in bijlage IV bij de technische uitvoeringsnormen die zijn vastgesteld in het kader van artikel 28, lid 9, van Verordening (EU) 2022/2554."
+     ],
+     [
+      "Informatie over de subcontractanten",
+      "— Naam en gegevens van de rechtspersoon (met identificatiecode) voor elke subcontractant. — Contactgegevens van de personeelsleden die in de beheersstructuur van de kritieke derde aanbieder van ICT-diensten verantwoordelijk zijn voor de relatie met elke subcontractant. — Overzicht van de deskundigheid, ervaring en kwalificaties met betrekking tot de aanbestede ICT-diensten voor elke subcontractant."
+     ],
+     [
+      "Beschrijving van de diensten van subcontractanten",
+      "— Gedetailleerde beschrijving van de specifieke ICT-diensten van elke subcontractant. — Uitsplitsing van de verantwoordelijkheden en taken die zijn toegewezen aan subcontractanten, in de vorm van een gedetailleerde toelichting van de verschillende rollen in de verschillende stadia van de ICT-processen. — Informatie over het niveau van toegang die subcontractanten hebben tot persoonsgegevens of andere gevoelige gegevens of systemen in het kader van de ICT-diensten die aan financiële entiteiten worden verleend. — Informatie over de locaties vanwaaruit de diensten van subcontractanten worden verleend, en over de genomen maatregelen om de risico’s te adresseren die voortvloeien uit diensten die buiten de Unie worden verleend."
+     ],
+     [
+      "Governance en toezicht — subcontractanten",
+      "— Beschrijving van het bestaande contractuele en governancekader voor onderaannemingsrelaties, met inbegrip van clausules ter beperking van het gebruik van gevoelige gegevens. — Toelichting van de processen voor de selectie van, interactie met en monitoring van subcontractanten. — Overzicht van prestatiemaatstaven, doelstellingen en overeenkomsten inzake dienstverleningsniveau, en kernprestatie-indicatoren voor de bewaking van de prestaties en betrouwbaarheid van subcontractanten."
+     ],
+     [
+      "Risicobeheer en naleving",
+      "— Beoordeling van de risicoprofielen van subcontractanten en potentiële gevolgen voor de ICT-diensten die aan financiële entiteiten worden verleend. — Toelichting van de getroffen risicobeperkende maatregelen om risico’s te adresseren die verband houden met subcontractanten. — Nadere informatie over de naleving door subcontractanten van relevante regelgeving, met inbegrip van regelgeving inzake gegevensbescherming en branchenormen."
+     ],
+     [
+      "Bedrijfscontinuïteits- en noodplannen",
+      "— Overzicht van de bedrijfscontinuïteits- en respons- en herstelplannen van subcontractanten. — Beschrijving van de bestaande regelingen om de continuïteit van de dienst te waarborgen in het geval van storingen bij of beëindiging door de subcontractant. — Regelmaat waarmee subcontractanten hun bedrijfscontinuïteitsplannen en respons- en herstelplannen testen, datums van de laatste tests in de afgelopen drie jaar en vermelding of de kritieke derde aanbieder van ICT-diensten bij deze tests was betrokken."
+     ],
+     [
+      "Verslaglegging",
+      "— Beschrijving van de mechanismen voor en regelmaat van rapportage tussen de kritieke derde aanbieder van ICT-diensten en diens subcontractanten."
+     ],
+     [
+      "Correctie en incidentbeheer",
+      "— Overzicht van de procedures voor het adresseren van subcontractantgerelateerde incidenten, inbreuken of gevallen van niet-naleving."
+     ],
+     [
+      "Certificeringen en audits",
+      "— Informatie over certificeringen en over uitgevoerde onafhankelijke audits en beoordelingen van de beveiligingscontroles en kwaliteitsnormen van en de naleving van de regelgeving door subcontractanten. — Datum en regelmaat van de door de kritieke derde aanbieder van ICT-diensten verrichte audits van de subcontractanten."
+     ]
+    ]
+   }
+  ],
+  "footnotes": []
+ }
+]

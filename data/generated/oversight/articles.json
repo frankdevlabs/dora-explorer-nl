@@ -1,0 +1,973 @@
+[
+ {
+  "number": 1,
+  "title": "Informatie die derde aanbieders van ICT-diensten moeten verstrekken in hun verzoek om te worden aangewezen als cruciaal",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "De derde aanbieders van diensten van informatie- en communicatietechnologie (ICT-diensten) dient in het met redenen omklede vrijwillige verzoek uit hoofde van artikel 31, lid 11, van Verordening (EU) 2022/2554 om te worden aangewezen als cruciaal in overeenstemming met artikel 31, lid 1, punt a), van Verordening (EU) 2022/2554, de volgende informatie in:",
+      "refs": [
+       {
+        "start": 159,
+        "end": 177,
+        "href": "/artikel/31#lid-11"
+       },
+       {
+        "start": 270,
+        "end": 296,
+        "href": "/artikel/31#lid-1-a"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "naam van de rechtspersoon;"
+         }
+        ],
+        "anchor": "lid-1-a"
+       },
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "identificatiecode van de rechtspersoon;"
+         }
+        ],
+        "anchor": "lid-1-b"
+       },
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "naam van de contactpersoon en contactgegevens van de kritieke derde aanbieder van ICT-diensten;"
+         }
+        ],
+        "anchor": "lid-1-c"
+       },
+       {
+        "marker": "d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "land van de maatschappelijke zetel van de rechtspersoon;"
+         }
+        ],
+        "anchor": "lid-1-d"
+       },
+       {
+        "marker": "e)",
+        "content": [
+         {
+          "type": "text",
+          "text": "beschrijving van de structuur van de onderneming, met ten minste informatie over de moedermaatschappij en andere verwante ondernemingen die ICT-diensten verlenen aan financiële entiteiten in de Unie. In voorkomend geval omvat deze informatie:"
+         },
+         {
+          "type": "list",
+          "items": [
+           {
+            "marker": "i)",
+            "content": [
+             {
+              "type": "text",
+              "text": "naam van de rechtspersonen;"
+             }
+            ]
+           },
+           {
+            "marker": "ii)",
+            "content": [
+             {
+              "type": "text",
+              "text": "identificatiecode van de rechtspersoon;"
+             }
+            ]
+           },
+           {
+            "marker": "iii)",
+            "content": [
+             {
+              "type": "text",
+              "text": "land van de maatschappelijke zetel van de rechtspersoon;"
+             }
+            ]
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-1-e"
+       },
+       {
+        "marker": "f)",
+        "content": [
+         {
+          "type": "text",
+          "text": "een raming van het marktaandeel van de derde aanbieder van ICT-diensten in de financiële sector van de Unie en een raming van het marktaandeel per soort financiële entiteit als bedoeld in artikel 2, lid 1, van Verordening (EU) 2022/2554, voor het jaar van indiening van het verzoek om te worden aangewezen als cruciaal, en voor het jaar vóór indiening van dat verzoek;",
+          "refs": [
+           {
+            "start": 188,
+            "end": 204,
+            "href": "/artikel/2#lid-1"
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-1-f"
+       },
+       {
+        "marker": "g)",
+        "content": [
+         {
+          "type": "text",
+          "text": "een beschrijving van elke ICT-dienst die wordt verleend aan financiële entiteiten in de Unie, met inbegrip van:"
+         },
+         {
+          "type": "list",
+          "items": [
+           {
+            "marker": "i)",
+            "content": [
+             {
+              "type": "text",
+              "text": "een beschrijving van de aard van de zakelijke relatie en de soort ICT-diensten die aan financiële entiteiten wordt verleend;"
+             }
+            ]
+           },
+           {
+            "marker": "ii)",
+            "content": [
+             {
+              "type": "text",
+              "text": "indien beschikbaar, een lijst van de functies van financiële entiteiten die worden ondersteund met de verleende ICT-diensten;"
+             }
+            ]
+           },
+           {
+            "marker": "iii)",
+            "content": [
+             {
+              "type": "text",
+              "text": "indien beschikbaar, informatie over de vraag of de aan financiële entiteiten verleende ICT-diensten kritieke of belangrijke functies ondersteunen;"
+             }
+            ]
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-1-g"
+       },
+       {
+        "marker": "h)",
+        "content": [
+         {
+          "type": "text",
+          "text": "een lijst van financiële entiteiten die gebruikmaken van ICT-diensten van de derde aanbieder van ICT-diensten, met inbegrip van de volgende informatie voor elk van de bediende financiële entiteiten, indien beschikbaar:"
+         },
+         {
+          "type": "list",
+          "items": [
+           {
+            "marker": "i)",
+            "content": [
+             {
+              "type": "text",
+              "text": "naam van de rechtspersoon;"
+             }
+            ]
+           },
+           {
+            "marker": "ii)",
+            "content": [
+             {
+              "type": "text",
+              "text": "identificatiecode van de rechtspersoon, indien bekend bij de derde aanbieder van ICT-diensten;"
+             }
+            ]
+           },
+           {
+            "marker": "iii)",
+            "content": [
+             {
+              "type": "text",
+              "text": "soort financiële entiteit overeenkomstig artikel 2, lid 1, van Verordening (EU) 2022/2554;",
+              "refs": [
+               {
+                "start": 41,
+                "end": 57,
+                "href": "/artikel/2#lid-1"
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "marker": "iv)",
+            "content": [
+             {
+              "type": "text",
+              "text": "de geografische locatie vanwaaruit de ICT-diensten aan die rechtspersoon worden verleend;"
+             }
+            ]
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-1-h"
+       },
+       {
+        "marker": "i)",
+        "content": [
+         {
+          "type": "text",
+          "text": "een lijst met de kritieke derde aanbieders van ICT-diensten die zijn opgenomen in de meest recente beschikbare lijst van dergelijke aanbieders die overeenkomstig artikel 31, lid 9, van Verordening (EU) 2022/2554 door de ETA’s wordt gepubliceerd;",
+          "refs": [
+           {
+            "start": 162,
+            "end": 179,
+            "href": "/artikel/31#lid-9"
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-1-i"
+       },
+       {
+        "marker": "j)",
+        "content": [
+         {
+          "type": "text",
+          "text": "een zelfbeoordeling met betrekking tot de volgende aspecten:"
+         },
+         {
+          "type": "list",
+          "items": [
+           {
+            "marker": "i)",
+            "content": [
+             {
+              "type": "text",
+              "text": "de mate van substitueerbaarheid van elke ICT-dienst van de verzoeker, met inachtneming van het volgende:"
+             },
+             {
+              "type": "list",
+              "items": [
+               {
+                "marker": "—",
+                "content": [
+                 {
+                  "type": "text",
+                  "text": "het marktaandeel van de derde aanbieder van ICT-diensten in de financiële sector van de Unie;"
+                 }
+                ]
+               },
+               {
+                "marker": "—",
+                "content": [
+                 {
+                  "type": "text",
+                  "text": "het aantal bekende relevante concurrenten per soort ICT-dienst of per groep ICT-diensten;"
+                 }
+                ]
+               },
+               {
+                "marker": "—",
+                "content": [
+                 {
+                  "type": "text",
+                  "text": "beschrijving van de specifieke kenmerken van de aangeboden ICT-diensten, onder meer met betrekking tot bedrijfseigen technologieën, of de specifieke kenmerken van de organisatie of activiteit van de derde aanbieder van ICT-diensten;"
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "marker": "ii)",
+            "content": [
+             {
+              "type": "text",
+              "text": "bekende beschikbare alternatieve derde aanbieders van ICT-diensten die dezelfde ICT-diensten verlenen als de derde aanbieder van ICT-diensten die het verzoek indient;"
+             }
+            ]
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-1-j"
+       },
+       {
+        "marker": "k)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over een toekomstige bedrijfsstrategie met betrekking tot de verlening van ICT-diensten en -infrastructuur aan financiële entiteiten in de Unie, met inbegrip van eventuele geplande wijzigingen in de groeps- of beheerstructuur, de betreding van nieuwe markten of de ontwikkeling van nieuwe activiteiten;"
+         }
+        ],
+        "anchor": "lid-1-k"
+       },
+       {
+        "marker": "l)",
+        "content": [
+         {
+          "type": "text",
+          "text": "vermelding van de subcontractanten van de derde aanbieder van ICT-diensten die zijn aangewezen als kritieke derde aanbieders van ICT-diensten;"
+         }
+        ],
+        "anchor": "lid-1-l"
+       },
+       {
+        "marker": "m)",
+        "content": [
+         {
+          "type": "text",
+          "text": "andere aspecten die van belang zijn voor het verzoek van de derde aanbieder van ICT-diensten om te worden aangewezen als cruciaal."
+         }
+        ],
+        "anchor": "lid-1-m"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Indien de derde aanbieder van ICT-diensten tot een groep behoort, wordt de in lid 1 bedoelde informatie verstrekt voor de ICT-diensten die door de groep als geheel worden verleend."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 2,
+  "title": "Inhoud, structuur en formaat van de informatie die kritieke derde aanbieders van ICT-diensten moeten indienen, bekendmaken of rapporteren",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "Kritieke derde aanbieders van ICT-diensten verstrekken de lead overseer die daarom verzoekt, alle informatie die deze nodig heeft voor de uitvoering van diens oversighttaken overeenkomstig Verordening (EU) 2022/2554."
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "De in lid 1 bedoelde informatie omvat onder meer:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over de regelingen, en kopieën van contractuele documenten, tussen:"
+         },
+         {
+          "type": "list",
+          "items": [
+           {
+            "marker": "i)",
+            "content": [
+             {
+              "type": "text",
+              "text": "de kritieke derde aanbieder van ICT-diensten en de in artikel 2, lid 1, van Verordening (EU) 2022/2554 bedoelde financiële entiteiten;",
+              "refs": [
+               {
+                "start": 54,
+                "end": 70,
+                "href": "/artikel/2#lid-1"
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "marker": "ii)",
+            "content": [
+             {
+              "type": "text",
+              "text": "de kritieke derde aanbieder van ICT-diensten en de subcontractanten van deze aanbieder, voor inzicht in de technologische waardeketen van de ICT-diensten die worden verleend aan financiële entiteiten in de Unie;"
+             }
+            ]
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-2-a"
+       },
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over de organisatie- en groepsstructuur van de kritieke derde aanbieder van ICT-diensten, met vermelding van alle entiteiten die tot dezelfde groep behoren en die direct of indirect ICT-diensten verlenen aan financiële entiteiten in de Unie;"
+         }
+        ],
+        "anchor": "lid-2-b"
+       },
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over de belangrijkste aandeelhouders, met inbegrip van hun structuur en geografische distributie, voor alle onderstaande entiteiten:"
+         },
+         {
+          "type": "list",
+          "items": [
+           {
+            "marker": "i)",
+            "content": [
+             {
+              "type": "text",
+              "text": "entiteiten die, alleen of samen met aan hen gelieerde entiteiten, 25 % of meer van het kapitaal van of de stemrechten binnen de kritieke derde aanbieder van ICT-diensten bezitten;"
+             }
+            ]
+           },
+           {
+            "marker": "ii)",
+            "content": [
+             {
+              "type": "text",
+              "text": "entiteiten die het recht hebben om een meerderheid van de leden van het bestuurlijke, beleidsbepalende of toezichthoudende orgaan van de kritieke derde aanbieder van ICT-diensten te benoemen of ontslaan;"
+             }
+            ]
+           },
+           {
+            "marker": "iii)",
+            "content": [
+             {
+              "type": "text",
+              "text": "entiteiten die op grond van een overeenkomst zeggenschap hebben over een meerderheid van de stemrechten van aandeelhouders of leden van de kritieke derde aanbieder van ICT-diensten;"
+             }
+            ]
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-2-c"
+       },
+       {
+        "marker": "d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over het marktaandeel van de kritieke derde aanbieder van ICT-diensten per soort dienst, in de relevante markten waar deze actief is;"
+         }
+        ],
+        "anchor": "lid-2-d"
+       },
+       {
+        "marker": "e)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over de interne governanceregelingen van de kritieke derde aanbieder van ICT-diensten, met inbegrip van de structuur met regels inzake taakverdeling en verantwoording;"
+         }
+        ],
+        "anchor": "lid-2-e"
+       },
+       {
+        "marker": "f)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de notulen van vergaderingen van het leidinggevend orgaan en andere interne relevante comités die op enigerlei wijze betrekking hebben op activiteiten en risico’s betreffende ICT-diensten van derden die functies van financiële entiteiten in de Unie ondersteunen;"
+         }
+        ],
+        "anchor": "lid-2-f"
+       },
+       {
+        "marker": "g)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over de ICT-beveiliging van de kritieke derde aanbieder van ICT-diensten, met inbegrip van relevant(e) strategieën, doelstellingen, beleid, procedures, protocollen, processen, controlemaatregelen om gevoelige gegevens te beschermen, toegangscontroles, versleutelingspraktijken, incidentresponsplannen en, in voorkomend geval, informatie over de naleving van alle relevante voorschriften en nationale en internationale normen;"
+         }
+        ],
+        "anchor": "lid-2-g"
+       },
+       {
+        "marker": "h)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over technische en organisatorische maatregelen om de bescherming en vertrouwelijkheid van gegevens, met inbegrip van persoonsgegevens en niet-persoonsgebonden gegevens, te waarborgen en over ingevoerde controlemaatregelen om gevoelige gegevens te beschermen, toegangscontroles, versleutelingspraktijken en een responsplan voor datalekken; indien de derde aanbieder van ICT-diensten met betrekking tot de verwerking van persoonsgegevens is onderworpen aan wetten van derde landen, met inbegrip van toegangsverzoeken van overheden van derde landen, een lijst met landen en de toepasselijke wetgeving;"
+         }
+        ],
+        "anchor": "lid-2-h"
+       },
+       {
+        "marker": "i)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over de mechanismen die de kritieke derde aanbieder van ICT-diensten financiële entiteiten in de Unie aanbiedt voor de overdracht van gegevens en applicaties en interoperabiliteit;"
+         }
+        ],
+        "anchor": "lid-2-i"
+       },
+       {
+        "marker": "j)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over de locatie van de datacenters en ICT-productiecentra die worden gebruikt om diensten te verlenen aan financiële entiteiten, met inbegrip van een lijst van alle relevante bedrijfsruimten en voorzieningen van de kritieke derde aanbieder van ICT-diensten, ook die buiten de Unie;"
+         }
+        ],
+        "anchor": "lid-2-j"
+       },
+       {
+        "marker": "k)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over de verlening van diensten door de kritieke derde aanbieder van ICT-diensten vanuit derde landen, met inbegrip van informatie over relevante wettelijke bepalingen inzake persoonsgegevens en niet-persoonsgebonden gegevens die door de aanbieder van ICT-diensten worden verwerkt;"
+         }
+        ],
+        "anchor": "lid-2-k"
+       },
+       {
+        "marker": "(l)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over de genomen maatregelen om risico’s te adresseren die voortvloeien uit de verlening van ICT-diensten vanuit derde landen door de kritieke derde aanbieder van ICT-diensten en diens subcontractanten;"
+         }
+        ],
+        "anchor": "lid-2-l"
+       },
+       {
+        "marker": "m)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over het kader voor risicobeheer en het kader voor incidentbeheer, met inbegrip van beleid, procedures, hulpmiddelen, mechanismen en governanceregelingen van de kritieke derde aanbieder van ICT-diensten en van diens subcontractanten, met inbegrip van een lijst en beschrijving van belangrijke incidenten met directe of indirecte gevolgen voor financiële entiteiten in de Unie, inclusief nadere informatie op basis waarvan de significantie van het incident voor financiële entiteiten kan worden bepaald en eventuele grensoverschrijdende gevolgen kunnen worden beoordeeld;"
+         }
+        ],
+        "anchor": "lid-2-m"
+       },
+       {
+        "marker": "n)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over het kader voor veranderingsbeheer, met inbegrip van beleid, procedures en controles, van de kritieke derde aanbieder van ICT-diensten en diens subcontractanten;"
+         }
+        ],
+        "anchor": "lid-2-n"
+       },
+       {
+        "marker": "o)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over het algehele respons- en herstelkader van de kritieke derde aanbieder van ICT-diensten, met inbegrip van bedrijfscontinuïteitsplannen en verwante regelingen en procedures, levenscyclusbeleid met betrekking tot softwareontwikkeling, respons- en herstelplannen en verwante regelingen en procedures, en beleid, regelingen en procedures inzake back-ups;"
+         }
+        ],
+        "anchor": "lid-2-o"
+       },
+       {
+        "marker": "p)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over prestatiebewaking, beveiligingsbewaking en het volgen van incidenten, alsmede informatie over rapportagemechanismen met betrekking tot de prestaties van diensten, incidenten en naleving van overeengekomen dienstenniveauovereenkomsten (SLA’s) en doelstellingen inzake dienstverleningsniveau, of vergelijkbare regelingen tussen kritieke derde aanbieders van ICT-diensten en financiële entiteiten in de Unie;"
+         }
+        ],
+        "anchor": "lid-2-p"
+       },
+       {
+        "marker": "q)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over het voor ICT-derden opgezette beheerskader van de kritieke derde aanbieder van ICT-diensten, met inbegrip van strategieën, beleid, procedures, processen en controles, inclusief nadere informatie over de vooronderzoeken en risicobeoordelingen die de kritieke derde aanbieder van ICT-diensten ten aanzien van diens subcontractanten uitvoert voordat een overeenkomst met hen wordt aangegaan, teneinde de relatie te bewaken voor alle relevante ICT-risico’s en met de wederpartij samenhangende risico’s;"
+         }
+        ],
+        "anchor": "lid-2-q"
+       },
+       {
+        "marker": "r)",
+        "content": [
+         {
+          "type": "text",
+          "text": "uittreksels uit de bewakings- en scansystemen van de kritieke derde aanbieder van ICT-diensten en diens subcontractanten, onder meer — maar niet uitsluitend — met betrekking tot netwerk-, server-, applicatie- en beveiligingsbewaking, kwetsbaarheidsscans, beheer van logboeken, prestatiebewaking, incidentbeheer en toetsingen aan betrouwbaarheidsdoelstellingen, zoals doelstellingen inzake dienstverleningsniveau;"
+         }
+        ],
+        "anchor": "lid-2-r"
+       },
+       {
+        "marker": "s)",
+        "content": [
+         {
+          "type": "text",
+          "text": "uittreksels uit productie-, preproductie- en testsystemen of -applicaties die de kritieke derde aanbieder van ICT-diensten en diens subcontractanten gebruiken om direct of indirect diensten te verlenen aan financiële entiteiten in de Unie;"
+         }
+        ],
+        "anchor": "lid-2-s"
+       },
+       {
+        "marker": "t)",
+        "content": [
+         {
+          "type": "text",
+          "text": "conformiteits- en beschikbare auditverslagen, evenals relevante auditbevindingen, met inbegrip van audits die zijn uitgevoerd door nationale autoriteiten in de Unie en buiten de Unie, indien samenwerkingsovereenkomsten met de desbetreffende autoriteiten voorzien in een dergelijke informatie-uitwisseling, of certificeringen die zijn verkregen door de kritieke derde aanbieder van ICT-diensten of diens subcontractanten, met inbegrip van verslagen van interne en externe auditoren, certificeringen, of toetsingen op de conformiteit met branchespecifieke normen. Daaronder valt ook informatie over elk type beschikbare onafhankelijke tests van de weerbaarheid van de ICT-systemen van de kritieke derde aanbieder van ICT-diensten, met inbegrip van elk type op bedreigingen gebaseerde penetratietests die de derde aanbieder van ICT-diensten heeft uitgevoerd;"
+         }
+        ],
+        "anchor": "lid-2-t"
+       },
+       {
+        "marker": "u)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over door de kritieke derde aanbieder van ICT-diensten op diens verzoek of in diens naam verrichte beoordelingen van de geschiktheid en integriteit van personen die sleutelposities binnen de kritieke derde aanbieder van ICT-diensten bekleden;"
+         }
+        ],
+        "anchor": "lid-2-u"
+       },
+       {
+        "marker": "v)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over correctieplannen naar aanleiding van aanbevelingen uit hoofde van artikel 3 en relevante verwante informatie waaruit blijkt dat corrigerende maatregelen zijn getroffen;",
+          "refs": [
+           {
+            "start": 82,
+            "end": 91,
+            "href": "/rts-oversight/artikel/3"
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-2-v"
+       },
+       {
+        "marker": "w)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over voor het personeel beschikbare opleidingsprogramma’s en bewustmakingsprogramma’s op het gebied van beveiliging, waaronder, waar relevant, informatie over investeringen, middelen en methoden van de kritieke derde aanbieder van ICT-diensten met betrekking tot de opleiding van diens personeel in de behandeling van gevoelige financiële gegevens en in de wijze waarop de beveiliging op een hoog peil kan worden gehouden;"
+         }
+        ],
+        "anchor": "lid-2-w"
+       },
+       {
+        "marker": "x)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over de activiteiten van de kritieke derde aanbieder van ICT-diensten en financiële overzichten, met inbegrip van informatie over de begroting en middelen voor ICT en beveiliging."
+         }
+        ],
+        "anchor": "lid-2-x"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 3,
+  "title": "Informatie van kritieke derde aanbieders van ICT-diensten nadat aanbevelingen zijn gedaan",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "De kritieke derde aanbieder van ICT-diensten levert de lead overseer een verslag met een correctieplan met betrekking tot de aanbevelingen, waarin wordt aangegeven welke corrigerende maatregelen de kritieke derde aanbieder van ICT-diensten voornemens is te treffen om de risico’s te beperken die zijn geconstateerd in de aanbevelingen als bedoeld in artikel 35, lid 1, punt d), van Verordening (EU) 2022/2254. Het verslag volgt de termijnen die de lead overseer heeft gesteld voor elke aanbeveling."
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Om de lead overseer in staat te stellen om de uitvoering te monitoren van de actie en corrigerende maatregelen die de kritieke derde aanbieder van ICT-diensten naar aanleiding van de ontvangen aanbevelingen heeft ondernomen en getroffen, deelt de kritieke derde aanbieder van ICT-diensten op verzoek de volgende documenten met de lead overseer:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "tussentijdse voortgangsverslagen en verwante ondersteunende documenten over de vorderingen bij de uitvoering van de acties en maatregelen die zijn vermeld in het verslag dat de kritieke derde aanbieder van ICT-diensten binnen de door de lead overseer gestelde tijdlijn aan de lead overseer heeft verstrekt;"
+         }
+        ],
+        "anchor": "lid-2-a"
+       },
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "eindverslagen en verwante ondersteunende documentatie over de actie die de kritieke derde aanbieder van ICT-diensten heeft ondernomen en de corrigerende maatregelen die deze heeft getroffen om de in de ontvangen aanbevelingen geconstateerde risico’s te beperken."
+         }
+        ],
+        "anchor": "lid-2-b"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 4,
+  "title": "Structuur en formaat van de informatie van kritieke derde aanbieders van ICT-diensten",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "De kritieke derde aanbieder van ICT-diensten verstrekt de lead overseer de gevraagde informatie via de door de lead overseer in diens verzoek aangegeven speciale veilige elektronische kanalen en in de door de lead overseer aangegeven vorm."
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Bij het verstrekken van informatie aan de lead overseer moeten de kritieke derde aanbieders van ICT-diensten:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de structuur volgen die de lead overseer heeft aangegeven in diens verzoek om informatie;"
+         }
+        ],
+        "anchor": "lid-2-a"
+       },
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "duidelijk aangeven waar de relevante informatie-elementen in de ingediende documentatie te vinden zijn."
+         }
+        ],
+        "anchor": "lid-2-b"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "anchor": "lid-3",
+    "content": [
+     {
+      "type": "text",
+      "text": "De informatie die de kritieke derde aanbieder van ICT-diensten bij of aan de lead overseer indient, bekendmaakt of rapporteert, is gesteld in een in internationale financiële kringen gebruikelijke taal."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 5,
+  "title": "Model voor het verstrekken van informatie over onderaannemingsovereenkomsten",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Een kritieke derde aanbieder van ICT-diensten die informatie over onderaannemingsovereenkomsten moet delen, verstrekt deze informatie aan de lead overseer volgens het model van de bijlage."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 6,
+  "title": "Beoordeling door de bevoegde autoriteiten van de risico’s die zijn geadresseerd in de aanbevelingen van de lead overseer",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "In het kader van haar toezicht op financiële entiteiten beoordeelt de bevoegde autoriteit de gevolgen voor financiële entiteiten van de maatregelen die de kritieke derde aanbieder van ICT-diensten heeft genomen op basis van de aanbevelingen van de lead overseer, in overeenstemming met het evenredigheidsbeginsel."
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Bij de in lid 1 bedoelde beoordeling houdt de bevoegde autoriteit rekening met:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de toereikendheid van en samenhang tussen de corrigerende maatregelen van de financiële entiteiten om de in de aanbevelingen geconstateerde risico’s te beperken;"
+         }
+        ],
+        "anchor": "lid-2-a"
+       },
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de beoordeling door de lead overseer van de naleving, door de kritieke derde aanbieder van ICT-diensten, van de maatregelen en acties die zijn vermeld in het verslag, wanneer deze beoordeling gevolgen heeft voor de blootstelling van de onder haar bevoegdheid vallende financiële entiteiten aan de in de aanbevelingen geconstateerde risico’s;"
+         }
+        ],
+        "anchor": "lid-2-b"
+       },
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de standpunten van andere bevoegde autoriteiten die zijn geraadpleegd in overeenstemming met artikel 42, lid 5, van Verordening (EU) 2022/2554;",
+          "refs": [
+           {
+            "start": 93,
+            "end": 110,
+            "href": "/artikel/42#lid-5"
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-2-c"
+       },
+       {
+        "marker": "d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de vraag of de lead overseer de acties en corrigerende maatregelen van de kritieke derde aanbieder van ICT-diensten toereikend acht om de blootstelling van de onder haar bevoegdheid vallende financiële entiteiten aan de in de aanbeveling geconstateerde risico’s te beperken."
+         }
+        ],
+        "anchor": "lid-2-d"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "anchor": "lid-3",
+    "content": [
+     {
+      "type": "text",
+      "text": "Op verzoek van de lead overseer verschaft de bevoegde autoriteit de resultaten van de in lid 1 bedoelde beoordeling binnen een redelijke termijn. Bij het opvragen van de resultaten van deze beoordeling neemt de lead overseer het evenredigheidsbeginsel en de omvang van de in de aanbevelingen geconstateerde risico’s in acht, met inbegrip van de grensoverschrijdende gevolgen van deze risico’s wanneer ze financiële entiteiten in meer dan een lidstaat raken."
+     }
+    ]
+   },
+   {
+    "number": 4,
+    "anchor": "lid-4",
+    "content": [
+     {
+      "type": "text",
+      "text": "Waar relevant verzoekt de bevoegde autoriteit financiële entiteiten de informatie te verstrekken die nodig is voor de uitvoering van de in lid 1 bedoelde beoordeling."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 7,
+  "title": "Inwerkingtreding",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Deze verordening treedt in werking op de twintigste dag na die van de bekendmaking ervan in het Publicatieblad van de Europese Unie."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ }
+]

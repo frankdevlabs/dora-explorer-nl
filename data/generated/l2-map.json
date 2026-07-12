@@ -1,7 +1,7 @@
 {
  "meta": {
   "version": 1,
-  "linkCount": 23
+  "linkCount": 26
  },
  "byDora": {
   "15": [
@@ -32,6 +32,19 @@
     "target": "rapportage",
     "label": "Rapportage-RTS (2025/301) — inhoud en termijnen van incidentmeldingen (punt a))",
     "href": "/rts-incidentrapportage"
+   },
+   {
+    "target": "formulieren",
+    "label": "Rapportage-ITS (2025/302) — standaardformulieren en procedures voor incidentmeldingen en dreigingsnotificaties (punt b))",
+    "href": "/its-incidentrapportage"
+   }
+  ],
+  "26": [
+   {
+    "target": "tlpt",
+    "lid": 11,
+    "label": "TLPT-RTS (2025/1190) — criteria, scope, methodologie en samenwerking voor dreigingsgestuurde penetratietests",
+    "href": "/rts-tlpt"
    }
   ],
   "28": [
@@ -150,6 +163,12 @@
     "lid": 1,
     "label": "Onderzoeksteams-RTS (2025/420) — samenstelling, aanwijzing, taken en werkafspraken van het gezamenlijke onderzoeksteam (punt c))",
     "href": "/rts-onderzoeksteams"
+   },
+   {
+    "target": "oversight",
+    "lid": 1,
+    "label": "Oversight-RTS (2025/295) — harmonisatie van de uitoefening van de oversightactiviteiten (punten a), b) en d))",
+    "href": "/rts-oversight"
    }
   ],
   "43": [
