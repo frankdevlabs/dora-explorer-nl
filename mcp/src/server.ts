@@ -13,8 +13,10 @@ import {
   index,
   l2Map,
   normalizeArticleInput,
+  playbook,
   recitalMap,
 } from "./data.js";
+import type { PlaybookStep } from "../../src/lib/playbook/types.js";
 import { renderAnnex, renderArticle, renderText } from "./render.js";
 
 const text = (md: string) => ({ content: [{ type: "text" as const, text: md }] });
@@ -247,6 +249,107 @@ export function createServer(): McpServer {
         );
       }
       return text(lines.join("\n"));
+    },
+  );
+
+  const renderStep = (s: PlaybookStep, kind: string, faseId: string): string => {
+    const lines = [
+      `### ${s.titel} (\`${s.id}\`)`,
+      `${BASE_URL}/playbook/${kind}/${faseId}#${s.id}`,
+      `*${s.doel}*`,
+      ...s.acties.map((a) => `- ${a}`),
+    ];
+    if (s.bewijsstukken?.length) lines.push(`**Bewijsstukken:** ${s.bewijsstukken.join(" · ")}`);
+    if (s.rollen?.length) lines.push(`**Rollen:** ${s.rollen.join(", ")}`);
+    lines.push(
+      `**Geldt voor:** ${s.appliesTo.join(", ")} — **Basis:** ${s.refs
+        .map((r) => `[${r.label}](${BASE_URL}${r.href})`)
+        .join(" · ")}`,
+    );
+    return lines.join("\n");
+  };
+
+  server.registerTool(
+    "get_playbook",
+    {
+      title: "Playbook ophalen",
+      description:
+        "Practical DORA-compliance playbook steps (Dutch) with legal-basis deep links. " +
+        'kind "entiteit" (financial entity) or "aanbieder" (ICT third-party provider incl. CTPP); ' +
+        'optional fase id ("f0".."f8") narrows to one phase. Curation in progress: phases may be empty.',
+      inputSchema: {
+        kind: z.enum(["entiteit", "aanbieder"]).describe("Which playbook"),
+        fase: z.string().optional().describe('Fase id, e.g. "f1"'),
+      },
+    },
+    async ({ kind, fase }) => {
+      const pb = kind === "entiteit" ? playbook.entiteit : playbook.aanbieder;
+      const fases = fase ? pb.fases.filter((f) => f.id === fase) : pb.fases;
+      if (!fases.length) {
+        return err(
+          `Fase "${fase}" niet gevonden. Beschikbaar: ${pb.fases.map((f) => f.id).join(", ")}.`,
+        );
+      }
+      const body = fases
+        .map((f) => {
+          const head = `## Fase ${f.nr} — ${f.titel}`;
+          const steps = f.stappen.length
+            ? f.stappen.map((s) => renderStep(s, kind, f.id)).join("\n\n")
+            : "_Stappen voor deze fase worden nog samengesteld._";
+          return `${head}\n${steps}`;
+        })
+        .join("\n\n");
+      return text(`# ${pb.meta.title}\n\n${body}\n\n> ${pb.meta.disclaimer}`);
+    },
+  );
+
+  server.registerTool(
+    "get_coverage",
+    {
+      title: "Dekkingsregister: wat moet ik doen voor dit artikel?",
+      description:
+        "Reverse lookup from a provision to playbook steps: per lid the disposition " +
+        "(stap/definitie/toepassingsgebied/autoriteit/ctpp/slotbepaling/context), the implementing " +
+        `steps and editorial notes. Coverage register: ${BASE_URL}/playbook/dekking. ` +
+        "Curation in progress: uncovered leden are listed as such.",
+      inputSchema: {
+        number: z.string().describe('Article number, e.g. "28"'),
+        instrument: instrumentEnum,
+      },
+    },
+    async ({ number, instrument }) => {
+      const inst: InstrumentId = instrument ?? "dora";
+      const key = normalizeArticleInput(number);
+      const article = /^\d+$/.test(key) ? getArticle(Number(key), inst) : undefined;
+      if (!article) {
+        const max = corpora[inst].articles.length;
+        return err(
+          `Artikel "${number}" niet gevonden in ${INSTRUMENTS[inst].citation} (bereik: 1–${max}).`,
+        );
+      }
+      const block = playbook.coverage.instruments[inst]?.artikelen[String(article.number)] ?? {};
+      const prefix = INSTRUMENTS[inst].routePrefix;
+      const lines = article.paragraphs.map((p) => {
+        const label = p.anchor === "inhoud" ? "artikel (geen leden)" : p.anchor.replace("lid-", "lid ");
+        const link = `${BASE_URL}${prefix}/artikel/${article.number}#${p.anchor}`;
+        const entry = block[p.anchor];
+        if (!entry) return `- **${label}** — nog niet gedekt (curatie loopt) — ${link}`;
+        const steps = entry.steps?.length
+          ? ` — stappen: ${entry.steps
+              .map((s) => {
+                const loc = playbook.byStep[s];
+                return loc
+                  ? `[\`${s}\`](${BASE_URL}/playbook/${loc.playbook}/${loc.faseId}#${s})`
+                  : `\`${s}\``;
+              })
+              .join(", ")}`
+          : "";
+        const note = entry.note ? ` — ${entry.note}` : "";
+        return `- **${label}**: ${entry.disposition}${steps}${note} — ${link}`;
+      });
+      return text(
+        `# Dekking — artikel ${article.number} ${INSTRUMENTS[inst].citation}\n_${article.title}_\n\n${lines.join("\n")}`,
+      );
     },
   );
 

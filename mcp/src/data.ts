@@ -2,6 +2,7 @@ import { readFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 import type { Annex, Article, L2MapGenerated, Recital, RecitalMapGenerated, SearchDoc, Toc } from "../../src/lib/types.js";
 import { INSTRUMENTS, INSTRUMENT_IDS, type InstrumentId } from "../../src/lib/instruments.js";
+import type { GeneratedPlaybook } from "../../src/lib/playbook/types.js";
 import { createSearchIndex } from "../../src/lib/search-core.js";
 
 // Compiled file lives at mcp/dist/mcp/src/data.js → repo root is 4 levels up.
@@ -37,6 +38,7 @@ export const index = createSearchIndex(load<SearchDoc[]>(join(DATA_DIR, "search-
 
 export const recitalMap = load<RecitalMapGenerated>(join(DATA_DIR, "recital-map.json"));
 export const l2Map = load<L2MapGenerated>(join(DATA_DIR, "l2-map.json"));
+export const playbook = load<GeneratedPlaybook>(join(DATA_DIR, "playbook.json"));
 
 export { INSTRUMENTS, INSTRUMENT_IDS, type InstrumentId };
 
