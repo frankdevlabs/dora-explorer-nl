@@ -35,7 +35,7 @@
      "refs": [
       {
        "label": "ITS art. 3, lid 6",
-       "href": "/its/artikel/3#lid-6"
+       "href": "/its-register/artikel/3#lid-6"
       }
      ],
      "answerType": "text",
@@ -47,7 +47,7 @@
      "refs": [
       {
        "label": "ITS bijlage I (B_02.01)",
-       "href": "/its/bijlage/i"
+       "href": "/its-register/bijlage/i"
       }
      ],
      "answerType": "choice",
@@ -74,7 +74,7 @@
      "refs": [
       {
        "label": "ITS bijlage III — S01–S19",
-       "href": "/its/bijlage/iii"
+       "href": "/its-register/bijlage/iii"
       }
      ],
      "answerType": "choice",
@@ -560,7 +560,7 @@
    "refs": [
     {
      "label": "RTS — overzicht",
-     "href": "/rts"
+     "href": "/rts-onderaanneming"
     },
     {
      "label": "Art. 29, lid 2",
@@ -591,7 +591,7 @@
      "refs": [
       {
        "label": "RTS art. 3",
-       "href": "/rts/artikel/3"
+       "href": "/rts-onderaanneming/artikel/3"
       }
      ],
      "answerType": "janeenvt",
@@ -606,7 +606,7 @@
      "refs": [
       {
        "label": "RTS art. 4",
-       "href": "/rts/artikel/4"
+       "href": "/rts-onderaanneming/artikel/4"
       }
      ],
      "answerType": "janeenvt",
@@ -621,7 +621,7 @@
      "refs": [
       {
        "label": "RTS art. 5",
-       "href": "/rts/artikel/5"
+       "href": "/rts-onderaanneming/artikel/5"
       }
      ],
      "answerType": "janeenvt",
@@ -636,7 +636,7 @@
      "refs": [
       {
        "label": "RTS art. 6",
-       "href": "/rts/artikel/6"
+       "href": "/rts-onderaanneming/artikel/6"
       }
      ],
      "answerType": "janeenvt",
@@ -652,11 +652,11 @@
      "refs": [
       {
        "label": "ITS art. 2 — Ranking",
-       "href": "/its/artikel/2"
+       "href": "/its-register/artikel/2"
       },
       {
        "label": "ITS art. 3, lid 2",
-       "href": "/its/artikel/3#lid-2"
+       "href": "/its-register/artikel/3#lid-2"
       }
      ],
      "answerType": "janeenvt",
@@ -727,7 +727,7 @@
    "refs": [
     {
      "label": "ITS bijlage I (B_07.01)",
-     "href": "/its/bijlage/i"
+     "href": "/its-register/bijlage/i"
     }
    ],
    "questions": [

@@ -29,7 +29,7 @@ import type { AnyNode, Element } from "domhandler";
 import { mkdirSync, readFileSync, writeFileSync, copyFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { INSTRUMENTS, type InstrumentId } from "../src/lib/instruments";
+import { INSTRUMENTS, splitRoutePath, type InstrumentId } from "../src/lib/instruments";
 import { findRefs, type RefContext } from "../src/lib/crossrefs";
 import { assignItemAnchors, flattenNodes, markerToSlug } from "../src/lib/flatten";
 import type {
@@ -611,11 +611,8 @@ const refCountByInstrument = new Map<InstrumentId, number>();
 /** Split an href into its target instrument and instrument-local path. */
 function splitHref(href: string): { instrument: InstrumentId; page: string; fragment?: string } {
   const [full, fragment] = href.split("#");
-  const m = full.match(/^\/(its|rts)(\/.*|\/?$)/);
-  const instrument = (m ? m[1] : "dora") as InstrumentId;
-  let page = m ? m[2] || "/" : full;
-  if (page === "") page = "/";
-  return { instrument, page, fragment };
+  const { instrument, rest } = splitRoutePath(full);
+  return { instrument, page: rest, fragment };
 }
 
 /** Validate a candidate href; returns it with the fragment stripped if unanchorable. */

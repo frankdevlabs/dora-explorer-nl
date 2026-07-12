@@ -5,6 +5,7 @@ import { ChevronDown } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useMemo, useState } from "react";
+import { INSTRUMENTS, SATELLITE_IDS } from "@/lib/instruments";
 import type { Toc, TocEntry } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
@@ -126,26 +127,27 @@ export function SidebarToc({ toc, onNavigate }: SidebarTocProps) {
             Bijlagen <span className="text-xs font-normal text-muted">(I–{toc.annexes[toc.annexes.length - 1]?.roman})</span>
           </Link>
         )}
-        <Link
-          href="/its"
-          onClick={onNavigate}
-          className={cn(
-            "block rounded px-2 py-1.5 font-medium hover:bg-surface",
-            pathname.startsWith("/its") && "text-accent",
-          )}
-        >
-          RoI-ITS <span className="text-xs font-normal text-muted">(2024/2956)</span>
-        </Link>
-        <Link
-          href="/rts"
-          onClick={onNavigate}
-          className={cn(
-            "block rounded px-2 py-1.5 font-medium hover:bg-surface",
-            pathname.startsWith("/rts") && "text-accent",
-          )}
-        >
-          Onderaannemings-RTS <span className="text-xs font-normal text-muted">(2025/532)</span>
-        </Link>
+        {SATELLITE_IDS.map((id) => {
+          const spec = INSTRUMENTS[id];
+          return (
+            <Link
+              key={id}
+              href={spec.routePrefix}
+              onClick={onNavigate}
+              className={cn(
+                "block rounded px-2 py-1.5 font-medium hover:bg-surface",
+                (pathname === spec.routePrefix ||
+                  pathname.startsWith(`${spec.routePrefix}/`)) &&
+                  "text-accent",
+              )}
+            >
+              {spec.label}{" "}
+              <span className="text-xs font-normal text-muted">
+                ({spec.citation.match(/\d{4}\/\d+/)?.[0]})
+              </span>
+            </Link>
+          );
+        })}
         <Link
           href="/assessment"
           onClick={onNavigate}

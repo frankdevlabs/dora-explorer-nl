@@ -541,8 +541,8 @@
    "showIf": { "all": [{ "flag": "in_scope" }, { "not": { "flag": "uitgesloten" } }] },
    "refs": [
     { "label": "Art. 28, lid 3", "href": "/artikel/28#lid-3" },
-    { "label": "ITS — modellen (art. 3)", "href": "/its/artikel/3" },
-    { "label": "ITS — gegevensformaat (art. 4)", "href": "/its/artikel/4" }
+    { "label": "ITS — modellen (art. 3)", "href": "/its-register/artikel/3" },
+    { "label": "ITS — gegevensformaat (art. 4)", "href": "/its-register/artikel/4" }
    ],
    "questions": [
     {
@@ -556,14 +556,14 @@
     {
      "id": "e16.2",
      "text": "Gebruikt de entiteit de ITS-modellen (B_01.01 t/m B_99.01) met de voorgeschreven codes (LEI/EUID, S01–S19, ISO-landcodes/valuta)?",
-     "refs": [{ "label": "ITS art. 3", "href": "/its/artikel/3" }, { "label": "ITS bijlage III (S-codes)", "href": "/its/bijlage/iii" }],
+     "refs": [{ "label": "ITS art. 3", "href": "/its-register/artikel/3" }, { "label": "ITS bijlage III (S-codes)", "href": "/its-register/bijlage/iii" }],
      "answerType": "janeenvt",
      "obligation": true
     },
     {
      "id": "e16.3",
      "text": "Worden voor diensten die kritieke of belangrijke functies ondersteunen ook de onderaannemers geregistreerd die die diensten daadwerkelijk ondersteunen (ranking per ITS art. 2)?",
-     "refs": [{ "label": "ITS art. 2 — Ranking", "href": "/its/artikel/2" }, { "label": "ITS art. 3, lid 2", "href": "/its/artikel/3#lid-2" }],
+     "refs": [{ "label": "ITS art. 2 — Ranking", "href": "/its-register/artikel/2" }, { "label": "ITS art. 3, lid 2", "href": "/its-register/artikel/3#lid-2" }],
      "answerType": "janeenvt",
      "showIf": { "flag": "cif_uitbesteed" },
      "obligation": true
@@ -571,7 +571,7 @@
     {
      "id": "e16.4",
      "text": "Is het proces voor de jaarlijkse rapportage aan de toezichthouder ingericht (referentiedatum 31 december; AFM-cyclus 2026: uiterlijk 22 maart, xBRL-CSV) en wordt de toezichthouder tijdig geïnformeerd over voorgenomen contracten voor kritieke of belangrijke functies?",
-     "refs": [{ "label": "Art. 28, lid 3", "href": "/artikel/28#lid-3" }, { "label": "ITS art. 4", "href": "/its/artikel/4" }],
+     "refs": [{ "label": "Art. 28, lid 3", "href": "/artikel/28#lid-3" }, { "label": "ITS art. 4", "href": "/its-register/artikel/4" }],
      "answerType": "janeenvt",
      "obligation": true
     }

@@ -9,6 +9,7 @@ import assert from "node:assert";
 import { readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { INSTRUMENT_IDS, splitRoutePath } from "../src/lib/instruments";
 import type { Annex, Article, ContentNode, Recital, SearchDoc, Toc } from "../src/lib/types";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -295,13 +296,16 @@ assert.ok(
 // negative: nothing may ever resolve into the sectoral acts DORA art 2/3
 // cites (Richtlijn 2013/36/EU, Verordening (EU) 2016/679, ...) — those have
 // no routes here, so any such bug surfaces as an unresolvable-target throw
-// in the parser; belt-and-braces, assert no ref leaves the three route roots
+// in the parser; belt-and-braces, assert no ref leaves the registered route
+// roots (splitRoutePath maps unknown prefixes to dora, where the local-path
+// check below then rejects them)
 for (const inst of Object.keys(REF_EXPECT)) {
   for (const r of collectRefs(inst)) {
+    const [path, fragment] = r.href.split("#");
+    const { rest } = splitRoutePath(path);
     assert.ok(
-      /^\/(?:(?:its|rts)\/)?(?:artikel|overweging|bijlage)\/|^\/(?:its\/|rts\/)?#hoofdstuk-/.test(
-        r.href,
-      ),
+      /^\/(artikel|overweging|bijlage)\/[a-z0-9]+$/.test(rest) ||
+        (rest === "/" && fragment?.startsWith("hoofdstuk-")),
       `${inst} ${r.where}: unexpected href shape ${r.href}`,
     );
   }
@@ -316,9 +320,12 @@ assert.equal(docs.length, 485, "search docs: total count");
 const ids = new Set(docs.map((d) => d.id));
 assert.equal(ids.size, docs.length, "search docs: duplicate ids");
 for (const d of docs) {
-  assert.ok(["dora", "its", "rts"].includes(d.instrument), `search doc ${d.id}: instrument`);
-  const wantPrefix = d.instrument === "dora" ? "/" : `/${d.instrument}/`;
-  assert.ok(d.url.startsWith(wantPrefix), `search doc ${d.id}: url prefix (${d.url})`);
+  assert.ok(
+    (INSTRUMENT_IDS as string[]).includes(d.instrument),
+    `search doc ${d.id}: instrument`,
+  );
+  const { instrument } = splitRoutePath(d.url.split("#")[0]);
+  assert.equal(instrument, d.instrument, `search doc ${d.id}: url prefix (${d.url})`);
   assert.ok(d.text.trim().length > 0, `search doc ${d.id}: empty text`);
 }
 

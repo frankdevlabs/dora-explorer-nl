@@ -12,7 +12,7 @@ import rtsAnnexesJson from "../../data/generated/rts/annexes.json";
 import rtsTocJson from "../../data/generated/rts/toc.json";
 import recitalMapJson from "../../data/generated/recital-map.json";
 import l2MapJson from "../../data/generated/l2-map.json";
-import { INSTRUMENTS, type InstrumentId } from "./instruments";
+import { INSTRUMENTS, splitRoutePath, type InstrumentId } from "./instruments";
 import type { Annex, Article, L2MapGenerated, Recital, RecitalMapGenerated, Toc } from "./types";
 import { flattenNodes } from "./flatten";
 
@@ -111,16 +111,11 @@ export interface RefPreview {
 
 /**
  * Build-time hover preview for an internal cross-reference href. Instrument
- * is inferred from the route prefix (/its/..., /rts/..., unprefixed = dora).
+ * is inferred from the route prefix (unprefixed = dora).
  */
 export function getPreview(href: string): RefPreview | undefined {
-  let [page, fragment] = href.split("#");
-  let instrument: InstrumentId = "dora";
-  const prefixed = page.match(/^\/(its|rts)(\/.*|$)/);
-  if (prefixed) {
-    instrument = prefixed[1] as InstrumentId;
-    page = prefixed[2] || "/";
-  }
+  const [path, fragment] = href.split("#");
+  const { instrument, rest: page } = splitRoutePath(path);
   const label = INSTRUMENTS[instrument].label;
   const tag = instrument === "dora" ? "" : ` (${label})`;
 

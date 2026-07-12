@@ -16,7 +16,7 @@ export default function RegisterPage() {
       <h1 className="mb-2 text-2xl font-bold">Informatieregister (art. 28, lid 3)</h1>
       <p className="mb-4 text-sm text-muted">
         Registratie volgens de 15 templates van Uitvoeringsverordening (EU){" "}
-        <Link href="/its" className="text-accent hover:underline">
+        <Link href="/its-register" className="text-accent hover:underline">
           2024/2956
         </Link>
         . Elke beoordeling uit het{" "}

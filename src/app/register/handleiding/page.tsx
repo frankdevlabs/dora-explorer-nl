@@ -25,7 +25,7 @@ export default function HandleidingPage() {
               artikel 28, lid 3, DORA
             </Link>{" "}
             en de modellen van{" "}
-            <Link href="/its" className="text-accent hover:underline">
+            <Link href="/its-register" className="text-accent hover:underline">
               Uitvoeringsverordening (EU) 2024/2956
             </Link>{" "}
             (rectificatie 19 september 2025 verwerkt). Cyclus 2026: referentiedatum 31 december
@@ -68,11 +68,11 @@ export default function HandleidingPage() {
             <li>
               Onderaannemers alleen voor zover zij kritieke of belangrijke diensten{" "}
               <em>daadwerkelijk ondersteunen</em> (
-              <Link href="/its/artikel/3#lid-2" className="text-accent hover:underline">
+              <Link href="/its-register/artikel/3#lid-2" className="text-accent hover:underline">
                 ITS art. 3, lid 2
               </Link>
               ), met ranking per{" "}
-              <Link href="/its/artikel/2" className="text-accent hover:underline">
+              <Link href="/its-register/artikel/2" className="text-accent hover:underline">
                 ITS art. 2
               </Link>
               .
@@ -88,7 +88,7 @@ export default function HandleidingPage() {
             B_02.02) met de ITS-referenties, klaar om contractueel uit te vragen: machineleesbaar,
             jaarlijks vóór de referentiedatum plus event-driven bij materiële wijzigingen, met
             doorwerking naar onderaannemers (
-            <Link href="/rts/artikel/4" className="text-accent hover:underline">
+            <Link href="/rts-onderaanneming/artikel/4" className="text-accent hover:underline">
               RTS art. 4
             </Link>
             ).

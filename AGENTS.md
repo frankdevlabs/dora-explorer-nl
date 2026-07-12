@@ -45,8 +45,8 @@ Three instruments, one corpus (epic 1):
 | id | Instrument | Routes |
 |---|---|---|
 | `dora` | Verordening (EU) 2022/2554 | `/artikel/28`, `/overweging/5` (unprefixed) |
-| `its` | Uitvoeringsverordening (EU) 2024/2956 (RoI-ITS) | `/its/artikel/2`, `/its/bijlage/i` |
-| `rts` | Gedelegeerde Verordening (EU) 2025/532 (onderaanneming) | `/rts/artikel/3` |
+| `its` | Uitvoeringsverordening (EU) 2024/2956 (RoI-ITS) | `/its-register/artikel/2`, `/its-register/bijlage/i` |
+| `rts` | Gedelegeerde Verordening (EU) 2025/532 (onderaanneming) | `/rts-onderaanneming/artikel/3` |
 
 All EUR-Lex sources are WAF-blocked; fetch via
 `python3 ~/law-tracker/lib/fetch_blocked_doc.py "<url>" "<out>"`.

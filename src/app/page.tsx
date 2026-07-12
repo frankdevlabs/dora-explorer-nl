@@ -21,7 +21,7 @@ export default function Home() {
 
       <section aria-label="Uitvoeringshandelingen" className="mb-10 grid gap-3 sm:grid-cols-2">
         <Link
-          href="/its"
+          href="/its-register"
           className="group rounded-lg border border-line p-4 hover:border-accent"
         >
           <p className="font-semibold group-hover:text-accent">RoI-ITS</p>
@@ -31,7 +31,7 @@ export default function Home() {
           </p>
         </Link>
         <Link
-          href="/rts"
+          href="/rts-onderaanneming"
           className="group rounded-lg border border-line p-4 hover:border-accent"
         >
           <p className="font-semibold group-hover:text-accent">Onderaannemings-RTS</p>

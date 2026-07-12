@@ -12,6 +12,7 @@ import { computeVisibility } from "../src/lib/assessment/engine-core";
 import { evaluateEntity } from "../src/lib/assessment/entity-outcome";
 import { evaluateSupplier } from "../src/lib/assessment/supplier-outcome";
 import type { QCondition, Question, Questionnaire } from "../src/lib/assessment/types";
+import { INSTRUMENT_IDS, splitRoutePath } from "../src/lib/instruments";
 import type { Annex, Article, ContentNode, Recital } from "../src/lib/types";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -69,26 +70,23 @@ function indexInstrument(inst: string): CorpusIndex {
   };
 }
 
-const corpus: Record<string, CorpusIndex> = {
-  dora: indexInstrument("dora"),
-  its: indexInstrument("its"),
-  rts: indexInstrument("rts"),
-};
-
-/** Instrument index pages the questionnaire may link to (no fragments). */
-const INDEX_PAGES = new Set(["/its", "/rts"]);
+const corpus = Object.fromEntries(
+  INSTRUMENT_IDS.map((id) => [id, indexInstrument(id)]),
+) as Record<string, CorpusIndex>;
 
 function checkRef(owner: string, href: string): void {
   const [pathWithQuery, fragment] = href.split("#");
   const path = pathWithQuery.split("?")[0];
-  if (INDEX_PAGES.has(path)) {
+  const { instrument, rest } = splitRoutePath(path);
+  // satellite index pages the questionnaire may link to (no fragments)
+  if (instrument !== "dora" && rest === "/") {
     assert.ok(!fragment, `${owner}: geen fragmenten op indexpagina's (${href})`);
     return;
   }
-  const m = path.match(/^(?:\/(its|rts))?\/(artikel|overweging|bijlage)\/([a-z0-9]+)$/);
+  const m = rest.match(/^\/(artikel|overweging|bijlage)\/([a-z0-9]+)$/);
   assert.ok(m, `${owner}: onbekend ref-pad ${href}`);
-  const inst = corpus[m![1] ?? "dora"];
-  const [, , kind, key] = m!;
+  const inst = corpus[instrument];
+  const [, kind, key] = m!;
   if (kind === "artikel") {
     const anchors = inst.articleAnchors.get(key);
     assert.ok(anchors, `${owner}: artikel ${href} bestaat niet`);

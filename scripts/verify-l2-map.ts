@@ -7,6 +7,7 @@ import assert from "node:assert";
 import { readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { splitRoutePath } from "../src/lib/instruments";
 import type { L2MapGenerated, L2MapSource } from "../src/lib/types";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -25,8 +26,9 @@ for (const link of source.links) {
     (l) => l.target === link.target && l.label === link.label,
   );
   assert.ok(hit, `l2-map: link ${link.dora} → ${link.target} ontbreekt in byDora`);
+  const { instrument, rest } = splitRoutePath(hit!.href);
   assert.ok(
-    /^(\/(its|rts))(\/(artikel\/\d+|bijlage\/[a-z]+))?$/.test(hit!.href),
+    instrument !== "dora" && /^(\/|\/artikel\/\d+|\/bijlage\/[a-z]+)$/.test(rest),
     `l2-map: onverwachte href ${hit!.href}`,
   );
 }
