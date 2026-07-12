@@ -10,12 +10,13 @@ check list change with nearly every epic. Update them in the same commit as
 the feature; a mismatch usually means this skill is stale, not that the app
 is broken — check `git log` before debugging.
 
-> **Epic-10 state:** full app, 13 instruments (DORA + 12 level-2 acts;
-> **532 exported HTML pages**). Verify chain: verify-data (563 refs, 1031
-> search docs), verify-assessment (entity 18/57, supplier 11/48), verify-roi
-> (15 templates / 98 kolommen), verify-recital-map (359 pairs, two-regime,
-> all drafted, human review open), verify-l2-map (26 links), verify-search
-> (32 golden queries).
+> **Epic-11 state:** full app, 13 instruments (DORA + 12 level-2 acts;
+> **563 exported HTML pages**, +31 playbook). Verify chain: verify-data
+> (563 refs, 1031 search docs), verify-assessment (entity 18/57, supplier
+> 11/48), verify-playbook (draft mode: dekking 20/654, 5 stappen,
+> criticaliteit-pilot compleet), verify-roi (15 templates / 98 kolommen),
+> verify-recital-map (359 pairs, two-regime, all drafted, human review
+> open), verify-l2-map (26 links), verify-search (32 golden queries).
 
 ## 1. Build (includes data verification)
 
@@ -54,6 +55,12 @@ curl -s "http://localhost:$PORT/rts-risicobeheer/artikel/22" | grep -c "2024/177
 curl -s "http://localhost:$PORT/its-incidentrapportage/bijlage/i" | grep -c "Gegevensveld" # >= 1 (meldtemplate)
 curl -s "http://localhost:$PORT/rts-tlpt/bijlage/viii" | grep -c "attest"           # >= 1
 curl -s "http://localhost:$PORT/artikel/18" | grep -c "Classificatie-RTS"           # >= 1 (l2-paneel)
+# epic 11: playbook + dekkingsregister. NB: grep needles must not span JSX
+# interpolations — SSG emits "Fase <!-- -->0", so "Fase 0" never matches.
+curl -s "http://localhost:$PORT/playbook" | grep -c "Dekkingsregister"              # >= 1
+curl -s "http://localhost:$PORT/playbook/aanbieder/f1" | grep -c "stap 1-zelftoets" # >= 1 (pilot-stappen)
+curl -s "http://localhost:$PORT/playbook/dekking/criticaliteit" | grep -c "pa.p2"   # >= 1 (steplinks)
+curl -s "http://localhost:$PORT/playbook/dekking/dora" | grep -c "nog niet gedekt"  # >= 1 (tot dekking compleet)
 ```
 
 ## 3. Browser checks (Playwright, optional but thorough)
@@ -138,6 +145,15 @@ await strip.locator('a[href="/overweging/14"]').waitFor();
 if ((await strip.locator("a").count()) !== 2) throw new Error("expected 2 tabs");
 const stored = await page.evaluate(() => JSON.parse(localStorage.getItem("dora-tabs")));
 if (stored.v !== 1 || stored.tabs.length !== 2) throw new Error("dora-tabs bad shape");
+
+// 8. playbook (epic 11): step anchors, cross-fase afhankelijkVan-links,
+// corpus ref deep links, dekkingsregister row counts (criticaliteit 20,
+// dora 267) and 360px overflow on /playbook/dekking/dora — see the epic-11
+// run's e2e-playbook.mjs for the full block
+await page.goto(`${BASE}/playbook/aanbieder/f1`);
+if (!(await page.locator("#pa\\.p2").isVisible())) throw new Error("step anchor");
+await page.goto(`${BASE}/playbook/dekking/criticaliteit`);
+if ((await page.locator("tbody tr").count()) !== 20) throw new Error("dekking rows");
 
 await browser.close();
 if (errors.length) throw new Error("console errors: " + errors.join("; "));

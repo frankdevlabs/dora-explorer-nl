@@ -27,11 +27,12 @@ method). Plan/status per feature: `docs/epics/`. Repeatable procedures:
    manual or LLM transcription, ever. Wording bugs are parser bugs.
    **Editorial-metadata carve-out (rule 2b):** curated machine-readable
    metadata is clearly not legal text and must never alter the rendering of
-   legal text. Three such layers exist: the RoI provenance-overlay in
+   legal text. Four such layers exist: the RoI provenance-overlay in
    `scripts/build-roi-schema.ts`, `data/source/recital-article-map.json`
-   (recital↔artikel; procedure: `.claude/skills/curate-recital-map/`) and
-   `data/source/l2-map.json` (DORA↔ITS/RTS). Each is gated by its own
-   verify script.
+   (recital↔artikel; procedure: `.claude/skills/curate-recital-map/`),
+   `data/source/l2-map.json` (DORA↔ITS/RTS) and `data/playbook/`
+   (compliance-playbooks + per-lid dekkingsmatrix, epic 11). Each is gated
+   by its own verify script.
 3. `npm run build` = `parse → verify → next build`. If a verify script fails,
    fix the parser or curated source (or, after a deliberate source update,
    the assertions) — don't loosen assertions to pass. Re-pin exact counts
@@ -104,7 +105,12 @@ assessments, de registerwerkbank (`/register`, schema afgeleid via
 `scripts/build-roi-schema.ts`), de exports en de editorial maps (epic 9).
 Epic 10 (juli 2026) voegde de tien resterende level-2-handelingen toe —
 volledig level-2-corpus, geen openstaande mandaten. Site en MCP zijn live
-op https://dora.mrfrank.dev. Openstaand: menselijke review van de
-recital-map (complete=false) — alle 284 entries zijn gedraft en
-adversarieel gereviewd (drafter→refuter; twee REVIEW:-gemarkeerde
-disputen wachten op arbitrage), maar nog `reviewed: false`.
+op https://dora.mrfrank.dev. Epic 11 (juli 2026) legde de playbook-spine:
+`/playbook` (entiteit + aanbieder) met per-lid dekkingsregister over alle
+654 bepalingen (`data/playbook/`, verify-playbook, MCP get_playbook/
+get_coverage); pilot criticaliteit 20/20 gedekt. Openstaand: (a)
+playbook-content epics 12–16 (zie docs/epics/epic-11-playbook-spine.md);
+(b) menselijke review van de recital-map (complete=false) — alle 284
+entries zijn gedraft en adversarieel gereviewd (drafter→refuter; twee
+REVIEW:-gemarkeerde disputen wachten op arbitrage), maar nog
+`reviewed: false`.
