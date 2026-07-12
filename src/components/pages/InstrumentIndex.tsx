@@ -23,6 +23,38 @@ const BLURB: Record<InstrumentId, string> = {
     "vervangbaarheid en het aantal bediende lidstaten. Relevant voor de " +
     "aanwijzingsexercitie van de ESA's, niet als directe verplichting voor " +
     "financiële entiteiten.",
+  vergoedingen:
+    "Het bedrag van de oversightvergoedingen die de lead overseer aan " +
+    "kritieke derde aanbieders van ICT-diensten aanrekent (artikel 43, lid 2, " +
+    "DORA), de berekening op basis van de toepasselijke omzet en de " +
+    "betalingswijze — inclusief de vergoeding bij een vrijwillig " +
+    "opt-in-verzoek tot aanwijzing.",
+  onderzoeksteams:
+    "Criteria voor de samenstelling van de gezamenlijke onderzoeksteams die " +
+    "de lead overseer bij het oversight op kritieke derde aanbieders " +
+    "ondersteunen (artikel 41, lid 1, punt c), DORA): evenwichtige participatie van " +
+    "functionarissen van de ETA's en de bevoegde autoriteiten, hun " +
+    "aanwijzing, taken en werkafspraken.",
+  classificatie:
+    "De criteria voor de classificatie van ICT-gerelateerde incidenten als " +
+    "ernstig en van cyberdreigingen als significant (artikel 18 DORA): " +
+    "getroffen cliënten en tegenpartijen, reputatie-effecten, duur en " +
+    "downtime, geografische spreiding, gegevensverliezen, kritieke diensten " +
+    "en economische impact, met de bijbehorende materialiteitsdrempels.",
+  contractbeleid:
+    "De gedetailleerde inhoud van het beleid inzake contractuele " +
+    "overeenkomsten voor ICT-diensten die kritieke of belangrijke functies " +
+    "ondersteunen (artikel 28, lid 10, DORA): governance en rol van het " +
+    "leidinggevend orgaan, due diligence vóór contractering, " +
+    "contractvereisten, monitoring en exitstrategieën.",
+  rapportage:
+    "Inhoud en termijnen van de meldingen van ernstige ICT-gerelateerde " +
+    "incidenten aan de bevoegde autoriteit (artikel 20 DORA): eerste " +
+    "kennisgeving binnen 4 uur na classificatie (en 24 uur na detectie), " +
+    "tussentijds verslag binnen 72 uur, eindverslag binnen een maand, plus " +
+    "de inhoud van de vrijwillige kennisgeving van significante " +
+    "cyberdreigingen. De bijbehorende meldformulieren staan in de " +
+    "Rapportage-ITS (2025/302).",
 };
 
 /** Index page for a satellite instrument: blurb + article/annex/recital TOC. */

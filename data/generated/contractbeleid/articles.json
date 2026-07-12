@@ -1,0 +1,1303 @@
+[
+ {
+  "number": 1,
+  "title": "Algeheel risicoprofiel en complexiteit",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "In het beleid inzake het gebruik van door derde aanbieders verleende ICT-diensten die kritieke of belangrijke functies ondersteunen (“het beleid”) wordt rekening gehouden met de omvang en het algehele risicoprofiel van de financiële entiteit en met de aard, schaal en elementen van de toegenomen of verminderde complexiteit van haar diensten, activiteiten en verrichtingen, met inbegrip van elementen die verband houden met:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "(a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "het soort ICT-diensten dat is opgenomen in de contractuele overeenkomst inzake het gebruik van door derde aanbieders verleende ICT-diensten die kritieke of belangrijke functies ondersteunen (“de contractuele overeenkomst”) tussen de financiële entiteit en de derde aanbieder van ICT-diensten;"
+         }
+        ],
+        "anchor": "punt-a"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "(b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de locatie van de derde aanbieder van ICT-diensten of de locatie van zijn moederonderneming;"
+         }
+        ],
+        "anchor": "punt-b"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "(c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "of de ICT-diensten die kritieke of belangrijke functies ondersteunen, worden verleend door een derde aanbieder van ICT-diensten die zich in een lidstaat of in een derde land bevindt, ook rekening houdend met de locatie van waaruit de ICT-diensten worden verleend en de locatie waar de gegevens worden verwerkt en opgeslagen;"
+         }
+        ],
+        "anchor": "punt-c"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "(d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de aard van de gegevens die met de derde aanbieder van ICT-diensten worden gedeeld;"
+         }
+        ],
+        "anchor": "punt-d"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "(e)",
+        "content": [
+         {
+          "type": "text",
+          "text": "of de derde aanbieder van ICT-diensten deel uitmaakt van dezelfde groep als de financiële entiteit waaraan de diensten worden verleend;"
+         }
+        ],
+        "anchor": "punt-e"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "(f)",
+        "content": [
+         {
+          "type": "text",
+          "text": "het gebruik van derde aanbieders van ICT-diensten die een vergunning hebben gekregen van, geregistreerd zijn of aan toezicht of oversight onderworpen zijn door een bevoegde autoriteit in een lidstaat, of onderworpen zijn aan het oversightkader uit hoofde van hoofdstuk V, afdeling II, van Verordening (EU) 2022/2554, en het gebruik van andere derde aanbieders van ICT-diensten;",
+          "refs": [
+           {
+            "start": 259,
+            "end": 283,
+            "href": "/#hoofdstuk-v"
+           }
+          ]
+         }
+        ],
+        "anchor": "punt-f"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "(g)",
+        "content": [
+         {
+          "type": "text",
+          "text": "het gebruik van derde aanbieders van ICT-diensten die een vergunning hebben gekregen van, geregistreerd zijn of aan toezicht of oversight onderworpen zijn door een toezichthoudende autoriteit in een derde land, en het gebruik van andere derde aanbieders van ICT-diensten;"
+         }
+        ],
+        "anchor": "punt-g"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "(h)",
+        "content": [
+         {
+          "type": "text",
+          "text": "of de verlening van ICT-diensten ter ondersteuning van kritieke of belangrijke functies geconcentreerd is op één derde aanbieder van ICT-diensten of op een klein aantal dergelijke dienstverleners;"
+         }
+        ],
+        "anchor": "punt-h"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "(i)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de overdraagbaarheid van de ICT-diensten die kritieke of belangrijke functies ondersteunen naar een andere derde aanbieder van ICT-diensten, ook als gevolg van specifieke technologische kenmerken;"
+         }
+        ],
+        "anchor": "punt-i"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "(j)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de mogelijke gevolgen van verstoringen in de verlening van ICT-diensten ter ondersteuning van kritieke of belangrijke functies voor de continuïteit van de activiteiten van de financiële entiteit en voor de beschikbaarheid van haar diensten."
+         }
+        ],
+        "anchor": "punt-j"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 2,
+  "title": "Toepassing in de groep",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Indien deze verordening op gesubconsolideerde of geconsolideerde basis van toepassing is, zorgt de moederonderneming die verantwoordelijk is voor het verstrekken van de geconsolideerde of gesubconsolideerde financiële overzichten voor de groep ervoor dat het beleid consequent wordt toegepast in alle financiële entiteiten die deel uitmaken van de groep en toereikend is voor de effectieve toepassing van deze verordening op alle relevante niveaus van de groep."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 3,
+  "title": "Governanceregelingen",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "Het leidinggevend orgaan evalueert het beleid ten minste eenmaal per jaar en werkt het zo nodig bij. Wijzigingen in het beleid worden tijdig uitgevoerd en zo spoedig als mogelijk is binnen de relevante contractuele overeenkomsten. De financiële entiteit documenteert het geplande tijdschema voor de uitvoering."
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Het beleid voorziet in of verwijst naar een methode om te bepalen welke ICT-diensten kritieke of belangrijke functies ondersteunen. In het beleid wordt ook gespecificeerd wanneer deze beoordeling moet worden uitgevoerd en geëvalueerd."
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "anchor": "lid-3",
+    "content": [
+     {
+      "type": "text",
+      "text": "In het beleid worden de interne verantwoordelijkheden voor de goedkeuring, het beheer, de controle en de documentatie van relevante contractuele overeenkomsten duidelijk toegewezen en wordt gewaarborgd dat binnen de financiële entiteit passende vaardigheden, ervaring en kennis in stand worden gehouden om effectief toezicht te houden op de relevante contractuele overeenkomsten, met inbegrip van de ICT-diensten die in het kader van die overeenkomsten worden verleend."
+     }
+    ]
+   },
+   {
+    "number": 4,
+    "anchor": "lid-4",
+    "content": [
+     {
+      "type": "text",
+      "text": "Onverminderd de eindverantwoordelijkheid van de financiële entiteit om effectief toezicht te houden op relevante contractuele regelingen, moet het beleid vereisen dat de derde aanbieder van ICT-diensten wordt geacht over voldoende middelen te beschikken om ervoor te zorgen dat de financiële entiteit voldoet aan al haar wettelijke en regelgevingsvereisten met betrekking tot de ICT-diensten die kritieke of belangrijke functies ondersteunen."
+     }
+    ]
+   },
+   {
+    "number": 5,
+    "anchor": "lid-5",
+    "content": [
+     {
+      "type": "text",
+      "text": "In het beleid wordt duidelijk aangegeven welke rol of welk lid van het hoger leidinggevend personeel verantwoordelijk is voor het toezicht op de relevante contractuele overeenkomsten. In het beleid wordt gespecificeerd hoe die rol of dat lid van het hoger leidinggevend personeel met de controlefuncties samenwerkt, tenzij die/dat er deel van uitmaakt, en worden de rapportagelijnen voor het leidinggevend orgaan vastgesteld, met inbegrip van de aard van de te rapporteren informatie en de te verstrekken documenten. In het verslag wordt ook de frequentie van die rapportage vastgesteld."
+     }
+    ]
+   },
+   {
+    "number": 6,
+    "anchor": "lid-6",
+    "content": [
+     {
+      "type": "text",
+      "text": "Het beleid waarborgt dat de contractuele overeenkomsten in overeenstemming zijn met het volgende:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "(a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "het in artikel 6 van Verordening (EU) 2022/2554 bedoelde kader voor ICT-risicobeheer;",
+          "refs": [
+           {
+            "start": 7,
+            "end": 16,
+            "href": "/artikel/6"
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-6-a"
+       },
+       {
+        "marker": "(b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "het in artikel 9, lid 4, van Verordening (EU) 2022/2554 bedoelde beleid inzake informatiebeveiliging;",
+          "refs": [
+           {
+            "start": 7,
+            "end": 23,
+            "href": "/artikel/9#lid-4"
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-6-b"
+       },
+       {
+        "marker": "(c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "het in artikel 11 van Verordening (EU) 2022/2554 bedoelde beleid inzake ICT-bedrijfscontinuïteit;",
+          "refs": [
+           {
+            "start": 7,
+            "end": 17,
+            "href": "/artikel/11"
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-6-c"
+       },
+       {
+        "marker": "(d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de in artikel 19 van Verordening (EU) 2022/2554 bedoelde vereisten voor de rapportage van incidenten.",
+          "refs": [
+           {
+            "start": 6,
+            "end": 16,
+            "href": "/artikel/19"
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-6-d"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 7,
+    "anchor": "lid-7",
+    "content": [
+     {
+      "type": "text",
+      "text": "Het beleid vereist dat ICT-diensten ter ondersteuning van kritieke of belangrijke functies die door derde aanbieders van ICT-diensten worden verleend, aan een onafhankelijke evaluatie worden onderworpen en in het auditplan worden opgenomen."
+     }
+    ]
+   },
+   {
+    "number": 8,
+    "anchor": "lid-8",
+    "content": [
+     {
+      "type": "text",
+      "text": "In het beleid wordt uitdrukkelijk gespecificeerd dat de contractuele overeenkomsten:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "(a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de financiële entiteit en haar leidinggevend orgaan niet ontslaan van hun wettelijke verplichtingen en verantwoordelijkheden jegens hun cliënten;"
+         }
+        ],
+        "anchor": "lid-8-a"
+       },
+       {
+        "marker": "(b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "doeltreffend toezicht op een financiële entiteit niet mogen belemmeren en niet in strijd mogen zijn met eventuele beperkingen van het toezicht op diensten en activiteiten;"
+         }
+        ],
+        "anchor": "lid-8-b"
+       },
+       {
+        "marker": "(c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "moeten vereisen dat derde aanbieders van ICT-diensten samenwerken met de bevoegde autoriteiten;"
+         }
+        ],
+        "anchor": "lid-8-c"
+       },
+       {
+        "marker": "(d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "moeten vereisen dat de financiële entiteit, haar auditors en de bevoegde autoriteiten effectieve toegang hebben tot gegevens en gebouwen met betrekking tot het gebruik van ICT-diensten die kritieke of belangrijke functies ondersteunen."
+         }
+        ],
+        "anchor": "lid-8-d"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 4,
+  "title": "Belangrijkste fasen van de levenscyclus voor de vaststelling en het gebruik van contractuele overeenkomsten",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Het beleid specificeert de eisen, met inbegrip van de regels, de verantwoordelijkheden en de processen, voor elke hoofdfase van de levenscyclus van de contractuele overeenkomst, met betrekking tot ten minste het volgende:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "(a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de verantwoordelijkheden van het leidinggevend orgaan, met inbegrip van zijn betrokkenheid, in voorkomend geval, bij het besluitvormingsproces over het gebruik van ICT-diensten ter ondersteuning van kritieke of belangrijke functies die door derde aanbieders van ICT-diensten worden verleend;"
+         }
+        ],
+        "anchor": "punt-a"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "(b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de planning van contractuele overeenkomsten, met inbegrip van de risicobeoordeling, de zorgvuldigheid als bedoeld in de artikelen 5 en 6 en het goedkeuringsproces met betrekking tot nieuwe of materiële wijzigingen in contractuele overeenkomsten als bedoeld in artikel 8, lid 4;",
+          "refs": [
+           {
+            "start": 120,
+            "end": 131,
+            "href": "/rts-contractbeleid/artikel/5"
+           },
+           {
+            "start": 135,
+            "end": 136,
+            "href": "/rts-contractbeleid/artikel/6"
+           },
+           {
+            "start": 260,
+            "end": 276,
+            "href": "/rts-contractbeleid/artikel/8#lid-4"
+           }
+          ]
+         }
+        ],
+        "anchor": "punt-b"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "(c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de betrokkenheid van bedrijfseenheden, interne controles en andere relevante eenheden met betrekking tot contractuele regelingen;"
+         }
+        ],
+        "anchor": "punt-c"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "(d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de uitvoering, de monitoring en het beheer van contractuele overeenkomsten als bedoeld in de artikelen 7, 8 en 9, ook op geconsolideerd en gesubconsolideerd niveau, indien van toepassing;",
+          "refs": [
+           {
+            "start": 93,
+            "end": 104,
+            "href": "/rts-contractbeleid/artikel/7"
+           },
+           {
+            "start": 106,
+            "end": 107,
+            "href": "/rts-contractbeleid/artikel/8"
+           },
+           {
+            "start": 111,
+            "end": 112,
+            "href": "/rts-contractbeleid/artikel/9"
+           }
+          ]
+         }
+        ],
+        "anchor": "punt-d"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "(e)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de documentatie en het bijhouden van registers, rekening houdend met de voorschriften inzake het informatieregister als bedoeld in artikel 28, lid 3, van Verordening (EU) 2022/2554;",
+          "refs": [
+           {
+            "start": 131,
+            "end": 148,
+            "href": "/artikel/28#lid-3"
+           }
+          ]
+         }
+        ],
+        "anchor": "punt-e"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "(f)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de exitstrategieën en beëindigingsprocessen als bedoeld in artikel 10.",
+          "refs": [
+           {
+            "start": 59,
+            "end": 69,
+            "href": "/rts-contractbeleid/artikel/10"
+           }
+          ]
+         }
+        ],
+        "anchor": "punt-f"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 5,
+  "title": "Risicobeoordeling vooraf",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "Het beleid vereist dat de bedrijfsbehoeften van de financiële entiteit worden vastgesteld voordat een contractuele overeenkomst wordt gesloten."
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Het beleid vereist dat een risicobeoordeling wordt uitgevoerd op het niveau van de financiële entiteit en, in voorkomend geval, op geconsolideerd en gesubconsolideerd niveau voordat een contractuele overeenkomst wordt gesloten."
+     },
+     {
+      "type": "text",
+      "text": "Bij de risicobeoordeling wordt rekening gehouden met alle relevante voorschriften van Verordening (EU) 2022/2554 en de toepasselijke sectorale wetgeving van de Unie. Er wordt met name rekening gehouden met de gevolgen van het verlenen van ICT-diensten ter ondersteuning van kritieke of belangrijke functies door derde aanbieders van ICT-diensten voor de financiële entiteit en alle risico’s die verbonden zijn aan het verlenen van ICT-diensten ter ondersteuning van kritieke of belangrijke functies door derde aanbieders van ICT-diensten, met inbegrip van:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "(a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "operationele risico’s;"
+         }
+        ],
+        "anchor": "lid-2-a"
+       },
+       {
+        "marker": "(b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "juridische risico’s;"
+         }
+        ],
+        "anchor": "lid-2-b"
+       },
+       {
+        "marker": "(c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "ICT-risico’s;"
+         }
+        ],
+        "anchor": "lid-2-c"
+       },
+       {
+        "marker": "(d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "reputatierisico’s:"
+         }
+        ],
+        "anchor": "lid-2-d"
+       },
+       {
+        "marker": "(e)",
+        "content": [
+         {
+          "type": "text",
+          "text": "risico’s in verband met de bescherming van vertrouwelijke of persoonsgegevens;"
+         }
+        ],
+        "anchor": "lid-2-e"
+       },
+       {
+        "marker": "(f)",
+        "content": [
+         {
+          "type": "text",
+          "text": "risico’s in verband met de beschikbaarheid van gegevens;"
+         }
+        ],
+        "anchor": "lid-2-f"
+       },
+       {
+        "marker": "(g)",
+        "content": [
+         {
+          "type": "text",
+          "text": "risico’s in verband met de plaats waar de gegevens worden verwerkt en opgeslagen;"
+         }
+        ],
+        "anchor": "lid-2-g"
+       },
+       {
+        "marker": "(h)",
+        "content": [
+         {
+          "type": "text",
+          "text": "risico’s in verband met de locatie van de derde aanbieder van ICT-diensten;"
+         }
+        ],
+        "anchor": "lid-2-h"
+       },
+       {
+        "marker": "(i)",
+        "content": [
+         {
+          "type": "text",
+          "text": "ICT-concentratierisico op het niveau van de entiteit."
+         }
+        ],
+        "anchor": "lid-2-i"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 6,
+  "title": "Zorgvuldigheid",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "Het beleid voorziet in een passend en evenredig proces voor de selectie en beoordeling van de potentiële derde aanbieders van ICT-diensten, rekening houdend met de vraag of de derde aanbieder van ICT-diensten al dan niet een aanbieder van ICT-diensten binnen de groep is, en vereist dat de financiële entiteit, alvorens een contractuele overeenkomst aan te gaan, beoordeelt of de derde aanbieder van ICT-diensten:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "(a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "een goede zakelijke reputatie heeft en beschikt over voldoende capaciteiten, deskundigheid en adequate financiële, personele en technische middelen, normen voor informatiebeveiliging, passende organisatiestructuur, risicobeheer en interne controles en, indien van toepassing, over de vereiste vergunningen of registraties om de ICT-diensten ter ondersteuning van de kritieke of belangrijke functie op betrouwbare en professionele wijze te verlenen;"
+         }
+        ],
+        "anchor": "lid-1-a"
+       },
+       {
+        "marker": "(b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "in staat is relevante technologische ontwikkelingen te monitoren en leidende praktijken op het gebied van ICT-beveiliging in kaart te brengen en in voorkomend geval toe te passen met het oog op een doeltreffend en degelijk kader voor digitale operationele weerbaarheid;"
+         }
+        ],
+        "anchor": "lid-1-b"
+       },
+       {
+        "marker": "(c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "ICT-subcontractanten gebruikt of voornemens is deze te gebruiken voor de uitvoering van de ICT-diensten die kritieke of belangrijke functies ondersteunen, of materiële onderdelen daarvan;"
+         }
+        ],
+        "anchor": "lid-1-c"
+       },
+       {
+        "marker": "(d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "zich in een derde land bevindt of daar de gegevens verwerkt of opslaat en, indien dit het geval is, of deze praktijk van invloed is op het niveau van operationele of reputatierisico’s of op het risico te worden getroffen door beperkende maatregelen, met inbegrip van embargo’s en sancties, die van invloed kunnen zijn op het vermogen van de derde aanbieder van ICT-diensten om de ICT-diensten te verlenen of de financiële entiteit om die ICT-diensten te ontvangen;"
+         }
+        ],
+        "anchor": "lid-1-d"
+       },
+       {
+        "marker": "(e)",
+        "content": [
+         {
+          "type": "text",
+          "text": "instemt met contractuele overeenkomsten die waarborgen dat het daadwerkelijk mogelijk is audits uit te voeren bij de derde aanbieder van ICT-diensten, ook ter plaatse, door de financiële entiteit zelf, aangestelde derde partijen en bevoegde autoriteiten;"
+         }
+        ],
+        "anchor": "lid-1-e"
+       },
+       {
+        "marker": "(f)",
+        "content": [
+         {
+          "type": "text",
+          "text": "op ethische en maatschappelijk verantwoorde wijze handelt, de mensenrechten en de rechten van het kind, met inbegrip van het verbod op kinderarbeid, eerbiedigt, de toepasselijke beginselen inzake milieubescherming eerbiedigt en voor passende arbeidsomstandigheden zorgt."
+         }
+        ],
+        "anchor": "lid-1-f"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Het beleid specificeert het vereiste zekerheidsniveau met betrekking tot de doeltreffendheid van het kader voor risicobeheer van derde aanbieders van ICT-diensten die cruciale of belangrijke functies ondersteunen die door een derde aanbieder van ICT-diensten moeten worden verricht. Het beleid vereist dat het zorgvuldigheidsproces een beoordeling omvat van het bestaan van risicobeperkende en bedrijfscontinuïteitsmaatregelen en van de wijze waarop de werking ervan binnen de derde aanbieder van ICT-diensten wordt gewaarborgd."
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "anchor": "lid-3",
+    "content": [
+     {
+      "type": "text",
+      "text": "In het beleid wordt het zorgvuldigheidsproces voor de selectie en beoordeling van de potentiële derde aanbieders van ICT-diensten vastgesteld en wordt aangegeven welke van de volgende elementen moeten worden gebruikt voor het vereiste zekerheidsniveau met betrekking tot de prestaties van de derde aanbieder van ICT-diensten:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "(a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "audits of onafhankelijke beoordelingen die door of namens de financiële entiteit worden uitgevoerd;"
+         }
+        ],
+        "anchor": "lid-3-a"
+       },
+       {
+        "marker": "(b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "het gebruik van onafhankelijke auditverslagen die op verzoek van de derde aanbieder van ICT-diensten worden opgesteld;"
+         }
+        ],
+        "anchor": "lid-3-b"
+       },
+       {
+        "marker": "(c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "het gebruik van auditverslagen van de interneauditfunctie van de derde aanbieder van ICT-diensten;"
+         }
+        ],
+        "anchor": "lid-3-c"
+       },
+       {
+        "marker": "(d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "het gebruik van passende certificeringen door derde partijen;"
+         }
+        ],
+        "anchor": "lid-3-d"
+       },
+       {
+        "marker": "(e)",
+        "content": [
+         {
+          "type": "text",
+          "text": "het gebruik van andere relevante informatie waarover de financiële entiteit beschikt of andere door de derde aanbieder van ICT-diensten verstrekte informatie."
+         }
+        ],
+        "anchor": "lid-3-e"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 4,
+    "anchor": "lid-4",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten zorgen voor een passend niveau van zekerheid over de prestaties van de derde aanbieder van ICT-diensten, rekening houdend met de in lid 3, punten a) tot en met e), genoemde elementen. Indien nodig worden meerdere in die punten genoemde elementen gebruikt."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 7,
+  "title": "Belangenconflicten",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "Het beleid specificeert de passende maatregelen voor het identificeren, voorkomen en beheren van uit het gebruik van derde aanbieders van ICT-diensten voortvloeiende feitelijke of mogelijke belangenconflicten, die moeten worden genomen voordat relevante contractuele overeenkomsten worden gesloten, en voorziet in een permanente monitoring van dergelijke belangenconflicten."
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Wanneer ICT-diensten ter ondersteuning van kritieke of belangrijke functies worden verleend door aanbieders van ICT-diensten binnen een groep, wordt in het beleid gespecificeerd dat besluiten over de voorwaarden, met inbegrip van de financiële voorwaarden, voor de ICT-diensten objectief moeten worden genomen."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 8,
+  "title": "Contractuele bepalingen",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "Het beleid specificeert dat de relevante contractuele overeenkomsten schriftelijk moeten zijn opgesteld en alle in artikel 30, lid 2, en (3), van Verordening (EU) 2022/2554 bedoelde elementen moet bevatten. Het beleid omvat ook elementen met betrekking tot de in artikel 1, lid 1, punt a), van Verordening (EU) 2022/2554 bedoelde vereisten en, in voorkomend geval, andere relevante Unie- en nationale wetgeving.",
+      "refs": [
+       {
+        "start": 115,
+        "end": 132,
+        "href": "/artikel/30#lid-2"
+       },
+       {
+        "start": 138,
+        "end": 140,
+        "href": "/artikel/30#lid-3"
+       },
+       {
+        "start": 263,
+        "end": 288,
+        "href": "/artikel/1#lid-1-a"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Het beleid specificeert dat de relevante contractuele overeenkomsten het recht van de financiële entiteit moeten omvatten om toegang te krijgen tot informatie en om inspecties, audits en ICT-tests uit te voeren. Daartoe vereist het beleid dat de financiële entiteit de volgende methoden gebruikt, onverminderd de uiteindelijke verantwoordelijkheid van de financiële entiteit:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "(a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "haar eigen interne audit of een audit door een aangestelde derde partij;"
+         }
+        ],
+        "anchor": "lid-2-a"
+       },
+       {
+        "marker": "(b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "indien nodig, gebundelde audits en gebundelde ICT-tests, met inbegrip van dreigingsgestuurde penetratietests, die worden georganiseerd samen met andere aanbestedende financiële entiteiten of ondernemingen die gebruikmaken van ICT-diensten van dezelfde derde aanbieder van ICT-diensten en die worden uitgevoerd door die aanbestedende financiële entiteiten of bedrijven of door een door hen aangestelde derde partij;"
+         }
+        ],
+        "anchor": "lid-2-b"
+       },
+       {
+        "marker": "(c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "in voorkomend geval, certificeringen van derde partijen;"
+         }
+        ],
+        "anchor": "lid-2-c"
+       },
+       {
+        "marker": "(d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "in voorkomend geval, interne auditverslagen of auditverslagen van derde partijen die door de derde aanbieder van ICT-diensten ter beschikking worden gesteld."
+         }
+        ],
+        "anchor": "lid-2-d"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "anchor": "lid-3",
+    "content": [
+     {
+      "type": "text",
+      "text": "De financiële entiteit mag zich in de loop der tijd niet uitsluitend blijven baseren op de in lid 2, punt c), bedoelde certificeringen of in punt d) van dat lid bedoelde auditverslagen. Het beleid staat het gebruik van de in lid 2, punten c) en d), bedoelde methoden alleen toe indien de financiële entiteit:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "(a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "tevreden is over het auditplan van de derde aanbieder van ICT-diensten voor de relevante contractuele overeenkomsten;"
+         }
+        ],
+        "anchor": "lid-3-a"
+       },
+       {
+        "marker": "(b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "ervoor zorgt dat het toepassingsgebied van de certificeringen of auditverslagen betrekking heeft op de door haar vastgestelde systemen en essentiële controles, en dat de naleving van de relevante regelgevingsvereisten wordt gewaarborgd;"
+         }
+        ],
+        "anchor": "lid-3-b"
+       },
+       {
+        "marker": "(c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de inhoud van de certificeringen of auditverslagen doorlopend grondig beoordeelt en verifieert of de verslagen of certificeringen niet achterhaald zijn;"
+         }
+        ],
+        "anchor": "lid-3-c"
+       },
+       {
+        "marker": "(d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "ervoor zorgt dat essentiële systemen en controles in toekomstige versies van het certificerings- of auditverslag aan bod komen;"
+         }
+        ],
+        "anchor": "lid-3-d"
+       },
+       {
+        "marker": "(e)",
+        "content": [
+         {
+          "type": "text",
+          "text": "tevreden is over de bekwaamheid van de certificerings- of auditpartij;"
+         }
+        ],
+        "anchor": "lid-3-e"
+       },
+       {
+        "marker": "(f)",
+        "content": [
+         {
+          "type": "text",
+          "text": "ervan overtuigd is dat de certificeringen worden afgegeven en dat de audits worden uitgevoerd aan de hand van algemeen erkende relevante professionele normen en een test omvatten van de operationele doeltreffendheid van de bestaande essentiële controles;"
+         }
+        ],
+        "anchor": "lid-3-f"
+       },
+       {
+        "marker": "(g)",
+        "content": [
+         {
+          "type": "text",
+          "text": "het contractuele recht heeft om, met een uit het oogpunt van risicobeheer redelijke en gerechtvaardigde frequentie, te verzoeken de certificeringen of auditverslagen uit te breiden naar andere relevante systemen en controles;"
+         }
+        ],
+        "anchor": "lid-3-g"
+       },
+       {
+        "marker": "(h)",
+        "content": [
+         {
+          "type": "text",
+          "text": "het contractuele recht heeft om naar eigen goeddunken individuele en gebundelde audits met betrekking tot de contractuele overeenkomsten uit te voeren en die rechten uit te voeren in overeenstemming met de afgesproken frequentie."
+         }
+        ],
+        "anchor": "lid-3-h"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 4,
+    "anchor": "lid-4",
+    "content": [
+     {
+      "type": "text",
+      "text": "Het beleid zorgt ervoor dat materiële wijzigingen in de contractuele overeenkomst worden geformaliseerd in een schriftelijk document dat door alle partijen is gedateerd en ondertekend, en vermeldt de verlengingsprocedure voor de contractuele overeenkomsten."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 9,
+  "title": "Toezicht op de contractuele overeenkomsten",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "Het beleid vereist dat in de contractuele overeenkomsten de maatregelen en kernindicatoren worden gespecificeerd om de prestaties van derde aanbieders van ICT-diensten doorlopend te monitoren, met inbegrip van maatregelen om toe te zien op de naleving van de vereisten inzake vertrouwelijkheid, beschikbaarheid, integriteit en authenticiteit van gegevens en informatie en de naleving door de derde aanbieders van ICT-diensten van de relevante beleidslijnen en procedures van de financiële entiteit. In het beleid worden ook maatregelen gespecificeerd die van toepassing zijn wanneer de overeenkomsten inzake het dienstverleningsniveau niet worden nageleefd, met inbegrip van contractuele sancties indien nodig."
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "In het beleid wordt gespecificeerd hoe de financiële entiteit moet beoordelen of de derde aanbieders van ICT-diensten die kritieke of belangrijke functies ondersteunen, voldoen aan passende prestatie- en kwaliteitsnormen in overeenstemming met de contractuele overeenkomst en het eigen beleid van de financiële entiteit. Het beleid zorgt er met name voor:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "(a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "dat de derde aanbieders van ICT-diensten passende verslagen verstrekken over hun activiteiten en diensten aan de financiële entiteit, met inbegrip van periodieke verslagen, verslagen over incidenten, verslagen over de levering van diensten, verslagen over ICT-beveiliging en verslagen over bedrijfscontinuïteitsmaatregelen en -tests;"
+         }
+        ],
+        "anchor": "lid-2-a"
+       },
+       {
+        "marker": "(b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "dat de prestaties van derde aanbieders van ICT-diensten worden beoordeeld aan de hand van kernprestatie-indicatoren, kerncontrole-indicatoren, audits, zelfcertificeringen en onafhankelijke beoordelingen in overeenstemming met het kader voor ICT-risicobeheer van de financiële entiteit;"
+         }
+        ],
+        "anchor": "lid-2-b"
+       },
+       {
+        "marker": "(c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "dat de financiële entiteit andere relevante informatie van de derde aanbieders van ICT-diensten ontvangt;"
+         }
+        ],
+        "anchor": "lid-2-c"
+       },
+       {
+        "marker": "(d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "dat de financiële entiteit, in voorkomend geval, in kennis wordt gesteld van ICT-gerelateerde incidenten en betalingsgerelateerde operationele of beveiligingsincidenten;"
+         }
+        ],
+        "anchor": "lid-2-d"
+       },
+       {
+        "marker": "(e)",
+        "content": [
+         {
+          "type": "text",
+          "text": "dat een onafhankelijke evaluatie en audits worden uitgevoerd om na te gaan of de vereisten en het beleid van wet- en regelgeving worden nageleefd."
+         }
+        ],
+        "anchor": "lid-2-e"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "anchor": "lid-3",
+    "content": [
+     {
+      "type": "text",
+      "text": "In het beleid wordt gespecificeerd dat de in lid 2 bedoelde beoordeling moet worden gedocumenteerd en dat de resultaten ervan moeten worden gebruikt om de in artikel 6 bedoelde risicobeoordeling van de financiële entiteit bij te werken.",
+      "refs": [
+       {
+        "start": 158,
+        "end": 167,
+        "href": "/rts-contractbeleid/artikel/6"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 4,
+    "anchor": "lid-4",
+    "content": [
+     {
+      "type": "text",
+      "text": "In het beleid worden de passende maatregelen vastgesteld die de financiële entiteit moet nemen indien zij tekortkomingen vaststelt van de derde aanbieders van ICT-diensten, met inbegrip van ICT-gerelateerde incidenten en operationele of beveiligingsbetalingsincidenten, bij de verlening van de ICT-diensten ter ondersteuning van kritieke of belangrijke functies of bij de naleving van contractuele overeenkomsten of wettelijke vereisten. In het beleid wordt ook gespecificeerd hoe de uitvoering van dergelijke maatregelen moet worden gemonitord om ervoor te zorgen dat zij binnen een bepaalde termijn daadwerkelijk worden nageleefd, rekening houdend met het relatieve belang van de tekortkomingen."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 10,
+  "title": "Exit uit en beëindiging van de contractuele overeenkomsten:",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Het beleid moet vereisten bevatten voor een gedocumenteerd exitplan voor elke contractuele overeenkomst en voor de periodieke evaluatie en toetsing van het gedocumenteerde exitplan. Bij het opstellen van het exitplan wordt rekening gehouden met het volgende:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "(a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "onvoorziene en aanhoudende onderbrekingen van de dienstverlening;"
+         }
+        ],
+        "anchor": "punt-a"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "(b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "ongeschikte of falende dienstverlening;"
+         }
+        ],
+        "anchor": "punt-b"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "(c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "onverwachte beëindiging van de contractuele overeenkomst."
+         }
+        ],
+        "anchor": "punt-c"
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "text": "Het exitplan is realistisch en haalbaar, is gebaseerd op plausibele scenario’s en redelijke veronderstellingen en heeft een geplande uitvoeringstiming die verenigbaar is met de in de contractuele overeenkomst vastgestelde exit- en beëindigingsvoorwaarden."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 11,
+  "title": "Inwerkingtreding",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Deze verordening treedt in werking op de twintigste dag na die van de bekendmaking ervan in het Publicatieblad van de Europese Unie."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ }
+]

@@ -1,0 +1,1333 @@
+[
+ {
+  "number": 1,
+  "title": "Cliënten, financiële tegenpartijen en transacties",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "Het aantal cliënten dat is getroffen door het incident als bedoeld in artikel 18, lid 1, punt a), van Verordening (EU) 2022/2554, is het totale aantal getroffen cliënten, ongeacht of het natuurlijke of rechtspersonen betreft, die tijdens het incident gebruikmaken van de door de financiële entiteit verleende dienst of die door het incident negatief zijn beïnvloed. Dit aantal omvat ook derde partijen die uitdrukkelijk vallen onder de contractuele overeenkomst tussen de financiële entiteit en de cliënt als begunstigden van de betrokken dienst.",
+      "refs": [
+       {
+        "start": 70,
+        "end": 96,
+        "href": "/artikel/18#lid-1-a"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Het aantal door het incident getroffen financiële tegenpartijen als bedoeld in artikel 18, lid 1, punt a), van Verordening (EU) 2022/2554, is het totale aantal getroffen financiële tegenpartijen die een contractuele overeenkomst met de financiële entiteit hebben gesloten.",
+      "refs": [
+       {
+        "start": 79,
+        "end": 105,
+        "href": "/artikel/18#lid-1-a"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "anchor": "lid-3",
+    "content": [
+     {
+      "type": "text",
+      "text": "Met betrekking tot de relevantie van cliënten en financiële tegenpartijen die getroffen zijn door het incident als bedoeld in artikel 18, lid 1, punt a), van Verordening (EU) 2022/2554, houdt de financiële entiteit rekening met de mate waarin de gevolgen voor een cliënt of een financiële tegenpartij van invloed zullen zijn op de verwezenlijking van de bedrijfsdoelstellingen van de financiële entiteit, alsook met de mogelijke gevolgen van het incident voor de marktefficiëntie.",
+      "refs": [
+       {
+        "start": 126,
+        "end": 152,
+        "href": "/artikel/18#lid-1-a"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 4,
+    "anchor": "lid-4",
+    "content": [
+     {
+      "type": "text",
+      "text": "Met betrekking tot de hoeveelheid of het aantal door het incident als bedoeld in artikel 18, lid 1, punt a), van Verordening (EU) 2022/2554 getroffen transacties, houdt de financiële entiteit rekening met alle getroffen transacties waarbij een geldbedrag betrokken is waarbij ten minste één deel van de transactie in de Unie wordt uitgevoerd.",
+      "refs": [
+       {
+        "start": 81,
+        "end": 107,
+        "href": "/artikel/18#lid-1-a"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 5,
+    "anchor": "lid-5",
+    "content": [
+     {
+      "type": "text",
+      "text": "Indien het werkelijke aantal getroffen cliënten of financiële tegenpartijen of het werkelijke aantal of de werkelijke hoeveelheid getroffen transacties niet kan worden bepaald, raamt de financiële entiteit die aantallen of hoeveelheden op basis van beschikbare gegevens van vergelijkbare referentieperioden."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 2,
+  "title": "Reputatieschade",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "Voor het bepalen van de reputatieschade door het incident als bedoeld in artikel 18, lid 1, punt a), van Verordening (EU) 2022/2554, gaan financiële entiteiten ervan uit dat zich een reputatieschade heeft voorgedaan wanneer aan ten minste een van de volgende criteria is voldaan:",
+      "refs": [
+       {
+        "start": 73,
+        "end": 99,
+        "href": "/artikel/18#lid-1-a"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "over het incident is bericht in de media;"
+         }
+        ],
+        "anchor": "lid-1-a"
+       },
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "het incident heeft geleid tot herhaalde klachten van verschillende cliënten of financiële tegenpartijen over diensten of kritieke zakelijke relaties;"
+         }
+        ],
+        "anchor": "lid-1-b"
+       },
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de financiële entiteit zal als gevolg van het incident niet of wellicht niet in staat zijn aan de wettelijke vereisten te voldoen;"
+         }
+        ],
+        "anchor": "lid-1-c"
+       },
+       {
+        "marker": "d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de financiële entiteit zal als gevolg van het incident cliënten of financiële tegenpartijen met een wezenlijke impact op haar bedrijfsactiviteiten verliezen of wellicht verliezen."
+         }
+        ],
+        "anchor": "lid-1-d"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Bij het beoordelen van de reputatieschade door het incident houden financiële entiteiten rekening met de mate van zichtbaarheid die het incident heeft of wellicht zal hebben met betrekking tot elk in lid 1 vermeld criterium."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 3,
+  "title": "Duur en uitvaltijd van de dienst",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten meten de duur van een incident als bedoeld in artikel 18, lid 1, punt b), van Verordening (EU) 2022/2554, vanaf het moment waarop het incident zich voordoet tot het moment waarop het is opgelost.",
+      "refs": [
+       {
+        "start": 68,
+        "end": 94,
+        "href": "/artikel/18#lid-1-b"
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "text": "Wanneer financiële entiteiten niet in staat zijn het tijdstip te bepalen waarop het incident zich heeft voorgedaan, meten zij de duur van het incident vanaf het moment waarop het is ontdekt. Wanneer financiële entiteiten zich ervan bewust worden dat het incident zich heeft voorgedaan voordat het werd ontdekt, meten zij de duur vanaf het moment waarop het incident is geregistreerd in netwerk- of systeemlogbestanden of andere gegevensbronnen."
+     },
+     {
+      "type": "text",
+      "text": "Wanneer financiële entiteiten nog niet weten wanneer het incident zal worden opgelost of niet in staat zijn gegevens in logbestanden of andere gegevensbronnen te verifiëren, gebruiken zij ramingen."
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten meten de uitvaltijd van de dienst door een incident als bedoeld in artikel 18, lid 1, punt b), van Verordening (EU) 2022/2554, vanaf het moment dat de dienst geheel of gedeeltelijk niet beschikbaar is voor cliënten, financiële tegenpartijen of andere interne of externe gebruikers tot het moment waarop de reguliere activiteiten of verrichtingen zijn hersteld tot het niveau van dienstverlening dat vóór het incident werd verleend. Wanneer de uitvaltijd van de dienst een vertraging in de dienstverlening veroorzaakt nadat de geregelde activiteiten of activiteiten zijn hersteld, wordt de uitvaltijd gemeten vanaf het begin van het incident tot het moment waarop die vertraagde dienst volledig wordt verleend.",
+      "refs": [
+       {
+        "start": 89,
+        "end": 115,
+        "href": "/artikel/18#lid-1-b"
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "text": "Wanneer financiële entiteiten niet in staat zijn het tijdstip te bepalen waarop de dienst uitviel, meten zij de uitvaltijd van de dienst vanaf het moment dat deze werd ontdekt."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 4,
+  "title": "Geografische spreiding",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Om de geografische spreiding te bepalen met betrekking tot de gebieden die worden getroffen door het incident als bedoeld in artikel 18, lid 1, punt c), van Verordening (EU) 2022/2554, beoordelen financiële entiteiten of het incident gevolgen heeft of heeft gehad in andere lidstaten, en met name of het effect aanzienlijk is in verband met:",
+      "refs": [
+       {
+        "start": 125,
+        "end": 151,
+        "href": "/artikel/18#lid-1-c"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "cliënten en financiële tegenpartijen in andere lidstaten;"
+         }
+        ],
+        "anchor": "punt-a"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "bijkantoren of andere financiële entiteiten binnen de groep die activiteiten verrichten in andere lidstaten;"
+         }
+        ],
+        "anchor": "punt-b"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "financiëlemarktinfrastructuren of derde aanbieders, die gevolgen kunnen hebben voor financiële entiteiten in andere lidstaten waaraan zij diensten verlenen, voor zover dergelijke informatie beschikbaar is."
+         }
+        ],
+        "anchor": "punt-c"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 5,
+  "title": "Gegevensverliezen",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Voor het bepalen van de gegevensverliezen die het incident met zich meebrengt als bedoeld in artikel 18, lid 1, punt d), van Verordening (EU) 2022/2554, houden financiële entiteiten rekening met het volgende:",
+      "refs": [
+       {
+        "start": 93,
+        "end": 119,
+        "href": "/artikel/18#lid-1-d"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "met betrekking tot de beschikbaarheid van gegevens, of het incident de gegevens waar de financiële entiteit, haar cliënten of haar tegenpartijen om verzoeken, tijdelijk of permanent ontoegankelijk of onbruikbaar heeft gemaakt;"
+         }
+        ],
+        "anchor": "punt-a"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "met betrekking tot de authenticiteit van gegevens, of het incident de betrouwbaarheid van de gegevensbron in het gedrang heeft gebracht;"
+         }
+        ],
+        "anchor": "punt-b"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "met betrekking tot de integriteit van gegevens, of het incident heeft geleid tot niet-toegestane wijzigingen van gegevens waardoor die onjuist of onvolledig zijn geworden;"
+         }
+        ],
+        "anchor": "punt-c"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "met betrekking tot de vertrouwelijkheid van gegevens, de vraag of het incident ertoe heeft geleid dat gegevens zijn geraadpleegd door of vrijgegeven aan een niet-gemachtigde partij of systeem."
+         }
+        ],
+        "anchor": "punt-d"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 6,
+  "title": "Mate waarin getroffen diensten als cruciaal kunnen worden aangemerkt",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Om te bepalen in welke mate de getroffen diensten als cruciaal kunnen worden aangemerkt als bedoeld in artikel 18, lid 1, punt e), van Verordening (EU) 2022/2554, beoordelen financiële entiteiten of het incident:",
+      "refs": [
+       {
+        "start": 103,
+        "end": 129,
+        "href": "/artikel/18#lid-1-e"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "gevolgen heeft of heeft gehad voor ICT-diensten of netwerk- en informatiesystemen die kritieke of belangrijke functies van de financiële entiteit ondersteunen;"
+         }
+        ],
+        "anchor": "punt-a"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "gevolgen heeft of heeft gehad voor financiële diensten die worden verleend door de financiële entiteit waarvoor een vergunning of registratie vereist is of die onder toezicht staan van bevoegde autoriteiten;"
+         }
+        ],
+        "anchor": "punt-b"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "een succesvolle, kwaadwillige en ongeoorloofde toegang tot de netwerk- en informatiesystemen van de financiële entiteit vormt of heeft gevormd."
+         }
+        ],
+        "anchor": "punt-c"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 7,
+  "title": "Economische effecten",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "Voor het bepalen van de economische effecten van het incident als bedoeld in artikel 18, lid 1, punt f), van Verordening (EU) 2022/2554, houden financiële entiteiten, zonder rekening te houden met financiële terugvorderingen, rekening met de volgende soorten directe en indirecte kosten en verliezen die zij als gevolg van het incident hebben gemaakt:",
+      "refs": [
+       {
+        "start": 77,
+        "end": 103,
+        "href": "/artikel/18#lid-1-f"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "onteigende gelden of financiële activa waarvoor zij aansprakelijk zijn, met inbegrip van door diefstal verloren gegane activa;"
+         }
+        ],
+        "anchor": "lid-1-a"
+       },
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "kosten voor de vervanging of verplaatsing van software, hardware of infrastructuur;"
+         }
+        ],
+        "anchor": "lid-1-b"
+       },
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "personeelskosten, met inbegrip van kosten in verband met de vervanging of verhuizing van personeel, de aanwerving van extra personeel, de bezoldiging voor overuren en het terugverdienen van verloren of verminderde vaardigheden;"
+         }
+        ],
+        "anchor": "lid-1-c"
+       },
+       {
+        "marker": "d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "vergoedingen wegens niet-naleving van contractuele verplichtingen;"
+         }
+        ],
+        "anchor": "lid-1-d"
+       },
+       {
+        "marker": "e)",
+        "content": [
+         {
+          "type": "text",
+          "text": "kosten voor verhaal en compensatie voor klanten;"
+         }
+        ],
+        "anchor": "lid-1-e"
+       },
+       {
+        "marker": "f)",
+        "content": [
+         {
+          "type": "text",
+          "text": "verliezen als gevolg van gederfde inkomsten;"
+         }
+        ],
+        "anchor": "lid-1-f"
+       },
+       {
+        "marker": "g)",
+        "content": [
+         {
+          "type": "text",
+          "text": "kosten voor interne en externe communicatie;"
+         }
+        ],
+        "anchor": "lid-1-g"
+       },
+       {
+        "marker": "h)",
+        "content": [
+         {
+          "type": "text",
+          "text": "advieskosten, met inbegrip van kosten in verband met juridisch advies, forensische diensten en saneringsdiensten."
+         }
+        ],
+        "anchor": "lid-1-h"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Kosten en verliezen als bedoeld in lid 1 omvatten geen kosten die nodig zijn voor de dagelijkse bedrijfsvoering van het bedrijf, met name geen:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "kosten voor algemeen onderhoud van infrastructuur, uitrusting, hardware en software, en kosten voor het up-to-date houden van de vaardigheden van het personeel;"
+         }
+        ],
+        "anchor": "lid-2-a"
+       },
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "interne of externe kosten om het bedrijf na het incident te verbeteren, met inbegrip van upgrades, verbeteringen en risicobeoordelingsinitiatieven;"
+         }
+        ],
+        "anchor": "lid-2-b"
+       },
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "verzekeringspremies."
+         }
+        ],
+        "anchor": "lid-2-c"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "anchor": "lid-3",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten berekenen de bedragen van de kosten en verliezen op basis van gegevens die ten tijde van de rapportage beschikbaar zijn. Indien de werkelijke bedragen van de kosten en verliezen niet kunnen worden bepaald, ramen financiële entiteiten die bedragen."
+     }
+    ]
+   },
+   {
+    "number": 4,
+    "anchor": "lid-4",
+    "content": [
+     {
+      "type": "text",
+      "text": "Bij de beoordeling van de economische gevolgen van het incident tellen financiële entiteiten de in lid 1 bedoelde kosten en verliezen samen."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 8,
+  "title": "Ernstige incidenten",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "Een incident wordt voor de toepassing van artikel 19, lid 1, van Verordening (EU) 2022/2554 als een ernstig incident beschouwd wanneer het gevolgen heeft gehad voor kritieke diensten als bedoeld in artikel 6 en indien aan een van de volgende voorwaarden is voldaan:",
+      "refs": [
+       {
+        "start": 42,
+        "end": 59,
+        "href": "/artikel/19#lid-1"
+       },
+       {
+        "start": 198,
+        "end": 207,
+        "href": "/rts-classificatie/artikel/6"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de in artikel 9, lid 5, punt b), bedoelde materialiteitsdrempel wordt bereikt;",
+          "refs": [
+           {
+            "start": 6,
+            "end": 31,
+            "href": "/rts-classificatie/artikel/9#lid-5-b"
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-1-a"
+       },
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "twee of meer van de andere in de artikelen 9, leden 1 tot en met 6, genoemde materialiteitsdrempels worden bereikt.",
+          "refs": [
+           {
+            "start": 33,
+            "end": 53,
+            "href": "/rts-classificatie/artikel/9#lid-1"
+           },
+           {
+            "start": 65,
+            "end": 66,
+            "href": "/rts-classificatie/artikel/9#lid-6"
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-1-b"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Terugkerende incidenten die afzonderlijk niet als een ernstig incident overeenkomstig lid 1 worden beschouwd, worden als één ernstig incident beschouwd indien zij aan alle volgende voorwaarden voldoen:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "zij hebben zich ten minste tweemaal binnen zes maanden voorgedaan;"
+         }
+        ],
+        "anchor": "lid-2-a"
+       },
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "zij hebben dezelfde kennelijk onderliggende oorzaak als bedoeld in artikel 20, eerste alinea, punt b), van Verordening (EU) 2022/2554;",
+          "refs": [
+           {
+            "start": 67,
+            "end": 101,
+            "href": "/artikel/20#punt-b"
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-2-b"
+       },
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "zij voldoen gezamenlijk aan de in artikel 1 genoemde criteria om als een ernstig incident te worden beschouwd.",
+          "refs": [
+           {
+            "start": 34,
+            "end": 43,
+            "href": "/rts-classificatie/artikel/1"
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-2-c"
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "text": "Financiële entiteiten beoordelen maandelijks of er sprake is van terugkerende incidenten."
+     },
+     {
+      "type": "text",
+      "text": "Dit lid is niet van toepassing op micro-ondernemingen en financiële entiteiten die zijn vermeld in artikel 16, lid 1, van Verordening (EU) 2022/2554.",
+      "refs": [
+       {
+        "start": 99,
+        "end": 116,
+        "href": "/artikel/16#lid-1"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 9,
+  "title": "Materialiteitsdrempels voor het bepalen van ernstige incidenten",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "De materialiteitsdrempel voor het criterium “cliënten, financiële tegenpartijen en transacties” wordt bereikt wanneer aan een van de volgende voorwaarden is voldaan:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "het aantal cliënten dat wordt getroffen, bedraagt meer dan 10 % van alle cliënten die van de betrokken dienst gebruikmaken;"
+         }
+        ],
+        "anchor": "lid-1-a"
+       },
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "het aantal getroffen cliënten dat van de getroffen dienst gebruikmaakt, bedraagt meer dan 100 000;"
+         }
+        ],
+        "anchor": "lid-1-b"
+       },
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "het aantal getroffen financiële tegenpartijen bedraagt meer dan 30 % van alle financiële tegenpartijen die activiteiten verrichten in verband met de verlening van de getroffen dienst;"
+         }
+        ],
+        "anchor": "lid-1-c"
+       },
+       {
+        "marker": "d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "het aantal getroffen transacties ligt hoger dan 10 % van het gemiddelde dagelijkse aantal transacties dat is uitgevoerd door de financiële entiteit die verband houdt met de getroffen dienst;"
+         }
+        ],
+        "anchor": "lid-1-d"
+       },
+       {
+        "marker": "e)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de hoeveelheid getroffen transacties ligt hoger dan 10 % van de dagelijkse gemiddelde waarde van de transacties die zijn uitgevoerd door de financiële entiteit die verband houdt met de getroffen dienst;"
+         }
+        ],
+        "anchor": "lid-1-e"
+       },
+       {
+        "marker": "f)",
+        "content": [
+         {
+          "type": "text",
+          "text": "cliënten of financiële tegenpartijen die overeenkomstig artikel 1, lid 3, als relevant zijn aangemerkt, zijn getroffen.",
+          "refs": [
+           {
+            "start": 56,
+            "end": 72,
+            "href": "/rts-classificatie/artikel/1#lid-3"
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-1-f"
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "text": "Indien het werkelijke aantal getroffen cliënten of financiële tegenpartijen of het werkelijke aantal of de werkelijke hoeveelheid getroffen transacties niet kan worden bepaald, raamt de financiële entiteit die aantallen of hoeveelheden op basis van beschikbare gegevens van vergelijkbare referentieperioden."
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "De materialiteitsdrempel voor het criterium “reputatieschade” wordt bereikt wanneer aan een van de voorwaarden van artikel 2, punten a) tot en met d), is voldaan.",
+      "refs": [
+       {
+        "start": 115,
+        "end": 135,
+        "href": "/rts-classificatie/artikel/2"
+       },
+       {
+        "start": 147,
+        "end": 149,
+        "href": "/rts-classificatie/artikel/2"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "anchor": "lid-3",
+    "content": [
+     {
+      "type": "text",
+      "text": "De materialiteitsdrempel voor het criterium “duur en uitvaltijd van de dienst” wordt bereikt wanneer aan een van de volgende voorwaarden is voldaan:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de duur van het incident is langer dan 24 uur;"
+         }
+        ],
+        "anchor": "lid-3-a"
+       },
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de uitvaltijd van de dienst is langer dan twee uur voor ICT-diensten die kritieke of belangrijke functies ondersteunen."
+         }
+        ],
+        "anchor": "lid-3-b"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 4,
+    "anchor": "lid-4",
+    "content": [
+     {
+      "type": "text",
+      "text": "De materialiteitsdrempel voor het criterium “geografische spreiding” wordt bereikt wanneer het incident gevolgen heeft in twee of meer lidstaten overeenkomstig artikel 4.",
+      "refs": [
+       {
+        "start": 160,
+        "end": 169,
+        "href": "/rts-classificatie/artikel/4"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 5,
+    "anchor": "lid-5",
+    "content": [
+     {
+      "type": "text",
+      "text": "De materialiteitsdrempel voor het criterium “gegevensverliezen” wordt bereikt wanneer aan een van de volgende voorwaarden is voldaan:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "een effect als bedoeld in artikel 5 op de beschikbaarheid, authenticiteit, integriteit of vertrouwelijkheid van gegevens heeft een negatief effect of zal een negatief effect hebben op de verwezenlijking van de bedrijfsdoelstellingen van de financiële entiteit of op haar vermogen om aan de regelgevingsvereisten te voldoen;",
+          "refs": [
+           {
+            "start": 26,
+            "end": 35,
+            "href": "/rts-classificatie/artikel/5"
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-5-a"
+       },
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "er is sprake van een niet onder punt a) vallende succesvolle, kwaadwillige en ongeoorloofde toegang tot netwerk- en informatiesystemen waarbij die toegang tot gegevensverliezen kan leiden."
+         }
+        ],
+        "anchor": "lid-5-b"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 6,
+    "anchor": "lid-6",
+    "content": [
+     {
+      "type": "text",
+      "text": "De materialiteitsdrempel voor het criterium “economische effecten” wordt bereikt wanneer de kosten en verliezen die de financiële entiteit als gevolg van het incident heeft gemaakt, 100 000 EUR hebben overschreden of waarschijnlijk zullen overschrijden."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 10,
+  "title": "Hoge materialiteitsdrempels voor het bepalen van significante cyberdreigingen",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Voor de toepassing van artikel 18, lid 2, van Verordening (EU) 2022/2554 wordt een cyberdreiging als significant beschouwd wanneer aan alle volgende voorwaarden is voldaan:",
+      "refs": [
+       {
+        "start": 23,
+        "end": 40,
+        "href": "/artikel/18#lid-2"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de cyberdreiging, indien deze werkelijkheid wordt, kan gevolgen hebben of zou gevolgen kunnen hebben voor kritieke of belangrijke functies van de financiële entiteit, of voor andere financiële entiteiten, derde aanbieders, cliënten of financiële tegenpartijen, op basis van informatie waarover de financiële entiteit beschikt;"
+         }
+        ],
+        "anchor": "punt-a"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de cyberdreiging heeft een grote kans om werkelijkheid te worden bij de financiële entiteit of bij andere financiële entiteiten, rekening houdend met ten minste de volgende elementen:"
+         },
+         {
+          "type": "list",
+          "items": [
+           {
+            "marker": "i)",
+            "content": [
+             {
+              "type": "text",
+              "text": "toepasselijke risico’s in verband met de in punt a) bedoelde cyberdreiging, met inbegrip van potentiële kwetsbaarheden van de systemen van de financiële entiteit die kunnen worden uitgebuit;"
+             }
+            ]
+           },
+           {
+            "marker": "ii)",
+            "content": [
+             {
+              "type": "text",
+              "text": "de capaciteiten en intentie van dreigingsactoren voor zover bekend bij de financiële entiteit;"
+             }
+            ]
+           },
+           {
+            "marker": "iii)",
+            "content": [
+             {
+              "type": "text",
+              "text": "de aanhoudende dreiging en alle verworven kennis over incidenten die gevolgen hebben gehad voor de financiële entiteit of haar derde aanbieder, cliënten of financiële tegenpartijen;"
+             }
+            ]
+           }
+          ]
+         }
+        ],
+        "anchor": "punt-b"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de cyberdreiging kan, als zij werkelijkheid wordt, aan een van de volgende situaties voldoen:"
+         },
+         {
+          "type": "list",
+          "items": [
+           {
+            "marker": "i)",
+            "content": [
+             {
+              "type": "text",
+              "text": "het in artikel 18, lid 1, punt e), van Verordening (EU) 2022/2554 vastgestelde criterium inzake de mate waarin diensten als cruciaal kunnen worden aangemerkt, zoals gespecificeerd in artikel 6 van deze verordening;",
+              "refs": [
+               {
+                "start": 7,
+                "end": 33,
+                "href": "/artikel/18#lid-1-e"
+               },
+               {
+                "start": 183,
+                "end": 192,
+                "href": "/rts-classificatie/artikel/6"
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "marker": "ii)",
+            "content": [
+             {
+              "type": "text",
+              "text": "de in artikel 9, lid 1, vastgestelde materialiteitsdrempel;",
+              "refs": [
+               {
+                "start": 6,
+                "end": 22,
+                "href": "/rts-classificatie/artikel/9#lid-1"
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "marker": "iii)",
+            "content": [
+             {
+              "type": "text",
+              "text": "de in artikel 9, lid 4, vastgestelde materialiteitsdrempel.",
+              "refs": [
+               {
+                "start": 6,
+                "end": 22,
+                "href": "/rts-classificatie/artikel/9#lid-4"
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ],
+        "anchor": "punt-c"
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "text": "Wanneer de financiële entiteit, afhankelijk van het soort cyberdreiging en de beschikbare informatie, concludeert dat de in artikel 9, leden 2, 3, 5 en 6, vastgestelde materialiteitsdrempels kunnen worden bereikt, kunnen die drempels ook in aanmerking worden genomen.",
+      "refs": [
+       {
+        "start": 124,
+        "end": 142,
+        "href": "/rts-classificatie/artikel/9#lid-2"
+       },
+       {
+        "start": 144,
+        "end": 145,
+        "href": "/rts-classificatie/artikel/9#lid-3"
+       },
+       {
+        "start": 147,
+        "end": 148,
+        "href": "/rts-classificatie/artikel/9#lid-5"
+       },
+       {
+        "start": 152,
+        "end": 153,
+        "href": "/rts-classificatie/artikel/9#lid-6"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 11,
+  "title": "Relevantie van ernstige incidenten voor bevoegde autoriteiten in andere lidstaten",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "De beoordeling van de relevantie van het ernstige incident voor bevoegde autoriteiten in andere lidstaten als bedoeld in artikel 19, lid 7, van Verordening (EU) 2022/2554, wordt gebaseerd op de vraag of het incident een onderliggende oorzaak heeft die afkomstig is van een andere lidstaat, dan wel of het incident aanzienlijke gevolgen heeft of heeft gehad in een andere lidstaat met betrekking tot:",
+      "refs": [
+       {
+        "start": 121,
+        "end": 138,
+        "href": "/artikel/19#lid-7"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "cliënten of financiële tegenpartijen;"
+         }
+        ],
+        "anchor": "punt-a"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "een bijkantoor van de financiële entiteit of een andere financiële entiteit binnen de groep;"
+         }
+        ],
+        "anchor": "punt-b"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "een financiëlemarktinfrastructuur of een derde aanbieder die gevolgen kunnen hebben voor de financiële entiteiten waaraan zij diensten verlenen."
+         }
+        ],
+        "anchor": "punt-c"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 12,
+  "title": "Nadere bijzonderheden over ernstige incidenten die met andere bevoegde autoriteiten moet worden gedeeld",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Nadere bijzonderheden over ernstige incidenten die de bevoegde autoriteiten overeenkomstig artikel 19, lid 6, van Verordening (EU) 2022/2554 aan andere bevoegde autoriteiten moeten verstrekken en de kennisgevingen die de EBA, de ESMA of de Eiopa en de ECB overeenkomstig artikel 19, lid 7, van die verordening bij de relevante bevoegde autoriteiten in andere lidstaten moeten indienen, bevatten hetzelfde niveau van informatie, zonder enige anonimisering, als de kennisgevingen van en verslagen over ernstige incidenten die overeenkomstig artikel 19, lid 4, van Verordening (EU) 2022/2554 van financiële entiteiten zijn ontvangen.",
+      "refs": [
+       {
+        "start": 91,
+        "end": 108,
+        "href": "/artikel/19#lid-6"
+       },
+       {
+        "start": 539,
+        "end": 556,
+        "href": "/artikel/19#lid-4"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 13,
+  "title": "Inwerkingtreding",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Deze verordening treedt in werking op de twintigste dag na die van de bekendmaking ervan in het Publicatieblad van de Europese Unie."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ }
+]

@@ -14,6 +14,26 @@ import criticaliteitArticlesJson from "../../data/generated/criticaliteit/articl
 import criticaliteitRecitalsJson from "../../data/generated/criticaliteit/recitals.json";
 import criticaliteitAnnexesJson from "../../data/generated/criticaliteit/annexes.json";
 import criticaliteitTocJson from "../../data/generated/criticaliteit/toc.json";
+import vergoedingenArticlesJson from "../../data/generated/vergoedingen/articles.json";
+import vergoedingenRecitalsJson from "../../data/generated/vergoedingen/recitals.json";
+import vergoedingenAnnexesJson from "../../data/generated/vergoedingen/annexes.json";
+import vergoedingenTocJson from "../../data/generated/vergoedingen/toc.json";
+import onderzoeksteamsArticlesJson from "../../data/generated/onderzoeksteams/articles.json";
+import onderzoeksteamsRecitalsJson from "../../data/generated/onderzoeksteams/recitals.json";
+import onderzoeksteamsAnnexesJson from "../../data/generated/onderzoeksteams/annexes.json";
+import onderzoeksteamsTocJson from "../../data/generated/onderzoeksteams/toc.json";
+import classificatieArticlesJson from "../../data/generated/classificatie/articles.json";
+import classificatieRecitalsJson from "../../data/generated/classificatie/recitals.json";
+import classificatieAnnexesJson from "../../data/generated/classificatie/annexes.json";
+import classificatieTocJson from "../../data/generated/classificatie/toc.json";
+import contractbeleidArticlesJson from "../../data/generated/contractbeleid/articles.json";
+import contractbeleidRecitalsJson from "../../data/generated/contractbeleid/recitals.json";
+import contractbeleidAnnexesJson from "../../data/generated/contractbeleid/annexes.json";
+import contractbeleidTocJson from "../../data/generated/contractbeleid/toc.json";
+import rapportageArticlesJson from "../../data/generated/rapportage/articles.json";
+import rapportageRecitalsJson from "../../data/generated/rapportage/recitals.json";
+import rapportageAnnexesJson from "../../data/generated/rapportage/annexes.json";
+import rapportageTocJson from "../../data/generated/rapportage/toc.json";
 import recitalMapJson from "../../data/generated/recital-map.json";
 import l2MapJson from "../../data/generated/l2-map.json";
 import { INSTRUMENTS, splitRoutePath, type InstrumentId } from "./instruments";
@@ -51,6 +71,36 @@ const CORPORA: Record<InstrumentId, Corpus> = {
     recitals: criticaliteitRecitalsJson as Recital[],
     annexes: criticaliteitAnnexesJson as Annex[],
     toc: criticaliteitTocJson as Toc,
+  },
+  vergoedingen: {
+    articles: vergoedingenArticlesJson as Article[],
+    recitals: vergoedingenRecitalsJson as Recital[],
+    annexes: vergoedingenAnnexesJson as Annex[],
+    toc: vergoedingenTocJson as Toc,
+  },
+  onderzoeksteams: {
+    articles: onderzoeksteamsArticlesJson as Article[],
+    recitals: onderzoeksteamsRecitalsJson as Recital[],
+    annexes: onderzoeksteamsAnnexesJson as Annex[],
+    toc: onderzoeksteamsTocJson as Toc,
+  },
+  classificatie: {
+    articles: classificatieArticlesJson as Article[],
+    recitals: classificatieRecitalsJson as Recital[],
+    annexes: classificatieAnnexesJson as Annex[],
+    toc: classificatieTocJson as Toc,
+  },
+  contractbeleid: {
+    articles: contractbeleidArticlesJson as Article[],
+    recitals: contractbeleidRecitalsJson as Recital[],
+    annexes: contractbeleidAnnexesJson as Annex[],
+    toc: contractbeleidTocJson as Toc,
+  },
+  rapportage: {
+    articles: rapportageArticlesJson as Article[],
+    recitals: rapportageRecitalsJson as Recital[],
+    annexes: rapportageAnnexesJson as Annex[],
+    toc: rapportageTocJson as Toc,
   },
 };
 

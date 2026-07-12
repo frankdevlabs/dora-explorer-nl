@@ -1,0 +1,1025 @@
+[
+ {
+  "number": 1,
+  "title": "Algemene informatie die moet worden verstrekt in de eerste kennisgeving en in het tussentijdse en het eindverslag over ernstige ICT-gerelateerde incidenten",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten nemen in de eerste kennisgeving, het tussentijdse verslag en het eindverslag als bedoeld in artikel 19, lid 4, van Verordening (EU) 2022/2554, de volgende algemene informatie op:",
+      "refs": [
+       {
+        "start": 114,
+        "end": 131,
+        "href": "/artikel/19#lid-4"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de soort indiening (eerste kennisgeving, tussentijds verslag of eindverslag);"
+         }
+        ],
+        "anchor": "punt-a"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de naam van de financiële entiteit, haar LEI-code en de soort financiële entiteit als bedoeld in artikel 2, lid 1, van Verordening (EU) 2022/2554;",
+          "refs": [
+           {
+            "start": 97,
+            "end": 113,
+            "href": "/artikel/2#lid-1"
+           }
+          ]
+         }
+        ],
+        "anchor": "punt-b"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de naam en identificatiecode van de entiteit die de eerste kennisgeving of het tussentijdse of het eindverslag voor de financiële entiteit indient;"
+         }
+        ],
+        "anchor": "punt-c"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "indien van toepassing, de namen en LEI-codes van alle financiële entiteiten waarop de geaggregeerde eerste kennisgeving of het geaggregeerde tussentijdse of eindverslag betrekking heeft;"
+         }
+        ],
+        "anchor": "punt-d"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "e)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de contactgegevens van de personen die verantwoordelijk zijn voor de communicatie met de bevoegde autoriteit over het ernstige ICT-gerelateerde incident;"
+         }
+        ],
+        "anchor": "punt-e"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "f)",
+        "content": [
+         {
+          "type": "text",
+          "text": "in voorkomend geval, de identificatie van de moederonderneming van de groep waartoe de financiële entiteit behoort;"
+         }
+        ],
+        "anchor": "punt-f"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "g)",
+        "content": [
+         {
+          "type": "text",
+          "text": "wanneer er sprake is van monetaire gevolgen, de valuta waarop de bedragen zijn gebaseerd."
+         }
+        ],
+        "anchor": "punt-g"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 2,
+  "title": "Bijzondere informatie die in de eerste kennisgeving moet worden verstrekt",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "De eerste kennisgeving als bedoeld in artikel 19, lid 4, punt a), van Verordening (EU) 2022/2554 bevat ten minste alle volgende informatie:",
+      "refs": [
+       {
+        "start": 38,
+        "end": 64,
+        "href": "/artikel/19#lid-4-a"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de door de financiële entiteit toegekende referentiecode van het incident;"
+         }
+        ],
+        "anchor": "punt-a"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de datum van detectie, het tijdstip van detectie en de classificatie van het incident overeenkomstig artikel 8 van Gedelegeerde Verordening (EU) 2024/1772 van de Commissie (7);",
+          "refs": [
+           {
+            "start": 101,
+            "end": 110,
+            "href": "/rts-classificatie/artikel/8"
+           }
+          ]
+         }
+        ],
+        "anchor": "punt-b"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "een beschrijving van het ICT-gerelateerde incident;"
+         }
+        ],
+        "anchor": "punt-c"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de criteria van de artikelen 1 tot en met 8 van Gedelegeerde Verordening (EU) 2024/1772 op basis waarvan de financiële entiteit het ICT-gerelateerde incident als ernstig heeft geclassificeerd;",
+          "refs": [
+           {
+            "start": 19,
+            "end": 30,
+            "href": "/rts-classificatie/artikel/1"
+           },
+           {
+            "start": 42,
+            "end": 43,
+            "href": "/rts-classificatie/artikel/8"
+           }
+          ]
+         }
+        ],
+        "anchor": "punt-d"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "e)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de lidstaten die door het ICT-gerelateerde incident worden getroffen;"
+         }
+        ],
+        "anchor": "punt-e"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "f)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over de wijze waarop het ICT-gerelateerde incident is ontdekt;"
+         }
+        ],
+        "anchor": "punt-f"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "g)",
+        "content": [
+         {
+          "type": "text",
+          "text": "indien beschikbaar, informatie over de oorsprong van het ICT-gerelateerde incident;"
+         }
+        ],
+        "anchor": "punt-g"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "h)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over de vraag of de financiële entiteit een bedrijfscontinuïteitsplan heeft geactiveerd;"
+         }
+        ],
+        "anchor": "punt-h"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "i)",
+        "content": [
+         {
+          "type": "text",
+          "text": "indien van toepassing, informatie over de herclassificatie van het ICT-gerelateerde incident van ernstig naar niet-ernstig;"
+         }
+        ],
+        "anchor": "punt-i"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "j)",
+        "content": [
+         {
+          "type": "text",
+          "text": "indien beschikbaar, alle andere relevante informatie."
+         }
+        ],
+        "anchor": "punt-j"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 3,
+  "title": "Bijzondere informatie die in het tussentijdse verslag moet worden verstrekt",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Het in artikel 19, lid 4, punt b), van Verordening (EU) 2022/2554 bedoelde tussentijdse verslag bevat ten minste alle volgende informatie:",
+      "refs": [
+       {
+        "start": 7,
+        "end": 33,
+        "href": "/artikel/19#lid-4-b"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "indien van toepassing, de door de bevoegde autoriteit verstrekte referentiecode van het incident;"
+         }
+        ],
+        "anchor": "punt-a"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de datum en het tijdstip waarop het ICT-gerelateerde incident zich heeft voorgedaan;"
+         }
+        ],
+        "anchor": "punt-b"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "indien van toepassing, de datum en het tijdstip waarop de financiële entiteit haar reguliere activiteiten heeft hersteld;"
+         }
+        ],
+        "anchor": "punt-c"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over de wijze waarop aan de criteria van de artikelen 1 tot en met 8 van Gedelegeerde Verordening (EU) 2024/1772 is voldaan, op basis waarvan de financiële entiteit het ICT-gerelateerde incident als ernstig heeft geclassificeerd;",
+          "refs": [
+           {
+            "start": 55,
+            "end": 66,
+            "href": "/rts-classificatie/artikel/1"
+           },
+           {
+            "start": 78,
+            "end": 79,
+            "href": "/rts-classificatie/artikel/8"
+           }
+          ]
+         }
+        ],
+        "anchor": "punt-d"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "e)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de soort ICT-gerelateerd incident;"
+         }
+        ],
+        "anchor": "punt-e"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "f)",
+        "content": [
+         {
+          "type": "text",
+          "text": "indien van toepassing, de dreigingen en technieken die door de dreigingsactor zijn gebruikt;"
+         }
+        ],
+        "anchor": "punt-f"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "g)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de getroffen functionele gebieden en bedrijfsprocessen;"
+         }
+        ],
+        "anchor": "punt-g"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "h)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de getroffen infrastructuurcomponenten ter ondersteuning van bedrijfsprocessen;"
+         }
+        ],
+        "anchor": "punt-h"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "i)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de gevolgen voor de financiële belangen van cliënten;"
+         }
+        ],
+        "anchor": "punt-i"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "j)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over de rapportage over het ICT-gerelateerde incident aan andere autoriteiten;"
+         }
+        ],
+        "anchor": "punt-j"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "k)",
+        "content": [
+         {
+          "type": "text",
+          "text": "tijdelijke acties of maatregelen die de financiële entiteit heeft genomen of gepland om te herstellen van het ICT-gerelateerde incident;"
+         }
+        ],
+        "anchor": "punt-k"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "l)",
+        "content": [
+         {
+          "type": "text",
+          "text": "indien van toepassing, informatie over indicatoren voor aantasting."
+         }
+        ],
+        "anchor": "punt-l"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 4,
+  "title": "Bijzondere informatie die in het eindverslag moet worden verstrekt",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Het in artikel 19, lid 4, punt c), van Verordening (EU) 2022/2554 bedoelde eindverslag bevat alle volgende informatie:",
+      "refs": [
+       {
+        "start": 7,
+        "end": 33,
+        "href": "/artikel/19#lid-4-c"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over de onderliggende oorzaken van het ICT-gerelateerde incident;"
+         }
+        ],
+        "anchor": "punt-a"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de datums en tijdstippen waarop het ICT-gerelateerde incident is opgelost en de onderliggende oorzaak of oorzaken is of zijn aangepakt;"
+         }
+        ],
+        "anchor": "punt-b"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over de oplossing van het ICT-gerelateerde incident;"
+         }
+        ],
+        "anchor": "punt-c"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "in voorkomend geval, informatie die relevant is voor afwikkelingsautoriteiten;"
+         }
+        ],
+        "anchor": "punt-d"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "e)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over directe en indirecte kosten en verliezen die voortvloeien uit het ICT-gerelateerde incident en informatie over financiële terugvorderingen;"
+         }
+        ],
+        "anchor": "punt-e"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "f)",
+        "content": [
+         {
+          "type": "text",
+          "text": "indien van toepassing, informatie over terugkerende ICT-gerelateerde incidenten."
+         }
+        ],
+        "anchor": "punt-f"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 5,
+  "title": "Termijnen van de eerste kennisgeving en van het tussentijdse en het eindverslag",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten dienen de eerste kennisgeving en het tussentijdse en het eindverslag als bedoeld in artikel 19, lid 4, punten a), b) en met c), van Verordening (EU) 2022/2554 in binnen de volgende termijnen:",
+      "refs": [
+       {
+        "start": 106,
+        "end": 134,
+        "href": "/artikel/19#lid-4-a"
+       },
+       {
+        "start": 136,
+        "end": 138,
+        "href": "/artikel/19#lid-4-b"
+       },
+       {
+        "start": 146,
+        "end": 148,
+        "href": "/artikel/19#lid-4-c"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "eerste kennisgeving: zo snel mogelijk, maar in ieder geval binnen vier uur na de classificatie van het ICT-gerelateerde incident als ernstig en uiterlijk 24 uur nadat de financiële entiteit kennis heeft gekregen van het ICT-gerelateerde incident;"
+         }
+        ],
+        "anchor": "lid-1-a"
+       },
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "tussentijds verslag: uiterlijk 72 uur na de indiening van de eerste kennisgeving, ook indien de status of de behandeling van het incident niet is gewijzigd als bedoeld in artikel 19, lid 4, punt b), van Verordening (EU) 2022/2554. Financiële entiteiten dienen onverwijld en in elk geval wanneer de reguliere activiteiten zijn hersteld, een bijgewerkt tussentijds verslag in;",
+          "refs": [
+           {
+            "start": 171,
+            "end": 197,
+            "href": "/artikel/19#lid-4-b"
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-1-b"
+       },
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "eindverslag: uiterlijk één maand na de indiening van het tussentijdse verslag of, in voorkomend geval, na het laatst bijgewerkte tussentijdse verslag."
+         }
+        ],
+        "anchor": "lid-1-c"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Indien de financiële entiteit een ICT-gerelateerd incident niet binnen 24 uur na het moment waarop zij kennis heeft gekregen van het ICT-gerelateerde incident, als ernstig heeft geclassificeerd, maar dat ICT-gerelateerde incident in een later stadium als ernstig classificeert, dient zij de eerste kennisgeving in binnen vier uur na de classificatie van het ICT-gerelateerde incident als ernstig incident."
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "anchor": "lid-3",
+    "content": [
+     {
+      "type": "text",
+      "text": "Financiële entiteiten die niet in staat zijn om de eerste kennisgeving, het tussentijdse verslag of het eindverslag binnen de termijnen van lid 1 in te dienen, stellen de bevoegde autoriteit daarvan onverwijld en uiterlijk binnen de respectieve indieningstermijnen van de kennisgeving of het verslag in kennis en lichten de redenen voor de vertraging toe."
+     }
+    ]
+   },
+   {
+    "number": 4,
+    "anchor": "lid-4",
+    "content": [
+     {
+      "type": "text",
+      "text": "Indien in de lidstaat van de rapporterende financiële entiteit de indieningstermijn van een eerste kennisgeving, een tussentijds verslag of een eindverslag op een dag in het weekeinde of op een feestdag valt, kan de financiële entiteit de eerste kennisgeving, het tussentijdse of het eindverslag uiterlijk om 12.00 uur van de volgende werkdag indienen."
+     }
+    ]
+   },
+   {
+    "number": 5,
+    "anchor": "lid-5",
+    "content": [
+     {
+      "type": "text",
+      "text": "Lid 4 is niet van toepassing op de indiening van een eerste kennisgeving of een tussentijds verslag door kredietinstellingen, centrale tegenpartijen, exploitanten van handelsplatformen en andere financiële entiteiten die op grond van artikel 3 van Richtlijn (EU) 2022/2555 als essentiële of belangrijke entiteiten zijn aangemerkt."
+     }
+    ]
+   },
+   {
+    "number": 6,
+    "anchor": "lid-6",
+    "content": [
+     {
+      "type": "text",
+      "text": "De bevoegde autoriteiten kunnen bepalen dat lid 4 niet van toepassing is op de indiening van een eerste kennisgeving of een tussentijds verslag door andere dan de in lid 5 genoemde financiële entiteiten die op nationaal of Unieniveau van significant belang of een systemisch karakter hebben voor de financiële sector. De bevoegde autoriteiten stellen de desbetreffende financiële entiteiten in kennis van hun beslissing. De beslissing van de bevoegde autoriteit geldt alleen voor incidenten die na de datum van kennisgeving van de beslissing door de bevoegde autoriteit aan de desbetreffende financiële entiteiten worden gerapporteerd."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 6,
+  "title": "Inhoud van de vrijwillige kennisgeving van significante cyberdreigingen",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "De inhoud van de vrijwillige kennisgeving van significante cyberdreigingen als bedoeld in artikel 19, lid 2, van Verordening (EU) 2022/2554, bestaat uit alle volgende elementen:",
+      "refs": [
+       {
+        "start": 90,
+        "end": 107,
+        "href": "/artikel/19#lid-2"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "algemene informatie over de kennisgevende financiële entiteit als bedoeld in artikel 1;",
+          "refs": [
+           {
+            "start": 77,
+            "end": 86,
+            "href": "/rts-incidentrapportage/artikel/1"
+           }
+          ]
+         }
+        ],
+        "anchor": "punt-a"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de datum en het tijdstip van detectie van de significante cyberdreiging en alle andere relevante tijdstempels in verband met de significante cyberdreiging;"
+         }
+        ],
+        "anchor": "punt-b"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "een beschrijving van de significante cyberdreiging;"
+         }
+        ],
+        "anchor": "punt-c"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over de mogelijke gevolgen van de significante cyberdreiging voor de financiële entiteit, haar cliënten of financiële tegenpartijen;"
+         }
+        ],
+        "anchor": "punt-d"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "e)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de in de artikelen 1 tot en met 8 van Gedelegeerde Verordening (EU) 2024/1772 vastgelegde classificatiecriteria die aanleiding zouden hebben gegeven tot de rapportage van een ernstig incident indien de cyberdreiging werkelijkheid was geworden;",
+          "refs": [
+           {
+            "start": 9,
+            "end": 20,
+            "href": "/rts-classificatie/artikel/1"
+           },
+           {
+            "start": 32,
+            "end": 33,
+            "href": "/rts-classificatie/artikel/8"
+           }
+          ]
+         }
+        ],
+        "anchor": "punt-e"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "f)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over de status van de significante cyberdreiging en eventuele wijzigingen in de dreigingsactiviteit;"
+         }
+        ],
+        "anchor": "punt-f"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "g)",
+        "content": [
+         {
+          "type": "text",
+          "text": "indien van toepassing, een beschrijving van de maatregelen die de financiële entiteit heeft genomen om te voorkomen dat de significante cyberdreigingen werkelijkheid worden;"
+         }
+        ],
+        "anchor": "punt-g"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "h)",
+        "content": [
+         {
+          "type": "text",
+          "text": "informatie over elke kennisgeving van de significante cyberdreiging aan andere financiële entiteiten of autoriteiten;"
+         }
+        ],
+        "anchor": "punt-h"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "i)",
+        "content": [
+         {
+          "type": "text",
+          "text": "indien van toepassing, informatie over indicatoren voor aantasting;"
+         }
+        ],
+        "anchor": "punt-i"
+       }
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "j)",
+        "content": [
+         {
+          "type": "text",
+          "text": "indien beschikbaar, alle andere relevante informatie."
+         }
+        ],
+        "anchor": "punt-j"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 7,
+  "title": "Inwerkingtreding",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Deze verordening treedt in werking op de twintigste dag na die van de bekendmaking ervan in het Publicatieblad van de Europese Unie."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ }
+]

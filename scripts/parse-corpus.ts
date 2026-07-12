@@ -76,6 +76,31 @@ const SOURCES: SourceConfig[] = [
     articles: { file: "data/source/criticaliteit_nl_oj.html", dialect: "oj" },
     recitals: { file: "data/source/criticaliteit_nl_oj.html" },
   },
+  {
+    id: "vergoedingen",
+    articles: { file: "data/source/vergoedingen_nl_oj.html", dialect: "oj" },
+    recitals: { file: "data/source/vergoedingen_nl_oj.html" },
+  },
+  {
+    id: "onderzoeksteams",
+    articles: { file: "data/source/onderzoeksteams_nl_oj.html", dialect: "oj" },
+    recitals: { file: "data/source/onderzoeksteams_nl_oj.html" },
+  },
+  {
+    id: "classificatie",
+    articles: { file: "data/source/classificatie_nl_oj.html", dialect: "oj" },
+    recitals: { file: "data/source/classificatie_nl_oj.html" },
+  },
+  {
+    id: "contractbeleid",
+    articles: { file: "data/source/contractbeleid_nl_oj.html", dialect: "oj" },
+    recitals: { file: "data/source/contractbeleid_nl_oj.html" },
+  },
+  {
+    id: "rapportage",
+    articles: { file: "data/source/rapportage_nl_oj.html", dialect: "oj" },
+    recitals: { file: "data/source/rapportage_nl_oj.html" },
+  },
 ];
 
 const ROMAN_VALUES: Record<string, number> = { I: 1, V: 5, X: 10, L: 50, C: 100 };

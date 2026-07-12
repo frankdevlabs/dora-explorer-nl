@@ -1,0 +1,449 @@
+[
+ {
+  "number": 1,
+  "title": "Raming van de uitgaven van de lead overseers bij de uitoefening van hun oversighttaken",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "Jaarlijks maken de lead overseer en de andere Europese toezichthoudende autoriteiten een raming van de totale jaarlijkse kosten die naar verwachting zullen worden gemaakt voor het uitvoeren van hun oversighttaken. Het bedrag van de totale jaarlijkse geraamde kosten vormt de grondslag voor het bepalen van het totale bedrag van aan te rekenen oversightvergoedingen."
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Wanneer de lead overseer de totale jaarlijkse kosten raamt, houdt hij rekening met de volgende directe en indirecte kosten:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "kosten in verband met de aanwijzing van derde aanbieders van ICT-diensten als kritiek;"
+         }
+        ],
+        "anchor": "lid-2-a"
+       },
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "kosten in verband met de aanstelling van de lead overseer;"
+         }
+        ],
+        "anchor": "lid-2-b"
+       },
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "kosten in verband met het feitelijke oversight op kritieke derde aanbieders van ICT-diensten, met inbegrip van:"
+         },
+         {
+          "type": "list",
+          "items": [
+           {
+            "marker": "i)",
+            "content": [
+             {
+              "type": "text",
+              "text": "kosten in verband met de werkzaamheden van het gezamenlijke onderzoeksteam;"
+             }
+            ]
+           },
+           {
+            "marker": "ii)",
+            "content": [
+             {
+              "type": "text",
+              "text": "kosten van advies door onafhankelijke deskundigen;"
+             }
+            ]
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-2-c"
+       },
+       {
+        "marker": "d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "kosten in verband met de follow-up van de aanbevelingen van de lead overseers overeenkomstig artikel 35, lid 1, punt d), van Verordening (EU) 2022/2554;",
+          "refs": [
+           {
+            "start": 93,
+            "end": 119,
+            "href": "/artikel/35#lid-1-d"
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-2-d"
+       },
+       {
+        "marker": "e)",
+        "content": [
+         {
+          "type": "text",
+          "text": "kosten in verband met de governance van het oversightkader."
+         }
+        ],
+        "anchor": "lid-2-e"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 2,
+  "title": "Toepasselijke omzet van kritieke derde aanbieders van ICT-diensten voor de berekening van de oversightvergoedingen",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "Voor de toepassing van artikel 3 wordt de omzet van een kritieke derde aanbieder van ICT-diensten gevormd door de inkomsten die hij in de Unie genereert met het verlenen van de ICT-diensten die zijn opgenomen in de technische uitvoeringsnormen die zijn vastgesteld op grond van artikel 28, lid 9, van Verordening (EU) 2022/2554 en die worden verleend aan de in artikel 2, lid 1, van Verordening (EU) 2022/2554 bedoelde financiële entiteiten.",
+      "refs": [
+       {
+        "start": 23,
+        "end": 32,
+        "href": "/oversightvergoedingen/artikel/3"
+       },
+       {
+        "start": 278,
+        "end": 295,
+        "href": "/artikel/28#lid-9"
+       },
+       {
+        "start": 361,
+        "end": 377,
+        "href": "/artikel/2#lid-1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Kritieke derde aanbieders van ICT-diensten verstrekken de lead overseer jaarlijks in jaar n-1 gecontroleerde cijfers met vermelding van de in lid 1 bedoelde omzet voor jaar n-2. Kritieke derde aanbieders van ICT-diensten verstrekken die cijfers uiterlijk op 31 december van elk jaar aan de lead overseer."
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "anchor": "lid-3",
+    "content": [
+     {
+      "type": "text",
+      "text": "Indien de kritieke derde aanbieder van ICT-diensten de lead overseer tegen de in lid 2 bedoelde datum geen gecontroleerde cijfers verstrekt die beperkt zijn tot inkomsten uit het verlenen van diensten aan financiële entiteiten als bedoeld in artikel 2, lid 1, van Verordening (EU) 2022/2554, of deze inkomsten volledig omvatten, gaat de lead overseer uit van de omzet die in de Unie is behaald uit de verlening van de ICT-diensten die zijn opgenomen in de overeenkomstig artikel 28, lid 9, van Verordening (EU) 2022/2554 vastgestelde technische uitvoeringsnormen, ongeacht het soort cliënten van de kritieke derde aanbieder van ICT-diensten.",
+      "refs": [
+       {
+        "start": 242,
+        "end": 258,
+        "href": "/artikel/2#lid-1"
+       },
+       {
+        "start": 471,
+        "end": 488,
+        "href": "/artikel/28#lid-9"
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "text": "Indien de kritieke derde aanbieder van ICT-diensten de lead overseer tegen de in lid 2 bedoelde datum geen gecontroleerde cijfers verstrekt die beperkt zijn tot in de Unie gegenereerde inkomsten uit het verlenen van ICT-diensten als bedoeld in de overeenkomstig artikel 28, lid 9, van Verordening (EU) 2022/2554 vastgestelde technische uitvoeringsnormen, of deze inkomsten volledig omvatten, gaat de lead overseer uit van de wereldwijde omzet uit het verlenen van die ICT-diensten.",
+      "refs": [
+       {
+        "start": 262,
+        "end": 279,
+        "href": "/artikel/28#lid-9"
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "text": "Indien de kritieke derde aanbieder van ICT-diensten de lead overseer tegen de in lid 2 bedoelde datum geen gecontroleerde cijfers verstrekt die beperkt zijn tot inkomsten uit het verlenen van ICT-diensten aan financiële entiteiten als bedoeld in artikel 2, lid 1, van Verordening (EU) 2022/2554, of deze inkomsten volledig omvatten, en hij de lead overseer tegen de in lid 2 bedoelde datum geen gecontroleerde cijfers verstrekt die beperkt zijn tot in de Unie gegenereerde inkomsten, gaat de lead overseer uit van de wereldwijde omzet, ongeacht het soort cliënten van de kritieke derde aanbieder van ICT-diensten.",
+      "refs": [
+       {
+        "start": 246,
+        "end": 262,
+        "href": "/artikel/2#lid-1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 4,
+    "anchor": "lid-4",
+    "content": [
+     {
+      "type": "text",
+      "text": "Indien kritieke derde aanbieders van ICT-diensten de inkomsten in een andere valuta dan de euro rapporteren, zet de lead overseer die inkomsten om in euro aan de hand van de gemiddelde wisselkoers van de euro die van toepassing is op de periode waarin de inkomsten werden geboekt, zoals gepubliceerd door de Europese Centrale Bank."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 3,
+  "title": "Berekening van de oversightvergoedingen",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "Voor elke kritieke derde aanbieder van ICT-diensten is de jaarlijkse oversightvergoeding voor een bepaald jaar (n) gelijk aan de geraamde totale jaarlijkse kosten als bedoeld in artikel 1, aangepast met de in lid 2 bedoelde omzetcoëfficiënt op basis van zijn toepasselijke omzet voor het jaar n-2.",
+      "refs": [
+       {
+        "start": 178,
+        "end": 187,
+        "href": "/oversightvergoedingen/artikel/1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Voor elke kritieke derde aanbieder van ICT-diensten wordt de omzetcoëfficiënt gebaseerd op de in artikel 2 bedoelde toepasselijke omzet en als volgt berekend:",
+      "refs": [
+       {
+        "start": 97,
+        "end": 106,
+        "href": "/oversightvergoedingen/artikel/2"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "anchor": "lid-3",
+    "content": [
+     {
+      "type": "text",
+      "text": "In geen geval betaalt de kritieke derde aanbieder van ICT-diensten een jaarlijkse oversightvergoeding van minder dan 50 000 EUR."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 4,
+  "title": "Oversightvergoedingen in het jaar van aanwijzing en opt-in-verzoeken",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "In afwijking van artikel 3 worden de oversightvergoedingen voor de eerste gepubliceerde lijst van aangewezen kritieke derde aanbieders van ICT-diensten overeenkomstig artikel 31, lid 9, van Verordening (EU) 2022/2554 gelijkelijk verdeeld over de aangewezen kritieke derde aanbieders van ICT-diensten. De aan elke kritieke derde aanbieder van ICT-diensten in rekening te brengen vergoeding wordt berekend door de totale geraamde uitgaven van de lead overseers te delen door het aantal aangewezen kritieke derde aanbieders van ICT-diensten.",
+      "refs": [
+       {
+        "start": 17,
+        "end": 26,
+        "href": "/oversightvergoedingen/artikel/3"
+       },
+       {
+        "start": 167,
+        "end": 184,
+        "href": "/artikel/31#lid-9"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "In afwijking van artikel 3 en het bovenstaande lid 1, betaalt een derde aanbieder van ICT-diensten voor het eerste jaar waarin hij als kritiek is aangewezen, een vaste oversightvergoeding die gelijk is aan het bedrag dat elke derde aanbieder van ICT-diensten uit hoofde van lid 1 heeft betaald. Indien de periode van de oversightactiviteiten van die kritieke derde aanbieder van ICT-diensten niet overeenkomt met een volledig jaar, is die oversightvergoeding gelijk aan het bedrag dat elke derde aanbieder van ICT-diensten uit hoofde van lid 1 heeft betaald, vermenigvuldigd met het aantal kalenderdagen vanaf de aanwijzing van de derde aanbieder van ICT-diensten als kritiek tot het einde van dat jaar en gedeeld door het totale aantal dagen in dat jaar.",
+      "refs": [
+       {
+        "start": 17,
+        "end": 26,
+        "href": "/oversightvergoedingen/artikel/3"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "anchor": "lid-3",
+    "content": [
+     {
+      "type": "text",
+      "text": "Wanneer een derde aanbieder van ICT-diensten verzoekt te worden aangewezen als kritiek overeenkomstig artikel 31, lid 11, van Verordening (EU) 2022/2554, betaalt hij een vaste opt-in-vergoeding van 50 000 EUR. De ontvangende ETA betaalt deze vaste opt-in-vergoeding niet terug wanneer het verzoek om als kritiek te worden aangemerkt wordt afgewezen of wordt ingetrokken door de derde aanbieder van ICT-diensten.",
+      "refs": [
+       {
+        "start": 102,
+        "end": 120,
+        "href": "/artikel/31#lid-11"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 5,
+  "title": "Betaling van de oversightvergoedingen",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "Kritieke derde aanbieders van ICT-diensten betalen de in artikel 43 van Verordening (EU) 2022/2554 bedoelde oversightvergoedingen jaarlijks aan de lead overseer.",
+      "refs": [
+       {
+        "start": 57,
+        "end": 67,
+        "href": "/artikel/43"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Alle oversightvergoedingen worden in euro gefactureerd en betaald. Debetnota’s voor oversightvergoedingen stellen betalingstermijnen van ten minste 30 dagen vast."
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "anchor": "lid-3",
+    "content": [
+     {
+      "type": "text",
+      "text": "Alle oversightvergoedingen worden in één keer betaald. Kritieke derde aanbieders van ICT-diensten die op 1 januari van een bepaald jaar aan oversightactiviteiten onderworpen zullen zijn, betalen de debetnota uiterlijk op 30 april van dat jaar. Kritieke derde aanbieders van ICT-diensten die in de loop van het jaar zijn aangewezen, betalen de in artikel 4 bedoelde vergoedingen uiterlijk op 31 december van dat jaar in één keer.",
+      "refs": [
+       {
+        "start": 346,
+        "end": 355,
+        "href": "/oversightvergoedingen/artikel/4"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 4,
+    "anchor": "lid-4",
+    "content": [
+     {
+      "type": "text",
+      "text": "Bij betalingsachterstand is de in artikel 99 van Verordening (EU, Euratom) 2018/1046 vastgestelde achterstandsrente verschuldigd."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 6,
+  "title": "Communicatie tussen de lead overseer en kritieke derde aanbieders van ICT-diensten",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Voor de toepassing van deze verordening vindt alle communicatie tussen de Europese toezichthoudende autoriteiten en kritieke derde aanbieders van ICT-diensten elektronisch plaats."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 7,
+  "title": "Inwerkingtreding en datum van toepassing",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Deze verordening treedt in werking op de twintigste dag na die van de bekendmaking ervan in het Publicatieblad van de Europese Unie."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ }
+]

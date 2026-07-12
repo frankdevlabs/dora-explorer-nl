@@ -16,8 +16,10 @@ const load = <T>(rel: string): T => JSON.parse(readFileSync(join(root, rel), "ut
 const source = load<L2MapSource>("data/source/l2-map.json");
 const generated = load<L2MapGenerated>("data/generated/l2-map.json");
 
-// pinned 2026-07 (initial curation); 15→16 epic 10 (criticaliteit index link)
-assert.equal(source.links.length, 16, "l2-map: linkCount drifted");
+// pinned 2026-07 (initial curation); 15→16→21 epic 10 (index links for
+// criticaliteit, vergoedingen, onderzoeksteams, classificatie,
+// contractbeleid, rapportage)
+assert.equal(source.links.length, 21, "l2-map: linkCount drifted");
 assert.equal(generated.meta.linkCount, source.links.length, "l2-map: meta.linkCount");
 
 // every source link appears in byDora with a resolvable-looking href
@@ -65,5 +67,17 @@ assert.ok(
   (generated.byDora["31"] ?? []).some((l) => l.target === "criticaliteit"),
   "l2-map: art 31 → criticaliteitscriteria indexlink",
 );
+for (const [dora, target] of [
+  ["43", "vergoedingen"],
+  ["41", "onderzoeksteams"],
+  ["18", "classificatie"],
+  ["28", "contractbeleid"],
+  ["20", "rapportage"],
+] as const) {
+  assert.ok(
+    (generated.byDora[dora] ?? []).some((l) => l.target === target),
+    `l2-map: art ${dora} → ${target} indexlink`,
+  );
+}
 
 console.log(`verify-l2-map: all assertions passed (${source.links.length} links)`);

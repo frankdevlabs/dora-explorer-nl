@@ -98,6 +98,35 @@
    "lid": 6,
    "target": "criticaliteit",
    "label": "Criticaliteitscriteria (2024/1502) — nadere bepaling van de criteria om derde aanbieders van ICT-diensten als kritiek aan te wijzen"
+  },
+  {
+   "dora": "43",
+   "lid": 2,
+   "target": "vergoedingen",
+   "label": "Oversightvergoedingen (2024/1505) — bedrag en betalingswijze van de door de lead overseer aangerekende vergoedingen"
+  },
+  {
+   "dora": "41",
+   "lid": 1,
+   "target": "onderzoeksteams",
+   "label": "Onderzoeksteams-RTS (2025/420) — samenstelling, aanwijzing, taken en werkafspraken van het gezamenlijke onderzoeksteam (punt c))"
+  },
+  {
+   "dora": "18",
+   "lid": 4,
+   "target": "classificatie",
+   "label": "Classificatie-RTS (2024/1772) — criteria en materialiteitsdrempels voor de classificatie van incidenten en cyberdreigingen"
+  },
+  {
+   "dora": "28",
+   "lid": 10,
+   "target": "contractbeleid",
+   "label": "Beleids-RTS (2024/1773) — gedetailleerde inhoud van het beleid inzake contractuele overeenkomsten voor KOF-diensten"
+  },
+  {
+   "dora": "20",
+   "target": "rapportage",
+   "label": "Rapportage-RTS (2025/301) — inhoud en termijnen van incidentmeldingen (punt a))"
   }
  ]
 }

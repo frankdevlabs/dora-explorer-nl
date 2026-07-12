@@ -70,6 +70,11 @@ const PLAIN_NUM = /\d+(?![\d/])(?!\.\d)/y;
 // ", en artikel …" / " of de artikelen …" — a conjunction chaining to another
 // reference phrase, whose trailing instrument qualifier distributes back
 const CONJ = /,?[  ]*(?:en|of)[  ]+(?:onverminderd[  ]+)?(?:de[  ]+|het[  ]+)?/y;
+// ", artikel …" — comma-chained enumeration of full reference phrases
+// ("artikel 35, lid 6, artikel 37, lid 1, … en artikel 39, lid 6, van
+// Verordening (EU) 2022/2554"); the closing qualifier distributes the same
+// way as with en/of
+const CHAIN_COMMA = /,[  ]*/y;
 
 function slug(token: string): string {
   return token
@@ -108,8 +113,9 @@ function eatNumberList(c: Cursor, numRe: RegExp): NumToken[] {
   const first = c.eat(numRe);
   if (!first) return tokens;
   tokens.push({ start: first.index, end: c.i, value: first[0] });
-  // range: only the endpoints exist as text
-  const range = c.eat(/[  ]+tot[  ]+en[  ]+met[  ]+/y);
+  // range: only the endpoints exist as text; "en met" is an OJ drafting
+  // variant of "tot en met" ("punten a), b) en met c)" in 32025R0301)
+  const range = c.eat(/[  ]+(?:tot[  ]+)?en[  ]+met[  ]+/y);
   if (range) {
     const last = c.eat(numRe);
     if (last) {
@@ -131,7 +137,12 @@ function eatNumberList(c: Cursor, numRe: RegExp): NumToken[] {
     tokens.push({ start: n.index, end: c.i, value: n[0] });
   }
   const save = c.i;
-  if (c.eat(/,?[  ]+(?:en|of)[  ]+/y)) {
+  // closing conjunct; "en met N" / "tot en met N" closes as a range endpoint
+  if (c.eat(/,?[  ]+(?:tot[  ]+)?en[  ]+(?:met[  ]+)?/y)) {
+    const n = c.eat(numRe);
+    if (n) tokens.push({ start: n.index, end: c.i, value: n[0] });
+    else c.i = save;
+  } else if (c.eat(/,?[  ]+of[  ]+/y)) {
     const n = c.eat(numRe);
     if (n) tokens.push({ start: n.index, end: c.i, value: n[0] });
     else c.i = save;
@@ -182,6 +193,15 @@ function eatSubRefs(c: Cursor): SubRefs {
         break;
       }
       out.punten.push(...ts);
+    } else if (out.lids.length > 0 && c.eat(/,[  ]*(?:en[  ]+)?\(/y)) {
+      // parenthesized follow-up lid ("artikel 30, lid 2, en (3)," — OJ
+      // drafting variant for "lid 2 en lid 3")
+      const n = c.eat(/\d+/y);
+      if (!n || !c.eat(/\)/y)) {
+        c.i = save;
+        break;
+      }
+      out.lids.push({ start: n.index, end: c.i, value: n[0] });
     } else if (c.eat(/,?[  ]+respectievelijk[  ]+punt[  ]+/y)) {
       const t = c.eat(PUNT_TOKEN);
       if (!t) {
@@ -232,9 +252,9 @@ function resolveTarget(
   }
   if (at(TREATY)) return null;
   if (at(OTHER_INSTRUMENT)) return null;
-  if (depth < 4) {
+  if (depth < 8) {
     const look = new Cursor(c.s, c.i);
-    if (look.eat(CONJ)) {
+    if (look.eat(CONJ) || look.eat(CHAIN_COMMA)) {
       const kw = look.eat(/(artikel(?:en)?|bijlagen?|hoofdstuk(?:ken)?|overweging(?:en)?)[  ]+/y);
       if (kw) {
         const kind = kw[1];

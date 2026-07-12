@@ -52,8 +52,26 @@ const EXPECT: Record<string, Expect> = {
   },
   its: { articles: 7, recitals: 15, annexes: 4, chapters: 0, flat: [1, 2, 7] },
   rts: { articles: 7, recitals: 13, annexes: 0, chapters: 0, flat: [1, 2, 6, 7] },
-  // pinned 2026-07 (epic 10, source 32024R1502)
+  // pinned 2026-07 (epic 10, sources 32024R1502, 32024R1505, 32025R0420,
+  // 32024R1772, 32024R1773, 32025R0301)
   criticaliteit: { articles: 7, recitals: 8, annexes: 0, chapters: 0, flat: [4, 7] },
+  vergoedingen: { articles: 7, recitals: 9, annexes: 0, chapters: 0, flat: [6, 7] },
+  onderzoeksteams: { articles: 6, recitals: 10, annexes: 0, chapters: 0, flat: [4, 6] },
+  classificatie: {
+    articles: 13,
+    recitals: 18,
+    annexes: 0,
+    chapters: 0,
+    flat: [4, 5, 6, 10, 11, 12, 13],
+  },
+  contractbeleid: {
+    articles: 11,
+    recitals: 13,
+    annexes: 0,
+    chapters: 0,
+    flat: [1, 2, 4, 10, 11],
+  },
+  rapportage: { articles: 7, recitals: 9, annexes: 0, chapters: 0, flat: [1, 2, 3, 4, 6, 7] },
 };
 
 for (const [inst, exp] of Object.entries(EXPECT)) {
@@ -190,6 +208,51 @@ spot(
   "criticaliteit stappenbenadering",
 );
 
+const vergoedingen = load<Article[]>("data/generated/vergoedingen/articles.json");
+// art 4: equal split of the fees for the first designation round
+spot(
+  vergoedingen,
+  4,
+  "gelijkelijk verdeeld over de aangewezen kritieke derde aanbieders van ICT-diensten",
+  "vergoedingen eerste ronde",
+);
+
+const onderzoeksteams = load<Article[]>("data/generated/onderzoeksteams/articles.json");
+// art 1: JET members work under the lead overseer's coordinator
+spot(
+  onderzoeksteams,
+  1,
+  "onder coördinatie van de coördinator van de lead overseer",
+  "onderzoeksteams coördinatie",
+);
+
+const classificatie = load<Article[]>("data/generated/classificatie/articles.json");
+// art 9(1): the clients/counterparties materiality threshold
+spot(
+  classificatie,
+  9,
+  "het aantal cliënten dat wordt getroffen, bedraagt meer dan 10 % van alle cliënten",
+  "classificatie drempel cliënten",
+);
+
+const contractbeleid = load<Article[]>("data/generated/contractbeleid/articles.json");
+// art 5: business needs established before contracting
+spot(
+  contractbeleid,
+  5,
+  "bedrijfsbehoeften van de financiële entiteit worden vastgesteld voordat een contractuele overeenkomst wordt gesloten",
+  "contractbeleid bedrijfsbehoeften",
+);
+
+const rapportage = load<Article[]>("data/generated/rapportage/articles.json");
+// art 5(1)(a): the 4h/24h initial-notification deadline
+spot(
+  rapportage,
+  5,
+  "binnen vier uur na de classificatie van het ICT-gerelateerde incident als ernstig",
+  "rapportage 4-uurstermijn",
+);
+
 // ------------------------------------------------- ITS annexes (RoI source)
 
 const itsAnnexes = load<Annex[]>("data/generated/its/annexes.json");
@@ -262,7 +325,22 @@ assert.deepEqual(
 // epic 10: + criticaliteit 36 (audited by hand: DORA-qualified refs — art 2(1),
 // 28(3), 31(2)(a-d), 31(5), 46 — all retarget to unprefixed routes; bare refs
 // stay internal; "artikelen 2 tot en met 5" links both endpoints)
-const REF_EXPECT: Record<string, number> = { dora: 176, its: 26, rts: 10, criticaliteit: 36 };
+// epic-10 batch (each audited by hand against the OJ text): vergoedingen 17,
+// onderzoeksteams 23 (incl. the comma-chained "artikel 35, lid 6, artikel 37,
+// lid 1, … van Verordening (EU) 2022/2554" distribution), classificatie 45,
+// contractbeleid 19 (incl. "lid 2, en (3)," parenthesized-lid variant),
+// rapportage 22 (incl. cross-satellite links into the classificatie-RTS)
+const REF_EXPECT: Record<string, number> = {
+  dora: 176,
+  its: 26,
+  rts: 10,
+  criticaliteit: 36,
+  vergoedingen: 17,
+  onderzoeksteams: 23,
+  classificatie: 45,
+  contractbeleid: 19,
+  rapportage: 22,
+};
 
 function collectRefs(inst: string): { href: string; where: string }[] {
   const out: { href: string; where: string }[] = [];
@@ -289,7 +367,7 @@ for (const [inst, expected] of Object.entries(REF_EXPECT)) {
   assert.equal(refs.length, expected, `${inst}: ref count drifted (${refs.length})`);
   refTotal += refs.length;
 }
-assert.equal(refTotal, 248, "total ref count"); // 212→248 epic 10 (criticaliteit +36)
+assert.equal(refTotal, 374, "total ref count"); // 212→248→374 epic 10 (batch +126)
 
 // positive spot checks: the cross-instrument resolver (ITS/RTS text linking
 // into DORA's unprefixed routes)
@@ -329,9 +407,10 @@ for (const inst of Object.keys(REF_EXPECT)) {
 
 const docs = load<SearchDoc[]>("data/generated/search-docs.json");
 // pinned 2026-07: dora 267 art-lid + 106 rct; its 16 art + 15 rct + 55 annex
-// chunks; rts 13 art + 13 rct = 485. Epic 10: + criticaliteit 20 art + 8 rct
-// = 513
-assert.equal(docs.length, 513, "search docs: total count");
+// chunks; rts 13 art + 13 rct = 485. Epic 10: 513 (criticaliteit) → 679
+// (vergoedingen 27 + onderzoeksteams 30 + classificatie 46 + contractbeleid
+// 42 + rapportage 21 docs)
+assert.equal(docs.length, 679, "search docs: total count");
 const ids = new Set(docs.map((d) => d.id));
 assert.equal(ids.size, docs.length, "search docs: duplicate ids");
 for (const d of docs) {

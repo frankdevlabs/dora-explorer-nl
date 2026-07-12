@@ -1,0 +1,681 @@
+[
+ {
+  "number": 1,
+  "title": "Taken van de leden van het gezamenlijke onderzoeksteam",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "De leden van het gezamenlijke onderzoeksteam voeren hun taken uit onder coördinatie van de coördinator van de lead overseer. Deze taken omvatten de permanente ondersteuning van de door de lead overseer uitgevoerde activiteiten en de uitvoering van specifieke taken. Deze taken zijn:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de lead overseer bijstaan bij het voorbereiden en opstellen van het individuele jaarlijkse oversightplan als bedoeld in artikel 33, lid 4, van Verordening (EU) 2022/2554;",
+          "refs": [
+           {
+            "start": 120,
+            "end": 137,
+            "href": "/artikel/33#lid-4"
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-1-a"
+       },
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de lead overseer bijstaan bij het uitvoeren van de in artikel 33, lid 2, van Verordening (EU) 2022/2554 bedoelde beoordeling;",
+          "refs": [
+           {
+            "start": 54,
+            "end": 71,
+            "href": "/artikel/33#lid-2"
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-1-b"
+       },
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de informatie beoordelen die de leidende toezichthouder van de kritieke derde aanbieder van ICT-diensten heeft verkregen uit hoofde van artikel 37 van Verordening (EU) 2022/2554 en hoofdstuk II van Gedelegeerde Verordening (EU) 2025/295 van de Commissie (7);",
+          "refs": [
+           {
+            "start": 136,
+            "end": 146,
+            "href": "/artikel/37"
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-1-c"
+       },
+       {
+        "marker": "d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de in artikel 38 van Verordening (EU) 2022/2554 bedoelde algemene onderzoeken bij de kritieke derde aanbieders van ICT-diensten verrichten;",
+          "refs": [
+           {
+            "start": 6,
+            "end": 16,
+            "href": "/artikel/38"
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-1-d"
+       },
+       {
+        "marker": "e)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de in artikel 39, lid 1, van Verordening (EU) 2022/2554 bedoelde inspecties verrichten;",
+          "refs": [
+           {
+            "start": 6,
+            "end": 23,
+            "href": "/artikel/39#lid-1"
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-1-e"
+       },
+       {
+        "marker": "f)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de in artikel 35, lid 1, punt d), van Verordening (EU) 2022/2554 bedoelde aanbevelingen uitvaardigen;",
+          "refs": [
+           {
+            "start": 6,
+            "end": 32,
+            "href": "/artikel/35#lid-1-d"
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-1-f"
+       },
+       {
+        "marker": "g)",
+        "content": [
+         {
+          "type": "text",
+          "text": "het saneringsplan en de voortgangsverslagen als bedoeld in artikel 4 van Gedelegeerde Verordening (EU) 2025/295 beoordelen;"
+         }
+        ],
+        "anchor": "lid-1-g"
+       },
+       {
+        "marker": "h)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de in artikel 35, lid 6, artikel 37, lid 1, artikel 38, lid 4, en artikel 39, lid 6, van Verordening (EU) 2022/2554 bedoelde verzoeken en besluiten voorbereiden en opstellen;",
+          "refs": [
+           {
+            "start": 6,
+            "end": 23,
+            "href": "/artikel/35#lid-6"
+           },
+           {
+            "start": 25,
+            "end": 42,
+            "href": "/artikel/37#lid-1"
+           },
+           {
+            "start": 44,
+            "end": 61,
+            "href": "/artikel/38#lid-4"
+           },
+           {
+            "start": 66,
+            "end": 83,
+            "href": "/artikel/39#lid-6"
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-1-h"
+       },
+       {
+        "marker": "i)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de lead overseer bijstaan bij zijn bijdrage aan horizontale oversightactiviteiten, onder meer bij de ontwikkeling van de alomvattende benchmarks als bedoeld in artikel 32, lid 3, van Verordening (EU) 2022/2554;",
+          "refs": [
+           {
+            "start": 160,
+            "end": 177,
+            "href": "/artikel/32#lid-3"
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-1-i"
+       },
+       {
+        "marker": "j)",
+        "content": [
+         {
+          "type": "text",
+          "text": "ervoor zorgen dat de relevante informatie over financiële entiteiten die gebruikmaken van de door kritieke derde aanbieders van ICT-diensten verleende diensten, wordt gedeeld met de lead overseer;"
+         }
+        ],
+        "anchor": "lid-1-j"
+       },
+       {
+        "marker": "k)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de lead overseer bijstaan bij niet-geplande ad-hocactiviteiten die door de lead overseer noodzakelijk worden geacht met het oog op het oversight."
+         }
+        ],
+        "anchor": "lid-1-k"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Wanneer de lead overseer het individuele jaarlijkse oversightplan in de loop van het jaar aanzienlijk herziet, betrekt hij de leden van het gezamenlijke onderzoeksteam bij de uitvoering van het individuele jaarlijkse oversightplan en bij de herziening daarvan."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 2,
+  "title": "Oprichting van het gezamenlijke onderzoeksteam",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "Nadat een derde aanbieder van ICT-diensten voor het eerst als cruciaal is aangemerkt overeenkomstig artikel 31, lid 1, punt a), van Verordening (EU) 2022/2554, richt de lead overseer, in overleg met het in artikel 34, lid 1, van Verordening (EU) 2022/2554 bedoelde gezamenlijk oversightnetwerk, het gezamenlijke onderzoeksteam op dat verantwoordelijk is voor de uitoefening van de oversightactiviteiten met betrekking tot die kritieke derde aanbieder van ICT-diensten.",
+      "refs": [
+       {
+        "start": 100,
+        "end": 126,
+        "href": "/artikel/31#lid-1-a"
+       },
+       {
+        "start": 206,
+        "end": 223,
+        "href": "/artikel/34#lid-1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Wanneer zich wezenlijke veranderingen met betrekking tot de situatie van de kritieke derde aanbieder van ICT-diensten voordoen, kan de lead overseer, in overleg met het gezamenlijk oversightnetwerk, de samenstelling actualiseren van het gezamenlijke onderzoeksteam dat verantwoordelijk is voor de oversightactiviteiten betreffende die kritieke derde aanbieder van ICT-diensten."
+     },
+     {
+      "type": "text",
+      "text": "Daartoe hebben materiële wijzigingen met betrekking tot de kritieke derde aanbieder van ICT-diensten betrekking op:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de diensten die de kritieke derde aanbieder van ICT-diensten aanbiedt;"
+         }
+        ],
+        "anchor": "lid-2-a"
+       },
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de activiteiten die worden uitgevoerd door financiële entiteiten die worden ondersteund door ICT-diensten van de kritieke derde aanbieder van ICT-diensten;"
+         }
+        ],
+        "anchor": "lid-2-b"
+       },
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de in artikel 31, lid 9, van Verordening (EU) 2022/2554 bedoelde lijst van kritieke derde aanbieders van ICT-diensten op het niveau van de Unie.",
+          "refs": [
+           {
+            "start": 6,
+            "end": 23,
+            "href": "/artikel/31#lid-9"
+           }
+          ]
+         }
+        ],
+        "anchor": "lid-2-c"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "anchor": "lid-3",
+    "content": [
+     {
+      "type": "text",
+      "text": "De in artikel 40, lid 2, van Verordening (EU) 2022/2554 bedoelde autoriteiten wijzen een of meer van hun personeelsleden aan als lid van het gezamenlijke onderzoeksteam. Een persoon kan worden voorgedragen en benoemd tot lid van een of meer gezamenlijke onderzoeksteams.",
+      "refs": [
+       {
+        "start": 6,
+        "end": 23,
+        "href": "/artikel/40#lid-2"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 4,
+    "anchor": "lid-4",
+    "content": [
+     {
+      "type": "text",
+      "text": "De lead overseer benoemt de personen die zijn voorgedragen als lid van het gezamenlijke onderzoeksteam, voltijds dan wel deeltijds, afhankelijk van hun beschikbaarheid, de specifieke behoeften van de lead overseer en de overeenkomst tussen de aanwijzende autoriteit en de lead overseer."
+     }
+    ]
+   },
+   {
+    "number": 5,
+    "anchor": "lid-5",
+    "content": [
+     {
+      "type": "text",
+      "text": "Bij het voordragen van leden voor de gezamenlijke onderzoeksteams beoordelen de in artikel 40, lid 2, van Verordening (EU) 2022/2554 bedoelde autoriteiten hun technische deskundigheid, kwalificaties en vaardigheden op het gebied van ICT en relevante gebieden, met inbegrip van communicatie- en samenwerkingsvaardigheden, alsook audit- en toezichtvaardigheden.",
+      "refs": [
+       {
+        "start": 83,
+        "end": 100,
+        "href": "/artikel/40#lid-2"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 6,
+    "anchor": "lid-6",
+    "content": [
+     {
+      "type": "text",
+      "text": "De lead overseer kan de aanwijzende autoriteiten alleen in gerechtvaardigde omstandigheden en wanneer de profielen van de voorgedragen personen niet overeenstemmen met het profiel van de benodigde middelen, verzoeken hun voordrachten te wijzigen."
+     }
+    ]
+   },
+   {
+    "number": 7,
+    "anchor": "lid-7",
+    "content": [
+     {
+      "type": "text",
+      "text": "De lead overseer en de autoriteiten nemen alle passende en mogelijke maatregelen om ervoor te zorgen dat het gezamenlijke onderzoeksteam over voldoende personeel beschikt overeenkomstig het jaarlijkse individuele oversightplan."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 3,
+  "title": "Leden van het gezamenlijke onderzoeksteam",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "De lead overseer bepaalt het aantal leden van het gezamenlijke onderzoeksteam en de samenstelling ervan in overleg met het in artikel 34, lid 1, van Verordening (EU) 2022/2554 bedoelde gezamenlijk oversightnetwerk en in overleg met het in artikel 32, lid 1, van die verordening bedoelde oversightforum.",
+      "refs": [
+       {
+        "start": 126,
+        "end": 143,
+        "href": "/artikel/34#lid-1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "De lead overseer stelt dat aantal vast in het kader van de oprichting van het gezamenlijke onderzoeksteam, en zoals nodig in de loop van de tijd, rekening houdend met:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de taken die zijn opgenomen in de individuele jaarlijkse oversightplannen die zijn opgesteld voor elke kritieke derde aanbieder van ICT-diensten waarvoor het gezamenlijke onderzoeksteam oversight verricht;"
+         }
+        ],
+        "anchor": "lid-2-a"
+       },
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de strategische doelstellingen van het meerjarige oversightplan dat is opgesteld voor alle kritieke derde aanbieders van ICT-diensten waarvoor door alle gezamenlijke onderzoeksteams oversightactiviteiten worden verricht."
+         }
+        ],
+        "anchor": "lid-2-b"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "anchor": "lid-3",
+    "content": [
+     {
+      "type": "text",
+      "text": "Om het aantal en de samenstelling van de leden van het gezamenlijke onderzoeksteam te bepalen, houdt de lead overseer ten minste rekening met al het volgende:"
+     },
+     {
+      "type": "list",
+      "items": [
+       {
+        "marker": "a)",
+        "content": [
+         {
+          "type": "text",
+          "text": "het beoogde niveau van intensiteit van de met betrekking tot alle kritieke derde aanbieders van ICT-diensten uit te voeren oversightactiviteiten;"
+         }
+        ],
+        "anchor": "lid-3-a"
+       },
+       {
+        "marker": "b)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de omvang en complexiteit van de derde aanbieder van ICT-diensten waarop oversight wordt verricht door het gezamenlijke onderzoeksteam en door de ETA’s als lead overseer;"
+         }
+        ],
+        "anchor": "lid-3-b"
+       },
+       {
+        "marker": "c)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de specifieke individuele oversightbehoeften met betrekking tot de specifieke kritieke derde aanbieder van ICT-diensten, zoals beoordeeld door de lead overseer;"
+         }
+        ],
+        "anchor": "lid-3-c"
+       },
+       {
+        "marker": "d)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de stabiliteit van de samenstelling van het gezamenlijke onderzoeksteam, waarbij ervoor wordt gezorgd dat de kennis naar behoren wordt bewaard;"
+         }
+        ],
+        "anchor": "lid-3-d"
+       },
+       {
+        "marker": "e)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de vaardigheden die nodig zijn voor de uitvoering van de taken door het gezamenlijke onderzoeksteam, rekening houdend met de technische en niet-technische ICT-kennisvereisten;"
+         }
+        ],
+        "anchor": "lid-3-e"
+       },
+       {
+        "marker": "f)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de lidstaten waar de kritieke derde aanbieder van ICT-diensten ICT-diensten verleent ter ondersteuning van kritieke of belangrijke functies van de financiële entiteiten, en de bevoegde autoriteiten die toezicht houden op de financiële entiteiten die van die diensten gebruikmaken;"
+         }
+        ],
+        "anchor": "lid-3-f"
+       },
+       {
+        "marker": "g)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de verschillende soorten, omvang en aantallen financiële entiteiten waaraan de kritieke derde aanbieder van ICT-diensten ICT-diensten verleent ter ondersteuning van kritieke of belangrijke functies;"
+         }
+        ],
+        "anchor": "lid-3-g"
+       },
+       {
+        "marker": "h)",
+        "content": [
+         {
+          "type": "text",
+          "text": "de bevoegde autoriteiten die toezicht houden op de financiële entiteiten die het meest afhankelijk zijn van de ICT-diensten die door de cruciale derde aanbieders van ICT-diensten worden verleend;"
+         }
+        ],
+        "anchor": "lid-3-h"
+       },
+       {
+        "marker": "i)",
+        "content": [
+         {
+          "type": "text",
+          "text": "een evenredige sectoroverschrijdende vertegenwoordiging van de aanwijzende autoriteiten van het gezamenlijke onderzoeksteam."
+         }
+        ],
+        "anchor": "lid-3-i"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 4,
+    "anchor": "lid-4",
+    "content": [
+     {
+      "type": "text",
+      "text": "Bij het voordragen van leden van het gezamenlijke onderzoeksteam houden de in artikel 40, lid 2, van Verordening (EU) 2022/2554 bedoelde autoriteiten ten minste rekening met lid 3, punten c), d), e), g) en h).",
+      "refs": [
+       {
+        "start": 78,
+        "end": 95,
+        "href": "/artikel/40#lid-2"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 4,
+  "title": "Wijziging van de samenstelling van het gezamenlijke onderzoeksteam",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Periodiek, of wanneer de lead overseer verandert, of wanneer zich wezenlijke veranderingen als bedoeld in artikel 2, lid 2, voordoen, beoordeelt de lead overseer, na raadpleging van de leden van het gezamenlijke onderzoeksteam, de resultaten van de leden van het gezamenlijke onderzoeksteam. Zowel de aanwijzende autoriteiten als de lead overseer gebruiken de resultaten van die beoordeling om te beslissen of het passend is de samenstelling van het gezamenlijke onderzoeksteam te wijzigen.",
+      "refs": [
+       {
+        "start": 106,
+        "end": 122,
+        "href": "/rts-onderzoeksteams/artikel/2#lid-2"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 5,
+  "title": "Werkafspraken van de leden van het gezamenlijke onderzoeksteam",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": 1,
+    "anchor": "lid-1",
+    "content": [
+     {
+      "type": "text",
+      "text": "De leden van het gezamenlijke onderzoeksteam voeren hun in het individuele jaarlijkse oversightplan vastgestelde taken uit met de nodige bekwaamheid, zorgvuldigheid en zorgvuldigheid, zonder vooringenomenheid en in overeenstemming met de instructies van de in artikel 40, lid 2, tweede alinea, van Verordening (EU) 2022/2554 bedoelde coördinator van de lead overseer.",
+      "refs": [
+       {
+        "start": 260,
+        "end": 292,
+        "href": "/artikel/40#lid-2"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "anchor": "lid-2",
+    "content": [
+     {
+      "type": "text",
+      "text": "Bij het uitvoeren van oversighttaken volgen de leden van het gezamenlijke onderzoeksteam oversightprocedures die gezamenlijk door de Europese toezichthoudende autoriteiten zijn opgesteld met betrekking tot de uitvoering van oversightactiviteiten en alle relevante operationele gebieden, met inbegrip van specificaties met betrekking tot het gebruik van IT-instrumenten en -apparatuur en tijdbeheer."
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "anchor": "lid-3",
+    "content": [
+     {
+      "type": "text",
+      "text": "De leden van het gezamenlijke onderzoeksteam volgen de specificaties en instructies met betrekking tot de behandeling van informatie en gegevens die de coördinator van de lead overseer verstrekt als bedoeld in artikel 40, lid 2, tweede alinea, van Verordening (EU) 2022/2554 en houden zich aan de vertrouwelijkheidsregeling van de Europese toezichthoudende autoriteiten.",
+      "refs": [
+       {
+        "start": 210,
+        "end": 242,
+        "href": "/artikel/40#lid-2"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "number": 4,
+    "anchor": "lid-4",
+    "content": [
+     {
+      "type": "text",
+      "text": "De lead overseer en de aanwijzende autoriteiten stellen regelingen vast om de in deze verordening vastgestelde vereisten uit te voeren, met inbegrip van regelingen inzake de tijd die wordt besteed en de geraamde kosten voor de oversightactiviteiten van het gezamenlijke onderzoeksteam en voor opleiding, en inzake ethische en gedragsoverwegingen in verband met de rol van de leden van het gezamenlijke onderzoeksteam, indien van toepassing."
+     }
+    ]
+   },
+   {
+    "number": 5,
+    "anchor": "lid-5",
+    "content": [
+     {
+      "type": "text",
+      "text": "De lead overseer en de aanwijzende autoriteiten zorgen ervoor dat de in lid 4 bedoelde regelingen tijdig worden uitgevoerd, herzien en bijgewerkt."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "number": 6,
+  "title": "Inwerkingtreding",
+  "chapter": "",
+  "chapterTitle": "",
+  "section": null,
+  "sectionTitle": null,
+  "paragraphs": [
+   {
+    "number": null,
+    "anchor": "inhoud",
+    "content": [
+     {
+      "type": "text",
+      "text": "Deze verordening treedt in werking op de twintigste dag na die van de bekendmaking ervan in het Publicatieblad van de Europese Unie."
+     }
+    ]
+   }
+  ],
+  "footnotes": []
+ }
+]

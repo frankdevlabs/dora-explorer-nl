@@ -4,7 +4,16 @@
  * Route scheme: DORA (the main act) owns the unprefixed routes; the
  * satellite acts are prefixed with their instrument id.
  */
-export type InstrumentId = "dora" | "its" | "rts" | "criticaliteit";
+export type InstrumentId =
+  | "dora"
+  | "its"
+  | "rts"
+  | "criticaliteit"
+  | "vergoedingen"
+  | "onderzoeksteams"
+  | "classificatie"
+  | "contractbeleid"
+  | "rapportage";
 
 export interface InstrumentSpec {
   id: InstrumentId;
@@ -57,9 +66,64 @@ export const INSTRUMENTS: Record<InstrumentId, InstrumentSpec> = {
     celex: "32024R1502",
     routePrefix: "/criticaliteitscriteria",
   },
+  vergoedingen: {
+    id: "vergoedingen",
+    label: "Oversightvergoedingen",
+    title:
+      "Gedelegeerde Verordening (EU) 2024/1505 tot aanvulling van Verordening (EU) 2022/2554 door de vaststelling van het bedrag van de door de lead overseer aan kritieke derde aanbieders van ICT-diensten aan te rekenen oversightvergoedingen en de wijze waarop die vergoedingen moeten worden betaald",
+    citation: "Gedelegeerde Verordening (EU) 2024/1505",
+    celex: "32024R1505",
+    routePrefix: "/oversightvergoedingen",
+  },
+  onderzoeksteams: {
+    id: "onderzoeksteams",
+    label: "Onderzoeksteams-RTS",
+    title:
+      "Gedelegeerde Verordening (EU) 2025/420 tot aanvulling van Verordening (EU) 2022/2554 met technische reguleringsnormen tot nadere bepaling van de criteria voor het bepalen van de samenstelling van het gezamenlijke onderzoeksteam",
+    citation: "Gedelegeerde Verordening (EU) 2025/420",
+    celex: "32025R0420",
+    routePrefix: "/rts-onderzoeksteams",
+  },
+  classificatie: {
+    id: "classificatie",
+    label: "Classificatie-RTS",
+    title:
+      "Gedelegeerde Verordening (EU) 2024/1772 tot aanvulling van Verordening (EU) 2022/2554 met technische reguleringsnormen tot nadere bepaling van de criteria voor de classificatie van ICT-gerelateerde incidenten en cyberdreigingen, tot vaststelling van materialiteitsdrempels en tot bepaling van de nadere informatie van verslagen over ernstige incidenten",
+    citation: "Gedelegeerde Verordening (EU) 2024/1772",
+    celex: "32024R1772",
+    routePrefix: "/rts-classificatie",
+  },
+  contractbeleid: {
+    id: "contractbeleid",
+    label: "Beleids-RTS",
+    title:
+      "Gedelegeerde Verordening (EU) 2024/1773 tot aanvulling van Verordening (EU) 2022/2554 betreffende technische reguleringsnormen tot bepaling van de gedetailleerde inhoud van het beleid met betrekking tot de contractuele overeenkomsten inzake het gebruik van door derde aanbieders verleende ICT-diensten die kritieke of belangrijke functies ondersteunen",
+    citation: "Gedelegeerde Verordening (EU) 2024/1773",
+    celex: "32024R1773",
+    routePrefix: "/rts-contractbeleid",
+  },
+  rapportage: {
+    id: "rapportage",
+    label: "Rapportage-RTS",
+    title:
+      "Gedelegeerde Verordening (EU) 2025/301 tot aanvulling van Verordening (EU) 2022/2554 met technische reguleringsnormen voor de inhoud en termijnen van de eerste kennisgeving van en het tussentijdse en het eindverslag over ernstige ICT-gerelateerde incidenten en voor de inhoud van de vrijwillige kennisgeving van significante cyberdreigingen",
+    citation: "Gedelegeerde Verordening (EU) 2025/301",
+    celex: "32025R0301",
+    routePrefix: "/rts-incidentrapportage",
+  },
 };
 
-export const INSTRUMENT_IDS: InstrumentId[] = ["dora", "its", "rts", "criticaliteit"];
+export const INSTRUMENT_IDS: InstrumentId[] = [
+  "dora",
+  "its",
+  "rts",
+  "criticaliteit",
+  "vergoedingen",
+  "onderzoeksteams",
+  "classificatie",
+  "contractbeleid",
+  "rapportage",
+];
 
 /** Satellite instruments (everything except DORA), in registry order. */
 export const SATELLITE_IDS: InstrumentId[] = INSTRUMENT_IDS.filter((id) => id !== "dora");

@@ -1,0 +1,203 @@
+[
+ {
+  "number": 1,
+  "paragraphs": [
+   {
+    "text": "Verordening (EU) 2022/2554 heeft tot doel de rapportagevereisten voor ICT-gerelateerde incidenten en betalingsgerelateerde operationele of beveiligingsincidenten die kredietinstellingen, betalingsinstellingen, aanbieders van rekeninginformatiediensten en instellingen voor elektronisch geld betreffen (“incidenten”) te harmoniseren en te stroomlijnen. Aangezien de rapportagevereisten betrekking hebben op twintig verschillende soorten financiële entiteiten, moeten de classificatiecriteria en de materialiteitsdrempels voor het bepalen van ernstige incidenten en significante cyberdreigingen op eenvoudige, geharmoniseerde en consistente wijze worden gespecificeerd, waarbij rekening wordt gehouden met de specifieke kenmerken van de diensten en activiteiten van alle relevante financiële entiteiten."
+   }
+  ]
+ },
+ {
+  "number": 2,
+  "paragraphs": [
+   {
+    "text": "Met het oog op proportionaliteit moeten de classificatiecriteria en de materialiteitsdrempels de omvang en het algemene risicoprofiel en de aard, schaal en complexiteit van de diensten van alle financiële entiteiten weerspiegelen. Bovendien moeten de criteria en materialiteitsdrempels zodanig worden opgesteld dat zij consequent van toepassing zijn op alle financiële entiteiten, ongeacht omvang en risicoprofiel van die entiteiten, en geen disproportionele rapportagelast vormen voor kleinere financiële entiteiten. Om situaties aan te pakken waarin een aanzienlijk aantal cliënten wordt getroffen door een incident dat als zodanig de toepasselijke drempel niet overschrijdt, moet echter een absolute drempel worden vastgesteld die voornamelijk gericht is op grotere financiële entiteiten."
+   }
+  ]
+ },
+ {
+  "number": 3,
+  "paragraphs": [
+   {
+    "text": "Met betrekking tot kaders voor het melden van incidenten, die bestonden vóór de inwerkingtreding van Verordening (EU) 2022/2554, moet de continuïteit voor financiële entiteiten worden gewaarborgd. Daarom moeten de classificatiecriteria en materialiteitsdrempels worden afgestemd en geïnspireerd op de EBA-richtsnoeren inzake de rapportage van ernstige incidenten uit hoofde van Richtlijn (EU) 2015/2366 van het Europees Parlement en de Raad (2), de richtsnoeren voor de informatie en kennisgeving van materiële wijzigingen die transactieregisters periodiek aan de ESMA moeten meedelen, het ECB-/GTM-rapportagekader voor cyberincidenten en andere relevante richtsnoeren. De classificatiecriteria en drempels moeten ook geschikt zijn voor de financiële entiteiten die vóór Verordening (EU) 2022/2554 niet onderworpen waren aan vereisten inzake het melden van incidenten."
+   }
+  ]
+ },
+ {
+  "number": 4,
+  "paragraphs": [
+   {
+    "text": "Wat het indelingscriterium “hoeveelheid en aantal getroffen transacties” betreft, is het begrip “transacties” ruim en omvat het verschillende activiteiten en diensten in de sectorale handelingen die van toepassing zijn op financiële entiteiten. Voor de toepassing van dat classificatiecriterium moeten betalingstransacties en alle vormen van uitwisseling van financiële instrumenten, cryptoactiva, grondstoffen of andere activa, ook in de vorm van margin, zekerheid of verpanding, zowel tegen contanten als tegen enig ander activum, worden bestreken. Alle transacties waarbij activa betrokken zijn waarvan de waarde in een geldbedrag kan worden uitgedrukt, moeten voor classificatiedoeleinden in aanmerking worden genomen."
+   }
+  ]
+ },
+ {
+  "number": 5,
+  "paragraphs": [
+   {
+    "text": "De classificatiecriteria moeten ervoor zorgen dat alle relevante soorten ernstige incidenten in kaart worden gebracht. Cyberaanvallen in verband met indringing in netwerk- of informatiesystemen vallen mogelijk niet noodzakelijkerwijs onder heel wat van de classificatiecriteria. Zij zijn echter belangrijk omdat elke inmenging in netwerk- en informatiesystemen schade kan toebrengen aan de financiële entiteit. Daarom moeten de classificatiecriteria “getroffen kritieke diensten” en “gegevensverliezen” op zodanige wijze worden gespecificeerd dat rekening wordt gehouden met deze soorten ernstige incidenten, met name ongeoorloofde inbreuken die, ook al zijn de effecten niet onmiddellijk bekend, tot ernstige gevolgen kunnen leiden, met name inbreuken in verband met gegevens en gegevenslekken."
+   }
+  ]
+ },
+ {
+  "number": 6,
+  "paragraphs": [
+   {
+    "text": "Aangezien kredietinstellingen onderworpen zijn aan zowel het kader voor de classificatie van incidenten op grond van artikel 18 van Verordening (EU) 2022/2554 als het kader voor operationeel risico van Gedelegeerde Verordening (EU) 2018/959 van de Commissie (3), moet de aanpak voor de beoordeling van de economische gevolgen van een incident op basis van de berekening van de kosten en verliezen zo consistent mogelijk zijn tussen beide kaders om onverenigbare of tegenstrijdige vereisten te voorkomen.",
+    "refs": [
+     {
+      "start": 117,
+      "end": 127,
+      "href": "/artikel/18"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "number": 7,
+  "paragraphs": [
+   {
+    "text": "Het in artikel 18, lid 1, punt c), van Verordening (EU) 2022/2554 vastgestelde criterium met betrekking tot de geografische spreiding van een incident moet gericht zijn op de grensoverschrijdende gevolgen van het incident, aangezien de gevolgen van een incident voor de activiteiten van een financiële entiteit binnen één rechtsgebied onder de andere criteria van dat artikel zullen vallen.",
+    "refs": [
+     {
+      "start": 7,
+      "end": 33,
+      "href": "/artikel/18#lid-1-c"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "number": 8,
+  "paragraphs": [
+   {
+    "text": "Aangezien de classificatiecriteria onderling afhankelijk en verbonden zijn, moet de aanpak voor het identificeren van ernstige incidenten die overeenkomstig artikel 19, lid 1, van Verordening (EU) 2022/2554 moeten worden gemeld, worden gebaseerd op een combinatie van criteria, waarbij sommige criteria die nauw verband houden met de definities van een ICT-gerelateerd incident en een ernstig ICT-gerelateerd incident als bedoeld in artikel 3, leden 8 en 10, van Verordening (EU) 2022/2554, meer moeten doorwegen bij de classificatie van ernstige incidenten dan andere criteria.",
+    "refs": [
+     {
+      "start": 157,
+      "end": 174,
+      "href": "/artikel/19#lid-1"
+     },
+     {
+      "start": 433,
+      "end": 451,
+      "href": "/artikel/3"
+     },
+     {
+      "start": 455,
+      "end": 457,
+      "href": "/artikel/3"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "number": 9,
+  "paragraphs": [
+   {
+    "text": "Om ervoor te zorgen dat de door de bevoegde autoriteiten uit hoofde van artikel 19, lid 1, van Verordening (EU) 2022/2554 ontvangen meldingen van ernstige incidenten zowel dienen voor toezichtdoeleinden als ter voorkoming van besmetting in de financiële sector, moeten de materialiteitsdrempels het mogelijk maken om ernstige incidenten in kaart te brengen, door zich onder meer te richten op de gevolgen voor entiteitspecifieke kritieke diensten, de specifieke absolute en relatieve drempels van cliënten of financiële tegenpartijen, transacties die wijzen op een materieel effect op de financiële entiteit, en het belang van de impact in andere lidstaten.",
+    "refs": [
+     {
+      "start": 72,
+      "end": 89,
+      "href": "/artikel/19#lid-1"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "number": 10,
+  "paragraphs": [
+   {
+    "text": "Incidenten die gevolgen hebben voor ICT-diensten of netwerk- en informatiesystemen die kritieke of belangrijke functies of financiële diensten waarvoor een vergunning nodig is, ondersteunen, of kwaadwillige ongeoorloofde toegang tot netwerk- en informatiesystemen die kritieke of belangrijke functies ondersteunen, moeten worden beschouwd als incidenten die kritieke diensten van de financiële entiteiten treffen. Kwaadwillige, ongeoorloofde toegang tot netwerk- en informatiesystemen die kritieke of belangrijke functies van financiële entiteiten ondersteunen, brengt ernstige risico’s met zich mee voor de financiële entiteit en moet, gezien de mogelijke gevolgen voor andere financiële entiteiten, altijd worden beschouwd als ernstige incident dat moeten worden gemeld."
+   }
+  ]
+ },
+ {
+  "number": 11,
+  "paragraphs": [
+   {
+    "text": "Terugkerende incidenten die verband houden met een kennelijk soortgelijke onderliggende oorzaak, die afzonderlijk geen ernstige incidenten zijn, kunnen wijzen op significante tekortkomingen en zwakke punten in de procedures voor incidenten- en risicobeheer van de financiële entiteit. Daarom moeten terugkerende incidenten collectief als ernstige incidenten worden beschouwd wanneer zij zich gedurende een bepaalde periode herhaaldelijk voordoen."
+   }
+  ]
+ },
+ {
+  "number": 12,
+  "paragraphs": [
+   {
+    "text": "Aangezien cyberdreigingen negatieve gevolgen kunnen hebben voor de financiële entiteit en de sector, moeten de significante cyberdreigingen die financiële entiteiten kunnen indienen, aangeven hoe waarschijnlijk het is dat de dreiging werkelijkheid wordt en hoe kritiek de potentiële impact is. Om een duidelijke en consistente beoordeling van het belang van cyberdreigingen te waarborgen, moet de classificatie van een cyberdreiging als significant dan ook afhangen van de waarschijnlijkheid dat aan de classificatiecriteria voor ernstige incidenten en de drempel daarvoor zou worden voldaan indien de dreiging werkelijkheid was geworden, van het soort cyberdreiging en van de informatie waarover de financiële entiteit beschikt."
+   }
+  ]
+ },
+ {
+  "number": 13,
+  "paragraphs": [
+   {
+    "text": "Aangezien bevoegde autoriteiten in andere lidstaten in kennis moeten worden gesteld van incidenten die gevolgen hebben voor financiële entiteiten en cliënten in hun rechtsgebied, moet de beoordeling van de gevolgen in een ander rechtsgebied overeenkomstig artikel 19, lid 7, van Verordening (EU) 2022/2554 worden gebaseerd op de onderliggende oorzaak van het incident, op mogelijke besmetting via derde aanbieders en op financiëlemarktinfrastructuren, alsook op de gevolgen van het incident voor significante groepen cliënten of financiële tegenpartijen.",
+    "refs": [
+     {
+      "start": 256,
+      "end": 273,
+      "href": "/artikel/19#lid-7"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "number": 14,
+  "paragraphs": [
+   {
+    "text": "De in artikel 19, leden 6 en 7, van Verordening (EU) 2022/2554 bedoelde procedures voor kennisgeving en verslaglegging moeten de respectieve ontvangers in staat stellen de gevolgen van de incidenten te beoordelen. Daarom moet de doorgegeven informatie betrekking hebben op alle details in de incidentverslagen die de financiële entiteit bij de bevoegde autoriteit indient.",
+    "refs": [
+     {
+      "start": 6,
+      "end": 25,
+      "href": "/artikel/19#lid-6"
+     },
+     {
+      "start": 29,
+      "end": 30,
+      "href": "/artikel/19#lid-7"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "number": 15,
+  "paragraphs": [
+   {
+    "text": "Wanneer een incident een inbreuk in verband met persoonsgegevens vormt overeenkomstig Verordening (EU) 2016/679 van het Europees Parlement en de Raad (4) en Richtlijn 2002/58/EG van het Europees Parlement en de Raad (5), mag deze verordening geen afbreuk doen aan de in die Uniewetgeving vastgestelde registratie- en meldingsverplichtingen voor inbreuken in verband met persoonsgegevens. De bevoegde autoriteiten moeten samenwerken en informatie uitwisselen over alle relevante aangelegenheden met de in Verordening (EU) 2016/679 en Richtlijn 2002/58/EG bedoelde autoriteiten."
+   }
+  ]
+ },
+ {
+  "number": 16,
+  "paragraphs": [
+   {
+    "text": "Deze verordening is gebaseerd op de ontwerpen van technische reguleringsnormen die door de Europese toezichthoudende autoriteiten, in overleg met het Agentschap van de Europese Unie voor cyberbeveiliging (Enisa) en de Europese Centrale Bank (ECB), bij de Commissie zijn ingediend."
+   }
+  ]
+ },
+ {
+  "number": 17,
+  "paragraphs": [
+   {
+    "text": "Het Gemengd Comité van de Europese toezichthoudende autoriteiten als bedoeld in artikel 54 van Verordening (EU) nr. 1093/2010 van het Europees Parlement en de Raad (6), in artikel 54 van Verordening (EU) nr. 1094/2010 van het Europees Parlement en de Raad (7) en in artikel 54 van Verordening (EU) nr. 1095/2010 van het Europees Parlement en de Raad (8) heeft open publiek consultaties gehouden over de ontwerpen van technische reguleringsnormen waarop deze verordening is gebaseerd, heeft de mogelijke kosten en baten van die voorgestelde normen geanalyseerd en heeft het advies ingewonnen van de overeenkomstig artikel 37 van Verordening (EU) nr. 1093/2010 opgerichte Stakeholdergroep bankwezen, de overeenkomstig artikel 37 van Verordening (EU) nr. 1094/2010 opgerichte Stakeholdergroep verzekeringen en herverzekeringen en de overeenkomstig artikel 37 van Verordening (EU) nr. 1095/2010 opgerichte Stakeholdergroep effecten en markten."
+   }
+  ]
+ },
+ {
+  "number": 18,
+  "paragraphs": [
+   {
+    "text": "De Europese Toezichthouder voor gegevensbescherming is geraadpleegd overeenkomstig artikel 42, lid 1, van Verordening (EU) 2018/1725 van het Europees Parlement en de Raad (9) en heeft op 24 januari 2024 een advies uitgebracht,"
+   }
+  ]
+ }
+]
