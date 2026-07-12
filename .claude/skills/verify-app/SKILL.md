@@ -10,11 +10,12 @@ check list change with nearly every epic. Update them in the same commit as
 the feature; a mismatch usually means this skill is stale, not that the app
 is broken — check `git log` before debugging.
 
-> **Epic-9 state:** full app (corpus + assessments + register werkbank +
-> editorial maps; **235 exported HTML pages**). Verify chain: verify-data
-> (212 refs), verify-assessment (entity 18/57, supplier 11/48), verify-roi
-> (15 templates / 98 kolommen), verify-recital-map (172 pairs, two-regime),
-> verify-l2-map (15 links), verify-search.
+> **Epic-10 state:** full app, 13 instruments (DORA + 12 level-2 acts;
+> **532 exported HTML pages**). Verify chain: verify-data (563 refs, 1031
+> search docs), verify-assessment (entity 18/57, supplier 11/48), verify-roi
+> (15 templates / 98 kolommen), verify-recital-map (172 pairs, two-regime,
+> satellites seeded unreviewed), verify-l2-map (26 links), verify-search
+> (26 golden queries).
 
 ## 1. Build (includes data verification)
 
@@ -43,11 +44,16 @@ curl -s "http://localhost:$PORT/artikel/3"  | grep -c 'id="punt-22"'       # 1 (
 curl -s "http://localhost:$PORT/artikel/26" | grep -c "penetratietest"     # >= 1
 curl -s "http://localhost:$PORT/overweging/106" | grep -c "Overweging 106" # >= 1
 curl -s "http://localhost:$PORT/search-docs.json" | head -c 100            # JSON array
-curl -s "http://localhost:$PORT/its/bijlage/i" | grep -c "B_05.01.0010"     # >= 1 (RoI-kolomcodes)
-curl -s "http://localhost:$PORT/its/bijlage/iii" | grep -c "S19"            # >= 1 (taxonomie)
-curl -s "http://localhost:$PORT/rts/artikel/3" | grep -c "due diligence"    # >= 1
+curl -s "http://localhost:$PORT/its-register/bijlage/i" | grep -c "B_05.01.0010"    # >= 1 (RoI-kolomcodes)
+curl -s "http://localhost:$PORT/its-register/bijlage/iii" | grep -c "S19"           # >= 1 (taxonomie)
+curl -s "http://localhost:$PORT/rts-onderaanneming/artikel/3" | grep -c "due diligence" # >= 1
 curl -s "http://localhost:$PORT/artikel/28" | grep -c "Uitvoeringsbepalingen" # >= 1 (l2-paneel)
-curl -s "http://localhost:$PORT/rts/artikel/3" | grep -c "Grondslag in DORA"  # >= 1
+curl -s "http://localhost:$PORT/rts-onderaanneming/artikel/3" | grep -c "Grondslag in DORA" # >= 1
+# epic 10: the new level-2 acts
+curl -s "http://localhost:$PORT/rts-risicobeheer/artikel/22" | grep -c "2024/1772"  # >= 1 (corrigendum-ref)
+curl -s "http://localhost:$PORT/its-incidentrapportage/bijlage/i" | grep -c "Gegevensveld" # >= 1 (meldtemplate)
+curl -s "http://localhost:$PORT/rts-tlpt/bijlage/viii" | grep -c "attest"           # >= 1
+curl -s "http://localhost:$PORT/artikel/18" | grep -c "Classificatie-RTS"           # >= 1 (l2-paneel)
 ```
 
 ## 3. Browser checks (Playwright, optional but thorough)
@@ -104,7 +110,7 @@ if (!(await page.locator("html.dark").count())) throw new Error("dark mode");
 // 6. 360px: no horizontal overflow — ITS annex template tables are the
 // stressor (they scroll inside their own overflow-x-auto wrapper)
 await page.setViewportSize({ width: 360, height: 800 });
-for (const path of ["/artikel/13", "/its/bijlage/i", "/its/bijlage/iii"]) {
+for (const path of ["/artikel/13", "/its-register/bijlage/i", "/its-incidentrapportage/bijlage/ii"]) {
   await page.goto(BASE + path);
   await page.waitForTimeout(300);
   const overflow = await page.evaluate(
@@ -115,7 +121,7 @@ for (const path of ["/artikel/13", "/its/bijlage/i", "/its/bijlage/iii"]) {
 
 // 6b. cross-instrument ref: RTS art 4 links into DORA art 30(3)(c)
 await page.setViewportSize({ width: 1280, height: 900 });
-await page.goto(`${BASE}/rts/artikel/4`);
+await page.goto(`${BASE}/rts-onderaanneming/artikel/4`);
 const x = page.locator('article a[href="/artikel/30#lid-3-c"]').first();
 await x.waitFor();
 await x.click();

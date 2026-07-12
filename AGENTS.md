@@ -6,8 +6,8 @@ This version has breaking changes — APIs, conventions, and file structure may 
 # DORA Explorer NL — operating manual
 
 Static Next.js explorer for the Dutch text of DORA (Verordening (EU)
-2022/2554) plus its Register-of-Information ITS (Uitvoeringsverordening (EU)
-2024/2956) and subcontracting RTS (Gedelegeerde Verordening (EU) 2025/532).
+2022/2554) plus all twelve published level-2 acts (RTS/ITS/delegated
+regulations — see the corpus table below).
 No database, no server: `output: 'export'` produces a fully static site.
 Search is client-side (MiniSearch over a build-time corpus). Also ships two
 DORA assessments (entity-level and per-ICT-arrangement supplier/TPRM) and a
@@ -40,13 +40,32 @@ method). Plan/status per feature: `docs/epics/`.
 
 ## Corpus (multi-instrument)
 
-Three instruments, one corpus (epic 1):
+DORA + all twelve published level-2 acts, one corpus (epics 1 + 10). DORA
+owns the unprefixed routes (`/artikel/28`, `/overweging/5`); every satellite
+lives under its topic slug (= `routePrefix` in `src/lib/instruments.ts`,
+the single source of truth — id, citation, CELEX, route all come from there):
 
-| id | Instrument | Routes |
+| id | Act | routePrefix |
 |---|---|---|
-| `dora` | Verordening (EU) 2022/2554 | `/artikel/28`, `/overweging/5` (unprefixed) |
-| `its` | Uitvoeringsverordening (EU) 2024/2956 (RoI-ITS) | `/its-register/artikel/2`, `/its-register/bijlage/i` |
-| `rts` | Gedelegeerde Verordening (EU) 2025/532 (onderaanneming) | `/rts-onderaanneming/artikel/3` |
+| `dora` | Verordening (EU) 2022/2554 | (unprefixed) |
+| `its` | UV (EU) 2024/2956 — RoI-templates | `/its-register` |
+| `rts` | GV (EU) 2025/532 — onderaanneming | `/rts-onderaanneming` |
+| `risicobeheer` | GV (EU) 2024/1774 — ICT-risicobeheerkader | `/rts-risicobeheer` |
+| `classificatie` | GV (EU) 2024/1772 — incidentclassificatie | `/rts-classificatie` |
+| `rapportage` | GV (EU) 2025/301 — meldingsinhoud/-termijnen | `/rts-incidentrapportage` |
+| `formulieren` | UV (EU) 2025/302 — meldformulieren | `/its-incidentrapportage` |
+| `tlpt` | GV (EU) 2025/1190 — TLPT | `/rts-tlpt` |
+| `contractbeleid` | GV (EU) 2024/1773 — contractbeleid | `/rts-contractbeleid` |
+| `criticaliteit` | GV (EU) 2024/1502 — criticaliteitscriteria | `/criticaliteitscriteria` |
+| `vergoedingen` | GV (EU) 2024/1505 — oversightvergoedingen | `/oversightvergoedingen` |
+| `oversight` | GV (EU) 2025/295 — oversightuitoefening | `/rts-oversight` |
+| `onderzoeksteams` | GV (EU) 2025/420 — gezamenlijke onderzoeksteams | `/rts-onderzoeksteams` |
+
+Satellite pages render through the dynamic `src/app/[instrument]/` segment;
+adding an act = registry row + `SOURCES` entry in `scripts/parse-corpus.ts`
++ `data.ts` imports + `InstrumentIndex` blurb + verify pins + l2-map link +
+recital-map seed (see `docs/epics/epic-10-level2-corpus.md`). Old `/its` and
+`/rts` routes 301 via nginx.
 
 All EUR-Lex sources are WAF-blocked; fetch via
 `python3 ~/law-tracker/lib/fetch_blocked_doc.py "<url>" "<out>"`.
@@ -76,10 +95,13 @@ All EUR-Lex sources are WAF-blocked; fetch via
 - GitHub: `frankdevlabs/dora-explorer-nl`; commit as
   `frankdevlabs <29236012+frankdevlabs@users.noreply.github.com>`.
 
-## State (epics 0-8 done)
+## State (epics 0-10 done)
 
 Alles uit het initiële plan is gebouwd: corpus, crossrefs, UI, MCP, beide
 assessments, de registerwerkbank (`/register`, schema afgeleid via
-`scripts/build-roi-schema.ts`) en de exports. Site en MCP zijn live
-op https://dora.mrfrank.dev. Openstaand: alleen de optionele epic 9
-(recital-map, DORA↔ITS/RTS-panelen).
+`scripts/build-roi-schema.ts`), de exports en de editorial maps (epic 9).
+Epic 10 (juli 2026) voegde de tien resterende level-2-handelingen toe —
+volledig level-2-corpus, geen openstaande mandaten. Site en MCP zijn live
+op https://dora.mrfrank.dev. Openstaand: menselijke review van de
+recital-map (complete=false) — de nieuwe instrumenten zijn geseed met lege,
+ongereviewde entries.

@@ -9,7 +9,7 @@ export function FootnoteList({ footnotes }: { footnotes: Footnote[] }) {
         {footnotes.map((f) => (
           <li key={f.id} className="grid grid-cols-[minmax(2rem,auto)_1fr] gap-x-2">
             <span>{f.label}</span>
-            <span>{f.text}</span>
+            <span className="min-w-0 break-words">{f.text}</span>
           </li>
         ))}
       </ol>
