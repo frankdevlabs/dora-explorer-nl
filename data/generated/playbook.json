@@ -2815,7 +2815,7 @@
        "Verwerk de zes criteria van artikel 18, lid 1 (cliënten/tegenpartijen/transacties en reputatieschade, duur en uitvaltijd, geografische spreiding, gegevensverlies, kritieke diensten, economische effecten) in een classificatiebeslisboom of -tool.",
        "Neem de materialiteitsdrempels van artikel 9 GV 2024/1772 letterlijk over (criteria nader gespecificeerd in de artikelen 1–7), waaronder: meer dan 10 % of meer dan 100 000 getroffen cliënten, incidentduur langer dan 24 uur of uitvaltijd langer dan 2 uur voor ICT-diensten die kritieke of belangrijke functies ondersteunen.",
        "Pas de hoofdregel van art. 8, lid 1, GV 2024/1772 toe: een incident is ernstig als het kritieke diensten treft (art. 6) én de drempel van art. 9, lid 5, punt b) (geslaagde kwaadwillige ongeoorloofde toegang tot netwerk- en informatiesystemen die tot gegevensverlies kan leiden) wordt bereikt óf twee of meer andere drempels van art. 9, leden 1–6, worden bereikt.",
-       "Beoordeel cyberdreigingen op significantie volgens de cumulatieve voorwaarden van art. 10 GV 2024/1772 (mogelijke impact op kritieke of belangrijke functies, grote kans op materialisatie, drempelpotentieel bij materialisatie).",
+       "Beoordeel cyberdreigingen op significantie volgens de cumulatieve voorwaarden van art. 10 GV 2024/1772 (mogelijke impact op kritieke of belangrijke functies of op andere financiële entiteiten, derde aanbieders, cliënten of financiële tegenpartijen; grote kans op materialisatie; drempelpotentieel bij materialisatie).",
        "Leg per incident de classificatie-uitkomst en onderbouwing vast in het incidentregister en test de beslisboom periodiek op casuïstiek, ook op betalingsgerelateerde scenario's."
       ],
       "bewijsstukken": [
@@ -2962,7 +2962,8 @@
       "doel": "Een gedocumenteerde afweging wie wanneer besluit een significante cyberdreiging vrijwillig aan de bevoegde autoriteit te melden, met het juiste model en de juiste inhoud.",
       "acties": [
        "Beleg de beslisbevoegdheid en het afwegingskader: melden kan wanneer u de dreiging relevant acht voor het financiële stelsel, de gebruikers van diensten of de cliënten.",
-       "Gebruik bij melding de inhoudsvereisten van art. 6 GV 2025/301 en het kennisgevingsmodel van art. 8 UV 2025/302.",
+       "Gebruik bij melding de inhoudsvereisten van art. 6 GV 2025/301 en het kennisgevingsmodel van art. 8 UV 2025/302: het model van bijlage III, ingevuld volgens de gegevensvelden en instructies van bijlage IV.",
+       "Controleer vóór indiening de volledigheid en nauwkeurigheid van de kennisgeving tegen de gegevensvelden en instructies van bijlage IV (art. 8, lid 2 UV 2025/302).",
        "Verwerk in de afweging dat de bevoegde autoriteit de informatie kan delen met de in artikel 19, lid 6, genoemde autoriteiten en dat lidstaten doorzending naar CSIRT's mogelijk kunnen maken."
       ],
       "bewijsstukken": [
@@ -2985,6 +2986,18 @@
        {
         "label": "Art. 8 UV 2025/302",
         "href": "/its-incidentrapportage/artikel/8#lid-1"
+       },
+       {
+        "label": "Art. 8, lid 2 UV 2025/302",
+        "href": "/its-incidentrapportage/artikel/8#lid-2"
+       },
+       {
+        "label": "Bijlage III UV 2025/302",
+        "href": "/its-incidentrapportage/bijlage/iii"
+       },
+       {
+        "label": "Bijlage IV UV 2025/302",
+        "href": "/its-incidentrapportage/bijlage/iv"
        }
       ],
       "appliesTo": [
@@ -3003,7 +3016,7 @@
       "acties": [
        "Besluit gedocumenteerd of u de rapportageverplichtingen van artikel 19 uitbesteedt en leg vast dat de entiteit volledig verantwoordelijk blijft voor de naleving van de rapportagevereisten.",
        "Regel in het contract met de dienstverlener de meldtermijnen, het modelgebruik, escalatie en tijdige informatieaanlevering, zodat de termijnen van GV 2025/301 haalbaar blijven.",
-       "Stel de bevoegde autoriteit bij uitbesteding in kennis conform art. 6 UV 2025/302 en actualiseer die kennisgeving bij wijzigingen."
+       "Stel de bevoegde autoriteit in kennis zodra de uitbestedingsovereenkomst is gesloten en in elk geval vóór de eerste indiening van een kennisgeving of verslag; verstrek daarbij naam, contactgegevens en identificatiecode van de derde partij, actualiseer de kennisgeving bij wijzigingen en meld beëindiging van de uitbesteding onmiddellijk (art. 6 UV 2025/302)."
       ],
       "bewijsstukken": [
        "Uitbestedingsbesluit met verantwoordelijkheidsclausule",
@@ -3023,6 +3036,14 @@
        {
         "label": "Art. 6 UV 2025/302",
         "href": "/its-incidentrapportage/artikel/6#lid-1"
+       },
+       {
+        "label": "Art. 6, lid 2 UV 2025/302",
+        "href": "/its-incidentrapportage/artikel/6#lid-2"
+       },
+       {
+        "label": "Art. 6, lid 3 UV 2025/302",
+        "href": "/its-incidentrapportage/artikel/6#lid-3"
        }
       ],
       "appliesTo": [
@@ -3070,6 +3091,292 @@
       "prioriteit": "kern",
       "afhankelijkVan": [
        "pe.i4"
+      ]
+     },
+     {
+      "id": "pe.ic1",
+      "titel": "Leg meet-, tel- en ramingsconventies voor incidentclassificatie vast",
+      "doel": "Eenduidige, vooraf vastgelegde regels waarmee elk incident reproduceerbaar wordt gekwantificeerd (cliënten, tegenpartijen, transacties, duur, uitvaltijd), ook wanneer werkelijke cijfers ontbreken.",
+      "acties": [
+       "Leg de meetregels voor duur en uitvaltijd vast: duur vanaf het moment waarop het incident zich voordoet (indien onbekend: vanaf ontdekking, of vanaf de eerdere registratie in netwerk- of systeemlogbestanden) tot oplossing; uitvaltijd vanaf het moment dat de dienst geheel of gedeeltelijk niet beschikbaar is tot herstel van het dienstverleningsniveau van vóór het incident; veroorzaakt de uitval daarna nog vertraagde dienstverlening, meet dan van het begin van het incident tot het moment waarop die vertraagde dienst volledig wordt verleend; is het moment van uitval niet te bepalen, meet dan vanaf het moment van ontdekking.",
+       "Definieer de telregels voor getroffen cliënten (natuurlijke én rechtspersonen, inclusief derden die als begunstigde onder het cliëntcontract vallen), financiële tegenpartijen (met contractuele overeenkomst) en transacties (alle transacties met een geldbedrag waarvan ten minste één deel in de Unie wordt uitgevoerd), en bepaal per dienst de noemers (totaal cliëntenbestand, gemiddeld dagelijks aantal en gemiddelde dagelijkse waarde van transacties).",
+       "Merk vooraf aan welke cliënten en financiële tegenpartijen als relevant gelden gezien hun belang voor de bedrijfsdoelstellingen en de marktefficiëntie; het treffen van één zo aangemerkte cliënt of tegenpartij bereikt de materialiteitsdrempel van art. 9, lid 1, punt f), GV 2024/1772.",
+       "Stel een ramingsprotocol vast: raam aantallen en hoeveelheden (cliënten, tegenpartijen, transacties) die niet werkelijk bepaald kunnen worden op basis van beschikbare gegevens uit vergelijkbare referentieperioden, en raam tijdstippen en bedragen op basis van de bij rapportage beschikbare gegevens, en documenteer elke raming met bron en aanname in het classificatiedossier."
+      ],
+      "bewijsstukken": [
+       "Meet- en telregeldocument per classificatiecriterium (incl. noemers per dienst)",
+       "Lijst van als relevant aangemerkte cliënten en financiële tegenpartijen",
+       "Classificatiedossiers met gedocumenteerde ramingen"
+      ],
+      "rollen": [
+       "IT-operations",
+       "CISO",
+       "risk"
+      ],
+      "refs": [
+       {
+        "label": "Art. 3 GV 2024/1772",
+        "href": "/rts-classificatie/artikel/3#lid-1"
+       },
+       {
+        "label": "Art. 1, lid 3 GV 2024/1772",
+        "href": "/rts-classificatie/artikel/1#lid-3"
+       },
+       {
+        "label": "Art. 1, lid 5 GV 2024/1772",
+        "href": "/rts-classificatie/artikel/1#lid-5"
+       },
+       {
+        "label": "Art. 18, lid 1 DORA",
+        "href": "/artikel/18#lid-1"
+       }
+      ],
+      "appliesTo": [
+       "volledig",
+       "vereenvoudigd"
+      ],
+      "prioriteit": "kern",
+      "afhankelijkVan": [
+       "pe.i2"
+      ]
+     },
+     {
+      "id": "pe.ic2",
+      "titel": "Richt de kosten- en verliesadministratie per incident in",
+      "doel": "Per incident aantoonbaar kunnen bepalen of de economische effecten de drempel van 100 000 EUR overschrijden of waarschijnlijk zullen overschrijden, met de juiste kostensoorten en zonder verboden salderingen.",
+      "acties": [
+       "Registreer per incident de directe en indirecte kosten en verliezen in de acht soorten van art. 7, lid 1, GV 2024/1772: onteigende gelden of activa, vervanging of verplaatsing van software/hardware/infrastructuur, personeelskosten, vergoedingen wegens contractbreuk, verhaal en compensatie van klanten, gederfde inkomsten, interne en externe communicatie, en advieskosten (juridisch, forensisch, sanering).",
+       "Sluit reguliere bedrijfskosten uit de telling uit: algemeen onderhoud en het op peil houden van vaardigheden, verbeteringen en upgrades na het incident, en verzekeringspremies tellen niet mee.",
+       "Tel de kosten en verliezen bruto op, zonder aftrek van financiële terugvorderingen (zoals verzekeringsuitkeringen of verhaal op derden), en toets of het totaal de drempel van 100 000 EUR van art. 9, lid 6 heeft overschreden of waarschijnlijk zal overschrijden.",
+       "Bereken op basis van de bij rapportage beschikbare gegevens, raam ontbrekende werkelijke bedragen en actualiseer de bedragen bij het tussentijdse en het eindverslag."
+      ],
+      "bewijsstukken": [
+       "Kostensjabloon incidentkosten met de acht kostensoorten en uitsluitingen",
+       "Kostenreconstructie van een recent (ernstig) incident met drempeltoets"
+      ],
+      "rollen": [
+       "risk",
+       "IT-operations",
+       "compliance"
+      ],
+      "refs": [
+       {
+        "label": "Art. 7 GV 2024/1772",
+        "href": "/rts-classificatie/artikel/7#lid-1"
+       },
+       {
+        "label": "Art. 9, lid 6 GV 2024/1772",
+        "href": "/rts-classificatie/artikel/9#lid-6"
+       },
+       {
+        "label": "Art. 18, lid 1, punt f) DORA",
+        "href": "/artikel/18#lid-1-f"
+       }
+      ],
+      "appliesTo": [
+       "volledig",
+       "vereenvoudigd"
+      ],
+      "prioriteit": "kern",
+      "afhankelijkVan": [
+       "pe.i2"
+      ]
+     },
+     {
+      "id": "pe.im1",
+      "titel": "Richt de meldtemplates vooraf in met alle verplichte datavelden",
+      "doel": "Het meldmodel van bijlage I UV 2025/302 staat vooraf klaar met alle gegevensvelden per meldfase, gekoppeld aan bronsystemen, zodat een melding binnen de termijnen volledig en nauwkeurig kan worden ingevuld.",
+      "acties": [
+       "Neem alle gegevensvelden van bijlage I bij UV 2025/302 vooraf op in uw incidentregister of meldtool en markeer per veld in welke meldfase (eerste kennisgeving, tussentijds verslag, eindverslag) het verplicht is, volgens de kolommen 'Verplicht voor…' in bijlage II.",
+       "Map elk verplicht veld naar de bron in uw administratie (monitoring, CMDB, klant- en transactiesystemen, financiële administratie) zodat detectietijdstippen, getroffen cliënten en diensten, getroffen lidstaten, kosten/verliezen en hersteltijdstippen binnen de meldtermijnen opvraagbaar zijn.",
+       "Leg een werkwijze vast voor geraamde waarden: raam op basis van beschikbare gegevens wanneer exacte cijfers bij de eerste kennisgeving of het tussentijdse verslag ontbreken, en vervang ramingen door definitieve cijfers uiterlijk in het eindverslag.",
+       "Vul velden die pas in een latere meldfase verplicht zijn alvast in zodra de informatie beschikbaar is, en werk bij het tussentijdse en het eindverslag de eerder ingediende informatie bij.",
+       "Voer vóór elke indiening een vier-ogencontrole uit op volledigheid en nauwkeurigheid, met het glossarium en de instructies van bijlage II (veldtype, keuzelijsten) als toetssteen."
+      ],
+      "bewijsstukken": [
+       "Veldenmatrix meldtemplate ↔ bronsystemen per meldfase",
+       "Ingerichte meldtemplate of -tooling met verplichte velden",
+       "Vier-ogencontrolelijst per indiening"
+      ],
+      "rollen": [
+       "CISO",
+       "IT-operations",
+       "compliance"
+      ],
+      "refs": [
+       {
+        "label": "Art. 1 GV 2025/301",
+        "href": "/rts-incidentrapportage/artikel/1#inhoud"
+       },
+       {
+        "label": "Art. 2 GV 2025/301",
+        "href": "/rts-incidentrapportage/artikel/2#inhoud"
+       },
+       {
+        "label": "Art. 3 GV 2025/301",
+        "href": "/rts-incidentrapportage/artikel/3#inhoud"
+       },
+       {
+        "label": "Art. 4 GV 2025/301",
+        "href": "/rts-incidentrapportage/artikel/4#inhoud"
+       },
+       {
+        "label": "Art. 1, lid 5 UV 2025/302",
+        "href": "/its-incidentrapportage/artikel/1#lid-5"
+       },
+       {
+        "label": "Bijlage I UV 2025/302",
+        "href": "/its-incidentrapportage/bijlage/i"
+       },
+       {
+        "label": "Bijlage II UV 2025/302",
+        "href": "/its-incidentrapportage/bijlage/ii"
+       }
+      ],
+      "appliesTo": [
+       "volledig",
+       "vereenvoudigd"
+      ],
+      "prioriteit": "kern",
+      "afhankelijkVan": [
+       "pe.i4"
+      ]
+     },
+     {
+      "id": "pe.im2",
+      "titel": "Regel de indieningsvarianten: combineren, aggregeren van terugkerende incidenten en herclassificatie",
+      "doel": "Een vastgelegde werkwijze voor de bijzondere indieningsvormen van UV 2025/302: gecombineerde indiening, geaggregeerde rapportage van terugkerende incidenten en de kennisgeving van afschaling naar niet-ernstig.",
+      "acties": [
+       "Leg vast wanneer u indieningen combineert: twee of drie van de verslagen mogen tegelijk worden ingediend zodra de reguliere activiteiten zijn hersteld of de oorzaakanalyse is voltooid, mits elke afzonderlijke termijn (4/24 uur, 72 uur, 1 maand) gehaald blijft.",
+       "Rapporteer niet-ernstige terugkerende incidenten die cumulatief als één ernstig incident gelden in geaggregeerde vorm; gebruik daarvoor de uitkomst van de maandelijkse toets op terugkerende incidenten.",
+       "Meld een afschaling: concludeert u na herbeoordeling dat een als ernstig gemeld incident op geen enkel moment aan de drempels voldeed, stel de bevoegde autoriteit dan in kennis van de herclassificatie via het meldmodel: kies in veld 1.1 (Soort indiening) de optie 'ernstig incident geherclassificeerd als niet-ernstig' en motiveer in veld 2.10 (Andere nuttige informatie) waarom het incident op geen enkel moment aan de criteria beantwoordde (de velden die art. 5 UV 2025/302 aanduidt als 'soort verslag' en 'overige informatie').",
+       "Neem herclassificatie-informatie ook op in de eerste kennisgeving wanneer de afschaling zich al bij die melding aftekent."
+      ],
+      "bewijsstukken": [
+       "Procedureparagraaf gecombineerde/geaggregeerde indiening en herclassificatie",
+       "Herclassificatiekennisgevingen met interne herbeoordeling"
+      ],
+      "rollen": [
+       "CISO",
+       "compliance"
+      ],
+      "refs": [
+       {
+        "label": "Art. 2 UV 2025/302",
+        "href": "/its-incidentrapportage/artikel/2#inhoud"
+       },
+       {
+        "label": "Art. 3 UV 2025/302",
+        "href": "/its-incidentrapportage/artikel/3#inhoud"
+       },
+       {
+        "label": "Art. 5 UV 2025/302",
+        "href": "/its-incidentrapportage/artikel/5#inhoud"
+       },
+       {
+        "label": "Art. 8, lid 2 GV 2024/1772",
+        "href": "/rts-classificatie/artikel/8#lid-2"
+       }
+      ],
+      "appliesTo": [
+       "volledig",
+       "vereenvoudigd"
+      ],
+      "prioriteit": "verdieping",
+      "afhankelijkVan": [
+       "pe.i4"
+      ]
+     },
+     {
+      "id": "pe.im3",
+      "titel": "Sluit aan op het beveiligde meldkanaal van uw bevoegde autoriteit",
+      "doel": "Werkende, geteste toegang tot het door de autoriteit beschikbaar gestelde beveiligde elektronische kanaal, met een terugvalwerkwijze voor kanaalstoring.",
+      "acties": [
+       "Sluit aan op het beveiligde elektronische meldkanaal van uw bevoegde autoriteit: vraag accounts aan, wijs beheerders en plaatsvervangers aan en test de toegang vóór het eerste incident.",
+       "Leg een terugvalwerkwijze vast voor als het kanaal niet bruikbaar is: meld via andere beveiligde middelen in overleg met de autoriteit en dien de kennisgeving of het verslag op haar verzoek opnieuw in via het reguliere kanaal zodra dat weer kan; integreer dit in de terugvalprocedure van pe.i4 (model technisch niet indienbaar, art. 19, lid 1, vierde alinea DORA), zodat één procedure model- én kanaalstoring dekt.",
+       "Beheer de toegangsmiddelen actief: registreer vervaldatums van certificaten en accounts en controleer de werking ten minste jaarlijks, bijvoorbeeld als onderdeel van de meldoefening uit pe.i4."
+      ],
+      "bewijsstukken": [
+       "Accountregistratie meldportaal met beheerders en vervaldatums",
+       "Terugvalprocedure kanaalstoring",
+       "Testlog toegang meldkanaal"
+      ],
+      "rollen": [
+       "IT-operations",
+       "CISO",
+       "compliance"
+      ],
+      "refs": [
+       {
+        "label": "Art. 4, lid 1 UV 2025/302",
+        "href": "/its-incidentrapportage/artikel/4#lid-1"
+       },
+       {
+        "label": "Art. 4, lid 2 UV 2025/302",
+        "href": "/its-incidentrapportage/artikel/4#lid-2"
+       },
+       {
+        "label": "Art. 19, lid 1 DORA",
+        "href": "/artikel/19#lid-1"
+       }
+      ],
+      "appliesTo": [
+       "volledig",
+       "vereenvoudigd"
+      ],
+      "prioriteit": "kern",
+      "afhankelijkVan": [
+       "pe.i4"
+      ]
+     },
+     {
+      "id": "pe.im4",
+      "titel": "Beoordeel geaggregeerde rapportage via uw derde dienstverlener",
+      "doel": "Een gedocumenteerde toets of geaggregeerde melding door de dienstverlener aan wie de rapportage is uitbesteed voor uw entiteit is toegestaan en gewenst, met borging dat individuele melding op verzoek altijd mogelijk blijft.",
+      "acties": [
+       "Toets of geaggregeerde rapportage openstaat: alleen als het incident bij een derde ICT-dienstverlener ontstond of daardoor is veroorzaakt, die de dienst aan meerdere entiteiten of een groep levert, elke betrokken entiteit het incident zelf als ernstig classificeert, alle entiteiten in één lidstaat onder dezelfde bevoegde autoriteit vallen én die autoriteit aggregatie voor deze soort entiteiten uitdrukkelijk heeft toegestaan.",
+       "Documenteer dat kredietinstellingen die als belangrijk (significant) zijn aangemerkt in de zin van art. 2, punt 16, van Verordening (EU) nr. 468/2014,, exploitanten van handelsplatformen en centrale tegenpartijen altijd individueel melden; sluit aggregatie voor deze entiteiten uit in de afspraken met de dienstverlener.",
+       "Spreek met de dienstverlener af dat elke entiteit haar eigen classificatie uitvoert en dat op verzoek van de autoriteit alsnog een individuele kennisgeving of een individueel verslag wordt ingediend.",
+       "Controleer bij elke geaggregeerde indiening dat de namen en LEI-codes van alle betrokken financiële entiteiten zijn opgenomen."
+      ],
+      "bewijsstukken": [
+       "Toetsingsmemo voorwaarden geaggregeerde rapportage",
+       "Contractafspraken over individuele en geaggregeerde melding"
+      ],
+      "rollen": [
+       "compliance",
+       "juridisch",
+       "inkoop"
+      ],
+      "refs": [
+       {
+        "label": "Art. 7, lid 1 UV 2025/302",
+        "href": "/its-incidentrapportage/artikel/7#lid-1"
+       },
+       {
+        "label": "Art. 7, lid 2 UV 2025/302",
+        "href": "/its-incidentrapportage/artikel/7#lid-2"
+       },
+       {
+        "label": "Art. 7, lid 3 UV 2025/302",
+        "href": "/its-incidentrapportage/artikel/7#lid-3"
+       },
+       {
+        "label": "Art. 1 GV 2025/301",
+        "href": "/rts-incidentrapportage/artikel/1#inhoud"
+       },
+       {
+        "label": "Art. 19, lid 5 DORA",
+        "href": "/artikel/19#lid-5"
+       }
+      ],
+      "appliesTo": [
+       "volledig",
+       "vereenvoudigd"
+      ],
+      "prioriteit": "verdieping",
+      "afhankelijkVan": [
+       "pe.i7"
       ]
      }
     ]
@@ -3426,6 +3733,455 @@
        {
         "label": "Bijlage VIII GV 2025/1190",
         "href": "/rts-tlpt/bijlage/viii"
+       }
+      ],
+      "appliesTo": [
+       "volledig"
+      ],
+      "prioriteit": "verdieping",
+      "afhankelijkVan": [
+       "pe.t6"
+      ]
+     },
+     {
+      "id": "pe.tl1",
+      "titel": "Richt het control team en de geheimhouding van de TLPT in",
+      "doel": "Een door de TLPT-autoriteit gevalideerd control team onder een aangewezen leider beheert de TLPT dagelijks, met organisatorisch geborgde vertrouwelijkheid en escalatiebeheersing.",
+      "acties": [
+       "Stel een leider van het control team aan die verantwoordelijk is voor het dagelijkse beheer van de TLPT en voor de beslissingen en acties van het control team; zet na validatie van de initiëringsdocumenten het control team op met de taken van art. 9, lid 4: communicatiekanalen specificeren, het leidinggevend orgaan informeren over voortgang en risico's, inhoudelijke beslissingen nemen, aanbieders van dreigingsinformatie en testers selecteren en het scoping-document opstellen.",
+       "Beperk de toegang tot informatie over geplande of lopende TLPT's op need-to-know-basis tot het control team, het leidinggevend orgaan, de testers, de aanbieder van dreigingsinformatie en de TLPT-autoriteit, en laat betrokken partijen waar mogelijk uitsluitend met een codenaam naar de test verwijzen.",
+       "Leg procedureel vast dat het control team de testmanagers raadpleegt voordat een blue-teamlid bij de TLPT wordt betrokken, dat elke ontdekking van de test door eigen personeel of personeel van derde dienstenaanbieders aan het control team wordt gemeld, en dat het control team een daaruit voortvloeiende escalatie van de incidentrespons zo nodig indamt.",
+       "Voer geheimhoudingsregelingen in die gelden voor het eigen personeel, het personeel van betrokken derde aanbieders van ICT-diensten, de testers en de aanbieder van dreigingsinformatie, en borg dat het control team op verzoek alle TLPT-informatie aan de testmanagers verstrekt."
+      ],
+      "bewijsstukken": [
+       "Aanstellingsbesluit leider control team en door de TLPT-autoriteit gevalideerde teamsamenstelling",
+       "Need-to-know- en geheimhoudingsregeling voor de TLPT, inclusief codenaamgebruik",
+       "Procedure blue-team-afscherming, ontdekkingsmelding en escalatie-indamming"
+      ],
+      "rollen": [
+       "CISO",
+       "bestuur",
+       "juridisch",
+       "HR"
+      ],
+      "refs": [
+       {
+        "label": "Art. 4, lid 1 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/4#lid-1"
+       },
+       {
+        "label": "Art. 4, lid 2 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/4#lid-2"
+       },
+       {
+        "label": "Art. 9, lid 4 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/9#lid-4"
+       }
+      ],
+      "appliesTo": [
+       "volledig"
+      ],
+      "prioriteit": "verdieping",
+      "afhankelijkVan": [
+       "pe.t4"
+      ]
+     },
+     {
+      "id": "pe.tl2",
+      "titel": "Beoordeel en beheers de risico's van de TLPT",
+      "doel": "Een gedocumenteerde, gedurende de hele test bijgehouden TLPT-risicobeoordeling met beheersmaatregelen die schade aan live productiesystemen, de sector en de financiële stabiliteit mitigeren.",
+      "acties": [
+       "Laat het control team tijdens de voorbereidende fase de risico's beoordelen van het testen van live productiesystemen van kritieke of belangrijke functies, inclusief de potentiële impact op de financiële sector en op de financiële stabiliteit op Unie- en nationaal niveau, en actualiseer die beoordeling gedurende de hele test.",
+       "Dek in de beoordeling ten minste de risico's van: toegang van de aanbieder van dreigingsinformatie en externe testers tot gevoelige informatie; niet-conformiteit met DORA of deze verordening die tot het niet afgeven van het attest leidt (ook bij vertrouwelijkheidsinbreuken of niet-ethisch gedrag); escalatie van crises en incidenten; de actieve red-teamfase en de blue-teamactiviteit (onderbreking van kritieke activiteiten, aantasting van data, impact op derden); en onvolledige terugzetting van aangetaste systemen.",
+       "Raadpleeg vóór de aanvang van de testfase de testmanagers over de risicobeoordeling en de beheersmaatregelen, en evalueer beide opnieuw wanneer de TLPT-autoriteit ze ontoereikend acht.",
+       "Voer bij een gepoolde of gezamenlijke TLPT als elk deelnemend control team een eigen risicobeoordeling met eigen beheersmaatregelen uit; is uw entiteit de aangewezen entiteit, beoordeel dan ook de risico's van de betrokkenheid van meerdere entiteiten en breng samen met de andere control teams de gezamenlijke risico's in kaart."
+      ],
+      "bewijsstukken": [
+       "TLPT-risicobeoordeling met beheersmaatregelen en actualisatiehistorie",
+       "Verslag van de raadpleging van de testmanagers over risicobeoordeling en maatregelen"
+      ],
+      "rollen": [
+       "risk",
+       "CISO",
+       "IT-operations"
+      ],
+      "refs": [
+       {
+        "label": "Art. 5, lid 1 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/5#lid-1"
+       },
+       {
+        "label": "Art. 5, lid 2 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/5#lid-2"
+       },
+       {
+        "label": "Art. 6, lid 1 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/6#lid-1"
+       },
+       {
+        "label": "Art. 6, lid 2 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/6#lid-2"
+       },
+       {
+        "label": "Art. 9, lid 10 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/9#lid-10"
+       },
+       {
+        "label": "Art. 26, lid 5 DORA",
+        "href": "/artikel/26#lid-5"
+       }
+      ],
+      "appliesTo": [
+       "volledig"
+      ],
+      "prioriteit": "verdieping",
+      "afhankelijkVan": [
+       "pe.tl1"
+      ]
+     },
+     {
+      "id": "pe.tl3",
+      "titel": "Toets en contracteer de aanbieders van dreigingsinformatie en de testers",
+      "doel": "Alleen aanbieders die aantoonbaar aan de kwalificatie-, ervarings- en scheidingsvereisten voldoen worden — na bewijslevering aan de testmanagers — gecontracteerd, met sluitende herstel- en verbodsbepalingen in het contract.",
+      "acties": [
+       "Verifieer per TLPT dat de aanbieder van dreigingsinformatie en de externe testers gedetailleerde cv's en passende certificeringen volgens erkende marktnormen overleggen, volledig gedekt zijn door beroepsaansprakelijkheidsverzekering (inclusief fouten en nalatigheid) en referenties leveren van eerdere penetratie- en red-teamopdrachten: ten minste drie (dreigingsinformatie) respectievelijk vijf (externe testers).",
+       "Toets de teamsamenstelling: dreigingsinformatieteam met ten minste één manager met vijf jaar en één lid met twee jaar ervaring en drie gezamenlijke eerdere opdrachten; red team met ten minste één manager met vijf jaar en twee testers met elk twee jaar ervaring en vijf gezamenlijke eerdere opdrachten; controleer de functiescheiding (geen gelijktijdige blue-teamtaken of conflicterende diensten, gescheiden van personeel van dezelfde aanbieder dat de andere TLPT-rol voor dezelfde test vervult).",
+       "Leg contractueel de herstelprocedures voor het einde van de test vast (veilig verwijderen van gecompromitteerde wachtwoorden, credentials en sleutels; commando- en controledeactivering; scope en datum van kill-switches; verwijderen van achterdeuren en malware; kennisgeving van mogelijke inbreuken; procedures voor terugzetting van back-ups; monitoring van blue-teamactiviteiten) en de verboden activiteiten (onder meer vernietiging van apparatuur, ongecontroleerde wijziging van activa, doelbewust compromitteren van continuïteit, systemen buiten de scope, openbaarmaking van resultaten).",
+       "Documenteer de beoordeling van elke beoogde aanbieder tegen art. 27 DORA en art. 7, lid 1 GV 2025/1190, lever de testmanagers vóór contractering het conformiteitsbewijs, contracteer niet bij een negatief oordeel van de TLPT-autoriteit en bewaar de door aanbieders overgelegde documentatie.",
+       "Huurt u in uitzonderlijke omstandigheden een aanbieder in die niet aan alle vereisten van art. 7, lid 1, punten a) tot en met f) voldoet: neem passende, gedocumenteerde maatregelen om de daaraan verbonden risico's te mitigeren."
+      ],
+      "bewijsstukken": [
+       "Selectiedossier per TLPT-aanbieder (cv's, certificeringen, referenties, verzekeringsbewijs)",
+       "Conformiteitsbewijs aan de testmanagers vóór contractering",
+       "Contracten met herstelprocedures en verboden activiteiten"
+      ],
+      "rollen": [
+       "inkoop",
+       "juridisch",
+       "CISO",
+       "risk"
+      ],
+      "refs": [
+       {
+        "label": "Art. 7, lid 1 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/7#lid-1"
+       },
+       {
+        "label": "Art. 7, lid 2 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/7#lid-2"
+       },
+       {
+        "label": "Art. 9, lid 11 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/9#lid-11"
+       },
+       {
+        "label": "Art. 27, lid 1 DORA",
+        "href": "/artikel/27#lid-1"
+       },
+       {
+        "label": "Art. 27, lid 3 DORA",
+        "href": "/artikel/27#lid-3"
+       }
+      ],
+      "appliesTo": [
+       "volledig"
+      ],
+      "prioriteit": "verdieping",
+      "afhankelijkVan": [
+       "pe.t6",
+       "pe.tl1"
+      ]
+     },
+     {
+      "id": "pe.tl4",
+      "titel": "Doorloop de voorbereidende fase binnen de termijnen",
+      "doel": "Tijdig ingediende en door de TLPT-autoriteit gevalideerde initiëringsdocumenten en een goedgekeurd scoping-document, zodat de testfase kan starten.",
+      "acties": [
+       "Initieer de TLPT na ontvangst van de kennisgeving van de TLPT-autoriteit en dien binnen drie maanden de initiëringsinformatie in bij de testmanagers: het project charter met projectplan op hoofdlijnen (bijlage I), de contactgegevens van de leider van het control team, het voorgenomen gebruik van interne en/of externe testers, de communicatiekanalen en de codenaam van de TLPT.",
+       "Dien binnen zes maanden na de kennisgeving het scoping-document (bijlage II) in bij de testmanagers, goedgekeurd door het leidinggevend orgaan; weeg bij het opnemen van kritieke of belangrijke functies in de scope de criteria van art. 9, lid 7: kritikaliteit en impact op sector en financiële stabiliteit, belang voor de dagelijkse bedrijfsvoering, inwisselbaarheid, verwevenheid met andere functies, geografische locatie, sectorale afhankelijkheid en beschikbare dreigingsinformatie.",
+       "Rond het inhuren of toewijzen van testers en aanbieders van dreigingsinformatie af vóór de aanvang van de testfase; deel de initiërings- en scopingdocumenten met hen zodra zij zijn gecontracteerd en informeer hen over het te volgen testproces.",
+       "Verwerk de validatie-opmerkingen van de TLPT-autoriteit op de initiëringsinformatie, de samenstelling van het control team en het scoping-document totdat de goedkeuringskennisgevingen zijn ontvangen."
+      ],
+      "bewijsstukken": [
+       "Ingediend project charter en scoping-document met goedkeuring van het leidinggevend orgaan",
+       "Validatie- en goedkeuringskennisgevingen van de TLPT-autoriteit",
+       "Bewijs dat contractering van TLPT-aanbieders vóór de testfase is afgerond"
+      ],
+      "rollen": [
+       "CISO",
+       "risk",
+       "bestuur"
+      ],
+      "refs": [
+       {
+        "label": "Art. 9, lid 1 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/9#lid-1"
+       },
+       {
+        "label": "Art. 9, lid 2 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/9#lid-2"
+       },
+       {
+        "label": "Art. 9, lid 6 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/9#lid-6"
+       },
+       {
+        "label": "Art. 9, lid 7 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/9#lid-7"
+       },
+       {
+        "label": "Art. 9, lid 9 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/9#lid-9"
+       },
+       {
+        "label": "Bijlage I GV 2025/1190",
+        "href": "/rts-tlpt/bijlage/i"
+       },
+       {
+        "label": "Bijlage II GV 2025/1190",
+        "href": "/rts-tlpt/bijlage/ii"
+       },
+       {
+        "label": "Art. 26, lid 8 DORA",
+        "href": "/artikel/26#lid-8"
+       }
+      ],
+      "appliesTo": [
+       "volledig"
+      ],
+      "prioriteit": "verdieping",
+      "afhankelijkVan": [
+       "pe.t4",
+       "pe.tl1"
+      ]
+     },
+     {
+      "id": "pe.tl5",
+      "titel": "Stuur de dreigingsinformatiefase en de scenarioselectie",
+      "doel": "Een door de TLPT-autoriteit goedgekeurd Target Threat Intelligence Report met ten minste drie realistische scenario's die elke kritieke of belangrijke functie binnen de scope dekken.",
+      "acties": [
+       "Laat de aanbieder van dreigingsinformatie na goedkeuring van het scoping-document algemene en sectorspecifieke dreigingsinformatie analyseren (waar beschikbaar op basis van het door de TLPT-autoriteit verstrekte nationale dreigingslandschap), cyberdreigingen en kwetsbaarheden van de entiteit in kaart brengen en concrete, actionable en gecontextualiseerde doel- en dreigingsinformatie verzamelen, in overleg met het control team en de testmanagers.",
+       "Laat de leider van het control team ten minste drie scenario's selecteren op basis van de aanbeveling van de aanbieder van dreigingsinformatie en het dreigingsgestuurde karakter, de input van de testmanagers, de haalbaarheid volgens het deskundige oordeel van de testers en het risicoprofiel en de complexiteit van de entiteit; de scenario's verschillen in dreigingsactoren en bijbehorende TTP's en richten zich op elke kritieke of belangrijke functie binnen de scope.",
+       "Sta maximaal één niet-dreigingsgestuurd scenario toe (prospectieve fictieve dreiging met hoge voorspellende waarde); borg bij een gepoolde of gezamenlijke TLPT ten minste één scenario dat de onderliggende ICT-systemen, -processen en -technologieën van de betrokken derde of intragroepsaanbieder van ICT-diensten dekt.",
+       "Ontvang het Target Threat Intelligence Report met de geselecteerde scenario's (bijlage III) en leg het via de testmanager ter goedkeuring voor aan de TLPT-autoriteit; start de red-teamfase pas na die goedkeuring."
+      ],
+      "bewijsstukken": [
+       "Goedgekeurd Target Threat Intelligence Report met scenarioselectie en onderbouwing"
+      ],
+      "rollen": [
+       "CISO",
+       "risk"
+      ],
+      "refs": [
+       {
+        "label": "Art. 10, lid 1 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/10#lid-1"
+       },
+       {
+        "label": "Art. 10, lid 3 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/10#lid-3"
+       },
+       {
+        "label": "Art. 10, lid 4 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/10#lid-4"
+       },
+       {
+        "label": "Art. 10, lid 5 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/10#lid-5"
+       },
+       {
+        "label": "Art. 10, lid 6 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/10#lid-6"
+       },
+       {
+        "label": "Bijlage III GV 2025/1190",
+        "href": "/rts-tlpt/bijlage/iii"
+       },
+       {
+        "label": "Art. 26, lid 2 DORA",
+        "href": "/artikel/26#lid-2"
+       }
+      ],
+      "appliesTo": [
+       "volledig"
+      ],
+      "prioriteit": "verdieping",
+      "afhankelijkVan": [
+       "pe.tl4",
+       "pe.tl3"
+      ]
+     },
+     {
+      "id": "pe.tl6",
+      "titel": "Beheers de actieve red-teamtestfase",
+      "doel": "Een goedgekeurd red-teamtestplan wordt gedurende ten minste twaalf weken gecontroleerd uitgevoerd, met wekelijkse voortgangsrapportage, beheerste leg-ups en een protocol voor ontdekking en opschorting.",
+      "acties": [
+       "Laat de testers na goedkeuring van het TTI-rapport het red-teamtestplan (bijlage IV) opstellen op basis van het scoping-document en het TTI-rapport, laat hen het control team, de aanbieder van dreigingsinformatie en de testmanagers raadplegen (inclusief communicatie-, procedurele en projectmanagementregelingen, leg-up-use-cases en rapportageafspraken) en keur het plan als control team goed naast de TLPT-autoriteit.",
+       "Plan de actieve red-teamtestfase evenredig aan de scope en complexiteit met een duur van ten minste twaalf weken; voer scenario's sequentieel of gelijktijdig uit en stem het einde van de fase af tussen control team, aanbieder van dreigingsinformatie, testers en testmanagers.",
+       "Laat wijzigingen van het vastgestelde testplan (tijdschema, scope, doelwitsystemen, flags) alleen doorgaan na goedkeuring van de leider van het control team en de testmanagers, en zie toe op ten minste wekelijkse voortgangsrapportage van de testers aan control team en testmanagers, met de aanbieder van dreigingsinformatie beschikbaar voor aanvullend overleg.",
+       "Verstrek tijdig leg-ups die op basis van het testplan zijn ontworpen; voeg leg-ups alleen toe of pas ze aan na goedkeuring van het control team en de testmanagers.",
+       "Stel bij ontdekking van testwerkzaamheden door personeel — in overleg met de testers — aan de testmanagers maatregelen ter validatie voor waarmee de test geheim kan worden voortgezet; laat de leider van het control team de TLPT bij buitengewone risico's voor data, activa of kritieke functies opschorten, of zet als laatste redmiddel en na voorafgaande validatie door de TLPT-autoriteit voort met een beperkte purple-teamingoefening (die meetelt voor de minimumduur van twaalf weken)."
+      ],
+      "bewijsstukken": [
+       "Goedgekeurd red-teamtestplan",
+       "Wekelijkse voortgangsrapportages van de testers",
+       "Log van leg-ups, planwijzigingen en eventuele opschortings- of purple-teamingbesluiten"
+      ],
+      "rollen": [
+       "CISO",
+       "IT-operations",
+       "risk"
+      ],
+      "refs": [
+       {
+        "label": "Art. 11, lid 1 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/11#lid-1"
+       },
+       {
+        "label": "Art. 11, lid 3 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/11#lid-3"
+       },
+       {
+        "label": "Art. 11, lid 5 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/11#lid-5"
+       },
+       {
+        "label": "Art. 11, lid 7 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/11#lid-7"
+       },
+       {
+        "label": "Art. 11, lid 8 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/11#lid-8"
+       },
+       {
+        "label": "Art. 11, lid 10 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/11#lid-10"
+       },
+       {
+        "label": "Bijlage IV GV 2025/1190",
+        "href": "/rts-tlpt/bijlage/iv"
+       },
+       {
+        "label": "Art. 26, lid 1 DORA",
+        "href": "/artikel/26#lid-1"
+       }
+      ],
+      "appliesTo": [
+       "volledig"
+      ],
+      "prioriteit": "verdieping",
+      "afhankelijkVan": [
+       "pe.tl5"
+      ]
+     },
+     {
+      "id": "pe.tl7",
+      "titel": "Voer de afsluitende fase uit: rapporten, replay en remediëring",
+      "doel": "Alle afsluitende deliverables — red- en blue-teamtestrapporten, replay en purple teaming, samenvattend bevindingenrapport en remediëringsplan — worden binnen de voorgeschreven termijnen opgeleverd.",
+      "acties": [
+       "Informeer na het einde van de actieve red-teamtestfase het blue team dat er een TLPT heeft plaatsgevonden; ontvang binnen vier weken het red-team-testrapport (bijlage V) van de testers en verstrek het zonder onnodige vertraging aan het blue team en de testmanagers (op verzoek van de testmanagers zonder gevoelige informatie).",
+       "Laat het blue team uiterlijk tien weken na het einde van de actieve red-teamtestfase het blue-team-testrapport (bijlage VI) bij het control team indienen en verstrek dit onverwijld aan de testers en de testmanagers.",
+       "Voer uiterlijk tien weken na het einde van de actieve red-teamtestfase met blue team en testers een replay uit van de offensieve en defensieve acties en een purple-teamingoefening over geconstateerde kwetsbaarheden en niet-geteste punten; organiseer aansluitend wederzijdse feedback tussen control team, blue team, testers en aanbieders van dreigingsinformatie.",
+       "Dien binnen acht weken na de kennisgeving dat beide testrapporten volledig zijn bevonden het samenvattende bevindingenrapport (bijlage VII) ter goedkeuring in bij de TLPT-autoriteit (op verzoek zonder gevoelige informatie).",
+       "Verstrek binnen acht weken na die kennisgeving het remediëringsplan en de documentatie aan de TLPT-autoriteit en, indien verschillend, aan uw bevoegde autoriteit; neem per bevinding op: beschrijving van de tekortkomingen, voorgestelde maatregelen met prioritering en verwachte voltooiing, een root cause analysis, de verantwoordelijke personen of functies en de risico's van niet-uitvoering (en in voorkomend geval van uitvoering)."
+      ],
+      "bewijsstukken": [
+       "Red-team- en blue-team-testrapporten met indieningstijdstempels",
+       "Verslag van replay- en purple-teamingoefeningen en feedbackronde",
+       "Goedgekeurd samenvattend bevindingenrapport en ingediend remediëringsplan"
+      ],
+      "rollen": [
+       "CISO",
+       "risk",
+       "compliance",
+       "bestuur"
+      ],
+      "refs": [
+       {
+        "label": "Art. 12, lid 2 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/12#lid-2"
+       },
+       {
+        "label": "Art. 12, lid 4 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/12#lid-4"
+       },
+       {
+        "label": "Art. 12, lid 5 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/12#lid-5"
+       },
+       {
+        "label": "Art. 12, lid 7 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/12#lid-7"
+       },
+       {
+        "label": "Art. 13, lid 1 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/13#lid-1"
+       },
+       {
+        "label": "Art. 13, lid 2 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/13#lid-2"
+       },
+       {
+        "label": "Bijlage V GV 2025/1190",
+        "href": "/rts-tlpt/bijlage/v"
+       },
+       {
+        "label": "Bijlage VI GV 2025/1190",
+        "href": "/rts-tlpt/bijlage/vi"
+       },
+       {
+        "label": "Bijlage VII GV 2025/1190",
+        "href": "/rts-tlpt/bijlage/vii"
+       },
+       {
+        "label": "Art. 26, lid 6 DORA",
+        "href": "/artikel/26#lid-6"
+       }
+      ],
+      "appliesTo": [
+       "volledig"
+      ],
+      "prioriteit": "verdieping",
+      "afhankelijkVan": [
+       "pe.tl6"
+      ]
+     },
+     {
+      "id": "pe.tl8",
+      "titel": "Stel een beleid voor de inzet van interne testers vast",
+      "doel": "Interne testers worden alleen ingezet onder een gedocumenteerd, periodiek herzien beleid dat capaciteit, geschiktheid en belangenconflicten beheerst en de verdedigingscapaciteit tijdens de test intact laat.",
+      "acties": [
+       "Stel een beleid vast voor het beheer van interne testers in een TLPT, met criteria voor geschiktheid, bekwaamheid en potentiële belangenconflicten en met gespecificeerde managementverantwoordelijkheden in het testproces; documenteer het beleid en herzie het periodiek.",
+       "Borg de teameisen in het beleid: een testleider plus ten minste twee andere leden, alle leden gedurende de voorgaande twaalf maanden in dienst bij de entiteit of bij een intragroepsaanbieder van ICT-diensten (testers van een intragroepsaanbieder gelden als interne testers), en bepalingen over het opleiden van interne testers in penetratie- en red-teamtests.",
+       "Neem maatregelen zodat de inzet van interne testers de algemene verdedigings- en weerbaarheidscapaciteit bij ICT-incidenten niet negatief beïnvloedt en geen aanzienlijke impact heeft op de beschikbaarheid van middelen voor ICT-taken tijdens de TLPT, en zorg dat interne testers over voldoende middelen en capaciteiten beschikken.",
+       "Vermeld de inzet van interne testers expliciet in de testinitiëringsinformatie, het red-team-testrapport en het samenvattende bevindingenrapport."
+      ],
+      "bewijsstukken": [
+       "Beleid interne testers met revisiehistorie",
+       "Bezettings-, dienstverband- en opleidingsdossier van het interne testteam",
+       "Vermelding van interne-testerinzet in initiëringsinformatie en testrapporten"
+      ],
+      "rollen": [
+       "CISO",
+       "HR",
+       "risk"
+      ],
+      "refs": [
+       {
+        "label": "Art. 15, lid 1 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/15#lid-1"
+       },
+       {
+        "label": "Art. 15, lid 3 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/15#lid-3"
+       },
+       {
+        "label": "Art. 15, lid 4 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/15#lid-4"
+       },
+       {
+        "label": "Art. 27, lid 2 DORA",
+        "href": "/artikel/27#lid-2"
        }
       ],
       "appliesTo": [
@@ -7117,20 +7873,1123 @@
     "bijlagen": {}
    },
    "classificatie": {
-    "artikelen": {},
+    "artikelen": {
+     "1": {
+      "lid-1": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i3",
+        "pe.ic1"
+       ],
+       "note": "Telregel: alle getroffen cliënten (natuurlijke én rechtspersonen) die de dienst tijdens het incident gebruiken of negatief zijn beïnvloed, inclusief derden die als begunstigde uitdrukkelijk onder het contract tussen entiteit en cliënt vallen.",
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i3",
+        "pe.ic1"
+       ],
+       "reviewed": false
+      },
+      "lid-3": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i3",
+        "pe.ic1"
+       ],
+       "note": "De relevantie-weging (impact op bedrijfsdoelstellingen en marktefficiëntie) werkt door in de drempel van art. 9, lid 1, punt f): één getroffen relevante cliënt of tegenpartij bereikt die drempel al.",
+       "reviewed": false
+      },
+      "lid-4": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i3",
+        "pe.ic1"
+       ],
+       "note": "Transacties tellen mee wanneer er een geldbedrag bij betrokken is en ten minste één deel van de transactie in de Unie wordt uitgevoerd.",
+       "reviewed": false
+      },
+      "lid-5": {
+       "disposition": "stap",
+       "steps": [
+        "pe.ic1"
+       ],
+       "reviewed": false
+      }
+     },
+     "2": {
+      "lid-1": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i3"
+       ],
+       "note": "Reputatieschade wordt geacht te zijn opgetreden bij één van de vier signalen: mediaberichtgeving, herhaalde klachten van verschillende cliënten of tegenpartijen, (dreigende) niet-naleving van wettelijke vereisten, of (dreigend) verlies van cliënten of tegenpartijen met wezenlijke impact.",
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i3"
+       ],
+       "reviewed": false
+      }
+     },
+     "3": {
+      "lid-1": {
+       "disposition": "stap",
+       "steps": [
+        "pe.ic1"
+       ],
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "stap",
+       "steps": [
+        "pe.ic1"
+       ],
+       "note": "Uitvaltijd loopt tot herstel van het dienstverleningsniveau van vóór het incident; veroorzaakt de uitval daarna nog vertraagde dienstverlening, dan loopt de meting door tot die vertraagde dienst volledig is verleend.",
+       "reviewed": false
+      }
+     },
+     "4": {
+      "inhoud": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i3"
+       ],
+       "note": "De hier beoordeelde grensoverschrijdende effecten (cliënten/tegenpartijen, bijkantoren of groepsentiteiten, FMI's of derde aanbieders in andere lidstaten) zijn ook de basis waarop autoriteiten de relevantie voor andere lidstaten beoordelen (art. 11).",
+       "reviewed": false
+      }
+     },
+     "5": {
+      "inhoud": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i3"
+       ],
+       "reviewed": false
+      }
+     },
+     "6": {
+      "inhoud": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i3"
+       ],
+       "note": "Poortwachterscriterium: zonder effect op kritieke diensten in de zin van dit artikel (kritieke of belangrijke functies, vergunningplichtige financiële diensten, of geslaagde kwaadwillige ongeoorloofde toegang) kan een incident nooit ernstig zijn (art. 8, lid 1).",
+       "reviewed": false
+      }
+     },
+     "7": {
+      "lid-1": {
+       "disposition": "stap",
+       "steps": [
+        "pe.ic2",
+        "pe.i3"
+       ],
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "stap",
+       "steps": [
+        "pe.ic2"
+       ],
+       "reviewed": false
+      },
+      "lid-3": {
+       "disposition": "stap",
+       "steps": [
+        "pe.ic2"
+       ],
+       "reviewed": false
+      },
+      "lid-4": {
+       "disposition": "stap",
+       "steps": [
+        "pe.ic2"
+       ],
+       "reviewed": false
+      }
+     },
+     "8": {
+      "lid-1": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i3"
+       ],
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i2"
+       ],
+       "reviewed": false
+      }
+     },
+     "9": {
+      "lid-1": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i3",
+        "pe.ic1"
+       ],
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i3"
+       ],
+       "reviewed": false
+      },
+      "lid-3": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i3"
+       ],
+       "reviewed": false
+      },
+      "lid-4": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i3"
+       ],
+       "reviewed": false
+      },
+      "lid-5": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i3"
+       ],
+       "note": "Punt b) — geslaagde kwaadwillige ongeoorloofde toegang die tot gegevensverlies kan leiden — is de drempel die op zichzelf (met het kritieke-dienstencriterium) een incident al ernstig maakt (art. 8, lid 1, punt a).",
+       "reviewed": false
+      },
+      "lid-6": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i3",
+        "pe.ic2"
+       ],
+       "reviewed": false
+      }
+     },
+     "10": {
+      "inhoud": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i3"
+       ],
+       "note": "De drie voorwaarden zijn cumulatief; bij de drempeltoets (voorwaarde c) zijn de drempels van art. 9, leden 1 en 4, en het kritieke-dienstencriterium van art. 6 leidend, de overige drempels van art. 9 mogen aanvullend worden meegewogen.",
+       "reviewed": false
+      }
+     },
+     "11": {
+      "inhoud": {
+       "disposition": "autoriteit",
+       "note": "Gericht aan de ESA's en de ECB (art. 19, lid 7, DORA): zij beoordelen of een gemeld ernstig incident relevant is voor autoriteiten in andere lidstaten, op basis van een onderliggende oorzaak uit een andere lidstaat of aanzienlijke gevolgen daar. Relevant voor de lezer: de gegevens die u onder art. 4 over grensoverschrijdende effecten (cliënten, groepsentiteiten, FMI's/derde aanbieders) vastlegt en meldt, voeden deze beoordeling — een grensoverschrijdend incident bereikt dus via uw melding ook toezichthouders elders.",
+       "reviewed": false
+      }
+     },
+     "12": {
+      "inhoud": {
+       "disposition": "autoriteit",
+       "note": "Gericht aan bevoegde autoriteiten en de ESA's/ECB (art. 19, leden 6 en 7, DORA): de bijzonderheden die zij onderling delen bevatten hetzelfde informatieniveau als uw kennisgevingen en verslagen, zonder enige anonimisering. Relevant voor de lezer: alles wat u in incidentmeldingen opneemt kan integraal en herleidbaar bij andere autoriteiten terechtkomen — reken daarop bij de kwaliteit en formulering van uw meldingen.",
+       "reviewed": false
+      }
+     },
+     "13": {
+      "inhoud": {
+       "disposition": "slotbepaling",
+       "reviewed": false
+      }
+     }
+    },
     "bijlagen": {}
    },
    "rapportage": {
-    "artikelen": {},
+    "artikelen": {
+     "1": {
+      "inhoud": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i4",
+        "pe.im1"
+       ],
+       "note": "Algemene informatievelden (soort indiening, LEI, indienende entiteit, contactpersonen, groep, valuta) die in alle drie meldfasen terugkomen; pe.im1 richt deze velden vooraf in.",
+       "reviewed": false
+      }
+     },
+     "2": {
+      "inhoud": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i4",
+        "pe.im1"
+       ],
+       "note": "Verplichte inhoud eerste kennisgeving, incl. classificatie-onderbouwing tegen GV 2024/1772 en eventuele herclassificatie-informatie (punt i, zie ook pe.im2).",
+       "reviewed": false
+      }
+     },
+     "3": {
+      "inhoud": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i4",
+        "pe.im1"
+       ],
+       "note": "Verplichte inhoud tussentijds verslag (o.a. hersteltijdstip, dreigingsactor-technieken, getroffen bedrijfsprocessen, indicatoren voor aantasting).",
+       "reviewed": false
+      }
+     },
+     "4": {
+      "inhoud": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i4",
+        "pe.im1"
+       ],
+       "note": "Verplichte inhoud eindverslag (onderliggende oorzaken, oplossing, kosten/verliezen en terugvorderingen, terugkerende incidenten).",
+       "reviewed": false
+      }
+     },
+     "5": {
+      "lid-1": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i4"
+       ],
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i3",
+        "pe.i4"
+       ],
+       "note": "4-uursklok bij classificatie als ernstig ná de eerste 24 uur; al verankerd in het doel van pe.i3 en de termijnentabel van pe.i4.",
+       "reviewed": false
+      },
+      "lid-3": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i4"
+       ],
+       "note": "Dreigende termijnoverschrijding melden mét redenen, uiterlijk binnen de betrokken termijn zelf — expliciete actie in pe.i4.",
+       "reviewed": false
+      },
+      "lid-4": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i4"
+       ],
+       "note": "Weekend-/feestdagregeling (indienen uiterlijk 12.00 uur volgende werkdag) — verwerkt in pe.i4.",
+       "reviewed": false
+      },
+      "lid-5": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i4"
+       ],
+       "note": "Uitzondering op de weekendregeling voor kredietinstellingen, CTP's, exploitanten van handelsplatformen en NIS2-essentiële/belangrijke entiteiten; geldt alleen voor eerste kennisgeving en tussentijds verslag — toets in pe.i4.",
+       "reviewed": false
+      },
+      "lid-6": {
+       "disposition": "autoriteit",
+       "steps": [
+        "pe.i4"
+       ],
+       "note": "Bevoegdheid van de autoriteit om de weekendregeling ook uit te sluiten voor andere significante/systeemrelevante entiteiten. Relevant: zo'n beslissing wordt aan de entiteit meegedeeld en geldt voor incidenten ná die kennisgeving — verwerk haar dan direct in de termijnentabel van pe.i4.",
+       "reviewed": false
+      }
+     },
+     "6": {
+      "inhoud": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i6"
+       ],
+       "note": "Inhoudsvereisten vrijwillige dreigingskennisgeving (detectietijdstip, beschrijving, mogelijke gevolgen, hypothetische classificatiecriteria, status, preventiemaatregelen, indicatoren voor aantasting).",
+       "reviewed": false
+      }
+     },
+     "7": {
+      "inhoud": {
+       "disposition": "slotbepaling",
+       "reviewed": false
+      }
+     }
+    },
     "bijlagen": {}
    },
    "formulieren": {
-    "artikelen": {},
-    "bijlagen": {}
+    "artikelen": {
+     "1": {
+      "lid-1": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i4",
+        "pe.im1"
+       ],
+       "note": "Eén model (bijlage I) voor alle drie meldfasen; per fase de velden invullen die bij art. 2/3/4 GV 2025/301 horen, velden van latere fasen mogen eerder als de informatie er al is.",
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "stap",
+       "steps": [
+        "pe.im1"
+       ],
+       "note": "Volledigheid en nauwkeurigheid — geborgd via de vier-ogencontrole in pe.im1.",
+       "reviewed": false
+      },
+      "lid-3": {
+       "disposition": "stap",
+       "steps": [
+        "pe.im1"
+       ],
+       "note": "Geraamde waarden bij eerste kennisgeving/tussentijds verslag als exacte gegevens ontbreken.",
+       "reviewed": false
+      },
+      "lid-4": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i4",
+        "pe.im1"
+       ],
+       "note": "Tussentijds/eindverslag via hetzelfde model, incl. bijwerken van eerder ingediende informatie.",
+       "reviewed": false
+      },
+      "lid-5": {
+       "disposition": "stap",
+       "steps": [
+        "pe.im1"
+       ],
+       "note": "Glossarium en instructies van bijlage II zijn bindend bij het invullen van het model.",
+       "reviewed": false
+      }
+     },
+     "2": {
+      "inhoud": {
+       "disposition": "stap",
+       "steps": [
+        "pe.im2"
+       ],
+       "note": "Optie om twee of drie indieningen te combineren zodra herstel of oorzaakanalyse is afgerond, mits alle termijnen van art. 5 GV 2025/301 gehaald blijven.",
+       "reviewed": false
+      }
+     },
+     "3": {
+      "inhoud": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i2",
+        "pe.im2"
+       ],
+       "note": "Terugkerende niet-ernstige incidenten die samen één ernstig incident vormen (art. 8, lid 2 GV 2024/1772) in geaggregeerde vorm rapporteren; sluit aan op de maandelijkse toets in pe.i2.",
+       "reviewed": false
+      }
+     },
+     "4": {
+      "lid-1": {
+       "disposition": "stap",
+       "steps": [
+        "pe.im3",
+        "pe.i4"
+       ],
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "stap",
+       "steps": [
+        "pe.im3"
+       ],
+       "note": "Terugval via andere beveiligde middelen in overleg met de autoriteit; op verzoek opnieuw indienen via het reguliere kanaal.",
+       "reviewed": false
+      }
+     },
+     "5": {
+      "inhoud": {
+       "disposition": "stap",
+       "steps": [
+        "pe.im2"
+       ],
+       "note": "Herclassificatie van ernstig naar niet-ernstig melden via het meldmodel: veld 1.1 (Soort indiening) en veld 2.10 (Andere nuttige informatie) — de velden die art. 5 aanduidt als 'soort verslag' en 'overige informatie'; die aanduiding is een eigenaardigheid van de basistekst zelf (EN identiek).",
+       "reviewed": false
+      }
+     },
+     "6": {
+      "lid-1": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i7"
+       ],
+       "note": "Kennisgeving van de uitbestedingsovereenkomst: direct na sluiting en vóór de eerste indiening.",
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i7"
+       ],
+       "note": "Naam, contactgegevens en identificatiecode van de derde partij aan de autoriteit verstrekken.",
+       "reviewed": false
+      },
+      "lid-3": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i7"
+       ],
+       "note": "Beëindiging van de uitbesteding onmiddellijk melden — valt onder 'actualiseer die kennisgeving bij wijzigingen' in pe.i7.",
+       "reviewed": false
+      }
+     },
+     "7": {
+      "lid-1": {
+       "disposition": "stap",
+       "steps": [
+        "pe.im4"
+       ],
+       "note": "Optie (geen plicht): de derde dienstverlener aan wie de rapportage is uitbesteed kán geaggregeerd melden namens meerdere entiteiten, alleen onder de vijf cumulatieve voorwaarden — waaronder uitdrukkelijke toestemming van de bevoegde autoriteit.",
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "stap",
+       "steps": [
+        "pe.im4"
+       ],
+       "note": "Carve-out: kredietinstellingen die als belangrijk (significant) zijn aangemerkt (art. 2, punt 16 GVM-kaderverordening), exploitanten van handelsplatformen en CTP's melden altijd individueel.",
+       "reviewed": false
+      },
+      "lid-3": {
+       "disposition": "stap",
+       "steps": [
+        "pe.im4"
+       ],
+       "note": "Op verzoek van de autoriteit alsnog een individuele kennisgeving of verslag indienen.",
+       "reviewed": false
+      }
+     },
+     "8": {
+      "lid-1": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i6"
+       ],
+       "note": "Dreigingskennisgeving via het model van bijlage III, met glossarium en instructies van bijlage IV.",
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "stap",
+       "steps": [
+        "pe.i6"
+       ],
+       "note": "Volledigheid en nauwkeurigheid van de dreigingskennisgeving.",
+       "reviewed": false
+      }
+     },
+     "9": {
+      "inhoud": {
+       "disposition": "slotbepaling",
+       "reviewed": false
+      }
+     }
+    },
+    "bijlagen": {
+     "i": {
+      "disposition": "stap",
+      "steps": [
+       "pe.i4",
+       "pe.im1"
+      ],
+      "note": "Het meldmodel voor ernstige incidenten: alle gegevensvelden voor eerste kennisgeving, tussentijds en eindverslag in één template; pe.im1 richt deze velden vooraf in, pe.i4 gebruikt ze bij elke melding.",
+      "reviewed": false
+     },
+     "ii": {
+      "disposition": "stap",
+      "steps": [
+       "pe.im1",
+       "pe.im2"
+      ],
+      "note": "Glossarium en instructies bij het meldmodel: per veld omschrijving, veldtype en verplichtstelling per meldfase (kolommen eerste kennisgeving/tussentijds/eindverslag); veld 1.1 bevat ook de herclassificatie-optie die pe.im2 gebruikt.",
+      "reviewed": false
+     },
+     "iii": {
+      "disposition": "stap",
+      "steps": [
+       "pe.i6"
+      ],
+      "note": "Het kennisgevingsmodel voor significante cyberdreigingen (vrijwillige melding, art. 19, lid 2 DORA).",
+      "reviewed": false
+     },
+     "iv": {
+      "disposition": "stap",
+      "steps": [
+       "pe.i6"
+      ],
+      "note": "Glossarium en instructies bij het dreigingsmodel: per veld omschrijving, verplichtstelling en veldtype.",
+      "reviewed": false
+     }
+    }
    },
    "tlpt": {
-    "artikelen": {},
-    "bijlagen": {}
+    "artikelen": {
+     "1": {
+      "inhoud": {
+       "disposition": "definitie",
+       "note": "Definities van de TLPT-rolverdeling (control team, blue/red team, TCT, testmanagers, aanbieder van dreigingsinformatie, leg-up, flags, gepoolde/gezamenlijke TLPT).",
+       "reviewed": false
+      }
+     },
+     "2": {
+      "lid-1": {
+       "disposition": "autoriteit",
+       "steps": [
+        "pe.t4"
+       ],
+       "note": "Gericht tot TLPT-autoriteiten: de beoordelingscriteria (impactgerelateerde factoren en systemisch karakter, ICT-risicofactoren) waarmee zij bepalen welke entiteiten TLPT moeten uitvoeren. Relevant om uw eigen aanwijzingskans in te schatten en te onderbouwen (pe.t4).",
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "autoriteit",
+       "steps": [
+        "pe.t4"
+       ],
+       "note": "Categorieën met verplichte aanwijzing tenzij de lid-1-beoordeling anders uitwijst: MSI/ASI-kredietinstellingen (of deel daarvan), betaalinstellingen > 150 mld EUR betalingstransacties (2 jaar), EGI's > 150 mld EUR transacties of > 40 mld EUR uitstaand e-geld, CSD's, CTP's, grote handelsplatformen (nationaal grootste of > 5 % Unie-omzet) en grote (her)verzekeraars (getrapte premie-/voorzieningen-/activadrempels). Toets uzelf hieraan (pe.t4).",
+       "reviewed": false
+      },
+      "lid-3": {
+       "disposition": "autoriteit",
+       "note": "Bij groepen die ICT-systemen delen of dezelfde intragroepsaanbieder gebruiken beslissen de TLPT-autoriteiten (waar de autoriteit van de moederonderneming een andere is: na raadpleging van die autoriteit) of een TLPT op individuele basis relevant is — een groepsentiteit kan dus in een gezamenlijke TLPT terechtkomen in plaats van een eigen test.",
+       "reviewed": false
+      }
+     },
+     "3": {
+      "lid-1": {
+       "disposition": "autoriteit",
+       "note": "De TLPT-autoriteit belegt de coördinatie bij een TCT (TIBER-cyberteam) van testmanagers; dit is uw vaste tegenover aan autoriteitszijde tijdens de test.",
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "autoriteit",
+       "note": "Per test wijst de TLPT-autoriteit een testmanager en ten minste één plaatsvervanger aan.",
+       "reviewed": false
+      },
+      "lid-3": {
+       "disposition": "autoriteit",
+       "note": "De testmanagers monitoren de naleving van deze verordening gedurende de test — reken op hun betrokkenheid bij elke goedkeuring en raadpleging in de artikelen 9-12.",
+       "reviewed": false
+      },
+      "lid-4": {
+       "disposition": "autoriteit",
+       "note": "U ontvangt de contactgegevens van het TCT via de kennisgeving van artikel 9, lid 1, waarmee de TLPT start.",
+       "reviewed": false
+      },
+      "lid-5": {
+       "disposition": "autoriteit",
+       "note": "De TLPT-autoriteit neemt deel aan alle fasen van de TLPT; plan haar betrokkenheid in elke processtap in.",
+       "reviewed": false
+      }
+     },
+     "4": {
+      "lid-1": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl1"
+       ],
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl1"
+       ],
+       "reviewed": false
+      }
+     },
+     "5": {
+      "lid-1": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl2"
+       ],
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl2"
+       ],
+       "reviewed": false
+      }
+     },
+     "6": {
+      "lid-1": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl2",
+        "pe.t5"
+       ],
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl2"
+       ],
+       "reviewed": false
+      }
+     },
+     "7": {
+      "lid-1": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl3",
+        "pe.t6"
+       ],
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl3"
+       ],
+       "reviewed": false
+      }
+     },
+     "8": {
+      "lid-1": {
+       "disposition": "stap",
+       "steps": [
+        "pe.t5"
+       ],
+       "note": "Bij een gepoolde of gezamenlijke TLPT doorloopt elke betrokken entiteit zelf alle stappen van de artikelen 9-15, tenzij de leidende TLPT-autoriteit anders besluit.",
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "context",
+       "note": "Leeswijzer: bij een gepoolde of gezamenlijke TLPT met meerdere TLPT-autoriteiten gelden verwijzingen naar 'de TLPT-autoriteit' in de artikelen 9-15 als verwijzingen naar de leidende TLPT-autoriteit.",
+       "reviewed": false
+      }
+     },
+     "9": {
+      "lid-1": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl4"
+       ],
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl4"
+       ],
+       "reviewed": false
+      },
+      "lid-3": {
+       "disposition": "autoriteit",
+       "note": "De TLPT-autoriteit valideert de initiëringsinformatie en stelt u daarvan in kennis; wacht deze validatie af voordat u het control team formeel opzet (art. 9, lid 4).",
+       "reviewed": false
+      },
+      "lid-4": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl1"
+       ],
+       "reviewed": false
+      },
+      "lid-5": {
+       "disposition": "autoriteit",
+       "note": "De TLPT-autoriteit valideert de (initiële en gewijzigde) samenstelling van het control team en informeert de leider van het control team.",
+       "reviewed": false
+      },
+      "lid-6": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl4",
+        "pe.t4"
+       ],
+       "reviewed": false
+      },
+      "lid-7": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl4",
+        "pe.t4"
+       ],
+       "reviewed": false
+      },
+      "lid-8": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl4"
+       ],
+       "reviewed": false
+      },
+      "lid-9": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl4"
+       ],
+       "reviewed": false
+      },
+      "lid-10": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl2"
+       ],
+       "reviewed": false
+      },
+      "lid-11": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl3"
+       ],
+       "reviewed": false
+      },
+      "lid-12": {
+       "disposition": "autoriteit",
+       "note": "De TLPT-autoriteit keurt het scoping-document goed en stelt de leider van het control team in kennis; de dreigingsinformatiefase (art. 10) start pas na deze goedkeuring.",
+       "reviewed": false
+      }
+     },
+     "10": {
+      "lid-1": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl5"
+       ],
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl5"
+       ],
+       "reviewed": false
+      },
+      "lid-3": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl5"
+       ],
+       "reviewed": false
+      },
+      "lid-4": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl5"
+       ],
+       "reviewed": false
+      },
+      "lid-5": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl5"
+       ],
+       "reviewed": false
+      },
+      "lid-6": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl5"
+       ],
+       "reviewed": false
+      }
+     },
+     "11": {
+      "lid-1": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl6"
+       ],
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl6"
+       ],
+       "reviewed": false
+      },
+      "lid-3": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl6"
+       ],
+       "reviewed": false
+      },
+      "lid-4": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl6"
+       ],
+       "reviewed": false
+      },
+      "lid-5": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl6"
+       ],
+       "reviewed": false
+      },
+      "lid-6": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl6"
+       ],
+       "reviewed": false
+      },
+      "lid-7": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl6"
+       ],
+       "reviewed": false
+      },
+      "lid-8": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl6"
+       ],
+       "reviewed": false
+      },
+      "lid-9": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl6"
+       ],
+       "reviewed": false
+      },
+      "lid-10": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl6"
+       ],
+       "reviewed": false
+      }
+     },
+     "12": {
+      "lid-1": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl7"
+       ],
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl7"
+       ],
+       "reviewed": false
+      },
+      "lid-3": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl7"
+       ],
+       "reviewed": false
+      },
+      "lid-4": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl7"
+       ],
+       "reviewed": false
+      },
+      "lid-5": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl7"
+       ],
+       "reviewed": false
+      },
+      "lid-6": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl7"
+       ],
+       "reviewed": false
+      },
+      "lid-7": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl7",
+        "pe.t7"
+       ],
+       "reviewed": false
+      }
+     },
+     "13": {
+      "lid-1": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl7",
+        "pe.t7"
+       ],
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl7"
+       ],
+       "reviewed": false
+      }
+     },
+     "14": {
+      "lid-1": {
+       "disposition": "stap",
+       "steps": [
+        "pe.t7"
+       ],
+       "note": "Het attest dat u na afloop ontvangt (en aan andere bevoegde autoriteiten kunt tonen voor wederzijdse erkenning) bevat de in bijlage VIII vermelde informatie.",
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "autoriteit",
+       "note": "Waren meerdere TLPT-autoriteiten betrokken, dan verstrekt de leidende TLPT-autoriteit het attest aan de geteste entiteiten — u hoeft niet bij elke autoriteit afzonderlijk aan te kloppen.",
+       "reviewed": false
+      }
+     },
+     "15": {
+      "lid-1": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl8"
+       ],
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "autoriteit",
+       "note": "Bij de goedkeuring van interne testers (art. 27, lid 2, punt a) DORA) toetst de TLPT-autoriteit mede aan de aanbiederscriteria van art. 7, lid 1 — anticipeer daarop in het interne-testerbeleid (pe.tl8).",
+       "reviewed": false
+      },
+      "lid-3": {
+       "disposition": "stap",
+       "steps": [
+        "pe.tl8"
+       ],
+       "reviewed": false
+      },
+      "lid-4": {
+       "disposition": "stap",
+       "note": "Gelijkstellingsregel: testers in dienst van een intragroepsaanbieder van ICT-diensten gelden als interne testers van de entiteit — het beleid en de goedkeuringseis voor interne testers strekken zich dus ook tot hen uit (pe.tl8, actie 2).",
+       "reviewed": false,
+       "steps": [
+        "pe.tl8"
+       ]
+      }
+     },
+     "16": {
+      "lid-1": {
+       "disposition": "autoriteit",
+       "note": "Grensoverschrijdende dienstverlening: uw TLPT-autoriteit bepaalt welke autoriteiten van lidstaten van ontvangst meedoen, leidt de test en deelt scoping-document, samenvattend rapport, remediëringsplan en attest met waarnemende autoriteiten — houd er bij de vertrouwelijkheidsafspraken rekening mee dat testdocumenten breder circuleren.",
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "autoriteit",
+       "note": "Bij gedeelde intragroepsaanbieders of gedeelde ICT-systemen binnen een groep beoordelen de TLPT-autoriteiten samen de haalbaarheid van een gezamenlijke TLPT; die heeft de voorkeur boven individuele tests als dat kosten en middelen bespaart zonder de deugdelijkheid te schaden (relevant voor de keuze in pe.t5).",
+       "reviewed": false
+      },
+      "lid-3": {
+       "disposition": "autoriteit",
+       "note": "Bij een gezamenlijke TLPT wijzen de autoriteiten één financiële entiteit aan die de test uitvoert; de autoriteit van die entiteit leidt de test. Wordt uw entiteit aangewezen, dan krijgt uw control team de extra risicotaken van art. 6, lid 2.",
+       "reviewed": false
+      },
+      "lid-4": {
+       "disposition": "autoriteit",
+       "note": "Bij een voorgenomen gepoolde TLPT (art. 26, lid 4 DORA) met entiteiten in andere lidstaten beoordelen de betrokken TLPT-autoriteiten samen de haalbaarheid en geschiktheid daarvan.",
+       "reviewed": false
+      },
+      "lid-5": {
+       "disposition": "autoriteit",
+       "note": "Bij een gepoolde TLPT wijzen de autoriteiten één financiële entiteit aan die de test uitvoert; de autoriteit van die entiteit leidt en coördineert. Wordt uw entiteit aangewezen, dan gelden de extra risicotaken van art. 6, lid 2.",
+       "reviewed": false
+      },
+      "lid-6": {
+       "disposition": "autoriteit",
+       "note": "Is uw TLPT-autoriteit een andere dan uw bevoegde (toezichthoudende) autoriteit, dan delen zij onderling alle relevante TLPT-informatie — ga ervan uit dat uw toezichthouder inzage heeft in de testuitkomsten.",
+       "reviewed": false
+      }
+     },
+     "17": {
+      "inhoud": {
+       "disposition": "slotbepaling",
+       "reviewed": false
+      }
+     }
+    },
+    "bijlagen": {
+     "i": {
+      "disposition": "stap",
+      "steps": [
+       "pe.tl4"
+      ],
+      "note": "Inhoud van het project charter (art. 9, lid 2, punt a): projectplan op hoofdlijnen waarmee de TLPT wordt geïnitieerd; binnen drie maanden na de kennisgeving bij de testmanagers in te dienen (voorbereidende fase, pe.tl4).",
+      "reviewed": false
+     },
+     "ii": {
+      "disposition": "stap",
+      "steps": [
+       "pe.tl4",
+       "pe.t4"
+      ],
+      "note": "Inhoud van het scoping-document (art. 9, lid 6): de af te bakenen kritieke of belangrijke functies en systemen; door het leidinggevend orgaan goed te keuren en binnen zes maanden in te dienen; door de TLPT-autoriteit goedgekeurd vóór de testfase start (pe.tl4, pe.t4).",
+      "reviewed": false
+     },
+     "iii": {
+      "disposition": "stap",
+      "steps": [
+       "pe.tl5"
+      ],
+      "note": "Inhoud van het Target Threat Intelligence Report (art. 10, lid 5): het dreigingsinformatierapport met de geselecteerde scenario's dat de aanbieder van dreigingsinformatie oplevert en dat de TLPT-autoriteit goedkeurt (dreigingsinformatiefase, pe.tl5).",
+      "reviewed": false
+     },
+     "iv": {
+      "disposition": "stap",
+      "steps": [
+       "pe.tl6"
+      ],
+      "note": "Inhoud van het testplan voor het red team (art. 11, lid 1): het door de testers op basis van scoping-document en TTI-rapport op te stellen plan, goed te keuren door control team en TLPT-autoriteit vóór de actieve red-teamtestfase (pe.tl6).",
+      "reviewed": false
+     },
+     "v": {
+      "disposition": "stap",
+      "steps": [
+       "pe.tl7"
+      ],
+      "note": "Inhoud van het red-team-testrapport (art. 12, lid 2): door de testers binnen vier weken na het einde van de actieve red-teamtestfase bij het control team in te dienen (afsluitende fase, pe.tl7).",
+      "reviewed": false
+     },
+     "vi": {
+      "disposition": "stap",
+      "steps": [
+       "pe.tl7"
+      ],
+      "note": "Inhoud van het blue-team-testrapport (art. 12, lid 4): door het blue team uiterlijk tien weken na het einde van de actieve red-teamtestfase in te dienen (afsluitende fase, pe.tl7).",
+      "reviewed": false
+     },
+     "vii": {
+      "disposition": "stap",
+      "steps": [
+       "pe.tl7",
+       "pe.t7"
+      ],
+      "note": "Inhoud van het rapport met de samenvatting van de relevante bevindingen (art. 26, lid 6 DORA; art. 12, lid 7): binnen acht weken ter goedkeuring in te dienen bij de TLPT-autoriteit (afsluitende fase, pe.tl7/pe.t7).",
+      "reviewed": false
+     },
+     "viii": {
+      "disposition": "stap",
+      "steps": [
+       "pe.t7"
+      ],
+      "note": "Inhoud van het TLPT-attest (art. 26, lid 7 DORA; art. 14, lid 1): het door de (leidende) TLPT-autoriteit te verstrekken attest dat wederzijdse erkenning mogelijk maakt (pe.t7).",
+      "reviewed": false
+     }
+    }
    },
    "contractbeleid": {
     "artikelen": {},
@@ -10014,7 +11873,7 @@
      "Verwerk de zes criteria van artikel 18, lid 1 (cliënten/tegenpartijen/transacties en reputatieschade, duur en uitvaltijd, geografische spreiding, gegevensverlies, kritieke diensten, economische effecten) in een classificatiebeslisboom of -tool.",
      "Neem de materialiteitsdrempels van artikel 9 GV 2024/1772 letterlijk over (criteria nader gespecificeerd in de artikelen 1–7), waaronder: meer dan 10 % of meer dan 100 000 getroffen cliënten, incidentduur langer dan 24 uur of uitvaltijd langer dan 2 uur voor ICT-diensten die kritieke of belangrijke functies ondersteunen.",
      "Pas de hoofdregel van art. 8, lid 1, GV 2024/1772 toe: een incident is ernstig als het kritieke diensten treft (art. 6) én de drempel van art. 9, lid 5, punt b) (geslaagde kwaadwillige ongeoorloofde toegang tot netwerk- en informatiesystemen die tot gegevensverlies kan leiden) wordt bereikt óf twee of meer andere drempels van art. 9, leden 1–6, worden bereikt.",
-     "Beoordeel cyberdreigingen op significantie volgens de cumulatieve voorwaarden van art. 10 GV 2024/1772 (mogelijke impact op kritieke of belangrijke functies, grote kans op materialisatie, drempelpotentieel bij materialisatie).",
+     "Beoordeel cyberdreigingen op significantie volgens de cumulatieve voorwaarden van art. 10 GV 2024/1772 (mogelijke impact op kritieke of belangrijke functies of op andere financiële entiteiten, derde aanbieders, cliënten of financiële tegenpartijen; grote kans op materialisatie; drempelpotentieel bij materialisatie).",
      "Leg per incident de classificatie-uitkomst en onderbouwing vast in het incidentregister en test de beslisboom periodiek op casuïstiek, ook op betalingsgerelateerde scenario's."
     ],
     "bewijsstukken": [
@@ -10176,7 +12035,8 @@
     "doel": "Een gedocumenteerde afweging wie wanneer besluit een significante cyberdreiging vrijwillig aan de bevoegde autoriteit te melden, met het juiste model en de juiste inhoud.",
     "acties": [
      "Beleg de beslisbevoegdheid en het afwegingskader: melden kan wanneer u de dreiging relevant acht voor het financiële stelsel, de gebruikers van diensten of de cliënten.",
-     "Gebruik bij melding de inhoudsvereisten van art. 6 GV 2025/301 en het kennisgevingsmodel van art. 8 UV 2025/302.",
+     "Gebruik bij melding de inhoudsvereisten van art. 6 GV 2025/301 en het kennisgevingsmodel van art. 8 UV 2025/302: het model van bijlage III, ingevuld volgens de gegevensvelden en instructies van bijlage IV.",
+     "Controleer vóór indiening de volledigheid en nauwkeurigheid van de kennisgeving tegen de gegevensvelden en instructies van bijlage IV (art. 8, lid 2 UV 2025/302).",
      "Verwerk in de afweging dat de bevoegde autoriteit de informatie kan delen met de in artikel 19, lid 6, genoemde autoriteiten en dat lidstaten doorzending naar CSIRT's mogelijk kunnen maken."
     ],
     "bewijsstukken": [
@@ -10199,6 +12059,18 @@
      {
       "label": "Art. 8 UV 2025/302",
       "href": "/its-incidentrapportage/artikel/8#lid-1"
+     },
+     {
+      "label": "Art. 8, lid 2 UV 2025/302",
+      "href": "/its-incidentrapportage/artikel/8#lid-2"
+     },
+     {
+      "label": "Bijlage III UV 2025/302",
+      "href": "/its-incidentrapportage/bijlage/iii"
+     },
+     {
+      "label": "Bijlage IV UV 2025/302",
+      "href": "/its-incidentrapportage/bijlage/iv"
      }
     ],
     "appliesTo": [
@@ -10222,7 +12094,7 @@
     "acties": [
      "Besluit gedocumenteerd of u de rapportageverplichtingen van artikel 19 uitbesteedt en leg vast dat de entiteit volledig verantwoordelijk blijft voor de naleving van de rapportagevereisten.",
      "Regel in het contract met de dienstverlener de meldtermijnen, het modelgebruik, escalatie en tijdige informatieaanlevering, zodat de termijnen van GV 2025/301 haalbaar blijven.",
-     "Stel de bevoegde autoriteit bij uitbesteding in kennis conform art. 6 UV 2025/302 en actualiseer die kennisgeving bij wijzigingen."
+     "Stel de bevoegde autoriteit in kennis zodra de uitbestedingsovereenkomst is gesloten en in elk geval vóór de eerste indiening van een kennisgeving of verslag; verstrek daarbij naam, contactgegevens en identificatiecode van de derde partij, actualiseer de kennisgeving bij wijzigingen en meld beëindiging van de uitbesteding onmiddellijk (art. 6 UV 2025/302)."
     ],
     "bewijsstukken": [
      "Uitbestedingsbesluit met verantwoordelijkheidsclausule",
@@ -10242,6 +12114,14 @@
      {
       "label": "Art. 6 UV 2025/302",
       "href": "/its-incidentrapportage/artikel/6#lid-1"
+     },
+     {
+      "label": "Art. 6, lid 2 UV 2025/302",
+      "href": "/its-incidentrapportage/artikel/6#lid-2"
+     },
+     {
+      "label": "Art. 6, lid 3 UV 2025/302",
+      "href": "/its-incidentrapportage/artikel/6#lid-3"
      }
     ],
     "appliesTo": [
@@ -10294,6 +12174,322 @@
     "prioriteit": "kern",
     "afhankelijkVan": [
      "pe.i4"
+    ]
+   },
+   "playbook": "entiteit",
+   "faseId": "f4",
+   "faseTitel": "ICT-incidenten: beheer, classificatie en rapportage"
+  },
+  "pe.ic1": {
+   "step": {
+    "id": "pe.ic1",
+    "titel": "Leg meet-, tel- en ramingsconventies voor incidentclassificatie vast",
+    "doel": "Eenduidige, vooraf vastgelegde regels waarmee elk incident reproduceerbaar wordt gekwantificeerd (cliënten, tegenpartijen, transacties, duur, uitvaltijd), ook wanneer werkelijke cijfers ontbreken.",
+    "acties": [
+     "Leg de meetregels voor duur en uitvaltijd vast: duur vanaf het moment waarop het incident zich voordoet (indien onbekend: vanaf ontdekking, of vanaf de eerdere registratie in netwerk- of systeemlogbestanden) tot oplossing; uitvaltijd vanaf het moment dat de dienst geheel of gedeeltelijk niet beschikbaar is tot herstel van het dienstverleningsniveau van vóór het incident; veroorzaakt de uitval daarna nog vertraagde dienstverlening, meet dan van het begin van het incident tot het moment waarop die vertraagde dienst volledig wordt verleend; is het moment van uitval niet te bepalen, meet dan vanaf het moment van ontdekking.",
+     "Definieer de telregels voor getroffen cliënten (natuurlijke én rechtspersonen, inclusief derden die als begunstigde onder het cliëntcontract vallen), financiële tegenpartijen (met contractuele overeenkomst) en transacties (alle transacties met een geldbedrag waarvan ten minste één deel in de Unie wordt uitgevoerd), en bepaal per dienst de noemers (totaal cliëntenbestand, gemiddeld dagelijks aantal en gemiddelde dagelijkse waarde van transacties).",
+     "Merk vooraf aan welke cliënten en financiële tegenpartijen als relevant gelden gezien hun belang voor de bedrijfsdoelstellingen en de marktefficiëntie; het treffen van één zo aangemerkte cliënt of tegenpartij bereikt de materialiteitsdrempel van art. 9, lid 1, punt f), GV 2024/1772.",
+     "Stel een ramingsprotocol vast: raam aantallen en hoeveelheden (cliënten, tegenpartijen, transacties) die niet werkelijk bepaald kunnen worden op basis van beschikbare gegevens uit vergelijkbare referentieperioden, en raam tijdstippen en bedragen op basis van de bij rapportage beschikbare gegevens, en documenteer elke raming met bron en aanname in het classificatiedossier."
+    ],
+    "bewijsstukken": [
+     "Meet- en telregeldocument per classificatiecriterium (incl. noemers per dienst)",
+     "Lijst van als relevant aangemerkte cliënten en financiële tegenpartijen",
+     "Classificatiedossiers met gedocumenteerde ramingen"
+    ],
+    "rollen": [
+     "IT-operations",
+     "CISO",
+     "risk"
+    ],
+    "refs": [
+     {
+      "label": "Art. 3 GV 2024/1772",
+      "href": "/rts-classificatie/artikel/3#lid-1"
+     },
+     {
+      "label": "Art. 1, lid 3 GV 2024/1772",
+      "href": "/rts-classificatie/artikel/1#lid-3"
+     },
+     {
+      "label": "Art. 1, lid 5 GV 2024/1772",
+      "href": "/rts-classificatie/artikel/1#lid-5"
+     },
+     {
+      "label": "Art. 18, lid 1 DORA",
+      "href": "/artikel/18#lid-1"
+     }
+    ],
+    "appliesTo": [
+     "volledig",
+     "vereenvoudigd"
+    ],
+    "prioriteit": "kern",
+    "afhankelijkVan": [
+     "pe.i2"
+    ]
+   },
+   "playbook": "entiteit",
+   "faseId": "f4",
+   "faseTitel": "ICT-incidenten: beheer, classificatie en rapportage"
+  },
+  "pe.ic2": {
+   "step": {
+    "id": "pe.ic2",
+    "titel": "Richt de kosten- en verliesadministratie per incident in",
+    "doel": "Per incident aantoonbaar kunnen bepalen of de economische effecten de drempel van 100 000 EUR overschrijden of waarschijnlijk zullen overschrijden, met de juiste kostensoorten en zonder verboden salderingen.",
+    "acties": [
+     "Registreer per incident de directe en indirecte kosten en verliezen in de acht soorten van art. 7, lid 1, GV 2024/1772: onteigende gelden of activa, vervanging of verplaatsing van software/hardware/infrastructuur, personeelskosten, vergoedingen wegens contractbreuk, verhaal en compensatie van klanten, gederfde inkomsten, interne en externe communicatie, en advieskosten (juridisch, forensisch, sanering).",
+     "Sluit reguliere bedrijfskosten uit de telling uit: algemeen onderhoud en het op peil houden van vaardigheden, verbeteringen en upgrades na het incident, en verzekeringspremies tellen niet mee.",
+     "Tel de kosten en verliezen bruto op, zonder aftrek van financiële terugvorderingen (zoals verzekeringsuitkeringen of verhaal op derden), en toets of het totaal de drempel van 100 000 EUR van art. 9, lid 6 heeft overschreden of waarschijnlijk zal overschrijden.",
+     "Bereken op basis van de bij rapportage beschikbare gegevens, raam ontbrekende werkelijke bedragen en actualiseer de bedragen bij het tussentijdse en het eindverslag."
+    ],
+    "bewijsstukken": [
+     "Kostensjabloon incidentkosten met de acht kostensoorten en uitsluitingen",
+     "Kostenreconstructie van een recent (ernstig) incident met drempeltoets"
+    ],
+    "rollen": [
+     "risk",
+     "IT-operations",
+     "compliance"
+    ],
+    "refs": [
+     {
+      "label": "Art. 7 GV 2024/1772",
+      "href": "/rts-classificatie/artikel/7#lid-1"
+     },
+     {
+      "label": "Art. 9, lid 6 GV 2024/1772",
+      "href": "/rts-classificatie/artikel/9#lid-6"
+     },
+     {
+      "label": "Art. 18, lid 1, punt f) DORA",
+      "href": "/artikel/18#lid-1-f"
+     }
+    ],
+    "appliesTo": [
+     "volledig",
+     "vereenvoudigd"
+    ],
+    "prioriteit": "kern",
+    "afhankelijkVan": [
+     "pe.i2"
+    ]
+   },
+   "playbook": "entiteit",
+   "faseId": "f4",
+   "faseTitel": "ICT-incidenten: beheer, classificatie en rapportage"
+  },
+  "pe.im1": {
+   "step": {
+    "id": "pe.im1",
+    "titel": "Richt de meldtemplates vooraf in met alle verplichte datavelden",
+    "doel": "Het meldmodel van bijlage I UV 2025/302 staat vooraf klaar met alle gegevensvelden per meldfase, gekoppeld aan bronsystemen, zodat een melding binnen de termijnen volledig en nauwkeurig kan worden ingevuld.",
+    "acties": [
+     "Neem alle gegevensvelden van bijlage I bij UV 2025/302 vooraf op in uw incidentregister of meldtool en markeer per veld in welke meldfase (eerste kennisgeving, tussentijds verslag, eindverslag) het verplicht is, volgens de kolommen 'Verplicht voor…' in bijlage II.",
+     "Map elk verplicht veld naar de bron in uw administratie (monitoring, CMDB, klant- en transactiesystemen, financiële administratie) zodat detectietijdstippen, getroffen cliënten en diensten, getroffen lidstaten, kosten/verliezen en hersteltijdstippen binnen de meldtermijnen opvraagbaar zijn.",
+     "Leg een werkwijze vast voor geraamde waarden: raam op basis van beschikbare gegevens wanneer exacte cijfers bij de eerste kennisgeving of het tussentijdse verslag ontbreken, en vervang ramingen door definitieve cijfers uiterlijk in het eindverslag.",
+     "Vul velden die pas in een latere meldfase verplicht zijn alvast in zodra de informatie beschikbaar is, en werk bij het tussentijdse en het eindverslag de eerder ingediende informatie bij.",
+     "Voer vóór elke indiening een vier-ogencontrole uit op volledigheid en nauwkeurigheid, met het glossarium en de instructies van bijlage II (veldtype, keuzelijsten) als toetssteen."
+    ],
+    "bewijsstukken": [
+     "Veldenmatrix meldtemplate ↔ bronsystemen per meldfase",
+     "Ingerichte meldtemplate of -tooling met verplichte velden",
+     "Vier-ogencontrolelijst per indiening"
+    ],
+    "rollen": [
+     "CISO",
+     "IT-operations",
+     "compliance"
+    ],
+    "refs": [
+     {
+      "label": "Art. 1 GV 2025/301",
+      "href": "/rts-incidentrapportage/artikel/1#inhoud"
+     },
+     {
+      "label": "Art. 2 GV 2025/301",
+      "href": "/rts-incidentrapportage/artikel/2#inhoud"
+     },
+     {
+      "label": "Art. 3 GV 2025/301",
+      "href": "/rts-incidentrapportage/artikel/3#inhoud"
+     },
+     {
+      "label": "Art. 4 GV 2025/301",
+      "href": "/rts-incidentrapportage/artikel/4#inhoud"
+     },
+     {
+      "label": "Art. 1, lid 5 UV 2025/302",
+      "href": "/its-incidentrapportage/artikel/1#lid-5"
+     },
+     {
+      "label": "Bijlage I UV 2025/302",
+      "href": "/its-incidentrapportage/bijlage/i"
+     },
+     {
+      "label": "Bijlage II UV 2025/302",
+      "href": "/its-incidentrapportage/bijlage/ii"
+     }
+    ],
+    "appliesTo": [
+     "volledig",
+     "vereenvoudigd"
+    ],
+    "prioriteit": "kern",
+    "afhankelijkVan": [
+     "pe.i4"
+    ]
+   },
+   "playbook": "entiteit",
+   "faseId": "f4",
+   "faseTitel": "ICT-incidenten: beheer, classificatie en rapportage"
+  },
+  "pe.im2": {
+   "step": {
+    "id": "pe.im2",
+    "titel": "Regel de indieningsvarianten: combineren, aggregeren van terugkerende incidenten en herclassificatie",
+    "doel": "Een vastgelegde werkwijze voor de bijzondere indieningsvormen van UV 2025/302: gecombineerde indiening, geaggregeerde rapportage van terugkerende incidenten en de kennisgeving van afschaling naar niet-ernstig.",
+    "acties": [
+     "Leg vast wanneer u indieningen combineert: twee of drie van de verslagen mogen tegelijk worden ingediend zodra de reguliere activiteiten zijn hersteld of de oorzaakanalyse is voltooid, mits elke afzonderlijke termijn (4/24 uur, 72 uur, 1 maand) gehaald blijft.",
+     "Rapporteer niet-ernstige terugkerende incidenten die cumulatief als één ernstig incident gelden in geaggregeerde vorm; gebruik daarvoor de uitkomst van de maandelijkse toets op terugkerende incidenten.",
+     "Meld een afschaling: concludeert u na herbeoordeling dat een als ernstig gemeld incident op geen enkel moment aan de drempels voldeed, stel de bevoegde autoriteit dan in kennis van de herclassificatie via het meldmodel: kies in veld 1.1 (Soort indiening) de optie 'ernstig incident geherclassificeerd als niet-ernstig' en motiveer in veld 2.10 (Andere nuttige informatie) waarom het incident op geen enkel moment aan de criteria beantwoordde (de velden die art. 5 UV 2025/302 aanduidt als 'soort verslag' en 'overige informatie').",
+     "Neem herclassificatie-informatie ook op in de eerste kennisgeving wanneer de afschaling zich al bij die melding aftekent."
+    ],
+    "bewijsstukken": [
+     "Procedureparagraaf gecombineerde/geaggregeerde indiening en herclassificatie",
+     "Herclassificatiekennisgevingen met interne herbeoordeling"
+    ],
+    "rollen": [
+     "CISO",
+     "compliance"
+    ],
+    "refs": [
+     {
+      "label": "Art. 2 UV 2025/302",
+      "href": "/its-incidentrapportage/artikel/2#inhoud"
+     },
+     {
+      "label": "Art. 3 UV 2025/302",
+      "href": "/its-incidentrapportage/artikel/3#inhoud"
+     },
+     {
+      "label": "Art. 5 UV 2025/302",
+      "href": "/its-incidentrapportage/artikel/5#inhoud"
+     },
+     {
+      "label": "Art. 8, lid 2 GV 2024/1772",
+      "href": "/rts-classificatie/artikel/8#lid-2"
+     }
+    ],
+    "appliesTo": [
+     "volledig",
+     "vereenvoudigd"
+    ],
+    "prioriteit": "verdieping",
+    "afhankelijkVan": [
+     "pe.i4"
+    ]
+   },
+   "playbook": "entiteit",
+   "faseId": "f4",
+   "faseTitel": "ICT-incidenten: beheer, classificatie en rapportage"
+  },
+  "pe.im3": {
+   "step": {
+    "id": "pe.im3",
+    "titel": "Sluit aan op het beveiligde meldkanaal van uw bevoegde autoriteit",
+    "doel": "Werkende, geteste toegang tot het door de autoriteit beschikbaar gestelde beveiligde elektronische kanaal, met een terugvalwerkwijze voor kanaalstoring.",
+    "acties": [
+     "Sluit aan op het beveiligde elektronische meldkanaal van uw bevoegde autoriteit: vraag accounts aan, wijs beheerders en plaatsvervangers aan en test de toegang vóór het eerste incident.",
+     "Leg een terugvalwerkwijze vast voor als het kanaal niet bruikbaar is: meld via andere beveiligde middelen in overleg met de autoriteit en dien de kennisgeving of het verslag op haar verzoek opnieuw in via het reguliere kanaal zodra dat weer kan; integreer dit in de terugvalprocedure van pe.i4 (model technisch niet indienbaar, art. 19, lid 1, vierde alinea DORA), zodat één procedure model- én kanaalstoring dekt.",
+     "Beheer de toegangsmiddelen actief: registreer vervaldatums van certificaten en accounts en controleer de werking ten minste jaarlijks, bijvoorbeeld als onderdeel van de meldoefening uit pe.i4."
+    ],
+    "bewijsstukken": [
+     "Accountregistratie meldportaal met beheerders en vervaldatums",
+     "Terugvalprocedure kanaalstoring",
+     "Testlog toegang meldkanaal"
+    ],
+    "rollen": [
+     "IT-operations",
+     "CISO",
+     "compliance"
+    ],
+    "refs": [
+     {
+      "label": "Art. 4, lid 1 UV 2025/302",
+      "href": "/its-incidentrapportage/artikel/4#lid-1"
+     },
+     {
+      "label": "Art. 4, lid 2 UV 2025/302",
+      "href": "/its-incidentrapportage/artikel/4#lid-2"
+     },
+     {
+      "label": "Art. 19, lid 1 DORA",
+      "href": "/artikel/19#lid-1"
+     }
+    ],
+    "appliesTo": [
+     "volledig",
+     "vereenvoudigd"
+    ],
+    "prioriteit": "kern",
+    "afhankelijkVan": [
+     "pe.i4"
+    ]
+   },
+   "playbook": "entiteit",
+   "faseId": "f4",
+   "faseTitel": "ICT-incidenten: beheer, classificatie en rapportage"
+  },
+  "pe.im4": {
+   "step": {
+    "id": "pe.im4",
+    "titel": "Beoordeel geaggregeerde rapportage via uw derde dienstverlener",
+    "doel": "Een gedocumenteerde toets of geaggregeerde melding door de dienstverlener aan wie de rapportage is uitbesteed voor uw entiteit is toegestaan en gewenst, met borging dat individuele melding op verzoek altijd mogelijk blijft.",
+    "acties": [
+     "Toets of geaggregeerde rapportage openstaat: alleen als het incident bij een derde ICT-dienstverlener ontstond of daardoor is veroorzaakt, die de dienst aan meerdere entiteiten of een groep levert, elke betrokken entiteit het incident zelf als ernstig classificeert, alle entiteiten in één lidstaat onder dezelfde bevoegde autoriteit vallen én die autoriteit aggregatie voor deze soort entiteiten uitdrukkelijk heeft toegestaan.",
+     "Documenteer dat kredietinstellingen die als belangrijk (significant) zijn aangemerkt in de zin van art. 2, punt 16, van Verordening (EU) nr. 468/2014,, exploitanten van handelsplatformen en centrale tegenpartijen altijd individueel melden; sluit aggregatie voor deze entiteiten uit in de afspraken met de dienstverlener.",
+     "Spreek met de dienstverlener af dat elke entiteit haar eigen classificatie uitvoert en dat op verzoek van de autoriteit alsnog een individuele kennisgeving of een individueel verslag wordt ingediend.",
+     "Controleer bij elke geaggregeerde indiening dat de namen en LEI-codes van alle betrokken financiële entiteiten zijn opgenomen."
+    ],
+    "bewijsstukken": [
+     "Toetsingsmemo voorwaarden geaggregeerde rapportage",
+     "Contractafspraken over individuele en geaggregeerde melding"
+    ],
+    "rollen": [
+     "compliance",
+     "juridisch",
+     "inkoop"
+    ],
+    "refs": [
+     {
+      "label": "Art. 7, lid 1 UV 2025/302",
+      "href": "/its-incidentrapportage/artikel/7#lid-1"
+     },
+     {
+      "label": "Art. 7, lid 2 UV 2025/302",
+      "href": "/its-incidentrapportage/artikel/7#lid-2"
+     },
+     {
+      "label": "Art. 7, lid 3 UV 2025/302",
+      "href": "/its-incidentrapportage/artikel/7#lid-3"
+     },
+     {
+      "label": "Art. 1 GV 2025/301",
+      "href": "/rts-incidentrapportage/artikel/1#inhoud"
+     },
+     {
+      "label": "Art. 19, lid 5 DORA",
+      "href": "/artikel/19#lid-5"
+     }
+    ],
+    "appliesTo": [
+     "volledig",
+     "vereenvoudigd"
+    ],
+    "prioriteit": "verdieping",
+    "afhankelijkVan": [
+     "pe.i7"
     ]
    },
    "playbook": "entiteit",
@@ -10673,6 +12869,495 @@
      {
       "label": "Bijlage VIII GV 2025/1190",
       "href": "/rts-tlpt/bijlage/viii"
+     }
+    ],
+    "appliesTo": [
+     "volledig"
+    ],
+    "prioriteit": "verdieping",
+    "afhankelijkVan": [
+     "pe.t6"
+    ]
+   },
+   "playbook": "entiteit",
+   "faseId": "f5",
+   "faseTitel": "Testen van digitale weerbaarheid en TLPT"
+  },
+  "pe.tl1": {
+   "step": {
+    "id": "pe.tl1",
+    "titel": "Richt het control team en de geheimhouding van de TLPT in",
+    "doel": "Een door de TLPT-autoriteit gevalideerd control team onder een aangewezen leider beheert de TLPT dagelijks, met organisatorisch geborgde vertrouwelijkheid en escalatiebeheersing.",
+    "acties": [
+     "Stel een leider van het control team aan die verantwoordelijk is voor het dagelijkse beheer van de TLPT en voor de beslissingen en acties van het control team; zet na validatie van de initiëringsdocumenten het control team op met de taken van art. 9, lid 4: communicatiekanalen specificeren, het leidinggevend orgaan informeren over voortgang en risico's, inhoudelijke beslissingen nemen, aanbieders van dreigingsinformatie en testers selecteren en het scoping-document opstellen.",
+     "Beperk de toegang tot informatie over geplande of lopende TLPT's op need-to-know-basis tot het control team, het leidinggevend orgaan, de testers, de aanbieder van dreigingsinformatie en de TLPT-autoriteit, en laat betrokken partijen waar mogelijk uitsluitend met een codenaam naar de test verwijzen.",
+     "Leg procedureel vast dat het control team de testmanagers raadpleegt voordat een blue-teamlid bij de TLPT wordt betrokken, dat elke ontdekking van de test door eigen personeel of personeel van derde dienstenaanbieders aan het control team wordt gemeld, en dat het control team een daaruit voortvloeiende escalatie van de incidentrespons zo nodig indamt.",
+     "Voer geheimhoudingsregelingen in die gelden voor het eigen personeel, het personeel van betrokken derde aanbieders van ICT-diensten, de testers en de aanbieder van dreigingsinformatie, en borg dat het control team op verzoek alle TLPT-informatie aan de testmanagers verstrekt."
+    ],
+    "bewijsstukken": [
+     "Aanstellingsbesluit leider control team en door de TLPT-autoriteit gevalideerde teamsamenstelling",
+     "Need-to-know- en geheimhoudingsregeling voor de TLPT, inclusief codenaamgebruik",
+     "Procedure blue-team-afscherming, ontdekkingsmelding en escalatie-indamming"
+    ],
+    "rollen": [
+     "CISO",
+     "bestuur",
+     "juridisch",
+     "HR"
+    ],
+    "refs": [
+     {
+      "label": "Art. 4, lid 1 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/4#lid-1"
+     },
+     {
+      "label": "Art. 4, lid 2 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/4#lid-2"
+     },
+     {
+      "label": "Art. 9, lid 4 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/9#lid-4"
+     }
+    ],
+    "appliesTo": [
+     "volledig"
+    ],
+    "prioriteit": "verdieping",
+    "afhankelijkVan": [
+     "pe.t4"
+    ]
+   },
+   "playbook": "entiteit",
+   "faseId": "f5",
+   "faseTitel": "Testen van digitale weerbaarheid en TLPT"
+  },
+  "pe.tl2": {
+   "step": {
+    "id": "pe.tl2",
+    "titel": "Beoordeel en beheers de risico's van de TLPT",
+    "doel": "Een gedocumenteerde, gedurende de hele test bijgehouden TLPT-risicobeoordeling met beheersmaatregelen die schade aan live productiesystemen, de sector en de financiële stabiliteit mitigeren.",
+    "acties": [
+     "Laat het control team tijdens de voorbereidende fase de risico's beoordelen van het testen van live productiesystemen van kritieke of belangrijke functies, inclusief de potentiële impact op de financiële sector en op de financiële stabiliteit op Unie- en nationaal niveau, en actualiseer die beoordeling gedurende de hele test.",
+     "Dek in de beoordeling ten minste de risico's van: toegang van de aanbieder van dreigingsinformatie en externe testers tot gevoelige informatie; niet-conformiteit met DORA of deze verordening die tot het niet afgeven van het attest leidt (ook bij vertrouwelijkheidsinbreuken of niet-ethisch gedrag); escalatie van crises en incidenten; de actieve red-teamfase en de blue-teamactiviteit (onderbreking van kritieke activiteiten, aantasting van data, impact op derden); en onvolledige terugzetting van aangetaste systemen.",
+     "Raadpleeg vóór de aanvang van de testfase de testmanagers over de risicobeoordeling en de beheersmaatregelen, en evalueer beide opnieuw wanneer de TLPT-autoriteit ze ontoereikend acht.",
+     "Voer bij een gepoolde of gezamenlijke TLPT als elk deelnemend control team een eigen risicobeoordeling met eigen beheersmaatregelen uit; is uw entiteit de aangewezen entiteit, beoordeel dan ook de risico's van de betrokkenheid van meerdere entiteiten en breng samen met de andere control teams de gezamenlijke risico's in kaart."
+    ],
+    "bewijsstukken": [
+     "TLPT-risicobeoordeling met beheersmaatregelen en actualisatiehistorie",
+     "Verslag van de raadpleging van de testmanagers over risicobeoordeling en maatregelen"
+    ],
+    "rollen": [
+     "risk",
+     "CISO",
+     "IT-operations"
+    ],
+    "refs": [
+     {
+      "label": "Art. 5, lid 1 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/5#lid-1"
+     },
+     {
+      "label": "Art. 5, lid 2 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/5#lid-2"
+     },
+     {
+      "label": "Art. 6, lid 1 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/6#lid-1"
+     },
+     {
+      "label": "Art. 6, lid 2 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/6#lid-2"
+     },
+     {
+      "label": "Art. 9, lid 10 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/9#lid-10"
+     },
+     {
+      "label": "Art. 26, lid 5 DORA",
+      "href": "/artikel/26#lid-5"
+     }
+    ],
+    "appliesTo": [
+     "volledig"
+    ],
+    "prioriteit": "verdieping",
+    "afhankelijkVan": [
+     "pe.tl1"
+    ]
+   },
+   "playbook": "entiteit",
+   "faseId": "f5",
+   "faseTitel": "Testen van digitale weerbaarheid en TLPT"
+  },
+  "pe.tl3": {
+   "step": {
+    "id": "pe.tl3",
+    "titel": "Toets en contracteer de aanbieders van dreigingsinformatie en de testers",
+    "doel": "Alleen aanbieders die aantoonbaar aan de kwalificatie-, ervarings- en scheidingsvereisten voldoen worden — na bewijslevering aan de testmanagers — gecontracteerd, met sluitende herstel- en verbodsbepalingen in het contract.",
+    "acties": [
+     "Verifieer per TLPT dat de aanbieder van dreigingsinformatie en de externe testers gedetailleerde cv's en passende certificeringen volgens erkende marktnormen overleggen, volledig gedekt zijn door beroepsaansprakelijkheidsverzekering (inclusief fouten en nalatigheid) en referenties leveren van eerdere penetratie- en red-teamopdrachten: ten minste drie (dreigingsinformatie) respectievelijk vijf (externe testers).",
+     "Toets de teamsamenstelling: dreigingsinformatieteam met ten minste één manager met vijf jaar en één lid met twee jaar ervaring en drie gezamenlijke eerdere opdrachten; red team met ten minste één manager met vijf jaar en twee testers met elk twee jaar ervaring en vijf gezamenlijke eerdere opdrachten; controleer de functiescheiding (geen gelijktijdige blue-teamtaken of conflicterende diensten, gescheiden van personeel van dezelfde aanbieder dat de andere TLPT-rol voor dezelfde test vervult).",
+     "Leg contractueel de herstelprocedures voor het einde van de test vast (veilig verwijderen van gecompromitteerde wachtwoorden, credentials en sleutels; commando- en controledeactivering; scope en datum van kill-switches; verwijderen van achterdeuren en malware; kennisgeving van mogelijke inbreuken; procedures voor terugzetting van back-ups; monitoring van blue-teamactiviteiten) en de verboden activiteiten (onder meer vernietiging van apparatuur, ongecontroleerde wijziging van activa, doelbewust compromitteren van continuïteit, systemen buiten de scope, openbaarmaking van resultaten).",
+     "Documenteer de beoordeling van elke beoogde aanbieder tegen art. 27 DORA en art. 7, lid 1 GV 2025/1190, lever de testmanagers vóór contractering het conformiteitsbewijs, contracteer niet bij een negatief oordeel van de TLPT-autoriteit en bewaar de door aanbieders overgelegde documentatie.",
+     "Huurt u in uitzonderlijke omstandigheden een aanbieder in die niet aan alle vereisten van art. 7, lid 1, punten a) tot en met f) voldoet: neem passende, gedocumenteerde maatregelen om de daaraan verbonden risico's te mitigeren."
+    ],
+    "bewijsstukken": [
+     "Selectiedossier per TLPT-aanbieder (cv's, certificeringen, referenties, verzekeringsbewijs)",
+     "Conformiteitsbewijs aan de testmanagers vóór contractering",
+     "Contracten met herstelprocedures en verboden activiteiten"
+    ],
+    "rollen": [
+     "inkoop",
+     "juridisch",
+     "CISO",
+     "risk"
+    ],
+    "refs": [
+     {
+      "label": "Art. 7, lid 1 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/7#lid-1"
+     },
+     {
+      "label": "Art. 7, lid 2 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/7#lid-2"
+     },
+     {
+      "label": "Art. 9, lid 11 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/9#lid-11"
+     },
+     {
+      "label": "Art. 27, lid 1 DORA",
+      "href": "/artikel/27#lid-1"
+     },
+     {
+      "label": "Art. 27, lid 3 DORA",
+      "href": "/artikel/27#lid-3"
+     }
+    ],
+    "appliesTo": [
+     "volledig"
+    ],
+    "prioriteit": "verdieping",
+    "afhankelijkVan": [
+     "pe.t6",
+     "pe.tl1"
+    ]
+   },
+   "playbook": "entiteit",
+   "faseId": "f5",
+   "faseTitel": "Testen van digitale weerbaarheid en TLPT"
+  },
+  "pe.tl4": {
+   "step": {
+    "id": "pe.tl4",
+    "titel": "Doorloop de voorbereidende fase binnen de termijnen",
+    "doel": "Tijdig ingediende en door de TLPT-autoriteit gevalideerde initiëringsdocumenten en een goedgekeurd scoping-document, zodat de testfase kan starten.",
+    "acties": [
+     "Initieer de TLPT na ontvangst van de kennisgeving van de TLPT-autoriteit en dien binnen drie maanden de initiëringsinformatie in bij de testmanagers: het project charter met projectplan op hoofdlijnen (bijlage I), de contactgegevens van de leider van het control team, het voorgenomen gebruik van interne en/of externe testers, de communicatiekanalen en de codenaam van de TLPT.",
+     "Dien binnen zes maanden na de kennisgeving het scoping-document (bijlage II) in bij de testmanagers, goedgekeurd door het leidinggevend orgaan; weeg bij het opnemen van kritieke of belangrijke functies in de scope de criteria van art. 9, lid 7: kritikaliteit en impact op sector en financiële stabiliteit, belang voor de dagelijkse bedrijfsvoering, inwisselbaarheid, verwevenheid met andere functies, geografische locatie, sectorale afhankelijkheid en beschikbare dreigingsinformatie.",
+     "Rond het inhuren of toewijzen van testers en aanbieders van dreigingsinformatie af vóór de aanvang van de testfase; deel de initiërings- en scopingdocumenten met hen zodra zij zijn gecontracteerd en informeer hen over het te volgen testproces.",
+     "Verwerk de validatie-opmerkingen van de TLPT-autoriteit op de initiëringsinformatie, de samenstelling van het control team en het scoping-document totdat de goedkeuringskennisgevingen zijn ontvangen."
+    ],
+    "bewijsstukken": [
+     "Ingediend project charter en scoping-document met goedkeuring van het leidinggevend orgaan",
+     "Validatie- en goedkeuringskennisgevingen van de TLPT-autoriteit",
+     "Bewijs dat contractering van TLPT-aanbieders vóór de testfase is afgerond"
+    ],
+    "rollen": [
+     "CISO",
+     "risk",
+     "bestuur"
+    ],
+    "refs": [
+     {
+      "label": "Art. 9, lid 1 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/9#lid-1"
+     },
+     {
+      "label": "Art. 9, lid 2 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/9#lid-2"
+     },
+     {
+      "label": "Art. 9, lid 6 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/9#lid-6"
+     },
+     {
+      "label": "Art. 9, lid 7 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/9#lid-7"
+     },
+     {
+      "label": "Art. 9, lid 9 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/9#lid-9"
+     },
+     {
+      "label": "Bijlage I GV 2025/1190",
+      "href": "/rts-tlpt/bijlage/i"
+     },
+     {
+      "label": "Bijlage II GV 2025/1190",
+      "href": "/rts-tlpt/bijlage/ii"
+     },
+     {
+      "label": "Art. 26, lid 8 DORA",
+      "href": "/artikel/26#lid-8"
+     }
+    ],
+    "appliesTo": [
+     "volledig"
+    ],
+    "prioriteit": "verdieping",
+    "afhankelijkVan": [
+     "pe.t4",
+     "pe.tl1"
+    ]
+   },
+   "playbook": "entiteit",
+   "faseId": "f5",
+   "faseTitel": "Testen van digitale weerbaarheid en TLPT"
+  },
+  "pe.tl5": {
+   "step": {
+    "id": "pe.tl5",
+    "titel": "Stuur de dreigingsinformatiefase en de scenarioselectie",
+    "doel": "Een door de TLPT-autoriteit goedgekeurd Target Threat Intelligence Report met ten minste drie realistische scenario's die elke kritieke of belangrijke functie binnen de scope dekken.",
+    "acties": [
+     "Laat de aanbieder van dreigingsinformatie na goedkeuring van het scoping-document algemene en sectorspecifieke dreigingsinformatie analyseren (waar beschikbaar op basis van het door de TLPT-autoriteit verstrekte nationale dreigingslandschap), cyberdreigingen en kwetsbaarheden van de entiteit in kaart brengen en concrete, actionable en gecontextualiseerde doel- en dreigingsinformatie verzamelen, in overleg met het control team en de testmanagers.",
+     "Laat de leider van het control team ten minste drie scenario's selecteren op basis van de aanbeveling van de aanbieder van dreigingsinformatie en het dreigingsgestuurde karakter, de input van de testmanagers, de haalbaarheid volgens het deskundige oordeel van de testers en het risicoprofiel en de complexiteit van de entiteit; de scenario's verschillen in dreigingsactoren en bijbehorende TTP's en richten zich op elke kritieke of belangrijke functie binnen de scope.",
+     "Sta maximaal één niet-dreigingsgestuurd scenario toe (prospectieve fictieve dreiging met hoge voorspellende waarde); borg bij een gepoolde of gezamenlijke TLPT ten minste één scenario dat de onderliggende ICT-systemen, -processen en -technologieën van de betrokken derde of intragroepsaanbieder van ICT-diensten dekt.",
+     "Ontvang het Target Threat Intelligence Report met de geselecteerde scenario's (bijlage III) en leg het via de testmanager ter goedkeuring voor aan de TLPT-autoriteit; start de red-teamfase pas na die goedkeuring."
+    ],
+    "bewijsstukken": [
+     "Goedgekeurd Target Threat Intelligence Report met scenarioselectie en onderbouwing"
+    ],
+    "rollen": [
+     "CISO",
+     "risk"
+    ],
+    "refs": [
+     {
+      "label": "Art. 10, lid 1 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/10#lid-1"
+     },
+     {
+      "label": "Art. 10, lid 3 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/10#lid-3"
+     },
+     {
+      "label": "Art. 10, lid 4 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/10#lid-4"
+     },
+     {
+      "label": "Art. 10, lid 5 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/10#lid-5"
+     },
+     {
+      "label": "Art. 10, lid 6 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/10#lid-6"
+     },
+     {
+      "label": "Bijlage III GV 2025/1190",
+      "href": "/rts-tlpt/bijlage/iii"
+     },
+     {
+      "label": "Art. 26, lid 2 DORA",
+      "href": "/artikel/26#lid-2"
+     }
+    ],
+    "appliesTo": [
+     "volledig"
+    ],
+    "prioriteit": "verdieping",
+    "afhankelijkVan": [
+     "pe.tl4",
+     "pe.tl3"
+    ]
+   },
+   "playbook": "entiteit",
+   "faseId": "f5",
+   "faseTitel": "Testen van digitale weerbaarheid en TLPT"
+  },
+  "pe.tl6": {
+   "step": {
+    "id": "pe.tl6",
+    "titel": "Beheers de actieve red-teamtestfase",
+    "doel": "Een goedgekeurd red-teamtestplan wordt gedurende ten minste twaalf weken gecontroleerd uitgevoerd, met wekelijkse voortgangsrapportage, beheerste leg-ups en een protocol voor ontdekking en opschorting.",
+    "acties": [
+     "Laat de testers na goedkeuring van het TTI-rapport het red-teamtestplan (bijlage IV) opstellen op basis van het scoping-document en het TTI-rapport, laat hen het control team, de aanbieder van dreigingsinformatie en de testmanagers raadplegen (inclusief communicatie-, procedurele en projectmanagementregelingen, leg-up-use-cases en rapportageafspraken) en keur het plan als control team goed naast de TLPT-autoriteit.",
+     "Plan de actieve red-teamtestfase evenredig aan de scope en complexiteit met een duur van ten minste twaalf weken; voer scenario's sequentieel of gelijktijdig uit en stem het einde van de fase af tussen control team, aanbieder van dreigingsinformatie, testers en testmanagers.",
+     "Laat wijzigingen van het vastgestelde testplan (tijdschema, scope, doelwitsystemen, flags) alleen doorgaan na goedkeuring van de leider van het control team en de testmanagers, en zie toe op ten minste wekelijkse voortgangsrapportage van de testers aan control team en testmanagers, met de aanbieder van dreigingsinformatie beschikbaar voor aanvullend overleg.",
+     "Verstrek tijdig leg-ups die op basis van het testplan zijn ontworpen; voeg leg-ups alleen toe of pas ze aan na goedkeuring van het control team en de testmanagers.",
+     "Stel bij ontdekking van testwerkzaamheden door personeel — in overleg met de testers — aan de testmanagers maatregelen ter validatie voor waarmee de test geheim kan worden voortgezet; laat de leider van het control team de TLPT bij buitengewone risico's voor data, activa of kritieke functies opschorten, of zet als laatste redmiddel en na voorafgaande validatie door de TLPT-autoriteit voort met een beperkte purple-teamingoefening (die meetelt voor de minimumduur van twaalf weken)."
+    ],
+    "bewijsstukken": [
+     "Goedgekeurd red-teamtestplan",
+     "Wekelijkse voortgangsrapportages van de testers",
+     "Log van leg-ups, planwijzigingen en eventuele opschortings- of purple-teamingbesluiten"
+    ],
+    "rollen": [
+     "CISO",
+     "IT-operations",
+     "risk"
+    ],
+    "refs": [
+     {
+      "label": "Art. 11, lid 1 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/11#lid-1"
+     },
+     {
+      "label": "Art. 11, lid 3 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/11#lid-3"
+     },
+     {
+      "label": "Art. 11, lid 5 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/11#lid-5"
+     },
+     {
+      "label": "Art. 11, lid 7 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/11#lid-7"
+     },
+     {
+      "label": "Art. 11, lid 8 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/11#lid-8"
+     },
+     {
+      "label": "Art. 11, lid 10 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/11#lid-10"
+     },
+     {
+      "label": "Bijlage IV GV 2025/1190",
+      "href": "/rts-tlpt/bijlage/iv"
+     },
+     {
+      "label": "Art. 26, lid 1 DORA",
+      "href": "/artikel/26#lid-1"
+     }
+    ],
+    "appliesTo": [
+     "volledig"
+    ],
+    "prioriteit": "verdieping",
+    "afhankelijkVan": [
+     "pe.tl5"
+    ]
+   },
+   "playbook": "entiteit",
+   "faseId": "f5",
+   "faseTitel": "Testen van digitale weerbaarheid en TLPT"
+  },
+  "pe.tl7": {
+   "step": {
+    "id": "pe.tl7",
+    "titel": "Voer de afsluitende fase uit: rapporten, replay en remediëring",
+    "doel": "Alle afsluitende deliverables — red- en blue-teamtestrapporten, replay en purple teaming, samenvattend bevindingenrapport en remediëringsplan — worden binnen de voorgeschreven termijnen opgeleverd.",
+    "acties": [
+     "Informeer na het einde van de actieve red-teamtestfase het blue team dat er een TLPT heeft plaatsgevonden; ontvang binnen vier weken het red-team-testrapport (bijlage V) van de testers en verstrek het zonder onnodige vertraging aan het blue team en de testmanagers (op verzoek van de testmanagers zonder gevoelige informatie).",
+     "Laat het blue team uiterlijk tien weken na het einde van de actieve red-teamtestfase het blue-team-testrapport (bijlage VI) bij het control team indienen en verstrek dit onverwijld aan de testers en de testmanagers.",
+     "Voer uiterlijk tien weken na het einde van de actieve red-teamtestfase met blue team en testers een replay uit van de offensieve en defensieve acties en een purple-teamingoefening over geconstateerde kwetsbaarheden en niet-geteste punten; organiseer aansluitend wederzijdse feedback tussen control team, blue team, testers en aanbieders van dreigingsinformatie.",
+     "Dien binnen acht weken na de kennisgeving dat beide testrapporten volledig zijn bevonden het samenvattende bevindingenrapport (bijlage VII) ter goedkeuring in bij de TLPT-autoriteit (op verzoek zonder gevoelige informatie).",
+     "Verstrek binnen acht weken na die kennisgeving het remediëringsplan en de documentatie aan de TLPT-autoriteit en, indien verschillend, aan uw bevoegde autoriteit; neem per bevinding op: beschrijving van de tekortkomingen, voorgestelde maatregelen met prioritering en verwachte voltooiing, een root cause analysis, de verantwoordelijke personen of functies en de risico's van niet-uitvoering (en in voorkomend geval van uitvoering)."
+    ],
+    "bewijsstukken": [
+     "Red-team- en blue-team-testrapporten met indieningstijdstempels",
+     "Verslag van replay- en purple-teamingoefeningen en feedbackronde",
+     "Goedgekeurd samenvattend bevindingenrapport en ingediend remediëringsplan"
+    ],
+    "rollen": [
+     "CISO",
+     "risk",
+     "compliance",
+     "bestuur"
+    ],
+    "refs": [
+     {
+      "label": "Art. 12, lid 2 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/12#lid-2"
+     },
+     {
+      "label": "Art. 12, lid 4 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/12#lid-4"
+     },
+     {
+      "label": "Art. 12, lid 5 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/12#lid-5"
+     },
+     {
+      "label": "Art. 12, lid 7 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/12#lid-7"
+     },
+     {
+      "label": "Art. 13, lid 1 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/13#lid-1"
+     },
+     {
+      "label": "Art. 13, lid 2 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/13#lid-2"
+     },
+     {
+      "label": "Bijlage V GV 2025/1190",
+      "href": "/rts-tlpt/bijlage/v"
+     },
+     {
+      "label": "Bijlage VI GV 2025/1190",
+      "href": "/rts-tlpt/bijlage/vi"
+     },
+     {
+      "label": "Bijlage VII GV 2025/1190",
+      "href": "/rts-tlpt/bijlage/vii"
+     },
+     {
+      "label": "Art. 26, lid 6 DORA",
+      "href": "/artikel/26#lid-6"
+     }
+    ],
+    "appliesTo": [
+     "volledig"
+    ],
+    "prioriteit": "verdieping",
+    "afhankelijkVan": [
+     "pe.tl6"
+    ]
+   },
+   "playbook": "entiteit",
+   "faseId": "f5",
+   "faseTitel": "Testen van digitale weerbaarheid en TLPT"
+  },
+  "pe.tl8": {
+   "step": {
+    "id": "pe.tl8",
+    "titel": "Stel een beleid voor de inzet van interne testers vast",
+    "doel": "Interne testers worden alleen ingezet onder een gedocumenteerd, periodiek herzien beleid dat capaciteit, geschiktheid en belangenconflicten beheerst en de verdedigingscapaciteit tijdens de test intact laat.",
+    "acties": [
+     "Stel een beleid vast voor het beheer van interne testers in een TLPT, met criteria voor geschiktheid, bekwaamheid en potentiële belangenconflicten en met gespecificeerde managementverantwoordelijkheden in het testproces; documenteer het beleid en herzie het periodiek.",
+     "Borg de teameisen in het beleid: een testleider plus ten minste twee andere leden, alle leden gedurende de voorgaande twaalf maanden in dienst bij de entiteit of bij een intragroepsaanbieder van ICT-diensten (testers van een intragroepsaanbieder gelden als interne testers), en bepalingen over het opleiden van interne testers in penetratie- en red-teamtests.",
+     "Neem maatregelen zodat de inzet van interne testers de algemene verdedigings- en weerbaarheidscapaciteit bij ICT-incidenten niet negatief beïnvloedt en geen aanzienlijke impact heeft op de beschikbaarheid van middelen voor ICT-taken tijdens de TLPT, en zorg dat interne testers over voldoende middelen en capaciteiten beschikken.",
+     "Vermeld de inzet van interne testers expliciet in de testinitiëringsinformatie, het red-team-testrapport en het samenvattende bevindingenrapport."
+    ],
+    "bewijsstukken": [
+     "Beleid interne testers met revisiehistorie",
+     "Bezettings-, dienstverband- en opleidingsdossier van het interne testteam",
+     "Vermelding van interne-testerinzet in initiëringsinformatie en testrapporten"
+    ],
+    "rollen": [
+     "CISO",
+     "HR",
+     "risk"
+    ],
+    "refs": [
+     {
+      "label": "Art. 15, lid 1 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/15#lid-1"
+     },
+     {
+      "label": "Art. 15, lid 3 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/15#lid-3"
+     },
+     {
+      "label": "Art. 15, lid 4 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/15#lid-4"
+     },
+     {
+      "label": "Art. 27, lid 2 DORA",
+      "href": "/artikel/27#lid-2"
      }
     ],
     "appliesTo": [
@@ -11658,18 +14343,18 @@
  },
  "counts": {
   "steps": {
-   "entiteit": 82,
+   "entiteit": 96,
    "aanbieder": 5
   },
-  "coverageEntries": 398,
+  "coverageEntries": 538,
   "dispositions": {
    "toepassingsgebied": 8,
-   "context": 9,
-   "definitie": 1,
-   "stap": 236,
-   "autoriteit": 118,
+   "context": 10,
+   "definitie": 2,
+   "stap": 348,
+   "autoriteit": 140,
    "ctpp": 17,
-   "slotbepaling": 9
+   "slotbepaling": 13
   }
  }
 }
