@@ -671,7 +671,7 @@
           "acties": [
             "Plan de evaluatie van het kader: ten minste eenmaal per jaar (micro-ondernemingen: periodiek), en aanvullend bij ernstige ICT-gerelateerde incidenten en na toezichtinstructies of conclusies uit weerbaarheidstests of auditprocessen.",
             "Leg per evaluatie de bevindingen, de lessen uit uitvoering en monitoring en de doorgevoerde verbeteringen vast, zodat continue verbetering aantoonbaar is.",
-            "Gebruik voor het evaluatieverslag het format en de inhoud van artikel 27 GV 2024/1774, zodat het bij een verzoek van de bevoegde autoriteit zonder vertraging kan worden ingediend."
+            "Gebruik voor het evaluatieverslag het format en de inhoud van artikel 27 GV 2024/1774 en houd het in een elektronisch doorzoekbaar formaat beschikbaar, zodat het bij een verzoek van de bevoegde autoriteit zonder vertraging kan worden ingediend."
           ],
           "bewijsstukken": [
             "Evaluatiekalender met triggers (incident, toezichtinstructie, test/audit)",
@@ -687,8 +687,8 @@
               "href": "/artikel/6#lid-5"
             },
             {
-              "label": "Art. 27 GV 2024/1774",
-              "href": "/rts-risicobeheer/artikel/27"
+              "label": "Art. 27, lid 1 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/27#lid-1"
             }
           ],
           "appliesTo": [
@@ -1017,6 +1017,7 @@
           "doel": "Een alomvattend ICT-bedrijfscontinuiteitsbeleid met gedocumenteerde plannen en ICT-respons- en herstelplannen die de continuiteit van kritieke of belangrijke functies verzekeren.",
           "acties": [
             "Stel het alomvattende ICT-bedrijfscontinuïteitsbeleid vast — eventueel als specifiek, afzonderlijk beleid — als integrerend onderdeel van het bredere bedrijfscontinuïteitsbeleid, en laat het goedkeuren door het leidinggevend orgaan (art. 11, lid 1).",
+            "Neem in het beleid ten minste op: de doelstellingen en de relatie met de algemene bedrijfscontinuïteit, de scope met beperkingen en uitsluitingen en de bestreken tijdsspanne, de activerings- en deactiveringscriteria voor de plannen, de governance met escalatieprocedures, de koppeling aan de hersteldoelstellingen (RTO/RPO) en de afstemming op het communicatie- en crisiscommunicatiebeleid van art. 14 DORA (art. 24 GV 2024/1774).",
             "Werk de uitvoering uit in specifieke, gedocumenteerde regelingen, plannen, procedures en mechanismen die gericht zijn op: continuiteit van kritieke of belangrijke functies; snelle, passende en doeltreffende respons en oplossing van alle ICT-incidenten met schadebeperking; onverwijlde activering van inperkingsplannen per incidenttype; raming van voorlopige effecten, schade en verliezen; en communicatie- en crisisbeheersingsmaatregelen richting personeel, belanghebbenden en de bevoegde autoriteiten (artikelen 14 en 19).",
             "Voer bijbehorende ICT-respons- en herstelplannen in en onderwerp deze bij andere financiele entiteiten dan micro-ondernemingen aan onafhankelijke interne audits.",
             "Handhaaf en test de ICT-bedrijfscontinuiteitsplannen periodiek, met bijzondere aandacht voor kritieke of belangrijke functies die zijn uitbesteed aan of gecontracteerd bij derde ICT-aanbieders."
@@ -1109,9 +1110,9 @@
           "titel": "Test continuiteits-, respons- en herstelplannen ten minste jaarlijks",
           "doel": "De plannen zijn aantoonbaar werkend: jaarlijkse tests met realistische scenario's, en evaluatie en bijstelling op basis van de resultaten.",
           "acties": [
-            "Test ten minste jaarlijks, en bij substantiele wijzigingen in ICT-systemen die kritieke of belangrijke functies ondersteunen, de ICT-bedrijfscontinuiteitsplannen en de ICT-respons- en herstelplannen voor die systemen, alsook de overeenkomstig artikel 14 opgestelde crisiscommunicatieplannen.",
-            "Neem als andere financiele entiteit dan micro-onderneming in de testplannen scenario's op van cyberaanvallen en van omschakeling tussen de primaire ICT-infrastructuur en de reservecapaciteit, back-ups en reservefaciliteiten.",
-            "Evalueer het ICT-bedrijfscontinuiteitsbeleid en de respons- en herstelplannen regelmatig op basis van de testresultaten en de aanbevelingen uit audits en toezichtbeoordelingen, en verwerk bevindingen aantoonbaar.",
+            "Test — op basis van de bedrijfsimpactanalyse en de ICT-risicobeoordeling — ten minste jaarlijks, en bij substantiele wijzigingen in ICT-systemen die kritieke of belangrijke functies ondersteunen, de ICT-bedrijfscontinuiteitsplannen en de ICT-respons- en herstelplannen voor die systemen, alsook de overeenkomstig artikel 14 opgestelde crisiscommunicatieplannen.",
+            "Neem als andere financiele entiteit dan micro-onderneming in de testplannen scenario's op van cyberaanvallen en van omschakeling tussen de primaire ICT-infrastructuur en de reservecapaciteit, back-ups en reservefaciliteiten; zet tests zo op dat zij de aannames van de plannen (inclusief governanceregelingen en crisiscommunicatieplannen) bevragen en toets of medewerkers, derde ICT-aanbieders, ICT-systemen en ICT-diensten adequaat op de scenario's kunnen reageren.",
+            "Evalueer het ICT-bedrijfscontinuiteitsbeleid en de respons- en herstelplannen regelmatig op basis van de testresultaten en de aanbevelingen uit audits en toezichtbeoordelingen, documenteer de testuitkomsten en analyseer, adresseer en meld geconstateerde tekortkomingen aan het leidinggevend orgaan (art. 25, lid 5 GV 2024/1774), en verwerk bevindingen aantoonbaar.",
             "Centrale effectenbewaarinstellingen: verstrek de bevoegde autoriteiten kopieen van de resultaten van de ICT-bedrijfscontinuiteitstests of soortgelijke oefeningen."
           ],
           "bewijsstukken": [
@@ -1133,8 +1134,8 @@
               "href": "/artikel/11#lid-9"
             },
             {
-              "label": "Art. 25 GV 2024/1774",
-              "href": "/rts-risicobeheer/artikel/25"
+              "label": "Art. 25, lid 5 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/25#lid-5"
             }
           ],
           "appliesTo": [
@@ -1519,6 +1520,1182 @@
           "afhankelijkVan": [
             "pe.r21"
           ]
+        },
+        {
+          "id": "pe.rb1",
+          "titel": "Werk de algemene vormeisen voor alle ICT-beveiligingsbeleidslijnen uit",
+          "doel": "Elk ICT-beveiligingsbeleid is geïntegreerd in het risicobeheersingskader en voldoet aan de gemeenschappelijke vormeisen: strategie-uitlijning, bestuursgoedkeuring, indicatoren, verantwoordelijkheden en herzieningscyclus.",
+          "acties": [
+            "Toets elk ICT-beveiligingsbeleid aan een vaste checklist van elf elementen: uitlijning op de informatiebeveiligingsdoelstellingen uit de weerbaarheidsstrategie; datum van formele goedkeuring door het leidinggevend orgaan; indicatoren en maatstaven voor implementatiemonitoring, vastlegging van uitzonderingen en borging van weerbaarheid bij die uitzonderingen; verantwoordelijkheden van medewerkers op alle niveaus; consequenties bij niet-naleving; lijst van bij te houden documentatie; functiescheiding volgens het 3LoD-model of gelijkwaardig; maatgevende praktijken en normen; rollen voor uitwerking, implementatie en onderhoud; herziening overeenkomstig artikel 6, lid 5 DORA: ten minste jaarlijks (micro-ondernemingen periodiek) en bij ernstige ICT-incidenten en na toezichtinstructies of conclusies uit tests en audits; en verwerking van materiële veranderingen (activiteiten, dreigingslandschap, wetgeving).",
+            "Borg dat de beleidslijnen samen de vier beschermingsdoelen aantoonbaar afdekken: netwerkveiligheid, bescherming tegen inbraken en gegevensmisbruik, bescherming van beschikbaarheid, authenticiteit, integriteit en vertrouwelijkheid van gegevens (onder meer via cryptografie) en nauwkeurige, prompte gegevensdoorgifte zonder majeure storingen.",
+            "Registreer uitzonderingen op de beleidsimplementatie centraal, met compenserende maatregelen en een herbeoordelingsdatum per uitzondering."
+          ],
+          "bewijsstukken": [
+            "Beleidsdocumenten met goedkeuringsdatum en versiehistorie",
+            "Indicatoren-/maatstavenrapportage over beleidsimplementatie",
+            "Uitzonderingenregister met compenserende maatregelen"
+          ],
+          "rollen": [
+            "CISO",
+            "compliance",
+            "bestuur"
+          ],
+          "refs": [
+            {
+              "label": "Art. 2, lid 1 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/2#lid-1"
+            },
+            {
+              "label": "Art. 2, lid 2 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/2#lid-2"
+            },
+            {
+              "label": "Art. 9, lid 2 DORA",
+              "href": "/artikel/9#lid-2"
+            }
+          ],
+          "appliesTo": [
+            "volledig"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.r9"
+          ]
+        },
+        {
+          "id": "pe.rb2",
+          "titel": "Richt de ICT-risicobeheersingscyclus met restrisico-acceptatie in",
+          "doel": "Een gedocumenteerde cyclus van risicobeoordeling, risicobehandeling binnen het tolerantieniveau en beheerde acceptatie van restrisico's met ten minste jaarlijkse evaluatie.",
+          "acties": [
+            "Leg in de ICT-beveiligingsbeleidslijnen de goedkeuring van het ICT-risicotolerantieniveau vast en documenteer de procedure en methode voor de ICT-risicobeoordeling: identificatie van kwetsbaarheden en dreigingen per bedrijfsfunctie, ICT-systeem en ICT-asset, met kwantitatieve of kwalitatieve indicatoren voor impact en waarschijnlijkheid.",
+            "Identificeer, implementeer en documenteer per beoordeeld risico de behandelmaatregelen die het risico binnen het tolerantieniveau brengen; monitor de doeltreffendheid van elke maatregel, beoordeel of de tolerantieniveaus worden bereikt en stuur bij waar nodig.",
+            "Houd een inventaris van geaccepteerde ICT-restrisico's bij met verantwoording per acceptatie en toegewezen rollen en verantwoordelijkheden voor acceptaties boven het tolerantieniveau én voor het evaluatieproces van die restrisico's; evalueer de geaccepteerde restrisico's ten minste jaarlijks op veranderingen, beschikbare mitigaties en de blijvende geldigheid van de acceptatiegronden.",
+            "Monitor doorlopend veranderingen in het ICT-risico- en cyberdreigingslandschap en in interne en externe kwetsbaarheden, en verwerk wijzigingen in de bedrijfsstrategie en de weerbaarheidsstrategie in de risicobeoordeling."
+          ],
+          "bewijsstukken": [
+            "Gedocumenteerde ICT-risicobeoordelingsmethodiek",
+            "Restrisicoregister met jaarlijkse evaluatieverslagen",
+            "Monitoringrapportage dreigingslandschap"
+          ],
+          "rollen": [
+            "risk",
+            "CISO"
+          ],
+          "refs": [
+            {
+              "label": "Art. 3 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/3#inhoud"
+            },
+            {
+              "label": "Art. 6, lid 8 DORA",
+              "href": "/artikel/6#lid-8"
+            },
+            {
+              "label": "Art. 8, lid 2 DORA",
+              "href": "/artikel/8#lid-2"
+            }
+          ],
+          "appliesTo": [
+            "volledig"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.r5",
+            "pe.r7"
+          ]
+        },
+        {
+          "id": "pe.rb3",
+          "titel": "Stel het ICT-assetbeheerbeleid en de kritikaliteitsprocedure vast",
+          "doel": "Een beleid en procedure voor ICT-assetbeheer die de volledige levenscyclus dekken, per asset de verplichte vastleggingen bevatten en de kritikaliteit van assets volgens vaste criteria beoordelen.",
+          "acties": [
+            "Ontwikkel, documenteer en implementeer een beleid voor ICT-assetbeheer dat lifecycle-monitoring voorschrijft en per ICT-asset ten minste vastlegt: unieke identificatie, fysieke of logische locatie, classificatie, eigenaar, ondersteunde bedrijfsfuncties of diensten, bedrijfscontinuïteitsvereisten (RTO en RPO), blootstelling aan externe netwerken waaronder internet, verbanden en onderlinge afhankelijkheden, en waar van toepassing de einddata van gewone, verlengde en maatwerkondersteuning door de leverancier of derde aanbieder.",
+            "Leg voor alle legacy-ICT-systemen de informatie vast die nodig is voor de specifieke ICT-risicobeoordeling van artikel 8, lid 7 DORA (verplicht voor andere financiële entiteiten dan micro-ondernemingen).",
+            "Specificeer in de assetbeheerprocedure de criteria voor de kritikaliteitsbeoordeling van informatie- en ICT-assets: het ICT-risico van de ondersteunde bedrijfsfuncties en hun afhankelijkheden van de assets, en de impact van verlies van vertrouwelijkheid, integriteit en beschikbaarheid op bedrijfsprocessen en -activiteiten.",
+            "Koppel de vastleggingen aan de inventarissen van stap pe.r7 en gebruik de end-of-support-data als input voor de jaarlijkse legacy-risicobeoordeling (stap pe.r8)."
+          ],
+          "bewijsstukken": [
+            "ICT-assetbeheerbeleid en -procedure",
+            "Assetregister-extract met de verplichte velden",
+            "Vastgelegde kritikaliteitsbeoordelingscriteria met beoordelingsresultaten"
+          ],
+          "rollen": [
+            "IT-operations",
+            "CISO",
+            "risk"
+          ],
+          "refs": [
+            {
+              "label": "Art. 4, lid 2 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/4#lid-2"
+            },
+            {
+              "label": "Art. 5, lid 2 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/5#lid-2"
+            },
+            {
+              "label": "Art. 8, lid 1 DORA",
+              "href": "/artikel/8#lid-1"
+            }
+          ],
+          "appliesTo": [
+            "volledig"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.r7"
+          ]
+        },
+        {
+          "id": "pe.rb4",
+          "titel": "Implementeer het encryptiebeleid en het cryptografisch sleutelbeheer",
+          "doel": "Encryptie van gegevens in rust, in transit en waar nodig in gebruik, met beheerde cryptografische sleutels over de gehele levenscyclus en een actueel certificatenregister.",
+          "acties": [
+            "Stel een beleid voor encryptie en cryptografische controles vast op basis van de goedgekeurde dataclassificatie en ICT-risicobeoordeling, met regels voor encryptie van gegevens in rust en in transit, waar noodzakelijk van gegevens in gebruik, en van interne netwerkverbindingen en verkeer met externe partijen; verwerk gegevens in gebruik die niet versleuteld kunnen worden in een afzonderlijke, beveiligde omgeving of tref gelijkwaardige maatregelen.",
+            "Neem selectiecriteria voor cryptografische technieken op (maatgevende praktijken, normen en assetclassificatie) en bepalingen om cryptografische technologie te updaten op basis van ontwikkelingen in de cryptoanalyse; leg elke afwijking (normen niet kunnen volgen of technologie niet kunnen updaten) vast met onderbouwde mitigatie- en monitoringmaatregelen.",
+            "Beheer cryptografische sleutels over hun gehele levenscyclus (genereren, vernieuwen, opslaan, back-uppen, archiveren, ophalen, overdragen, intrekken, herroepen, vernietigen) met beheersmaatregelen tegen verlies, ongeautoriseerde toegang, bekend worden en modificatie, en met methoden om sleutels te vervangen bij verlies, compromittering of beschadiging.",
+            "Houd ten minste voor ICT-assets die kritieke of belangrijke functies ondersteunen een actueel register bij van alle certificaten en certificaatopslagapparaten, en borg dat certificaten direct vóór hun vervaldatum worden verlengd."
+          ],
+          "bewijsstukken": [
+            "Beleid encryptie en cryptografische controles incl. sleutelbeheer",
+            "Certificatenregister met verloopbewaking",
+            "Vastlegging en onderbouwing van mitigatiemaatregelen bij afwijkingen"
+          ],
+          "rollen": [
+            "CISO",
+            "IT-operations"
+          ],
+          "refs": [
+            {
+              "label": "Art. 6, lid 2 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/6#lid-2"
+            },
+            {
+              "label": "Art. 7, lid 1 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/7#lid-1"
+            },
+            {
+              "label": "Art. 7, lid 4 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/7#lid-4"
+            },
+            {
+              "label": "Art. 9, lid 2 DORA",
+              "href": "/artikel/9#lid-2"
+            }
+          ],
+          "appliesTo": [
+            "volledig"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.r9",
+            "pe.rb3"
+          ]
+        },
+        {
+          "id": "pe.rb5",
+          "titel": "Documenteer ICT-operaties en capaciteits- en performancemanagement",
+          "doel": "Gedocumenteerde beleidslijnen en procedures voor het opereren, monitoren en herstellen van ICT-assets, met gescheiden omgevingen, beheerste tests in productie en proactief capaciteitsmanagement.",
+          "acties": [
+            "Stel beleidslijnen en procedures voor ICT-operaties vast die beschrijven hoe ICT-assets worden geopereerd, gemonitord, gecontroleerd en hersteld, inclusief: veilige installatie, onderhoud, configuratie en verwijdering van ICT-systemen; beheer van informatieassets (geautomatiseerd en handmatig); en identificatie en controle van legacy-ICT-systemen.",
+            "Regel de beheersmaatregelen en monitoring van ICT-systemen: back-up- en herstelvereisten, planning met inachtneming van systeemafhankelijkheden, protocollen voor audit-trail- en systeemloginformatie, minimale verstoring van bedrijfsoperaties door audits en tests, en scheiding tussen productie- en ontwikkel-/test-/andere niet-productieomgevingen met alle componenten (accounts, gegevens, verbindingen).",
+            "Sta ontwikkeling en testen in de productieomgeving alleen toe in duidelijk geïdentificeerde, beargumenteerde, tijdsgebonden en door de bevoegde functie goedgekeurde gevallen, met borging van beschikbaarheid, vertrouwelijkheid, integriteit en authenticiteit van systemen en productiegegevens; leg daarnaast foutafhandelings-, escalatie- (incl. externe ondersteuning), herstart-, rollback- en herstelprocedures vast.",
+            "Richt procedures voor capaciteits- en performancemanagement in: capaciteitsvereisten per ICT-systeem, resource-optimalisatie en monitoring gericht op beschikbaarheid van gegevens en systemen, efficiëntie en het voorkomen van capaciteitstekorten, met passende maatregelen voor ICT-systemen met lange of complexe aankoop- of goedkeuringsprocessen of hulpbronnenintensieve systemen."
+          ],
+          "bewijsstukken": [
+            "Beleidslijnen en procedures ICT-operaties",
+            "Register van goedgekeurde tests in productie met argumentatie en looptijd",
+            "Capaciteits- en performancemonitoringrapportage"
+          ],
+          "rollen": [
+            "IT-operations",
+            "CISO"
+          ],
+          "refs": [
+            {
+              "label": "Art. 8, lid 2 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/8#lid-2"
+            },
+            {
+              "label": "Art. 9, lid 1 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/9#lid-1"
+            },
+            {
+              "label": "Art. 7 DORA",
+              "href": "/artikel/7#inhoud"
+            },
+            {
+              "label": "Art. 9, lid 2 DORA",
+              "href": "/artikel/9#lid-2"
+            }
+          ],
+          "appliesTo": [
+            "volledig"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.r6",
+            "pe.r9"
+          ]
+        },
+        {
+          "id": "pe.rb6",
+          "titel": "Voer kwetsbaarheden- en patchmanagement risicogebaseerd uit",
+          "doel": "Kwetsbaarheden worden systematisch gedetecteerd (ten minste wekelijkse scans voor kritieke assets), geprioriteerd en verholpen, met beheerste patchuitrol binnen vastgestelde termijnen.",
+          "acties": [
+            "Documenteer procedures voor kwetsbaarhedenbeheer: houd relevante en betrouwbare informatiebronnen bij voor kwetsbaarhedenbewustzijn en voer geautomatiseerde kwetsbaarheidsscans en -beoordelingen uit met een frequentie en scope naar classificatie en risicoprofiel van het asset — voor ICT-assets die kritieke of belangrijke functies ondersteunen ten minste wekelijks.",
+            "Eis van derde aanbieders van ICT-diensten dat zij kwetsbaarheden in de geleverde diensten onderzoeken, de grondoorzaken bepalen en adequate mitigaties implementeren, en dat zij tijdig ten minste de kritieke kwetsbaarheden, statistieken en trends rapporteren; veranker dit in de contractafspraken.",
+            "Houd het gebruik bij van (1) third-party en open-source libraries door ICT-diensten die kritieke of belangrijke functies ondersteunen, met monitoring van versies en beschikbare updates (waar passend samen met de derde aanbieder), en (2) zelfontwikkelde en op maat gemaakte of ontwikkelde ICT-diensten zelf; voor off-the-shelf-componenten van niet-kritieke diensten: voor zover mogelijk.",
+            "Richt responsible-disclosureprocedures in richting cliënten, tegenpartijen en het publiek; prioriteer patches en mitigaties naar kritikaliteit van de kwetsbaarheid, assetclassificatie en risicoprofiel; monitor en controleer het verhelpen en leg gedetecteerde kwetsbaarheden met hun oplossingsstatus vast.",
+            "Regel patchmanagement: inventariseer en evalueer beschikbare software- en hardwarepatches (zo veel mogelijk met geautomatiseerde tools), voorzie in noodprocedures voor patching en updating, test patches en rol ze uit via de gescheiden omgevingen van artikel 8, en stel installatietermijnen vast met escalatieprocedures wanneer termijnen niet haalbaar zijn."
+          ],
+          "bewijsstukken": [
+            "Procedures kwetsbaarheden- en patchmanagement",
+            "Scanrapportages met wekelijkse frequentie voor kritieke assets",
+            "Patchrapportage met termijnbewaking en escalaties"
+          ],
+          "rollen": [
+            "CISO",
+            "IT-operations",
+            "inkoop"
+          ],
+          "refs": [
+            {
+              "label": "Art. 10, lid 2 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/10#lid-2"
+            },
+            {
+              "label": "Art. 10, lid 4 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/10#lid-4"
+            },
+            {
+              "label": "Art. 9, lid 2 DORA",
+              "href": "/artikel/9#lid-2"
+            }
+          ],
+          "appliesTo": [
+            "volledig"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.rb3",
+            "pe.rb5"
+          ]
+        },
+        {
+          "id": "pe.rb7",
+          "titel": "Beveilig gegevens, systemen en endpoints volgens de dataclassificatie",
+          "doel": "Een procedure voor gegevens- en systeembeveiliging die per classificatieniveau configuratiebaselines, endpointbeheersing, veilig wissen en afvoeren en vereisten voor door derden geopereerde diensten borgt.",
+          "acties": [
+            "Stel een procedure voor gegevens- en systeembeveiliging vast, uitgelijnd op de classificatie van artikel 8, lid 1 DORA: toegangsbeperkingen die de beveiligingseisen per classificatieniveau ondersteunen, een veilige configuratiebaseline voor ICT-assets op basis van maatgevende praktijken en normen met regelmatige controle op daadwerkelijke uitrol, en beveiligingsmaatregelen tegen kwaadaardige code en tegen installatie van niet-geautoriseerde software op systemen en endpoints.",
+            "Beheers endpoints en opslagmedia: sta alleen geautoriseerde media, opslagsystemen en endpoint-apparaten toe voor overdracht en opslag van bedrijfsgegevens; gebruik voor draagbare en privé-apparaten een beheersoplossing met remote beheer en remote wissen en beveiligingsmechanismen die niet ongeautoriseerd te wijzigen of te omzeilen zijn; sta verwijderbare opslag alleen toe binnen het risicotolerantieniveau.",
+            "Implementeer processen voor het veilig wissen van niet langer benodigde gegevens (op bedrijfslocaties en extern) en voor het afvoeren of ontmantelen van opslagapparaten met vertrouwelijke informatie, plus maatregelen tegen gegevensverlies en -lekkage en tegen negatieve effecten van thuiswerk en privé-endpoints op de ICT-beveiliging.",
+            "Leg voor ICT-assets of -diensten die door een derde aanbieder worden geopereerd weerbaarheidsvereisten vast: implementatie van leveranciersaanbevolen instellingen, een duidelijke rolverdeling voor informatiebeveiliging met behoud van de volledige eigen aansprakelijkheid, voldoende interne competenties voor beheer en beveiliging van de dienst, en technische en organisatorische maatregelen voor de infrastructuur van de aanbieder."
+          ],
+          "bewijsstukken": [
+            "Procedure gegevens- en systeembeveiliging",
+            "Configuratiebaselines met compliance-controlerapportage",
+            "Logboek veilig wissen en afvoer/ontmanteling van opslagapparaten"
+          ],
+          "rollen": [
+            "CISO",
+            "IT-operations",
+            "HR"
+          ],
+          "refs": [
+            {
+              "label": "Art. 11, lid 2 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/11#lid-2"
+            },
+            {
+              "label": "Art. 9, lid 2 DORA",
+              "href": "/artikel/9#lid-2"
+            },
+            {
+              "label": "Art. 9, lid 3 DORA",
+              "href": "/artikel/9#lid-3"
+            }
+          ],
+          "appliesTo": [
+            "volledig"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.rb3"
+          ]
+        },
+        {
+          "id": "pe.rb8",
+          "titel": "Richt logging met beschermde logbestanden en kloksynchronisatie in",
+          "doel": "Loggingprocedures, -protocollen en -tools die de juiste events met passende retentie en detailniveau vastleggen, beschermd zijn tegen manipulatie en op één betrouwbare tijdbron zijn gesynchroniseerd.",
+          "acties": [
+            "Documenteer per systeem welke events worden gelogd, met welke retentieperiode (op basis van de bedrijfs- en informatiebeveiligingsdoelstellingen, de reden voor vastlegging en de uitkomsten van de ICT-risicobeoordeling) en welk detailniveau, zodat afwijkende activiteiten als bedoeld in artikel 24 GV 2024/1774 detecteerbaar zijn.",
+            "Log ten minste: logische en fysieke toegangscontrole en identiteitsbeheer, capaciteitsbeheer, wijzigingsbeheer, ICT-operaties inclusief systeemactiviteiten, en netwerkverkeer inclusief netwerkperformance.",
+            "Bescherm loggingsystemen en loginformatie tegen manipulatie, wissen en ongeautoriseerde toegang in rust, in transit en waar relevant in gebruik, en implementeer maatregelen om falen van loggingsystemen te detecteren.",
+            "Synchroniseer de klokken van alle ICT-systemen met één gedocumenteerde betrouwbare referentietijdbron."
+          ],
+          "bewijsstukken": [
+            "Loggingbeleid met eventlijst, detailniveau en retentietermijnen",
+            "Configuratiebewijs kloksynchronisatie",
+            "Toegangs- en integriteitscontroles op loggingsystemen"
+          ],
+          "rollen": [
+            "IT-operations",
+            "CISO"
+          ],
+          "refs": [
+            {
+              "label": "Art. 12, lid 2 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/12#lid-2"
+            },
+            {
+              "label": "Art. 9, lid 2 DORA",
+              "href": "/artikel/9#lid-2"
+            }
+          ],
+          "appliesTo": [
+            "volledig"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.r9",
+            "pe.r10"
+          ]
+        },
+        {
+          "id": "pe.rb9",
+          "titel": "Beveilig netwerken en informatie in transit",
+          "doel": "Gesegmenteerde, gedocumenteerde en versleutelde netwerken met periodiek geëvalueerde firewallregels, en aantoonbare bescherming van informatie tijdens doorgifte aan interne en externe partijen.",
+          "acties": [
+            "Documenteer het netwerkbeveiligingsbeheer: scheiding en segmentatie van ICT-systemen en -netwerken naar kritikaliteit, classificatie en risicoprofiel; documentatie van alle netwerkverbindingen en gegevensstromen; een apart en specifiek netwerk voor het beheer van ICT-assets; netwerktoegangscontroles die verbindingen van ongeautoriseerde apparaten en niet-conforme endpoints voorkomen en detecteren; en encryptie van netwerkverbindingen over bedrijfs-, publieke, thuis-, derde-partij- en draadloze netwerken conform dataclassificatie en risicobeoordeling.",
+            "Ontwerp netwerken in lijn met de door de entiteit vastgestelde ICT-beveiligingseisen, rekening houdend met maatgevende praktijken, om de vertrouwelijkheid, integriteit en beschikbaarheid van het netwerk te borgen; beveilig het netwerkverkeer tussen interne netwerken en internet en andere externe verbindingen (bijvoorbeeld met perimeter- en gateway-controles).",
+            "Beleg de rollen, verantwoordelijkheden en stappen voor specificatie, implementatie, goedkeuring, wijziging en evaluatie van firewallregels en verbindingsfilters; evalueer die regels op regelmatige basis naar classificatie en risicoprofiel, en ten minste om de zes maanden voor ICT-systemen die kritieke of belangrijke functies ondersteunen.",
+            "Evalueer de netwerkarchitectuur en de inrichting van de netwerkbeveiliging eenmaal per jaar (micro-ondernemingen: periodiek) om potentiële kwetsbaarheden in beeld te brengen; voorzie in tijdelijke isolatie van subnetwerken, componenten en apparaten, veilige configuratiebaselines en hardening van alle netwerkcomponenten, en beperking, vergrendeling en beëindiging van systeem- en externe sessies na een gespecificeerde inactiviteitsperiode.",
+            "Specificeer in overeenkomsten voor netwerkdiensten de ICT- en informatiebeveiligingsmaatregelen, service levels en beheersvereisten, en leg vast of de dienst door een intragroepsaanbieder of een derde aanbieder wordt geleverd.",
+            "Bescherm informatie in transit op basis van de goedgekeurde dataclassificatie en risicobeoordeling: borg beschikbaarheid, authenticiteit, integriteit en vertrouwelijkheid tijdens netwerkdoorgifte met procedures om de naleving te beoordelen, voorkom en detecteer datalekken bij overdracht tussen de entiteit en externe partijen, en implementeer, documenteer en evalueer regelmatig vertrouwelijkheids- en geheimhoudingsafspraken voor medewerkers en derden."
+          ],
+          "bewijsstukken": [
+            "Netwerkbeveiligingsbeleid met segmentatieontwerp en gegevensstroomdocumentatie",
+            "Halfjaarlijkse firewallreviewverslagen voor kritieke systemen en jaarlijkse netwerkarchitectuurevaluatie",
+            "Geheimhoudingsafspraken met evaluatiecyclus"
+          ],
+          "rollen": [
+            "IT-operations",
+            "CISO",
+            "juridisch"
+          ],
+          "refs": [
+            {
+              "label": "Art. 13 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/13#inhoud"
+            },
+            {
+              "label": "Art. 14, lid 1 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/14#lid-1"
+            },
+            {
+              "label": "Art. 9, lid 2 DORA",
+              "href": "/artikel/9#lid-2"
+            }
+          ],
+          "appliesTo": [
+            "volledig"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.r9"
+          ]
+        },
+        {
+          "id": "pe.rb20",
+          "titel": "Stel het ICT-projectmanagementbeleid vast",
+          "doel": "Elk ICT-project voor aanschaf, onderhoud of ontwikkeling van ICT-systemen verloopt volgens een vastgesteld beleid met governance, risicobeoordeling, testeisen en bestuursrapportage voor projecten die kritieke of belangrijke functies raken.",
+          "acties": [
+            "Stel een ICT-projectmanagementbeleid vast dat per project vastlegt: doelstellingen, governance met rollen en verantwoordelijkheden, planning met tijdschema en mijlpalen, een projectrisicobeoordeling, eisen inzake wijzigingsbeheer en het testen van alle (beveiligings)eisen met een goedkeuringsproces vóór uitrol in de productieomgeving.",
+            "Borg in de projectgovernance dat de nodige informatie en deskundigheid wordt geleverd vanuit de bedrijfsonderdelen of functies waarop het project van invloed is (bv. verplichte business-vertegenwoordiging en -sign-off).",
+            "Rapporteer opzet, voortgang en risico's van ICT-projecten met impact op kritieke of belangrijke functies aan het leidinggevend orgaan: individueel of geaggregeerd afhankelijk van belang en omvang, periodiek en waar nodig event-driven; leg de frequentie in het beleid vast."
+          ],
+          "bewijsstukken": [
+            "ICT-projectmanagementbeleid",
+            "Projectrisicobeoordelingen en testgoedkeuringen per project",
+            "Bestuursrapportage over de ICT-projectportfolio"
+          ],
+          "rollen": [
+            "IT-operations",
+            "CISO",
+            "risk",
+            "bestuur"
+          ],
+          "refs": [
+            {
+              "href": "/rts-risicobeheer/artikel/15",
+              "label": "Art. 15 GV 2024/1774"
+            },
+            {
+              "href": "/artikel/9#lid-2",
+              "label": "Art. 9, lid 2 DORA"
+            }
+          ],
+          "appliesTo": [
+            "volledig"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.r9"
+          ]
+        },
+        {
+          "id": "pe.rb21",
+          "titel": "Leg beleid en testprocedure vast voor aanschaf, ontwikkeling en onderhoud van ICT-systemen",
+          "doel": "ICT-systemen worden verworven, ontwikkeld en onderhouden volgens vastgelegde beveiligingspraktijken, en elk systeem is vóór ingebruikname en na onderhoud getest en goedgekeurd.",
+          "acties": [
+            "Stel het beleid voor aanschaf, ontwikkeling en onderhoud vast met: beveiligingspraktijken en -methoden per fase, identificatie van technische specificaties en ICT-beveiligingseisen met goedkeuring door de betrokken bedrijfsfunctie en de eigenaar van de ICT-assets, en maatregelen tegen onbedoelde wijziging of bewuste manipulatie tijdens ontwikkeling, onderhoud en uitrol.",
+            "Richt een test- en goedkeuringsprocedure in voor alle ICT-systemen vóór het eerste gebruik en na onderhoud, met een grondigheid die evenredig is aan het kritieke karakter van de betrokken bedrijfsprocedures en ICT-assets, en toets daarbij ook of nieuwe systemen functioneren als beoogd, inclusief de kwaliteit van intern ontwikkelde software.",
+            "Pas het beleid en de procedure risicogebaseerd ook toe op ICT-systemen die buiten de ICT-functie door eindgebruikers worden ontwikkeld of beheerd (end-user computing) en houd daarvan een inventaris bij."
+          ],
+          "bewijsstukken": [
+            "Beleid aanschaf, ontwikkeling en onderhoud van ICT-systemen",
+            "Testplannen en goedkeuringsverslagen vóór productiegang",
+            "EUC-inventaris met risicobeoordeling"
+          ],
+          "rollen": [
+            "IT-operations",
+            "CISO"
+          ],
+          "refs": [
+            {
+              "href": "/rts-risicobeheer/artikel/16#lid-1",
+              "label": "Art. 16, lid 1 GV 2024/1774"
+            },
+            {
+              "href": "/rts-risicobeheer/artikel/16#lid-2",
+              "label": "Art. 16, lid 2 GV 2024/1774"
+            },
+            {
+              "href": "/rts-risicobeheer/artikel/16#lid-9",
+              "label": "Art. 16, lid 9 GV 2024/1774"
+            },
+            {
+              "href": "/artikel/9#lid-2",
+              "label": "Art. 9, lid 2 DORA"
+            }
+          ],
+          "appliesTo": [
+            "volledig"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.r9"
+          ]
+        },
+        {
+          "id": "pe.rb22",
+          "titel": "Beheers broncode, testdata en pakketsoftware in de testprocedure",
+          "doel": "Kwetsbaarheden in broncode en softwarepakketten worden vóór productiegang gevonden en opgevolgd, en productiegegevens komen niet onbeschermd in testomgevingen terecht.",
+          "acties": [
+            "Voer broncodereviews uit met zowel statische als dynamische tests, inclusief beveiligingstests voor systemen en applicaties met internetblootstelling; breng kwetsbaarheden en anomalieën in de broncode in kaart, stel een actieplan op en monitor de implementatie daarvan.",
+            "Test softwarepakketten op beveiliging uiterlijk in de integratiefase, en analyseer en test proprietary software en — voor zover doenbaar — door derde aanbieders aangeleverde of open-sourcebroncode vóór uitrol in de productieomgeving.",
+            "Gebruik in niet-productieomgevingen uitsluitend geanonimiseerde, gepseudonimiseerde of gerandomiseerde productiegegevens en bescherm de integriteit en vertrouwelijkheid van gegevens in die omgevingen.",
+            "Sta productiegegevens in testomgevingen alleen toe voor specifieke testgevallen, voor beperkte perioden en na goedkeuring door de betrokken functie, en meld die gevallen aan de ICT-risicobeheersingsfunctie.",
+            "Implementeer beheersmaatregelen die de integriteit beschermen van broncode die intern is ontwikkeld of door een derde aanbieder van ICT-diensten is ontwikkeld en geleverd."
+          ],
+          "bewijsstukken": [
+            "Rapportages van broncodereviews en beveiligingstests met actieplannen",
+            "Procedure testdatabeheer met goedkeuringen en meldingen aan de risicofunctie",
+            "Integriteits- en toegangscontroles op broncoderepository's"
+          ],
+          "rollen": [
+            "IT-operations",
+            "CISO"
+          ],
+          "refs": [
+            {
+              "href": "/rts-risicobeheer/artikel/16#lid-3",
+              "label": "Art. 16, lid 3 GV 2024/1774"
+            },
+            {
+              "href": "/rts-risicobeheer/artikel/16#lid-5",
+              "label": "Art. 16, lid 5 GV 2024/1774"
+            },
+            {
+              "href": "/rts-risicobeheer/artikel/16#lid-8",
+              "label": "Art. 16, lid 8 GV 2024/1774"
+            }
+          ],
+          "appliesTo": [
+            "volledig"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.rb21"
+          ]
+        },
+        {
+          "id": "pe.rb23",
+          "titel": "Werk de ICT-wijzigingsbeheerprocedures uit",
+          "doel": "Alle wijzigingen aan software, hardware, firmware, systemen of beveiligingsparameters verlopen gecontroleerd, met onafhankelijke goedkeuring, fall-back en een geregeld noodwijzigingsproces.",
+          "acties": [
+            "Neem in de wijzigingsbeheerprocedures op: verificatie dat aan de ICT-beveiligingseisen is voldaan, mechanismen die de onafhankelijkheid garanderen tussen de goedkeurende en de aanvragende/implementerende functies, en heldere rollen en verantwoordelijkheden voor specificatie, planning, transitie, beheerst testen, finalisering en kwaliteitsborging.",
+            "Documenteer en communiceer per wijziging doel, scope, tijdslijn en verwachte uitkomsten, en identificeer fall-backprocedures en verantwoordelijkheden voor het afbreken of herstellen van niet-succesvolle wijzigingen.",
+            "Richt procedures, protocollen en tools voor noodwijzigingen in die afdoende bescherming bieden, en documenteer, herevalueer, beoordeel en keur noodwijzigingen — inclusief workarounds en patches — na implementatie alsnog goed.",
+            "Beoordeel per wijziging de potentiële impact op bestaande ICT-beveiligingsmaatregelen en of de wijziging aanvullende beveiligingsmaatregelen vereist."
+          ],
+          "bewijsstukken": [
+            "ICT-wijzigingsbeheerprocedure",
+            "Wijzigingsregistraties met goedkeuringen, testresultaten en fall-back",
+            "Register van noodwijzigingen met beoordeling achteraf"
+          ],
+          "rollen": [
+            "IT-operations",
+            "CISO"
+          ],
+          "refs": [
+            {
+              "href": "/rts-risicobeheer/artikel/17#lid-1",
+              "label": "Art. 17, lid 1 GV 2024/1774"
+            },
+            {
+              "href": "/artikel/9#lid-4",
+              "label": "Art. 9, lid 4 DORA"
+            }
+          ],
+          "appliesTo": [
+            "volledig"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.r9"
+          ]
+        },
+        {
+          "id": "pe.rb24",
+          "titel": "Implementeer het beleid voor fysieke beveiliging en milieubeveiliging",
+          "doel": "Bedrijfslocaties, datacentra en gevoelige zones en de ICT-assets daarbinnen en daarbuiten zijn beschermd tegen aanvallen, ongevallen en milieudreigingen, evenredig aan hun kritieke karakter.",
+          "acties": [
+            "Stel het beleid voor fysieke beveiliging en milieubeveiliging vast op basis van het cyberdreigingslandschap, de classificatie van ICT- en informatieassets (art. 8, lid 1 DORA) en het algemene risicoprofiel, en verwijs daarin naar de maatregelen voor fysieke toegangscontrole van het toegangsrechtenbeleid (art. 21, eerste alinea, punt g GV 2024/1774).",
+            "Tref maatregelen die bedrijfslocaties, datacentra en afgebakende gevoelige zones beschermen tegen aanvallen, ongevallen en milieudreigingen en -gevaren, in verhouding tot hun belang en het kritieke karakter van de daar ondergebrachte operaties of ICT-systemen.",
+            "Beveilig ICT-assets binnen én buiten de bedrijfslocaties op basis van de ICT-risicobeoordeling, met adequate bescherming voor ICT-assets zonder toezicht, en borg via adequaat onderhoud de beschikbaarheid, authenticiteit, integriteit en vertrouwelijkheid van assets en fysieke-toegangscontroleapparatuur.",
+            "Voer een clear-deskbeleid voor papier en een clear-screenbeleid voor informatieverwerkende faciliteiten in en controleer de naleving daarvan."
+          ],
+          "bewijsstukken": [
+            "Beleid fysieke beveiliging en milieubeveiliging",
+            "Zonering en beveiligingsmaatregelen per locatie/datacenter",
+            "Onderhouds- en inspectieregistraties"
+          ],
+          "rollen": [
+            "CISO",
+            "IT-operations",
+            "risk"
+          ],
+          "refs": [
+            {
+              "href": "/rts-risicobeheer/artikel/18",
+              "label": "Art. 18 GV 2024/1774"
+            },
+            {
+              "href": "/artikel/9#lid-2",
+              "label": "Art. 9, lid 2 DORA"
+            }
+          ],
+          "appliesTo": [
+            "volledig"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.r9"
+          ]
+        },
+        {
+          "id": "pe.rb25",
+          "titel": "Veranker ICT-beveiliging in het HR-beleid",
+          "doel": "ICT-beveiligingsverantwoordelijkheden zijn expliciet belegd en eigen medewerkers én medewerkers van derde aanbieders kennen en volgen de beveiligingsregels, ook bij het einde van dienstverband of contract.",
+          "acties": [
+            "Neem in het HR-beleid (of ander relevant beleid) de identificatie en toewijzing van specifieke ICT-beveiligingsverantwoordelijkheden op.",
+            "Verplicht medewerkers en medewerkers van derde aanbieders van ICT-diensten die ICT-assets van de entiteit gebruiken of benaderen om geïnformeerd te zijn over en zich te houden aan de ICT-beveiligingsbeleidslijnen, -procedures en -protocollen (bv. via arbeidsvoorwaarden, inhuurclausules en onboarding).",
+            "Maak de meldingskanalen voor de detectie van afwijkend gedrag actief bekend, in voorkomend geval inclusief de klokkenluiderskanalen conform Richtlijn (EU) 2019/1937.",
+            "Richt het offboardingsproces zo in dat vertrekkende medewerkers alle ICT-assets en materiële informatieassets van de entiteit aantoonbaar teruggeven."
+          ],
+          "bewijsstukken": [
+            "HR-beleid met ICT-beveiligingselementen",
+            "Onboarding-/offboardingchecklists met asset-teruggave",
+            "Contract- en inhuurclausules over ICT-beveiliging"
+          ],
+          "rollen": [
+            "HR",
+            "CISO",
+            "juridisch"
+          ],
+          "refs": [
+            {
+              "href": "/rts-risicobeheer/artikel/19",
+              "label": "Art. 19 GV 2024/1774"
+            },
+            {
+              "href": "/artikel/15#inhoud",
+              "label": "Art. 15 DORA"
+            }
+          ],
+          "appliesTo": [
+            "volledig"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.r9"
+          ]
+        },
+        {
+          "id": "pe.rb26",
+          "titel": "Richt identiteits- en toegangsbeheer in",
+          "doel": "Elke gebruiker en elk systeem heeft een unieke, over de hele levenscyclus beheerde identiteit, en logische en fysieke toegang tot ICT-assets is beperkt volgens need-to-know, need-to-use en least privilege, met periodieke hercertificering.",
+          "acties": [
+            "Ken elke medewerker — ook van derde aanbieders van ICT-diensten — en elk systeem dat toegang heeft tot informatie een unieke identiteit met een unieke gebruikersaccount toe, registreer alle identiteitstoewijzingen en bewaar die vastleggingen gedurende een vastgestelde retentieperiode, ook na reorganisatie of contracteinde; beheer de volledige levenscyclus (aanmaken, wijzigen, herzien, tijdelijk deactiveren, stopzetten) en automatiseer dit waar doenbaar en passend.",
+            "Ken toegangsrechten toe op basis van need-to-know, need-to-use en least privilege, ook voor remote en emergency access, met functiescheiding die ongerechtvaardigde toegang tot kritieke data en controle-omzeilende combinaties van rechten voorkomt; leg in het beleid de beperkingen van toegang tot ICT-assets vast, met vermelding van de beheersmaatregelen en tools die ongeautoriseerde toegang voorkomen.",
+            "Beperk generieke en gedeelde accounts tot het strikt noodzakelijke en houd gebruikers altijd identificeerbaar; gebruik aparte accounts voor administratieve taken, ken privileged, emergency- en administratortoegang toe op need-to-use- of ad-hocbasis en rol waar doenbaar geautomatiseerd Privileged Access Management uit.",
+            "Trek toegangsrechten onmiddellijk in bij einde dienstverband of vervallen noodzaak, en hercertificeer alle rechten bij wijzigingen en ten minste jaarlijks — voor ICT-systemen die kritieke of belangrijke functies ondersteunen ten minste elke zes maanden.",
+            "Gebruik authenticatiemethoden evenredig aan de classificatie en het risicoprofiel van de ICT-assets, met sterke authenticatie voor remote access tot het netwerk, voor privileged access en voor toegang tot publiek toegankelijke of kritieke-of-belangrijke-functies-ondersteunende ICT-assets.",
+            "Implementeer fysieke toegangscontrole: identificeer en log personen met geautoriseerde toegang tot locaties, datacentra en gevoelige zones (evenredig aan belang en kritiek karakter), verleen fysieke toegang tot kritieke ICT-assets uitsluitend op ad-hocbasis aan geautoriseerden, monitor de toegang en herzie rechten met prompte intrekking van wat niet nodig is."
+          ],
+          "bewijsstukken": [
+            "IAM-beleid en -procedures met lifecycle-proces",
+            "Hercertificeringsrapportages (jaarlijks; halfjaarlijks voor kritieke of belangrijke functies)",
+            "PAM-inrichting en logs van fysieke toegang"
+          ],
+          "rollen": [
+            "CISO",
+            "IT-operations",
+            "HR"
+          ],
+          "refs": [
+            {
+              "href": "/rts-risicobeheer/artikel/20",
+              "label": "Art. 20 GV 2024/1774"
+            },
+            {
+              "href": "/rts-risicobeheer/artikel/21",
+              "label": "Art. 21 GV 2024/1774"
+            },
+            {
+              "href": "/artikel/9#lid-4",
+              "label": "Art. 9, lid 4 DORA"
+            }
+          ],
+          "appliesTo": [
+            "volledig"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.r9",
+            "pe.rb25"
+          ]
+        },
+        {
+          "id": "pe.rb27",
+          "titel": "Operationaliseer detectie en logging van afwijkende activiteiten en de responscriteria",
+          "doel": "Afwijkende activiteiten worden uit logbronnen, dreigingsinformatie en meldingen gedetecteerd, veilig vastgelegd en geprioriteerd, en de incidentresponsprocessen worden op vastgelegde criteria geactiveerd.",
+          "acties": [
+            "Leg duidelijke rollen en verantwoordelijkheden vast voor het detecteren van en reageren op ICT-incidenten en afwijkende activiteiten.",
+            "Verzamel, monitor en analyseer ten minste: de conform artikel 12 GV 2024/1774 verzamelde logbestanden, informatie uit bedrijfs- en ICT-functies en gebruikersmeldingen, potentiële interne en externe cyberdreigingen op basis van threat-actor- en dreigingsinformatiescenario's, en incidentnotificaties van derde aanbieders van ICT-diensten die de entiteit kunnen raken.",
+            "Implementeer alerting-tools — ten minste voor ICT- en informatieassets die kritieke of belangrijke functies ondersteunen — inclusief automatische alerts op vooraf vastgestelde regels voor afwijkingen die de volledigheid en integriteit van gegevensbronnen of logging raken, en prioriteer alerts zodat gedetecteerde incidenten binnen de vastgestelde verwachte oplostijd worden behandeld, binnen én buiten werktijd.",
+            "Log per gedetecteerde afwijkende activiteit datum en tijdstip van optreden én van detectie en het soort activiteit, en bescherm die vastleggingen tegen manipulatie en ongeautoriseerde toegang in rust, in transit en, waar van toepassing, in gebruik.",
+            "Leg de criteria vast voor activering van de detectie- en responsprocessen — aanwijzingen voor kwaadwillige activiteit of compromittering, datalekken, negatieve impact op transacties en operaties, onbeschikbaarheid van ICT-systemen of -netwerk — en weeg daarbij het kritieke karakter van de getroffen diensten mee."
+          ],
+          "bewijsstukken": [
+            "Detectie- en responsprocedure met rollen en activeringscriteria",
+            "SIEM-/alertconfiguratie met prioriteringsregels en detectieregels op logintegriteit",
+            "Bewijs van integriteitsbescherming van detectievastleggingen"
+          ],
+          "rollen": [
+            "CISO",
+            "IT-operations"
+          ],
+          "refs": [
+            {
+              "href": "/rts-risicobeheer/artikel/23",
+              "label": "Art. 23 GV 2024/1774"
+            },
+            {
+              "href": "/artikel/10#lid-1",
+              "label": "Art. 10, lid 1 DORA"
+            },
+            {
+              "href": "/artikel/10#lid-2",
+              "label": "Art. 10, lid 2 DORA"
+            }
+          ],
+          "appliesTo": [
+            "volledig"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.r10"
+          ]
+        },
+        {
+          "id": "pe.rb28",
+          "titel": "Voldoe aan de aanvullende eisen voor CTP's, CSD's en handelsplatformen",
+          "doel": "Marktinfrastructuren halen de aangescherpte continuïteits- en testeisen: hersteltijden van maximaal (of dicht bij) twee uur, secundaire locaties en het betrekken van deelnemers en ketenpartijen bij tests.",
+          "acties": [
+            "Centrale tegenpartijen: hanteer voor kritieke functies een maximale hersteltijd van twee uur en rond einde-dagprocedures en -betalingen onder alle omstandigheden op het vereiste tijdstip af; houd een secundaire verwerkingslocatie aan met een ander geografisch risicoprofiel dan de primaire en een secundaire bedrijfslocatie (of onmiddellijke toegang daartoe), waarbij de secundaire verwerkingslocatie identiek is aan de primaire, en onderzoek de behoefte aan aanvullende verwerkingslocaties bij onvoldoende risicodiversiteit; houd in het continuïteitsbeleid rekening met externe verbanden en onderlinge afhankelijkheden binnen de financiële infrastructuren (door de CTP geclearde handelsplatformen, effectenafwikkelings- en betalingssystemen en kredietinstellingen), en leg voor de secundaire locatie afspraken vast over personele middelen, maximale uitvaltijd en failover en herstel.",
+            "Centrale effectenbewaarinstellingen: borg een hersteltijddoelstelling van maximaal twee uur voor kritieke of belangrijke functies en verwerk de verbanden met en afhankelijkheden van gebruikers, leveranciers van kritieke voorzieningen en diensten, andere CSD's en andere marktinfrastructuren in het continuïteitsbeleid.",
+            "Handelsplatformen: richt het continuïteitsbeleid zo in dat transacties binnen of dicht bij twee uur na een verstorend incident kunnen worden hervat en het maximale gegevensverlies dicht bij nul ligt.",
+            "Betrek clearingleden en cliënten, interoperabele centrale tegenpartijen en andere belanghebbenden, respectievelijk gebruikers, leveranciers van kritieke voorzieningen en diensten, externe leveranciers, andere CSD's en andere marktinfrastructuren en afhankelijke instellingen, waar nodig bij de opzet en uitvoering van systeemtests vóór ingebruikname, de tests van continuïteitsplannen en de strenge stresstests (gesimuleerde stresssituaties) na significante ICT-wijzigingen."
+          ],
+          "bewijsstukken": [
+            "Continuïteitsbeleid met onderbouwde RTO's (≤ 2 uur) en locatiestrategie",
+            "Failover-testverslagen van de secundaire verwerkingslocatie",
+            "Testverslagen met deelname van clearingleden, gebruikers en ketenpartijen"
+          ],
+          "rollen": [
+            "IT-operations",
+            "risk",
+            "bestuur"
+          ],
+          "refs": [
+            {
+              "href": "/rts-risicobeheer/artikel/24#lid-2",
+              "label": "Art. 24, lid 2 GV 2024/1774"
+            },
+            {
+              "href": "/rts-risicobeheer/artikel/24#lid-3",
+              "label": "Art. 24, lid 3 GV 2024/1774"
+            },
+            {
+              "href": "/rts-risicobeheer/artikel/24#lid-4",
+              "label": "Art. 24, lid 4 GV 2024/1774"
+            },
+            {
+              "href": "/rts-risicobeheer/artikel/17#lid-2",
+              "label": "Art. 17, lid 2 GV 2024/1774"
+            },
+            {
+              "label": "Art. 16, lid 2 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/16#lid-2"
+            },
+            {
+              "href": "/rts-risicobeheer/artikel/25#lid-3",
+              "label": "Art. 25, lid 3 GV 2024/1774"
+            },
+            {
+              "label": "Art. 25, lid 4 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/25#lid-4"
+            },
+            {
+              "href": "/artikel/11#lid-1",
+              "label": "Art. 11, lid 1 DORA"
+            }
+          ],
+          "appliesTo": [
+            "volledig"
+          ],
+          "prioriteit": "verdieping",
+          "afhankelijkVan": [
+            "pe.r11",
+            "pe.r13"
+          ]
+        },
+        {
+          "id": "pe.rb29",
+          "titel": "Werk de ICT-respons- en -herstelplannen scenario-gebaseerd uit",
+          "doel": "De ICT-respons- en -herstelplannen zijn op de BIA gebaseerd, dekken een brede scenariocatalogus en bevatten activeringscriteria, herstelopties en alternatieven wanneer primair herstel niet haalbaar is.",
+          "acties": [
+            "Werk de plannen uit op basis van de BIA-uitkomsten: specificeer de omstandigheden voor activering en deactivering (met eventuele uitzonderingen), de acties voor beschikbaarheid, integriteit, continuïteit en herstel van ten minste de ICT-systemen en -diensten voor kritieke of belangrijke functies, de hersteldoelstellingen en de voorwaarden om de uitvoering geslaagd te verklaren; leg rollen en verantwoordelijkheden duidelijk vast.",
+            "Stel de plannen beschikbaar aan de medewerkers die ze moeten uitvoeren en houd ze in noodgevallen gemakkelijk toegankelijk (bv. offline kopie buiten de primaire infrastructuur).",
+            "Neem herstelopties op voor korte én lange termijn, inclusief gedeeltelijk systeemherstel, en overweeg alternatieve opties wanneer primair herstel op korte termijn niet haalbaar is door kosten, risico's, logistiek of onvoorziene omstandigheden.",
+            "Onderhoud een scenariocatalogus op basis van actuele dreigingsinformatie en lessons learned, met ten minste: cyberaanvallen en omschakeling naar redundante capaciteit/back-ups, kwaliteitsverval of falen van kritieke of belangrijke functies (inclusief insolventie of ander falen van derde ICT-aanbieders), geheel of gedeeltelijk falen van bedrijfslocaties en datacentra, substantieel falen van ICT-assets of communicatie-infrastructuur, uitval van kritiek personeel, klimaat- en milieugerelateerde gebeurtenissen, natuurrampen, pandemieën en fysieke of interne aanvallen, politieke en maatschappelijke instabiliteit (ook in de jurisdictie van de derde aanbieder en de dataopslaglocatie) en algemene stroomstoringen.",
+            "Onderzoek en implementeer continuïteitsmaatregelen die het falen van derde aanbieders van ICT-diensten voor kritieke of belangrijke functies mitigeren."
+          ],
+          "bewijsstukken": [
+            "ICT-respons- en -herstelplannen met activeringscriteria en scenariocatalogus",
+            "Bewijs van distributie en noodtoegankelijkheid van de plannen",
+            "Analyse van alternatieve herstelopties en TPP-falen-mitigaties"
+          ],
+          "rollen": [
+            "IT-operations",
+            "risk",
+            "CISO"
+          ],
+          "refs": [
+            {
+              "href": "/rts-risicobeheer/artikel/26",
+              "label": "Art. 26 GV 2024/1774"
+            },
+            {
+              "href": "/artikel/11#lid-3",
+              "label": "Art. 11, lid 3 DORA"
+            }
+          ],
+          "appliesTo": [
+            "volledig"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.r11",
+            "pe.r12"
+          ]
+        },
+        {
+          "id": "pe.rv1",
+          "titel": "Beleg governance en interne audit van het vereenvoudigde kader",
+          "doel": "Het leidinggevend orgaan draagt aantoonbaar het vereenvoudigde raamwerk, met belegde ICT-taken, een jaarlijks budget, vaste rapportagelijnen en een risicoproportioneel intern auditprogramma met follow-up.",
+          "acties": [
+            "Leg in het governance-raamwerk vast dat het leidinggevend orgaan de algemene verantwoordelijkheid draagt voor het vereenvoudigde raamwerk in lijn met bedrijfsstrategie en risicobereidheid; beleg duidelijke taken en verantwoordelijkheden voor alle ICT-functies en laat het bestuur de beveiligingsdoelstellingen en ICT-vereisten vaststellen.",
+            "Agendeer de periodieke bestuursgoedkeuring en -evaluatie van: de classificatie van informatieassets, de lijst van belangrijkste risico's, de bedrijfsimpactanalyse (BIA) met samenhangende beleidslijnen, en de bedrijfscontinuïteitsplannen met respons- en herstelmaatregelen; laat het bestuur ten minste eenmaal per jaar het budget voor digitale weerbaarheid (inclusief awareness- en opleidingsprogramma's voor alle medewerkers) toekennen en evalueren.",
+            "Laat het leidinggevend orgaan de beleidslijnen en maatregelen van hoofdstukken I-III van titel III en de procedures, protocollen en tools ter bescherming van alle informatie- en ICT-assets specificeren en implementeren (uitwerking in pe.rv2-pe.rv5), en bewaak doorlopend dat medewerkers voldoende kennis en vaardigheden behouden om ICT-risico te begrijpen en te beoordelen, naar rato van het te beheersen ICT-risico.",
+            "Stel rapportageregelingen aan het leidinggevend orgaan vast met frequentie, vorm en inhoud van de rapportage over informatiebeveiliging en digitale operationele weerbaarheid.",
+            "Besteedt u verificatietaken voor de naleving van ICT-risicobeheersingsvereisten uit aan intragroeps- of derde ICT-aanbieders, leg dan contractueel en in de governance vast dat de volledige verantwoordelijkheid voor de nalevingscontrole bij de eigen entiteit blijft.",
+            "Borg een adequate scheiding en onafhankelijkheid van controlefuncties en interne auditfuncties, en neem ICT-audits van het vereenvoudigde raamwerk op in het auditplan met een frequentie en focus naar rato van het ICT-risico, uitgevoerd door onafhankelijke auditors met voldoende ICT-risicodeskundigheid.",
+            "Richt de follow-up in: tijdige controle op en remediëring van kritieke ICT-auditbevindingen, met per bevinding een eigenaar en een deadline."
+          ],
+          "bewijsstukken": [
+            "Governancedocument met taakverdeling ICT-functies en bestuursbesluiten (doelstellingen, budget, rapportageregelingen)",
+            "ICT-auditplan met deskundigheids- en onafhankelijkheidstoets van de auditors",
+            "Follow-upregister van kritieke auditbevindingen met eigenaar en deadline"
+          ],
+          "rollen": [
+            "bestuur",
+            "CISO",
+            "risk",
+            "compliance"
+          ],
+          "refs": [
+            {
+              "label": "Art. 28, lid 1 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/28#lid-1"
+            },
+            {
+              "label": "Art. 28, lid 2 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/28#lid-2"
+            },
+            {
+              "label": "Art. 28, lid 3 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/28#lid-3"
+            },
+            {
+              "label": "Art. 28, lid 4 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/28#lid-4"
+            },
+            {
+              "label": "Art. 28, lid 5 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/28#lid-5"
+            },
+            {
+              "label": "Art. 28, lid 6 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/28#lid-6"
+            },
+            {
+              "label": "Art. 16, lid 1 DORA",
+              "href": "/artikel/16#lid-1"
+            }
+          ],
+          "appliesTo": [
+            "vereenvoudigd"
+          ],
+          "prioriteit": "fundament",
+          "afhankelijkVan": [
+            "pe.r21"
+          ]
+        },
+        {
+          "id": "pe.rv2",
+          "titel": "Stel het informatiebeveiligingsbeleid vast en classificeer functies en assets",
+          "doel": "Een vastgesteld informatiebeveiligingsbeleid met daarvan afgeleide maatregelen, gefundeerd op een actuele, gedocumenteerde classificatie van kritieke of belangrijke functies en de ondersteunende informatie- en ICT-assets.",
+          "acties": [
+            "Ontwikkel, documenteer en implementeer een informatiebeveiligingsbeleid dat op hoofdlijnen de beginselen en regels vastlegt voor de bescherming van vertrouwelijkheid, integriteit, beschikbaarheid en authenticiteit van gegevens en aangeboden diensten; laat het vaststellen door het leidinggevend orgaan (stap pe.rv1).",
+            "Leid uit het beleid concrete ICT-beveiligingsmaatregelen af die de blootstelling aan ICT-risico mitigeren, met inbegrip van maatregelen die door derde ICT-aanbieders worden geïmplementeerd, en toets dat alle domeinen van art. 30-38 GV 2024/1774 zijn afgedekt (uitgewerkt in stappen pe.rv3, pe.rv4 en pe.rv5).",
+            "Identificeer, classificeer en documenteer alle kritieke of belangrijke functies, de ondersteunende informatieassets en ICT-assets en hun onderlinge afhankelijkheden; evalueer die identificatie en classificatie waar nodig (bijvoorbeeld bij organisatie- of systeemwijzigingen).",
+            "Breng alle kritieke of belangrijke functies in kaart die door derde ICT-aanbieders worden ondersteund en houd dit overzicht consistent met het informatieregister (registerwerkbank op /register)."
+          ],
+          "bewijsstukken": [
+            "Vastgesteld informatiebeveiligingsbeleid met versie- en goedkeuringsdatum",
+            "Inventaris van kritieke of belangrijke functies en assets met classificatie en afhankelijkheden",
+            "Overzicht van door derde aanbieders ondersteunde kritieke of belangrijke functies"
+          ],
+          "rollen": [
+            "CISO",
+            "IT-operations",
+            "risk"
+          ],
+          "refs": [
+            {
+              "label": "Art. 29, lid 1 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/29#lid-1"
+            },
+            {
+              "label": "Art. 29, lid 2 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/29#lid-2"
+            },
+            {
+              "label": "Art. 30, lid 1 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/30#lid-1"
+            },
+            {
+              "label": "Art. 30, lid 2 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/30#lid-2"
+            },
+            {
+              "label": "Art. 16, lid 1 DORA",
+              "href": "/artikel/16#lid-1"
+            }
+          ],
+          "appliesTo": [
+            "vereenvoudigd"
+          ],
+          "prioriteit": "fundament",
+          "afhankelijkVan": [
+            "pe.r21"
+          ]
+        },
+        {
+          "id": "pe.rv3",
+          "titel": "Richt de vereenvoudigde ICT-risicobeheersingscyclus in",
+          "doel": "Een doorlopende cyclus van risicotolerantie, periodieke gedocumenteerde risicobeoordeling, mitigatiestrategieën, dreigings- en kwetsbaarhedenmonitoring en vastgelegde alarmdrempels voor incidentrespons.",
+          "acties": [
+            "Bepaal risicotolerantieniveaus voor ICT-risico in overeenstemming met de risicobereidheid van de entiteit en leg deze vast in het vereenvoudigde raamwerk.",
+            "Voer periodiek een gedocumenteerde ICT-risicobeoordeling uit, evenredig aan het ICT-risicoprofiel; beoordeel daarnaast de ICT- en informatiebeveiligingsrisico's bij majeure wijzigingen in ICT-systemen, -diensten, -processen of -procedures, na uitkomsten van ICT-beveiligingstests en na majeure ICT-incidenten.",
+            "Specificeer mitigatiestrategieën voor ten minste de risico's die buiten de tolerantieniveaus vallen en monitor de doeltreffendheid van die strategieën.",
+            "Monitor doorlopend dreigingen en kwetsbaarheden die relevant zijn voor kritieke of belangrijke functies en de bijbehorende assets, en evalueer op regelmatige basis de risicoscenario's met impact op die functies.",
+            "Stel alarmdrempels en -criteria vast voor het activeren en initiëren van de ICT-incidentresponsprocessen en sluit deze aan op het incidentproces van fase 4."
+          ],
+          "bewijsstukken": [
+            "Risicoregister met tolerantieniveaus, mitigatiestrategieën en monitoringsuitkomsten",
+            "Vastlegging van de periodieke risicobeoordeling met datum en scope",
+            "Document met alarmdrempels en -criteria voor incidentrespons"
+          ],
+          "rollen": [
+            "risk",
+            "CISO"
+          ],
+          "refs": [
+            {
+              "label": "Art. 31, lid 1 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/31#lid-1"
+            },
+            {
+              "label": "Art. 31, lid 2 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/31#lid-2"
+            },
+            {
+              "label": "Art. 31, lid 3 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/31#lid-3"
+            },
+            {
+              "label": "Art. 31, lid 4 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/31#lid-4"
+            },
+            {
+              "label": "Art. 16, lid 1 DORA",
+              "href": "/artikel/16#lid-1"
+            }
+          ],
+          "appliesTo": [
+            "vereenvoudigd"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.rv2"
+          ]
+        },
+        {
+          "id": "pe.rv4",
+          "titel": "Implementeer de beveiligingsdomeinen: fysiek, toegang, operaties en gegevens/netwerk",
+          "doel": "De vier operationele beveiligingsdomeinen van het vereenvoudigde kader (fysieke en milieubeveiliging, toegangscontrole, beveiliging van ICT-operaties en gegevens-/netwerkbeveiliging) zijn geïmplementeerd naar rato van classificatie en risicoprofiel.",
+          "acties": [
+            "Fysiek: identificeer en implementeer maatregelen voor fysieke en milieubeveiliging op basis van het dreigingslandschap en de assetclassificatie; bescherm bedrijfslocaties en datacentra tegen ongeautoriseerde toegang, aanvallen, ongevallen en milieudreigingen, naar rato van het belang van de locatie en het kritieke karakter van de daar ondergebrachte operaties.",
+            "Toegang: documenteer en evalueer periodiek procedures voor logische en fysieke toegangscontrole op need-to-know-, need-to-use- en least-privilege-basis (ook voor remote en emergency access), met accountbeheerprocedures voor toekennen/wijzigen/intrekken, identificeerbaarheid van gebruikers en periodieke review met intrekking van niet langer vereiste rechten; ken privileged-, emergency- en administratortoegang toe op need-to-use- of ad-hocbasis en log deze, hanteer authenticatiemethoden voor alle toegang naar rato van de assetclassificatie en het algemene risicoprofiel, gebaseerd op maatgevende praktijken, en gebruik sterke authenticatie voor remote access, privileged access en publiek bereikbare assets die kritieke of belangrijke functies ondersteunen.",
+            "Operaties: monitor en beheers de levenscyclus van alle ICT-assets en de ondersteuning door derde aanbieders, identificeer capaciteitsvereisten, voer geautomatiseerde kwetsbaarheidsscans uit naar rato van classificatie en rol patches uit, beheers risico's van verouderde of legacy-assets, log toegangs-, operatie- en wijzigingsevents met een detailniveau afgestemd op het doel, en monitor afwijkende activiteiten, actuele cyberdreigingsinformatie, informatielekken, malware en nieuwe beveiligingsupdates.",
+            "Gegevens en netwerk: bescherm data in gebruik, in transit en in rust; beveilig software, opslagmedia, systemen en endpoints; voorkom en detecteer ongeautoriseerde netwerkverbindingen en beveilig het verkeer tussen interne netwerken, internet en andere externe verbindingen; richt processen in voor het veilig wissen van niet langer benodigde gegevens en het afvoeren of ontmantelen van gegevensdragers met vertrouwelijke informatie; en tref maatregelen zodat thuiswerk en privé-endpoints de veilige uitvoering van kritieke activiteiten niet raken."
+          ],
+          "bewijsstukken": [
+            "Toegangsbeheerprocedure met accountbeheer, logging van privileged access en periodieke reviewverslagen",
+            "Kwetsbaarheidsscan- en patchrapportages plus loggingbeleid",
+            "Ontwerp van netwerk- en gegevensbeveiliging inclusief wis- en afvoerproces en thuiswerkmaatregelen"
+          ],
+          "rollen": [
+            "CISO",
+            "IT-operations"
+          ],
+          "refs": [
+            {
+              "label": "Art. 32, lid 1 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/32#lid-1"
+            },
+            {
+              "label": "Art. 32, lid 2 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/32#lid-2"
+            },
+            {
+              "label": "Art. 32, lid 3 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/32#lid-3"
+            },
+            {
+              "label": "Art. 33 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/33#inhoud"
+            },
+            {
+              "label": "Art. 34 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/34#inhoud"
+            },
+            {
+              "label": "Art. 35 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/35#inhoud"
+            }
+          ],
+          "appliesTo": [
+            "vereenvoudigd"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.rv2"
+          ]
+        },
+        {
+          "id": "pe.rv5",
+          "titel": "Test de ICT-beveiliging en beheers verwerving, projecten en wijzigingen",
+          "doel": "Een testplan valideert de doeltreffendheid van de beveiligingsmaatregelen, en aanschaf, ontwikkeling, projecten en wijzigingen verlopen via gedocumenteerde, risicogebaseerde procedures.",
+          "acties": [
+            "Formuleer en implementeer een testplan voor ICT-beveiliging dat de doeltreffendheid valideert van de maatregelen uit de artikelen 33-35, 37 en 38 GV 2024/1774 en dat rekening houdt met de dreigingen en kwetsbaarheden uit de risicobeheersingscyclus (stap pe.rv3).",
+            "Evalueer, beoordeel en test de ICT-beveiligingsmaatregelen naar rato van het risicoprofiel van de assets; monitor en evalueer de testuitkomsten en actualiseer de maatregelen dienovereenkomstig — onverwijld voor systemen die kritieke of belangrijke functies ondersteunen.",
+            "Richt, waar passend, een risicogebaseerde procedure in voor aanschaf, ontwikkeling en onderhoud van ICT-systemen: functionele en niet-functionele vereisten (inclusief informatiebeveiliging) worden vooraf gespecificeerd en goedgekeurd door de betrokken bedrijfsfunctie, systemen worden getest en goedgekeurd vóór het eerste gebruik en vóór wijzigingen in productie, en risico's van onbedoelde wijziging of manipulatie tijdens ontwikkeling en uitrol worden gemitigeerd.",
+            "Documenteer een procedure voor ICT-projectmanagement die alle stadia van initiëren tot afsluiten omvat met gespecificeerde rollen en verantwoordelijkheden, en een procedure voor ICT-wijzigingsbeheer waarin alle wijzigingen beheerst worden vastgelegd, getest, beoordeeld, goedgekeurd, geïmplementeerd en geverifieerd."
+          ],
+          "bewijsstukken": [
+            "Testplan ICT-beveiliging met testverslagen en opvolging van bevindingen",
+            "Procedure aanschaf, ontwikkeling en onderhoud met goedkeuringsvastlegging",
+            "Project- en wijzigingsbeheerprocedure met wijzigingsregister"
+          ],
+          "rollen": [
+            "CISO",
+            "IT-operations"
+          ],
+          "refs": [
+            {
+              "label": "Art. 36, lid 1 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/36#lid-1"
+            },
+            {
+              "label": "Art. 36, lid 2 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/36#lid-2"
+            },
+            {
+              "label": "Art. 36, lid 3 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/36#lid-3"
+            },
+            {
+              "label": "Art. 37 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/37#inhoud"
+            },
+            {
+              "label": "Art. 38, lid 1 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/38#lid-1"
+            },
+            {
+              "label": "Art. 38, lid 2 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/38#lid-2"
+            }
+          ],
+          "appliesTo": [
+            "vereenvoudigd"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.rv3",
+            "pe.rv4"
+          ]
+        },
+        {
+          "id": "pe.rv6",
+          "titel": "Stel het ICT-bedrijfscontinuïteitsplan op en test het jaarlijks",
+          "doel": "Een door het bestuur goedgekeurd ICT-bedrijfscontinuïteitsplan met alle verplichte onderdelen, ten minste jaarlijks getest op back-up- en herstelprocedures, met gedocumenteerde en aan het bestuur gerapporteerde tekortkomingen.",
+          "acties": [
+            "Formuleer het ICT-bedrijfscontinuïteitsplan op basis van een analyse van blootstellingen aan en potentiële impact van zware bedrijfsstoringen op de assets die kritieke of belangrijke functies ondersteunen, inclusief een cyberaanvalscenario.",
+            "Neem de verplichte onderdelen op: goedkeuring door het leidinggevend orgaan; documentatie die in noodgevallen gemakkelijk toegankelijk is; toereikende middelen; geplande herstelniveaus en tijdskaders inclusief interne en externe afhankelijkheden (derde ICT-aanbieders); activeringsomstandigheden en te ondernemen acties; terugzet- en herstelmaatregelen inclusief mitigatie van het falen van kritieke derde aanbieders; back-upprocedures die de scope van de gegevens specificeren en de minimale back-upfrequentie baseren op het kritieke karakter van de functie die van deze gegevens gebruikmaakt; alternatieve opties wanneer herstel op korte termijn niet doenbaar is; en regelingen voor interne en externe communicatie met escalatieplannen.",
+            "Actualiseer het plan in lijn met lessen uit incidenten en tests, nieuwe risico's en dreigingen, gewijzigde hersteldoelstellingen en majeure wijzigingen in de organisatie of de ondersteunende assets.",
+            "Test het plan met de bijbehorende scenario's ten minste jaarlijks op back-up- en herstelprocedures, of bij iedere majeure wijziging van het plan; toon aan dat de bedrijfsactiviteiten levensvatbaar blijven totdat kritieke operaties zijn hersteld en breng tekortkomingen in kaart.",
+            "Documenteer de testuitkomsten, analyseer en verhelp geconstateerde tekortkomingen en rapporteer deze aan het leidinggevend orgaan."
+          ],
+          "bewijsstukken": [
+            "Door het bestuur goedgekeurd ICT-bedrijfscontinuïteitsplan met versiebeheer",
+            "Testkalender en testverslagen van de jaarlijkse back-up- en hersteltests",
+            "Rapportage van tekortkomingen en opvolging aan het leidinggevend orgaan"
+          ],
+          "rollen": [
+            "IT-operations",
+            "CISO",
+            "bestuur",
+            "risk"
+          ],
+          "refs": [
+            {
+              "label": "Art. 39, lid 1 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/39#lid-1"
+            },
+            {
+              "label": "Art. 39, lid 2 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/39#lid-2"
+            },
+            {
+              "label": "Art. 40, lid 1 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/40#lid-1"
+            },
+            {
+              "label": "Art. 40, lid 2 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/40#lid-2"
+            },
+            {
+              "label": "Art. 40, lid 3 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/40#lid-3"
+            },
+            {
+              "label": "Art. 16, lid 1 DORA",
+              "href": "/artikel/16#lid-1"
+            }
+          ],
+          "appliesTo": [
+            "vereenvoudigd"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.rv2"
+          ]
+        },
+        {
+          "id": "pe.rv7",
+          "titel": "Stel het evaluatieverslag van het vereenvoudigde kader op",
+          "doel": "Het periodieke evaluatieverslag van het vereenvoudigde ICT-risicobeheerkader bevat alle verplichte onderdelen en wordt in elektronisch doorzoekbaar formaat ingediend bij de bevoegde autoriteit.",
+          "acties": [
+            "Dien het evaluatieverslag van het vereenvoudigde kader (stap pe.r22) op verzoek in bij de bevoegde autoriteit in een elektronisch doorzoekbaar formaat.",
+            "Hanteer een inhoudschecklist langs art. 41, lid 2: inleiding met context en executive summary, het betrokken onderdeel van het kader, overzicht en impact van majeure wijzigingen sinds het vorige verslag, goedkeuringsdatum door het leidinggevend orgaan, redenen voor de evaluatie (inclusief instructies van de toezichthouder met bewijs en de incidentenlijst met root-cause-analyses), evaluatieperiode, verantwoordelijke persoon, bevindingen met zelfbeoordeling van ernst, remediëringsmaatregelen met implementatiedatum en conclusies.",
+            "Laat het verslag goedkeuren door het leidinggevend orgaan en archiveer versie en indieningsbewijs."
+          ],
+          "bewijsstukken": [
+            "Evaluatieverslag in elektronisch doorzoekbaar formaat met goedkeurings- en indieningsvastlegging"
+          ],
+          "rollen": [
+            "risk",
+            "compliance",
+            "bestuur"
+          ],
+          "refs": [
+            {
+              "label": "Art. 41, lid 1 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/41#lid-1"
+            },
+            {
+              "label": "Art. 41, lid 2 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/41#lid-2"
+            },
+            {
+              "label": "Art. 16, lid 2 DORA",
+              "href": "/artikel/16#lid-2"
+            }
+          ],
+          "appliesTo": [
+            "vereenvoudigd"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.r22"
+          ]
         }
       ]
     },
@@ -1542,6 +2719,7 @@
             "Leg het incidentbeheerproces vast in een goedgekeurde procedure die detectie, beheer en melding van ICT-incidenten dekt, en koppel indicatoren voor vroegtijdige waarschuwing aan uw monitoring- en detectiecapaciteit.",
             "Definieer procedures om incidenten te identificeren, detecteren, categoriseren en classificeren op prioriteit, ernst en het kritieke karakter van de getroffen diensten, aansluitend op de criteria van artikel 18, lid 1.",
             "Wijs per incidenttype en -scenario functies en verantwoordelijkheden toe (wie activeert, wie escaleert, wie besluit) en leg de interne escalatieprocedure vast, inclusief de afhandeling van ICT-gerelateerde klachten van cliënten.",
+            "Onderhoud een actuele contactenlijst van de interne functies en externe belanghebbenden die direct betrokken zijn bij de beveiliging van ICT-operaties, onder meer voor detectie en monitoring van cyberdreigingen, detectie van afwijkende activiteiten en kwetsbaarhedenbeheersing (art. 22, punt b GV 2024/1774).",
             "Werk communicatieplannen uit voor personeel, externe belanghebbenden en media (in lijn met artikel 14), voor mededeling aan cliënten en voor informatieverstrekking aan tegenpartijen.",
             "Borg dat ten minste ernstige ICT-incidenten aan het hoger leidinggevend personeel worden gemeld en dat het leidinggevend orgaan wordt geïnformeerd met toelichting op effecten, respons en aanvullende controles.",
             "Stel responsprocedures vast die de effecten beperken en de diensten tijdig operationeel en veilig maken."
@@ -1569,6 +2747,10 @@
             {
               "label": "Art. 14 DORA",
               "href": "/artikel/14"
+            },
+            {
+              "label": "Art. 22 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/22#inhoud"
             }
           ],
           "appliesTo": [
@@ -1588,6 +2770,7 @@
             "Richt een centraal register in waarin álle ICT-gerelateerde incidenten en significante cyberdreigingen worden vastgelegd, niet alleen de ernstige.",
             "Standaardiseer per registratie de velden die u later voor classificatie en melding nodig hebt: tijdstippen (ontdekking, classificatie, herstel), getroffen diensten en cliënten, duur en uitvaltijd, gegevensverlies, geografische spreiding en kosten.",
             "Voer voor afgehandelde incidenten een oorzaakanalyse uit, documenteer de onderliggende oorzaak en volg verbetermaatregelen tot aantoonbare afronding.",
+            "Bewaar bewijsmateriaal van ICT-incidenten op een veilige manier, met een bewaartermijn die niet langer is dan noodzakelijk voor het doel en evenredig aan het kritieke karakter van de getroffen bedrijfsfuncties, ondersteunende processen en assets (art. 22, punt d GV 2024/1774).",
             "Beoordeel maandelijks of er terugkerende incidenten zijn: twee of meer incidenten binnen zes maanden met dezelfde kennelijk onderliggende oorzaak gelden samen als één ernstig incident wanneer zij gezamenlijk aan de ernstig-criteria voldoen (art. 8, lid 2, GV 2024/1772; dit hele lid geldt niet voor micro-ondernemingen en art. 16-entiteiten)."
           ],
           "bewijsstukken": [
@@ -1608,6 +2791,10 @@
             {
               "label": "Art. 8, lid 2 GV 2024/1772",
               "href": "/rts-classificatie/artikel/8#lid-2"
+            },
+            {
+              "label": "Art. 22 GV 2024/1774",
+              "href": "/rts-risicobeheer/artikel/22#inhoud"
             }
           ],
           "appliesTo": [

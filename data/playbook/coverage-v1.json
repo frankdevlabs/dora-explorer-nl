@@ -1785,7 +1785,910 @@
       "bijlagen": {}
     },
     "risicobeheer": {
-      "artikelen": {},
+      "artikelen": {
+        "1": {
+          "inhoud": {
+            "disposition": "toepassingsgebied",
+            "steps": [
+              "pe.r20"
+            ],
+            "note": "Evenredigheidsbepaling: bij het uitwerken van alle beleidslijnen, procedures, protocollen en tools uit titel II (en het vereenvoudigde raamwerk uit titel III) weegt de entiteit omvang, algemeen risicoprofiel en de aard, schaal en complexiteit van diensten mee, onder meer voor encryptie, ICT-operaties, netwerkbeveiliging, project-/wijzigingsbeheer en de potentiële impact op vertrouwelijkheid, integriteit, beschikbaarheid en continuïteit. Documenteer de gemaakte evenredigheidskeuzes (stap pe.r20).",
+            "reviewed": false
+          }
+        },
+        "2": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb1",
+              "pe.r9"
+            ],
+            "note": "Integratie van de ICT-beveiligingsbeleidslijnen in het risicobeheersingskader en de vier beschermingsdoelen (netwerkveiligheid, anti-inbraak/misbruik, BAIV-bescherming incl. cryptografie, prompte gegevensdoorgifte).",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb1"
+            ],
+            "note": "De elf gemeenschappelijke vormeisen (punten a-k) voor elk ICT-beveiligingsbeleid.",
+            "reviewed": false
+          }
+        },
+        "3": {
+          "inhoud": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb2"
+            ],
+            "note": "Risicobeheersingscyclus: tolerantiegoedkeuring, beoordelingsmethode, behandelmaatregelen met doeltreffendheidsmonitoring (tweede alinea), restrisico-inventaris met ten minste jaarlijkse evaluatie, en monitoring van dreigingslandschap en strategiewijzigingen.",
+            "reviewed": false
+          }
+        },
+        "4": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb3"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb3",
+              "pe.r7"
+            ],
+            "note": "Verplichte vastleggingen per ICT-asset (punten a-c), incl. end-of-support-data en legacy-informatie; sluit aan op de inventarissen van pe.r7.",
+            "reviewed": false
+          }
+        },
+        "5": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb3"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb3"
+            ],
+            "note": "Criteria voor de kritikaliteitsbeoordeling van informatie- en ICT-assets.",
+            "reviewed": false
+          }
+        },
+        "6": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb4"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb4"
+            ],
+            "note": "Encryptie in rust, in transit, in gebruik (of afzonderlijke beveiligde omgeving) en van netwerkverbindingen, op basis van dataclassificatie en risicobeoordeling.",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb4"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb4"
+            ],
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb4"
+            ],
+            "note": "Vastleggings- en onderbouwingsplicht voor mitigatie-/monitoringmaatregelen bij afwijkingen onder leden 3 en 4.",
+            "reviewed": false
+          }
+        },
+        "7": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb4"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb4"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb4"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb4"
+            ],
+            "note": "Certificatenregister ten minste voor ICT-assets die kritieke of belangrijke functies ondersteunen.",
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb4"
+            ],
+            "reviewed": false
+          }
+        },
+        "8": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb5"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb5"
+            ],
+            "note": "Inhoudseisen ICT-operatiebeleid: assetbeschrijving, beheersmaatregelen/monitoring (incl. omgevingsscheiding), foutafhandeling; testen in productie alleen geïdentificeerd, beargumenteerd, tijdsgebonden en goedgekeurd (slotalinea's).",
+            "reviewed": false
+          }
+        },
+        "9": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb5",
+              "pe.r6"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb5",
+              "pe.r6"
+            ],
+            "note": "Bijzondere maatregelen voor systemen met lange/complexe aankoop- of goedkeuringsprocessen of hulpbronnenintensieve systemen.",
+            "reviewed": false
+          }
+        },
+        "10": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb6"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb6"
+            ],
+            "note": "Kern van het kwetsbaarhedenbeheer (punten a-h) met de slotalinea's: ten minste wekelijkse geautomatiseerde scans voor ICT-assets die kritieke of belangrijke functies ondersteunen; eisen aan derde aanbieders; monitoring van third-party libraries; risicogebaseerde patchprioritering.",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb6"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb6"
+            ],
+            "note": "Patchmanagement: inventarisatie/evaluatie van patches, noodprocedures, testen en uitrol via gescheiden omgevingen, installatietermijnen met escalatie.",
+            "reviewed": false
+          }
+        },
+        "11": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb7"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb7"
+            ],
+            "note": "Elf elementen (punten a-k) van de procedure gegevens- en systeembeveiliging, incl. configuratiebaselines, endpointbeheer, veilig wissen/afvoeren en de vereisten voor door derden geopereerde assets/diensten (slotalinea).",
+            "reviewed": false
+          }
+        },
+        "12": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb8"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb8"
+            ],
+            "note": "Eventidentificatie en retentie (slotalinea: retentie o.b.v. doelstellingen, doel van de log en risicobeoordeling), verplichte logcategorieën, logbescherming, faaldetectie en kloksynchronisatie met één referentietijdbron.",
+            "reviewed": false
+          }
+        },
+        "13": {
+          "inhoud": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb9"
+            ],
+            "note": "Dertien elementen (punten a-m) van het netwerkbeveiligingsbeheer; slotalinea: firewallregels en verbindingsfilters voor kritieke of belangrijke functies ten minste om de zes maanden evalueren.",
+            "reviewed": false
+          }
+        },
+        "14": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb9"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb9"
+            ],
+            "reviewed": false
+          }
+        },
+        "15": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb20"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb20"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb20"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb20"
+            ],
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb20"
+            ],
+            "reviewed": false
+          }
+        },
+        "16": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb21"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb21",
+              "pe.rb28"
+            ],
+            "note": "De alinea's voor centrale tegenpartijen en centrale effectenbewaarinstellingen (betrekken van clearingleden, gebruikers en ketenpartijen bij tests) lopen mee in pe.rb28.",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb22"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb22"
+            ],
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb22"
+            ],
+            "reviewed": false
+          },
+          "lid-6": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb22"
+            ],
+            "note": "Optionele afwijking: alleen als de entiteit productiegegevens in testomgevingen wil toestaan, gelden de voorwaarden (specifieke testgevallen, beperkte duur, goedkeuring, melding aan de ICT-risicobeheersingsfunctie) uit pe.rb22.",
+            "reviewed": false
+          },
+          "lid-7": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb22"
+            ],
+            "reviewed": false
+          },
+          "lid-8": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb22"
+            ],
+            "reviewed": false
+          },
+          "lid-9": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb21"
+            ],
+            "note": "Reikwijdte-uitbreiding naar end-user computing (systemen ontwikkeld of beheerd buiten de ICT-functie), risicogebaseerd; geoperationaliseerd in de EUC-actie van pe.rb21.",
+            "reviewed": false
+          }
+        },
+        "17": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb23"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb28"
+            ],
+            "note": "Alleen voor centrale tegenpartijen en centrale effectenbewaarinstellingen: strenge stresstests na significante ICT-wijzigingen, met betrokkenheid van deelnemers en ketenpartijen.",
+            "reviewed": false
+          }
+        },
+        "18": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb24"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb24"
+            ],
+            "reviewed": false
+          }
+        },
+        "19": {
+          "inhoud": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb25"
+            ],
+            "reviewed": false
+          }
+        },
+        "20": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb26"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb26"
+            ],
+            "reviewed": false
+          }
+        },
+        "21": {
+          "inhoud": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb26"
+            ],
+            "reviewed": false
+          }
+        },
+        "22": {
+          "inhoud": {
+            "disposition": "stap",
+            "steps": [
+              "pe.i1",
+              "pe.i2",
+              "pe.rb27"
+            ],
+            "note": "RTS-uitwerking van het incidentmanagementproces van art. 17 DORA: procesdocumentatie in pe.i1, bewijsbewaring en analyse van recurrente incidenten en patronen in pe.i2, detectiemechanismen (punt c) in pe.rb27. De contactenlijst (punt b) en de veilige, proportionele bewaartermijn voor bewijsmateriaal (punt d, conform art. 8, lid 2 GV 2024/1772) horen bij de procedure-inrichting onder pe.i1/pe.i2.",
+            "reviewed": false
+          }
+        },
+        "23": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb27"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r10",
+              "pe.rb27"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb27"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb27"
+            ],
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r10",
+              "pe.rb27"
+            ],
+            "reviewed": false
+          },
+          "lid-6": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb27"
+            ],
+            "reviewed": false
+          }
+        },
+        "24": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r11"
+            ],
+            "note": "De beleidsonderdelen (doelstellingen, scope, activerings- en deactiveringscriteria, RTO/RPO-afstemming met de algemene bedrijfscontinuïteit, afstemming op het communicatiebeleid van art. 14 DORA) zijn de uitwerking van het in pe.r11 vastgestelde ICT-bedrijfscontinuïteitsbeleid.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb28"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb28"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb28"
+            ],
+            "reviewed": false
+          }
+        },
+        "25": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r13"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r13",
+              "pe.rb29"
+            ],
+            "note": "Testscenario's (zwaar-maar-plausibel, omschakeling naar redundante capaciteit, ICT-diensten van derde aanbieders incl. insolventie- en politieke-risicoscenario's) sluiten aan op de scenariocatalogus van pe.rb29; de jaarlijkse testcyclus zelf zit in pe.r13.",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb28"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb28"
+            ],
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r13"
+            ],
+            "note": "Documenteren van testuitkomsten en het analyseren, aanpakken en aan het leidinggevend orgaan melden van tekortkomingen loopt mee in de evaluatie-actie van pe.r13.",
+            "reviewed": false
+          }
+        },
+        "26": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r11",
+              "pe.rb29"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb29"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb29"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rb29"
+            ],
+            "reviewed": false
+          }
+        },
+        "27": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r3"
+            ],
+            "note": "Elektronisch doorzoekbaar formaat voor het evaluatieverslag van art. 6, lid 5 DORA; het opstellen conform art. 27 is een actie in pe.r3.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r3"
+            ],
+            "note": "De volledige inhoudsopgave van het evaluatieverslag (inleiding, goedkeuringsdatum, aanleiding, bevindingen, maatregelen met planning en middelen, restrisico-acceptatie, eerdere evaluaties, informatiebronnen); pe.r3 verwijst hiervoor naar dit artikel als verplicht format.",
+            "reviewed": false
+          }
+        },
+        "28": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv1"
+            ],
+            "note": "Raamwerk voor interne governance en controle van het vereenvoudigde kader; het kader zelf wordt ingericht via pe.r21.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv1"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv1"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv1"
+            ],
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv1"
+            ],
+            "reviewed": false
+          },
+          "lid-6": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv1"
+            ],
+            "reviewed": false
+          }
+        },
+        "29": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv2"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv2",
+              "pe.rv3",
+              "pe.rv4",
+              "pe.rv5"
+            ],
+            "note": "De uit het beleid afgeleide maatregelen omvatten alle maatregelen van art. 30-38; die worden geoperationaliseerd in pe.rv3, pe.rv4 en pe.rv5.",
+            "reviewed": false
+          }
+        },
+        "30": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv2"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv2"
+            ],
+            "reviewed": false
+          }
+        },
+        "31": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv3"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv3"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv3"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv3"
+            ],
+            "reviewed": false
+          }
+        },
+        "32": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv4"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv4"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv4"
+            ],
+            "reviewed": false
+          }
+        },
+        "33": {
+          "inhoud": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv4"
+            ],
+            "reviewed": false
+          }
+        },
+        "34": {
+          "inhoud": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv4"
+            ],
+            "reviewed": false
+          }
+        },
+        "35": {
+          "inhoud": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv4"
+            ],
+            "reviewed": false
+          }
+        },
+        "36": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv5"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv5"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv5"
+            ],
+            "reviewed": false
+          }
+        },
+        "37": {
+          "inhoud": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv5"
+            ],
+            "reviewed": false
+          }
+        },
+        "38": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv5"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv5"
+            ],
+            "reviewed": false
+          }
+        },
+        "39": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv6"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv6"
+            ],
+            "reviewed": false
+          }
+        },
+        "40": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv6"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv6"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv6"
+            ],
+            "reviewed": false
+          }
+        },
+        "41": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv7"
+            ],
+            "note": "Het verslag wordt in elektronisch doorzoekbaar formaat ingediend.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.rv7"
+            ],
+            "note": "Verplichte inhoud van het evaluatieverslag (inleiding met context en executive summary, goedkeuringsdatum bestuur, redenen voor de evaluatie incl. RCA's bij incidenten, evaluatieperiode, verantwoordelijke, bevindingen met zelfbeoordeling, remediëringsmaatregelen met implementatiedatum, conclusies); geoperationaliseerd in pe.rv7 (voortbouwend op pe.r22).",
+            "reviewed": false
+          }
+        },
+        "42": {
+          "inhoud": {
+            "disposition": "slotbepaling",
+            "reviewed": false
+          }
+        }
+      },
       "bijlagen": {}
     },
     "classificatie": {
