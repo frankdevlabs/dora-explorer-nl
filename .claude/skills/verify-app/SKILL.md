@@ -10,13 +10,14 @@ check list change with nearly every epic. Update them in the same commit as
 the feature; a mismatch usually means this skill is stale, not that the app
 is broken — check `git log` before debugging.
 
-> **Epic-11 state:** full app, 13 instruments (DORA + 12 level-2 acts;
-> **563 exported HTML pages**, +31 playbook). Verify chain: verify-data
-> (563 refs, 1031 search docs), verify-assessment (entity 18/57, supplier
-> 11/48), verify-playbook (draft mode: dekking 20/654, 5 stappen,
-> criticaliteit-pilot compleet), verify-roi (15 templates / 98 kolommen),
-> verify-recital-map (359 pairs, two-regime, all drafted, human review
-> open), verify-l2-map (26 links), verify-search (32 golden queries).
+> **Epic-12 state:** full app, 13 instruments (DORA + 12 level-2 acts;
+> **563 exported HTML pages**). Verify chain: verify-data (563 refs, 1031
+> search docs), verify-assessment (entity 18/57, supplier 11/48),
+> verify-playbook (draft mode: dekking 287/654 — dora 267/267 +
+> criticaliteit 20/20; 61 stappen; 65 begrippen), verify-roi (15
+> templates / 98 kolommen), verify-recital-map (359 pairs, two-regime,
+> all drafted, human review open), verify-l2-map (26 links),
+> verify-search (32 golden queries).
 
 ## 1. Build (includes data verification)
 
@@ -60,7 +61,10 @@ curl -s "http://localhost:$PORT/artikel/18" | grep -c "Classificatie-RTS"       
 curl -s "http://localhost:$PORT/playbook" | grep -c "Dekkingsregister"              # >= 1
 curl -s "http://localhost:$PORT/playbook/aanbieder/f1" | grep -c "stap 1-zelftoets" # >= 1 (pilot-stappen)
 curl -s "http://localhost:$PORT/playbook/dekking/criticaliteit" | grep -c "pa.p2"   # >= 1 (steplinks)
-curl -s "http://localhost:$PORT/playbook/dekking/dora" | grep -c "nog niet gedekt"  # >= 1 (tot dekking compleet)
+# epic 12: dora volledig gedekt + begrippen
+curl -s "http://localhost:$PORT/playbook/dekking/dora" | grep -c "nog niet gedekt"  # 0 sinds epic 12
+curl -s "http://localhost:$PORT/playbook/entiteit/f1" | grep -c "dreigingsgestuurde penetratietest" # >= 1 (begrippen)
+curl -s "http://localhost:$PORT/playbook/entiteit/f4" | grep -c "eerste kennisgeving" # >= 1 (meldtermijnen)
 ```
 
 ## 3. Browser checks (Playwright, optional but thorough)

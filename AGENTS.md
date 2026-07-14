@@ -108,8 +108,10 @@ volledig level-2-corpus, geen openstaande mandaten. Site en MCP zijn live
 op https://dora.mrfrank.dev. Epic 11 (juli 2026) legde de playbook-spine:
 `/playbook` (entiteit + aanbieder) met per-lid dekkingsregister over alle
 654 bepalingen (`data/playbook/`, verify-playbook, MCP get_playbook/
-get_coverage); pilot criticaliteit 20/20 gedekt. Openstaand: (a)
-playbook-content epics 12–16 (zie docs/epics/epic-11-playbook-spine.md);
+get_coverage); pilot criticaliteit 20/20 gedekt. Epic 12 (juli 2026)
+dekte DORA volledig: 267/267 leden, 56 entity-stappen (f0/f2–f8), 65
+begrippen op /playbook/entiteit/f1 — dekking 287/654. Openstaand: (a)
+playbook-content epics 13–16 (zie docs/epics/epic-12-entity-dora.md);
 (b) menselijke review van de recital-map (complete=false) — alle 284
 entries zijn gedraft en adversarieel gereviewd (drafter→refuter; twee
 REVIEW:-gemarkeerde disputen wachten op arbitrage), maar nog
