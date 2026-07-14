@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
+import { RefLink } from "@/components/content/RefLink";
 import { RefRow } from "@/components/assessment/shared";
 import { buildPlaybookRefPreviews } from "@/components/playbook/ref-previews";
 import { getPlaybook, getStepIndex, PLAYBOOK_KINDS, type PlaybookKind } from "@/lib/playbook/data";
@@ -76,14 +77,31 @@ export default async function PlaybookFasePage({
         <p className="mb-6 text-sm text-muted">{f.intro}</p>
       )}
 
+      {f.id === "f1" && (pb.begrippen?.length ?? 0) > 0 && (
+        <dl className="mb-6 space-y-2">
+          {pb.begrippen!.map((b) => (
+            <div key={b.href} className="rounded-lg border border-line px-4 py-2.5">
+              <dt className="text-sm font-medium">
+                <RefLink href={b.href} title={previews[b.href]?.title} snippet={previews[b.href]?.snippet}>
+                  {b.term}
+                </RefLink>
+              </dt>
+              {b.toelichting && <dd className="mt-0.5 text-xs text-muted">{b.toelichting}</dd>}
+            </div>
+          ))}
+        </dl>
+      )}
+
       {f.stappen.length === 0 ? (
-        <p className="rounded-md border border-line bg-surface px-3 py-2 text-sm text-muted">
-          De stappen voor deze fase worden nog samengesteld. Raadpleeg intussen het{" "}
-          <a href="/playbook/dekking" className="text-accent hover:underline">
-            dekkingsregister
-          </a>{" "}
-          voor de onderliggende bepalingen.
-        </p>
+        f.id === "f1" && (pb.begrippen?.length ?? 0) > 0 ? null : (
+          <p className="rounded-md border border-line bg-surface px-3 py-2 text-sm text-muted">
+            De stappen voor deze fase worden nog samengesteld. Raadpleeg intussen het{" "}
+            <a href="/playbook/dekking" className="text-accent hover:underline">
+              dekkingsregister
+            </a>{" "}
+            voor de onderliggende bepalingen.
+          </p>
+        )
       ) : (
         <ol className="space-y-4">
           {f.stappen.map((step) => (
