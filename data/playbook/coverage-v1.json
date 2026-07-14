@@ -1,64 +1,1964 @@
 {
-  "meta": { "version": 1, "complete": false },
+  "meta": {
+    "version": 1,
+    "complete": false
+  },
   "instruments": {
-    "dora": { "artikelen": {}, "bijlagen": {} },
-    "its": { "artikelen": {}, "bijlagen": {} },
-    "rts": { "artikelen": {}, "bijlagen": {} },
-    "risicobeheer": { "artikelen": {}, "bijlagen": {} },
-    "classificatie": { "artikelen": {}, "bijlagen": {} },
-    "rapportage": { "artikelen": {}, "bijlagen": {} },
-    "formulieren": { "artikelen": {}, "bijlagen": {} },
-    "tlpt": { "artikelen": {}, "bijlagen": {} },
-    "contractbeleid": { "artikelen": {}, "bijlagen": {} },
+    "dora": {
+      "artikelen": {
+        "1": {
+          "lid-1": {
+            "disposition": "toepassingsgebied",
+            "note": "Onderwerpbepaling: somt de pijlers van DORA op (ICT-risicobeheer, incidentmelding, weerbaarheidstesten, informatie-uitwisseling, derde-aanbiedersrisico, contractuele vereisten, CTPP-oversight en toezicht/handhaving). Nuttig als leeswijzer bij de fase-indeling van dit playbook.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "toepassingsgebied",
+            "steps": [
+              "pe.s1"
+            ],
+            "note": "NIS2-samenloop: voor financiële entiteiten die onder de nationale NIS2-omzetting als essentiële of belangrijke entiteit zijn aangewezen, geldt DORA voor de toepassing van artikel 4 NIS2 als sectorspecifieke rechtshandeling van de Unie; op grond van dat artikel zijn de overeenkomstige NIS2-bepalingen over cyberbeveiligingsrisicobeheer en incidentmelding dan niet van toepassing en gelden de DORA-vereisten. Stel deze samenloop expliciet vast in de scopebepaling (pe.s1).",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "context",
+            "note": "Voorbehoud voor essentiële staatsfuncties: DORA laat de verantwoordelijkheid van de lidstaten voor openbare veiligheid, defensie en nationale veiligheid onverlet. Relevant om te kennen bij dienstverlening aan of gegevensuitwisseling met overheids- en defensiegerelateerde partijen, maar er volgt geen eigen verplichting uit.",
+            "reviewed": false
+          }
+        },
+        "2": {
+          "lid-1": {
+            "disposition": "toepassingsgebied",
+            "steps": [
+              "pe.s1"
+            ],
+            "note": "De 21 entiteitscategorieën (punten a)–u)) waarop DORA van toepassing is, onder voorbehoud van de uitsluitingen van lid 3 en de opt-outs van lid 4. Startpunt van elke scopebepaling; punt u) brengt ook derde aanbieders van ICT-diensten binnen het toepassingsgebied (relevant voor het aanbieder-playbook).",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "toepassingsgebied",
+            "steps": [
+              "pe.s1"
+            ],
+            "note": "Alleen de categorieën a) tot en met t) heten 'financiële entiteiten'; derde aanbieders van ICT-diensten (punt u)) vallen wel onder de verordening maar dragen de financiële-entiteitsverplichtingen niet. Bepalend voor welk playbook (entiteit of aanbieder) op de organisatie van toepassing is.",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "toepassingsgebied",
+            "steps": [
+              "pe.s1"
+            ],
+            "note": "Zes uitsluitingen van het toepassingsgebied, o.a. sub-drempel abi-beheerders (art. 3, lid 2, AIFMD), kleine verzekeraars buiten Solvency II, IBPV's met pensioenregelingen van samen ten hoogste 15 leden en verzekeringstussenpersonen die micro-, kleine of middelgrote onderneming zijn. Documenteer expliciet waarom een uitsluiting wel of niet opgaat.",
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "toepassingsgebied",
+            "steps": [
+              "pe.s1"
+            ],
+            "note": "Lidstaatoptie om entiteiten van artikel 2, lid 5, punten 4)–23), CRD (zoals bepaalde nationale kredietverstrekkers) uit te sluiten; de Commissie publiceert welke lidstaten dit doen. Controleer bij de scopebepaling of uw lidstaat van deze optie gebruikmaakt.",
+            "reviewed": false
+          }
+        },
+        "3": {
+          "inhoud": {
+            "disposition": "definitie",
+            "note": "65 definities die het hele corpus dragen; sleutelbegrippen voor de scopefase zijn 'kritieke of belangrijke functie' (punt 22)), 'ICT-diensten' (punt 21)) en de grootteklassen micro-, kleine en middelgrote onderneming (punten 60), 63) en 64)). De begrippen zijn afzonderlijk ontsloten in de begrippenlijst van dit playbook.",
+            "reviewed": false
+          }
+        },
+        "4": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.s2"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.s2"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "autoriteit",
+            "steps": [
+              "pe.s2"
+            ],
+            "note": "De bevoegde autoriteit betrekt uw evenredigheidstoepassing bij de toetsing van het ICT-risicobeheerkader op basis van de verslagen van artikel 6, lid 5, en artikel 16, lid 2. Uw proportionaliteitskeuzes worden dus getoetst: documenteer de onderbouwing zo dat die bij zo'n verslag direct meegeleverd kan worden (pe.s2).",
+            "reviewed": false
+          }
+        },
+        "5": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.g1"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.g1"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.g2"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.g3"
+            ],
+            "reviewed": false
+          }
+        },
+        "6": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r1"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r1"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r1"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r2"
+            ],
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r3"
+            ],
+            "reviewed": false
+          },
+          "lid-6": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r4"
+            ],
+            "reviewed": false
+          },
+          "lid-7": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r4"
+            ],
+            "reviewed": false
+          },
+          "lid-8": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r5"
+            ],
+            "reviewed": false
+          },
+          "lid-9": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r5"
+            ],
+            "note": "Facultatief ('kunnen'): de multivendorstrategie is een keuze die de entiteit documenteert binnen de weerbaarheidsstrategie.",
+            "reviewed": false
+          },
+          "lid-10": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r2"
+            ],
+            "reviewed": false,
+            "note": "Facultatief ('kunnen'): bij uitbesteding van de verificatietaken blijft de volledige verantwoordelijkheid voor de nalevingscontrole bij de entiteit."
+          }
+        },
+        "7": {
+          "inhoud": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r6"
+            ],
+            "reviewed": false
+          }
+        },
+        "8": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r7"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r7"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r8"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r7"
+            ],
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r7"
+            ],
+            "reviewed": false
+          },
+          "lid-6": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r7"
+            ],
+            "reviewed": false
+          },
+          "lid-7": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r8"
+            ],
+            "reviewed": false
+          }
+        },
+        "9": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r9"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r9"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r9"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r9"
+            ],
+            "reviewed": false
+          }
+        },
+        "10": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r10"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r10"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r10"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r10"
+            ],
+            "note": "Sectorspecifiek: geldt alleen voor aanbieders van datarapporteringsdiensten.",
+            "reviewed": false
+          }
+        },
+        "11": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r11"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r11"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r11"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r11"
+            ],
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r12"
+            ],
+            "reviewed": false
+          },
+          "lid-6": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r13"
+            ],
+            "reviewed": false
+          },
+          "lid-7": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r14"
+            ],
+            "reviewed": false
+          },
+          "lid-8": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r14"
+            ],
+            "reviewed": false
+          },
+          "lid-9": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r13"
+            ],
+            "note": "Sectorspecifiek: geldt alleen voor centrale effectenbewaarinstellingen.",
+            "reviewed": false
+          },
+          "lid-10": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r14"
+            ],
+            "reviewed": false
+          },
+          "lid-11": {
+            "disposition": "autoriteit",
+            "note": "Mandaat aan de ETA's om via het Gemengd Comité uiterlijk 17 juli 2024 richtsnoeren op te stellen voor de raming van geaggregeerde jaarlijkse kosten en verliezen. Relevant omdat de raming die de entiteit op grond van lid 10 op verzoek verstrekt volgens die richtsnoeren wordt opgesteld.",
+            "reviewed": false
+          }
+        },
+        "12": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r15"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r15"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r15"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r16"
+            ],
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r16"
+            ],
+            "note": "Sectorspecifiek: de secundaire verwerkingslocatie geldt alleen voor centrale effectenbewaarinstellingen.",
+            "reviewed": false
+          },
+          "lid-6": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r12"
+            ],
+            "reviewed": false
+          },
+          "lid-7": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r15"
+            ],
+            "reviewed": false
+          }
+        },
+        "13": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r17"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r17"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r17"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r17"
+            ],
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r17"
+            ],
+            "reviewed": false
+          },
+          "lid-6": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r18"
+            ],
+            "reviewed": false
+          },
+          "lid-7": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r18"
+            ],
+            "reviewed": false
+          }
+        },
+        "14": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r19"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r19"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r19"
+            ],
+            "reviewed": false
+          }
+        },
+        "15": {
+          "inhoud": {
+            "disposition": "autoriteit",
+            "steps": [
+              "pe.r20"
+            ],
+            "note": "RTS-mandaat aan de ETA's, uitgeoefend in GV (EU) 2024/1774 (ICT-risicobeheerkader). De implementatie voor de entiteit loopt via de stappen van fase 3; detailcuratie van de RTS volgt in het dekkingsregister van /rts-risicobeheer.",
+            "reviewed": false
+          }
+        },
+        "16": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r21"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.r21"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "autoriteit",
+            "steps": [
+              "pe.r22"
+            ],
+            "note": "RTS-mandaat aan de ETA's, uitgeoefend als GV (EU) 2024/1774 (art. 28-41 vereenvoudigd kader). Voor de entiteit vertaald naar de implementatiestap; detailcuratie van de RTS zelf volgt in epic 13.",
+            "reviewed": false
+          }
+        },
+        "17": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.i1"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.i2"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.i1"
+            ],
+            "reviewed": false
+          }
+        },
+        "18": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.i3"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.i3"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "autoriteit",
+            "steps": [
+              "pe.i3"
+            ],
+            "note": "Mandaat voor de RTS met classificatiecriteria en materialiteitsdrempels, uitgeoefend in GV (EU) 2024/1772. De drempels daarin bepalen rechtstreeks wanneer de meldplicht van artikel 19, lid 1, voor u wordt geactiveerd.",
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "autoriteit",
+            "note": "Instrueert de ETA's om bij het opstellen van die drempels rekening te houden met de evenredigheidscriteria van artikel 4, lid 2, en met de beperkte capaciteit van micro-, kleine en middelgrote ondernemingen. Verklaart waarom GV 2024/1772 met relatieve drempels werkt.",
+            "reviewed": false
+          }
+        },
+        "19": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.i4"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.i6"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.i5"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.i4"
+            ],
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "stap",
+            "steps": [
+              "pe.i7"
+            ],
+            "reviewed": false
+          },
+          "lid-6": {
+            "disposition": "autoriteit",
+            "note": "Beschrijft aan wie de bevoegde autoriteit uw incidentgegevens doorgeeft: de ETA's, de ECB, NIS2-autoriteiten en CSIRT's, afwikkelingsautoriteiten en andere overheidsinstanties. Relevant om te weten hoe breed een melding wordt verspreid.",
+            "reviewed": false
+          },
+          "lid-7": {
+            "disposition": "autoriteit",
+            "note": "ETA's en ECB beoordelen met Enisa of uw ernstige incident relevant is voor autoriteiten in andere lidstaten en informeren die; op basis daarvan kunnen autoriteiten stabiliteitsmaatregelen nemen. Uw melding kan dus tot toezichtactie elders leiden.",
+            "reviewed": false
+          },
+          "lid-8": {
+            "disposition": "autoriteit",
+            "note": "Aanvullende doorgeleidingsplicht voor de bevoegde autoriteit bij centrale effectenbewaarinstellingen met aanzienlijke grensoverschrijdende activiteiten; alleen indirect relevant voor de entiteit zelf.",
+            "reviewed": false
+          }
+        },
+        "20": {
+          "inhoud": {
+            "disposition": "autoriteit",
+            "steps": [
+              "pe.i4"
+            ],
+            "note": "Mandaatbepaling: de rapportinhoud en meldtermijnen (eerste alinea, punt a) zijn vastgesteld in GV (EU) 2025/301, de standaardformulieren en modellen (punt b) in UV (EU) 2025/302. De praktijk voor de entiteit staat in stap pe.i4; punt a) omvat ook de inhoud van de vrijwillige kennisgeving van significante cyberdreigingen (GV 2025/301, art. 6 — zie stap pe.i6).",
+            "reviewed": false
+          }
+        },
+        "21": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "note": "Haalbaarheidsverslag van de ETA's over één EU-hub voor de melding van ernstige ICT-incidenten. Geen verplichting voor entiteiten, maar een mogelijke toekomstige wijziging van uw meldkanaal om te volgen.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "note": "Somt de minimuminhoud van dat haalbaarheidsverslag op (vereisten, voordelen en risico's, interoperabiliteit, beheer, lidmaatschap, toegang, kosten); alleen context bij lid 1.",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "autoriteit",
+            "note": "Deadline voor voorlegging van het verslag aan Parlement, Raad en Commissie: 17 januari 2025, inmiddels verstreken. Geen actie voor de entiteit.",
+            "reviewed": false
+          }
+        },
+        "22": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "steps": [
+              "pe.i4"
+            ],
+            "note": "Bepaalt wat u na een melding terugkrijgt: een ontvangstbevestiging en waar mogelijk feedback, richtsnoeren op hoog niveau en geanonimiseerde dreigingsinformatie. Let op de slotzin: u blijft zelf volledig verantwoordelijk voor de behandeling en de gevolgen van het gemelde incident.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "note": "De ETA's publiceren jaarlijks een geanonimiseerd, geaggregeerd verslag over gemelde ernstige incidenten en geven waarschuwingen en statistieken uit; bruikbare input voor uw eigen dreigings- en kwetsbaarheidsbeoordelingen.",
+            "reviewed": false
+          }
+        },
+        "23": {
+          "inhoud": {
+            "disposition": "stap",
+            "steps": [
+              "pe.i8"
+            ],
+            "reviewed": false
+          }
+        },
+        "24": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.t1"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.t1"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.t1"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.t2"
+            ],
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "stap",
+            "steps": [
+              "pe.t3"
+            ],
+            "reviewed": false
+          },
+          "lid-6": {
+            "disposition": "stap",
+            "steps": [
+              "pe.t1"
+            ],
+            "reviewed": false
+          }
+        },
+        "25": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.t2"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.t2"
+            ],
+            "note": "Geldt uitsluitend voor centrale effectenbewaarinstellingen en centrale tegenpartijen: kwetsbaarheidsbeoordeling vóór elke (her)inzet van toepassingen, infrastructuurcomponenten en ICT-diensten die kritieke of belangrijke functies ondersteunen.",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.t1"
+            ],
+            "note": "Eigen, lichter testregime voor micro-ondernemingen (uitgezonderd van art. 24, leden 1 en 3–6): zij voeren de tests van art. 25, lid 1 uit via een risicogebaseerde aanpak gecombineerd met strategische ICT-testplanning.",
+            "reviewed": false
+          }
+        },
+        "26": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.t4"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.t4"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.t5"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.t5"
+            ],
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "stap",
+            "steps": [
+              "pe.t6"
+            ],
+            "reviewed": false
+          },
+          "lid-6": {
+            "disposition": "stap",
+            "steps": [
+              "pe.t7"
+            ],
+            "reviewed": false
+          },
+          "lid-7": {
+            "disposition": "stap",
+            "steps": [
+              "pe.t7"
+            ],
+            "reviewed": false
+          },
+          "lid-8": {
+            "disposition": "stap",
+            "steps": [
+              "pe.t4",
+              "pe.t6"
+            ],
+            "note": "Eerste en tweede alinea normeren de entiteit (testers aanstellen per art. 27, om de drie tests extern, belangrijke kredietinstellingen alleen extern); derde alinea is de aanwijzingsbevoegdheid van de bevoegde autoriteit die bepaalt wie TLPT moet verrichten.",
+            "reviewed": false
+          },
+          "lid-9": {
+            "disposition": "autoriteit",
+            "note": "Lidstaatoptie om één overheidsinstantie voor alle TLPT-aangelegenheden aan te wijzen. Bepaalt bij welk loket de entiteit terechtkan voor scopevalidatie, goedkeuring van interne testers en het attest.",
+            "reviewed": false
+          },
+          "lid-10": {
+            "disposition": "autoriteit",
+            "note": "Zonder één aangewezen TLPT-instantie kan de bevoegde autoriteit TLPT-taken delegeren aan een andere nationale autoriteit; ga daarom bij aanwijzing na welke instantie uw TLPT feitelijk begeleidt en het attest afgeeft.",
+            "reviewed": false
+          },
+          "lid-11": {
+            "disposition": "autoriteit",
+            "note": "RTS-mandaat aan de ETA's (in overeenstemming met de ECB, conform het Tiber-EU-kader) voor scope, methodologie, interne testers en samenwerking/wederzijdse erkenning; ingevuld door GV (EU) 2025/1190 (/rts-tlpt), waarop de stappen pe.t4-pe.t7 leunen; het mandaat omvat ook de criteria voor de aanwijzing van entiteiten (lid 8), naast scope, methodologie, interne testers en samenwerking/wederzijdse erkenning.",
+            "reviewed": false
+          }
+        },
+        "27": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.t6"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.t6"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.t6"
+            ],
+            "reviewed": false
+          }
+        },
+        "28": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.d1"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.d2"
+            ],
+            "note": "Carve-out: de strategie- en beleidsplicht geldt niet voor entiteiten onder het vereenvoudigde kader van art. 16, lid 1, en niet voor micro-ondernemingen. De evaluatieplicht van het leidinggevend orgaan staat in hetzelfde lid en deelt die begrenzing.",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.d3",
+              "pa.p4"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.d4",
+              "pe.d5"
+            ],
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "stap",
+            "steps": [
+              "pe.d4"
+            ],
+            "reviewed": false
+          },
+          "lid-6": {
+            "disposition": "stap",
+            "steps": [
+              "pe.d6"
+            ],
+            "reviewed": false
+          },
+          "lid-7": {
+            "disposition": "stap",
+            "steps": [
+              "pe.d7",
+              "pe.d8"
+            ],
+            "reviewed": false
+          },
+          "lid-8": {
+            "disposition": "stap",
+            "steps": [
+              "pe.d7"
+            ],
+            "reviewed": false
+          },
+          "lid-9": {
+            "disposition": "autoriteit",
+            "steps": [
+              "pe.d3"
+            ],
+            "note": "ITS-mandaat aan de ETA's voor de standaardmodellen van het informatieregister; uitgevoerd als UV (EU) 2024/2956. Bepaalt daarmee rechtstreeks het verplichte formaat en veldschema van uw register.",
+            "reviewed": false
+          },
+          "lid-10": {
+            "disposition": "autoriteit",
+            "steps": [
+              "pe.d2"
+            ],
+            "note": "RTS-mandaat aan de ETA's voor de gedetailleerde inhoud van het in lid 2 bedoelde beleid; uitgevoerd als GV (EU) 2024/1773. Uw beleid inzake KOF-ondersteunende ICT-diensten moet aan die verordening voldoen.",
+            "reviewed": false
+          }
+        },
+        "29": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.d5"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.d5"
+            ],
+            "reviewed": false
+          }
+        },
+        "30": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.d8"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.d8"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.d9"
+            ],
+            "note": "Afwijking voor micro-ondernemingen: de toegangs-, inspectie- en auditrechten van punt e) mogen worden gedelegeerd aan een door de aanbieder aangestelde onafhankelijke derde, mits de entiteit die derde te allen tijde om informatie en garanties kan verzoeken.",
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.d8"
+            ],
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "autoriteit",
+            "steps": [
+              "pe.d9"
+            ],
+            "note": "RTS-mandaat aan de ETA's tot nadere bepaling van de uitbestedingselementen van lid 2, punt a); uitgevoerd als GV (EU) 2025/532 (onderaanneming). De voorwaarden voor uitbesteding van KOF-ondersteunende ICT-diensten in uw contracten moeten daaraan voldoen.",
+            "reviewed": false
+          }
+        },
+        "31": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "note": "De ETA's wijzen via het Gemengd Comité, op aanbeveling van het oversightforum, de kritieke derde aanbieders (CTPP's) aan en stellen per CTPP een lead overseer aan; deze aanwijzing bepaalt of uw aanbieder onder het oversightkader valt.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "steps": [
+              "pa.p3"
+            ],
+            "note": "De vier aanwijzingscriteria (systemische impact, systeemrelevantie van de afnemers, afhankelijkheid bij kritieke of belangrijke functies, substitueerbaarheid); nader gespecificeerd in GV 2024/1502 (/criticaliteitscriteria) en de basis van de zelftoets in fase 1 van het aanbieder-playbook.",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "autoriteit",
+            "note": "Behoort de aanbieder tot een groep, dan worden de criteria toegepast op de ICT-diensten die de groep als geheel verleent.",
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "ctpp",
+            "note": "CTPP's die deel uitmaken van een groep wijzen één rechtspersoon aan als coördinatiepunt voor vertegenwoordiging en communicatie met de lead overseer.",
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "ctpp",
+            "steps": [
+              "pa.p5",
+              "pe.o1"
+            ],
+            "note": "Kennisgevings- en verweerprocedure bij aanwijzing: zes weken voor een met redenen omklede verklaring, waarna de lead overseer binnen 30 kalenderdagen aanvullende informatie kan vragen. De aangewezen aanbieder moet ook zijn financiële klanten informeren — voor entiteiten het signaal om de CTPP-status in het register te verwerken.",
+            "reviewed": false
+          },
+          "lid-6": {
+            "disposition": "autoriteit",
+            "note": "Delegatiegrondslag (uiterlijk 17 juli 2024) voor de nadere specificatie van de criticaliteitscriteria; ingevuld door GV 2024/1502 (/criticaliteitscriteria).",
+            "reviewed": false
+          },
+          "lid-7": {
+            "disposition": "context",
+            "note": "Overgangsvoorwaarde: de aanwijzing wordt pas gebruikt nadat de gedelegeerde handeling van lid 6 is vastgesteld — met GV 2024/1502 is aan die voorwaarde voldaan.",
+            "reviewed": false
+          },
+          "lid-8": {
+            "disposition": "toepassingsgebied",
+            "note": "Uitsluitingen van de aanwijzing: financiële entiteiten die zelf ICT-diensten aan andere financiële entiteiten leveren, aanbieders onder Eurosysteem-oversightkaders, intragroepsaanbieders en aanbieders die uitsluitend in één lidstaat aan uitsluitend daar actieve entiteiten leveren.",
+            "reviewed": false
+          },
+          "lid-9": {
+            "disposition": "autoriteit",
+            "steps": [
+              "pe.o1"
+            ],
+            "note": "De ETA's stellen jaarlijks de Uniebrede CTPP-lijst op, publiceren en actualiseren die; controleer die lijst om te weten welke van uw aanbieders onder oversight vallen.",
+            "reviewed": false
+          },
+          "lid-10": {
+            "disposition": "autoriteit",
+            "steps": [
+              "pa.p4"
+            ],
+            "note": "De criticaliteitsbeoordeling steunt op de jaarlijks geaggregeerde registerrapportages van art. 28, lid 3 — registerdata van entiteiten (en de aanlevering daarvan door aanbieders) voeden dus rechtstreeks de aanwijzing.",
+            "reviewed": false
+          },
+          "lid-11": {
+            "disposition": "ctpp",
+            "note": "Niet op de lijst opgenomen aanbieders kunnen vrijwillig om aanwijzing als cruciaal verzoeken; het besluit volgt binnen zes maanden. De bij zo'n verzoek te verstrekken informatie is genormeerd op grond van art. 41, lid 1, punt a) (/rts-oversight).",
+            "reviewed": false
+          },
+          "lid-12": {
+            "disposition": "stap",
+            "steps": [
+              "pe.o1"
+            ],
+            "reviewed": false
+          },
+          "lid-13": {
+            "disposition": "ctpp",
+            "note": "De in lid 12 bedoelde derde-landen-CTPP meldt alle wijzigingen in de beheersstructuur van de EU-dochteronderneming aan de lead overseer.",
+            "reviewed": false
+          }
+        },
+        "32": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "note": "Het oversightforum — subcomité van het Gemengd Comité — ondersteunt het Gemengd Comité en de lead overseers en bevordert een consistente monitoring van het ICT-risico van derde aanbieders op Unieniveau.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "note": "Jaarlijkse collectieve beoordeling van alle oversightresultaten plus coördinatie rond concentratierisico en sectoroverschrijdende risico-overdrachten — de uitkomsten kleuren de toezichtverwachtingen richting entiteiten.",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "autoriteit",
+            "note": "Het forum dient alomvattende benchmarks voor CTPP's in, die het Gemengd Comité als gemeenschappelijke ETA-standpunten vaststelt; een nuttige maatstaf bij de beoordeling van uw kritieke aanbieders.",
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "autoriteit",
+            "note": "Samenstelling van het oversightforum: ETA-voorzitters, één vertegenwoordiger op hoog niveau per lidstaat, en als waarnemers de uitvoerend directeuren van de ETA's, Commissie, ESRB, ECB, Enisa, waar passend een extra bevoegde-autoriteitsvertegenwoordiger per lidstaat en de NIS2-toezichthouder; het forum kan daarnaast advies inwinnen van onafhankelijke deskundigen (lid 6).",
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "autoriteit",
+            "note": "Elke lidstaat wijst de bevoegde autoriteit aan die de vertegenwoordiger op hoog niveau levert; de ETA's publiceren de lijst van vertegenwoordigers op hun website.",
+            "reviewed": false
+          },
+          "lid-6": {
+            "disposition": "autoriteit",
+            "note": "Aanstellingsprocedure en onafhankelijkheidseisen voor de onafhankelijke deskundigen van het oversightforum.",
+            "reviewed": false
+          },
+          "lid-7": {
+            "disposition": "autoriteit",
+            "note": "Richtsnoerenmandaat (uiterlijk 17 juli 2024) over de samenwerking en taakverdeling tussen ETA's en bevoegde autoriteiten en over de informatie-uitwisseling voor de follow-up van aanbevelingen aan CTPP's.",
+            "reviewed": false
+          },
+          "lid-8": {
+            "disposition": "context",
+            "note": "Het oversightkader laat Richtlijn (EU) 2022/2555 (NIS2) en andere Unieregels voor toezicht op cloudaanbieders onverlet — parallelle kaders kunnen naast elkaar gelden.",
+            "reviewed": false
+          },
+          "lid-9": {
+            "disposition": "autoriteit",
+            "note": "Jaarlijkse rapportage van de ETA's aan Parlement, Raad en Commissie over de toepassing van deze afdeling.",
+            "reviewed": false
+          }
+        },
+        "33": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "note": "De lead overseer voert het oversight over de aangewezen CTPP's uit en is voor hen het eerste contactpunt voor alle oversightaangelegenheden.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "note": "De lead overseer beoordeelt of elke CTPP deugdelijke regels en regelingen heeft voor het ICT-risico dat hij voor financiële entiteiten kan vormen, primair gericht op diensten die kritieke of belangrijke functies ondersteunen.",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "autoriteit",
+            "note": "De negen beoordelingsgebieden — van ICT-voorschriften, fysieke beveiliging en governance tot incidentrapportage, overdraagbaarheids-/exitmechanismen, testen, audits en normengebruik — tevens het referentiekader voor de aanbevelingen van art. 35, lid 1, punt d).",
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "ctpp",
+            "note": "Jaarlijks individueel oversightplan per CTPP; de aanbieder ontvangt het ontwerp vooraf en kan binnen 15 kalenderdagen een met redenen omklede verklaring indienen over gevolgen voor klanten buiten het toepassingsgebied van DORA.",
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "autoriteit",
+            "note": "Na vaststelling en mededeling van het oversightplan nemen bevoegde autoriteiten maatregelen jegens de CTPP alleen in overeenstemming met de lead overseer.",
+            "reviewed": false
+          }
+        },
+        "34": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "note": "De drie lead overseers zetten het gezamenlijk oversightnetwerk (JON) op voor onderling overleg en coördinatie van oversightactiviteiten en van maatregelen uit hoofde van art. 42.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "note": "Gemeenschappelijk oversightprotocol met gedetailleerde procedures voor dagelijkse coördinatie; wordt op gezette tijden herzien.",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "autoriteit",
+            "note": "De lead overseers kunnen ad hoc de ECB en Enisa inschakelen voor technisch advies, praktijkervaring of deelname aan JON-coördinatievergaderingen.",
+            "reviewed": false
+          }
+        },
+        "35": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "note": "Kernbevoegdheden van de lead overseer: informatie opvragen (art. 37), onderzoeken en inspecties (art. 38-39), opvolgverslagen eisen en aanbevelingen uitvaardigen — tot en met het aanbevelen bepaalde onderaannemingen in derde landen stop te zetten; rapportageformats via art. 41, lid 1, punt b) (/rts-oversight).",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "note": "Waarborgen bij de bevoegdheidsuitoefening: coördinatie binnen het JON, rekening houden met het NIS2-kader en zo min mogelijk verstoring voor klanten die buiten het toepassingsgebied van DORA vallen.",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "autoriteit",
+            "note": "De lead overseer overlegt vooraf met het oversightforum; vóór aanbevelingen krijgt de aanbieder 30 kalenderdagen om gevolgen voor niet-DORA-klanten en mitigerende oplossingen aan te dragen.",
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "autoriteit",
+            "note": "Resultaten van informatieverzoeken en onderzoeken/inspecties gaan naar het JON; de opvolgverslagen van lid 1, punt c), gaan bovendien onverwijld naar de bevoegde autoriteiten van de afnemende financiële entiteiten — via die weg bereiken oversightsignalen ook uw toezichthouder.",
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "ctpp",
+            "note": "Algemene samenwerkingsplicht: CTPP's werken te goeder trouw met de lead overseer samen en ondersteunen hem bij zijn taken.",
+            "reviewed": false
+          },
+          "lid-6": {
+            "disposition": "ctpp",
+            "note": "Dwangsombesluit bij gehele of gedeeltelijke niet-naleving van maatregelen uit hoofde van lid 1, punten a), b) en c), na ten minste 30 kalenderdagen sinds de kennisgeving van die maatregelen.",
+            "reviewed": false
+          },
+          "lid-7": {
+            "disposition": "ctpp",
+            "note": "De dwangsom wordt dagelijks opgelegd tot aan de verplichtingen is voldaan, gedurende maximaal zes maanden na kennisgeving van het dwangsombesluit.",
+            "reviewed": false
+          },
+          "lid-8": {
+            "disposition": "ctpp",
+            "note": "Maximaal 1 % van de wereldwijde gemiddelde dagomzet van het voorafgaande boekjaar per dag; ernst en duur, opzet of onachtzaamheid en de mate van medewerking wegen mee, met JON-overleg voor consistentie.",
+            "reviewed": false
+          },
+          "lid-9": {
+            "disposition": "context",
+            "note": "Dwangsommen zijn administratief en afdwingbaar via het burgerlijk procesrecht van de betrokken lidstaat; de opbrengsten gaan naar de algemene EU-begroting.",
+            "reviewed": false
+          },
+          "lid-10": {
+            "disposition": "autoriteit",
+            "note": "Opgelegde dwangsommen worden in beginsel openbaar gemaakt — een publiek signaal over de nalevingsstatus van uw kritieke aanbieder.",
+            "reviewed": false
+          },
+          "lid-11": {
+            "disposition": "ctpp",
+            "note": "Hoorplicht en rechten van verdediging van de CTPP vóór oplegging van een dwangsom, inclusief toegang tot het dossier (met uitzondering van vertrouwelijke informatie en interne voorbereidende documenten).",
+            "reviewed": false
+          }
+        },
+        "36": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "note": "Voorwaarden waaronder de lead overseer bevoegdheden in derde landen kan uitoefenen: noodzaak, rechtstreeks verband met dienstverlening aan financiële entiteiten in de Unie, instemming van de CTPP en geen bezwaar van de derdelandsautoriteit.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "note": "De ETA's sluiten administratieve samenwerkingsregelingen met derdelandsautoriteiten om inspecties ter plaatse vlot te laten verlopen; deze scheppen geen wettelijke verplichtingen voor de Unie of de lidstaten.",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "autoriteit",
+            "note": "Kan de lead overseer buiten de Unie niet optreden, dan oefent hij zijn bevoegdheden uit op basis van de beschikbare feiten en documenteert hij de gevolgen; die gevolgen wegen door in zijn aanbevelingen.",
+            "reviewed": false
+          }
+        },
+        "37": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "note": "De lead overseer kan per eenvoudig verzoek of per bindend besluit alle benodigde informatie opvragen, tot en met contracten, beleidsdocumentatie, auditverslagen, incidentverslagen en informatie over de uitbestedingsketen.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "note": "Vormvereisten van het eenvoudige informatieverzoek; medewerking is dan vrijwillig, maar wie ingaat op het verzoek mag geen onjuiste of misleidende informatie verstrekken.",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "autoriteit",
+            "note": "Vormvereisten van het informatiebesluit, inclusief de dwangsom van art. 35, lid 6, en de rechtsmiddelen bij de bezwaarcommissie van de ETA's en het Hof van Justitie.",
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "ctpp",
+            "note": "Verstrekkingsplicht van de vertegenwoordigers (eventueel via gemachtigde advocaten); de CTPP blijft volledig verantwoordelijk voor onvolledige, onjuiste of misleidende informatie.",
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "autoriteit",
+            "note": "Een afschrift van het informatiebesluit gaat onverwijld naar het JON en naar de bevoegde autoriteiten van de financiële entiteiten die de diensten van de CTPP afnemen.",
+            "reviewed": false
+          }
+        },
+        "38": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "note": "Bevoegdheid tot algemene onderzoeken bij CTPP's, ondersteund door het gezamenlijk onderzoeksteam van art. 40 (samenstelling: GV 2025/420, /rts-onderzoeksteams).",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "note": "Onderzoeksbevoegdheden: inzage in en kopieën van registers, data en procedures; oproepen van vertegenwoordigers voor toelichting; horen van instemmende derden; opvragen van overzichten van telefoon- en dataverkeer.",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "autoriteit",
+            "note": "Onderzoekers werken op basis van een schriftelijke machtiging met onderwerp en doel, die ook de mogelijke dwangsommen van art. 35, lid 6, vermeldt.",
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "ctpp",
+            "note": "Bij besluit gelaste onderzoeken zijn verplicht; het besluit vermeldt onderwerp, doel, dwangsommen, rechtsmiddelen en het beroepsrecht bij het Hof van Justitie.",
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "autoriteit",
+            "note": "De bevoegde organen van de financiële entiteiten die de ICT-diensten afnemen worden geruime tijd vóór het onderzoek geïnformeerd — verwacht dus voorafgaande kennisgevingen bij onderzoeken naar uw kritieke aanbieder.",
+            "reviewed": false
+          }
+        },
+        "39": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "note": "Bevoegdheid tot inspecties ter plaatse (en off-site) in alle bedrijfsruimten, terreinen en eigendommen van de aanbieder, ondersteund door het gezamenlijk onderzoeksteam en na raadpleging van het JON.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "note": "Toegangs- en verzegelingsbevoegdheden van de gemachtigde functionarissen, uit te oefenen op basis van een schriftelijke machtiging die ook de dwangsommen van art. 35, lid 6, vermeldt.",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "autoriteit",
+            "note": "De bevoegde autoriteiten van de betrokken financiële entiteit worden geruime tijd vóór de start van de inspectie geïnformeerd.",
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "autoriteit",
+            "note": "De inspectie mag zich uitstrekken tot alle ICT-systemen, -netwerken, -apparatuur, -informatie en -data die worden gebruikt voor of bijdragen aan de dienstverlening aan financiële entiteiten.",
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "autoriteit",
+            "note": "Voorafgaande kennisgeving van de inspectie aan de CTPP met een redelijke termijn, tenzij een nood- of crisissituatie dat belet of de kennisgeving de inspectie ondoeltreffend zou maken.",
+            "reviewed": false
+          },
+          "lid-6": {
+            "disposition": "ctpp",
+            "note": "De CTPP moet zich onderwerpen aan bij besluit gelaste inspecties ter plaatse; het besluit vermeldt onderwerp, doel, aanvangsdatum, dwangsommen en rechtsmiddelen.",
+            "reviewed": false
+          },
+          "lid-7": {
+            "disposition": "ctpp",
+            "steps": [
+              "pe.o3"
+            ],
+            "note": "Verzet van de aanbieder tegen een gelaste inspectie kan er uiteindelijk toe leiden dat uw bevoegde autoriteit u verplicht de contracten met die aanbieder te beëindigen — een scenario om in uw exitstrategie mee te nemen.",
+            "reviewed": false
+          }
+        },
+        "40": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "note": "Voor iedere oversightactiviteit bij een CTPP wordt een gezamenlijk onderzoeksteam opgericht dat de lead overseer bijstaat.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "note": "Samenstelling van het team (ETA's, bevoegde autoriteiten van de afnemende entiteiten, vrijwillig de NIS2- en vestigingsstaat-autoriteit) onder een coördinator van de lead overseer; criteria en werkafspraken zijn uitgewerkt in GV 2025/420 (/rts-onderzoeksteams).",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "autoriteit",
+            "note": "Binnen drie maanden na voltooiing van een onderzoek of inspectie doet de lead overseer, na raadpleging van het oversightforum, aanbevelingen aan de CTPP.",
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "autoriteit",
+            "note": "De CTPP én de bevoegde autoriteiten van de betrokken entiteiten worden onverwijld over die aanbevelingen geïnformeerd; de lead overseer mag door de CTPP aangeleverde certificeringen en interne of externe ICT-auditverslagen meewegen.",
+            "reviewed": false
+          }
+        },
+        "41": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "note": "RTS-mandaat over de oversightuitvoering: informatie bij vrijwillige aanwijzingsverzoeken, rapportageformats van art. 35, lid 1 (inclusief het model voor onderaannemingsinformatie) en de beoordeling van CTPP-maatregelen door bevoegde autoriteiten — uitgewerkt in GV 2025/295 (/rts-oversight); de samenstelling van het gezamenlijk onderzoeksteam in GV 2025/420 (/rts-onderzoeksteams).",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "note": "Indieningstermijn (17 juli 2024) en delegatie aan de Commissie om de normen vast te stellen; beide handelingen zijn inmiddels vastgesteld.",
+            "reviewed": false
+          }
+        },
+        "42": {
+          "lid-1": {
+            "disposition": "ctpp",
+            "note": "De CTPP meldt binnen 60 kalenderdagen na ontvangst van aanbevelingen of hij ze opvolgt, of motiveert waarom niet; de lead overseer stelt de bevoegde autoriteiten van de betrokken entiteiten daarvan onverwijld in kennis.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "steps": [
+              "pe.o2"
+            ],
+            "note": "Naming-and-shaming: blijft de melding uit of is de motivering ontoereikend, dan maakt de lead overseer dit openbaar, inclusief de identiteit van de CTPP en de aard van de niet-naleving — een openbaar signaal om in uw TPRM te verwerken.",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.o2"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "autoriteit",
+            "steps": [
+              "pe.o3"
+            ],
+            "note": "Waarschuwingsmechanisme: weegt u de geconstateerde risico's onvoldoende mee of verhelpt u ze onvoldoende, dan kondigt uw autoriteit aan dat binnen 60 kalenderdagen na die kennisgeving een opschortings- of beëindigingsbesluit (lid 6) kan volgen als passende contractuele afspraken uitblijven.",
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "autoriteit",
+            "note": "Facultatieve raadpleging van de NIS2-autoriteiten die toezien op een als CTPP aangewezen essentiële of belangrijke entiteit, voordat een besluit als bedoeld in lid 6 wordt genomen.",
+            "reviewed": false
+          },
+          "lid-6": {
+            "disposition": "autoriteit",
+            "steps": [
+              "pe.o3"
+            ],
+            "note": "Ultimum remedium: de bevoegde autoriteit kan u verplichten het gebruik van de dienst van een niet-conforme CTPP geheel of gedeeltelijk tijdelijk te staken totdat de risico's zijn verholpen, of zo nodig de contracten geheel of gedeeltelijk te beëindigen (besluit overeenkomstig art. 50).",
+            "reviewed": false
+          },
+          "lid-7": {
+            "disposition": "autoriteit",
+            "note": "Kiest de CTPP een afwijkende aanpak met mogelijke gevolgen voor veel entiteiten of een aanzienlijk deel van de sector, dan kan de lead overseer niet-bindende en niet-openbare adviezen aan de bevoegde autoriteiten uitbrengen voor consistente vervolgmaatregelen; vereist is ook dat afzonderlijke waarschuwingen van bevoegde autoriteiten niet tot een consistente aanpak hebben geleid, en de lead overseer raadpleegt eerst het oversightforum.",
+            "reviewed": false
+          },
+          "lid-8": {
+            "disposition": "autoriteit",
+            "steps": [
+              "pe.o3"
+            ],
+            "note": "Criteria voor het opschortings-/beëindigingsbesluit — waaronder het continuïteitsrisico voor de entiteit zelf; de autoriteit gunt u de nodige tijd om contracten aan te passen en uw exitstrategieën en transitieplannen (art. 28) in te zetten.",
+            "reviewed": false
+          },
+          "lid-9": {
+            "disposition": "ctpp",
+            "steps": [
+              "pe.o3"
+            ],
+            "note": "Het besluit wordt gemeld aan de in art. 32, lid 4, punten a) tot en met c), bedoelde oversightforum-leden en aan het JON; de getroffen CTPP moet volledig met de getroffen financiële entiteiten samenwerken, met name bij het tijdelijk staken of beëindigen van de contracten.",
+            "reviewed": false
+          },
+          "lid-10": {
+            "disposition": "autoriteit",
+            "note": "Bevoegde autoriteiten informeren de lead overseer periodiek over hun aanpak en over de contracten van entiteiten met CTPP's die aanbevelingen niet of slechts gedeeltelijk hebben opgevolgd.",
+            "reviewed": false
+          },
+          "lid-11": {
+            "disposition": "autoriteit",
+            "note": "De lead overseer kan bevoegde autoriteiten op verzoek nadere toelichting geven op zijn aanbevelingen, ter ondersteuning van hun vervolgmaatregelen.",
+            "reviewed": false
+          }
+        },
+        "43": {
+          "lid-1": {
+            "disposition": "ctpp",
+            "note": "De lead overseer brengt CTPP's vergoedingen in rekening die zijn oversightuitgaven (inclusief onderzoeksteam en onafhankelijke deskundigen) volledig dekken en die evenredig zijn aan de omzet van de aanbieder; bedragen en betaalwijze staan in GV 2024/1505 (/oversightvergoedingen).",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "note": "Delegatiegrondslag voor de vaststelling van het bedrag en de betaalwijze van de vergoedingen; ingevuld door GV 2024/1505 (/oversightvergoedingen).",
+            "reviewed": false
+          }
+        },
+        "44": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "note": "De ETA's kunnen administratieve overeenkomsten sluiten met regelgevende en toezichthoudende autoriteiten van derde landen om internationale samenwerking rond ICT-risico van derde aanbieders te bevorderen.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "note": "Vijfjaarlijks gezamenlijk vertrouwelijk verslag aan Parlement, Raad en Commissie over de besprekingen met derdelandsautoriteiten en de evolutie van ICT-derdenrisico's.",
+            "reviewed": false
+          }
+        },
+        "45": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.u1"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.u1"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.u2"
+            ],
+            "reviewed": false
+          }
+        },
+        "46": {
+          "inhoud": {
+            "disposition": "autoriteit",
+            "note": "Wijst per categorie financiële entiteiten de bevoegde autoriteit aan die de DORA-naleving verzekert. Voor Nederlandse entiteiten is dat afhankelijk van het entiteitstype DNB of de AFM (bijv. banken en verzekeraars bij DNB, beleggingsondernemingen en beheerders bij de AFM); significante kredietinstellingen vallen onder de ECB.",
+            "reviewed": false
+          }
+        },
+        "47": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "note": "De bevoegde autoriteiten kunnen deelnemen aan de NIS2-samenwerkingsgroep voor aangelegenheden die hun toezicht op financiële entiteiten betreffen, en kunnen verzoeken te worden uitgenodigd voor aangelegenheden over NIS2-entiteiten die tevens als CTPP zijn aangewezen.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "note": "Uw toezichthouder kan de centrale NIS2-contactpunten en CSIRT's (in Nederland het NCSC) raadplegen en informatie met hen uitwisselen; incidentinformatie kan dus ook buiten de financiële toezichtketen worden gedeeld.",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "autoriteit",
+            "note": "Toezichthouders kunnen technisch advies en bijstand inwinnen bij NIS2-autoriteiten en samenwerkingsregelingen treffen voor een gecoördineerde snelle respons; dit kan de respons rond ernstige incidenten die uw entiteit raken versnellen.",
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "autoriteit",
+            "note": "Die samenwerkingsregelingen kunnen coördinatie van het oversight op CTPP's die ook NIS2-entiteit zijn omvatten, plus procedures voor onderzoeken, inspecties ter plaatse en informatie-uitwisseling; voor uw kritieke aanbieders betekent dit gecoördineerde in plaats van dubbele controles.",
+            "reviewed": false
+          }
+        },
+        "48": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "note": "Verplicht bevoegde autoriteiten nauw samen te werken met elkaar en met de lead overseer; verklaart waarom informatie die u aan één autoriteit verstrekt ook bij andere autoriteiten kan belanden.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "note": "Autoriteiten en de lead overseer wisselen tijdig alle relevante informatie over kritieke derde aanbieders uit; oversightbevindingen over een CTPP die u gebruikt kunnen zo bij uw eigen toezichthouder terechtkomen en tot vragen over uw ICT-derdenrisicobeheer leiden.",
+            "reviewed": false
+          }
+        },
+        "49": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "note": "De ETA's kunnen via het Gemengd Comité crisis- en noodoefeningen met cyberaanvalsscenario's ontwikkelen, waarbij zo nodig ook wordt getest in welke mate de financiële sector van andere economische sectoren afhankelijk is — context naast uw eigen testprogramma van hoofdstuk IV.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "note": "Basis voor nauwe samenwerking en gecoördineerd toezicht van autoriteiten, ETA's en ECB bij de artikelen 47 tot en met 54; consistente interpretatie tussen autoriteiten beperkt uiteenlopende eisen voor grensoverschrijdend actieve groepen.",
+            "reviewed": false
+          }
+        },
+        "50": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "note": "Geeft de toezichthouder alle toezichts-, onderzoeks- en sanctiebevoegdheden die voor DORA nodig zijn; tekortkomingen kunnen dus rechtstreeks bestuursrechtelijk worden gehandhaafd.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "note": "Minimumbevoegdheden: toegang tot en kopieën van al uw documenten en gegevens, inspecties en onderzoeken ter plaatse (inclusief het oproepen en horen van vertegenwoordigers) en het eisen van corrigerende maatregelen. Houd uw DORA-documentatie daarom opvraagbaar en actueel.",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "autoriteit",
+            "note": "Lidstaten moeten doeltreffende, evenredige en afschrikkende administratieve sancties en corrigerende maatregelen invoeren; het concrete sanctieregime waaraan u bent onderworpen volgt uit die nationale uitwerking.",
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "autoriteit",
+            "note": "Minimumpalet aan maatregelen tegen natuurlijke of rechtspersonen: gelasten de inbreuk te staken en niet te herhalen, tijdelijk of definitief stopzetten van praktijken, iedere soort (ook geldelijke) maatregel om naleving te verzekeren, het — voor zover nationaal recht dit toestaat en bij redelijk vermoeden van inbreuk — opvragen van bestaande dataverkeersoverzichten bij telecomexploitanten, en openbare mededelingen waarin overtreder en aard van de inbreuk worden genoemd.",
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "autoriteit",
+            "note": "Sancties en corrigerende maatregelen kunnen ook persoonlijk worden opgelegd aan leden van het leidinggevend orgaan en andere krachtens nationaal recht verantwoordelijke personen; onderstreept het belang van aantoonbare bestuurlijke betrokkenheid (artikel 5).",
+            "reviewed": false
+          },
+          "lid-6": {
+            "disposition": "autoriteit",
+            "note": "Besluiten tot de in lid 2, punt c), bedoelde strafmaatregelen of corrigerende maatregelen moeten naar behoren gemotiveerd zijn en zijn vatbaar voor beroep — tegen zulke maatregelen staat dus een rechtsgang open.",
+            "reviewed": false
+          }
+        },
+        "51": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "note": "Bepaalt hoe autoriteiten hun sanctiebevoegdheid conform nationaal recht uitoefenen: rechtstreeks, in samenwerking met andere autoriteiten, via delegatie of via de rechter.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "note": "Somt de factoren op die type en omvang van een sanctie bepalen: opzet of nalatigheid, ernst en duur, verantwoordelijkheid, financiële draagkracht, behaald voordeel, schade voor derden, mate van medewerking en eerdere inbreuken. Aantoonbare medewerking en een schoon track record wegen dus in uw voordeel mee.",
+            "reviewed": false
+          }
+        },
+        "52": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "note": "Lidstaten mogen voor inbreuken waarop nationaal strafrecht staat afzien van administratieve sancties; handhaving kan dan via het strafrecht lopen.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "note": "Regelt de informatie-uitwisseling tussen toezichthouders en gerechtelijke en vervolgingsautoriteiten; informatie uit een strafrechtelijk onderzoek naar uw entiteit kan zo ook bij de ETA's en andere toezichthouders terechtkomen.",
+            "reviewed": false
+          }
+        },
+        "53": {
+          "inhoud": {
+            "disposition": "autoriteit",
+            "note": "Kennisgevingsplicht voor lidstaten, niet voor entiteiten: zij melden uiterlijk 17 januari 2025 hun wettelijke en bestuursrechtelijke bepalingen ter uitvoering van hoofdstuk VII (sancties en toezicht), inclusief eventuele strafrechtelijke bepalingen aan de Commissie en de ETA's, en daarna onverwijld elke wijziging. De gemelde nationale bepalingen bepalen wel het handhavingsregime waaraan u onderworpen bent.",
+            "reviewed": false
+          }
+        },
+        "54": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "note": "Niet voor beroep vatbare sanctiebesluiten worden onverwijld op de officiële website van de toezichthouder gepubliceerd nadat de betrokkene is geïnformeerd; een DORA-sanctie is daarmee in beginsel openbaar en vormt een reëel reputatierisico.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "note": "De bekendmaking vermeldt het type en de aard van de inbreuk, de identiteit van de verantwoordelijke (rechts)persoon en de getroffen strafmaatregelen.",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "autoriteit",
+            "note": "Bij onevenredige effecten (gegevensbescherming, marktstabiliteit, lopend onderzoek of onevenredige schade) kan de autoriteit de bekendmaking uitstellen, anonimiseren of achterwege laten; op deze gronden kunt u in de besluitvormingsfase gemotiveerd een beroep doen.",
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "autoriteit",
+            "note": "Bij geanonimiseerde bekendmaking kan de publicatie van de betrokken gegevens worden uitgesteld.",
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "autoriteit",
+            "note": "Ook besluiten waartegen nog beroep openstaat worden gepubliceerd, met later de uitkomst van het beroep; rechterlijke vernietiging van het sanctiebesluit wordt eveneens bekendgemaakt.",
+            "reviewed": false
+          },
+          "lid-6": {
+            "disposition": "autoriteit",
+            "note": "Publicaties blijven niet langer dan vijf jaar vanaf de bekendmaking op de website van de autoriteit staan.",
+            "reviewed": false
+          }
+        },
+        "55": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "note": "Alle vertrouwelijke informatie die onder DORA wordt ontvangen, uitgewisseld of doorgegeven valt onder het beroepsgeheim; een waarborg voor de bedrijfsgevoelige informatie die u aan toezichthouders verstrekt.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "note": "Het beroepsgeheim geldt voor iedereen die bij de bevoegde autoriteiten werkt of heeft gewerkt, en ook voor partijen aan wie bevoegdheden zijn gedelegeerd, inclusief aangestelde accountants en deskundigen.",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "autoriteit",
+            "note": "Onder het beroepsgeheim vallende informatie — ook die uit uitwisseling met NIS2-autoriteiten — mag alleen aan anderen worden verstrekt op grond van Unierechtelijke of nationaalrechtelijke bepalingen.",
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "autoriteit",
+            "note": "Tussen autoriteiten uitgewisselde informatie over uw exploitatie- of bedrijfsomstandigheden is in beginsel vertrouwelijk, tenzij de verstrekkende autoriteit bekendmaking toestaat of die nodig is voor gerechtelijke procedures.",
+            "reviewed": false
+          }
+        },
+        "56": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "note": "ETA's en bevoegde autoriteiten mogen persoonsgegevens alleen verwerken voor hun DORA-taken (onderzoek, inspectie, informatieverzoeken, bekendmaking, oversightplannen), conform de AVG respectievelijk Verordening (EU) 2018/1725.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "note": "Persoonsgegevens die autoriteiten in dat kader verwerken worden maximaal 15 jaar bewaard, behalve bij lopende gerechtelijke procedures die langere bewaring vereisen.",
+            "reviewed": false
+          }
+        },
+        "57": {
+          "lid-1": {
+            "disposition": "slotbepaling",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "slotbepaling",
+            "note": "De delegatie aan de Commissie (criticaliteitscriteria, artikel 31, lid 6, en oversightvergoedingen, artikel 43, lid 2) geldt voor vijf jaar vanaf 17 januari 2024 en wordt stilzwijgend verlengd.",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "slotbepaling",
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "slotbepaling",
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "slotbepaling",
+            "reviewed": false
+          },
+          "lid-6": {
+            "disposition": "slotbepaling",
+            "reviewed": false
+          }
+        },
+        "58": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "note": "Vanaf 17 januari 2028 evalueert de Commissie onder meer de CTPP-aanwijzingscriteria, het vrijwillige karakter van het melden van significante cyberdreigingen (artikel 19) en het oversight op aanbieders uit derde landen — mogelijke aanloop naar een DORA-herziening die uw verplichtingen wijzigt.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "note": "Koppelt aan de PSD2-herziening de vraag of exploitanten van betalingssystemen en betalingsverwerkers alsnog onder DORA moeten vallen; relevant voor entiteiten in de betaalketen.",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "autoriteit",
+            "note": "Uiterlijk 17 januari 2026 rapporteert de Commissie of wettelijke auditors en auditkantoren onder DORA of via wijziging van de auditrichtlijn (2006/43/EG) aan weerbaarheidseisen moeten voldoen.",
+            "reviewed": false
+          }
+        },
+        "59": {
+          "inhoud": {
+            "disposition": "context",
+            "note": "Wijzigt de ratingbureausverordening (VO (EG) nr. 1060/2009): de organisatorische eisen en het bijbehorende inbreukenkader voor het ICT-beheer van kredietbeoordelingsbureaus verwijzen voortaan naar DORA, zodat geen dubbele of tegenstrijdige ICT-eisen gelden.",
+            "reviewed": false
+          }
+        },
+        "60": {
+          "inhoud": {
+            "disposition": "context",
+            "note": "Wijzigt EMIR (VO (EU) nr. 648/2012): de eisen aan ICT-systemen, bedrijfscontinuïteit en noodherstel van CTP's en transactieregisters (en de bijbehorende inbreukbepalingen) verwijzen voor het ICT-deel voortaan naar DORA; relevant voor deze marktinfrastructuren en hun deelnemers.",
+            "reviewed": false
+          }
+        },
+        "61": {
+          "inhoud": {
+            "disposition": "context",
+            "note": "Wijzigt de CSD-verordening (VO (EU) nr. 909/2014): het operationeelrisicobeheer en de continuïteits- en herstelplannen van centrale effectenbewaarinstellingen volgen voor ICT voortaan DORA, inclusief herstel van kritieke IT-systemen conform artikel 12, leden 5 en 7, DORA.",
+            "reviewed": false
+          }
+        },
+        "62": {
+          "inhoud": {
+            "disposition": "context",
+            "note": "Wijzigt MiFIR (VO (EU) nr. 600/2014): aanbieders van datarapporteringsdiensten (APA's, CTP's en ARM's) moeten voor de beveiliging van hun netwerk- en informatiesystemen voortaan aan DORA voldoen.",
+            "reviewed": false
+          }
+        },
+        "63": {
+          "inhoud": {
+            "disposition": "context",
+            "note": "Wijzigt de benchmarkverordening (VO (EU) 2016/1011): beheerders van kritieke benchmarks moeten hun ICT-systemen beheren in overeenstemming met DORA.",
+            "reviewed": false
+          }
+        },
+        "64": {
+          "inhoud": {
+            "disposition": "slotbepaling",
+            "note": "DORA is van toepassing met ingang van 17 januari 2025 (in werking getreden op de twintigste dag na bekendmaking); de nalevingsplicht loopt dus al en er geldt geen resterende overgangstermijn.",
+            "reviewed": false
+          }
+        }
+      },
+      "bijlagen": {}
+    },
+    "its": {
+      "artikelen": {},
+      "bijlagen": {}
+    },
+    "rts": {
+      "artikelen": {},
+      "bijlagen": {}
+    },
+    "risicobeheer": {
+      "artikelen": {},
+      "bijlagen": {}
+    },
+    "classificatie": {
+      "artikelen": {},
+      "bijlagen": {}
+    },
+    "rapportage": {
+      "artikelen": {},
+      "bijlagen": {}
+    },
+    "formulieren": {
+      "artikelen": {},
+      "bijlagen": {}
+    },
+    "tlpt": {
+      "artikelen": {},
+      "bijlagen": {}
+    },
+    "contractbeleid": {
+      "artikelen": {},
+      "bijlagen": {}
+    },
     "criticaliteit": {
       "artikelen": {
         "1": {
           "lid-1": {
             "disposition": "stap",
-            "steps": ["pa.p2", "pa.p3"],
+            "steps": [
+              "pa.p2",
+              "pa.p3"
+            ],
             "note": "Twee-stapsbenadering: eerst de kwantitatieve stap 1-subcriteria, daarna de kwalitatieve stap 2-beoordeling. Afwijking voor criterium c): stap 1 bestaat daar uit de beoordeling van de criteria a), b) en d) — subcriterium 3.1 kent geen eigen stap 1-drempel.",
             "reviewed": false
           },
           "lid-2": {
             "disposition": "autoriteit",
-            "steps": ["pa.p5"],
+            "steps": [
+              "pa.p5"
+            ],
             "note": "De ETA's wijzen via het Gemengd Comité, op aanbeveling van het toezichtforum en na afloop van de termijn voor een met redenen omklede verklaring (art. 31, lid 5 DORA), een aanbieder als kritiek aan. Bepaalt wanneer de aanwijzing formeel valt en binnen welk venster de aanbieder kan reageren.",
             "reviewed": false
           }
         },
         "2": {
-          "lid-1": { "disposition": "stap", "steps": ["pa.p1", "pa.p2"], "reviewed": false },
-          "lid-2": { "disposition": "stap", "steps": ["pa.p2"], "reviewed": false },
-          "lid-3": { "disposition": "stap", "steps": ["pa.p2"], "reviewed": false },
-          "lid-4": { "disposition": "stap", "steps": ["pa.p2"], "reviewed": false },
-          "lid-5": { "disposition": "stap", "steps": ["pa.p3"], "reviewed": false }
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pa.p1",
+              "pa.p2"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pa.p2"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pa.p2"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pa.p2"
+            ],
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "stap",
+            "steps": [
+              "pa.p3"
+            ],
+            "reviewed": false
+          }
         },
         "3": {
-          "lid-1": { "disposition": "stap", "steps": ["pa.p1", "pa.p2"], "reviewed": false },
-          "lid-2": { "disposition": "stap", "steps": ["pa.p2"], "reviewed": false },
-          "lid-3": { "disposition": "stap", "steps": ["pa.p2"], "reviewed": false },
-          "lid-4": { "disposition": "stap", "steps": ["pa.p3"], "reviewed": false }
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pa.p1",
+              "pa.p2"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pa.p2"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pa.p2"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pa.p3"
+            ],
+            "reviewed": false
+          }
         },
         "4": {
-          "inhoud": { "disposition": "stap", "steps": ["pa.p3"], "reviewed": false }
+          "inhoud": {
+            "disposition": "stap",
+            "steps": [
+              "pa.p3"
+            ],
+            "reviewed": false
+          }
         },
         "5": {
-          "lid-1": { "disposition": "stap", "steps": ["pa.p1", "pa.p2"], "reviewed": false },
-          "lid-2": { "disposition": "stap", "steps": ["pa.p2"], "reviewed": false },
-          "lid-3": { "disposition": "stap", "steps": ["pa.p2"], "reviewed": false },
-          "lid-4": { "disposition": "stap", "steps": ["pa.p2"], "reviewed": false },
-          "lid-5": { "disposition": "stap", "steps": ["pa.p3"], "reviewed": false }
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pa.p1",
+              "pa.p2"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pa.p2"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pa.p2"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pa.p2"
+            ],
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "stap",
+            "steps": [
+              "pa.p3"
+            ],
+            "reviewed": false
+          }
         },
         "6": {
           "lid-1": {
             "disposition": "autoriteit",
-            "steps": ["pa.p4"],
+            "steps": [
+              "pa.p4"
+            ],
             "note": "De ETA's beoordelen het kritieke karakter op basis van de informatieregisters (art. 28, lid 3 DORA) van uw klanten, aangevuld met andere beschikbare gegevens; de kwaliteit van die registerdata bepaalt dus mede uw beoordeling.",
             "reviewed": false
           },
           "lid-2": {
             "disposition": "autoriteit",
-            "steps": ["pa.p4"],
+            "steps": [
+              "pa.p4"
+            ],
             "note": "Jaarlijkse peildatum: de ETA's rekenen met de meest recente gegevens van het beoordelingsjaar of met gegevens die uiterlijk 31 december van het voorafgaande jaar beschikbaar zijn gesteld — actualisatie van klantregisterdata vóór die datum telt mee.",
             "reviewed": false
           }
@@ -73,8 +1973,17 @@
       },
       "bijlagen": {}
     },
-    "vergoedingen": { "artikelen": {}, "bijlagen": {} },
-    "oversight": { "artikelen": {}, "bijlagen": {} },
-    "onderzoeksteams": { "artikelen": {}, "bijlagen": {} }
+    "vergoedingen": {
+      "artikelen": {},
+      "bijlagen": {}
+    },
+    "oversight": {
+      "artikelen": {},
+      "bijlagen": {}
+    },
+    "onderzoeksteams": {
+      "artikelen": {},
+      "bijlagen": {}
+    }
   }
 }
