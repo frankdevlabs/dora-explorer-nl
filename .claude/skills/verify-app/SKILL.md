@@ -10,14 +10,14 @@ check list change with nearly every epic. Update them in the same commit as
 the feature; a mismatch usually means this skill is stale, not that the app
 is broken — check `git log` before debugging.
 
-> **Epic-12 state:** full app, 13 instruments (DORA + 12 level-2 acts;
+> **Epic-13 state:** full app, 13 instruments (DORA + 12 level-2 acts;
 > **563 exported HTML pages**). Verify chain: verify-data (563 refs, 1031
 > search docs), verify-assessment (entity 18/57, supplier 11/48),
-> verify-playbook (draft mode: dekking 287/654 — dora 267/267 +
-> criticaliteit 20/20; 61 stappen; 65 begrippen), verify-roi (15
-> templates / 98 kolommen), verify-recital-map (359 pairs, two-regime,
-> all drafted, human review open), verify-l2-map (26 links),
-> verify-search (32 golden queries).
+> verify-playbook (draft mode: dekking 600/654 — alles gedekt behalve het
+> oversight-cluster oversight/vergoedingen/onderzoeksteams; 113 stappen;
+> 65 begrippen), verify-roi (15 templates / 98 kolommen),
+> verify-recital-map (359 pairs, two-regime, all drafted, human review
+> open), verify-l2-map (26 links), verify-search (32 golden queries).
 
 ## 1. Build (includes data verification)
 
@@ -65,6 +65,12 @@ curl -s "http://localhost:$PORT/playbook/dekking/criticaliteit" | grep -c "pa.p2
 curl -s "http://localhost:$PORT/playbook/dekking/dora" | grep -c "nog niet gedekt"  # 0 sinds epic 12
 curl -s "http://localhost:$PORT/playbook/entiteit/f1" | grep -c "dreigingsgestuurde penetratietest" # >= 1 (begrippen)
 curl -s "http://localhost:$PORT/playbook/entiteit/f4" | grep -c "eerste kennisgeving" # >= 1 (meldtermijnen)
+# epic 13: level-2 gedekt (alles behalve oversight-cluster)
+curl -s "http://localhost:$PORT/playbook/dekking/risicobeheer" | grep -c "nog niet gedekt" # 0 sinds epic 13
+curl -s "http://localhost:$PORT/playbook/dekking/risicobeheer" | grep -c "pe.rv7"   # >= 1 (vereenvoudigd kader)
+curl -s "http://localhost:$PORT/playbook/dekking/tlpt" | grep -c "pe.tl1"           # >= 1 (77/77 rijen)
+curl -s "http://localhost:$PORT/playbook/entiteit/f5" | grep -c "purple-teaming"    # >= 1 (tlpt-afsluitfase)
+curl -s "http://localhost:$PORT/playbook/entiteit/f6" | grep -c "onderaanneming"    # >= 1 (pe.oa*)
 ```
 
 ## 3. Browser checks (Playwright, optional but thorough)

@@ -110,8 +110,12 @@ op https://dora.mrfrank.dev. Epic 11 (juli 2026) legde de playbook-spine:
 654 bepalingen (`data/playbook/`, verify-playbook, MCP get_playbook/
 get_coverage); pilot criticaliteit 20/20 gedekt. Epic 12 (juli 2026)
 dekte DORA volledig: 267/267 leden, 56 entity-stappen (f0/f2–f8), 65
-begrippen op /playbook/entiteit/f1 — dekking 287/654. Openstaand: (a)
-playbook-content epics 13–16 (zie docs/epics/epic-12-entity-dora.md);
+begrippen op /playbook/entiteit/f1. Epic 13 (juli 2026) dekte de acht
+entity-relevante level-2-instrumenten met 52 nieuwe stappen in eigen
+id-families (pe.rb/rv/ic/im/tl/cb/oa/ir, fases f3–f6) — dekking
+600/654; alleen het oversight-cluster (oversight/vergoedingen/
+onderzoeksteams, 54 entries) staat op 0. Openstaand: (a)
+playbook-content epics 14–16 (zie docs/epics/epic-13-entity-level2.md);
 (b) menselijke review van de recital-map (complete=false) — alle 284
 entries zijn gedraft en adversarieel gereviewd (drafter→refuter; twee
 REVIEW:-gemarkeerde disputen wachten op arbitrage), maar nog
