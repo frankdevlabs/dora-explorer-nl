@@ -4369,7 +4369,7 @@
             },
             {
               "label": "Art. 5 GV 2024/1773",
-              "href": "/rts-contractbeleid/artikel/5#lid-1"
+              "href": "/rts-contractbeleid/artikel/5#lid-2"
             },
             {
               "label": "Art. 6 GV 2024/1773",
@@ -4486,7 +4486,7 @@
           "acties": [
             "Verifieer per ICT-contract dat beëindiging mogelijk is in de vier omstandigheden van art. 28, lid 7: ernstige wetsovertreding door de aanbieder, bij monitoring vastgestelde omstandigheden die de uitvoering kunnen wijzigen, klaarblijkelijke zwakheden in het ICT-risicobeheer of de gegevensbescherming van de aanbieder, en belemmering van doeltreffend toezicht.",
             "Stel per KOF-ondersteunende dienst een exitstrategie op die rekening houdt met falen van de aanbieder, kwaliteitsverslechtering, bedrijfsverstoring door falende dienstverlening, materiële risico's rond de passende en permanente inzet van de dienst en beëindiging onder lid 7, en die beëindiging mogelijk maakt zonder bedrijfsverstoring, zonder beperking van de regelnaleving en zonder afbreuk aan continuïteit en kwaliteit van cliëntdiensten.",
-            "Documenteer exitplannen alomvattend, test ze voldoende volgens de evenredigheidscriteria van art. 4, lid 2, en evalueer ze regelmatig; leg testmomenten en uitkomsten vast.",
+            "Documenteer voor elke contractuele overeenkomst een exitplan, alomvattend en met een geplande uitvoeringstiming die verenigbaar is met de contractuele exit- en beëindigingsvoorwaarden; test de plannen voldoende volgens de evenredigheidscriteria van art. 4, lid 2, en evalueer ze regelmatig; leg testmomenten en uitkomsten vast.",
             "Ontwikkel overgangsplannen voor het verwijderen van diensten en gegevens bij de aanbieder en de veilige, integrale overdracht aan een alternatieve aanbieder of terugname in eigen beheer, plus noodmaatregelen om de bedrijfscontinuïteit intussen te handhaven."
           ],
           "bewijsstukken": [
@@ -4624,6 +4624,562 @@
           "prioriteit": "kern",
           "afhankelijkVan": [
             "pe.d8"
+          ]
+        },
+        {
+          "id": "pe.cb1",
+          "titel": "Richt de governance van het contractbeleid in",
+          "doel": "Het beleid voor KOF-ondersteunende ICT-diensten kent een jaarlijkse bestuursevaluatie, een vaste KOF-bepalingsmethode, duidelijk belegde rollen en rapportagelijnen en aantoonbare consistentie met de overige DORA-beleidslijnen.",
+          "acties": [
+            "Laat het leidinggevend orgaan het beleid ten minste jaarlijks evalueren en zo nodig bijwerken; voer beleidswijzigingen tijdig door in de lopende KOF-contracten en documenteer het geplande tijdschema voor die doorwerking.",
+            "Kalibreer het beleid op de omvang, het algehele risicoprofiel en de aard, schaal en complexiteit van de dienstverlening: weeg daarbij de tien elementen van art. 1 GV 2024/1773 — soort ICT-dienst, locatie van de aanbieder en van de gegevensverwerking/-opslag, derde-land-aspecten, aard van de gedeelde gegevens, intragroeps- of externe levering, vergunning-/toezicht-/oversightstatus van de aanbieder, concentratierisico, overdraagbaarheid van de dienst en de impact van verstoring — en documenteer de kalibratiekeuzes.",
+            "Neem in het beleid een methode op (of verwijs ernaar) om te bepalen welke ICT-diensten kritieke of belangrijke functies ondersteunen, inclusief wanneer die beoordeling wordt uitgevoerd en wanneer zij wordt geëvalueerd.",
+            "Wijs in het beleid de interne verantwoordelijkheden toe voor goedkeuring, beheer, controle en documentatie van KOF-contracten; benoem de rol of het lid van het hoger leidinggevend personeel dat toezicht houdt, de samenwerking met de controlefuncties en de rapportagelijnen naar het leidinggevend orgaan (aard, documenten én frequentie van de rapportage), en borg dat voldoende vaardigheden, ervaring en kennis in huis blijven.",
+            "Toets het beleid aantoonbaar op consistentie met het ICT-risicobeheerkader (art. 6 DORA), het informatiebeveiligingsbeleid (art. 9, lid 4 DORA), het ICT-bedrijfscontinuïteitsbeleid (art. 11 DORA) en de incidentrapportagevereisten (art. 19 DORA), en leg per beleidsversie vast dat KOF-contracten daaraan niet mogen afdoen.",
+            "Neem in het beleid de vaste contractwaarborgen op: overeenkomsten ontslaan entiteit en bestuur niet van verplichtingen jegens cliënten, mogen toezicht niet belemmeren, verplichten de aanbieder tot samenwerking met bevoegde autoriteiten en tot effectieve toegang van entiteit, auditors en autoriteiten tot gegevens en gebouwen; eis daarnaast dat de aanbieder over voldoende middelen beschikt om uw wettelijke en regelgevingsnaleving te ondersteunen; specificeer dat KOF-contracten schriftelijk worden gesloten en de volledige elementenset van art. 30, leden 2 en 3 DORA bevatten, aangevuld met elementen uit andere toepasselijke Unie- en nationale wetgeving.",
+            "Beschrijf in het beleid de eisen per levenscyclusfase (besluitvorming bestuur, planning met risicobeoordeling en due diligence, betrokkenheid bedrijfseenheden en interne controles, uitvoering en monitoring, documentatie/register, exit), verplicht een onafhankelijke evaluatie van KOF-diensten met opname in het auditplan, en formaliseer materiële contractwijzigingen in een door alle partijen gedateerd en ondertekend schriftelijk document met een vaste verlengingsprocedure."
+          ],
+          "bewijsstukken": [
+            "Door het leidinggevend orgaan vastgesteld en jaarlijks geëvalueerd beleid met versiehistorie en implementatietijdschema",
+            "RACI/rolbeschrijving contractbeheer met rapportagekalender aan het bestuur",
+            "Consistentietoets van het beleid tegen risicobeheerkader, informatiebeveiligings- en continuïteitsbeleid"
+          ],
+          "rollen": [
+            "bestuur",
+            "compliance",
+            "risk",
+            "juridisch",
+            "inkoop"
+          ],
+          "refs": [
+            {
+              "label": "Art. 1 GV 2024/1773",
+              "href": "/rts-contractbeleid/artikel/1#inhoud"
+            },
+            {
+              "label": "Art. 3 GV 2024/1773",
+              "href": "/rts-contractbeleid/artikel/3#lid-1"
+            },
+            {
+              "label": "Art. 4 GV 2024/1773",
+              "href": "/rts-contractbeleid/artikel/4#inhoud"
+            },
+            {
+              "label": "Art. 8, lid 1 GV 2024/1773",
+              "href": "/rts-contractbeleid/artikel/8#lid-1"
+            },
+            {
+              "label": "Art. 8, lid 4 GV 2024/1773",
+              "href": "/rts-contractbeleid/artikel/8#lid-4"
+            },
+            {
+              "label": "Art. 28, lid 2 DORA",
+              "href": "/artikel/28#lid-2"
+            }
+          ],
+          "appliesTo": [
+            "volledig"
+          ],
+          "prioriteit": "fundament",
+          "afhankelijkVan": [
+            "pe.d2"
+          ]
+        },
+        {
+          "id": "pe.cb2",
+          "titel": "Leg bedrijfsbehoeften en risicobeoordeling vóór contractering vast in het beleid",
+          "doel": "Het beleid dwingt af dat vóór elk KOF-contract de bedrijfsbehoefte is bepaald en een risicobeoordeling langs de negen voorgeschreven risicocategorieën is uitgevoerd, ook op groepsniveau.",
+          "acties": [
+            "Verplicht in het beleid dat de bedrijfsbehoeften van de entiteit worden vastgesteld en gedocumenteerd voordat een KOF-contract wordt gesloten.",
+            "Schrijf in het beleid een precontractuele risicobeoordeling voor op entiteitsniveau en, in voorkomend geval, op geconsolideerd en gesubconsolideerd niveau, en veranker die als verplichte stap in het inkoop-/goedkeuringsproces.",
+            "Neem in het beoordelingssjabloon ten minste de negen categorieën op: operationele, juridische, ICT- en reputatierisico's, risico's rond vertrouwelijke of persoonsgegevens, beschikbaarheid van gegevens, locatie van gegevensverwerking en -opslag, locatie van de aanbieder en ICT-concentratierisico op entiteitsniveau.",
+            "Actualiseer deze risicobeoordeling met de uitkomsten van de doorlopende prestatiebeoordeling van de aanbieder (koppeling met pe.cb6) en met de relevante eisen uit sectorale Uniewetgeving."
+          ],
+          "bewijsstukken": [
+            "Sjabloon precontractuele risicobeoordeling met de negen risicocategorieën",
+            "Ingevulde beoordelingen per gesloten KOF-contract, inclusief groepsniveau waar van toepassing"
+          ],
+          "rollen": [
+            "risk",
+            "inkoop",
+            "CISO",
+            "juridisch"
+          ],
+          "refs": [
+            {
+              "label": "Art. 5 GV 2024/1773",
+              "href": "/rts-contractbeleid/artikel/5#lid-2"
+            },
+            {
+              "label": "Art. 28, lid 4 DORA",
+              "href": "/artikel/28#lid-4"
+            }
+          ],
+          "appliesTo": [
+            "volledig"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.cb1"
+          ]
+        },
+        {
+          "id": "pe.cb3",
+          "titel": "Werk de due-diligence-criteria en het zekerheidsniveau uit in het beleid",
+          "doel": "Het beleid bevat een evenredig selectie- en beoordelingsproces met de zes voorgeschreven beoordelingscriteria en een expliciet vereist zekerheidsniveau, gestaafd met vooraf bepaalde bewijsbronnen.",
+          "acties": [
+            "Beschrijf in het beleid het selectie- en beoordelingsproces voor potentiële aanbieders, met onderscheid tussen aanbieders binnen en buiten de groep, en veranker de zes criteria: zakelijke reputatie, middelen en vergunningen; vermogen om technologische ontwikkelingen en leidende ICT-beveiligingspraktijken te volgen; (voorgenomen) gebruik van ICT-subcontractanten; derde-landvestiging of -gegevensverwerking inclusief sanctie- en embargorisico; instemming met effectieve auditrechten (ook ter plaatse, ook voor autoriteiten); en ethisch en maatschappelijk verantwoord handelen (mensenrechten, kinderarbeid, milieu, arbeidsomstandigheden).",
+            "Specificeer per contract(type) het vereiste zekerheidsniveau over de doeltreffendheid van het risicobeheer van de aanbieder en eis dat de due diligence de aanwezigheid en geborgde werking van risicobeperkende en bedrijfscontinuïteitsmaatregelen beoordeelt.",
+            "Leg vast welke bewijsbronnen het zekerheidsniveau onderbouwen — eigen of namens u uitgevoerde audits/onafhankelijke beoordelingen, op verzoek van de aanbieder opgestelde onafhankelijke auditverslagen, interne-auditverslagen van de aanbieder, certificeringen door derden of andere relevante informatie — en combineer meerdere bronnen waar één bron onvoldoende zekerheid geeft.",
+            "Toets bij aanbieders binnen de groep dezelfde criteria; verlicht hooguit de diepgang op basis van gedocumenteerde evenredigheidsargumenten, niet de criteria zelf."
+          ],
+          "bewijsstukken": [
+            "Due-diligence-checklist met de zes criteria en het bepaalde zekerheidsniveau per contract",
+            "Dossier met gebruikte bewijsbronnen (auditrapporten, certificeringen, assurance-verslagen) per aanbieder"
+          ],
+          "rollen": [
+            "inkoop",
+            "risk",
+            "CISO",
+            "compliance"
+          ],
+          "refs": [
+            {
+              "label": "Art. 6 GV 2024/1773",
+              "href": "/rts-contractbeleid/artikel/6#lid-1"
+            },
+            {
+              "label": "Art. 28, lid 5 DORA",
+              "href": "/artikel/28#lid-5"
+            }
+          ],
+          "appliesTo": [
+            "volledig"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.cb1"
+          ]
+        },
+        {
+          "id": "pe.cb4",
+          "titel": "Beheer belangenconflicten rond ICT-aanbieders, ook binnen de groep",
+          "doel": "Feitelijke en mogelijke belangenconflicten uit het gebruik van derde ICT-aanbieders worden vóór contractering geïdentificeerd en daarna permanent gemonitord; intra-groepsvoorwaarden komen objectief tot stand.",
+          "acties": [
+            "Neem in het beleid maatregelen op voor het identificeren, voorkomen en beheren van feitelijke of mogelijke belangenconflicten vóór het sluiten van een KOF-contract, en richt een permanente monitoring op die conflicten in (bijv. via een conflictenregister met periodieke herbeoordeling).",
+            "Specificeer voor ICT-diensten van aanbieders binnen de groep dat besluiten over de voorwaarden — inclusief de financiële voorwaarden — objectief (at arm's length) worden genomen; leg de onderbouwing per intra-groepscontract vast.",
+            "Koppel de conflictentoets aan de precontractuele beoordeling van art. 28, lid 4, punt d DORA zodat één gedocumenteerde beoordeling beide vereisten dekt."
+          ],
+          "bewijsstukken": [
+            "Belangenconflictenregister met monitoringcyclus",
+            "Objectiviteitsonderbouwing (prijs- en voorwaardenvergelijking) per intra-groeps-ICT-contract"
+          ],
+          "rollen": [
+            "compliance",
+            "inkoop",
+            "juridisch",
+            "bestuur"
+          ],
+          "refs": [
+            {
+              "label": "Art. 7 GV 2024/1773",
+              "href": "/rts-contractbeleid/artikel/7#lid-1"
+            },
+            {
+              "label": "Art. 28, lid 4 DORA",
+              "href": "/artikel/28#lid-4"
+            }
+          ],
+          "appliesTo": [
+            "volledig"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.cb1"
+          ]
+        },
+        {
+          "id": "pe.cb5",
+          "titel": "Borg audit-, informatie- en testrechten en begrens het steunen op certificeringen",
+          "doel": "Elk KOF-contract geeft afdwingbare toegangs-, inspectie-, audit- en ICT-testrechten en het beleid bewaakt dat certificeringen en auditverslagen van derden nooit de enige blijvende zekerheidsbron zijn.",
+          "acties": [
+            "Eis in het beleid dat KOF-contracten het recht op informatie, inspecties, audits en ICT-tests vastleggen, en bepaal per contract de te gebruiken methoden: eigen interne audit of audit door een aangestelde derde, waar nodig gebundelde audits en gebundelde ICT-tests (incl. dreigingsgestuurde penetratietests) met andere afnemers van dezelfde aanbieder, certificeringen van derden en/of door de aanbieder verstrekte auditverslagen.",
+            "Sta het steunen op certificeringen of aangeleverde auditverslagen alleen toe onder de acht voorwaarden van art. 8, lid 3: tevredenheid over het auditplan van de aanbieder, dekking van uw essentiële systemen en controles en regelgevingsvereisten, doorlopende inhoudelijke beoordeling op actualiteit, geborgde dekking in toekomstige versies, bekwaamheid van de certificeerder/auditor, uitvoering volgens erkende professionele normen inclusief effectiviteitstest van essentiële controles, een contractueel recht om de scope met redelijke frequentie uit te breiden en een contractueel recht om naar eigen goeddunken individuele en gebundelde audits uit te voeren.",
+            "Bewaak expliciet dat de entiteit zich in de loop der tijd niet uitsluitend op certificeringen of aangeleverde verslagen blijft baseren; plan periodiek een eigen of gebundelde audit in het auditplan van pe.d6.",
+            "Leg de gekozen zekerheidsmix per KOF-contract vast en herbeoordeel die bij contractverlenging en bij materiële wijzigingen."
+          ],
+          "bewijsstukken": [
+            "Contractclausules audit-, toegangs- en testrechten per KOF-contract",
+            "Beoordelingsdossier per gebruikte certificering/auditverslag tegen de acht voorwaarden",
+            "Zekerheidsmix-overzicht per aanbieder gekoppeld aan het auditplan"
+          ],
+          "rollen": [
+            "risk",
+            "juridisch",
+            "CISO",
+            "inkoop"
+          ],
+          "refs": [
+            {
+              "label": "Art. 8, leden 2-3 GV 2024/1773",
+              "href": "/rts-contractbeleid/artikel/8#lid-2"
+            },
+            {
+              "label": "Art. 30, lid 3 DORA",
+              "href": "/artikel/30#lid-3"
+            },
+            {
+              "label": "Art. 28, lid 6 DORA",
+              "href": "/artikel/28#lid-6"
+            }
+          ],
+          "appliesTo": [
+            "volledig"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.d6",
+            "pe.d8"
+          ]
+        },
+        {
+          "id": "pe.cb6",
+          "titel": "Monitor prestaties van aanbieders en beheers tekortkomingen",
+          "doel": "De prestaties van KOF-aanbieders worden doorlopend gemonitord op kernindicatoren en rapportages, beoordelingen worden gedocumenteerd en tekortkomingen krijgen maatregelen met bewaakte termijnen.",
+          "acties": [
+            "Eis in het beleid dat KOF-contracten de maatregelen en kernindicatoren bevatten voor doorlopende prestatiemonitoring, inclusief toezicht op vertrouwelijkheid, beschikbaarheid, integriteit en authenticiteit van gegevens en op naleving van uw eigen beleidslijnen en procedures, plus de maatregelen — waaronder contractuele sancties waar nodig — bij niet-nageleefde dienstverleningsniveaus.",
+            "Richt de beoordelingscyclus in: periodieke verslagen van de aanbieder (activiteiten, incidenten, dienstverlening, ICT-beveiliging, bedrijfscontinuïteitsmaatregelen en -tests), beoordeling aan de hand van KPI's en kerncontrole-indicatoren, audits, zelfcertificeringen en onafhankelijke beoordelingen, en kennisgeving van ICT- en betalingsgerelateerde incidenten.",
+            "Documenteer elke beoordeling en gebruik de resultaten om de risicobeoordeling van de betrokken overeenkomst bij te werken (koppeling pe.cb2).",
+            "Stel vooraf de maatregelenladder vast voor geconstateerde tekortkomingen (incl. incidenten) en monitor de uitvoering ervan op daadwerkelijke naleving binnen een bepaalde termijn, gewogen naar het relatieve belang van de tekortkoming; escaleer volgens de rapportagelijnen van pe.cb1."
+          ],
+          "bewijsstukken": [
+            "KPI-/KCI-dashboard per KOF-aanbieder met SLA-nalevingsrapportage",
+            "Gedocumenteerde periodieke prestatiebeoordelingen met doorwerking naar de risicobeoordeling",
+            "Tekortkomingenregister met maatregelen, termijnen en opvolgstatus"
+          ],
+          "rollen": [
+            "IT-operations",
+            "risk",
+            "inkoop",
+            "CISO"
+          ],
+          "refs": [
+            {
+              "label": "Art. 9 GV 2024/1773",
+              "href": "/rts-contractbeleid/artikel/9#lid-1"
+            },
+            {
+              "label": "Art. 30, lid 3-e DORA",
+              "href": "/artikel/30#lid-3-e"
+            },
+            {
+              "label": "Art. 28, lid 6 DORA",
+              "href": "/artikel/28#lid-6"
+            }
+          ],
+          "appliesTo": [
+            "volledig"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.cb1",
+            "pe.d9"
+          ]
+        },
+        {
+          "id": "pe.oa1",
+          "titel": "Beslis vooraf over onderaanneming en toets de tien voorwaarden",
+          "doel": "Voor elk KOF-ondersteunend ICT-contract is voor ondertekening expliciet beslist of de derde aanbieder mag uitbesteden, zijn de tien voorwaarden van art. 3, lid 1 GV 2025/532 aantoonbaar getoetst en worden de eigen risicobeoordelingen periodiek herhaald.",
+          "acties": [
+            "Neem in het precontractuele proces een expliciet beslismoment op: mag deze derde aanbieder een ICT-dienst die een kritieke of belangrijke functie (of een materieel onderdeel daarvan) ondersteunt, uitbesteden, en zo ja onder welke voorwaarden; leg dat besluit vast voordat het contract wordt getekend.",
+            "Toets voor het aangaan de voorwaarden aan aanbiederszijde: zijn due-diligenceprocessen borgen selectie en beoordeling van operationele en financiele mogelijkheden van potentiele onderaannemers (inclusief deelname aan weerbaarheidstests op uw verzoek), hij kan alle KOF-ondersteunende onderaannemers identificeren en u daarover informeren, zijn subcontracten stellen u in staat uw verplichtingen uit DORA en toepasselijke Unie- en nationale wetgeving na te komen, de onderaannemer verleent u en de bevoegde en afwikkelingsautoriteiten dezelfde contractuele toegangs- en inspectierechten als die de derde aanbieder zelf heeft verleend, en de aanbieder heeft voldoende deskundigheid en financiele, personele en technische middelen om ICT-risico's op onderaannemersniveau te monitoren.",
+            "Toets ook de eigen kant en documenteer per beoordeling: uw eigen monitoringcapaciteit voor de uitbestede dienst, de impact van falen van een onderaannemer op uw digitale operationele weerbaarheid en financiele robuustheid, de locatierisico's van potentiele onderaannemers, het ICT-concentratierisico op entiteitsniveau (art. 29 DORA) en eventuele belemmeringen voor audit-, inspectie- en toegangsrechten van u of de autoriteiten.",
+            "Herhaal de beoordelingen van art. 3, lid 1, punten f) tot en met j) periodiek en bij veranderingen in de zakelijke omgeving (gewijzigde bedrijfsfuncties, ICT-dreigingen, concentratie- en geopolitieke risico's); leg de frequentie vast in het TPRM-beleid en koppel de trigger aan pe.oa3.",
+            "Gebruik risicobeoordelingen die de aanbieder van zijn onderaannemers maakt alleen als input: laat elke conclusie intern valideren en leg vast dat de eindverantwoordelijkheid voor naleving bij de eigen entiteit blijft."
+          ],
+          "bewijsstukken": [
+            "Toestemmingsbesluit onderaanneming per KOF-contract",
+            "Toetsingsdossier art. 3-voorwaarden met eigen impact-, locatie- en concentratiebeoordeling",
+            "Herbeoordelingslog met vastgelegde frequentie"
+          ],
+          "rollen": [
+            "risk",
+            "inkoop",
+            "juridisch",
+            "CISO"
+          ],
+          "refs": [
+            {
+              "label": "Art. 3, lid 1 GV 2025/532",
+              "href": "/rts-onderaanneming/artikel/3#lid-1"
+            },
+            {
+              "label": "Art. 3, lid 2 GV 2025/532",
+              "href": "/rts-onderaanneming/artikel/3#lid-2"
+            },
+            {
+              "label": "Art. 3, lid 3 GV 2025/532",
+              "href": "/rts-onderaanneming/artikel/3#lid-3"
+            },
+            {
+              "label": "Art. 30, lid 2, punt a) DORA",
+              "href": "/artikel/30#lid-2-a"
+            },
+            {
+              "label": "Art. 29, lid 1 DORA",
+              "href": "/artikel/29#lid-1"
+            }
+          ],
+          "appliesTo": [
+            "volledig",
+            "vereenvoudigd"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.d4",
+            "pe.d5"
+          ]
+        },
+        {
+          "id": "pe.oa2",
+          "titel": "Beding de onderaannemingsvoorwaarden en het beeindigingsrecht in KOF-contracten",
+          "doel": "Elk KOF-ondersteunend contract benoemt welke ICT-diensten mogen worden uitbesteed en bevat de volledige set bepalingen van art. 4 GV 2025/532 plus het beeindigingsrecht van art. 6.",
+          "acties": [
+            "Benoem in elk KOF-contract expliciet welke ICT-diensten die kritieke of belangrijke functies, of materiele onderdelen daarvan, ondersteunen voor uitbesteding in aanmerking komen en onder welke voorwaarden; behandel niet-genoemde diensten als niet-uitbesteedbaar - uitbesteding zonder expliciete contractuele toestemming is een beeindigingsgrond.",
+            "Neem de twaalf contractelementen van art. 4, lid 1 op: de aanbieder blijft verantwoordelijk voor door onderaannemers geleverde diensten en monitort de hele keten doorlopend; monitoring- en rapportageverplichtingen richting u; beoordeling door de aanbieder van locatierisico's van (potentiele) onderaannemers en hun moederondernemingen en van de locatie van waaruit de ICT-diensten worden aangeboden; vastlegging van de locatie van dataverwerking en -opslag; doorvertaling in de subcontracten van monitoring-/rapportageplichten, bedrijfsnoodplannen met bijbehorende dienstenniveaus en ICT-beveiligingsstandaarden (art. 30, lid 3, punt c) DORA); continuiteitsborging door de hele keten wanneer een onderaannemer zijn verplichtingen niet nakomt; gelijke toegangs-, inspectie- en auditrechten voor u en de autoriteiten; kennisgevingsplicht bij materiele wijzigingen; en uw opzegrecht.",
+            "Beding het beeindigingsrecht voor de drie gevallen van art. 6: de aanbieder implementeert materiele wijzigingen ondanks uw bezwaar en verzoek om aanpassing, implementeert zonder toestemming voor het einde van de opzegtermijn, of besteedt een KOF-ondersteunende dienst uit zonder expliciete contractuele toestemming; neem daarnaast de gronden van art. 28, lid 7 DORA op en koppel uitoefening aan de exitstrategie (pe.d7).",
+            "Breng bestaande KOF-contracten via de gap-analyse (pe.d8) in lijn met deze verordening: implementeer noodzakelijke contractwijzigingen tijdig en zo spoedig mogelijk en documenteer per contract het geplande tijdschema."
+          ],
+          "bewijsstukken": [
+            "KOF-contractclausules of addendum gemapt op art. 4 en 6 GV 2025/532",
+            "Remediatieplan bestaande contracten met gedocumenteerd tijdschema"
+          ],
+          "rollen": [
+            "juridisch",
+            "inkoop",
+            "compliance"
+          ],
+          "refs": [
+            {
+              "label": "Art. 4, lid 1 GV 2025/532",
+              "href": "/rts-onderaanneming/artikel/4#lid-1"
+            },
+            {
+              "label": "Art. 4, lid 2 GV 2025/532",
+              "href": "/rts-onderaanneming/artikel/4#lid-2"
+            },
+            {
+              "label": "Art. 6 GV 2025/532",
+              "href": "/rts-onderaanneming/artikel/6#inhoud"
+            },
+            {
+              "label": "Art. 30, lid 3 DORA",
+              "href": "/artikel/30#lid-3"
+            },
+            {
+              "label": "Art. 28, lid 7 DORA",
+              "href": "/artikel/28#lid-7"
+            }
+          ],
+          "appliesTo": [
+            "volledig",
+            "vereenvoudigd"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.oa1",
+            "pe.d9"
+          ]
+        },
+        {
+          "id": "pe.oa3",
+          "titel": "Beheer materiele wijzigingen in de onderaannemingsketen via goedkeuring of bezwaar",
+          "doel": "Elke beoogde materiele wijziging in de uitbestedingsregelingen van de derde aanbieder wordt binnen de contractuele opzegtermijn beoordeeld en expliciet goedgekeurd, stilzwijgend aanvaard of met een eis tot aanpassing tegengehouden.",
+          "acties": [
+            "Contracteer dat de aanbieder u ruim vooraf informeert over beoogde materiele wijzigingen in zijn uitbestedingsregelingen en spreek een redelijke opzegtermijn af waarbinnen u goedkeurt of bezwaar maakt; de verordening noemt geen vaste termijn - leg de gekozen termijn per contract vast.",
+            "Richt een beoordelingsproces in dat binnen die termijn twee vragen beantwoordt: wat is de impact op de risico's waaraan de entiteit is of kan worden blootgesteld, en raakt de wijziging het vermogen van de aanbieder om zijn contractuele verplichtingen na te komen; herbeoordeel daarbij de relevante art. 3-voorwaarden (pe.oa1) en werk het informatieregister bij (pe.d3).",
+            "Bewaak dat de aanbieder pas implementeert nadat u heeft goedgekeurd of de termijn zonder bezwaar is verstreken; registreer elke kennisgeving, beoordeling en uitkomst in het contractdossier.",
+            "Gaat de wijziging uw risicotolerantie te boven: informeer de aanbieder voor het einde van de opzegtermijn, maak bezwaar en eis aanpassingen voordat wordt geimplementeerd; escaleer naar het beeindigingstraject (art. 6 GV 2025/532, pe.d7) wanneer de aanbieder toch implementeert."
+          ],
+          "bewijsstukken": [
+            "Wijzigingenlog onderaannemingsketen met kennisgevingen, beoordelingen en besluiten",
+            "Procesbeschrijving beoordeling materiele wijzigingen met termijnbewaking"
+          ],
+          "rollen": [
+            "risk",
+            "inkoop",
+            "juridisch"
+          ],
+          "refs": [
+            {
+              "label": "Art. 5, lid 1 GV 2025/532",
+              "href": "/rts-onderaanneming/artikel/5#lid-1"
+            },
+            {
+              "label": "Art. 5, lid 2 GV 2025/532",
+              "href": "/rts-onderaanneming/artikel/5#lid-2"
+            },
+            {
+              "label": "Art. 5, lid 3 GV 2025/532",
+              "href": "/rts-onderaanneming/artikel/5#lid-3"
+            },
+            {
+              "label": "Art. 5, lid 4 GV 2025/532",
+              "href": "/rts-onderaanneming/artikel/5#lid-4"
+            },
+            {
+              "label": "Art. 30, lid 3, punt b) DORA",
+              "href": "/artikel/30#lid-3-b"
+            }
+          ],
+          "appliesTo": [
+            "volledig",
+            "vereenvoudigd"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.oa2"
+          ]
+        },
+        {
+          "id": "pe.ir1",
+          "titel": "Breng de ICT-toeleveringsketen in kaart met rankings",
+          "doel": "Elke derde aanbieder in het informatieregister draagt een correcte ranking en alle onderaannemers die daadwerkelijk KOF-ondersteunende ICT-diensten verlenen zijn geïdentificeerd, inclusief hun LEI of EUID via de directe aanbieder.",
+          "acties": [
+            "Ken iedere derde aanbieder van ICT-diensten een ranking toe: de directe aanbieder altijd '1', elke onderaannemer een getal groter dan '1' oplopend per schakel in de keten; leg de tel-methodiek vast zodat rankings consistent zijn over de keten-templates (B_05.01/B_05.02).",
+            "Identificeer per KOF-ondersteunende ICT-dienst alle onderaannemers die daadwerkelijk ICT-diensten verlenen die de kritieke of belangrijke functies, of wezenlijke onderdelen daarvan, ondersteunen en neem die op in het register; voor niet-KOF-diensten volstaat de directe aanbieder (ranking 1).",
+            "Contracteer met de directe aanbieder de plicht om van die KOF-onderaannemers een geldige, actieve LEI of EUID aan te leveren (beide indien beschikbaar), behalve voor individuen die beroepsmatig handelen; koppel dit aan de onderaannemingsvoorwaarden van GV (EU) 2025/532.",
+            "Actualiseer rankings en ketengegevens bij elke gemelde wijziging in de onderaannemingsketen en verwerk correcties direct in het register."
+          ],
+          "bewijsstukken": [
+            "Ketenoverzicht met ranking per contractuele overeenkomst",
+            "Contractclausule LEI/EUID-aanlevering onderaannemers in KOF-contracten"
+          ],
+          "rollen": [
+            "inkoop",
+            "compliance",
+            "risk"
+          ],
+          "refs": [
+            {
+              "label": "Art. 2 UV 2024/2956",
+              "href": "/its-register/artikel/2#inhoud"
+            },
+            {
+              "label": "Art. 3, lid 2 UV 2024/2956",
+              "href": "/its-register/artikel/3#lid-2"
+            },
+            {
+              "label": "Art. 3, lid 6 UV 2024/2956",
+              "href": "/its-register/artikel/3#lid-6"
+            },
+            {
+              "label": "Art. 28, lid 3 DORA",
+              "href": "/artikel/28#lid-3"
+            }
+          ],
+          "appliesTo": [
+            "volledig",
+            "vereenvoudigd"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.d3"
+          ]
+        },
+        {
+          "id": "pe.ir2",
+          "titel": "Borg gegevensformaat en datakwaliteit van het register",
+          "doel": "De registerdata voldoen aan het verplichte ITS-tabelformaat en de zes gegevenskwaliteitsbeginselen, met gesloten lijsten, LEI/EUID-identificatie en een werkende controle- en correctiecyclus.",
+          "acties": [
+            "Vul elk gegevenselement met één enkele waarde en voeg bij meerdere geldige waarden een extra rij toe in het betrokken model; volg de kolominstructies van bijlage I — de registerwerkbank (/register) implementeert dit veldschema en signaleert ontbrekende verplichte velden.",
+            "Gebruik uitsluitend de gesloten lijsten en classificaties: activiteiten per entiteitssoort (bijlage II), ICT-diensttypen S01–S19 (bijlage III) en de totale-activa-instructie (bijlage IV); documenteer eigen terminologie in model B_99.01.",
+            "Identificeer elke derde aanbieder die rechtspersoon is met een geldige en actieve LEI of EUID, en beide indien beschikbaar.",
+            "Richt periodieke datakwaliteitscontroles in op de zes beginselen — nauwkeurigheid, volledigheid, consistentie, integriteit, uniformiteit, geldigheid — en corrigeer geconstateerde fouten of afwijkingen onmiddellijk; log evaluaties en correcties."
+          ],
+          "bewijsstukken": [
+            "Validatie-/datakwaliteitslog van het informatieregister",
+            "Ingevuld terminologiemodel B_99.01"
+          ],
+          "rollen": [
+            "compliance",
+            "IT-operations",
+            "inkoop"
+          ],
+          "refs": [
+            {
+              "label": "Art. 3, lid 4 UV 2024/2956",
+              "href": "/its-register/artikel/3#lid-4"
+            },
+            {
+              "label": "Art. 3, lid 5 UV 2024/2956",
+              "href": "/its-register/artikel/3#lid-5"
+            },
+            {
+              "label": "Art. 4, lid 2 UV 2024/2956",
+              "href": "/its-register/artikel/4#lid-2"
+            },
+            {
+              "label": "Bijlage III UV 2024/2956",
+              "href": "/its-register/bijlage/iii"
+            }
+          ],
+          "appliesTo": [
+            "volledig",
+            "vereenvoudigd"
+          ],
+          "prioriteit": "kern",
+          "afhankelijkVan": [
+            "pe.d3"
+          ]
+        },
+        {
+          "id": "pe.ir3",
+          "titel": "Bepaal het groepsbereik van het geconsolideerde register",
+          "doel": "Voor entiteiten in een groep is de consolidatiekring van het gesubconsolideerde en geconsolideerde register correct afgebakend en aantoonbaar consistent met de registers op entiteitsniveau.",
+          "acties": [
+            "Bepaal — indien de entiteit moederonderneming is — welke entiteiten in het register worden opgenomen aan de hand van de relevante sectorale Uniewetgeving (voor banken: de prudentiële consolidatiekring) en documenteer die afbakening.",
+            "Neem op (gesub)geconsolideerd niveau alle financiële entiteiten én alle aanbieders van ICT-diensten binnen de groep van de subgroep en de groep op in het register (templates B_01.02/B_01.03 identificeren consolidatiekring en buitenlandse bijkantoren).",
+            "Sluit de registers op entiteitsniveau aan op het geconsolideerde register: voer per actualisatieronde een verschillenanalyse uit en verwerk correcties direct op beide niveaus.",
+            "Vul alle gegevenselementen in op elk toepasselijk niveau (entiteits-, gesubconsolideerd en geconsolideerd) en leg vast welke groepsentiteit verantwoordelijk is voor het bijhouden per niveau."
+          ],
+          "bewijsstukken": [
+            "Gedocumenteerde consolidatiekring van het informatieregister",
+            "Aansluitingsanalyse entiteitsregisters vs. geconsolideerd register"
+          ],
+          "rollen": [
+            "compliance",
+            "risk"
+          ],
+          "refs": [
+            {
+              "label": "Art. 6, lid 1 UV 2024/2956",
+              "href": "/its-register/artikel/6#lid-1"
+            },
+            {
+              "label": "Art. 6, lid 2 UV 2024/2956",
+              "href": "/its-register/artikel/6#lid-2"
+            },
+            {
+              "label": "Art. 3, lid 3 UV 2024/2956",
+              "href": "/its-register/artikel/3#lid-3"
+            },
+            {
+              "label": "Art. 28, lid 3 DORA",
+              "href": "/artikel/28#lid-3"
+            },
+            {
+              "label": "Art. 3, punt 26 DORA",
+              "href": "/artikel/3#punt-26"
+            }
+          ],
+          "appliesTo": [
+            "volledig",
+            "vereenvoudigd"
+          ],
+          "prioriteit": "verdieping",
+          "afhankelijkVan": [
+            "pe.d3"
           ]
         }
       ]

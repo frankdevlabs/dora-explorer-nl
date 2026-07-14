@@ -1777,11 +1777,298 @@
       "bijlagen": {}
     },
     "its": {
-      "artikelen": {},
-      "bijlagen": {}
+      "artikelen": {
+        "1": {
+          "inhoud": {
+            "disposition": "definitie",
+            "note": "Definieert 'directe derde aanbieder van ICT-diensten' (ranking 1, incl. intra-groepsaanbieders die aan groepsentiteiten leveren), 'toeleveringsketen van ICT-diensten' en 'ranking' — de sleutelbegrippen voor de ketentemplates B_05.01/B_05.02.",
+            "reviewed": false
+          }
+        },
+        "2": {
+          "inhoud": {
+            "disposition": "stap",
+            "steps": [
+              "pe.ir1"
+            ],
+            "note": "Rankingmethodiek: directe aanbieder altijd '1', onderaannemers steeds groter dan '1'; hoe lager het getal, hoe dichter bij de entiteit.",
+            "reviewed": false
+          }
+        },
+        "3": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.d3"
+            ],
+            "note": "Gebruik van de modellen van bijlagen I–IV voor het register van art. 28, lid 3 DORA — reeds geoperationaliseerd in pe.d3 (registerwerkbank /register).",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.d3",
+              "pe.ir1"
+            ],
+            "note": "Alle ICT-diensten van directe aanbieders (pe.d3); onderaannemers alleen voor zover zij daadwerkelijk KOF-ondersteunende ICT-diensten verlenen (pe.ir1).",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.ir2",
+              "pe.ir3"
+            ],
+            "note": "Nauwkeurigheid/consistentie, regelmatige evaluatie en onmiddellijke foutcorrectie (pe.ir2); tweede alinea: consistentie entiteitsniveau vs. (gesub)geconsolideerd register (pe.ir3).",
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.ir2"
+            ],
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "stap",
+            "steps": [
+              "pe.ir2"
+            ],
+            "note": "LEI of EUID (beide indien beschikbaar) voor elke rechtspersoon-aanbieder, m.u.v. beroepsmatig handelende individuen.",
+            "reviewed": false
+          },
+          "lid-6": {
+            "disposition": "stap",
+            "steps": [
+              "pe.ir1",
+              "pa.p4"
+            ],
+            "note": "LEI/EUID van KOF-ondersteunende onderaannemers wordt via de directe derde aanbieder geborgd — contractuele doorwerking in de keten; spiegelzijde aanbieder: pa.p4.",
+            "reviewed": false
+          }
+        },
+        "4": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.ir2"
+            ],
+            "note": "Tabelformaat: vooraf bepaalde kolommen, onbepaald aantal rijen.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.ir2"
+            ],
+            "note": "Eén waarde per gegevenselement; extra rij per aanvullende geldige waarde.",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.ir3"
+            ],
+            "note": "Alle gegevenselementen invullen op elk toepasselijk niveau (entiteits-, gesubconsolideerd, geconsolideerd).",
+            "reviewed": false
+          }
+        },
+        "5": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.d3"
+            ],
+            "note": "Somt de vijftien templates op (B_01.01 t/m B_99.01, punten a–o) die samen het register vormen; het volledige veldschema is geïmplementeerd in de registerwerkbank (/register) waar pe.d3 naar verwijst.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "context",
+            "note": "Facultatieve verruiming: entiteiten mógen voor eigen risico- of contractbeheer aanvullende informatie in het register opnemen, in de vorm die daarvoor het meest passend is. Geen verplichting; relevant bij het inrichten van het registerbeheer bovenop het verplichte ITS-schema.",
+            "reviewed": false
+          }
+        },
+        "6": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.ir3"
+            ],
+            "note": "Moederonderneming bepaalt de op te nemen entiteiten volgens de relevante sectorale Uniewetgeving (voor banken: de prudentiële consolidatiekring).",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.ir3"
+            ],
+            "note": "Het (gesub)geconsolideerde register omvat alle financiële entiteiten én ICT-aanbieders binnen de groep (art. 3, punt 26 DORA: 'groep') van de subgroep en de groep.",
+            "reviewed": false
+          }
+        },
+        "7": {
+          "inhoud": {
+            "disposition": "slotbepaling",
+            "note": "Inwerkingtreding twintig dagen na bekendmaking; geen overgangsregime — het ITS-formaat gold daarmee al bij de eerste jaarlijkse registeruitvraag (2025).",
+            "reviewed": false
+          }
+        }
+      },
+      "bijlagen": {
+        "i": {
+          "disposition": "stap",
+          "steps": [
+            "pe.d3",
+            "pe.ir2"
+          ],
+          "note": "De kern van de ITS: alle vijftien registertemplates (B_01.01 t/m B_99.01) met per kolom invulinstructies, datatypes en verwijzingen naar gesloten lijsten. Gebruikt bij het opbouwen en jaarlijks aanleveren van het register (pe.d3) en als validatiebasis voor datakwaliteit (pe.ir2); het volledige veldschema is afgeleid in de registerwerkbank (/register).",
+          "reviewed": false
+        },
+        "ii": {
+          "disposition": "stap",
+          "steps": [
+            "pe.ir2"
+          ],
+          "note": "Gesloten lijst van activiteiten per soort financiële entiteit (vergunningsplichtige activiteiten per sectorale richtlijn/verordening), gebruikt om de activiteitenkolommen van de entiteitstemplates in te vullen.",
+          "reviewed": false
+        },
+        "iii": {
+          "disposition": "stap",
+          "steps": [
+            "pe.ir2"
+          ],
+          "note": "Taxonomie van soorten ICT-diensten S01–S19; in de templates wordt uitsluitend de identificator opgegeven. Bepaalt de classificatie van elke geleverde ICT-dienst in het register (o.a. B_02.02).",
+          "reviewed": false
+        },
+        "iv": {
+          "disposition": "stap",
+          "steps": [
+            "pe.ir2"
+          ],
+          "note": "Instructie voor het opgeven van de 'waarde van de totale activa': per soort financiële entiteit de bron/grondslag (jaarrekening- of prudentiële cijfers) voor dit gegevenselement in de entiteitstemplate.",
+          "reviewed": false
+        }
+      }
     },
     "rts": {
-      "artikelen": {},
+      "artikelen": {
+        "1": {
+          "inhoud": {
+            "disposition": "toepassingsgebied",
+            "steps": [
+              "pe.oa1",
+              "pe.d5"
+            ],
+            "note": "Evenredigheidsbepaling: de diepgang waarmee de rest van de verordening wordt toegepast volgt uit grootte, risicoprofiel en complexiteit, aan de hand van twaalf ketenfactoren (a-l): soort KOF-ondersteunende ICT-diensten in hoofd- en subcontract, locatie van onderaannemer en moederonderneming, lengte en complexiteit van de keten, aard van de gedeelde data, EU- of derde-landvestiging (incl. feitelijke leverings- en dataverwerkingslocatie), groepslidmaatschap, toezicht-/oversightstatus in EU of derde land, concentratie bij een of enkele onderaannemers, impact op overdraagbaarheid en de potentiele impact van storingen op continuiteit en beschikbaarheid. Deze factoren sturen de diepgang van de toetsing in pe.oa1 en de ketenanalyse in pe.d5.",
+            "reviewed": false
+          }
+        },
+        "2": {
+          "inhoud": {
+            "disposition": "toepassingsgebied",
+            "steps": [
+              "pe.d2"
+            ],
+            "note": "Groepstoepassing: bij toepassing op geconsolideerd of gesubconsolideerd niveau ziet de moederonderneming die de (gesub)geconsolideerde jaarrekening opstelt erop toe dat de uitbestedingsvoorwaarden voor KOF-ondersteunende ICT-diensten coherent worden toegepast in alle financiele entiteiten van de groep en adequaat zijn op alle betrokken niveaus. Rijdt mee op de groepsactie in pe.d2 (strategie en beleid op individueel en (gesub)geconsolideerd niveau).",
+            "reviewed": false
+          }
+        },
+        "3": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.oa1",
+              "pe.d5"
+            ],
+            "reviewed": false,
+            "note": "Tien precontractuele voorwaarden voor toestaan van onderaanneming; de aanbiederszijde-doorwerking volgt in het aanbieder-playbook (epic 14)."
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.oa1"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.oa1"
+            ],
+            "note": "Vertrouwen op de risicobeoordelingen die de derde aanbieder van zijn onderaannemers maakt is toegestaan, maar beperkt de eindverantwoordelijkheid van de financiele entiteit voor haar eigen wettelijke verplichtingen onder DORA niet (actie 5 van pe.oa1).",
+            "reviewed": false
+          }
+        },
+        "4": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.oa2",
+              "pe.d9"
+            ],
+            "note": "Gericht tot de financiele entiteit: zij moet deze twaalf elementen (a-l) in haar contract met de derde aanbieder bedingen; de aanbiederszijde (doorvertaling in subcontracten, keten-monitoring) volgt als verdieping in het aanbieder-playbook (epic 14).",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.oa2",
+              "pe.d8"
+            ],
+            "reviewed": false
+          }
+        },
+        "5": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.oa3",
+              "pe.d9"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.oa3"
+            ],
+            "note": "De verordening schrijft geen vaste kennisgevings- of bezwaartermijn voor: het contract moet een 'redelijke opzegtermijn' bevatten waarbinnen de financiele entiteit kan goedkeuren of bezwaar maken.",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.oa3"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.oa3"
+            ],
+            "reviewed": false
+          }
+        },
+        "6": {
+          "inhoud": {
+            "disposition": "stap",
+            "steps": [
+              "pe.oa2",
+              "pe.oa3",
+              "pe.d7"
+            ],
+            "note": "Contractueel te bedingen beeindigingsrecht in drie gevallen (implementatie ondanks bezwaar, implementatie voor het einde van de opzegtermijn zonder toestemming, onderaanneming zonder expliciete contractuele toestemming), naast de algemene beeindigingsgronden van art. 28, lid 7 DORA waarnaar art. 4, lid 1, punt l) verwijst. Uitvoering van een beeindiging langs de exitstrategie en -plannen van pe.d7.",
+            "reviewed": false
+          }
+        },
+        "7": {
+          "inhoud": {
+            "disposition": "slotbepaling",
+            "reviewed": false
+          }
+        }
+      },
       "bijlagen": {}
     },
     "risicobeheer": {
@@ -3811,7 +4098,244 @@
       }
     },
     "contractbeleid": {
-      "artikelen": {},
+      "artikelen": {
+        "1": {
+          "inhoud": {
+            "disposition": "stap",
+            "steps": [
+              "pe.cb1"
+            ],
+            "note": "Evenredigheidsartikel: het beleid wordt gekalibreerd op omvang, algeheel risicoprofiel en complexiteit aan de hand van tien elementen — als kalibratiegrondslag verwerkt in pe.cb1; de algemene evenredigheidsgedachte loopt mee in pe.d1/pe.d2.",
+            "reviewed": false
+          }
+        },
+        "2": {
+          "inhoud": {
+            "disposition": "stap",
+            "steps": [
+              "pe.d2"
+            ],
+            "note": "Groepsplicht: de moederonderneming die de geconsolideerde overzichten opstelt zorgt voor consequente en toereikende toepassing van het beleid op alle relevante groepsniveaus — geoperationaliseerd door de groepsactie van pe.d2.",
+            "reviewed": false
+          }
+        },
+        "3": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.cb1"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.cb1"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.cb1"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.cb1"
+            ],
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "stap",
+            "steps": [
+              "pe.cb1"
+            ],
+            "reviewed": false
+          },
+          "lid-6": {
+            "disposition": "stap",
+            "steps": [
+              "pe.cb1"
+            ],
+            "reviewed": false
+          },
+          "lid-7": {
+            "disposition": "stap",
+            "steps": [
+              "pe.cb1",
+              "pe.d6"
+            ],
+            "reviewed": false
+          },
+          "lid-8": {
+            "disposition": "stap",
+            "steps": [
+              "pe.cb1",
+              "pe.d8"
+            ],
+            "reviewed": false
+          }
+        },
+        "4": {
+          "inhoud": {
+            "disposition": "stap",
+            "steps": [
+              "pe.d2",
+              "pe.cb1"
+            ],
+            "reviewed": false
+          }
+        },
+        "5": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.cb2"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.cb2",
+              "pe.d4"
+            ],
+            "reviewed": false
+          }
+        },
+        "6": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.cb3",
+              "pe.d4"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.cb3"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.cb3"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.cb3"
+            ],
+            "reviewed": false
+          }
+        },
+        "7": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.cb4",
+              "pe.d4"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.cb4"
+            ],
+            "reviewed": false
+          }
+        },
+        "8": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.cb1",
+              "pe.d8",
+              "pe.d9"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.cb5",
+              "pe.d6"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.cb5"
+            ],
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.cb1"
+            ],
+            "reviewed": false
+          }
+        },
+        "9": {
+          "lid-1": {
+            "disposition": "stap",
+            "steps": [
+              "pe.cb6",
+              "pe.d9"
+            ],
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "stap",
+            "steps": [
+              "pe.cb6"
+            ],
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "stap",
+            "steps": [
+              "pe.cb6",
+              "pe.cb2"
+            ],
+            "reviewed": false,
+            "note": "Art. 9, lid 3 verwijst naar de risicobeoordeling 'bedoeld in artikel 6' — verwijzingsfout in de verordening zelf (EN-tekst identiek); inhoudelijk is de ex-ante-risicobeoordeling van art. 5 bedoeld. Gemapt op pe.cb2 en pe.cb6."
+          },
+          "lid-4": {
+            "disposition": "stap",
+            "steps": [
+              "pe.cb6"
+            ],
+            "reviewed": false
+          }
+        },
+        "10": {
+          "inhoud": {
+            "disposition": "stap",
+            "steps": [
+              "pe.d7"
+            ],
+            "reviewed": false
+          }
+        },
+        "11": {
+          "inhoud": {
+            "disposition": "slotbepaling",
+            "reviewed": false
+          }
+        }
+      },
       "bijlagen": {}
     },
     "criticaliteit": {
