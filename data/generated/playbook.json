@@ -5441,6 +5441,66 @@
     ],
     "stappen": [
      {
+      "id": "pa.sc1",
+      "titel": "Stel vast of u derde aanbieder van ICT-diensten onder DORA bent",
+      "doel": "Een gedocumenteerde scopeconclusie per dienst en per entiteit van uw groep: valt de dienst onder 'ICT-diensten', bent u daarmee 'derde aanbieder van ICT-diensten' onder DORA, en valt u binnen het bereik van een mogelijke CTPP-aanwijzing.",
+      "acties": [
+       "Toets per aangeboden dienst of die onder de definitie van 'ICT-diensten' van artikel 3, punt 21), valt: digitale en gegevensdiensten die doorlopend via ICT-systemen aan een of meer interne of externe gebruikers worden verleend, waaronder hardware als dienst en hardwarediensten met inbegrip van technische ondersteuning via software- of firmware-updates door de hardwareaanbieder; traditionele analoge telefoondiensten zijn uitgezonderd. Leg per dienst de kwalificatie met motivering vast.",
+       "Stel vast of uw onderneming daarmee 'derde aanbieder van ICT-diensten' is (artikel 3, punt 19: een onderneming die ICT-diensten verleent) en dus als categorie u) van artikel 2, lid 1, onder het toepassingsgebied van DORA valt; let op dat alleen de categorieën a) tot en met t) 'financiële entiteiten' heten (artikel 2, lid 2) — de financiële-entiteitsverplichtingen rusten niet op u, maar de bepalingen over derde aanbieders werken via de contracten met uw klanten en, bij aanwijzing als cruciaal, via het oversightkader door.",
+       "Beoordeel de randgevallen per entiteit van uw groep tegen de vier uitsluitingen van artikel 31, lid 8 — de CTPP-aanwijzing is niet van toepassing op: financiële entiteiten die ICT-diensten verlenen aan andere financiële entiteiten; derde aanbieders die onderworpen zijn aan oversightkaders ter ondersteuning van de in artikel 127, lid 2, VWEU bedoelde taken; aanbieders van ICT-diensten binnen een groep (artikel 3, punt 20: een onderneming die deel uitmaakt van een financiële groep en hoofdzakelijk ICT-diensten verleent aan financiële entiteiten binnen dezelfde groep of aan financiële entiteiten die tot hetzelfde institutionele protectiestelsel behoren, met inbegrip van hun moedermaatschappijen, dochterondernemingen, bijkantoren of andere entiteiten die gezamenlijk eigendom zijn of onder gezamenlijke zeggenschap staan); en derde aanbieders die uitsluitend in één lidstaat ICT-diensten verlenen aan financiële entiteiten die alleen in die lidstaat actief zijn. Documenteer expliciet dat deze uitsluitingen alleen de aanwijzing betreffen, niet het toepassingsgebied van DORA zelf.",
+       "Bepaal per groepsentiteit de vestigingsplaats: bent u een 'in een derde land gevestigde derde aanbieder van ICT-diensten' (artikel 3, punt 24), houd er dan rekening mee dat financiële entiteiten na een CTPP-aanwijzing alleen van uw diensten gebruik mogen blijven maken indien u binnen twaalf maanden na de aanwijzing een dochteronderneming in de Unie hebt gevestigd (artikel 31, lid 12).",
+       "Leg de scopeconclusie per dienst en per groepsentiteit bestuurlijk vast met peildatum, markeer daarbij welke diensten volgens uw klantcontracten kritieke of belangrijke functies ondersteunen (artikel 3, punt 22) als input voor de voetafdrukanalyse (pa.p1), en herhaal de toets bij wijzigingen in dienstenportfolio, klantenkring of groepsstructuur."
+      ],
+      "bewijsstukken": [
+       "Scopeconclusie-memo per groepsentiteit met peildatum en motivering per uitsluiting/randgeval",
+       "Dienstencatalogus met per dienst de ICT-dienst-kwalificatie (artikel 3, punt 21) en KOF-markering"
+      ],
+      "rollen": [
+       "juridisch",
+       "compliance",
+       "bestuur"
+      ],
+      "refs": [
+       {
+        "label": "Art. 2, lid 1 DORA",
+        "href": "/artikel/2#lid-1"
+       },
+       {
+        "label": "Art. 2, lid 2 DORA",
+        "href": "/artikel/2#lid-2"
+       },
+       {
+        "label": "Art. 3, punt 19 DORA",
+        "href": "/artikel/3#punt-19"
+       },
+       {
+        "label": "Art. 3, punt 21 DORA",
+        "href": "/artikel/3#punt-21"
+       },
+       {
+        "label": "Art. 3, punt 20 DORA",
+        "href": "/artikel/3#punt-20"
+       },
+       {
+        "label": "Art. 3, punt 24 DORA",
+        "href": "/artikel/3#punt-24"
+       },
+       {
+        "label": "Art. 31, lid 8 DORA",
+        "href": "/artikel/31#lid-8"
+       },
+       {
+        "label": "Art. 31, lid 12 DORA",
+        "href": "/artikel/31#lid-12"
+       }
+      ],
+      "appliesTo": [
+       "aanbieder",
+       "ctpp"
+      ],
+      "prioriteit": "fundament"
+     },
+     {
       "id": "pa.p1",
       "titel": "Breng uw voetafdruk in de financiële sector in kaart",
       "doel": "Een actueel, gecategoriseerd beeld van welke financiële entiteiten uw ICT-diensten gebruiken voor kritieke of belangrijke functies, als datagrondslag voor de criticaliteitszelftoets.",
@@ -5852,7 +5912,174 @@
      "dora",
      "rts"
     ],
-    "stappen": []
+    "stappen": [
+     {
+      "id": "pa.oa1",
+      "titel": "Kwalificeer uw eigen onderaannemers en maak de keten toetsbaar voor klanten",
+      "doel": "U kunt aantonen dat uw due diligence, ketenoverzicht en monitoringcapaciteit voldoen aan de voorwaarden waaraan financiële klanten uw onderaanneming van KOF-ondersteunende ICT-diensten vóór contractering moeten toetsen (art. 3 GV 2025/532).",
+      "acties": [
+       "Richt due-diligenceprocessen in waarmee u de operationele en financiële mogelijkheden van potentiële ICT-onderaannemers voor diensten die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunen, selecteert en beoordeelt, en borg dat onderaannemers op verzoek van een financiële klant deelnemen aan tests op digitale operationele weerbaarheid (hoofdstuk IV DORA); klanten mogen het contract pas aangaan nadat zij zich hiervan hebben vergewist (art. 3, lid 1, punt a).",
+       "Houd een actueel en volledig overzicht bij van alle onderaannemers die ICT-diensten leveren die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunen, zodat u elke klant daarvan kennis kunt geven, over hen kunt informeren en alle informatie kunt verstrekken die de klant nodig heeft om de voorwaarden van art. 3 te toetsen (punt b).",
+       "Borg in uw subcontracten dat de klant zijn eigen verplichtingen uit hoofde van DORA en toepasselijke Unie- en nationale wetgeving kan nakomen (punt c) en dat elke onderaannemer aan de klant en aan de bevoegde en afwikkelingsautoriteiten dezelfde contractuele rechten van toegang en inspectie verleent als die u zelf hebt verleend (punt d).",
+       "Onderhoud aantoonbaar voldoende mogelijkheden, deskundigheid en adequate financiële, personele en technische middelen om ICT-risico's op het niveau van uw onderaannemers te monitoren, onder meer via passende standaarden inzake informatiebeveiliging, een passende organisatiestructuur, risicomanagement en interne controles, en rapportage van en respons op incidenten (punt e); dit laat de eindverantwoordelijkheid van de klant voor zijn wettelijke verplichtingen onverlet.",
+       "Lever klanten gestructureerd de keteninformatie voor hun eigen beoordelingen onder art. 3, lid 1, punten f) tot en met j) (eigen monitoringcapaciteit, impact van falen van een onderaannemer, locatierisico's, ICT-concentratierisico, audit- en toegangsbelemmeringen) en voor de periodieke herhaling daarvan bij veranderingen in de zakelijke omgeving (lid 2); klanten mogen op uw risicobeoordelingen van onderaannemers steunen zonder dat dit hun eindverantwoordelijkheid beperkt (lid 3) — lever die beoordelingen dus gedocumenteerd en actueel aan, met een diepgang die aansluit op de ketenfactoren van art. 1 (o.a. soort dienst, locatie, ketenlengte en -complexiteit, aard van de gedeelde data, concentratie en impact van storingen)."
+      ],
+      "bewijsstukken": [
+       "Due-diligence-dossier per (potentiële) onderaannemer van KOF-ondersteunende diensten",
+       "Actueel ketenoverzicht per klant met alle KOF-ondersteunende onderaannemers",
+       "Informatiepakket art. 3-voorwaarden per klant, met uw risicobeoordelingen van onderaannemers"
+      ],
+      "rollen": [
+       "inkoop",
+       "risk",
+       "juridisch",
+       "CISO"
+      ],
+      "refs": [
+       {
+        "label": "Art. 3, lid 1 GV 2025/532",
+        "href": "/rts-onderaanneming/artikel/3#lid-1"
+       },
+       {
+        "label": "Art. 3, lid 2 GV 2025/532",
+        "href": "/rts-onderaanneming/artikel/3#lid-2"
+       },
+       {
+        "label": "Art. 3, lid 3 GV 2025/532",
+        "href": "/rts-onderaanneming/artikel/3#lid-3"
+       },
+       {
+        "label": "Art. 1 GV 2025/532",
+        "href": "/rts-onderaanneming/artikel/1#inhoud"
+       },
+       {
+        "label": "Art. 30, lid 2, punt a) DORA",
+        "href": "/artikel/30#lid-2-a"
+       }
+      ],
+      "appliesTo": [
+       "aanbieder",
+       "ctpp"
+      ],
+      "prioriteit": "kern",
+      "afhankelijkVan": [
+       "pa.p1",
+       "pa.cg1"
+      ]
+     },
+     {
+      "id": "pa.oa2",
+      "titel": "Vertaal de klantcontractvoorwaarden door de hele onderaannemingsketen",
+      "doel": "Uw subcontracten en ketenbeheer maken de twaalf contractelementen waar die klantcontracten voor uitbesteding van KOF-ondersteunende ICT-diensten moeten specificeren (art. 4 GV 2025/532), zodat klanten hun monitorings-, audit-, toegangs- en continuïteitsrechten over de hele keten kunnen effectueren.",
+      "acties": [
+       "Neem in uw subcontract-templates de door te vertalen elementen op die klantcontracten van u vragen: specificeer de monitoring- en rapportageverplichtingen van de onderaannemer ten aanzien van u en, wanneer overeengekomen, ten aanzien van de klant (art. 4, lid 1, punt f); neem de vereisten inzake bedrijfsnoodplannen met de daarbij door de onderaannemer te leveren dienstenniveaus op (punt h) en specificeer de ICT-beveiligingsstandaarden en eventuele aanvullende beveiligingseisen (punt i), beide als bedoeld in art. 30, lid 3, punt c), DORA; en laat de onderaannemer aan de klant en de betrokken bevoegde en afwikkelingsautoriteiten dezelfde rechten van toegang, inspectie en audit verlenen als bedoeld in art. 30, lid 3, punt e), DORA (punt j).",
+       "Aanvaard en operationaliseer uw eigen ketenverantwoordelijkheid uit het klantcontract: u blijft verantwoordelijk voor het leveren van de door onderaannemers aangeboden diensten (punt a), u monitort alle uitbestede KOF-ondersteunende ICT-diensten zodat uw contractuele verplichtingen aan de klant doorlopend vervuld worden (punt b), en u rapporteert aan de klant conform de bedongen monitoring- en rapportageverplichtingen over uw onderaannemers (punt c).",
+       "Beoordeel alle risico's die verbonden zijn aan de locatie van actuele of potentiële onderaannemers van KOF-ondersteunende diensten en van hun moederonderneming, en aan de locatie van waaruit de ICT-diensten worden aangeboden (punt d), en leg de locatie van verwerking en opslag van data door de onderaannemer vast (punt e), zodat het klantcontract deze kan specificeren.",
+       "Borg de continuïteit van de KOF-ondersteunende ICT-diensten doorheen de hele keten van onderaannemers wanneer een onderaannemer zijn contractuele verplichtingen niet nakomt (punt g), en richt de kennisgeving van materiële veranderingen in uitbestedingsregelingen (punt k) en het opzegrecht van de klant (punt l) operationeel in — de wijzigings- en beëindigingskant wordt uitgewerkt in pa.oa3.",
+       "Werk mee aan het tijdig en zo spoedig mogelijk implementeren van veranderingen in lopende klantcontracten die nodig zijn geworden om aan de verordening te voldoen, en lever de input voor het tijdschema dat de klant daarvoor documenteert (art. 4, lid 2)."
+      ],
+      "bewijsstukken": [
+       "Subcontract-template met mapping per element van art. 4, lid 1, GV 2025/532",
+       "Ketenmonitoring- en rapportageprocedure met rapportagevoorbeelden per klant",
+       "Locatierisico- en datalocatieregister per onderaannemer",
+       "Continuïteitsdraaiboek keten bij niet-nakoming door een onderaannemer"
+      ],
+      "rollen": [
+       "juridisch",
+       "inkoop",
+       "CISO",
+       "sales/accountmanagement"
+      ],
+      "refs": [
+       {
+        "label": "Art. 4, lid 1 GV 2025/532",
+        "href": "/rts-onderaanneming/artikel/4#lid-1"
+       },
+       {
+        "label": "Art. 4, lid 2 GV 2025/532",
+        "href": "/rts-onderaanneming/artikel/4#lid-2"
+       },
+       {
+        "label": "Art. 30, lid 2, punt a) DORA",
+        "href": "/artikel/30#lid-2-a"
+       },
+       {
+        "label": "Art. 30, lid 3, punt c) DORA",
+        "href": "/artikel/30#lid-3-c"
+       },
+       {
+        "label": "Art. 30, lid 3, punt e) DORA",
+        "href": "/artikel/30#lid-3-e"
+       }
+      ],
+      "appliesTo": [
+       "aanbieder",
+       "ctpp"
+      ],
+      "prioriteit": "kern",
+      "afhankelijkVan": [
+       "pa.cg1",
+       "pa.oa1"
+      ]
+     },
+     {
+      "id": "pa.oa3",
+      "titel": "Meld wijzigingen in de keten vooraf en respecteer goedkeuring of bezwaar van de klant",
+      "doel": "Geen enkele materiële verandering in uw uitbestedingsregelingen voor KOF-ondersteunende ICT-diensten wordt geïmplementeerd voordat de betrokken klant ruim vooraf is geïnformeerd en binnen de contractuele opzegtermijn heeft goedgekeurd of geen bezwaar heeft gemaakt (art. 5 en 6 GV 2025/532).",
+      "acties": [
+       "Richt een wijzigingsproces in dat elke beoogde materiële verandering in uw uitbestedingsregelingen ruim vooraf aan de betrokken financiële klanten meldt, met de informatie waarmee de klant kan beoordelen wat de impact is op de risico's waaraan hij is of kan worden blootgesteld en of de verandering van invloed kan zijn op uw vermogen om uw contractuele verplichtingen na te komen (art. 5, lid 1).",
+       "Respecteer de redelijke opzegtermijn die het klantcontract voor goedkeuring of bezwaar bevat (art. 5, lid 2): implementeer een materiële verandering pas nadat de klant deze heeft goedgekeurd of tegen het einde van de termijn geen bezwaar heeft gemaakt (art. 5, lid 3); registreer per klant kennisgevingsdatum, termijn en uitkomst in het contractdossier.",
+       "Vang bezwaar operationeel op: wanneer een klant vóór het einde van de opzegtermijn laat weten dat de verandering zijn risicotolerantie te boven gaat, daartegen bezwaar maakt en aanpassingen eist (art. 5, lid 4), pas de beoogde verandering dan aan vóór implementatie of zie ervan af, en escaleer intern via een vast besluitvormingspad.",
+       "Voorkom de drie situaties waarin de klant het contractueel bedongen beëindigingsrecht van art. 6 kan inroepen: implementatie van materiële veranderingen ondanks bezwaar en verzoek om aanpassing; implementatie zonder toestemming vóór het einde van de opzegtermijn; en uitbesteding van een KOF-ondersteunende ICT-dienst zonder expliciete contractuele toestemming — blokkeer in uw contract- en wijzigingsproces elke onderaanneming die niet expliciet in het klantcontract is toegestaan (art. 30, lid 2, punt a), DORA).",
+       "Actualiseer na elke doorgevoerde wijziging het ketenoverzicht en de registerdata die u aan klanten aanlevert (pa.p4), zodat hun informatieregister en herbeoordelingen op de actuele keten steunen."
+      ],
+      "bewijsstukken": [
+       "Wijzigingsprocedure onderaannemingsketen met kennisgevings- en termijnbewaking per klant",
+       "Log van kennisgevingen, klantbeoordelingen, goedkeuringen en bezwaren per contract",
+       "Escalatie- en aanpassingsdossier bij bezwaar van een klant"
+      ],
+      "rollen": [
+       "juridisch",
+       "sales/accountmanagement",
+       "inkoop",
+       "compliance"
+      ],
+      "refs": [
+       {
+        "label": "Art. 5, lid 1 GV 2025/532",
+        "href": "/rts-onderaanneming/artikel/5#lid-1"
+       },
+       {
+        "label": "Art. 5, lid 2 GV 2025/532",
+        "href": "/rts-onderaanneming/artikel/5#lid-2"
+       },
+       {
+        "label": "Art. 5, lid 3 GV 2025/532",
+        "href": "/rts-onderaanneming/artikel/5#lid-3"
+       },
+       {
+        "label": "Art. 5, lid 4 GV 2025/532",
+        "href": "/rts-onderaanneming/artikel/5#lid-4"
+       },
+       {
+        "label": "Art. 6 GV 2025/532",
+        "href": "/rts-onderaanneming/artikel/6#inhoud"
+       },
+       {
+        "label": "Art. 30, lid 2, punt a) DORA",
+        "href": "/artikel/30#lid-2-a"
+       }
+      ],
+      "appliesTo": [
+       "aanbieder",
+       "ctpp"
+      ],
+      "prioriteit": "kern",
+      "afhankelijkVan": [
+       "pa.oa2"
+      ]
+     }
+    ]
    },
    {
     "id": "f4",
@@ -5864,7 +6091,213 @@
      "its",
      "tlpt"
     ],
-    "stappen": []
+    "stappen": [
+     {
+      "id": "pa.kv1",
+      "titel": "Ondersteun het incidentbeheer en de meldketen van uw klanten",
+      "doel": "Uw klanten kunnen met uw signalen, gegevens en bijstand hun incidentverplichtingen van de artikelen 17 tot en met 19 DORA — detectie, registratie, classificatie, melding aan de autoriteit en kennisgeving aan cliënten — binnen de wettelijke termijnen nakomen.",
+      "acties": [
+       "Richt per klant een afgesproken signaleringskanaal in: meld verstoringen, ICT-incidenten en indicatoren die op een incident bij uw dienst kunnen wijzen onverwijld aan de door de klant aangewezen contactpunten, zodat de klant zijn beheerproces voor het detecteren, beheren en melden van ICT-gerelateerde incidenten (art. 17, lid 1, DORA) kan activeren; leg contactpunten, bereikbaarheid en escalatie vast in de dienstverleningsafspraken.",
+       "Lever bij elk incident dat uw dienst raakt de gegevens die de klant nodig heeft om te classificeren langs de criteria van art. 18, lid 1, DORA, waaronder de tijdstippen van begin, ontdekking en herstel, de duur en de uitvaltijd van de dienst, de getroffen diensten en — voor zover bij u bekend — cliënten en transacties, de geografische spreiding, gegevensverliezen met betrekking tot beschikbaarheid, authenticiteit, integriteit of vertrouwelijkheid, en de bij u bekende kosteninformatie.",
+       "Stem uw informatielevering af op de meldritmiek van art. 19, lid 4, DORA: snelle eerste feiten voor de eerste kennisgeving, actualisaties bij elke ingrijpende statuswijziging of relevante nieuwe informatie voor het tussentijdse verslag, en voor het eindverslag de voltooide analyse van de onderliggende oorzaken aan uw kant en werkelijke impactcijfers in plaats van ramingen.",
+       "Werk mee aan herstel en follow-up: verleen de contractueel vastgelegde bijstand bij incidenten die verband houden met de aan de klant geleverde ICT-dienst zonder extra kosten of tegen de vooraf bepaalde kostprijs (art. 30, lid 2, punt f), DORA), en spoor onderliggende oorzaken aan uw kant op, documenteer ze en neem ze weg zodat herhaling wordt voorkomen (art. 17, lid 2, DORA).",
+       "Lever de feitelijke informatie over het incident en de genomen beperkende maatregelen waarmee de klant cliënten wier financiële belangen zijn geraakt onverwijld kan informeren, en bij een significante cyberdreiging de informatie over passende beschermingsmaatregelen die mogelijk getroffen cliënten zelf kunnen nemen (art. 19, lid 3, DORA).",
+       "Voert u als dienstverlener de rapportageverplichtingen van artikel 19 voor een klant uit (uitbesteding, art. 19, lid 5, DORA): regel contractueel de meldtermijnen, het modelgebruik, escalatie en tijdige informatieaanlevering, en richt uw proces zo in dat de klant — die volledig verantwoordelijk blijft voor de naleving van de rapportagevereisten — daarop aantoonbaar kan steunen."
+      ],
+      "bewijsstukken": [
+       "Incidentkennisgevings- en escalatieprocedure per klant(type) met contactpunten, kanalen en termijnafspraken",
+       "Standaard incidentinformatiepakket gestructureerd langs de classificatiecriteria van art. 18, lid 1, DORA",
+       "Incidentdossiers met geleverde eerste feiten, tussentijdse actualisaties en oorzaakanalyses",
+       "Bij uitbestede rapportage: procesbeschrijving met termijn- en modelborging en verantwoordelijkheidsverdeling"
+      ],
+      "rollen": [
+       "CISO",
+       "compliance",
+       "sales/accountmanagement"
+      ],
+      "refs": [
+       {
+        "label": "Art. 17, lid 1 DORA",
+        "href": "/artikel/17#lid-1"
+       },
+       {
+        "label": "Art. 17, lid 2 DORA",
+        "href": "/artikel/17#lid-2"
+       },
+       {
+        "label": "Art. 18, lid 1 DORA",
+        "href": "/artikel/18#lid-1"
+       },
+       {
+        "label": "Art. 19, lid 3 DORA",
+        "href": "/artikel/19#lid-3"
+       },
+       {
+        "label": "Art. 19, lid 4 DORA",
+        "href": "/artikel/19#lid-4"
+       },
+       {
+        "label": "Art. 19, lid 5 DORA",
+        "href": "/artikel/19#lid-5"
+       },
+       {
+        "label": "Art. 30, lid 2 DORA",
+        "href": "/artikel/30#lid-2"
+       }
+      ],
+      "appliesTo": [
+       "aanbieder",
+       "ctpp"
+      ],
+      "prioriteit": "kern",
+      "afhankelijkVan": [
+       "pa.cg1"
+      ]
+     },
+     {
+      "id": "pa.kv2",
+      "titel": "Neem deel aan TLPT's van klanten, van scoping tot remediëring",
+      "doel": "Wanneer uw ICT-diensten binnen het toepassingsgebied van een dreigingsgestuurde penetratietest van een klant vallen, is uw deelname operationeel geborgd — scoping-input, geheimhouding, risicobeheersing, de gebundelde-testoptie en remediëring — zonder de dienstverlening aan andere klanten te schaden.",
+      "acties": [
+       "Borg uw deelname organisatorisch: vallen uw ICT-diensten binnen het toepassingsgebied van een TLPT, dan neemt de klant maatregelen en waarborgen om uw deelname te waarborgen (art. 26, lid 3, DORA) en is deelname aan en volledige medewerking bij de TLPT een verplicht contractelement voor KOF-ondersteunende diensten (art. 30, lid 3, punt d), DORA); wijs een vast, tot geheimhouding verplicht aanspreekpunt aan en richt een intern proces in voor TLPT-verzoeken van klanten.",
+       "Lever scoping-input: de klant moet alle relevante onderliggende ICT-systemen, -processen en technologieën bepalen die kritieke of belangrijke functies ondersteunen, ook die van uitbestede of met u contractueel overeengekomen functies (art. 26, lid 2, DORA), en vermeldt per uitbesteed systeem uw naam in het scoping-document (bijlage II GV 2025/1190); lever de daarvoor benodigde systeem- en afhankelijkheidsinformatie tijdig en volledig aan het control team van de klant.",
+       "Weeg de gebundelde test af: mag redelijkerwijs worden verwacht dat uw deelname een negatief effect heeft op de kwaliteit of de beveiliging van diensten die u verleent aan klanten die buiten het toepassingsgebied van DORA vallen, of op de vertrouwelijkheid van de gegevens met betrekking tot die diensten, dan kunt u met de financiële entiteit schriftelijk overeenkomen dat u rechtstreeks een contractuele overeenkomst met een externe tester sluit voor een gebundelde TLPT onder leiding van één aangewezen financiële entiteit; de gebundelde test dekt het relevante gamma van KOF-ondersteunende ICT-diensten en het aantal deelnemende entiteiten wordt afgestemd op de complexiteit en de aard van de betrokken diensten (art. 26, lid 4, DORA).",
+       "Houd er rekening mee dat bij een gepoolde TLPT ten minste één scenario de onderliggende ICT-systemen, -processen en -technologieën omvat van de derde aanbieder die de kritieke of belangrijke functies van de betrokken klanten ondersteunt (art. 10, lid 4, GV 2025/1190): uw omgeving is dan zelf doelwit van het testscenario; hetzelfde geldt bij een gezamenlijke TLPT waarbij een intragroepsaanbieder van ICT-diensten is betrokken.",
+       "Werk mee aan de risicobeheersing van de test: de klant past met uw medewerking doeltreffende risicobeheerscontroles toe om potentiële effecten op gegevens, schade aan activa en verstoring van kritieke of belangrijke functies te mitigeren (art. 26, lid 5, DORA); meld buitengewone risico's voor uw data, activa of dienstverlening onmiddellijk aan het control team, zodat de leider daarvan de TLPT zo nodig kan opschorten (art. 11, lid 10, GV 2025/1190).",
+       "Borg geheimhouding en het ontdekkingsprotocol: uw betrokken personeel valt onder de geheimhoudingsregelingen van de TLPT en verwijst waar mogelijk alleen met een codenaam naar de test (art. 4, lid 2, GV 2025/1190); instrueer personeel dat elke ontdekking van testwerkzaamheden uitsluitend via het afgesproken kanaal aan het control team wordt gemeld (art. 4, lid 2, punt c), GV 2025/1190); het control team stelt daarna, in overleg met de testers, aan de testmanagers maatregelen voor waarmee de test geheim kan worden voortgezet (art. 11, lid 9).",
+       "Werk mee aan de afsluiting: herstel bevindingen die uw systemen of diensten raken en lever input voor de root cause analysis en de remediërende maatregelen in het remediëringsplan van de klant (art. 13, lid 2, GV 2025/1190); uw deelname wordt in voorkomend geval vermeld in het TLPT-attest (bijlage VIII GV 2025/1190)."
+      ],
+      "bewijsstukken": [
+       "Intern TLPT-draaiboek (aanspreekpunt, geheimhoudingsinstructie, codenaamgebruik, ontdekkingsmeldprotocol)",
+       "Afwegingsdossier gebundelde test per klant(groep) met de schriftelijke overeenkomst en de contractuele overeenkomst met de externe tester",
+       "Scoping-informatiepakket per klant (systemen, processen, technologieën en afhankelijkheden binnen de scope)",
+       "Remediëringsdossier met herstelde TLPT-bevindingen en geleverde root-cause-input"
+      ],
+      "rollen": [
+       "CISO",
+       "juridisch",
+       "sales/accountmanagement"
+      ],
+      "refs": [
+       {
+        "label": "Art. 26, lid 2 DORA",
+        "href": "/artikel/26#lid-2"
+       },
+       {
+        "label": "Art. 26, lid 3 DORA",
+        "href": "/artikel/26#lid-3"
+       },
+       {
+        "label": "Art. 26, lid 4 DORA",
+        "href": "/artikel/26#lid-4"
+       },
+       {
+        "label": "Art. 26, lid 5 DORA",
+        "href": "/artikel/26#lid-5"
+       },
+       {
+        "label": "Art. 30, lid 3 DORA",
+        "href": "/artikel/30#lid-3"
+       },
+       {
+        "label": "Art. 4, lid 2 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/4#lid-2"
+       },
+       {
+        "label": "Art. 10, lid 4 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/10#lid-4"
+       },
+       {
+        "label": "Art. 11, lid 9 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/11#lid-9"
+       },
+       {
+        "label": "Art. 11, lid 10 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/11#lid-10"
+       },
+       {
+        "label": "Art. 13, lid 2 GV 2025/1190",
+        "href": "/rts-tlpt/artikel/13#lid-2"
+       },
+       {
+        "label": "Bijlage II GV 2025/1190",
+        "href": "/rts-tlpt/bijlage/ii"
+       },
+       {
+        "label": "Bijlage VIII GV 2025/1190",
+        "href": "/rts-tlpt/bijlage/viii"
+       }
+      ],
+      "appliesTo": [
+       "aanbieder",
+       "ctpp"
+      ],
+      "prioriteit": "verdieping",
+      "afhankelijkVan": [
+       "pa.cg1"
+      ]
+     },
+     {
+      "id": "pa.kv3",
+      "titel": "Lever registergegevens gestructureerd volgens de ITS-taxonomie",
+      "doel": "Klanten ontvangen per contract een actuele gegevensset die rechtstreeks in de registertemplates van UV (EU) 2024/2956 past — LEI/EUID-identificatie, diensttypologie S01–S19 en de onderaannemersketen met rankings — als verdieping op pa.p4, dat de juistheid van die gegevens in klantregisters bewaakt.",
+      "acties": [
+       "Identificeer uzelf — als u rechtspersoon bent — in elke gegevenslevering met een geldige en actieve LEI of EUID, en indien beschikbaar beide identificatiecodes (art. 3, lid 5, UV 2024/2956; individuen die handelen in de uitoefening van bedrijf vallen buiten deze identificatie-eis); dit geldt ook wanneer u als aanbieder van ICT-diensten binnen een groep aan andere financiële entiteiten binnen dezelfde groep levert — u bent dan directe derde aanbieder van ICT-diensten in de zin van art. 1, punt 1), en wordt als zodanig in de groepsregisters opgenomen.",
+       "Classificeer elke geleverde ICT-dienst volgens de gesloten taxonomie van bijlage III bij UV 2024/2956 (S01 tot en met S19) en geef in de aanlevering alleen de identificator van de desbetreffende soort ICT-dienst op; stem randgevallen met de klant af, zodat dezelfde dienst niet onder verschillende soorten in verschillende registers verschijnt.",
+       "Lever per KOF-ondersteunende ICT-dienst de toeleveringsketen aan: alle onderaannemers die daadwerkelijk ICT-diensten verlenen die de kritieke of belangrijke functies of wezenlijke onderdelen daarvan ondersteunen (art. 3, lid 2, punt b), UV 2024/2956), met per schakel een ranking volgens art. 2 — u als directe aanbieder steeds '1', elke onderaannemer een getal groter dan '1', waarbij een lager getal dichter bij de financiële entiteit staat — als bron voor de keten-templates B_05.01 en B_05.02.",
+       "Borg de identificatie van uw KOF-onderaannemers: klanten moeten er via ú voor zorgen dat die onderaannemers een geldige en actieve LEI gebruiken of hun EUID verstrekken, en indien beschikbaar beide identificatiecodes, tenzij het individuen zijn die handelen in een zakelijke hoedanigheid (art. 3, lid 6, UV 2024/2956); neem die aanleverplicht op in uw onderaannemingscontracten.",
+       "Houd de gegevensset actueel: meld elke wijziging in diensten, onderaannemersketen of identificatiegegevens proactief aan uw klanten, die de registerinformatie regelmatig moeten evalueren en geconstateerde fouten of afwijkingen onmiddellijk moeten corrigeren (art. 3, lid 3, UV 2024/2956), en sluit uw aanlevermoment aan op de actualisatiecyclus die u in pa.p4 hebt gepland."
+      ],
+      "bewijsstukken": [
+       "Registergegevensset per klant en per contract (LEI/EUID, S01–S19-typering, ketenoverzicht met rankings) met versiebeheer",
+       "LEI/EUID-aanleverclausule in onderaannemingscontracten voor KOF-ondersteunende diensten",
+       "Wijzigingslog registerdata, aansluitend op het aanleverdossier van pa.p4"
+      ],
+      "rollen": [
+       "sales/accountmanagement",
+       "compliance",
+       "juridisch"
+      ],
+      "refs": [
+       {
+        "label": "Art. 1 UV 2024/2956",
+        "href": "/its-register/artikel/1#inhoud"
+       },
+       {
+        "label": "Art. 2 UV 2024/2956",
+        "href": "/its-register/artikel/2#inhoud"
+       },
+       {
+        "label": "Art. 3, lid 2 UV 2024/2956",
+        "href": "/its-register/artikel/3#lid-2"
+       },
+       {
+        "label": "Art. 3, lid 5 UV 2024/2956",
+        "href": "/its-register/artikel/3#lid-5"
+       },
+       {
+        "label": "Art. 3, lid 6 UV 2024/2956",
+        "href": "/its-register/artikel/3#lid-6"
+       },
+       {
+        "label": "Bijlage III UV 2024/2956",
+        "href": "/its-register/bijlage/iii"
+       },
+       {
+        "label": "Art. 28, lid 3 DORA",
+        "href": "/artikel/28#lid-3"
+       }
+      ],
+      "appliesTo": [
+       "aanbieder",
+       "ctpp"
+      ],
+      "prioriteit": "kern",
+      "afhankelijkVan": [
+       "pa.p4"
+      ]
+     }
+    ]
    },
    {
     "id": "f5",
@@ -5958,7 +6391,8 @@
       "lid-1": {
        "disposition": "toepassingsgebied",
        "steps": [
-        "pe.s1"
+        "pe.s1",
+        "pa.sc1"
        ],
        "note": "De 21 entiteitscategorieën (punten a)–u)) waarop DORA van toepassing is, onder voorbehoud van de uitsluitingen van lid 3 en de opt-outs van lid 4. Startpunt van elke scopebepaling; punt u) brengt ook derde aanbieders van ICT-diensten binnen het toepassingsgebied (relevant voor het aanbieder-playbook).",
        "reviewed": false
@@ -5966,7 +6400,8 @@
       "lid-2": {
        "disposition": "toepassingsgebied",
        "steps": [
-        "pe.s1"
+        "pe.s1",
+        "pa.sc1"
        ],
        "note": "Alleen de categorieën a) tot en met t) heten 'financiële entiteiten'; derde aanbieders van ICT-diensten (punt u)) vallen wel onder de verordening maar dragen de financiële-entiteitsverplichtingen niet. Bepalend voor welk playbook (entiteit of aanbieder) op de organisatie van toepassing is.",
        "reviewed": false
@@ -5992,7 +6427,10 @@
       "inhoud": {
        "disposition": "definitie",
        "note": "65 definities die het hele corpus dragen; sleutelbegrippen voor de scopefase zijn 'kritieke of belangrijke functie' (punt 22)), 'ICT-diensten' (punt 21)) en de grootteklassen micro-, kleine en middelgrote onderneming (punten 60), 63) en 64)). De begrippen zijn afzonderlijk ontsloten in de begrippenlijst van dit playbook.",
-       "reviewed": false
+       "reviewed": false,
+       "steps": [
+        "pa.sc1"
+       ]
       }
      },
      "4": {
@@ -6486,14 +6924,16 @@
       "lid-1": {
        "disposition": "stap",
        "steps": [
-        "pe.i1"
+        "pe.i1",
+        "pa.kv1"
        ],
        "reviewed": false
       },
       "lid-2": {
        "disposition": "stap",
        "steps": [
-        "pe.i2"
+        "pe.i2",
+        "pa.kv1"
        ],
        "reviewed": false
       },
@@ -6509,7 +6949,8 @@
       "lid-1": {
        "disposition": "stap",
        "steps": [
-        "pe.i3"
+        "pe.i3",
+        "pa.kv1"
        ],
        "reviewed": false
       },
@@ -6552,21 +6993,24 @@
       "lid-3": {
        "disposition": "stap",
        "steps": [
-        "pe.i5"
+        "pe.i5",
+        "pa.kv1"
        ],
        "reviewed": false
       },
       "lid-4": {
        "disposition": "stap",
        "steps": [
-        "pe.i4"
+        "pe.i4",
+        "pa.kv1"
        ],
        "reviewed": false
       },
       "lid-5": {
        "disposition": "stap",
        "steps": [
-        "pe.i7"
+        "pe.i7",
+        "pa.kv1"
        ],
        "reviewed": false
       },
@@ -6717,28 +7161,32 @@
       "lid-2": {
        "disposition": "stap",
        "steps": [
-        "pe.t4"
+        "pe.t4",
+        "pa.kv2"
        ],
        "reviewed": false
       },
       "lid-3": {
        "disposition": "stap",
        "steps": [
-        "pe.t5"
+        "pe.t5",
+        "pa.kv2"
        ],
        "reviewed": false
       },
       "lid-4": {
        "disposition": "stap",
        "steps": [
-        "pe.t5"
+        "pe.t5",
+        "pa.kv2"
        ],
        "reviewed": false
       },
       "lid-5": {
        "disposition": "stap",
        "steps": [
-        "pe.t6"
+        "pe.t6",
+        "pa.kv2"
        ],
        "reviewed": false
       },
@@ -6914,7 +7362,9 @@
        "disposition": "stap",
        "steps": [
         "pe.d8",
-        "pa.cg1"
+        "pa.cg1",
+        "pa.oa2",
+        "pa.oa3"
        ],
        "reviewed": false
       },
@@ -6991,7 +7441,10 @@
       "lid-8": {
        "disposition": "toepassingsgebied",
        "note": "Uitsluitingen van de aanwijzing: financiële entiteiten die zelf ICT-diensten aan andere financiële entiteiten leveren, aanbieders onder Eurosysteem-oversightkaders, intragroepsaanbieders en aanbieders die uitsluitend in één lidstaat aan uitsluitend daar actieve entiteiten leveren.",
-       "reviewed": false
+       "reviewed": false,
+       "steps": [
+        "pa.sc1"
+       ]
       },
       "lid-9": {
        "disposition": "autoriteit",
@@ -7017,7 +7470,8 @@
       "lid-12": {
        "disposition": "stap",
        "steps": [
-        "pe.o1"
+        "pe.o1",
+        "pa.sc1"
        ],
        "reviewed": false
       },
@@ -7718,14 +8172,18 @@
       "inhoud": {
        "disposition": "definitie",
        "note": "Definieert 'directe derde aanbieder van ICT-diensten' (ranking 1, incl. intra-groepsaanbieders die aan groepsentiteiten leveren), 'toeleveringsketen van ICT-diensten' en 'ranking' — de sleutelbegrippen voor de ketentemplates B_05.01/B_05.02.",
-       "reviewed": false
+       "reviewed": false,
+       "steps": [
+        "pa.kv3"
+       ]
       }
      },
      "2": {
       "inhoud": {
        "disposition": "stap",
        "steps": [
-        "pe.ir1"
+        "pe.ir1",
+        "pa.kv3"
        ],
        "note": "Rankingmethodiek: directe aanbieder altijd '1', onderaannemers steeds groter dan '1'; hoe lager het getal, hoe dichter bij de entiteit.",
        "reviewed": false
@@ -7744,7 +8202,8 @@
        "disposition": "stap",
        "steps": [
         "pe.d3",
-        "pe.ir1"
+        "pe.ir1",
+        "pa.kv3"
        ],
        "note": "Alle ICT-diensten van directe aanbieders (pe.d3); onderaannemers alleen voor zover zij daadwerkelijk KOF-ondersteunende ICT-diensten verlenen (pe.ir1).",
        "reviewed": false
@@ -7753,7 +8212,8 @@
        "disposition": "stap",
        "steps": [
         "pe.ir2",
-        "pe.ir3"
+        "pe.ir3",
+        "pa.kv3"
        ],
        "note": "Nauwkeurigheid/consistentie, regelmatige evaluatie en onmiddellijke foutcorrectie (pe.ir2); tweede alinea: consistentie entiteitsniveau vs. (gesub)geconsolideerd register (pe.ir3).",
        "reviewed": false
@@ -7768,7 +8228,8 @@
       "lid-5": {
        "disposition": "stap",
        "steps": [
-        "pe.ir2"
+        "pe.ir2",
+        "pa.kv3"
        ],
        "note": "LEI of EUID (beide indien beschikbaar) voor elke rechtspersoon-aanbieder, m.u.v. beroepsmatig handelende individuen.",
        "reviewed": false
@@ -7777,7 +8238,8 @@
        "disposition": "stap",
        "steps": [
         "pe.ir1",
-        "pa.p4"
+        "pa.p4",
+        "pa.kv3"
        ],
        "note": "LEI/EUID van KOF-ondersteunende onderaannemers wordt via de directe derde aanbieder geborgd — contractuele doorwerking in de keten; spiegelzijde aanbieder: pa.p4.",
        "reviewed": false
@@ -7855,7 +8317,8 @@
       "disposition": "stap",
       "steps": [
        "pe.d3",
-       "pe.ir2"
+       "pe.ir2",
+       "pa.kv3"
       ],
       "note": "De kern van de ITS: alle vijftien registertemplates (B_01.01 t/m B_99.01) met per kolom invulinstructies, datatypes en verwijzingen naar gesloten lijsten. Gebruikt bij het opbouwen en jaarlijks aanleveren van het register (pe.d3) en als validatiebasis voor datakwaliteit (pe.ir2); het volledige veldschema is afgeleid in de registerwerkbank (/register).",
       "reviewed": false
@@ -7871,7 +8334,8 @@
      "iii": {
       "disposition": "stap",
       "steps": [
-       "pe.ir2"
+       "pe.ir2",
+       "pa.kv3"
       ],
       "note": "Taxonomie van soorten ICT-diensten S01–S19; in de templates wordt uitsluitend de identificator opgegeven. Bepaalt de classificatie van elke geleverde ICT-dienst in het register (o.a. B_02.02).",
       "reviewed": false
@@ -7893,7 +8357,8 @@
        "disposition": "toepassingsgebied",
        "steps": [
         "pe.oa1",
-        "pe.d5"
+        "pe.d5",
+        "pa.oa1"
        ],
        "note": "Evenredigheidsbepaling: de diepgang waarmee de rest van de verordening wordt toegepast volgt uit grootte, risicoprofiel en complexiteit, aan de hand van twaalf ketenfactoren (a-l): soort KOF-ondersteunende ICT-diensten in hoofd- en subcontract, locatie van onderaannemer en moederonderneming, lengte en complexiteit van de keten, aard van de gedeelde data, EU- of derde-landvestiging (incl. feitelijke leverings- en dataverwerkingslocatie), groepslidmaatschap, toezicht-/oversightstatus in EU of derde land, concentratie bij een of enkele onderaannemers, impact op overdraagbaarheid en de potentiele impact van storingen op continuiteit en beschikbaarheid. Deze factoren sturen de diepgang van de toetsing in pe.oa1 en de ketenanalyse in pe.d5.",
        "reviewed": false
@@ -7914,7 +8379,8 @@
        "disposition": "stap",
        "steps": [
         "pe.oa1",
-        "pe.d5"
+        "pe.d5",
+        "pa.oa1"
        ],
        "reviewed": false,
        "note": "Tien precontractuele voorwaarden voor toestaan van onderaanneming; de aanbiederszijde-doorwerking volgt in het aanbieder-playbook (epic 14)."
@@ -7922,14 +8388,16 @@
       "lid-2": {
        "disposition": "stap",
        "steps": [
-        "pe.oa1"
+        "pe.oa1",
+        "pa.oa1"
        ],
        "reviewed": false
       },
       "lid-3": {
        "disposition": "stap",
        "steps": [
-        "pe.oa1"
+        "pe.oa1",
+        "pa.oa1"
        ],
        "note": "Vertrouwen op de risicobeoordelingen die de derde aanbieder van zijn onderaannemers maakt is toegestaan, maar beperkt de eindverantwoordelijkheid van de financiele entiteit voor haar eigen wettelijke verplichtingen onder DORA niet (actie 5 van pe.oa1).",
        "reviewed": false
@@ -7940,7 +8408,8 @@
        "disposition": "stap",
        "steps": [
         "pe.oa2",
-        "pe.d9"
+        "pe.d9",
+        "pa.oa2"
        ],
        "note": "Gericht tot de financiele entiteit: zij moet deze twaalf elementen (a-l) in haar contract met de derde aanbieder bedingen; de aanbiederszijde (doorvertaling in subcontracten, keten-monitoring) volgt als verdieping in het aanbieder-playbook (epic 14).",
        "reviewed": false
@@ -7949,7 +8418,8 @@
        "disposition": "stap",
        "steps": [
         "pe.oa2",
-        "pe.d8"
+        "pe.d8",
+        "pa.oa2"
        ],
        "reviewed": false
       }
@@ -7959,14 +8429,16 @@
        "disposition": "stap",
        "steps": [
         "pe.oa3",
-        "pe.d9"
+        "pe.d9",
+        "pa.oa3"
        ],
        "reviewed": false
       },
       "lid-2": {
        "disposition": "stap",
        "steps": [
-        "pe.oa3"
+        "pe.oa3",
+        "pa.oa3"
        ],
        "note": "De verordening schrijft geen vaste kennisgevings- of bezwaartermijn voor: het contract moet een 'redelijke opzegtermijn' bevatten waarbinnen de financiele entiteit kan goedkeuren of bezwaar maken.",
        "reviewed": false
@@ -7974,14 +8446,16 @@
       "lid-3": {
        "disposition": "stap",
        "steps": [
-        "pe.oa3"
+        "pe.oa3",
+        "pa.oa3"
        ],
        "reviewed": false
       },
       "lid-4": {
        "disposition": "stap",
        "steps": [
-        "pe.oa3"
+        "pe.oa3",
+        "pa.oa3"
        ],
        "reviewed": false
       }
@@ -7992,7 +8466,8 @@
        "steps": [
         "pe.oa2",
         "pe.oa3",
-        "pe.d7"
+        "pe.d7",
+        "pa.oa3"
        ],
        "note": "Contractueel te bedingen beeindigingsrecht in drie gevallen (implementatie ondanks bezwaar, implementatie voor het einde van de opzegtermijn zonder toestemming, onderaanneming zonder expliciete contractuele toestemming), naast de algemene beeindigingsgronden van art. 28, lid 7 DORA waarnaar art. 4, lid 1, punt l) verwijst. Uitvoering van een beeindiging langs de exitstrategie en -plannen van pe.d7.",
        "reviewed": false
@@ -9544,7 +10019,8 @@
       "lid-2": {
        "disposition": "stap",
        "steps": [
-        "pe.tl1"
+        "pe.tl1",
+        "pa.kv2"
        ],
        "reviewed": false
       }
@@ -9721,7 +10197,8 @@
       "lid-4": {
        "disposition": "stap",
        "steps": [
-        "pe.tl5"
+        "pe.tl5",
+        "pa.kv2"
        ],
        "reviewed": false
       },
@@ -9800,14 +10277,16 @@
       "lid-9": {
        "disposition": "stap",
        "steps": [
-        "pe.tl6"
+        "pe.tl6",
+        "pa.kv2"
        ],
        "reviewed": false
       },
       "lid-10": {
        "disposition": "stap",
        "steps": [
-        "pe.tl6"
+        "pe.tl6",
+        "pa.kv2"
        ],
        "reviewed": false
       }
@@ -9876,7 +10355,8 @@
       "lid-2": {
        "disposition": "stap",
        "steps": [
-        "pe.tl7"
+        "pe.tl7",
+        "pa.kv2"
        ],
        "reviewed": false
       }
@@ -15982,6 +16462,71 @@
    "faseId": "f8",
    "faseTitel": "Oversight-interactie"
   },
+  "pa.sc1": {
+   "step": {
+    "id": "pa.sc1",
+    "titel": "Stel vast of u derde aanbieder van ICT-diensten onder DORA bent",
+    "doel": "Een gedocumenteerde scopeconclusie per dienst en per entiteit van uw groep: valt de dienst onder 'ICT-diensten', bent u daarmee 'derde aanbieder van ICT-diensten' onder DORA, en valt u binnen het bereik van een mogelijke CTPP-aanwijzing.",
+    "acties": [
+     "Toets per aangeboden dienst of die onder de definitie van 'ICT-diensten' van artikel 3, punt 21), valt: digitale en gegevensdiensten die doorlopend via ICT-systemen aan een of meer interne of externe gebruikers worden verleend, waaronder hardware als dienst en hardwarediensten met inbegrip van technische ondersteuning via software- of firmware-updates door de hardwareaanbieder; traditionele analoge telefoondiensten zijn uitgezonderd. Leg per dienst de kwalificatie met motivering vast.",
+     "Stel vast of uw onderneming daarmee 'derde aanbieder van ICT-diensten' is (artikel 3, punt 19: een onderneming die ICT-diensten verleent) en dus als categorie u) van artikel 2, lid 1, onder het toepassingsgebied van DORA valt; let op dat alleen de categorieën a) tot en met t) 'financiële entiteiten' heten (artikel 2, lid 2) — de financiële-entiteitsverplichtingen rusten niet op u, maar de bepalingen over derde aanbieders werken via de contracten met uw klanten en, bij aanwijzing als cruciaal, via het oversightkader door.",
+     "Beoordeel de randgevallen per entiteit van uw groep tegen de vier uitsluitingen van artikel 31, lid 8 — de CTPP-aanwijzing is niet van toepassing op: financiële entiteiten die ICT-diensten verlenen aan andere financiële entiteiten; derde aanbieders die onderworpen zijn aan oversightkaders ter ondersteuning van de in artikel 127, lid 2, VWEU bedoelde taken; aanbieders van ICT-diensten binnen een groep (artikel 3, punt 20: een onderneming die deel uitmaakt van een financiële groep en hoofdzakelijk ICT-diensten verleent aan financiële entiteiten binnen dezelfde groep of aan financiële entiteiten die tot hetzelfde institutionele protectiestelsel behoren, met inbegrip van hun moedermaatschappijen, dochterondernemingen, bijkantoren of andere entiteiten die gezamenlijk eigendom zijn of onder gezamenlijke zeggenschap staan); en derde aanbieders die uitsluitend in één lidstaat ICT-diensten verlenen aan financiële entiteiten die alleen in die lidstaat actief zijn. Documenteer expliciet dat deze uitsluitingen alleen de aanwijzing betreffen, niet het toepassingsgebied van DORA zelf.",
+     "Bepaal per groepsentiteit de vestigingsplaats: bent u een 'in een derde land gevestigde derde aanbieder van ICT-diensten' (artikel 3, punt 24), houd er dan rekening mee dat financiële entiteiten na een CTPP-aanwijzing alleen van uw diensten gebruik mogen blijven maken indien u binnen twaalf maanden na de aanwijzing een dochteronderneming in de Unie hebt gevestigd (artikel 31, lid 12).",
+     "Leg de scopeconclusie per dienst en per groepsentiteit bestuurlijk vast met peildatum, markeer daarbij welke diensten volgens uw klantcontracten kritieke of belangrijke functies ondersteunen (artikel 3, punt 22) als input voor de voetafdrukanalyse (pa.p1), en herhaal de toets bij wijzigingen in dienstenportfolio, klantenkring of groepsstructuur."
+    ],
+    "bewijsstukken": [
+     "Scopeconclusie-memo per groepsentiteit met peildatum en motivering per uitsluiting/randgeval",
+     "Dienstencatalogus met per dienst de ICT-dienst-kwalificatie (artikel 3, punt 21) en KOF-markering"
+    ],
+    "rollen": [
+     "juridisch",
+     "compliance",
+     "bestuur"
+    ],
+    "refs": [
+     {
+      "label": "Art. 2, lid 1 DORA",
+      "href": "/artikel/2#lid-1"
+     },
+     {
+      "label": "Art. 2, lid 2 DORA",
+      "href": "/artikel/2#lid-2"
+     },
+     {
+      "label": "Art. 3, punt 19 DORA",
+      "href": "/artikel/3#punt-19"
+     },
+     {
+      "label": "Art. 3, punt 21 DORA",
+      "href": "/artikel/3#punt-21"
+     },
+     {
+      "label": "Art. 3, punt 20 DORA",
+      "href": "/artikel/3#punt-20"
+     },
+     {
+      "label": "Art. 3, punt 24 DORA",
+      "href": "/artikel/3#punt-24"
+     },
+     {
+      "label": "Art. 31, lid 8 DORA",
+      "href": "/artikel/31#lid-8"
+     },
+     {
+      "label": "Art. 31, lid 12 DORA",
+      "href": "/artikel/31#lid-12"
+     }
+    ],
+    "appliesTo": [
+     "aanbieder",
+     "ctpp"
+    ],
+    "prioriteit": "fundament"
+   },
+   "playbook": "aanbieder",
+   "faseId": "f1",
+   "faseTitel": "Positiebepaling"
+  },
   "pa.p1": {
    "step": {
     "id": "pa.p1",
@@ -16406,6 +16951,407 @@
    "faseId": "f2",
    "faseTitel": "Contractuele gereedheid"
   },
+  "pa.oa1": {
+   "step": {
+    "id": "pa.oa1",
+    "titel": "Kwalificeer uw eigen onderaannemers en maak de keten toetsbaar voor klanten",
+    "doel": "U kunt aantonen dat uw due diligence, ketenoverzicht en monitoringcapaciteit voldoen aan de voorwaarden waaraan financiële klanten uw onderaanneming van KOF-ondersteunende ICT-diensten vóór contractering moeten toetsen (art. 3 GV 2025/532).",
+    "acties": [
+     "Richt due-diligenceprocessen in waarmee u de operationele en financiële mogelijkheden van potentiële ICT-onderaannemers voor diensten die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunen, selecteert en beoordeelt, en borg dat onderaannemers op verzoek van een financiële klant deelnemen aan tests op digitale operationele weerbaarheid (hoofdstuk IV DORA); klanten mogen het contract pas aangaan nadat zij zich hiervan hebben vergewist (art. 3, lid 1, punt a).",
+     "Houd een actueel en volledig overzicht bij van alle onderaannemers die ICT-diensten leveren die kritieke of belangrijke functies, of materiële onderdelen daarvan, ondersteunen, zodat u elke klant daarvan kennis kunt geven, over hen kunt informeren en alle informatie kunt verstrekken die de klant nodig heeft om de voorwaarden van art. 3 te toetsen (punt b).",
+     "Borg in uw subcontracten dat de klant zijn eigen verplichtingen uit hoofde van DORA en toepasselijke Unie- en nationale wetgeving kan nakomen (punt c) en dat elke onderaannemer aan de klant en aan de bevoegde en afwikkelingsautoriteiten dezelfde contractuele rechten van toegang en inspectie verleent als die u zelf hebt verleend (punt d).",
+     "Onderhoud aantoonbaar voldoende mogelijkheden, deskundigheid en adequate financiële, personele en technische middelen om ICT-risico's op het niveau van uw onderaannemers te monitoren, onder meer via passende standaarden inzake informatiebeveiliging, een passende organisatiestructuur, risicomanagement en interne controles, en rapportage van en respons op incidenten (punt e); dit laat de eindverantwoordelijkheid van de klant voor zijn wettelijke verplichtingen onverlet.",
+     "Lever klanten gestructureerd de keteninformatie voor hun eigen beoordelingen onder art. 3, lid 1, punten f) tot en met j) (eigen monitoringcapaciteit, impact van falen van een onderaannemer, locatierisico's, ICT-concentratierisico, audit- en toegangsbelemmeringen) en voor de periodieke herhaling daarvan bij veranderingen in de zakelijke omgeving (lid 2); klanten mogen op uw risicobeoordelingen van onderaannemers steunen zonder dat dit hun eindverantwoordelijkheid beperkt (lid 3) — lever die beoordelingen dus gedocumenteerd en actueel aan, met een diepgang die aansluit op de ketenfactoren van art. 1 (o.a. soort dienst, locatie, ketenlengte en -complexiteit, aard van de gedeelde data, concentratie en impact van storingen)."
+    ],
+    "bewijsstukken": [
+     "Due-diligence-dossier per (potentiële) onderaannemer van KOF-ondersteunende diensten",
+     "Actueel ketenoverzicht per klant met alle KOF-ondersteunende onderaannemers",
+     "Informatiepakket art. 3-voorwaarden per klant, met uw risicobeoordelingen van onderaannemers"
+    ],
+    "rollen": [
+     "inkoop",
+     "risk",
+     "juridisch",
+     "CISO"
+    ],
+    "refs": [
+     {
+      "label": "Art. 3, lid 1 GV 2025/532",
+      "href": "/rts-onderaanneming/artikel/3#lid-1"
+     },
+     {
+      "label": "Art. 3, lid 2 GV 2025/532",
+      "href": "/rts-onderaanneming/artikel/3#lid-2"
+     },
+     {
+      "label": "Art. 3, lid 3 GV 2025/532",
+      "href": "/rts-onderaanneming/artikel/3#lid-3"
+     },
+     {
+      "label": "Art. 1 GV 2025/532",
+      "href": "/rts-onderaanneming/artikel/1#inhoud"
+     },
+     {
+      "label": "Art. 30, lid 2, punt a) DORA",
+      "href": "/artikel/30#lid-2-a"
+     }
+    ],
+    "appliesTo": [
+     "aanbieder",
+     "ctpp"
+    ],
+    "prioriteit": "kern",
+    "afhankelijkVan": [
+     "pa.p1",
+     "pa.cg1"
+    ]
+   },
+   "playbook": "aanbieder",
+   "faseId": "f3",
+   "faseTitel": "Onderaanneming"
+  },
+  "pa.oa2": {
+   "step": {
+    "id": "pa.oa2",
+    "titel": "Vertaal de klantcontractvoorwaarden door de hele onderaannemingsketen",
+    "doel": "Uw subcontracten en ketenbeheer maken de twaalf contractelementen waar die klantcontracten voor uitbesteding van KOF-ondersteunende ICT-diensten moeten specificeren (art. 4 GV 2025/532), zodat klanten hun monitorings-, audit-, toegangs- en continuïteitsrechten over de hele keten kunnen effectueren.",
+    "acties": [
+     "Neem in uw subcontract-templates de door te vertalen elementen op die klantcontracten van u vragen: specificeer de monitoring- en rapportageverplichtingen van de onderaannemer ten aanzien van u en, wanneer overeengekomen, ten aanzien van de klant (art. 4, lid 1, punt f); neem de vereisten inzake bedrijfsnoodplannen met de daarbij door de onderaannemer te leveren dienstenniveaus op (punt h) en specificeer de ICT-beveiligingsstandaarden en eventuele aanvullende beveiligingseisen (punt i), beide als bedoeld in art. 30, lid 3, punt c), DORA; en laat de onderaannemer aan de klant en de betrokken bevoegde en afwikkelingsautoriteiten dezelfde rechten van toegang, inspectie en audit verlenen als bedoeld in art. 30, lid 3, punt e), DORA (punt j).",
+     "Aanvaard en operationaliseer uw eigen ketenverantwoordelijkheid uit het klantcontract: u blijft verantwoordelijk voor het leveren van de door onderaannemers aangeboden diensten (punt a), u monitort alle uitbestede KOF-ondersteunende ICT-diensten zodat uw contractuele verplichtingen aan de klant doorlopend vervuld worden (punt b), en u rapporteert aan de klant conform de bedongen monitoring- en rapportageverplichtingen over uw onderaannemers (punt c).",
+     "Beoordeel alle risico's die verbonden zijn aan de locatie van actuele of potentiële onderaannemers van KOF-ondersteunende diensten en van hun moederonderneming, en aan de locatie van waaruit de ICT-diensten worden aangeboden (punt d), en leg de locatie van verwerking en opslag van data door de onderaannemer vast (punt e), zodat het klantcontract deze kan specificeren.",
+     "Borg de continuïteit van de KOF-ondersteunende ICT-diensten doorheen de hele keten van onderaannemers wanneer een onderaannemer zijn contractuele verplichtingen niet nakomt (punt g), en richt de kennisgeving van materiële veranderingen in uitbestedingsregelingen (punt k) en het opzegrecht van de klant (punt l) operationeel in — de wijzigings- en beëindigingskant wordt uitgewerkt in pa.oa3.",
+     "Werk mee aan het tijdig en zo spoedig mogelijk implementeren van veranderingen in lopende klantcontracten die nodig zijn geworden om aan de verordening te voldoen, en lever de input voor het tijdschema dat de klant daarvoor documenteert (art. 4, lid 2)."
+    ],
+    "bewijsstukken": [
+     "Subcontract-template met mapping per element van art. 4, lid 1, GV 2025/532",
+     "Ketenmonitoring- en rapportageprocedure met rapportagevoorbeelden per klant",
+     "Locatierisico- en datalocatieregister per onderaannemer",
+     "Continuïteitsdraaiboek keten bij niet-nakoming door een onderaannemer"
+    ],
+    "rollen": [
+     "juridisch",
+     "inkoop",
+     "CISO",
+     "sales/accountmanagement"
+    ],
+    "refs": [
+     {
+      "label": "Art. 4, lid 1 GV 2025/532",
+      "href": "/rts-onderaanneming/artikel/4#lid-1"
+     },
+     {
+      "label": "Art. 4, lid 2 GV 2025/532",
+      "href": "/rts-onderaanneming/artikel/4#lid-2"
+     },
+     {
+      "label": "Art. 30, lid 2, punt a) DORA",
+      "href": "/artikel/30#lid-2-a"
+     },
+     {
+      "label": "Art. 30, lid 3, punt c) DORA",
+      "href": "/artikel/30#lid-3-c"
+     },
+     {
+      "label": "Art. 30, lid 3, punt e) DORA",
+      "href": "/artikel/30#lid-3-e"
+     }
+    ],
+    "appliesTo": [
+     "aanbieder",
+     "ctpp"
+    ],
+    "prioriteit": "kern",
+    "afhankelijkVan": [
+     "pa.cg1",
+     "pa.oa1"
+    ]
+   },
+   "playbook": "aanbieder",
+   "faseId": "f3",
+   "faseTitel": "Onderaanneming"
+  },
+  "pa.oa3": {
+   "step": {
+    "id": "pa.oa3",
+    "titel": "Meld wijzigingen in de keten vooraf en respecteer goedkeuring of bezwaar van de klant",
+    "doel": "Geen enkele materiële verandering in uw uitbestedingsregelingen voor KOF-ondersteunende ICT-diensten wordt geïmplementeerd voordat de betrokken klant ruim vooraf is geïnformeerd en binnen de contractuele opzegtermijn heeft goedgekeurd of geen bezwaar heeft gemaakt (art. 5 en 6 GV 2025/532).",
+    "acties": [
+     "Richt een wijzigingsproces in dat elke beoogde materiële verandering in uw uitbestedingsregelingen ruim vooraf aan de betrokken financiële klanten meldt, met de informatie waarmee de klant kan beoordelen wat de impact is op de risico's waaraan hij is of kan worden blootgesteld en of de verandering van invloed kan zijn op uw vermogen om uw contractuele verplichtingen na te komen (art. 5, lid 1).",
+     "Respecteer de redelijke opzegtermijn die het klantcontract voor goedkeuring of bezwaar bevat (art. 5, lid 2): implementeer een materiële verandering pas nadat de klant deze heeft goedgekeurd of tegen het einde van de termijn geen bezwaar heeft gemaakt (art. 5, lid 3); registreer per klant kennisgevingsdatum, termijn en uitkomst in het contractdossier.",
+     "Vang bezwaar operationeel op: wanneer een klant vóór het einde van de opzegtermijn laat weten dat de verandering zijn risicotolerantie te boven gaat, daartegen bezwaar maakt en aanpassingen eist (art. 5, lid 4), pas de beoogde verandering dan aan vóór implementatie of zie ervan af, en escaleer intern via een vast besluitvormingspad.",
+     "Voorkom de drie situaties waarin de klant het contractueel bedongen beëindigingsrecht van art. 6 kan inroepen: implementatie van materiële veranderingen ondanks bezwaar en verzoek om aanpassing; implementatie zonder toestemming vóór het einde van de opzegtermijn; en uitbesteding van een KOF-ondersteunende ICT-dienst zonder expliciete contractuele toestemming — blokkeer in uw contract- en wijzigingsproces elke onderaanneming die niet expliciet in het klantcontract is toegestaan (art. 30, lid 2, punt a), DORA).",
+     "Actualiseer na elke doorgevoerde wijziging het ketenoverzicht en de registerdata die u aan klanten aanlevert (pa.p4), zodat hun informatieregister en herbeoordelingen op de actuele keten steunen."
+    ],
+    "bewijsstukken": [
+     "Wijzigingsprocedure onderaannemingsketen met kennisgevings- en termijnbewaking per klant",
+     "Log van kennisgevingen, klantbeoordelingen, goedkeuringen en bezwaren per contract",
+     "Escalatie- en aanpassingsdossier bij bezwaar van een klant"
+    ],
+    "rollen": [
+     "juridisch",
+     "sales/accountmanagement",
+     "inkoop",
+     "compliance"
+    ],
+    "refs": [
+     {
+      "label": "Art. 5, lid 1 GV 2025/532",
+      "href": "/rts-onderaanneming/artikel/5#lid-1"
+     },
+     {
+      "label": "Art. 5, lid 2 GV 2025/532",
+      "href": "/rts-onderaanneming/artikel/5#lid-2"
+     },
+     {
+      "label": "Art. 5, lid 3 GV 2025/532",
+      "href": "/rts-onderaanneming/artikel/5#lid-3"
+     },
+     {
+      "label": "Art. 5, lid 4 GV 2025/532",
+      "href": "/rts-onderaanneming/artikel/5#lid-4"
+     },
+     {
+      "label": "Art. 6 GV 2025/532",
+      "href": "/rts-onderaanneming/artikel/6#inhoud"
+     },
+     {
+      "label": "Art. 30, lid 2, punt a) DORA",
+      "href": "/artikel/30#lid-2-a"
+     }
+    ],
+    "appliesTo": [
+     "aanbieder",
+     "ctpp"
+    ],
+    "prioriteit": "kern",
+    "afhankelijkVan": [
+     "pa.oa2"
+    ]
+   },
+   "playbook": "aanbieder",
+   "faseId": "f3",
+   "faseTitel": "Onderaanneming"
+  },
+  "pa.kv1": {
+   "step": {
+    "id": "pa.kv1",
+    "titel": "Ondersteun het incidentbeheer en de meldketen van uw klanten",
+    "doel": "Uw klanten kunnen met uw signalen, gegevens en bijstand hun incidentverplichtingen van de artikelen 17 tot en met 19 DORA — detectie, registratie, classificatie, melding aan de autoriteit en kennisgeving aan cliënten — binnen de wettelijke termijnen nakomen.",
+    "acties": [
+     "Richt per klant een afgesproken signaleringskanaal in: meld verstoringen, ICT-incidenten en indicatoren die op een incident bij uw dienst kunnen wijzen onverwijld aan de door de klant aangewezen contactpunten, zodat de klant zijn beheerproces voor het detecteren, beheren en melden van ICT-gerelateerde incidenten (art. 17, lid 1, DORA) kan activeren; leg contactpunten, bereikbaarheid en escalatie vast in de dienstverleningsafspraken.",
+     "Lever bij elk incident dat uw dienst raakt de gegevens die de klant nodig heeft om te classificeren langs de criteria van art. 18, lid 1, DORA, waaronder de tijdstippen van begin, ontdekking en herstel, de duur en de uitvaltijd van de dienst, de getroffen diensten en — voor zover bij u bekend — cliënten en transacties, de geografische spreiding, gegevensverliezen met betrekking tot beschikbaarheid, authenticiteit, integriteit of vertrouwelijkheid, en de bij u bekende kosteninformatie.",
+     "Stem uw informatielevering af op de meldritmiek van art. 19, lid 4, DORA: snelle eerste feiten voor de eerste kennisgeving, actualisaties bij elke ingrijpende statuswijziging of relevante nieuwe informatie voor het tussentijdse verslag, en voor het eindverslag de voltooide analyse van de onderliggende oorzaken aan uw kant en werkelijke impactcijfers in plaats van ramingen.",
+     "Werk mee aan herstel en follow-up: verleen de contractueel vastgelegde bijstand bij incidenten die verband houden met de aan de klant geleverde ICT-dienst zonder extra kosten of tegen de vooraf bepaalde kostprijs (art. 30, lid 2, punt f), DORA), en spoor onderliggende oorzaken aan uw kant op, documenteer ze en neem ze weg zodat herhaling wordt voorkomen (art. 17, lid 2, DORA).",
+     "Lever de feitelijke informatie over het incident en de genomen beperkende maatregelen waarmee de klant cliënten wier financiële belangen zijn geraakt onverwijld kan informeren, en bij een significante cyberdreiging de informatie over passende beschermingsmaatregelen die mogelijk getroffen cliënten zelf kunnen nemen (art. 19, lid 3, DORA).",
+     "Voert u als dienstverlener de rapportageverplichtingen van artikel 19 voor een klant uit (uitbesteding, art. 19, lid 5, DORA): regel contractueel de meldtermijnen, het modelgebruik, escalatie en tijdige informatieaanlevering, en richt uw proces zo in dat de klant — die volledig verantwoordelijk blijft voor de naleving van de rapportagevereisten — daarop aantoonbaar kan steunen."
+    ],
+    "bewijsstukken": [
+     "Incidentkennisgevings- en escalatieprocedure per klant(type) met contactpunten, kanalen en termijnafspraken",
+     "Standaard incidentinformatiepakket gestructureerd langs de classificatiecriteria van art. 18, lid 1, DORA",
+     "Incidentdossiers met geleverde eerste feiten, tussentijdse actualisaties en oorzaakanalyses",
+     "Bij uitbestede rapportage: procesbeschrijving met termijn- en modelborging en verantwoordelijkheidsverdeling"
+    ],
+    "rollen": [
+     "CISO",
+     "compliance",
+     "sales/accountmanagement"
+    ],
+    "refs": [
+     {
+      "label": "Art. 17, lid 1 DORA",
+      "href": "/artikel/17#lid-1"
+     },
+     {
+      "label": "Art. 17, lid 2 DORA",
+      "href": "/artikel/17#lid-2"
+     },
+     {
+      "label": "Art. 18, lid 1 DORA",
+      "href": "/artikel/18#lid-1"
+     },
+     {
+      "label": "Art. 19, lid 3 DORA",
+      "href": "/artikel/19#lid-3"
+     },
+     {
+      "label": "Art. 19, lid 4 DORA",
+      "href": "/artikel/19#lid-4"
+     },
+     {
+      "label": "Art. 19, lid 5 DORA",
+      "href": "/artikel/19#lid-5"
+     },
+     {
+      "label": "Art. 30, lid 2 DORA",
+      "href": "/artikel/30#lid-2"
+     }
+    ],
+    "appliesTo": [
+     "aanbieder",
+     "ctpp"
+    ],
+    "prioriteit": "kern",
+    "afhankelijkVan": [
+     "pa.cg1"
+    ]
+   },
+   "playbook": "aanbieder",
+   "faseId": "f4",
+   "faseTitel": "Klantverplichtingen ondersteunen"
+  },
+  "pa.kv2": {
+   "step": {
+    "id": "pa.kv2",
+    "titel": "Neem deel aan TLPT's van klanten, van scoping tot remediëring",
+    "doel": "Wanneer uw ICT-diensten binnen het toepassingsgebied van een dreigingsgestuurde penetratietest van een klant vallen, is uw deelname operationeel geborgd — scoping-input, geheimhouding, risicobeheersing, de gebundelde-testoptie en remediëring — zonder de dienstverlening aan andere klanten te schaden.",
+    "acties": [
+     "Borg uw deelname organisatorisch: vallen uw ICT-diensten binnen het toepassingsgebied van een TLPT, dan neemt de klant maatregelen en waarborgen om uw deelname te waarborgen (art. 26, lid 3, DORA) en is deelname aan en volledige medewerking bij de TLPT een verplicht contractelement voor KOF-ondersteunende diensten (art. 30, lid 3, punt d), DORA); wijs een vast, tot geheimhouding verplicht aanspreekpunt aan en richt een intern proces in voor TLPT-verzoeken van klanten.",
+     "Lever scoping-input: de klant moet alle relevante onderliggende ICT-systemen, -processen en technologieën bepalen die kritieke of belangrijke functies ondersteunen, ook die van uitbestede of met u contractueel overeengekomen functies (art. 26, lid 2, DORA), en vermeldt per uitbesteed systeem uw naam in het scoping-document (bijlage II GV 2025/1190); lever de daarvoor benodigde systeem- en afhankelijkheidsinformatie tijdig en volledig aan het control team van de klant.",
+     "Weeg de gebundelde test af: mag redelijkerwijs worden verwacht dat uw deelname een negatief effect heeft op de kwaliteit of de beveiliging van diensten die u verleent aan klanten die buiten het toepassingsgebied van DORA vallen, of op de vertrouwelijkheid van de gegevens met betrekking tot die diensten, dan kunt u met de financiële entiteit schriftelijk overeenkomen dat u rechtstreeks een contractuele overeenkomst met een externe tester sluit voor een gebundelde TLPT onder leiding van één aangewezen financiële entiteit; de gebundelde test dekt het relevante gamma van KOF-ondersteunende ICT-diensten en het aantal deelnemende entiteiten wordt afgestemd op de complexiteit en de aard van de betrokken diensten (art. 26, lid 4, DORA).",
+     "Houd er rekening mee dat bij een gepoolde TLPT ten minste één scenario de onderliggende ICT-systemen, -processen en -technologieën omvat van de derde aanbieder die de kritieke of belangrijke functies van de betrokken klanten ondersteunt (art. 10, lid 4, GV 2025/1190): uw omgeving is dan zelf doelwit van het testscenario; hetzelfde geldt bij een gezamenlijke TLPT waarbij een intragroepsaanbieder van ICT-diensten is betrokken.",
+     "Werk mee aan de risicobeheersing van de test: de klant past met uw medewerking doeltreffende risicobeheerscontroles toe om potentiële effecten op gegevens, schade aan activa en verstoring van kritieke of belangrijke functies te mitigeren (art. 26, lid 5, DORA); meld buitengewone risico's voor uw data, activa of dienstverlening onmiddellijk aan het control team, zodat de leider daarvan de TLPT zo nodig kan opschorten (art. 11, lid 10, GV 2025/1190).",
+     "Borg geheimhouding en het ontdekkingsprotocol: uw betrokken personeel valt onder de geheimhoudingsregelingen van de TLPT en verwijst waar mogelijk alleen met een codenaam naar de test (art. 4, lid 2, GV 2025/1190); instrueer personeel dat elke ontdekking van testwerkzaamheden uitsluitend via het afgesproken kanaal aan het control team wordt gemeld (art. 4, lid 2, punt c), GV 2025/1190); het control team stelt daarna, in overleg met de testers, aan de testmanagers maatregelen voor waarmee de test geheim kan worden voortgezet (art. 11, lid 9).",
+     "Werk mee aan de afsluiting: herstel bevindingen die uw systemen of diensten raken en lever input voor de root cause analysis en de remediërende maatregelen in het remediëringsplan van de klant (art. 13, lid 2, GV 2025/1190); uw deelname wordt in voorkomend geval vermeld in het TLPT-attest (bijlage VIII GV 2025/1190)."
+    ],
+    "bewijsstukken": [
+     "Intern TLPT-draaiboek (aanspreekpunt, geheimhoudingsinstructie, codenaamgebruik, ontdekkingsmeldprotocol)",
+     "Afwegingsdossier gebundelde test per klant(groep) met de schriftelijke overeenkomst en de contractuele overeenkomst met de externe tester",
+     "Scoping-informatiepakket per klant (systemen, processen, technologieën en afhankelijkheden binnen de scope)",
+     "Remediëringsdossier met herstelde TLPT-bevindingen en geleverde root-cause-input"
+    ],
+    "rollen": [
+     "CISO",
+     "juridisch",
+     "sales/accountmanagement"
+    ],
+    "refs": [
+     {
+      "label": "Art. 26, lid 2 DORA",
+      "href": "/artikel/26#lid-2"
+     },
+     {
+      "label": "Art. 26, lid 3 DORA",
+      "href": "/artikel/26#lid-3"
+     },
+     {
+      "label": "Art. 26, lid 4 DORA",
+      "href": "/artikel/26#lid-4"
+     },
+     {
+      "label": "Art. 26, lid 5 DORA",
+      "href": "/artikel/26#lid-5"
+     },
+     {
+      "label": "Art. 30, lid 3 DORA",
+      "href": "/artikel/30#lid-3"
+     },
+     {
+      "label": "Art. 4, lid 2 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/4#lid-2"
+     },
+     {
+      "label": "Art. 10, lid 4 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/10#lid-4"
+     },
+     {
+      "label": "Art. 11, lid 9 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/11#lid-9"
+     },
+     {
+      "label": "Art. 11, lid 10 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/11#lid-10"
+     },
+     {
+      "label": "Art. 13, lid 2 GV 2025/1190",
+      "href": "/rts-tlpt/artikel/13#lid-2"
+     },
+     {
+      "label": "Bijlage II GV 2025/1190",
+      "href": "/rts-tlpt/bijlage/ii"
+     },
+     {
+      "label": "Bijlage VIII GV 2025/1190",
+      "href": "/rts-tlpt/bijlage/viii"
+     }
+    ],
+    "appliesTo": [
+     "aanbieder",
+     "ctpp"
+    ],
+    "prioriteit": "verdieping",
+    "afhankelijkVan": [
+     "pa.cg1"
+    ]
+   },
+   "playbook": "aanbieder",
+   "faseId": "f4",
+   "faseTitel": "Klantverplichtingen ondersteunen"
+  },
+  "pa.kv3": {
+   "step": {
+    "id": "pa.kv3",
+    "titel": "Lever registergegevens gestructureerd volgens de ITS-taxonomie",
+    "doel": "Klanten ontvangen per contract een actuele gegevensset die rechtstreeks in de registertemplates van UV (EU) 2024/2956 past — LEI/EUID-identificatie, diensttypologie S01–S19 en de onderaannemersketen met rankings — als verdieping op pa.p4, dat de juistheid van die gegevens in klantregisters bewaakt.",
+    "acties": [
+     "Identificeer uzelf — als u rechtspersoon bent — in elke gegevenslevering met een geldige en actieve LEI of EUID, en indien beschikbaar beide identificatiecodes (art. 3, lid 5, UV 2024/2956; individuen die handelen in de uitoefening van bedrijf vallen buiten deze identificatie-eis); dit geldt ook wanneer u als aanbieder van ICT-diensten binnen een groep aan andere financiële entiteiten binnen dezelfde groep levert — u bent dan directe derde aanbieder van ICT-diensten in de zin van art. 1, punt 1), en wordt als zodanig in de groepsregisters opgenomen.",
+     "Classificeer elke geleverde ICT-dienst volgens de gesloten taxonomie van bijlage III bij UV 2024/2956 (S01 tot en met S19) en geef in de aanlevering alleen de identificator van de desbetreffende soort ICT-dienst op; stem randgevallen met de klant af, zodat dezelfde dienst niet onder verschillende soorten in verschillende registers verschijnt.",
+     "Lever per KOF-ondersteunende ICT-dienst de toeleveringsketen aan: alle onderaannemers die daadwerkelijk ICT-diensten verlenen die de kritieke of belangrijke functies of wezenlijke onderdelen daarvan ondersteunen (art. 3, lid 2, punt b), UV 2024/2956), met per schakel een ranking volgens art. 2 — u als directe aanbieder steeds '1', elke onderaannemer een getal groter dan '1', waarbij een lager getal dichter bij de financiële entiteit staat — als bron voor de keten-templates B_05.01 en B_05.02.",
+     "Borg de identificatie van uw KOF-onderaannemers: klanten moeten er via ú voor zorgen dat die onderaannemers een geldige en actieve LEI gebruiken of hun EUID verstrekken, en indien beschikbaar beide identificatiecodes, tenzij het individuen zijn die handelen in een zakelijke hoedanigheid (art. 3, lid 6, UV 2024/2956); neem die aanleverplicht op in uw onderaannemingscontracten.",
+     "Houd de gegevensset actueel: meld elke wijziging in diensten, onderaannemersketen of identificatiegegevens proactief aan uw klanten, die de registerinformatie regelmatig moeten evalueren en geconstateerde fouten of afwijkingen onmiddellijk moeten corrigeren (art. 3, lid 3, UV 2024/2956), en sluit uw aanlevermoment aan op de actualisatiecyclus die u in pa.p4 hebt gepland."
+    ],
+    "bewijsstukken": [
+     "Registergegevensset per klant en per contract (LEI/EUID, S01–S19-typering, ketenoverzicht met rankings) met versiebeheer",
+     "LEI/EUID-aanleverclausule in onderaannemingscontracten voor KOF-ondersteunende diensten",
+     "Wijzigingslog registerdata, aansluitend op het aanleverdossier van pa.p4"
+    ],
+    "rollen": [
+     "sales/accountmanagement",
+     "compliance",
+     "juridisch"
+    ],
+    "refs": [
+     {
+      "label": "Art. 1 UV 2024/2956",
+      "href": "/its-register/artikel/1#inhoud"
+     },
+     {
+      "label": "Art. 2 UV 2024/2956",
+      "href": "/its-register/artikel/2#inhoud"
+     },
+     {
+      "label": "Art. 3, lid 2 UV 2024/2956",
+      "href": "/its-register/artikel/3#lid-2"
+     },
+     {
+      "label": "Art. 3, lid 5 UV 2024/2956",
+      "href": "/its-register/artikel/3#lid-5"
+     },
+     {
+      "label": "Art. 3, lid 6 UV 2024/2956",
+      "href": "/its-register/artikel/3#lid-6"
+     },
+     {
+      "label": "Bijlage III UV 2024/2956",
+      "href": "/its-register/bijlage/iii"
+     },
+     {
+      "label": "Art. 28, lid 3 DORA",
+      "href": "/artikel/28#lid-3"
+     }
+    ],
+    "appliesTo": [
+     "aanbieder",
+     "ctpp"
+    ],
+    "prioriteit": "kern",
+    "afhankelijkVan": [
+     "pa.p4"
+    ]
+   },
+   "playbook": "aanbieder",
+   "faseId": "f4",
+   "faseTitel": "Klantverplichtingen ondersteunen"
+  },
   "pa.p5": {
    "step": {
     "id": "pa.p5",
@@ -16458,7 +17404,7 @@
  "counts": {
   "steps": {
    "entiteit": 108,
-   "aanbieder": 8
+   "aanbieder": 15
   },
   "coverageEntries": 600,
   "dispositions": {
