@@ -47,6 +47,9 @@ export function Header() {
         </Link>
         <span className="hidden text-xs text-muted sm:block">(EU) 2022/2554 — NL</span>
         <nav className="hidden items-center gap-3 text-sm text-muted md:flex" aria-label="Tools">
+          <Link href="/playbook" className="hover:text-foreground">
+            Playbook
+          </Link>
           <Link href="/assessment" className="hover:text-foreground">
             Assessment
           </Link>

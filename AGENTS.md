@@ -127,8 +127,15 @@ art 1(1) +pa.p1, vergoedingen art 4(3) +pa.ov1, dora art 19(2) vrijwillig-note),
 vier bewust behouden. Corrigendum-check: geen EUR-Lex-corrigendum op de twee
 bron-eigenaardigheden (oversight art 3(1) '2022/2254', onderzoeksteams art 5(1)
 'zorgvuldigheid en zorgvuldigheid') — blijven onbewerkte brontekst.
-Openstaand: (a) epic 16 (UX: regimefilter + voortgangs-checkboxes op de nu
-bevroren playbook-data); (b) menselijke review van de recital-map (complete=false) —
-alle 284 entries zijn gedraft en adversarieel gereviewd (drafter→refuter;
-twee REVIEW:-gemarkeerde disputen wachten op arbitrage), maar nog
-`reviewed: false`.
+Epic 16 (juli 2026) legde de playbook-UX op de bevroren data: regimefilter
+(volledig/vereenvoudigd resp. aanbieder/ctpp, opt-in) + voortgangs-checkboxes
+(localStorage `dora-playbook-v1`, step-id-keyed) in twee client-eilanden
+(`PlaybookSteps`, `PlaybookProgress`) op een `src/lib/playbook/store.ts`
+(roi-store-patroon), plus nav-links (Playbook in de header, PrevNextNav tussen
+fases). Geen data-wijziging — verify-playbook-pins ongewijzigd.
+Openstaand: (a) playbook step search-indexering (uit epic 16 uitgesteld:
+`type:"stap"` SearchDocs uit build-playbook, re-pin verify-data `1031→N`,
+golden queries, SearchResults/SearchPalette-type); (b) menselijke review van
+de recital-map (complete=false) — alle 284 entries zijn gedraft en
+adversarieel gereviewd (drafter→refuter; twee REVIEW:-gemarkeerde disputen
+wachten op arbitrage), maar nog `reviewed: false`.
