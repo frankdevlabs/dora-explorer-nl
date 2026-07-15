@@ -227,10 +227,13 @@ for (const stepId of allStepIds) {
 // ------------------------------------------------- final-mode pins
 
 if (coverage.meta.complete) {
-  // Pins land in epic 15 after the audit-then-pin pass; complete=true before
-  // that point is an error by construction.
+  // Pinned in epic 15 (juli 2026) after the full audit-then-pin pass: a
+  // 13-instrument adversarial verifier re-sweep confirmed every entry against
+  // the source text before meta.complete was flipped to true. 654 = 637 leden
+  // + 17 bijlagen, the exact corpus universe (also asserted per-instrument via
+  // covered===universe above). begrippen = the 65 punt-anchors of DORA art. 3.
   const EXPECTED = {
-    coverageEntries: -1, // pin after audit (universe = 637 leden + 17 bijlagen = 654 expected)
+    coverageEntries: 654,
     begrippen: 65,
   };
   assert.equal(totalEntries, EXPECTED.coverageEntries, "pin: coverage-entries");
