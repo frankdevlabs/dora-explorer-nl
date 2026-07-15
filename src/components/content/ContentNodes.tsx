@@ -52,6 +52,17 @@ export function ContentNodes({ nodes }: { nodes: ContentNode[] }) {
             </div>
           );
         }
+        if (node.type === "figure") {
+          return (
+            // eslint-disable-next-line @next/next/no-img-element -- data: URI from the source act, not an optimizable asset
+            <img
+              key={i}
+              src={node.src}
+              alt={node.alt || "figuur uit de verordening"}
+              className="my-4 max-w-full rounded bg-white p-2"
+            />
+          );
+        }
         return (
           <ul key={i} className="my-2 space-y-2">
             {node.items.map((item, j) => (

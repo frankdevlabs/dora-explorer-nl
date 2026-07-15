@@ -47,6 +47,9 @@ export function renderNodes(nodes: ContentNode[]): string {
       blocks.push(renderText(node.text, node.refs));
     } else if (node.type === "table") {
       blocks.push(renderTable(node.rows));
+    } else if (node.type === "figure") {
+      // data: URI is megabytes of base64 — a placeholder serves MCP clients better
+      blocks.push(node.alt ? `*[afbeelding: ${node.alt}]*` : "*[afbeelding]*");
     } else {
       const items = node.items.map((item) => {
         const body = renderNodes(item.content);

@@ -15,7 +15,11 @@ export type ContentNode =
   | { type: "text"; text: string; refs?: RefSpan[] }
   | { type: "heading"; text: string }
   | { type: "list"; items: ListItem[] }
-  | { type: "table"; rows: string[][] };
+  | { type: "table"; rows: string[][] }
+  /** Image embedded in the legal text (e.g. the fee formula in GV 2024/1505,
+   *  art. 3, lid 2 — published only as a picture). `src` is the data: URI
+   *  from the source HTML, passed through untranscribed. */
+  | { type: "figure"; src: string; alt: string };
 
 export interface ListItem {
   marker: string;

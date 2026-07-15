@@ -11,6 +11,9 @@ export function flattenNodes(nodes: ContentNode[]): string {
       if (n.type === "list")
         return n.items.map((i) => `${i.marker} ${flattenNodes(i.content)}`).join(" ");
       if (n.type === "table") return n.rows.map((r) => r.join(" ")).join(" ");
+      // figures carry no text (the source <p> flattens to "" too) — keeping
+      // this empty preserves flatten-parity with the source extraction
+      if (n.type === "figure") return "";
       return n.text;
     })
     .join(" ")

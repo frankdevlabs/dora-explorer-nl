@@ -21,6 +21,7 @@ function flatText(nodes: ContentNode[]): string {
       if (n.type === "list")
         return n.items.map((i) => `${i.marker} ${flatText(i.content)}`).join(" ");
       if (n.type === "table") return n.rows.map((r) => r.join(" ")).join(" ");
+      if (n.type === "figure") return ""; // no text, matches src/lib/flatten.ts
       return n.text;
     })
     .join(" ");

@@ -526,6 +526,16 @@ function parseOjNodes($: CheerioAPI, children: AnyNode[]): ContentNode[] {
       }
       const text = cleanText($child.text());
       if (text) nodes.push({ type: "text", text });
+    } else if (child.tagName === "figure") {
+      // image-only legal content (GV 2024/1505 art. 3(2): the fee formula is
+      // published as a picture) — pass the data: URI through untranscribed;
+      // transcribing it would be manual legal-text editing (rule 2). NB the
+      // source nests <figure> in <p>, but figure is flow content so the HTML
+      // parser hoists it to a sibling — it arrives here, not inside the p.
+      $child.find("img").each((_, img) => {
+        const src = $(img).attr("src") ?? "";
+        if (src) nodes.push({ type: "figure", src, alt: cleanText($(img).attr("alt") ?? "") });
+      });
     } else if (child.tagName === "table") {
       const item = parseOjPointTable($, child);
       if (item) {
