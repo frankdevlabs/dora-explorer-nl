@@ -4581,7 +4581,120 @@
       "bijlagen": {}
     },
     "onderzoeksteams": {
-      "artikelen": {},
+      "artikelen": {
+        "1": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "note": "De leden van het gezamenlijke onderzoeksteam werken onder coördinatie van de coördinator van de lead overseer: permanente ondersteuning van diens activiteiten plus specifieke taken, waaronder het bijstaan bij het oversightplan (art. 33, lid 4 DORA) en de beoordeling (art. 33, lid 2), het beoordelen van informatie uit hoofde van art. 37 DORA en hoofdstuk II van GV 2025/295, het verrichten van algemene onderzoeken (art. 38) en inspecties (art. 39, lid 1), het uitvaardigen van aanbevelingen (art. 35, lid 1, punt d), het beoordelen van saneringsplan en voortgangsverslagen (art. 4 GV 2025/295) en het voorbereiden van verzoeken en besluiten. Voor de kritieke derde aanbieder betekent dit dat onderzoeken en inspecties in de praktijk door dit team worden uitgevoerd en dat aanbevelingen erdoor worden uitgevaardigd.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "note": "Bij een aanzienlijke herziening van het individuele jaarlijkse oversightplan in de loop van het jaar betrekt de lead overseer de teamleden bij de uitvoering én bij de herziening van dat plan.",
+            "reviewed": false
+          }
+        },
+        "2": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "note": "Nadat een derde aanbieder voor het eerst als cruciaal is aangemerkt (art. 31, lid 1, punt a DORA), richt de lead overseer — in overleg met het gezamenlijk oversightnetwerk (art. 34, lid 1) — het gezamenlijke onderzoeksteam op dat de oversightactiviteiten voor die kritieke derde aanbieder uitvoert.",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "note": "Bij wezenlijke veranderingen rond de kritieke derde aanbieder kan de lead overseer, in overleg met het gezamenlijk oversightnetwerk, de teamsamenstelling actualiseren. Materiële wijzigingen betreffen de aangeboden diensten, de activiteiten van ondersteunde financiële entiteiten of de Unielijst van kritieke derde aanbieders (art. 31, lid 9 DORA).",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "autoriteit",
+            "note": "De in art. 40, lid 2 DORA bedoelde autoriteiten wijzen een of meer personeelsleden aan als teamlid; dezelfde persoon kan lid zijn van meerdere gezamenlijke onderzoeksteams.",
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "autoriteit",
+            "note": "De lead overseer benoemt de voorgedragen personen als teamlid, voltijds of deeltijds, afhankelijk van hun beschikbaarheid, de specifieke behoeften van de lead overseer en de overeenkomst tussen aanwijzende autoriteit en lead overseer.",
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "autoriteit",
+            "note": "Bij het voordragen van teamleden beoordelen de aanwijzende autoriteiten (art. 40, lid 2 DORA) hun technische deskundigheid, kwalificaties en vaardigheden op ICT- en relevante gebieden, met inbegrip van communicatie- en samenwerkingsvaardigheden en audit- en toezichtvaardigheden.",
+            "reviewed": false
+          },
+          "lid-6": {
+            "disposition": "autoriteit",
+            "note": "De lead overseer kan aanwijzende autoriteiten alleen in gerechtvaardigde omstandigheden én wanneer de profielen van de voorgedragen personen niet overeenstemmen met het profiel van de benodigde middelen, verzoeken hun voordrachten te wijzigen.",
+            "reviewed": false
+          },
+          "lid-7": {
+            "disposition": "autoriteit",
+            "note": "De lead overseer en de autoriteiten nemen alle passende en mogelijke maatregelen zodat het team over voldoende personeel beschikt overeenkomstig het jaarlijkse individuele oversightplan.",
+            "reviewed": false
+          }
+        },
+        "3": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "note": "De lead overseer bepaalt het aantal teamleden en de samenstelling van het team, in overleg met het gezamenlijk oversightnetwerk (art. 34, lid 1 DORA) en het oversightforum (art. 32, lid 1 DORA).",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "note": "Het aantal leden wordt bij oprichting vastgesteld en zo nodig in de tijd bijgesteld, rekening houdend met de taken uit de individuele jaarlijkse oversightplannen per kritieke derde aanbieder en met de strategische doelstellingen van het meerjarige oversightplan voor alle kritieke derde aanbieders.",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "autoriteit",
+            "note": "Bij het bepalen van aantal en samenstelling weegt de lead overseer ten minste negen factoren: de beoogde intensiteit van de oversightactiviteiten, omvang en complexiteit van de aanbieder, specifieke individuele oversightbehoeften, stabiliteit en kennisborging van het team, benodigde technische en niet-technische ICT-vaardigheden, de lidstaten waar de aanbieder KOF-ondersteunende diensten verleent en de bevoegde autoriteiten van de gebruikende entiteiten, de soorten, omvang en aantallen bediende financiële entiteiten, de bevoegde autoriteiten van de meest afhankelijke entiteiten, en een evenredige sectoroverschrijdende vertegenwoordiging van de aanwijzende autoriteiten.",
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "autoriteit",
+            "note": "De aanwijzende autoriteiten (art. 40, lid 2 DORA) houden bij het voordragen van teamleden ten minste rekening met de criteria van lid 3, punten c), d), e), g) en h).",
+            "reviewed": false
+          }
+        },
+        "4": {
+          "inhoud": {
+            "disposition": "autoriteit",
+            "note": "Periodiek, bij wisseling van lead overseer of bij wezenlijke veranderingen (art. 2, lid 2) beoordeelt de lead overseer — na raadpleging van de teamleden — hun resultaten; aanwijzende autoriteiten en lead overseer gebruiken die beoordeling om te beslissen of de teamsamenstelling moet worden gewijzigd.",
+            "reviewed": false
+          }
+        },
+        "5": {
+          "lid-1": {
+            "disposition": "autoriteit",
+            "note": "Teamleden voeren hun taken uit het individuele jaarlijkse oversightplan uit met de nodige bekwaamheid en zorgvuldigheid, zonder vooringenomenheid en volgens de instructies van de coördinator van de lead overseer (art. 40, lid 2, tweede alinea DORA).",
+            "reviewed": false
+          },
+          "lid-2": {
+            "disposition": "autoriteit",
+            "note": "Teamleden volgen bij oversighttaken de gezamenlijk door de ETA's opgestelde oversightprocedures voor de uitvoering van oversightactiviteiten en alle relevante operationele gebieden, inclusief specificaties over IT-instrumenten en -apparatuur en tijdbeheer.",
+            "reviewed": false
+          },
+          "lid-3": {
+            "disposition": "autoriteit",
+            "note": "Teamleden volgen de specificaties en instructies van de coördinator van de lead overseer over de behandeling van informatie en gegevens (art. 40, lid 2, tweede alinea DORA) en houden zich aan de vertrouwelijkheidsregeling van de ETA's — relevant voor de omgang met van de aanbieder verkregen informatie.",
+            "reviewed": false
+          },
+          "lid-4": {
+            "disposition": "autoriteit",
+            "note": "De lead overseer en de aanwijzende autoriteiten stellen regelingen vast voor de uitvoering van deze verordening, waaronder regelingen over bestede tijd en geraamde kosten van de oversightactiviteiten en opleiding, en — indien van toepassing — over ethische en gedragsoverwegingen rond de rol van de teamleden.",
+            "reviewed": false
+          },
+          "lid-5": {
+            "disposition": "autoriteit",
+            "note": "De lead overseer en de aanwijzende autoriteiten zorgen ervoor dat de in lid 4 bedoelde regelingen tijdig worden uitgevoerd, herzien en bijgewerkt.",
+            "reviewed": false
+          }
+        },
+        "6": {
+          "inhoud": {
+            "disposition": "slotbepaling",
+            "note": "Inwerkingtreding op de twintigste dag na bekendmaking in het Publicatieblad.",
+            "reviewed": false
+          }
+        }
+      },
       "bijlagen": {}
     }
   }
