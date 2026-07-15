@@ -16,7 +16,7 @@ Register-of-Information tool (art. 28, lid 3 DORA).
 Ported from `~/ai-act-explorer-nl` (see its `docs/PORTING.md` for the port
 method). Plan/status per feature: `docs/epics/`. Repeatable procedures:
 `.claude/skills/` (`plan-an-epic` — the working method, `add-instrument`,
-`extend-parser`, `curate-recital-map`, `verify-app`).
+`extend-parser`, `curate-recital-map`, `curate-playbook`, `verify-app`).
 
 ## Golden rules
 
@@ -117,12 +117,18 @@ Epic 14 (juli 2026) sloot de matrix op **654/654**: het oversight-cluster
 (oversight 16/16, vergoedingen 18/18, onderzoeksteams 20/20) gedekt en de
 aanbieder-playbook verdiept van 5 naar 20 stappen (fases f1–f5:
 pa.sc/cg/oa/kv/ov), met de 17 DORA-ctpp-leden nu naar echte f5-steps.
-`meta.complete` blijft `false` — de flip + count-pin zijn epic 15.
 Bijvangst: parser-fix voor figure-afbeeldingen (GV 2024/1505 art 3(2)
-formule; nieuwe ContentNode `figure`). Openstaand: (a) epic 15 (menselijke
-review playbook, `complete:true` + pins, corrigendum-check op twee
-bron-eigenaardigheden — zie docs/epics/epic-14-oversight-aanbieder.md);
-epic 16 (UX); (b) menselijke review van de recital-map (complete=false) —
+formule; nieuwe ContentNode `figure`). Epic 15 (juli 2026) sloot de matrix:
+alle 654 dekkingsentries menselijk gereviewd via een 13-instrument
+adversariële verifier-sweep (`reviewed:true`), `meta.complete:true`, en de
+count-pin `coverageEntries: 654` in verify-playbook (strikte regime nu actief).
+Acht laag/midden-disputen: vier toegepast (formulieren GVM→GTM, criticaliteit
+art 1(1) +pa.p1, vergoedingen art 4(3) +pa.ov1, dora art 19(2) vrijwillig-note),
+vier bewust behouden. Corrigendum-check: geen EUR-Lex-corrigendum op de twee
+bron-eigenaardigheden (oversight art 3(1) '2022/2254', onderzoeksteams art 5(1)
+'zorgvuldigheid en zorgvuldigheid') — blijven onbewerkte brontekst.
+Openstaand: (a) epic 16 (UX: regimefilter + voortgangs-checkboxes op de nu
+bevroren playbook-data); (b) menselijke review van de recital-map (complete=false) —
 alle 284 entries zijn gedraft en adversarieel gereviewd (drafter→refuter;
 twee REVIEW:-gemarkeerde disputen wachten op arbitrage), maar nog
 `reviewed: false`.
