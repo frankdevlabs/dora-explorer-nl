@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
-import { getPlaybook, getPlaybookCounts } from "@/lib/playbook/data";
+import { getCoverage, getPlaybook, getPlaybookCounts } from "@/lib/playbook/data";
 
 export const metadata: Metadata = {
   title: "DORA-playbook",
@@ -12,6 +12,7 @@ export const metadata: Metadata = {
 export default function PlaybookPage() {
   const entiteit = getPlaybook("entiteit");
   const counts = getPlaybookCounts();
+  const complete = getCoverage().meta.complete;
   const universe = 654; // 637 leden + 17 bijlagen; asserted by verify-playbook
   return (
     <div>
@@ -55,7 +56,7 @@ export default function PlaybookPage() {
         <p className="font-semibold group-hover:text-accent">Dekkingsregister</p>
         <p className="mt-1 text-sm text-muted">
           Verantwoording per artikel en lid van alle 13 instrumenten ({counts.coverageEntries} van{" "}
-          {universe} bepalingen gedekt — in opbouw).
+          {universe} bepalingen gedekt{complete ? " en gereviewd" : " — in opbouw"}).
         </p>
       </Link>
 

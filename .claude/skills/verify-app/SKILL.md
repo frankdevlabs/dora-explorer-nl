@@ -10,16 +10,18 @@ check list change with nearly every epic. Update them in the same commit as
 the feature; a mismatch usually means this skill is stale, not that the app
 is broken — check `git log` before debugging.
 
-> **Epic-14 state:** full app, 13 instruments (DORA + 12 level-2 acts;
+> **Epic-15 state:** full app, 13 instruments (DORA + 12 level-2 acts;
 > **563 exported HTML pages**). Verify chain: verify-data (563 refs, 1031
 > search docs), verify-assessment (entity 18/57, supplier 11/48),
-> verify-playbook (draft mode: dekking **654/654** — hele universum gedekt;
-> **128 stappen** (108 entiteit pe.*, 20 aanbieder pa.*); 65 begrippen;
-> complete=false, 654-pin komt epic 15), verify-roi (15 templates / 98
-> kolommen), verify-recital-map (359 pairs, two-regime, all drafted, human
-> review open), verify-l2-map (26 links), verify-search (32 golden queries).
-> Epic 14 voegde de figure-ContentNode toe (GV 2024/1505 art 3(2)
-> formule-afbeelding) — enige figure in het corpus.
+> verify-playbook (**strict mode sinds epic 15**: dekking **654/654** ==
+> corpus exact, `complete:true`, gepind coverageEntries **654** + begrippen
+> 65; **128 stappen** (108 entiteit pe.*, 20 aanbieder pa.*)), verify-roi
+> (15 templates / 98 kolommen), verify-recital-map (359 pairs, two-regime,
+> all drafted, human review open), verify-l2-map (26 links), verify-search
+> (32 golden queries). Epic 15 reviewde alle 654 dekkingsentries
+> (`reviewed:true`) — geen nieuwe UI-surface; het dekkingsregister toont de
+> voltooide matrix. Epic 14's figure-ContentNode (GV 2024/1505 art 3(2)
+> formule) is de enige figure in het corpus.
 
 ## 1. Build (includes data verification)
 
