@@ -5650,7 +5650,198 @@
      "dora",
      "contractbeleid"
     ],
-    "stappen": []
+    "stappen": [
+     {
+      "id": "pa.cg1",
+      "titel": "Verwerk de artikel 30-minimumbepalingen in uw contracttemplates",
+      "doel": "Uw standaardcontracten en SLA's bieden aanbiederszijdig alle verplichte elementen van art. 30 DORA aan — de basisset voor alle ICT-diensten en de uitgebreide set voor kritieke of belangrijke functies — zodat contracteren met financiële entiteiten geen maatwerkonderhandeling per element vergt.",
+      "acties": [
+       "Leg per klantcontract alle rechten en plichten van beide partijen vast in één schriftelijk document dat op papier of in een downloadbaar, duurzaam en toegankelijk formaat beschikbaar is, inclusief de overeenkomsten inzake dienstverleningsniveau (art. 30, lid 1).",
+       "Neem de negen basiselementen van art. 30, lid 2, standaard in uw templates op: een duidelijke en volledige beschrijving van alle te leveren functies en ICT-diensten met vermelding of uitbesteding van een KOF-ondersteunende dienst of van materiële onderdelen daarvan is toegestaan en onder welke voorwaarden; de locaties (regio's of landen) van dienstverlening en gegevensverwerking inclusief opslaglocatie, met uw plicht de klant vooraf in kennis te stellen van een voorgenomen locatiewijziging; bepalingen over beschikbaarheid, authenticiteit, integriteit en vertrouwelijkheid van gegevens inclusief persoonsgegevens; toegang, herstel en teruggave van gegevens in een gemakkelijk toegankelijk formaat bij insolventie, afwikkeling, stopzetting of beëindiging; dienstenniveaubeschrijvingen met actualiseringen en herzieningen; incidentbijstand zonder extra kosten of tegen een vooraf bepaalde kostprijs; volledige medewerking aan de bevoegde en afwikkelingsautoriteiten van de klant en de door hen aangestelde personen; beëindigingsrechten met minimumopzegtermijnen conform de verwachtingen van die autoriteiten; en deelnamevoorwaarden voor de beveiligingsbewustzijnsprogramma's en weerbaarheidsopleidingen van de klant.",
+       "Bouw een KOF-variant of -addendum met de aanvullende elementen van art. 30, lid 3: volledige dienstverleningsbeschrijvingen met nauwkeurige kwantitatieve en kwalitatieve prestatiedoelstellingen die doeltreffende monitoring en onverwijlde corrigerende maatregelen mogelijk maken; kennisgevingstermijnen en rapportageverplichtingen inclusief melding van ontwikkelingen met materiële gevolgen voor de dienstverlening; de verplichting bedrijfsnoodplannen in te voeren en te testen en over passende ICT-beveiligingsmaatregelen, -instrumenten en -beleidslijnen te beschikken; deelname aan en volledige medewerking bij de TLPT van de klant; het volledige monitoringrecht van punt e) — onbeperkte toegangs-, inspectie- en auditrechten voor de klant, aangestelde derden en de bevoegde autoriteit, waarvan de doeltreffende uitoefening niet wordt belemmerd of beperkt door andere contractuele overeenkomsten of uitvoeringsbeleid, het recht om andere garantieniveaus overeen te komen indien de rechten van andere cliënten worden aangetast, kopieerrecht ter plaatse, volledige medewerking bij inspecties en audits en bijzonderheden over scope, procedures en frequentie — en exitbepalingen met een verplichte passende overgangsperiode; bied klanten die micro-onderneming zijn de delegatieoptie naar een door u aangestelde onafhankelijke derde met een doorlopend informatie- en garantierecht.",
+       "Neem de vier beëindigingsgronden van art. 28, lid 7, als klantrecht in uw templates op, zodat de klant kan opzeggen bij ernstige overtreding van wetten, voorschriften of contractvoorwaarden, bij tijdens monitoring vastgestelde omstandigheden die de uitvoering van de functies kunnen wijzigen, bij klaarblijkelijke zwakheden in uw algemene ICT-risicobeheer en in het bijzonder de wijze waarop u de beschikbaarheid, authenticiteit, integriteit en vertrouwelijkheid van gegevens borgt, en wanneer de bevoegde autoriteit door het contract geen doeltreffend toezicht meer kan uitoefenen.",
+       "Richt uw contractproces zo in dat u de door het klant-contractbeleid vereiste formalisering van materiële wijzigingen — een door alle partijen gedateerd en ondertekend schriftelijk document — en de daarin vermelde verlengingsprocedure kunt bedienen (art. 8, lid 4, GV 2024/1773); toets uw templates bij onderhandelingen aan door overheidsinstanties ontwikkelde modelcontractbepalingen voor specifieke diensten en documenteer die afweging (art. 30, lid 4)."
+      ],
+      "bewijsstukken": [
+       "Contracttemplate-set (basisset + KOF-variant) met mapping per element van art. 30, lid 2 en lid 3",
+       "Gap-analyse van het lopende klantcontractenbestand tegen art. 30 met herstelplan (addenda)",
+       "Wijzigings- en verlengingsprocedure voor contracten met dateer- en ondertekenvereiste"
+      ],
+      "rollen": [
+       "juridisch",
+       "sales/accountmanagement",
+       "compliance"
+      ],
+      "refs": [
+       {
+        "label": "Art. 30, lid 1 DORA",
+        "href": "/artikel/30#lid-1"
+       },
+       {
+        "label": "Art. 30, lid 2 DORA",
+        "href": "/artikel/30#lid-2"
+       },
+       {
+        "label": "Art. 30, lid 3 DORA",
+        "href": "/artikel/30#lid-3"
+       },
+       {
+        "label": "Art. 30, lid 4 DORA",
+        "href": "/artikel/30#lid-4"
+       },
+       {
+        "label": "Art. 28, lid 7 DORA",
+        "href": "/artikel/28#lid-7"
+       },
+       {
+        "label": "Art. 8, lid 1 GV 2024/1773",
+        "href": "/rts-contractbeleid/artikel/8#lid-1"
+       },
+       {
+        "label": "Art. 8, lid 4 GV 2024/1773",
+        "href": "/rts-contractbeleid/artikel/8#lid-4"
+       }
+      ],
+      "appliesTo": [
+       "aanbieder",
+       "ctpp"
+      ],
+      "prioriteit": "fundament",
+      "afhankelijkVan": [
+       "pa.p1"
+      ]
+     },
+     {
+      "id": "pa.cg2",
+      "titel": "Ken het contractbeleid van uw klanten en faciliteer due diligence en audits",
+      "doel": "U bedient de informatie-, due-diligence- en auditverzoeken die uit het contractbeleid van financiële klanten (GV 2024/1773) voortvloeien snel en aantoonbaar, zodat selectie, contractering en doorlopend toezicht door de klant niet op u vastlopen.",
+      "acties": [
+       "Stel een standaard due-diligence-dossier samen langs de zes beoordelingscriteria van art. 6, lid 1, GV 2024/1773: zakelijke reputatie, capaciteiten, deskundigheid en adequate financiële, personele en technische middelen, informatiebeveiligingsnormen, organisatiestructuur, risicobeheer, interne controles en vereiste vergunningen of registraties; uw vermogen om technologische ontwikkelingen te monitoren en leidende ICT-beveiligingspraktijken toe te passen; uw (voorgenomen) gebruik van ICT-subcontractanten; derde-landvestiging of -gegevensverwerking inclusief het risico op embargo's en sancties; instemming met daadwerkelijk uitvoerbare audits, ook ter plaatse, door de klant, aangestelde derden en bevoegde autoriteiten; en ethisch en maatschappelijk verantwoord handelen (mensenrechten en kinderrechten inclusief verbod op kinderarbeid, milieubescherming, passende arbeidsomstandigheden).",
+       "Onderbouw het door de klant vereiste zekerheidsniveau met de bewijsbronnen van art. 6, lid 3: faciliteer audits of onafhankelijke beoordelingen door of namens de klant, laat op eigen initiatief onafhankelijke auditverslagen opstellen die u aan klanten ter beschikking stelt, en stel interne-auditverslagen, passende certificeringen van derden en overige relevante informatie beschikbaar; ondersteun zo het passende zekerheidsniveau dat de klant moet bereiken, zo nodig met meerdere bronnen naast elkaar (art. 6, lid 4); toon daarbij het bestaan en de geborgde werking van uw risicobeperkende en bedrijfscontinuïteitsmaatregelen aan (art. 6, lid 2).",
+       "Maak de contractuele audit-, toegangs- en inspectierechten operationeel: richt een proces in voor audits door de interne audit van de klant of een aangestelde derde en voor gebundelde audits en gebundelde ICT-tests — inclusief dreigingsgestuurde penetratietests — samen met meerdere afnemers van dezelfde dienst (art. 8, lid 2), en garandeer effectieve toegang van de klant, diens auditors en de bevoegde autoriteiten tot gegevens en gebouwen die met de KOF-ondersteunende diensten samenhangen (art. 3, lid 8).",
+       "Wilt u dat klanten mede op uw certificeringen en aangeleverde auditverslagen kunnen steunen, voldoe dan aan de voorwaarden van art. 8, lid 3: deel uw auditplan, zorg dat de scope de essentiële systemen en controles en de regelgevingsvereisten van de klant dekt en in toekomstige versies gedekt blijft, houd certificeringen en verslagen actueel, schakel aantoonbaar bekwame certificerings- en auditpartijen in en stel hun kwalificaties aan klanten beschikbaar, laat certificeren en auditeren volgens algemeen erkende professionele normen inclusief een test van de operationele doeltreffendheid van essentiële controles, en accepteer het contractuele recht van de klant om de scope met redelijke frequentie uit te breiden en naar eigen goeddunken individuele en gebundelde audits uit te voeren.",
+       "Richt de doorlopende rapportage aan klanten in: periodieke verslagen over activiteiten en diensten, incidenten, dienstverlening, ICT-beveiliging en bedrijfscontinuïteitsmaatregelen en -tests, prestaties tegen de contractueel afgesproken kernprestatie- en kerncontrole-indicatoren, en kennisgeving van ICT-gerelateerde incidenten en betalingsgerelateerde operationele of beveiligingsincidenten (art. 9, leden 1 en 2); herstel vastgestelde tekortkomingen aantoonbaar binnen de met de klant afgesproken termijn (art. 9, lid 4).",
+       "Borg en documenteer dat u over voldoende middelen beschikt om de naleving door uw klanten van al hun wettelijke en regelgevingsvereisten voor de KOF-ondersteunende ICT-diensten te ondersteunen (art. 3, lid 4)."
+      ],
+      "bewijsstukken": [
+       "Standaard due-diligence-informatiepakket per dienst, gestructureerd langs art. 6, lid 1, GV 2024/1773",
+       "Auditfaciliteringsprocedure (eigen, derden- en gebundelde audits/ICT-tests) met toegangsregeling voor gegevens en gebouwen",
+       "Actuele certificeringen en auditverslagen met scope-mapping op essentiële systemen en controles van klanten",
+       "Rapportagekalender met voorbeeldrapportages en incidentkennisgevingsprocedure per klanttype"
+      ],
+      "rollen": [
+       "compliance",
+       "CISO",
+       "juridisch",
+       "sales/accountmanagement"
+      ],
+      "refs": [
+       {
+        "label": "Art. 6, lid 1 GV 2024/1773",
+        "href": "/rts-contractbeleid/artikel/6#lid-1"
+       },
+       {
+        "label": "Art. 6, lid 2 GV 2024/1773",
+        "href": "/rts-contractbeleid/artikel/6#lid-2"
+       },
+       {
+        "label": "Art. 6, lid 3 GV 2024/1773",
+        "href": "/rts-contractbeleid/artikel/6#lid-3"
+       },
+       {
+        "label": "Art. 6, lid 4 GV 2024/1773",
+        "href": "/rts-contractbeleid/artikel/6#lid-4"
+       },
+       {
+        "label": "Art. 8, lid 2 GV 2024/1773",
+        "href": "/rts-contractbeleid/artikel/8#lid-2"
+       },
+       {
+        "label": "Art. 8, lid 3 GV 2024/1773",
+        "href": "/rts-contractbeleid/artikel/8#lid-3"
+       },
+       {
+        "label": "Art. 3, lid 4 GV 2024/1773",
+        "href": "/rts-contractbeleid/artikel/3#lid-4"
+       },
+       {
+        "label": "Art. 3, lid 8 GV 2024/1773",
+        "href": "/rts-contractbeleid/artikel/3#lid-8"
+       },
+       {
+        "label": "Art. 9, lid 1 GV 2024/1773",
+        "href": "/rts-contractbeleid/artikel/9#lid-1"
+       },
+       {
+        "label": "Art. 9, lid 2 GV 2024/1773",
+        "href": "/rts-contractbeleid/artikel/9#lid-2"
+       },
+       {
+        "label": "Art. 9, lid 4 GV 2024/1773",
+        "href": "/rts-contractbeleid/artikel/9#lid-4"
+       }
+      ],
+      "appliesTo": [
+       "aanbieder",
+       "ctpp"
+      ],
+      "prioriteit": "kern",
+      "afhankelijkVan": [
+       "pa.cg1"
+      ]
+     },
+     {
+      "id": "pa.cg3",
+      "titel": "Ondersteun beëindiging, exit en transitie van uw klanten",
+      "doel": "Bij beëindiging van een contract kan de klant zonder verstoring van zijn bedrijfsactiviteiten migreren: u levert door tijdens een passende overgangsperiode, draagt diensten en gegevens veilig en integraal over en werkt mee aan de exitplannen van de klant en de toetsing daarvan.",
+      "acties": [
+       "Richt een exit- en transitieproces in dat de verplichte passende overgangsperiode van art. 30, lid 3, punt f), waarmaakt: blijf de respectieve functies of ICT-diensten leveren om het risico op verstoring bij de klant te beperken of een doeltreffende afwikkeling en herstructurering te ondersteunen, en ondersteun de overstap naar een andere derde aanbieder of naar interne oplossingen, afgestemd op de complexiteit van de geleverde dienst.",
+       "Werk de gegevensoverdracht bij exit uit: toegang, herstel en teruggave van persoonsgegevens en niet-persoonsgebonden gegevens in een gemakkelijk toegankelijk formaat bij insolventie, afwikkeling, stopzetting van bedrijfsactiviteiten of contractbeëindiging (art. 30, lid 2, punt d)), en de veilige en integrale overdracht van contractueel overeengekomen ICT-diensten en de bijbehorende gegevens aan alternatieve aanbieders of terugname in eigen beheer van de klant, inclusief verwijdering aan uw kant (art. 28, lid 8).",
+       "Werk mee aan de gedocumenteerde exitplannen die klanten op grond van art. 10 GV 2024/1773 per contract moeten hebben: lever de dienst-, afhankelijkheids- en migratie-informatie waarmee de klant een realistisch en haalbaar plan op basis van plausibele scenario's kan opstellen, met een uitvoeringstiming die verenigbaar is met de contractuele exit- en beëindigingsvoorwaarden, en ondersteun de periodieke evaluatie en toetsing ervan (bijvoorbeeld via exit-walkthroughs of migratietests).",
+       "Operationaliseer de beëindigingsgronden van art. 28, lid 7, die u via uw templates als klantrecht hebt toegekend: richt uw interne escalatie- en overdrachtsprocedures zo in dat een opzegging op die gronden niet tot obstructie leidt en de klant kan beëindigen zonder verstoring van zijn bedrijfsactiviteiten, zonder beperking van zijn regelnaleving en zonder afbreuk aan de continuïteit en kwaliteit van de aan zijn cliënten geleverde diensten (art. 28, lid 8)."
+      ],
+      "bewijsstukken": [
+       "Exit- en transitiedraaiboek per dienst(categorie) met overgangsperiode-afspraken",
+       "Gegevensoverdrachts- en verwijderprocedure met formaat- en integriteitsspecificaties",
+       "Verslagen van met klanten uitgevoerde exit-tests of -walkthroughs"
+      ],
+      "rollen": [
+       "juridisch",
+       "sales/accountmanagement",
+       "CISO"
+      ],
+      "refs": [
+       {
+        "label": "Art. 28, lid 7 DORA",
+        "href": "/artikel/28#lid-7"
+       },
+       {
+        "label": "Art. 28, lid 8 DORA",
+        "href": "/artikel/28#lid-8"
+       },
+       {
+        "label": "Art. 30, lid 3 DORA",
+        "href": "/artikel/30#lid-3"
+       },
+       {
+        "label": "Art. 30, lid 2 DORA",
+        "href": "/artikel/30#lid-2"
+       },
+       {
+        "label": "Art. 10 GV 2024/1773",
+        "href": "/rts-contractbeleid/artikel/10#inhoud"
+       }
+      ],
+      "appliesTo": [
+       "aanbieder",
+       "ctpp"
+      ],
+      "prioriteit": "kern",
+      "afhankelijkVan": [
+       "pa.cg1"
+      ]
+     }
+    ]
    },
    {
     "id": "f3",
@@ -6663,14 +6854,17 @@
        "disposition": "stap",
        "steps": [
         "pe.d7",
-        "pe.d8"
+        "pe.d8",
+        "pa.cg1",
+        "pa.cg3"
        ],
        "reviewed": false
       },
       "lid-8": {
        "disposition": "stap",
        "steps": [
-        "pe.d7"
+        "pe.d7",
+        "pa.cg3"
        ],
        "reviewed": false
       },
@@ -6711,21 +6905,25 @@
       "lid-1": {
        "disposition": "stap",
        "steps": [
-        "pe.d8"
+        "pe.d8",
+        "pa.cg1"
        ],
        "reviewed": false
       },
       "lid-2": {
        "disposition": "stap",
        "steps": [
-        "pe.d8"
+        "pe.d8",
+        "pa.cg1"
        ],
        "reviewed": false
       },
       "lid-3": {
        "disposition": "stap",
        "steps": [
-        "pe.d9"
+        "pe.d9",
+        "pa.cg1",
+        "pa.cg3"
        ],
        "note": "Afwijking voor micro-ondernemingen: de toegangs-, inspectie- en auditrechten van punt e) mogen worden gedelegeerd aan een door de aanbieder aangestelde onafhankelijke derde, mits de entiteit die derde te allen tijde om informatie en garanties kan verzoeken.",
        "reviewed": false
@@ -6733,7 +6931,8 @@
       "lid-4": {
        "disposition": "stap",
        "steps": [
-        "pe.d8"
+        "pe.d8",
+        "pa.cg1"
        ],
        "reviewed": false
       },
@@ -9881,7 +10080,8 @@
       "lid-4": {
        "disposition": "stap",
        "steps": [
-        "pe.cb1"
+        "pe.cb1",
+        "pa.cg2"
        ],
        "reviewed": false
       },
@@ -9911,7 +10111,8 @@
        "disposition": "stap",
        "steps": [
         "pe.cb1",
-        "pe.d8"
+        "pe.d8",
+        "pa.cg2"
        ],
        "reviewed": false
       }
@@ -9948,28 +10149,32 @@
        "disposition": "stap",
        "steps": [
         "pe.cb3",
-        "pe.d4"
+        "pe.d4",
+        "pa.cg2"
        ],
        "reviewed": false
       },
       "lid-2": {
        "disposition": "stap",
        "steps": [
-        "pe.cb3"
+        "pe.cb3",
+        "pa.cg2"
        ],
        "reviewed": false
       },
       "lid-3": {
        "disposition": "stap",
        "steps": [
-        "pe.cb3"
+        "pe.cb3",
+        "pa.cg2"
        ],
        "reviewed": false
       },
       "lid-4": {
        "disposition": "stap",
        "steps": [
-        "pe.cb3"
+        "pe.cb3",
+        "pa.cg2"
        ],
        "reviewed": false
       }
@@ -9997,7 +10202,8 @@
        "steps": [
         "pe.cb1",
         "pe.d8",
-        "pe.d9"
+        "pe.d9",
+        "pa.cg1"
        ],
        "reviewed": false
       },
@@ -10005,21 +10211,24 @@
        "disposition": "stap",
        "steps": [
         "pe.cb5",
-        "pe.d6"
+        "pe.d6",
+        "pa.cg2"
        ],
        "reviewed": false
       },
       "lid-3": {
        "disposition": "stap",
        "steps": [
-        "pe.cb5"
+        "pe.cb5",
+        "pa.cg2"
        ],
        "reviewed": false
       },
       "lid-4": {
        "disposition": "stap",
        "steps": [
-        "pe.cb1"
+        "pe.cb1",
+        "pa.cg1"
        ],
        "reviewed": false
       }
@@ -10029,14 +10238,16 @@
        "disposition": "stap",
        "steps": [
         "pe.cb6",
-        "pe.d9"
+        "pe.d9",
+        "pa.cg2"
        ],
        "reviewed": false
       },
       "lid-2": {
        "disposition": "stap",
        "steps": [
-        "pe.cb6"
+        "pe.cb6",
+        "pa.cg2"
        ],
        "reviewed": false
       },
@@ -10052,7 +10263,8 @@
       "lid-4": {
        "disposition": "stap",
        "steps": [
-        "pe.cb6"
+        "pe.cb6",
+        "pa.cg2"
        ],
        "reviewed": false
       }
@@ -10061,7 +10273,8 @@
       "inhoud": {
        "disposition": "stap",
        "steps": [
-        "pe.d7"
+        "pe.d7",
+        "pa.cg3"
        ],
        "reviewed": false
       }
@@ -15988,6 +16201,211 @@
    "faseId": "f1",
    "faseTitel": "Positiebepaling"
   },
+  "pa.cg1": {
+   "step": {
+    "id": "pa.cg1",
+    "titel": "Verwerk de artikel 30-minimumbepalingen in uw contracttemplates",
+    "doel": "Uw standaardcontracten en SLA's bieden aanbiederszijdig alle verplichte elementen van art. 30 DORA aan — de basisset voor alle ICT-diensten en de uitgebreide set voor kritieke of belangrijke functies — zodat contracteren met financiële entiteiten geen maatwerkonderhandeling per element vergt.",
+    "acties": [
+     "Leg per klantcontract alle rechten en plichten van beide partijen vast in één schriftelijk document dat op papier of in een downloadbaar, duurzaam en toegankelijk formaat beschikbaar is, inclusief de overeenkomsten inzake dienstverleningsniveau (art. 30, lid 1).",
+     "Neem de negen basiselementen van art. 30, lid 2, standaard in uw templates op: een duidelijke en volledige beschrijving van alle te leveren functies en ICT-diensten met vermelding of uitbesteding van een KOF-ondersteunende dienst of van materiële onderdelen daarvan is toegestaan en onder welke voorwaarden; de locaties (regio's of landen) van dienstverlening en gegevensverwerking inclusief opslaglocatie, met uw plicht de klant vooraf in kennis te stellen van een voorgenomen locatiewijziging; bepalingen over beschikbaarheid, authenticiteit, integriteit en vertrouwelijkheid van gegevens inclusief persoonsgegevens; toegang, herstel en teruggave van gegevens in een gemakkelijk toegankelijk formaat bij insolventie, afwikkeling, stopzetting of beëindiging; dienstenniveaubeschrijvingen met actualiseringen en herzieningen; incidentbijstand zonder extra kosten of tegen een vooraf bepaalde kostprijs; volledige medewerking aan de bevoegde en afwikkelingsautoriteiten van de klant en de door hen aangestelde personen; beëindigingsrechten met minimumopzegtermijnen conform de verwachtingen van die autoriteiten; en deelnamevoorwaarden voor de beveiligingsbewustzijnsprogramma's en weerbaarheidsopleidingen van de klant.",
+     "Bouw een KOF-variant of -addendum met de aanvullende elementen van art. 30, lid 3: volledige dienstverleningsbeschrijvingen met nauwkeurige kwantitatieve en kwalitatieve prestatiedoelstellingen die doeltreffende monitoring en onverwijlde corrigerende maatregelen mogelijk maken; kennisgevingstermijnen en rapportageverplichtingen inclusief melding van ontwikkelingen met materiële gevolgen voor de dienstverlening; de verplichting bedrijfsnoodplannen in te voeren en te testen en over passende ICT-beveiligingsmaatregelen, -instrumenten en -beleidslijnen te beschikken; deelname aan en volledige medewerking bij de TLPT van de klant; het volledige monitoringrecht van punt e) — onbeperkte toegangs-, inspectie- en auditrechten voor de klant, aangestelde derden en de bevoegde autoriteit, waarvan de doeltreffende uitoefening niet wordt belemmerd of beperkt door andere contractuele overeenkomsten of uitvoeringsbeleid, het recht om andere garantieniveaus overeen te komen indien de rechten van andere cliënten worden aangetast, kopieerrecht ter plaatse, volledige medewerking bij inspecties en audits en bijzonderheden over scope, procedures en frequentie — en exitbepalingen met een verplichte passende overgangsperiode; bied klanten die micro-onderneming zijn de delegatieoptie naar een door u aangestelde onafhankelijke derde met een doorlopend informatie- en garantierecht.",
+     "Neem de vier beëindigingsgronden van art. 28, lid 7, als klantrecht in uw templates op, zodat de klant kan opzeggen bij ernstige overtreding van wetten, voorschriften of contractvoorwaarden, bij tijdens monitoring vastgestelde omstandigheden die de uitvoering van de functies kunnen wijzigen, bij klaarblijkelijke zwakheden in uw algemene ICT-risicobeheer en in het bijzonder de wijze waarop u de beschikbaarheid, authenticiteit, integriteit en vertrouwelijkheid van gegevens borgt, en wanneer de bevoegde autoriteit door het contract geen doeltreffend toezicht meer kan uitoefenen.",
+     "Richt uw contractproces zo in dat u de door het klant-contractbeleid vereiste formalisering van materiële wijzigingen — een door alle partijen gedateerd en ondertekend schriftelijk document — en de daarin vermelde verlengingsprocedure kunt bedienen (art. 8, lid 4, GV 2024/1773); toets uw templates bij onderhandelingen aan door overheidsinstanties ontwikkelde modelcontractbepalingen voor specifieke diensten en documenteer die afweging (art. 30, lid 4)."
+    ],
+    "bewijsstukken": [
+     "Contracttemplate-set (basisset + KOF-variant) met mapping per element van art. 30, lid 2 en lid 3",
+     "Gap-analyse van het lopende klantcontractenbestand tegen art. 30 met herstelplan (addenda)",
+     "Wijzigings- en verlengingsprocedure voor contracten met dateer- en ondertekenvereiste"
+    ],
+    "rollen": [
+     "juridisch",
+     "sales/accountmanagement",
+     "compliance"
+    ],
+    "refs": [
+     {
+      "label": "Art. 30, lid 1 DORA",
+      "href": "/artikel/30#lid-1"
+     },
+     {
+      "label": "Art. 30, lid 2 DORA",
+      "href": "/artikel/30#lid-2"
+     },
+     {
+      "label": "Art. 30, lid 3 DORA",
+      "href": "/artikel/30#lid-3"
+     },
+     {
+      "label": "Art. 30, lid 4 DORA",
+      "href": "/artikel/30#lid-4"
+     },
+     {
+      "label": "Art. 28, lid 7 DORA",
+      "href": "/artikel/28#lid-7"
+     },
+     {
+      "label": "Art. 8, lid 1 GV 2024/1773",
+      "href": "/rts-contractbeleid/artikel/8#lid-1"
+     },
+     {
+      "label": "Art. 8, lid 4 GV 2024/1773",
+      "href": "/rts-contractbeleid/artikel/8#lid-4"
+     }
+    ],
+    "appliesTo": [
+     "aanbieder",
+     "ctpp"
+    ],
+    "prioriteit": "fundament",
+    "afhankelijkVan": [
+     "pa.p1"
+    ]
+   },
+   "playbook": "aanbieder",
+   "faseId": "f2",
+   "faseTitel": "Contractuele gereedheid"
+  },
+  "pa.cg2": {
+   "step": {
+    "id": "pa.cg2",
+    "titel": "Ken het contractbeleid van uw klanten en faciliteer due diligence en audits",
+    "doel": "U bedient de informatie-, due-diligence- en auditverzoeken die uit het contractbeleid van financiële klanten (GV 2024/1773) voortvloeien snel en aantoonbaar, zodat selectie, contractering en doorlopend toezicht door de klant niet op u vastlopen.",
+    "acties": [
+     "Stel een standaard due-diligence-dossier samen langs de zes beoordelingscriteria van art. 6, lid 1, GV 2024/1773: zakelijke reputatie, capaciteiten, deskundigheid en adequate financiële, personele en technische middelen, informatiebeveiligingsnormen, organisatiestructuur, risicobeheer, interne controles en vereiste vergunningen of registraties; uw vermogen om technologische ontwikkelingen te monitoren en leidende ICT-beveiligingspraktijken toe te passen; uw (voorgenomen) gebruik van ICT-subcontractanten; derde-landvestiging of -gegevensverwerking inclusief het risico op embargo's en sancties; instemming met daadwerkelijk uitvoerbare audits, ook ter plaatse, door de klant, aangestelde derden en bevoegde autoriteiten; en ethisch en maatschappelijk verantwoord handelen (mensenrechten en kinderrechten inclusief verbod op kinderarbeid, milieubescherming, passende arbeidsomstandigheden).",
+     "Onderbouw het door de klant vereiste zekerheidsniveau met de bewijsbronnen van art. 6, lid 3: faciliteer audits of onafhankelijke beoordelingen door of namens de klant, laat op eigen initiatief onafhankelijke auditverslagen opstellen die u aan klanten ter beschikking stelt, en stel interne-auditverslagen, passende certificeringen van derden en overige relevante informatie beschikbaar; ondersteun zo het passende zekerheidsniveau dat de klant moet bereiken, zo nodig met meerdere bronnen naast elkaar (art. 6, lid 4); toon daarbij het bestaan en de geborgde werking van uw risicobeperkende en bedrijfscontinuïteitsmaatregelen aan (art. 6, lid 2).",
+     "Maak de contractuele audit-, toegangs- en inspectierechten operationeel: richt een proces in voor audits door de interne audit van de klant of een aangestelde derde en voor gebundelde audits en gebundelde ICT-tests — inclusief dreigingsgestuurde penetratietests — samen met meerdere afnemers van dezelfde dienst (art. 8, lid 2), en garandeer effectieve toegang van de klant, diens auditors en de bevoegde autoriteiten tot gegevens en gebouwen die met de KOF-ondersteunende diensten samenhangen (art. 3, lid 8).",
+     "Wilt u dat klanten mede op uw certificeringen en aangeleverde auditverslagen kunnen steunen, voldoe dan aan de voorwaarden van art. 8, lid 3: deel uw auditplan, zorg dat de scope de essentiële systemen en controles en de regelgevingsvereisten van de klant dekt en in toekomstige versies gedekt blijft, houd certificeringen en verslagen actueel, schakel aantoonbaar bekwame certificerings- en auditpartijen in en stel hun kwalificaties aan klanten beschikbaar, laat certificeren en auditeren volgens algemeen erkende professionele normen inclusief een test van de operationele doeltreffendheid van essentiële controles, en accepteer het contractuele recht van de klant om de scope met redelijke frequentie uit te breiden en naar eigen goeddunken individuele en gebundelde audits uit te voeren.",
+     "Richt de doorlopende rapportage aan klanten in: periodieke verslagen over activiteiten en diensten, incidenten, dienstverlening, ICT-beveiliging en bedrijfscontinuïteitsmaatregelen en -tests, prestaties tegen de contractueel afgesproken kernprestatie- en kerncontrole-indicatoren, en kennisgeving van ICT-gerelateerde incidenten en betalingsgerelateerde operationele of beveiligingsincidenten (art. 9, leden 1 en 2); herstel vastgestelde tekortkomingen aantoonbaar binnen de met de klant afgesproken termijn (art. 9, lid 4).",
+     "Borg en documenteer dat u over voldoende middelen beschikt om de naleving door uw klanten van al hun wettelijke en regelgevingsvereisten voor de KOF-ondersteunende ICT-diensten te ondersteunen (art. 3, lid 4)."
+    ],
+    "bewijsstukken": [
+     "Standaard due-diligence-informatiepakket per dienst, gestructureerd langs art. 6, lid 1, GV 2024/1773",
+     "Auditfaciliteringsprocedure (eigen, derden- en gebundelde audits/ICT-tests) met toegangsregeling voor gegevens en gebouwen",
+     "Actuele certificeringen en auditverslagen met scope-mapping op essentiële systemen en controles van klanten",
+     "Rapportagekalender met voorbeeldrapportages en incidentkennisgevingsprocedure per klanttype"
+    ],
+    "rollen": [
+     "compliance",
+     "CISO",
+     "juridisch",
+     "sales/accountmanagement"
+    ],
+    "refs": [
+     {
+      "label": "Art. 6, lid 1 GV 2024/1773",
+      "href": "/rts-contractbeleid/artikel/6#lid-1"
+     },
+     {
+      "label": "Art. 6, lid 2 GV 2024/1773",
+      "href": "/rts-contractbeleid/artikel/6#lid-2"
+     },
+     {
+      "label": "Art. 6, lid 3 GV 2024/1773",
+      "href": "/rts-contractbeleid/artikel/6#lid-3"
+     },
+     {
+      "label": "Art. 6, lid 4 GV 2024/1773",
+      "href": "/rts-contractbeleid/artikel/6#lid-4"
+     },
+     {
+      "label": "Art. 8, lid 2 GV 2024/1773",
+      "href": "/rts-contractbeleid/artikel/8#lid-2"
+     },
+     {
+      "label": "Art. 8, lid 3 GV 2024/1773",
+      "href": "/rts-contractbeleid/artikel/8#lid-3"
+     },
+     {
+      "label": "Art. 3, lid 4 GV 2024/1773",
+      "href": "/rts-contractbeleid/artikel/3#lid-4"
+     },
+     {
+      "label": "Art. 3, lid 8 GV 2024/1773",
+      "href": "/rts-contractbeleid/artikel/3#lid-8"
+     },
+     {
+      "label": "Art. 9, lid 1 GV 2024/1773",
+      "href": "/rts-contractbeleid/artikel/9#lid-1"
+     },
+     {
+      "label": "Art. 9, lid 2 GV 2024/1773",
+      "href": "/rts-contractbeleid/artikel/9#lid-2"
+     },
+     {
+      "label": "Art. 9, lid 4 GV 2024/1773",
+      "href": "/rts-contractbeleid/artikel/9#lid-4"
+     }
+    ],
+    "appliesTo": [
+     "aanbieder",
+     "ctpp"
+    ],
+    "prioriteit": "kern",
+    "afhankelijkVan": [
+     "pa.cg1"
+    ]
+   },
+   "playbook": "aanbieder",
+   "faseId": "f2",
+   "faseTitel": "Contractuele gereedheid"
+  },
+  "pa.cg3": {
+   "step": {
+    "id": "pa.cg3",
+    "titel": "Ondersteun beëindiging, exit en transitie van uw klanten",
+    "doel": "Bij beëindiging van een contract kan de klant zonder verstoring van zijn bedrijfsactiviteiten migreren: u levert door tijdens een passende overgangsperiode, draagt diensten en gegevens veilig en integraal over en werkt mee aan de exitplannen van de klant en de toetsing daarvan.",
+    "acties": [
+     "Richt een exit- en transitieproces in dat de verplichte passende overgangsperiode van art. 30, lid 3, punt f), waarmaakt: blijf de respectieve functies of ICT-diensten leveren om het risico op verstoring bij de klant te beperken of een doeltreffende afwikkeling en herstructurering te ondersteunen, en ondersteun de overstap naar een andere derde aanbieder of naar interne oplossingen, afgestemd op de complexiteit van de geleverde dienst.",
+     "Werk de gegevensoverdracht bij exit uit: toegang, herstel en teruggave van persoonsgegevens en niet-persoonsgebonden gegevens in een gemakkelijk toegankelijk formaat bij insolventie, afwikkeling, stopzetting van bedrijfsactiviteiten of contractbeëindiging (art. 30, lid 2, punt d)), en de veilige en integrale overdracht van contractueel overeengekomen ICT-diensten en de bijbehorende gegevens aan alternatieve aanbieders of terugname in eigen beheer van de klant, inclusief verwijdering aan uw kant (art. 28, lid 8).",
+     "Werk mee aan de gedocumenteerde exitplannen die klanten op grond van art. 10 GV 2024/1773 per contract moeten hebben: lever de dienst-, afhankelijkheids- en migratie-informatie waarmee de klant een realistisch en haalbaar plan op basis van plausibele scenario's kan opstellen, met een uitvoeringstiming die verenigbaar is met de contractuele exit- en beëindigingsvoorwaarden, en ondersteun de periodieke evaluatie en toetsing ervan (bijvoorbeeld via exit-walkthroughs of migratietests).",
+     "Operationaliseer de beëindigingsgronden van art. 28, lid 7, die u via uw templates als klantrecht hebt toegekend: richt uw interne escalatie- en overdrachtsprocedures zo in dat een opzegging op die gronden niet tot obstructie leidt en de klant kan beëindigen zonder verstoring van zijn bedrijfsactiviteiten, zonder beperking van zijn regelnaleving en zonder afbreuk aan de continuïteit en kwaliteit van de aan zijn cliënten geleverde diensten (art. 28, lid 8)."
+    ],
+    "bewijsstukken": [
+     "Exit- en transitiedraaiboek per dienst(categorie) met overgangsperiode-afspraken",
+     "Gegevensoverdrachts- en verwijderprocedure met formaat- en integriteitsspecificaties",
+     "Verslagen van met klanten uitgevoerde exit-tests of -walkthroughs"
+    ],
+    "rollen": [
+     "juridisch",
+     "sales/accountmanagement",
+     "CISO"
+    ],
+    "refs": [
+     {
+      "label": "Art. 28, lid 7 DORA",
+      "href": "/artikel/28#lid-7"
+     },
+     {
+      "label": "Art. 28, lid 8 DORA",
+      "href": "/artikel/28#lid-8"
+     },
+     {
+      "label": "Art. 30, lid 3 DORA",
+      "href": "/artikel/30#lid-3"
+     },
+     {
+      "label": "Art. 30, lid 2 DORA",
+      "href": "/artikel/30#lid-2"
+     },
+     {
+      "label": "Art. 10 GV 2024/1773",
+      "href": "/rts-contractbeleid/artikel/10#inhoud"
+     }
+    ],
+    "appliesTo": [
+     "aanbieder",
+     "ctpp"
+    ],
+    "prioriteit": "kern",
+    "afhankelijkVan": [
+     "pa.cg1"
+    ]
+   },
+   "playbook": "aanbieder",
+   "faseId": "f2",
+   "faseTitel": "Contractuele gereedheid"
+  },
   "pa.p5": {
    "step": {
     "id": "pa.p5",
@@ -16040,7 +16458,7 @@
  "counts": {
   "steps": {
    "entiteit": 108,
-   "aanbieder": 5
+   "aanbieder": 8
   },
   "coverageEntries": 600,
   "dispositions": {

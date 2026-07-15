@@ -926,14 +926,17 @@
             "disposition": "stap",
             "steps": [
               "pe.d7",
-              "pe.d8"
+              "pe.d8",
+              "pa.cg1",
+              "pa.cg3"
             ],
             "reviewed": false
           },
           "lid-8": {
             "disposition": "stap",
             "steps": [
-              "pe.d7"
+              "pe.d7",
+              "pa.cg3"
             ],
             "reviewed": false
           },
@@ -974,21 +977,25 @@
           "lid-1": {
             "disposition": "stap",
             "steps": [
-              "pe.d8"
+              "pe.d8",
+              "pa.cg1"
             ],
             "reviewed": false
           },
           "lid-2": {
             "disposition": "stap",
             "steps": [
-              "pe.d8"
+              "pe.d8",
+              "pa.cg1"
             ],
             "reviewed": false
           },
           "lid-3": {
             "disposition": "stap",
             "steps": [
-              "pe.d9"
+              "pe.d9",
+              "pa.cg1",
+              "pa.cg3"
             ],
             "note": "Afwijking voor micro-ondernemingen: de toegangs-, inspectie- en auditrechten van punt e) mogen worden gedelegeerd aan een door de aanbieder aangestelde onafhankelijke derde, mits de entiteit die derde te allen tijde om informatie en garanties kan verzoeken.",
             "reviewed": false
@@ -996,7 +1003,8 @@
           "lid-4": {
             "disposition": "stap",
             "steps": [
-              "pe.d8"
+              "pe.d8",
+              "pa.cg1"
             ],
             "reviewed": false
           },
@@ -4144,7 +4152,8 @@
           "lid-4": {
             "disposition": "stap",
             "steps": [
-              "pe.cb1"
+              "pe.cb1",
+              "pa.cg2"
             ],
             "reviewed": false
           },
@@ -4174,7 +4183,8 @@
             "disposition": "stap",
             "steps": [
               "pe.cb1",
-              "pe.d8"
+              "pe.d8",
+              "pa.cg2"
             ],
             "reviewed": false
           }
@@ -4211,28 +4221,32 @@
             "disposition": "stap",
             "steps": [
               "pe.cb3",
-              "pe.d4"
+              "pe.d4",
+              "pa.cg2"
             ],
             "reviewed": false
           },
           "lid-2": {
             "disposition": "stap",
             "steps": [
-              "pe.cb3"
+              "pe.cb3",
+              "pa.cg2"
             ],
             "reviewed": false
           },
           "lid-3": {
             "disposition": "stap",
             "steps": [
-              "pe.cb3"
+              "pe.cb3",
+              "pa.cg2"
             ],
             "reviewed": false
           },
           "lid-4": {
             "disposition": "stap",
             "steps": [
-              "pe.cb3"
+              "pe.cb3",
+              "pa.cg2"
             ],
             "reviewed": false
           }
@@ -4260,7 +4274,8 @@
             "steps": [
               "pe.cb1",
               "pe.d8",
-              "pe.d9"
+              "pe.d9",
+              "pa.cg1"
             ],
             "reviewed": false
           },
@@ -4268,21 +4283,24 @@
             "disposition": "stap",
             "steps": [
               "pe.cb5",
-              "pe.d6"
+              "pe.d6",
+              "pa.cg2"
             ],
             "reviewed": false
           },
           "lid-3": {
             "disposition": "stap",
             "steps": [
-              "pe.cb5"
+              "pe.cb5",
+              "pa.cg2"
             ],
             "reviewed": false
           },
           "lid-4": {
             "disposition": "stap",
             "steps": [
-              "pe.cb1"
+              "pe.cb1",
+              "pa.cg1"
             ],
             "reviewed": false
           }
@@ -4292,14 +4310,16 @@
             "disposition": "stap",
             "steps": [
               "pe.cb6",
-              "pe.d9"
+              "pe.d9",
+              "pa.cg2"
             ],
             "reviewed": false
           },
           "lid-2": {
             "disposition": "stap",
             "steps": [
-              "pe.cb6"
+              "pe.cb6",
+              "pa.cg2"
             ],
             "reviewed": false
           },
@@ -4315,7 +4335,8 @@
           "lid-4": {
             "disposition": "stap",
             "steps": [
-              "pe.cb6"
+              "pe.cb6",
+              "pa.cg2"
             ],
             "reviewed": false
           }
@@ -4324,7 +4345,8 @@
           "inhoud": {
             "disposition": "stap",
             "steps": [
-              "pe.d7"
+              "pe.d7",
+              "pa.cg3"
             ],
             "reviewed": false
           }
