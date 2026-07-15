@@ -62,12 +62,24 @@ checkboxes tellen en persisteren; aanbieder-f5 biedt aanbieder/ctpp (niet de
 entity-paar); kind-index toont per-fase counts + reset wist; header-link en
 prev/next aanwezig.
 
+## Nagekomen (juli 2026) — playbook step search-indexering
+
+Het uitgestelde item is alsnog gebouwd. `scripts/build-playbook.ts` emitteert nu
+één `type:"stap"` SearchDoc per stap (`id:"stap-<stepId>"`, `instrument` = de
+playbook-kind, `url:/playbook/<kind>/<faseId>#<stepId>`, `heading`=titel,
+`text`=fasetitel + doel + acties), leest de door `parse-corpus.ts` net
+geschreven `data/generated/search-docs.json`, appendt en herkopieert naar
+`public/`. `SearchDoc.type` (`src/lib/types.ts`) kreeg `| "stap"`; `SearchResults`
+en `SearchPalette` kennen het type (label "Stap" / groep "Playbook-stappen",
+`ListChecks`-icoon, playbook-badge). Corpus deelt met MCP `search_dora` — stappen
+zijn daar ook vindbaar (geen filtering). `verify-data` re-pin **1031→1159**
+(+128 stap-docs = 108 entiteit + 20 aanbieder) met carve-out voor de
+`/playbook/…`-url; `verify-search` +2 golden queries (pe.rb20, pa.oa2) en één
+bestaande pin (`ranking toeleveringsketen`) bewust versoepeld naar `topN` omdat
+stap-pe.ir1 nu meerangt. `verify-playbook`-pins (654/654) ongewijzigd.
+
 ## Openstaand
 
-- **Playbook step search-indexering** (uit deze epic uitgesteld): `type:"stap"`
-  SearchDocs emitteren uit `scripts/build-playbook.ts` (append aan
-  `data/generated` + `public/search-docs.json`), re-pin `verify-data.ts`
-  `1031→N`, golden queries in `verify-search.ts`, en `SearchResults`/
-  `SearchPalette` het nieuwe type leren. Eigen verify-groen increment.
 - **Menselijke review van de recital-map** (`complete=false`) — 284 entries
-  gedraft + adversarieel gereviewd, maar nog `reviewed:false`.
+  gedraft + adversarieel gereviewd, maar nog `reviewed:false`. (Buiten epic 16;
+  epic-9 editorial.)

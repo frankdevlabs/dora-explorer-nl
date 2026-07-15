@@ -8,7 +8,18 @@ import { getSearchIndex, makeSnippet, searchDocs, type SearchHit } from "@/lib/s
 import { INSTRUMENTS, type InstrumentId } from "@/lib/instruments";
 import { Highlight } from "./Highlight";
 
-const TYPE_LABEL = { artikel: "Artikel", overweging: "Overweging", bijlage: "Bijlage" } as const;
+const TYPE_LABEL = {
+  artikel: "Artikel",
+  overweging: "Overweging",
+  bijlage: "Bijlage",
+  stap: "Stap",
+} as const;
+
+/** Badge label for stap hits, whose instrument is the playbook kind. */
+const PLAYBOOK_LABEL: Record<string, string> = {
+  entiteit: "Entiteit-playbook",
+  aanbieder: "Aanbieder-playbook",
+};
 
 /** Full-page search: reads ?q=, reuses the palette's index singleton. */
 export function SearchResults() {
@@ -48,7 +59,7 @@ export function SearchResults() {
           autoFocus
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Zoek in artikelen, overwegingen en bijlagen…"
+          placeholder="Zoek in artikelen, overwegingen, bijlagen en playbook-stappen…"
           className="h-11 w-full bg-transparent outline-none placeholder:text-muted"
         />
       </form>
@@ -67,10 +78,16 @@ export function SearchResults() {
               <span className="text-xs font-medium uppercase tracking-wide text-accent">
                 {TYPE_LABEL[h.type as keyof typeof TYPE_LABEL]}
               </span>
-              {h.instrument !== "dora" && (
+              {h.type === "stap" ? (
                 <span className="ml-2 rounded border border-line px-1.5 py-0.5 text-[10px] font-medium uppercase tracking-wide text-muted">
-                  {INSTRUMENTS[h.instrument as InstrumentId]?.label ?? h.instrument}
+                  {PLAYBOOK_LABEL[h.instrument] ?? h.instrument}
                 </span>
+              ) : (
+                h.instrument !== "dora" && (
+                  <span className="ml-2 rounded border border-line px-1.5 py-0.5 text-[10px] font-medium uppercase tracking-wide text-muted">
+                    {INSTRUMENTS[h.instrument as InstrumentId]?.label ?? h.instrument}
+                  </span>
+                )
               )}
               <span className="mt-1 block font-medium group-hover:text-accent">
                 <Highlight text={h.heading} terms={h.terms} />

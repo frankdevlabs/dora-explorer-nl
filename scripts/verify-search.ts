@@ -72,7 +72,10 @@ const GOLDEN: Golden[] = [
   { q: "kritieke of belangrijke functie definitie", topN: { id: "dora-art-3-inhoud", n: 3 } },
   { q: "dreigingsgestuurde penetratietests", topN: { id: "dora-art-26-lid-2", n: 3 } },
   { q: "exitstrategie", topN: { id: "dora-art-28-lid-8", n: 5 } },
-  { q: "ranking toeleveringsketen", top1: "its-art-2-inhoud" },
+  // epic 16: the playbook step "Breng de ICT-toeleveringsketen in kaart met
+  // rankings" (stap-pe.ir1) carries both query terms in its heading and now
+  // co-ranks at the top; the ITS ranking article stays within the top ranks.
+  { q: "ranking toeleveringsketen", topN: { id: "its-art-2-inhoud", n: 3 } },
   { q: "soort ICT-diensten", topN: { id: "its-anx-iii-1", n: 3 } },
   // typeahead surface: typo tolerance (fuzzy) and mid-word prefix
   { q: "informatieregster", surface: "site", top1: "its-anx-i-", note: "fuzzy match still reaches informatieregister docs" },
@@ -95,6 +98,10 @@ const GOLDEN: Golden[] = [
   { q: "scoping-document", topN: { id: "tlpt-anx-ii-punt-1", n: 5 } },
   { q: "beleid contractuele overeenkomsten inhoud", topN: { id: "contractbeleid-art-8-lid-3", n: 5 } },
   { q: "aanbevelingen lead overseer beoordeling", topN: { id: "oversight-art-6-lid-1", n: 5 } },
+  // epic 16 remainder: playbook steps (type:"stap") are now in the corpus —
+  // one entiteit step + one aanbieder step reachable by their action language
+  { q: "leidinggevend orgaan rollen verantwoordelijkheden", topN: { id: "stap-pe.rb20", n: 5 } },
+  { q: "onderaannemingsketen monitoren", topN: { id: "stap-pa.oa2", n: 5 } },
 ];
 
 for (const g of GOLDEN) {

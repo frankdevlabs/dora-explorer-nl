@@ -133,9 +133,12 @@ Epic 16 (juli 2026) legde de playbook-UX op de bevroren data: regimefilter
 (`PlaybookSteps`, `PlaybookProgress`) op een `src/lib/playbook/store.ts`
 (roi-store-patroon), plus nav-links (Playbook in de header, PrevNextNav tussen
 fases). Geen data-wijziging — verify-playbook-pins ongewijzigd.
-Openstaand: (a) playbook step search-indexering (uit epic 16 uitgesteld:
-`type:"stap"` SearchDocs uit build-playbook, re-pin verify-data `1031→N`,
-golden queries, SearchResults/SearchPalette-type); (b) menselijke review van
-de recital-map (complete=false) — alle 284 entries zijn gedraft en
-adversarieel gereviewd (drafter→refuter; twee REVIEW:-gemarkeerde disputen
-wachten op arbitrage), maar nog `reviewed: false`.
+Nagekomen (juli 2026): playbook step search-indexering (het uit epic 16
+uitgestelde item) — build-playbook emitteert 128 `type:"stap"` SearchDocs
+(`stap-<id>`, url `/playbook/<kind>/<fase>#<id>`) in de gedeelde corpus, dus
+stappen zijn vindbaar op /zoeken, in de Cmd-K-palette én in MCP `search_dora`;
+verify-data re-pin `1031→1159` (+carve-out), verify-search +2 golden queries;
+verify-playbook 654/654 ongewijzigd. Openstaand: menselijke review van de
+recital-map (complete=false) — alle 284 entries zijn gedraft en adversarieel
+gereviewd (drafter→refuter; twee REVIEW:-gemarkeerde disputen wachten op
+arbitrage), maar nog `reviewed: false`.

@@ -1,7 +1,7 @@
 "use client";
 
 import { Command } from "cmdk";
-import { FileText, Landmark, ScrollText, Search } from "lucide-react";
+import { FileText, Landmark, ListChecks, ScrollText, Search } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import { OPEN_SEARCH_EVENT } from "@/components/layout/Header";
@@ -13,7 +13,14 @@ const TYPE_META = {
   artikel: { label: "Artikelen", icon: FileText },
   overweging: { label: "Overwegingen", icon: ScrollText },
   bijlage: { label: "Bijlagen", icon: Landmark },
+  stap: { label: "Playbook-stappen", icon: ListChecks },
 } as const;
+
+/** Badge label for stap hits, whose instrument is the playbook kind. */
+const PLAYBOOK_LABEL: Record<string, string> = {
+  entiteit: "Entiteit-playbook",
+  aanbieder: "Aanbieder-playbook",
+};
 
 export function SearchPalette() {
   const router = useRouter();
@@ -81,7 +88,7 @@ export function SearchPalette() {
         <Command.Input
           value={query}
           onValueChange={setQuery}
-          placeholder="Zoek in artikelen, overwegingen en bijlagen…"
+          placeholder="Zoek in artikelen, overwegingen, bijlagen en playbook-stappen…"
           className="h-12 w-full bg-transparent outline-none placeholder:text-muted"
         />
         <kbd className="rounded border border-line bg-surface px-1.5 py-0.5 text-[10px] text-muted">
@@ -121,10 +128,16 @@ export function SearchPalette() {
                   <span className="min-w-0">
                     <span className="block truncate text-sm font-medium">
                       <Highlight text={h.heading} terms={h.terms} />
-                      {h.instrument !== "dora" && (
+                      {h.type === "stap" ? (
                         <span className="ml-2 rounded border border-line px-1 py-0.5 align-middle text-[10px] font-medium uppercase tracking-wide text-muted">
-                          {INSTRUMENTS[h.instrument as InstrumentId]?.label ?? h.instrument}
+                          {PLAYBOOK_LABEL[h.instrument] ?? h.instrument}
                         </span>
+                      ) : (
+                        h.instrument !== "dora" && (
+                          <span className="ml-2 rounded border border-line px-1 py-0.5 align-middle text-[10px] font-medium uppercase tracking-wide text-muted">
+                            {INSTRUMENTS[h.instrument as InstrumentId]?.label ?? h.instrument}
+                          </span>
+                        )
                       )}
                     </span>
                     <span className="mt-0.5 line-clamp-2 text-xs text-muted">

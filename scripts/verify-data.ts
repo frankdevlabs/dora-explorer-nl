@@ -511,17 +511,25 @@ const docs = load<SearchDoc[]>("data/generated/search-docs.json");
 // chunks; rts 13 art + 13 rct = 485. Epic 10: 513 (criticaliteit) → 679
 // (vergoedingen 27 + onderzoeksteams 30 + classificatie 46 + contractbeleid
 // 42 + rapportage 21 docs) → 820 (risicobeheer 141) → 1031 (oversight 27 +
-// tlpt 149 + formulieren 35)
-assert.equal(docs.length, 1031, "search docs: total count");
+// tlpt 149 + formulieren 35). Epic 16 remainder: +128 stap-docs (108 entiteit +
+// 20 aanbieder, one per playbook step) → 1159
+assert.equal(docs.length, 1159, "search docs: total count");
 const ids = new Set(docs.map((d) => d.id));
 assert.equal(ids.size, docs.length, "search docs: duplicate ids");
 for (const d of docs) {
-  assert.ok(
-    (INSTRUMENT_IDS as string[]).includes(d.instrument),
-    `search doc ${d.id}: instrument`,
-  );
-  const { instrument } = splitRoutePath(d.url.split("#")[0]);
-  assert.equal(instrument, d.instrument, `search doc ${d.id}: url prefix (${d.url})`);
+  if (d.type === "stap") {
+    // Playbook steps carry the playbook kind as instrument and a /playbook/…
+    // URL (no legal-instrument prefix), so the checks below don't apply.
+    assert.ok(d.id.startsWith("stap-"), `stap doc ${d.id}: id prefix`);
+    assert.ok(d.url.startsWith("/playbook/"), `stap doc ${d.id}: url (${d.url})`);
+  } else {
+    assert.ok(
+      (INSTRUMENT_IDS as string[]).includes(d.instrument),
+      `search doc ${d.id}: instrument`,
+    );
+    const { instrument } = splitRoutePath(d.url.split("#")[0]);
+    assert.equal(instrument, d.instrument, `search doc ${d.id}: url prefix (${d.url})`);
+  }
   assert.ok(d.text.trim().length > 0, `search doc ${d.id}: empty text`);
 }
 
