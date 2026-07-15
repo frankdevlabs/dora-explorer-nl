@@ -6354,6 +6354,390 @@
        "pa.p2",
        "pa.p3"
       ]
+     },
+     {
+      "id": "pa.ov1",
+      "titel": "Richt de oversight-governance in en beheer aanwijzing en opt-in",
+      "doel": "Na (of bij een beoogde vrijwillige) aanwijzing als kritieke derde aanbieder is de communicatie met de lead overseer belegd, zijn alle kennisgevingsplichten uitgevoerd en wordt het jaarlijkse oversightplan tijdig van een reactie voorzien.",
+      "acties": [
+       "Wijs — als u deel uitmaakt van een groep — één rechtspersoon aan als coördinatiepunt dat passende vertegenwoordiging en communicatie met de lead overseer waarborgt, en richt daaromheen een intern oversight-coördinatiepunt met escalatielijn naar het bestuur; de lead overseer is voor alle aan het oversight gerelateerde aangelegenheden uw eerste contactpunt.",
+       "Stel na de kennisgeving van uw aanwijzing als cruciaal alle financiële entiteiten waaraan u ICT-diensten verleent daarvan in kennis; houd er rekening mee dat de ETA's u via het Gemengd Comité ook de aanvangsdatum van de oversightactiviteiten meedelen en dat die uiterlijk één maand na die kennisgeving valt.",
+       "Bent u een in een derde land gevestigde aangewezen aanbieder: uw financiële klanten in de Unie mogen uw diensten alleen blijven gebruiken als u binnen twaalf maanden na de aanwijzing een dochteronderneming in de Unie hebt gevestigd — plan die vestiging direct in en meld daarna elke wijziging in de beheersstructuur van die EU-dochteronderneming aan de lead overseer.",
+       "Beoordeel het jaarlijks vooraf meegedeelde ontwerp van het individuele oversightplan en dien binnen 15 kalenderdagen een met redenen omklede verklaring in wanneer het plan verwachte gevolgen heeft voor klanten die buiten het toepassingsgebied van DORA vallen, waar passend met oplossingen om die risico's te mitigeren.",
+       "Overweegt u als niet op de CTPP-lijst opgenomen aanbieder een vrijwillige aanwijzing: dien een met redenen omkleed verzoek in bij de EBA, de ESMA of de Eiopa met alle informatie-elementen van art. 1 GV 2025/295 — naam en identificatiecode van de rechtspersoon, contactpersoon met contactgegevens, land van de maatschappelijke zetel, de ondernemingsstructuur (moedermaatschappij en verwante ondernemingen die ICT-diensten aan financiële entiteiten in de Unie verlenen), marktaandeelramingen (totaal en per soort financiële entiteit, voor het indieningsjaar en het jaar ervoor), een beschrijving van elke ICT-dienst aan financiële entiteiten in de Unie, een lijst van de bediende financiële entiteiten, een lijst van de in de meest recente gepubliceerde ETA-lijst opgenomen kritieke derde aanbieders, een zelfbeoordeling van de substitueerbaarheid per dienst en van bekende alternatieve aanbieders, de toekomstige bedrijfsstrategie, uw als CTPP aangewezen subcontractanten en andere voor het verzoek relevante aspecten; behoort u tot een groep, verstrek de informatie dan voor de ICT-diensten die de groep als geheel verleent. Reken op een vaste, niet-terugbetaalbare opt-in-vergoeding van 50 000 EUR en op een besluit binnen zes maanden."
+      ],
+      "bewijsstukken": [
+       "Aanwijzingsdossier (kennisgevingen van de ETA's en de lead overseer, aanvangsdatum oversight)",
+       "Kennisgeving van de aanwijzing aan alle financiële klanten",
+       "Mandaat en aanwijzingsbesluit van het (groeps)coördinatiepunt",
+       "Reacties op ontwerp-oversightplannen (binnen 15 kalenderdagen)",
+       "Opt-in-verzoekdossier conform art. 1 GV 2025/295 (indien van toepassing)"
+      ],
+      "rollen": [
+       "bestuur",
+       "juridisch",
+       "compliance"
+      ],
+      "refs": [
+       {
+        "label": "Art. 31, lid 4 DORA",
+        "href": "/artikel/31#lid-4"
+       },
+       {
+        "label": "Art. 31, lid 5 DORA",
+        "href": "/artikel/31#lid-5"
+       },
+       {
+        "label": "Art. 31, lid 11 DORA",
+        "href": "/artikel/31#lid-11"
+       },
+       {
+        "label": "Art. 31, lid 12 DORA",
+        "href": "/artikel/31#lid-12"
+       },
+       {
+        "label": "Art. 31, lid 13 DORA",
+        "href": "/artikel/31#lid-13"
+       },
+       {
+        "label": "Art. 33, lid 1 DORA",
+        "href": "/artikel/33#lid-1"
+       },
+       {
+        "label": "Art. 33, lid 4 DORA",
+        "href": "/artikel/33#lid-4"
+       },
+       {
+        "label": "Art. 1, lid 1 GV 2025/295",
+        "href": "/rts-oversight/artikel/1#lid-1"
+       },
+       {
+        "label": "Art. 1, lid 2 GV 2025/295",
+        "href": "/rts-oversight/artikel/1#lid-2"
+       },
+       {
+        "label": "Art. 4, lid 3 GV 2024/1505",
+        "href": "/oversightvergoedingen/artikel/4#lid-3"
+       }
+      ],
+      "appliesTo": [
+       "aanbieder",
+       "ctpp"
+      ],
+      "prioriteit": "fundament",
+      "afhankelijkVan": [
+       "pa.p5"
+      ]
+     },
+     {
+      "id": "pa.ov2",
+      "titel": "Lever alle gevraagde informatie in de voorgeschreven formaten en kanalen",
+      "doel": "Elk informatieverzoek van de lead overseer wordt volledig, juist en binnen de termijn beantwoord via de voorgeschreven veilige kanalen en formaten, inclusief de onderaannemingsinformatie volgens het model van Bijlage I en de jaarlijkse omzetopgave voor de vergoedingsgrondslag.",
+      "acties": [
+       "Richt één intern proces in voor informatieverzoeken van de lead overseer: registreer per verzoek de rechtsgrondslag (eenvoudig verzoek of bindend besluit), het doel, de gevraagde informatie en de termijn, en laat uw vertegenwoordigers (of naar behoren gemachtigde advocaten) de informatie verstrekken; bewaak volledigheid en juistheid — u blijft volledig verantwoordelijk voor onvolledige, onjuiste of misleidende informatie, en ook wie vrijwillig op een eenvoudig verzoek ingaat, mag geen onjuiste of misleidende informatie verstrekken.",
+       "Houd de informatiecategorieën van art. 2, lid 2 GV 2025/295 dossier-klaar; die niet-limitatieve catalogus loopt van contractdocumentatie met klanten en subcontractanten, organisatie-, groeps- en aandeelhoudersstructuur, marktaandeel, interne governance en notulen, ICT-beveiliging en gegevensbescherming (inclusief toepasselijke derde-landenwetgeving), overdraagbaarheids- en interoperabiliteitsmechanismen, datacenterlocaties en dienstverlening vanuit derde landen, de kaders voor risico-, incident-, verandering- en continuïteitsbeheer, prestatie- en beveiligingsbewaking en SLA-rapportage, het beheerskader voor subcontractanten en uittreksels uit bewakings-, productie-, preproductie- en testsystemen, tot conformiteits- en auditverslagen en certificeringen, geschiktheids- en integriteitsbeoordelingen van sleutelfunctionarissen, correctieplannen, opleidings- en bewustmakingsprogramma's en financiële overzichten.",
+       "Lever conform de formatvereisten: via de door de lead overseer in diens verzoek aangegeven speciale veilige elektronische kanalen en in de aangegeven vorm, volgens de structuur van het verzoek, met duidelijke vermelding waar de relevante informatie-elementen in de ingediende documentatie te vinden zijn, en gesteld in een in internationale financiële kringen gebruikelijke taal.",
+       "Verstrek informatie over onderaannemingsovereenkomsten aan de lead overseer volgens het model van Bijlage I bij GV 2025/295; gebruik dit model ook wanneer u de lead overseer informatie over uitbesteding toezendt met het oog op diens bevoegdheid het stopzetten van verdere uitbestedingsregelingen aan te bevelen (art. 35, lid 1, punt d), iv) en laatste alinea, DORA).",
+       "Dien jaarlijks uiterlijk op 31 december gecontroleerde omzetcijfers over het voorafgaande jaar in (het vergoedingsjaar n rekent met de omzet van jaar n-2), afgebakend tot de in de Unie gegenereerde inkomsten uit de in de technische uitvoeringsnormen op grond van art. 28, lid 9 DORA opgenomen ICT-diensten verleend aan financiële entiteiten; ontbreekt die afbakening of de aanlevering, dan hanteert de lead overseer een ruimere grondslag — tot en met de wereldwijde omzet ongeacht het soort cliënten — en valt de vergoeding dus mogelijk hoger uit. Voer alle communicatie met de ETA's hierover elektronisch."
+      ],
+      "bewijsstukken": [
+       "Register van informatieverzoeken met rechtsgrondslag, termijn en afhandeling",
+       "Dossierstructuur per informatiecategorie van art. 2, lid 2 GV 2025/295",
+       "Ingediende Bijlage I-modellen over onderaannemingsovereenkomsten",
+       "Gecontroleerde omzetopgave met indieningsbewijs (jaarlijks uiterlijk op 31 december)"
+      ],
+      "rollen": [
+       "compliance",
+       "juridisch",
+       "CISO",
+       "finance"
+      ],
+      "refs": [
+       {
+        "label": "Art. 37, lid 1 DORA",
+        "href": "/artikel/37#lid-1"
+       },
+       {
+        "label": "Art. 37, lid 4 DORA",
+        "href": "/artikel/37#lid-4"
+       },
+       {
+        "label": "Art. 2, lid 1 GV 2025/295",
+        "href": "/rts-oversight/artikel/2#lid-1"
+       },
+       {
+        "label": "Art. 2, lid 2 GV 2025/295",
+        "href": "/rts-oversight/artikel/2#lid-2"
+       },
+       {
+        "label": "Art. 4, lid 1 GV 2025/295",
+        "href": "/rts-oversight/artikel/4#lid-1"
+       },
+       {
+        "label": "Art. 4, lid 2 GV 2025/295",
+        "href": "/rts-oversight/artikel/4#lid-2"
+       },
+       {
+        "label": "Art. 4, lid 3 GV 2025/295",
+        "href": "/rts-oversight/artikel/4#lid-3"
+       },
+       {
+        "label": "Art. 5 GV 2025/295",
+        "href": "/rts-oversight/artikel/5#inhoud"
+       },
+       {
+        "label": "Bijlage I GV 2025/295",
+        "href": "/rts-oversight/bijlage/i"
+       },
+       {
+        "label": "Art. 2, lid 2 GV 2024/1505",
+        "href": "/oversightvergoedingen/artikel/2#lid-2"
+       },
+       {
+        "label": "Art. 2, lid 3 GV 2024/1505",
+        "href": "/oversightvergoedingen/artikel/2#lid-3"
+       },
+       {
+        "label": "Art. 6 GV 2024/1505",
+        "href": "/oversightvergoedingen/artikel/6#inhoud"
+       }
+      ],
+      "appliesTo": [
+       "ctpp"
+      ],
+      "prioriteit": "kern",
+      "afhankelijkVan": [
+       "pa.ov1"
+      ]
+     },
+     {
+      "id": "pa.ov3",
+      "titel": "Werk volledig mee aan algemene onderzoeken en inspecties",
+      "doel": "Onderzoeken en inspecties (ter plaatse en off-site) van de lead overseer en het gezamenlijke onderzoeksteam verlopen zonder verzet of vertraging, met gecontroleerde toegang, volledige dossiervorming en juridische toetsing binnen de geboden rechtsmiddelen.",
+      "acties": [
+       "Veranker de algemene samenwerkingsplicht: werk te goeder trouw met de lead overseer samen en ondersteun hem bij de uitvoering van zijn taken; stel een draaiboek onderzoeken en inspecties op met het coördinatiepunt (pa.ov1) als centrale ingang en met het gezamenlijke onderzoeksteam dat de lead overseer bijstaat — functionarissen van de ETA's en van de bevoegde autoriteiten van uw klanten, eventueel aangevuld met vrijwillige leden van de bevoegde autoriteiten uit hoofde van Richtlijn (EU) 2022/2555 en van uw vestigingslidstaat, onder een coördinator van de lead overseer — als verwachte gesprekspartner ter plaatse; de onderzoeks- en inspectiebevoegdheden zelf worden uitgeoefend door functionarissen van de lead overseer en andere door hem gemachtigde personen (art. 38, lid 3, en art. 39, lid 2, DORA).",
+       "Controleer bij aanvang de schriftelijke machtiging of het besluit: onderwerp en doel, bij een gelaste inspectie ook de aanvangsdatum, de dwangsommen van art. 35, lid 6 DORA en de rechtsmiddelen (bezwaar bij de bezwaarcommissie van de ETA's en beroep bij het Hof van Justitie); laat juridisch parallel toetsen zonder de medewerking op te schorten — aan een bij besluit gelast onderzoek en een bij besluit gelaste inspectie ter plaatse bent u verplicht u te onderwerpen.",
+       "Faciliteer de onderzoeksbevoegdheden: inzage in en voor eensluidend gewaarmerkte kopieën of uittreksels van registers, data, procedures en ander relevant materiaal ongeacht de drager, mondelinge of schriftelijke toelichting door opgeroepen vertegenwoordigers (de antwoorden worden opgetekend) en overzichten van telefoon- en dataverkeer; instrueer betrokken personeel vooraf over deze bevoegdheden.",
+       "Regel bij inspecties ter plaatse de toegang tot alle bedrijfsruimten, terreinen en eigendommen en tot alle ICT-systemen, -netwerken, -apparatuur, -informatie en -data die worden gebruikt voor of bijdragen tot de dienstverlening aan financiële entiteiten; respecteer verzegelingen van bedrijfsruimten, boeken en bescheiden, en benut de voorafgaande kennisgeving — die achterwege kan blijven in een nood- of crisissituatie of als zij de inspectie ondoeltreffend zou maken — voor logistieke voorbereiding.",
+       "Verzet u niet tegen een gelaste inspectie: de lead overseer stelt u dan in kennis van de gevolgen, met inbegrip van de mogelijkheid dat de bevoegde autoriteiten van uw klanten die verplichten hun contractuele overeenkomsten met u te beëindigen; leg voor inspecties in bedrijfsruimten in een derde land een interne besluitlijn vast — uw instemming is daarvoor een wettelijke voorwaarde."
+      ],
+      "bewijsstukken": [
+       "Draaiboek onderzoeken en inspecties met de rol van het coördinatiepunt",
+       "Logboek per oversightactiviteit (machtiging/besluit, verstrekte stukken, verzegelingen, gegeven toelichtingen)",
+       "Personeelsinstructie voor onderzoeken en inspecties ter plaatse"
+      ],
+      "rollen": [
+       "juridisch",
+       "compliance",
+       "CISO",
+       "security/facilitair"
+      ],
+      "refs": [
+       {
+        "label": "Art. 35, lid 5 DORA",
+        "href": "/artikel/35#lid-5"
+       },
+       {
+        "label": "Art. 38, lid 2 DORA",
+        "href": "/artikel/38#lid-2"
+       },
+       {
+        "label": "Art. 38, lid 4 DORA",
+        "href": "/artikel/38#lid-4"
+       },
+       {
+        "label": "Art. 39, lid 2 DORA",
+        "href": "/artikel/39#lid-2"
+       },
+       {
+        "label": "Art. 39, lid 6 DORA",
+        "href": "/artikel/39#lid-6"
+       },
+       {
+        "label": "Art. 39, lid 7 DORA",
+        "href": "/artikel/39#lid-7"
+       },
+       {
+        "label": "Art. 36, lid 1 DORA",
+        "href": "/artikel/36#lid-1"
+       },
+       {
+        "label": "Art. 40, lid 2 DORA",
+        "href": "/artikel/40#lid-2"
+       },
+       {
+        "label": "Art. 38, lid 3 DORA",
+        "href": "/artikel/38#lid-3"
+       },
+       {
+        "label": "Art. 39, lid 1 DORA",
+        "href": "/artikel/39#lid-1"
+       },
+       {
+        "label": "Art. 39, lid 4 DORA",
+        "href": "/artikel/39#lid-4"
+       },
+       {
+        "label": "Art. 39, lid 5 DORA",
+        "href": "/artikel/39#lid-5"
+       }
+      ],
+      "appliesTo": [
+       "ctpp"
+      ],
+      "prioriteit": "kern",
+      "afhankelijkVan": [
+       "pa.ov1"
+      ]
+     },
+     {
+      "id": "pa.ov4",
+      "titel": "Reageer op aanbevelingen en lever het correctieplan en de opvolgverslagen",
+      "doel": "Elke aanbeveling van de lead overseer krijgt binnen de wettelijke termijnen een kennisgeving of gemotiveerde verklaring, een verslag met correctieplan en aantoonbare opvolging, zodat openbaarmaking, dwangsommen en gedwongen klantbeëindigingen worden voorkomen.",
+      "acties": [
+       "Benut de verweerfase vóór uitvaardiging van aanbevelingen: u krijgt 30 kalenderdagen om relevante informatie te verstrekken over de verwachte gevolgen voor klanten die buiten het toepassingsgebied van DORA vallen en om, voor zover van toepassing, mitigerende oplossingen te formuleren; organiseer de impactanalyse zo dat u die termijn haalt.",
+       "Stel de lead overseer binnen 60 kalenderdagen na ontvangst van aanbevelingen in kennis van uw voornemen ze op te volgen, of geef een gemotiveerde verklaring waarom u dat niet doet; weet dat een uitblijvende kennisgeving of een ontoereikend geachte verklaring openbaar wordt gemaakt — met uw identiteit en het type en de aard van de niet-naleving; uw kennisgeving of gemotiveerde verklaring zelf stuurt de lead overseer onverwijld door aan de bevoegde autoriteiten van de betrokken financiële entiteiten (art. 42, lid 1, DORA).",
+       "Lever de lead overseer een verslag met een correctieplan waarin u per geconstateerd risico aangeeft welke corrigerende maatregelen u treft, binnen de termijnen die de lead overseer per aanbeveling heeft gesteld; deel op verzoek tussentijdse voortgangsverslagen en eindverslagen met ondersteunende documentatie zodat de uitvoering kan worden gemonitord.",
+       "Voer opgelegde maatregelen (informatiebesluiten, gelaste onderzoeken en inspecties, gevraagde opvolgverslagen) tijdig uit: bij gehele of gedeeltelijke niet-naleving kan na ten minste 30 kalenderdagen sinds de kennisgeving van de maatregelen een dwangsombesluit volgen — dagelijks opgelegd, gedurende maximaal zes maanden, tot 1 % van de wereldwijde gemiddelde dagomzet van het voorafgaande boekjaar per dag — en dwangsommen worden in beginsel openbaar gemaakt; gebruik in die procedure uw hoorrecht en uw recht op toegang tot het dossier.",
+       "Weeg de klantgevolgen van niet-opvolging expliciet mee in de bestuursbesluitvorming: bevoegde autoriteiten kunnen uw klanten als laatste redmiddel verplichten het gebruik van uw dienst geheel of gedeeltelijk tijdelijk te staken of hun contractuele overeenkomsten geheel of gedeeltelijk te beëindigen; wordt zo'n besluit genomen, werk dan volledig samen met de getroffen financiële entiteiten, met name bij het tijdelijk staken of beëindigen van de contracten."
+      ],
+      "bewijsstukken": [
+       "Termijnenkalender per aanbeveling (30- en 60-dagentermijnen en de door de lead overseer gestelde correctietermijnen)",
+       "Kennisgevingen en gemotiveerde verklaringen aan de lead overseer",
+       "Verslag met correctieplan plus tussentijdse voortgangs- en eindverslagen",
+       "Bestuursbesluitvorming over (niet-)opvolging met klantimpactanalyse"
+      ],
+      "rollen": [
+       "bestuur",
+       "compliance",
+       "juridisch",
+       "CISO"
+      ],
+      "refs": [
+       {
+        "label": "Art. 35, lid 3 DORA",
+        "href": "/artikel/35#lid-3"
+       },
+       {
+        "label": "Art. 42, lid 1 DORA",
+        "href": "/artikel/42#lid-1"
+       },
+       {
+        "label": "Art. 42, lid 2 DORA",
+        "href": "/artikel/42#lid-2"
+       },
+       {
+        "label": "Art. 3, lid 1 GV 2025/295",
+        "href": "/rts-oversight/artikel/3#lid-1"
+       },
+       {
+        "label": "Art. 3, lid 2 GV 2025/295",
+        "href": "/rts-oversight/artikel/3#lid-2"
+       },
+       {
+        "label": "Art. 35, lid 6 DORA",
+        "href": "/artikel/35#lid-6"
+       },
+       {
+        "label": "Art. 35, lid 8 DORA",
+        "href": "/artikel/35#lid-8"
+       },
+       {
+        "label": "Art. 35, lid 11 DORA",
+        "href": "/artikel/35#lid-11"
+       },
+       {
+        "label": "Art. 42, lid 6 DORA",
+        "href": "/artikel/42#lid-6"
+       },
+       {
+        "label": "Art. 42, lid 9 DORA",
+        "href": "/artikel/42#lid-9"
+       },
+       {
+        "label": "Art. 40, lid 4 DORA",
+        "href": "/artikel/40#lid-4"
+       },
+       {
+        "label": "Art. 35, lid 7 DORA",
+        "href": "/artikel/35#lid-7"
+       },
+       {
+        "label": "Art. 35, lid 10 DORA",
+        "href": "/artikel/35#lid-10"
+       }
+      ],
+      "appliesTo": [
+       "ctpp"
+      ],
+      "prioriteit": "kern",
+      "afhankelijkVan": [
+       "pa.ov3"
+      ]
+     },
+     {
+      "id": "pa.ov5",
+      "titel": "Betaal de jaarlijkse oversightvergoeding op tijd",
+      "doel": "De jaarlijkse oversightvergoeding is begroot en wordt in euro, in één keer en binnen de geldende termijn betaald, zonder achterstandsrente.",
+      "acties": [
+       "Neem de oversightvergoeding structureel op in de budgetcyclus: de vergoeding dekt de noodzakelijke oversightuitgaven van de lead overseer volledig (inclusief de kosten van het gezamenlijke onderzoeksteam en van het advies van onafhankelijke deskundigen bij directe oversightactiviteiten), staat in verhouding tot uw omzet en bedraagt in geen geval minder dan 50 000 EUR per jaar.",
+       "Betaal debetnota's in euro en in één keer, binnen de gestelde betalingstermijn van ten minste 30 dagen: bent u op 1 januari van een jaar aan oversightactiviteiten onderworpen, betaal dan uiterlijk op 30 april van dat jaar; bent u in de loop van het jaar aangewezen, betaal de vergoeding voor het aanwijzingsjaar dan uiterlijk op 31 december van dat jaar.",
+       "Richt betalingsbewaking in die achterstanden voorkomt: bij betalingsachterstand is de achterstandsrente van art. 99 Verordening (EU, Euratom) 2018/1046 verschuldigd.",
+       "Koppel de vergoedingscyclus aan de jaarlijkse omzetaanlevering van pa.ov2: in reguliere jaren wordt de vergoeding berekend als de geraamde totale kosten aangepast met de omzetcoëfficiënt op de toepasselijke omzet van jaar n-2 (art. 3, lid 1 GV 2024/1505; voor de eerste CTPP-lijst en het aanwijzingsjaar gelden de afwijkingen van art. 4), en zonder correct afgebakende gecontroleerde cijfers hanteert de lead overseer een ruimere (tot wereldwijde) omzetgrondslag."
+      ],
+      "bewijsstukken": [
+       "Budgetpost en betaalbewijs oversightvergoeding per jaar",
+       "Betalingsbewakingsprocedure met de termijnen van 30 april en 31 december"
+      ],
+      "rollen": [
+       "finance",
+       "compliance"
+      ],
+      "refs": [
+       {
+        "label": "Art. 43, lid 1 DORA",
+        "href": "/artikel/43#lid-1"
+       },
+       {
+        "label": "Art. 5, lid 1 GV 2024/1505",
+        "href": "/oversightvergoedingen/artikel/5#lid-1"
+       },
+       {
+        "label": "Art. 5, lid 2 GV 2024/1505",
+        "href": "/oversightvergoedingen/artikel/5#lid-2"
+       },
+       {
+        "label": "Art. 5, lid 3 GV 2024/1505",
+        "href": "/oversightvergoedingen/artikel/5#lid-3"
+       },
+       {
+        "label": "Art. 5, lid 4 GV 2024/1505",
+        "href": "/oversightvergoedingen/artikel/5#lid-4"
+       },
+       {
+        "label": "Art. 3, lid 3 GV 2024/1505",
+        "href": "/oversightvergoedingen/artikel/3#lid-3"
+       },
+       {
+        "label": "Art. 2, lid 2 GV 2024/1505",
+        "href": "/oversightvergoedingen/artikel/2#lid-2"
+       },
+       {
+        "label": "Art. 3, lid 1 GV 2024/1505",
+        "href": "/oversightvergoedingen/artikel/3#lid-1"
+       },
+       {
+        "label": "Art. 4, lid 2 GV 2024/1505",
+        "href": "/oversightvergoedingen/artikel/4#lid-2"
+       }
+      ],
+      "appliesTo": [
+       "ctpp"
+      ],
+      "prioriteit": "kern",
+      "afhankelijkVan": [
+       "pa.ov2"
+      ]
      }
     ]
    }
@@ -7417,13 +7801,17 @@
       "lid-4": {
        "disposition": "ctpp",
        "note": "CTPP's die deel uitmaken van een groep wijzen één rechtspersoon aan als coördinatiepunt voor vertegenwoordiging en communicatie met de lead overseer.",
-       "reviewed": false
+       "reviewed": false,
+       "steps": [
+        "pa.ov1"
+       ]
       },
       "lid-5": {
        "disposition": "ctpp",
        "steps": [
         "pa.p5",
-        "pe.o1"
+        "pe.o1",
+        "pa.ov1"
        ],
        "note": "Kennisgevings- en verweerprocedure bij aanwijzing: zes weken voor een met redenen omklede verklaring, waarna de lead overseer binnen 30 kalenderdagen aanvullende informatie kan vragen. De aangewezen aanbieder moet ook zijn financiële klanten informeren — voor entiteiten het signaal om de CTPP-status in het register te verwerken.",
        "reviewed": false
@@ -7465,20 +7853,27 @@
       "lid-11": {
        "disposition": "ctpp",
        "note": "Niet op de lijst opgenomen aanbieders kunnen vrijwillig om aanwijzing als cruciaal verzoeken; het besluit volgt binnen zes maanden. De bij zo'n verzoek te verstrekken informatie is genormeerd op grond van art. 41, lid 1, punt a) (/rts-oversight).",
-       "reviewed": false
+       "reviewed": false,
+       "steps": [
+        "pa.ov1"
+       ]
       },
       "lid-12": {
        "disposition": "stap",
        "steps": [
         "pe.o1",
-        "pa.sc1"
+        "pa.sc1",
+        "pa.ov1"
        ],
        "reviewed": false
       },
       "lid-13": {
        "disposition": "ctpp",
        "note": "De in lid 12 bedoelde derde-landen-CTPP meldt alle wijzigingen in de beheersstructuur van de EU-dochteronderneming aan de lead overseer.",
-       "reviewed": false
+       "reviewed": false,
+       "steps": [
+        "pa.ov1"
+       ]
       }
      },
      "32": {
@@ -7532,7 +7927,10 @@
       "lid-1": {
        "disposition": "autoriteit",
        "note": "De lead overseer voert het oversight over de aangewezen CTPP's uit en is voor hen het eerste contactpunt voor alle oversightaangelegenheden.",
-       "reviewed": false
+       "reviewed": false,
+       "steps": [
+        "pa.ov1"
+       ]
       },
       "lid-2": {
        "disposition": "autoriteit",
@@ -7547,7 +7945,10 @@
       "lid-4": {
        "disposition": "ctpp",
        "note": "Jaarlijks individueel oversightplan per CTPP; de aanbieder ontvangt het ontwerp vooraf en kan binnen 15 kalenderdagen een met redenen omklede verklaring indienen over gevolgen voor klanten buiten het toepassingsgebied van DORA.",
-       "reviewed": false
+       "reviewed": false,
+       "steps": [
+        "pa.ov1"
+       ]
       },
       "lid-5": {
        "disposition": "autoriteit",
@@ -7576,7 +7977,11 @@
       "lid-1": {
        "disposition": "autoriteit",
        "note": "Kernbevoegdheden van de lead overseer: informatie opvragen (art. 37), onderzoeken en inspecties (art. 38-39), opvolgverslagen eisen en aanbevelingen uitvaardigen — tot en met het aanbevelen bepaalde onderaannemingen in derde landen stop te zetten; rapportageformats via art. 41, lid 1, punt b) (/rts-oversight).",
-       "reviewed": false
+       "reviewed": false,
+       "steps": [
+        "pa.ov2",
+        "pa.ov4"
+       ]
       },
       "lid-2": {
        "disposition": "autoriteit",
@@ -7586,7 +7991,10 @@
       "lid-3": {
        "disposition": "autoriteit",
        "note": "De lead overseer overlegt vooraf met het oversightforum; vóór aanbevelingen krijgt de aanbieder 30 kalenderdagen om gevolgen voor niet-DORA-klanten en mitigerende oplossingen aan te dragen.",
-       "reviewed": false
+       "reviewed": false,
+       "steps": [
+        "pa.ov4"
+       ]
       },
       "lid-4": {
        "disposition": "autoriteit",
@@ -7596,22 +8004,34 @@
       "lid-5": {
        "disposition": "ctpp",
        "note": "Algemene samenwerkingsplicht: CTPP's werken te goeder trouw met de lead overseer samen en ondersteunen hem bij zijn taken.",
-       "reviewed": false
+       "reviewed": false,
+       "steps": [
+        "pa.ov3"
+       ]
       },
       "lid-6": {
        "disposition": "ctpp",
        "note": "Dwangsombesluit bij gehele of gedeeltelijke niet-naleving van maatregelen uit hoofde van lid 1, punten a), b) en c), na ten minste 30 kalenderdagen sinds de kennisgeving van die maatregelen.",
-       "reviewed": false
+       "reviewed": false,
+       "steps": [
+        "pa.ov4"
+       ]
       },
       "lid-7": {
        "disposition": "ctpp",
        "note": "De dwangsom wordt dagelijks opgelegd tot aan de verplichtingen is voldaan, gedurende maximaal zes maanden na kennisgeving van het dwangsombesluit.",
-       "reviewed": false
+       "reviewed": false,
+       "steps": [
+        "pa.ov4"
+       ]
       },
       "lid-8": {
        "disposition": "ctpp",
        "note": "Maximaal 1 % van de wereldwijde gemiddelde dagomzet van het voorafgaande boekjaar per dag; ernst en duur, opzet of onachtzaamheid en de mate van medewerking wegen mee, met JON-overleg voor consistentie.",
-       "reviewed": false
+       "reviewed": false,
+       "steps": [
+        "pa.ov4"
+       ]
       },
       "lid-9": {
        "disposition": "context",
@@ -7621,19 +8041,28 @@
       "lid-10": {
        "disposition": "autoriteit",
        "note": "Opgelegde dwangsommen worden in beginsel openbaar gemaakt — een publiek signaal over de nalevingsstatus van uw kritieke aanbieder.",
-       "reviewed": false
+       "reviewed": false,
+       "steps": [
+        "pa.ov4"
+       ]
       },
       "lid-11": {
        "disposition": "ctpp",
        "note": "Hoorplicht en rechten van verdediging van de CTPP vóór oplegging van een dwangsom, inclusief toegang tot het dossier (met uitzondering van vertrouwelijke informatie en interne voorbereidende documenten).",
-       "reviewed": false
+       "reviewed": false,
+       "steps": [
+        "pa.ov4"
+       ]
       }
      },
      "36": {
       "lid-1": {
        "disposition": "autoriteit",
        "note": "Voorwaarden waaronder de lead overseer bevoegdheden in derde landen kan uitoefenen: noodzaak, rechtstreeks verband met dienstverlening aan financiële entiteiten in de Unie, instemming van de CTPP en geen bezwaar van de derdelandsautoriteit.",
-       "reviewed": false
+       "reviewed": false,
+       "steps": [
+        "pa.ov3"
+       ]
       },
       "lid-2": {
        "disposition": "autoriteit",
@@ -7650,12 +8079,18 @@
       "lid-1": {
        "disposition": "autoriteit",
        "note": "De lead overseer kan per eenvoudig verzoek of per bindend besluit alle benodigde informatie opvragen, tot en met contracten, beleidsdocumentatie, auditverslagen, incidentverslagen en informatie over de uitbestedingsketen.",
-       "reviewed": false
+       "reviewed": false,
+       "steps": [
+        "pa.ov2"
+       ]
       },
       "lid-2": {
        "disposition": "autoriteit",
        "note": "Vormvereisten van het eenvoudige informatieverzoek; medewerking is dan vrijwillig, maar wie ingaat op het verzoek mag geen onjuiste of misleidende informatie verstrekken.",
-       "reviewed": false
+       "reviewed": false,
+       "steps": [
+        "pa.ov2"
+       ]
       },
       "lid-3": {
        "disposition": "autoriteit",
@@ -7665,7 +8100,10 @@
       "lid-4": {
        "disposition": "ctpp",
        "note": "Verstrekkingsplicht van de vertegenwoordigers (eventueel via gemachtigde advocaten); de CTPP blijft volledig verantwoordelijk voor onvolledige, onjuiste of misleidende informatie.",
-       "reviewed": false
+       "reviewed": false,
+       "steps": [
+        "pa.ov2"
+       ]
       },
       "lid-5": {
        "disposition": "autoriteit",
@@ -7682,7 +8120,10 @@
       "lid-2": {
        "disposition": "autoriteit",
        "note": "Onderzoeksbevoegdheden: inzage in en kopieën van registers, data en procedures; oproepen van vertegenwoordigers voor toelichting; horen van instemmende derden; opvragen van overzichten van telefoon- en dataverkeer.",
-       "reviewed": false
+       "reviewed": false,
+       "steps": [
+        "pa.ov3"
+       ]
       },
       "lid-3": {
        "disposition": "autoriteit",
@@ -7692,7 +8133,10 @@
       "lid-4": {
        "disposition": "ctpp",
        "note": "Bij besluit gelaste onderzoeken zijn verplicht; het besluit vermeldt onderwerp, doel, dwangsommen, rechtsmiddelen en het beroepsrecht bij het Hof van Justitie.",
-       "reviewed": false
+       "reviewed": false,
+       "steps": [
+        "pa.ov3"
+       ]
       },
       "lid-5": {
        "disposition": "autoriteit",
@@ -7709,7 +8153,10 @@
       "lid-2": {
        "disposition": "autoriteit",
        "note": "Toegangs- en verzegelingsbevoegdheden van de gemachtigde functionarissen, uit te oefenen op basis van een schriftelijke machtiging die ook de dwangsommen van art. 35, lid 6, vermeldt.",
-       "reviewed": false
+       "reviewed": false,
+       "steps": [
+        "pa.ov3"
+       ]
       },
       "lid-3": {
        "disposition": "autoriteit",
@@ -7729,12 +8176,16 @@
       "lid-6": {
        "disposition": "ctpp",
        "note": "De CTPP moet zich onderwerpen aan bij besluit gelaste inspecties ter plaatse; het besluit vermeldt onderwerp, doel, aanvangsdatum, dwangsommen en rechtsmiddelen.",
-       "reviewed": false
+       "reviewed": false,
+       "steps": [
+        "pa.ov3"
+       ]
       },
       "lid-7": {
        "disposition": "ctpp",
        "steps": [
-        "pe.o3"
+        "pe.o3",
+        "pa.ov3"
        ],
        "note": "Verzet van de aanbieder tegen een gelaste inspectie kan er uiteindelijk toe leiden dat uw bevoegde autoriteit u verplicht de contracten met die aanbieder te beëindigen — een scenario om in uw exitstrategie mee te nemen.",
        "reviewed": false
@@ -7749,7 +8200,10 @@
       "lid-2": {
        "disposition": "autoriteit",
        "note": "Samenstelling van het team (ETA's, bevoegde autoriteiten van de afnemende entiteiten, vrijwillig de NIS2- en vestigingsstaat-autoriteit) onder een coördinator van de lead overseer; criteria en werkafspraken zijn uitgewerkt in GV 2025/420 (/rts-onderzoeksteams).",
-       "reviewed": false
+       "reviewed": false,
+       "steps": [
+        "pa.ov3"
+       ]
       },
       "lid-3": {
        "disposition": "autoriteit",
@@ -7759,7 +8213,10 @@
       "lid-4": {
        "disposition": "autoriteit",
        "note": "De CTPP én de bevoegde autoriteiten van de betrokken entiteiten worden onverwijld over die aanbevelingen geïnformeerd; de lead overseer mag door de CTPP aangeleverde certificeringen en interne of externe ICT-auditverslagen meewegen.",
-       "reviewed": false
+       "reviewed": false,
+       "steps": [
+        "pa.ov4"
+       ]
       }
      },
      "41": {
@@ -7778,12 +8235,16 @@
       "lid-1": {
        "disposition": "ctpp",
        "note": "De CTPP meldt binnen 60 kalenderdagen na ontvangst van aanbevelingen of hij ze opvolgt, of motiveert waarom niet; de lead overseer stelt de bevoegde autoriteiten van de betrokken entiteiten daarvan onverwijld in kennis.",
-       "reviewed": false
+       "reviewed": false,
+       "steps": [
+        "pa.ov4"
+       ]
       },
       "lid-2": {
        "disposition": "autoriteit",
        "steps": [
-        "pe.o2"
+        "pe.o2",
+        "pa.ov4"
        ],
        "note": "Naming-and-shaming: blijft de melding uit of is de motivering ontoereikend, dan maakt de lead overseer dit openbaar, inclusief de identiteit van de CTPP en de aard van de niet-naleving — een openbaar signaal om in uw TPRM te verwerken.",
        "reviewed": false
@@ -7811,7 +8272,8 @@
       "lid-6": {
        "disposition": "autoriteit",
        "steps": [
-        "pe.o3"
+        "pe.o3",
+        "pa.ov4"
        ],
        "note": "Ultimum remedium: de bevoegde autoriteit kan u verplichten het gebruik van de dienst van een niet-conforme CTPP geheel of gedeeltelijk tijdelijk te staken totdat de risico's zijn verholpen, of zo nodig de contracten geheel of gedeeltelijk te beëindigen (besluit overeenkomstig art. 50).",
        "reviewed": false
@@ -7832,7 +8294,8 @@
       "lid-9": {
        "disposition": "ctpp",
        "steps": [
-        "pe.o3"
+        "pe.o3",
+        "pa.ov4"
        ],
        "note": "Het besluit wordt gemeld aan de in art. 32, lid 4, punten a) tot en met c), bedoelde oversightforum-leden en aan het JON; de getroffen CTPP moet volledig met de getroffen financiële entiteiten samenwerken, met name bij het tijdelijk staken of beëindigen van de contracten.",
        "reviewed": false
@@ -7852,7 +8315,10 @@
       "lid-1": {
        "disposition": "ctpp",
        "note": "De lead overseer brengt CTPP's vergoedingen in rekening die zijn oversightuitgaven (inclusief onderzoeksteam en onafhankelijke deskundigen) volledig dekken en die evenredig zijn aan de omzet van de aanbieder; bedragen en betaalwijze staan in GV 2024/1505 (/oversightvergoedingen).",
-       "reviewed": false
+       "reviewed": false,
+       "steps": [
+        "pa.ov5"
+       ]
       },
       "lid-2": {
        "disposition": "autoriteit",
@@ -17512,12 +17978,421 @@
    "playbook": "aanbieder",
    "faseId": "f5",
    "faseTitel": "CTPP-oversightregime"
+  },
+  "pa.ov1": {
+   "step": {
+    "id": "pa.ov1",
+    "titel": "Richt de oversight-governance in en beheer aanwijzing en opt-in",
+    "doel": "Na (of bij een beoogde vrijwillige) aanwijzing als kritieke derde aanbieder is de communicatie met de lead overseer belegd, zijn alle kennisgevingsplichten uitgevoerd en wordt het jaarlijkse oversightplan tijdig van een reactie voorzien.",
+    "acties": [
+     "Wijs — als u deel uitmaakt van een groep — één rechtspersoon aan als coördinatiepunt dat passende vertegenwoordiging en communicatie met de lead overseer waarborgt, en richt daaromheen een intern oversight-coördinatiepunt met escalatielijn naar het bestuur; de lead overseer is voor alle aan het oversight gerelateerde aangelegenheden uw eerste contactpunt.",
+     "Stel na de kennisgeving van uw aanwijzing als cruciaal alle financiële entiteiten waaraan u ICT-diensten verleent daarvan in kennis; houd er rekening mee dat de ETA's u via het Gemengd Comité ook de aanvangsdatum van de oversightactiviteiten meedelen en dat die uiterlijk één maand na die kennisgeving valt.",
+     "Bent u een in een derde land gevestigde aangewezen aanbieder: uw financiële klanten in de Unie mogen uw diensten alleen blijven gebruiken als u binnen twaalf maanden na de aanwijzing een dochteronderneming in de Unie hebt gevestigd — plan die vestiging direct in en meld daarna elke wijziging in de beheersstructuur van die EU-dochteronderneming aan de lead overseer.",
+     "Beoordeel het jaarlijks vooraf meegedeelde ontwerp van het individuele oversightplan en dien binnen 15 kalenderdagen een met redenen omklede verklaring in wanneer het plan verwachte gevolgen heeft voor klanten die buiten het toepassingsgebied van DORA vallen, waar passend met oplossingen om die risico's te mitigeren.",
+     "Overweegt u als niet op de CTPP-lijst opgenomen aanbieder een vrijwillige aanwijzing: dien een met redenen omkleed verzoek in bij de EBA, de ESMA of de Eiopa met alle informatie-elementen van art. 1 GV 2025/295 — naam en identificatiecode van de rechtspersoon, contactpersoon met contactgegevens, land van de maatschappelijke zetel, de ondernemingsstructuur (moedermaatschappij en verwante ondernemingen die ICT-diensten aan financiële entiteiten in de Unie verlenen), marktaandeelramingen (totaal en per soort financiële entiteit, voor het indieningsjaar en het jaar ervoor), een beschrijving van elke ICT-dienst aan financiële entiteiten in de Unie, een lijst van de bediende financiële entiteiten, een lijst van de in de meest recente gepubliceerde ETA-lijst opgenomen kritieke derde aanbieders, een zelfbeoordeling van de substitueerbaarheid per dienst en van bekende alternatieve aanbieders, de toekomstige bedrijfsstrategie, uw als CTPP aangewezen subcontractanten en andere voor het verzoek relevante aspecten; behoort u tot een groep, verstrek de informatie dan voor de ICT-diensten die de groep als geheel verleent. Reken op een vaste, niet-terugbetaalbare opt-in-vergoeding van 50 000 EUR en op een besluit binnen zes maanden."
+    ],
+    "bewijsstukken": [
+     "Aanwijzingsdossier (kennisgevingen van de ETA's en de lead overseer, aanvangsdatum oversight)",
+     "Kennisgeving van de aanwijzing aan alle financiële klanten",
+     "Mandaat en aanwijzingsbesluit van het (groeps)coördinatiepunt",
+     "Reacties op ontwerp-oversightplannen (binnen 15 kalenderdagen)",
+     "Opt-in-verzoekdossier conform art. 1 GV 2025/295 (indien van toepassing)"
+    ],
+    "rollen": [
+     "bestuur",
+     "juridisch",
+     "compliance"
+    ],
+    "refs": [
+     {
+      "label": "Art. 31, lid 4 DORA",
+      "href": "/artikel/31#lid-4"
+     },
+     {
+      "label": "Art. 31, lid 5 DORA",
+      "href": "/artikel/31#lid-5"
+     },
+     {
+      "label": "Art. 31, lid 11 DORA",
+      "href": "/artikel/31#lid-11"
+     },
+     {
+      "label": "Art. 31, lid 12 DORA",
+      "href": "/artikel/31#lid-12"
+     },
+     {
+      "label": "Art. 31, lid 13 DORA",
+      "href": "/artikel/31#lid-13"
+     },
+     {
+      "label": "Art. 33, lid 1 DORA",
+      "href": "/artikel/33#lid-1"
+     },
+     {
+      "label": "Art. 33, lid 4 DORA",
+      "href": "/artikel/33#lid-4"
+     },
+     {
+      "label": "Art. 1, lid 1 GV 2025/295",
+      "href": "/rts-oversight/artikel/1#lid-1"
+     },
+     {
+      "label": "Art. 1, lid 2 GV 2025/295",
+      "href": "/rts-oversight/artikel/1#lid-2"
+     },
+     {
+      "label": "Art. 4, lid 3 GV 2024/1505",
+      "href": "/oversightvergoedingen/artikel/4#lid-3"
+     }
+    ],
+    "appliesTo": [
+     "aanbieder",
+     "ctpp"
+    ],
+    "prioriteit": "fundament",
+    "afhankelijkVan": [
+     "pa.p5"
+    ]
+   },
+   "playbook": "aanbieder",
+   "faseId": "f5",
+   "faseTitel": "CTPP-oversightregime"
+  },
+  "pa.ov2": {
+   "step": {
+    "id": "pa.ov2",
+    "titel": "Lever alle gevraagde informatie in de voorgeschreven formaten en kanalen",
+    "doel": "Elk informatieverzoek van de lead overseer wordt volledig, juist en binnen de termijn beantwoord via de voorgeschreven veilige kanalen en formaten, inclusief de onderaannemingsinformatie volgens het model van Bijlage I en de jaarlijkse omzetopgave voor de vergoedingsgrondslag.",
+    "acties": [
+     "Richt één intern proces in voor informatieverzoeken van de lead overseer: registreer per verzoek de rechtsgrondslag (eenvoudig verzoek of bindend besluit), het doel, de gevraagde informatie en de termijn, en laat uw vertegenwoordigers (of naar behoren gemachtigde advocaten) de informatie verstrekken; bewaak volledigheid en juistheid — u blijft volledig verantwoordelijk voor onvolledige, onjuiste of misleidende informatie, en ook wie vrijwillig op een eenvoudig verzoek ingaat, mag geen onjuiste of misleidende informatie verstrekken.",
+     "Houd de informatiecategorieën van art. 2, lid 2 GV 2025/295 dossier-klaar; die niet-limitatieve catalogus loopt van contractdocumentatie met klanten en subcontractanten, organisatie-, groeps- en aandeelhoudersstructuur, marktaandeel, interne governance en notulen, ICT-beveiliging en gegevensbescherming (inclusief toepasselijke derde-landenwetgeving), overdraagbaarheids- en interoperabiliteitsmechanismen, datacenterlocaties en dienstverlening vanuit derde landen, de kaders voor risico-, incident-, verandering- en continuïteitsbeheer, prestatie- en beveiligingsbewaking en SLA-rapportage, het beheerskader voor subcontractanten en uittreksels uit bewakings-, productie-, preproductie- en testsystemen, tot conformiteits- en auditverslagen en certificeringen, geschiktheids- en integriteitsbeoordelingen van sleutelfunctionarissen, correctieplannen, opleidings- en bewustmakingsprogramma's en financiële overzichten.",
+     "Lever conform de formatvereisten: via de door de lead overseer in diens verzoek aangegeven speciale veilige elektronische kanalen en in de aangegeven vorm, volgens de structuur van het verzoek, met duidelijke vermelding waar de relevante informatie-elementen in de ingediende documentatie te vinden zijn, en gesteld in een in internationale financiële kringen gebruikelijke taal.",
+     "Verstrek informatie over onderaannemingsovereenkomsten aan de lead overseer volgens het model van Bijlage I bij GV 2025/295; gebruik dit model ook wanneer u de lead overseer informatie over uitbesteding toezendt met het oog op diens bevoegdheid het stopzetten van verdere uitbestedingsregelingen aan te bevelen (art. 35, lid 1, punt d), iv) en laatste alinea, DORA).",
+     "Dien jaarlijks uiterlijk op 31 december gecontroleerde omzetcijfers over het voorafgaande jaar in (het vergoedingsjaar n rekent met de omzet van jaar n-2), afgebakend tot de in de Unie gegenereerde inkomsten uit de in de technische uitvoeringsnormen op grond van art. 28, lid 9 DORA opgenomen ICT-diensten verleend aan financiële entiteiten; ontbreekt die afbakening of de aanlevering, dan hanteert de lead overseer een ruimere grondslag — tot en met de wereldwijde omzet ongeacht het soort cliënten — en valt de vergoeding dus mogelijk hoger uit. Voer alle communicatie met de ETA's hierover elektronisch."
+    ],
+    "bewijsstukken": [
+     "Register van informatieverzoeken met rechtsgrondslag, termijn en afhandeling",
+     "Dossierstructuur per informatiecategorie van art. 2, lid 2 GV 2025/295",
+     "Ingediende Bijlage I-modellen over onderaannemingsovereenkomsten",
+     "Gecontroleerde omzetopgave met indieningsbewijs (jaarlijks uiterlijk op 31 december)"
+    ],
+    "rollen": [
+     "compliance",
+     "juridisch",
+     "CISO",
+     "finance"
+    ],
+    "refs": [
+     {
+      "label": "Art. 37, lid 1 DORA",
+      "href": "/artikel/37#lid-1"
+     },
+     {
+      "label": "Art. 37, lid 4 DORA",
+      "href": "/artikel/37#lid-4"
+     },
+     {
+      "label": "Art. 2, lid 1 GV 2025/295",
+      "href": "/rts-oversight/artikel/2#lid-1"
+     },
+     {
+      "label": "Art. 2, lid 2 GV 2025/295",
+      "href": "/rts-oversight/artikel/2#lid-2"
+     },
+     {
+      "label": "Art. 4, lid 1 GV 2025/295",
+      "href": "/rts-oversight/artikel/4#lid-1"
+     },
+     {
+      "label": "Art. 4, lid 2 GV 2025/295",
+      "href": "/rts-oversight/artikel/4#lid-2"
+     },
+     {
+      "label": "Art. 4, lid 3 GV 2025/295",
+      "href": "/rts-oversight/artikel/4#lid-3"
+     },
+     {
+      "label": "Art. 5 GV 2025/295",
+      "href": "/rts-oversight/artikel/5#inhoud"
+     },
+     {
+      "label": "Bijlage I GV 2025/295",
+      "href": "/rts-oversight/bijlage/i"
+     },
+     {
+      "label": "Art. 2, lid 2 GV 2024/1505",
+      "href": "/oversightvergoedingen/artikel/2#lid-2"
+     },
+     {
+      "label": "Art. 2, lid 3 GV 2024/1505",
+      "href": "/oversightvergoedingen/artikel/2#lid-3"
+     },
+     {
+      "label": "Art. 6 GV 2024/1505",
+      "href": "/oversightvergoedingen/artikel/6#inhoud"
+     }
+    ],
+    "appliesTo": [
+     "ctpp"
+    ],
+    "prioriteit": "kern",
+    "afhankelijkVan": [
+     "pa.ov1"
+    ]
+   },
+   "playbook": "aanbieder",
+   "faseId": "f5",
+   "faseTitel": "CTPP-oversightregime"
+  },
+  "pa.ov3": {
+   "step": {
+    "id": "pa.ov3",
+    "titel": "Werk volledig mee aan algemene onderzoeken en inspecties",
+    "doel": "Onderzoeken en inspecties (ter plaatse en off-site) van de lead overseer en het gezamenlijke onderzoeksteam verlopen zonder verzet of vertraging, met gecontroleerde toegang, volledige dossiervorming en juridische toetsing binnen de geboden rechtsmiddelen.",
+    "acties": [
+     "Veranker de algemene samenwerkingsplicht: werk te goeder trouw met de lead overseer samen en ondersteun hem bij de uitvoering van zijn taken; stel een draaiboek onderzoeken en inspecties op met het coördinatiepunt (pa.ov1) als centrale ingang en met het gezamenlijke onderzoeksteam dat de lead overseer bijstaat — functionarissen van de ETA's en van de bevoegde autoriteiten van uw klanten, eventueel aangevuld met vrijwillige leden van de bevoegde autoriteiten uit hoofde van Richtlijn (EU) 2022/2555 en van uw vestigingslidstaat, onder een coördinator van de lead overseer — als verwachte gesprekspartner ter plaatse; de onderzoeks- en inspectiebevoegdheden zelf worden uitgeoefend door functionarissen van de lead overseer en andere door hem gemachtigde personen (art. 38, lid 3, en art. 39, lid 2, DORA).",
+     "Controleer bij aanvang de schriftelijke machtiging of het besluit: onderwerp en doel, bij een gelaste inspectie ook de aanvangsdatum, de dwangsommen van art. 35, lid 6 DORA en de rechtsmiddelen (bezwaar bij de bezwaarcommissie van de ETA's en beroep bij het Hof van Justitie); laat juridisch parallel toetsen zonder de medewerking op te schorten — aan een bij besluit gelast onderzoek en een bij besluit gelaste inspectie ter plaatse bent u verplicht u te onderwerpen.",
+     "Faciliteer de onderzoeksbevoegdheden: inzage in en voor eensluidend gewaarmerkte kopieën of uittreksels van registers, data, procedures en ander relevant materiaal ongeacht de drager, mondelinge of schriftelijke toelichting door opgeroepen vertegenwoordigers (de antwoorden worden opgetekend) en overzichten van telefoon- en dataverkeer; instrueer betrokken personeel vooraf over deze bevoegdheden.",
+     "Regel bij inspecties ter plaatse de toegang tot alle bedrijfsruimten, terreinen en eigendommen en tot alle ICT-systemen, -netwerken, -apparatuur, -informatie en -data die worden gebruikt voor of bijdragen tot de dienstverlening aan financiële entiteiten; respecteer verzegelingen van bedrijfsruimten, boeken en bescheiden, en benut de voorafgaande kennisgeving — die achterwege kan blijven in een nood- of crisissituatie of als zij de inspectie ondoeltreffend zou maken — voor logistieke voorbereiding.",
+     "Verzet u niet tegen een gelaste inspectie: de lead overseer stelt u dan in kennis van de gevolgen, met inbegrip van de mogelijkheid dat de bevoegde autoriteiten van uw klanten die verplichten hun contractuele overeenkomsten met u te beëindigen; leg voor inspecties in bedrijfsruimten in een derde land een interne besluitlijn vast — uw instemming is daarvoor een wettelijke voorwaarde."
+    ],
+    "bewijsstukken": [
+     "Draaiboek onderzoeken en inspecties met de rol van het coördinatiepunt",
+     "Logboek per oversightactiviteit (machtiging/besluit, verstrekte stukken, verzegelingen, gegeven toelichtingen)",
+     "Personeelsinstructie voor onderzoeken en inspecties ter plaatse"
+    ],
+    "rollen": [
+     "juridisch",
+     "compliance",
+     "CISO",
+     "security/facilitair"
+    ],
+    "refs": [
+     {
+      "label": "Art. 35, lid 5 DORA",
+      "href": "/artikel/35#lid-5"
+     },
+     {
+      "label": "Art. 38, lid 2 DORA",
+      "href": "/artikel/38#lid-2"
+     },
+     {
+      "label": "Art. 38, lid 4 DORA",
+      "href": "/artikel/38#lid-4"
+     },
+     {
+      "label": "Art. 39, lid 2 DORA",
+      "href": "/artikel/39#lid-2"
+     },
+     {
+      "label": "Art. 39, lid 6 DORA",
+      "href": "/artikel/39#lid-6"
+     },
+     {
+      "label": "Art. 39, lid 7 DORA",
+      "href": "/artikel/39#lid-7"
+     },
+     {
+      "label": "Art. 36, lid 1 DORA",
+      "href": "/artikel/36#lid-1"
+     },
+     {
+      "label": "Art. 40, lid 2 DORA",
+      "href": "/artikel/40#lid-2"
+     },
+     {
+      "label": "Art. 38, lid 3 DORA",
+      "href": "/artikel/38#lid-3"
+     },
+     {
+      "label": "Art. 39, lid 1 DORA",
+      "href": "/artikel/39#lid-1"
+     },
+     {
+      "label": "Art. 39, lid 4 DORA",
+      "href": "/artikel/39#lid-4"
+     },
+     {
+      "label": "Art. 39, lid 5 DORA",
+      "href": "/artikel/39#lid-5"
+     }
+    ],
+    "appliesTo": [
+     "ctpp"
+    ],
+    "prioriteit": "kern",
+    "afhankelijkVan": [
+     "pa.ov1"
+    ]
+   },
+   "playbook": "aanbieder",
+   "faseId": "f5",
+   "faseTitel": "CTPP-oversightregime"
+  },
+  "pa.ov4": {
+   "step": {
+    "id": "pa.ov4",
+    "titel": "Reageer op aanbevelingen en lever het correctieplan en de opvolgverslagen",
+    "doel": "Elke aanbeveling van de lead overseer krijgt binnen de wettelijke termijnen een kennisgeving of gemotiveerde verklaring, een verslag met correctieplan en aantoonbare opvolging, zodat openbaarmaking, dwangsommen en gedwongen klantbeëindigingen worden voorkomen.",
+    "acties": [
+     "Benut de verweerfase vóór uitvaardiging van aanbevelingen: u krijgt 30 kalenderdagen om relevante informatie te verstrekken over de verwachte gevolgen voor klanten die buiten het toepassingsgebied van DORA vallen en om, voor zover van toepassing, mitigerende oplossingen te formuleren; organiseer de impactanalyse zo dat u die termijn haalt.",
+     "Stel de lead overseer binnen 60 kalenderdagen na ontvangst van aanbevelingen in kennis van uw voornemen ze op te volgen, of geef een gemotiveerde verklaring waarom u dat niet doet; weet dat een uitblijvende kennisgeving of een ontoereikend geachte verklaring openbaar wordt gemaakt — met uw identiteit en het type en de aard van de niet-naleving; uw kennisgeving of gemotiveerde verklaring zelf stuurt de lead overseer onverwijld door aan de bevoegde autoriteiten van de betrokken financiële entiteiten (art. 42, lid 1, DORA).",
+     "Lever de lead overseer een verslag met een correctieplan waarin u per geconstateerd risico aangeeft welke corrigerende maatregelen u treft, binnen de termijnen die de lead overseer per aanbeveling heeft gesteld; deel op verzoek tussentijdse voortgangsverslagen en eindverslagen met ondersteunende documentatie zodat de uitvoering kan worden gemonitord.",
+     "Voer opgelegde maatregelen (informatiebesluiten, gelaste onderzoeken en inspecties, gevraagde opvolgverslagen) tijdig uit: bij gehele of gedeeltelijke niet-naleving kan na ten minste 30 kalenderdagen sinds de kennisgeving van de maatregelen een dwangsombesluit volgen — dagelijks opgelegd, gedurende maximaal zes maanden, tot 1 % van de wereldwijde gemiddelde dagomzet van het voorafgaande boekjaar per dag — en dwangsommen worden in beginsel openbaar gemaakt; gebruik in die procedure uw hoorrecht en uw recht op toegang tot het dossier.",
+     "Weeg de klantgevolgen van niet-opvolging expliciet mee in de bestuursbesluitvorming: bevoegde autoriteiten kunnen uw klanten als laatste redmiddel verplichten het gebruik van uw dienst geheel of gedeeltelijk tijdelijk te staken of hun contractuele overeenkomsten geheel of gedeeltelijk te beëindigen; wordt zo'n besluit genomen, werk dan volledig samen met de getroffen financiële entiteiten, met name bij het tijdelijk staken of beëindigen van de contracten."
+    ],
+    "bewijsstukken": [
+     "Termijnenkalender per aanbeveling (30- en 60-dagentermijnen en de door de lead overseer gestelde correctietermijnen)",
+     "Kennisgevingen en gemotiveerde verklaringen aan de lead overseer",
+     "Verslag met correctieplan plus tussentijdse voortgangs- en eindverslagen",
+     "Bestuursbesluitvorming over (niet-)opvolging met klantimpactanalyse"
+    ],
+    "rollen": [
+     "bestuur",
+     "compliance",
+     "juridisch",
+     "CISO"
+    ],
+    "refs": [
+     {
+      "label": "Art. 35, lid 3 DORA",
+      "href": "/artikel/35#lid-3"
+     },
+     {
+      "label": "Art. 42, lid 1 DORA",
+      "href": "/artikel/42#lid-1"
+     },
+     {
+      "label": "Art. 42, lid 2 DORA",
+      "href": "/artikel/42#lid-2"
+     },
+     {
+      "label": "Art. 3, lid 1 GV 2025/295",
+      "href": "/rts-oversight/artikel/3#lid-1"
+     },
+     {
+      "label": "Art. 3, lid 2 GV 2025/295",
+      "href": "/rts-oversight/artikel/3#lid-2"
+     },
+     {
+      "label": "Art. 35, lid 6 DORA",
+      "href": "/artikel/35#lid-6"
+     },
+     {
+      "label": "Art. 35, lid 8 DORA",
+      "href": "/artikel/35#lid-8"
+     },
+     {
+      "label": "Art. 35, lid 11 DORA",
+      "href": "/artikel/35#lid-11"
+     },
+     {
+      "label": "Art. 42, lid 6 DORA",
+      "href": "/artikel/42#lid-6"
+     },
+     {
+      "label": "Art. 42, lid 9 DORA",
+      "href": "/artikel/42#lid-9"
+     },
+     {
+      "label": "Art. 40, lid 4 DORA",
+      "href": "/artikel/40#lid-4"
+     },
+     {
+      "label": "Art. 35, lid 7 DORA",
+      "href": "/artikel/35#lid-7"
+     },
+     {
+      "label": "Art. 35, lid 10 DORA",
+      "href": "/artikel/35#lid-10"
+     }
+    ],
+    "appliesTo": [
+     "ctpp"
+    ],
+    "prioriteit": "kern",
+    "afhankelijkVan": [
+     "pa.ov3"
+    ]
+   },
+   "playbook": "aanbieder",
+   "faseId": "f5",
+   "faseTitel": "CTPP-oversightregime"
+  },
+  "pa.ov5": {
+   "step": {
+    "id": "pa.ov5",
+    "titel": "Betaal de jaarlijkse oversightvergoeding op tijd",
+    "doel": "De jaarlijkse oversightvergoeding is begroot en wordt in euro, in één keer en binnen de geldende termijn betaald, zonder achterstandsrente.",
+    "acties": [
+     "Neem de oversightvergoeding structureel op in de budgetcyclus: de vergoeding dekt de noodzakelijke oversightuitgaven van de lead overseer volledig (inclusief de kosten van het gezamenlijke onderzoeksteam en van het advies van onafhankelijke deskundigen bij directe oversightactiviteiten), staat in verhouding tot uw omzet en bedraagt in geen geval minder dan 50 000 EUR per jaar.",
+     "Betaal debetnota's in euro en in één keer, binnen de gestelde betalingstermijn van ten minste 30 dagen: bent u op 1 januari van een jaar aan oversightactiviteiten onderworpen, betaal dan uiterlijk op 30 april van dat jaar; bent u in de loop van het jaar aangewezen, betaal de vergoeding voor het aanwijzingsjaar dan uiterlijk op 31 december van dat jaar.",
+     "Richt betalingsbewaking in die achterstanden voorkomt: bij betalingsachterstand is de achterstandsrente van art. 99 Verordening (EU, Euratom) 2018/1046 verschuldigd.",
+     "Koppel de vergoedingscyclus aan de jaarlijkse omzetaanlevering van pa.ov2: in reguliere jaren wordt de vergoeding berekend als de geraamde totale kosten aangepast met de omzetcoëfficiënt op de toepasselijke omzet van jaar n-2 (art. 3, lid 1 GV 2024/1505; voor de eerste CTPP-lijst en het aanwijzingsjaar gelden de afwijkingen van art. 4), en zonder correct afgebakende gecontroleerde cijfers hanteert de lead overseer een ruimere (tot wereldwijde) omzetgrondslag."
+    ],
+    "bewijsstukken": [
+     "Budgetpost en betaalbewijs oversightvergoeding per jaar",
+     "Betalingsbewakingsprocedure met de termijnen van 30 april en 31 december"
+    ],
+    "rollen": [
+     "finance",
+     "compliance"
+    ],
+    "refs": [
+     {
+      "label": "Art. 43, lid 1 DORA",
+      "href": "/artikel/43#lid-1"
+     },
+     {
+      "label": "Art. 5, lid 1 GV 2024/1505",
+      "href": "/oversightvergoedingen/artikel/5#lid-1"
+     },
+     {
+      "label": "Art. 5, lid 2 GV 2024/1505",
+      "href": "/oversightvergoedingen/artikel/5#lid-2"
+     },
+     {
+      "label": "Art. 5, lid 3 GV 2024/1505",
+      "href": "/oversightvergoedingen/artikel/5#lid-3"
+     },
+     {
+      "label": "Art. 5, lid 4 GV 2024/1505",
+      "href": "/oversightvergoedingen/artikel/5#lid-4"
+     },
+     {
+      "label": "Art. 3, lid 3 GV 2024/1505",
+      "href": "/oversightvergoedingen/artikel/3#lid-3"
+     },
+     {
+      "label": "Art. 2, lid 2 GV 2024/1505",
+      "href": "/oversightvergoedingen/artikel/2#lid-2"
+     },
+     {
+      "label": "Art. 3, lid 1 GV 2024/1505",
+      "href": "/oversightvergoedingen/artikel/3#lid-1"
+     },
+     {
+      "label": "Art. 4, lid 2 GV 2024/1505",
+      "href": "/oversightvergoedingen/artikel/4#lid-2"
+     }
+    ],
+    "appliesTo": [
+     "ctpp"
+    ],
+    "prioriteit": "kern",
+    "afhankelijkVan": [
+     "pa.ov2"
+    ]
+   },
+   "playbook": "aanbieder",
+   "faseId": "f5",
+   "faseTitel": "CTPP-oversightregime"
   }
  },
  "counts": {
   "steps": {
    "entiteit": 108,
-   "aanbieder": 15
+   "aanbieder": 20
   },
   "coverageEntries": 620,
   "dispositions": {

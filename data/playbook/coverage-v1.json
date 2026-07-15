@@ -1056,13 +1056,17 @@
           "lid-4": {
             "disposition": "ctpp",
             "note": "CTPP's die deel uitmaken van een groep wijzen één rechtspersoon aan als coördinatiepunt voor vertegenwoordiging en communicatie met de lead overseer.",
-            "reviewed": false
+            "reviewed": false,
+            "steps": [
+              "pa.ov1"
+            ]
           },
           "lid-5": {
             "disposition": "ctpp",
             "steps": [
               "pa.p5",
-              "pe.o1"
+              "pe.o1",
+              "pa.ov1"
             ],
             "note": "Kennisgevings- en verweerprocedure bij aanwijzing: zes weken voor een met redenen omklede verklaring, waarna de lead overseer binnen 30 kalenderdagen aanvullende informatie kan vragen. De aangewezen aanbieder moet ook zijn financiële klanten informeren — voor entiteiten het signaal om de CTPP-status in het register te verwerken.",
             "reviewed": false
@@ -1104,20 +1108,27 @@
           "lid-11": {
             "disposition": "ctpp",
             "note": "Niet op de lijst opgenomen aanbieders kunnen vrijwillig om aanwijzing als cruciaal verzoeken; het besluit volgt binnen zes maanden. De bij zo'n verzoek te verstrekken informatie is genormeerd op grond van art. 41, lid 1, punt a) (/rts-oversight).",
-            "reviewed": false
+            "reviewed": false,
+            "steps": [
+              "pa.ov1"
+            ]
           },
           "lid-12": {
             "disposition": "stap",
             "steps": [
               "pe.o1",
-              "pa.sc1"
+              "pa.sc1",
+              "pa.ov1"
             ],
             "reviewed": false
           },
           "lid-13": {
             "disposition": "ctpp",
             "note": "De in lid 12 bedoelde derde-landen-CTPP meldt alle wijzigingen in de beheersstructuur van de EU-dochteronderneming aan de lead overseer.",
-            "reviewed": false
+            "reviewed": false,
+            "steps": [
+              "pa.ov1"
+            ]
           }
         },
         "32": {
@@ -1171,7 +1182,10 @@
           "lid-1": {
             "disposition": "autoriteit",
             "note": "De lead overseer voert het oversight over de aangewezen CTPP's uit en is voor hen het eerste contactpunt voor alle oversightaangelegenheden.",
-            "reviewed": false
+            "reviewed": false,
+            "steps": [
+              "pa.ov1"
+            ]
           },
           "lid-2": {
             "disposition": "autoriteit",
@@ -1186,7 +1200,10 @@
           "lid-4": {
             "disposition": "ctpp",
             "note": "Jaarlijks individueel oversightplan per CTPP; de aanbieder ontvangt het ontwerp vooraf en kan binnen 15 kalenderdagen een met redenen omklede verklaring indienen over gevolgen voor klanten buiten het toepassingsgebied van DORA.",
-            "reviewed": false
+            "reviewed": false,
+            "steps": [
+              "pa.ov1"
+            ]
           },
           "lid-5": {
             "disposition": "autoriteit",
@@ -1215,7 +1232,11 @@
           "lid-1": {
             "disposition": "autoriteit",
             "note": "Kernbevoegdheden van de lead overseer: informatie opvragen (art. 37), onderzoeken en inspecties (art. 38-39), opvolgverslagen eisen en aanbevelingen uitvaardigen — tot en met het aanbevelen bepaalde onderaannemingen in derde landen stop te zetten; rapportageformats via art. 41, lid 1, punt b) (/rts-oversight).",
-            "reviewed": false
+            "reviewed": false,
+            "steps": [
+              "pa.ov2",
+              "pa.ov4"
+            ]
           },
           "lid-2": {
             "disposition": "autoriteit",
@@ -1225,7 +1246,10 @@
           "lid-3": {
             "disposition": "autoriteit",
             "note": "De lead overseer overlegt vooraf met het oversightforum; vóór aanbevelingen krijgt de aanbieder 30 kalenderdagen om gevolgen voor niet-DORA-klanten en mitigerende oplossingen aan te dragen.",
-            "reviewed": false
+            "reviewed": false,
+            "steps": [
+              "pa.ov4"
+            ]
           },
           "lid-4": {
             "disposition": "autoriteit",
@@ -1235,22 +1259,34 @@
           "lid-5": {
             "disposition": "ctpp",
             "note": "Algemene samenwerkingsplicht: CTPP's werken te goeder trouw met de lead overseer samen en ondersteunen hem bij zijn taken.",
-            "reviewed": false
+            "reviewed": false,
+            "steps": [
+              "pa.ov3"
+            ]
           },
           "lid-6": {
             "disposition": "ctpp",
             "note": "Dwangsombesluit bij gehele of gedeeltelijke niet-naleving van maatregelen uit hoofde van lid 1, punten a), b) en c), na ten minste 30 kalenderdagen sinds de kennisgeving van die maatregelen.",
-            "reviewed": false
+            "reviewed": false,
+            "steps": [
+              "pa.ov4"
+            ]
           },
           "lid-7": {
             "disposition": "ctpp",
             "note": "De dwangsom wordt dagelijks opgelegd tot aan de verplichtingen is voldaan, gedurende maximaal zes maanden na kennisgeving van het dwangsombesluit.",
-            "reviewed": false
+            "reviewed": false,
+            "steps": [
+              "pa.ov4"
+            ]
           },
           "lid-8": {
             "disposition": "ctpp",
             "note": "Maximaal 1 % van de wereldwijde gemiddelde dagomzet van het voorafgaande boekjaar per dag; ernst en duur, opzet of onachtzaamheid en de mate van medewerking wegen mee, met JON-overleg voor consistentie.",
-            "reviewed": false
+            "reviewed": false,
+            "steps": [
+              "pa.ov4"
+            ]
           },
           "lid-9": {
             "disposition": "context",
@@ -1260,19 +1296,28 @@
           "lid-10": {
             "disposition": "autoriteit",
             "note": "Opgelegde dwangsommen worden in beginsel openbaar gemaakt — een publiek signaal over de nalevingsstatus van uw kritieke aanbieder.",
-            "reviewed": false
+            "reviewed": false,
+            "steps": [
+              "pa.ov4"
+            ]
           },
           "lid-11": {
             "disposition": "ctpp",
             "note": "Hoorplicht en rechten van verdediging van de CTPP vóór oplegging van een dwangsom, inclusief toegang tot het dossier (met uitzondering van vertrouwelijke informatie en interne voorbereidende documenten).",
-            "reviewed": false
+            "reviewed": false,
+            "steps": [
+              "pa.ov4"
+            ]
           }
         },
         "36": {
           "lid-1": {
             "disposition": "autoriteit",
             "note": "Voorwaarden waaronder de lead overseer bevoegdheden in derde landen kan uitoefenen: noodzaak, rechtstreeks verband met dienstverlening aan financiële entiteiten in de Unie, instemming van de CTPP en geen bezwaar van de derdelandsautoriteit.",
-            "reviewed": false
+            "reviewed": false,
+            "steps": [
+              "pa.ov3"
+            ]
           },
           "lid-2": {
             "disposition": "autoriteit",
@@ -1289,12 +1334,18 @@
           "lid-1": {
             "disposition": "autoriteit",
             "note": "De lead overseer kan per eenvoudig verzoek of per bindend besluit alle benodigde informatie opvragen, tot en met contracten, beleidsdocumentatie, auditverslagen, incidentverslagen en informatie over de uitbestedingsketen.",
-            "reviewed": false
+            "reviewed": false,
+            "steps": [
+              "pa.ov2"
+            ]
           },
           "lid-2": {
             "disposition": "autoriteit",
             "note": "Vormvereisten van het eenvoudige informatieverzoek; medewerking is dan vrijwillig, maar wie ingaat op het verzoek mag geen onjuiste of misleidende informatie verstrekken.",
-            "reviewed": false
+            "reviewed": false,
+            "steps": [
+              "pa.ov2"
+            ]
           },
           "lid-3": {
             "disposition": "autoriteit",
@@ -1304,7 +1355,10 @@
           "lid-4": {
             "disposition": "ctpp",
             "note": "Verstrekkingsplicht van de vertegenwoordigers (eventueel via gemachtigde advocaten); de CTPP blijft volledig verantwoordelijk voor onvolledige, onjuiste of misleidende informatie.",
-            "reviewed": false
+            "reviewed": false,
+            "steps": [
+              "pa.ov2"
+            ]
           },
           "lid-5": {
             "disposition": "autoriteit",
@@ -1321,7 +1375,10 @@
           "lid-2": {
             "disposition": "autoriteit",
             "note": "Onderzoeksbevoegdheden: inzage in en kopieën van registers, data en procedures; oproepen van vertegenwoordigers voor toelichting; horen van instemmende derden; opvragen van overzichten van telefoon- en dataverkeer.",
-            "reviewed": false
+            "reviewed": false,
+            "steps": [
+              "pa.ov3"
+            ]
           },
           "lid-3": {
             "disposition": "autoriteit",
@@ -1331,7 +1388,10 @@
           "lid-4": {
             "disposition": "ctpp",
             "note": "Bij besluit gelaste onderzoeken zijn verplicht; het besluit vermeldt onderwerp, doel, dwangsommen, rechtsmiddelen en het beroepsrecht bij het Hof van Justitie.",
-            "reviewed": false
+            "reviewed": false,
+            "steps": [
+              "pa.ov3"
+            ]
           },
           "lid-5": {
             "disposition": "autoriteit",
@@ -1348,7 +1408,10 @@
           "lid-2": {
             "disposition": "autoriteit",
             "note": "Toegangs- en verzegelingsbevoegdheden van de gemachtigde functionarissen, uit te oefenen op basis van een schriftelijke machtiging die ook de dwangsommen van art. 35, lid 6, vermeldt.",
-            "reviewed": false
+            "reviewed": false,
+            "steps": [
+              "pa.ov3"
+            ]
           },
           "lid-3": {
             "disposition": "autoriteit",
@@ -1368,12 +1431,16 @@
           "lid-6": {
             "disposition": "ctpp",
             "note": "De CTPP moet zich onderwerpen aan bij besluit gelaste inspecties ter plaatse; het besluit vermeldt onderwerp, doel, aanvangsdatum, dwangsommen en rechtsmiddelen.",
-            "reviewed": false
+            "reviewed": false,
+            "steps": [
+              "pa.ov3"
+            ]
           },
           "lid-7": {
             "disposition": "ctpp",
             "steps": [
-              "pe.o3"
+              "pe.o3",
+              "pa.ov3"
             ],
             "note": "Verzet van de aanbieder tegen een gelaste inspectie kan er uiteindelijk toe leiden dat uw bevoegde autoriteit u verplicht de contracten met die aanbieder te beëindigen — een scenario om in uw exitstrategie mee te nemen.",
             "reviewed": false
@@ -1388,7 +1455,10 @@
           "lid-2": {
             "disposition": "autoriteit",
             "note": "Samenstelling van het team (ETA's, bevoegde autoriteiten van de afnemende entiteiten, vrijwillig de NIS2- en vestigingsstaat-autoriteit) onder een coördinator van de lead overseer; criteria en werkafspraken zijn uitgewerkt in GV 2025/420 (/rts-onderzoeksteams).",
-            "reviewed": false
+            "reviewed": false,
+            "steps": [
+              "pa.ov3"
+            ]
           },
           "lid-3": {
             "disposition": "autoriteit",
@@ -1398,7 +1468,10 @@
           "lid-4": {
             "disposition": "autoriteit",
             "note": "De CTPP én de bevoegde autoriteiten van de betrokken entiteiten worden onverwijld over die aanbevelingen geïnformeerd; de lead overseer mag door de CTPP aangeleverde certificeringen en interne of externe ICT-auditverslagen meewegen.",
-            "reviewed": false
+            "reviewed": false,
+            "steps": [
+              "pa.ov4"
+            ]
           }
         },
         "41": {
@@ -1417,12 +1490,16 @@
           "lid-1": {
             "disposition": "ctpp",
             "note": "De CTPP meldt binnen 60 kalenderdagen na ontvangst van aanbevelingen of hij ze opvolgt, of motiveert waarom niet; de lead overseer stelt de bevoegde autoriteiten van de betrokken entiteiten daarvan onverwijld in kennis.",
-            "reviewed": false
+            "reviewed": false,
+            "steps": [
+              "pa.ov4"
+            ]
           },
           "lid-2": {
             "disposition": "autoriteit",
             "steps": [
-              "pe.o2"
+              "pe.o2",
+              "pa.ov4"
             ],
             "note": "Naming-and-shaming: blijft de melding uit of is de motivering ontoereikend, dan maakt de lead overseer dit openbaar, inclusief de identiteit van de CTPP en de aard van de niet-naleving — een openbaar signaal om in uw TPRM te verwerken.",
             "reviewed": false
@@ -1450,7 +1527,8 @@
           "lid-6": {
             "disposition": "autoriteit",
             "steps": [
-              "pe.o3"
+              "pe.o3",
+              "pa.ov4"
             ],
             "note": "Ultimum remedium: de bevoegde autoriteit kan u verplichten het gebruik van de dienst van een niet-conforme CTPP geheel of gedeeltelijk tijdelijk te staken totdat de risico's zijn verholpen, of zo nodig de contracten geheel of gedeeltelijk te beëindigen (besluit overeenkomstig art. 50).",
             "reviewed": false
@@ -1471,7 +1549,8 @@
           "lid-9": {
             "disposition": "ctpp",
             "steps": [
-              "pe.o3"
+              "pe.o3",
+              "pa.ov4"
             ],
             "note": "Het besluit wordt gemeld aan de in art. 32, lid 4, punten a) tot en met c), bedoelde oversightforum-leden en aan het JON; de getroffen CTPP moet volledig met de getroffen financiële entiteiten samenwerken, met name bij het tijdelijk staken of beëindigen van de contracten.",
             "reviewed": false
@@ -1491,7 +1570,10 @@
           "lid-1": {
             "disposition": "ctpp",
             "note": "De lead overseer brengt CTPP's vergoedingen in rekening die zijn oversightuitgaven (inclusief onderzoeksteam en onafhankelijke deskundigen) volledig dekken en die evenredig zijn aan de omzet van de aanbieder; bedragen en betaalwijze staan in GV 2024/1505 (/oversightvergoedingen).",
-            "reviewed": false
+            "reviewed": false,
+            "steps": [
+              "pa.ov5"
+            ]
           },
           "lid-2": {
             "disposition": "autoriteit",
