@@ -65,19 +65,20 @@ export function createServer(): McpServer {
       title: "Zoek in DORA + uitvoeringshandelingen",
       description:
         "Full-text search in the Dutch text of DORA (Regulation (EU) 2022/2554) and its level-2 " +
-        `acts (${INSTRUMENT_IDS.length - 1} RTS/ITS/delegated regulations). Returns hits with deep links to ` +
+        `acts (${INSTRUMENT_IDS.length - 1} RTS/ITS/delegated regulations), plus the editorial ` +
+        "compliance-playbook steps. Returns hits with deep links to " +
         BASE_URL +
         ". Query in Dutch works best. Reference queries also work: \"artikel 28 lid 3\", " +
         '"its artikel 2", "its bijlage iii" (instrument ids: ' +
         INSTRUMENT_IDS.join(", ") +
-        ").",
+        "). Use type:\"stap\" for playbook steps only.",
       inputSchema: {
         query: z.string().min(2).describe("Search terms (Dutch)"),
         limit: z.number().int().min(1).max(50).optional().describe("Max results, default 10"),
         type: z
-          .enum(["artikel", "overweging", "bijlage"])
+          .enum(["artikel", "overweging", "bijlage", "stap"])
           .optional()
-          .describe("Restrict to articles, recitals or annexes"),
+          .describe("Restrict to articles, recitals, annexes or playbook steps"),
         instrument: instrumentEnum,
       },
     },
@@ -93,7 +94,14 @@ export function createServer(): McpServer {
           // so agents rarely need a follow-up get_article/get_annex call
           const quoted = h.text.length <= 600 ? h.text : makeSnippet(h.text, h.terms, 200);
           const terms = [...new Set(h.queryTerms)].join(", ");
-          const tag = h.instrument === "dora" ? "" : ` [${INSTRUMENTS[h.instrument as InstrumentId].label}]`;
+          // stap docs carry the playbook kind (entiteit|aanbieder) as instrument,
+          // not a legal-instrument id, so tag them as a playbook step.
+          const tag =
+            h.type === "stap"
+              ? ` [playbook: ${h.instrument}]`
+              : h.instrument === "dora"
+                ? ""
+                : ` [${INSTRUMENTS[h.instrument as InstrumentId].label}]`;
           return `### ${h.heading}${tag}\n${BASE_URL}${h.url}\n_Gevonden termen: ${terms}_\n> ${quoted.replace(/\n+/g, " ")}`;
         })
         .join("\n\n");
