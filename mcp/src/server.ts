@@ -355,8 +355,15 @@ export function createServer(): McpServer {
         const note = entry.note ? ` — ${entry.note}` : "";
         return `- **${label}**: ${entry.disposition}${steps}${note} — ${link}`;
       });
+      const total = article.paragraphs.length;
+      const covered = article.paragraphs.filter((p) => block[p.anchor]).length;
+      const unit = total === 1 && article.paragraphs[0].anchor === "inhoud" ? "artikel" : "leden";
+      const summary =
+        covered === total
+          ? `**Dekking: ${covered}/${total} ${unit} gedekt.**`
+          : `**Dekking: ${covered}/${total} ${unit} gedekt — ${total - covered} in curatie.**`;
       return text(
-        `# Dekking — artikel ${article.number} ${INSTRUMENTS[inst].citation}\n_${article.title}_\n\n${lines.join("\n")}`,
+        `# Dekking — artikel ${article.number} ${INSTRUMENTS[inst].citation}\n_${article.title}_\n\n${summary}\n\n${lines.join("\n")}`,
       );
     },
   );
