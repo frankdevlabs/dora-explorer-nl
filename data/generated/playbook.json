@@ -11400,12 +11400,276 @@
     "bijlagen": {}
    },
    "vergoedingen": {
-    "artikelen": {},
+    "artikelen": {
+     "1": {
+      "lid-1": {
+       "disposition": "autoriteit",
+       "note": "De lead overseer en de andere ETA's ramen jaarlijks de totale jaarlijkse kosten van hun oversighttaken; die raming vormt de grondslag voor het totale bedrag aan oversightvergoedingen dat aan CTPP's wordt aangerekend.",
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "autoriteit",
+       "note": "Directe en indirecte kosten die de lead overseer in de raming meeneemt: aanwijzing van CTPP's, aanstelling van de lead overseer, het feitelijke oversight (met inbegrip van onder meer de werkzaamheden van het gezamenlijke onderzoeksteam en advies van onafhankelijke deskundigen), follow-up van aanbevelingen (art. 35, lid 1, punt d), DORA) en de governance van het oversightkader — al deze posten komen via de vergoeding voor rekening van de CTPP's.",
+       "reviewed": false
+      }
+     },
+     "2": {
+      "lid-1": {
+       "disposition": "context",
+       "note": "Definitie van de toepasselijke omzet voor de vergoedingsberekening (art. 3): de in de Unie gegenereerde inkomsten uit de ICT-diensten van de ITS op grond van art. 28, lid 9, DORA, verleend aan financiële entiteiten als bedoeld in art. 2, lid 1, DORA.",
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "ctpp",
+       "steps": [
+        "pa.ov2"
+       ],
+       "note": "De CTPP verstrekt de lead overseer jaarlijks in jaar n-1, uiterlijk op 31 december, gecontroleerde cijfers over de toepasselijke omzet (lid 1) voor jaar n-2.",
+       "reviewed": false
+      },
+      "lid-3": {
+       "disposition": "autoriteit",
+       "steps": [
+        "pa.ov2"
+       ],
+       "note": "Trapsgewijze terugvalregeling als de CTPP tegen de datum van lid 2 geen (volledige) gecontroleerde cijfers verstrekt: de lead overseer gaat dan uit van de Unie-omzet uit de ITS-ICT-diensten ongeacht het soort cliënten, van de wereldwijde omzet uit die diensten, of — bij het geheel ontbreken van bruikbare cijfers — van de wereldwijde omzet ongeacht het soort cliënten; niet of onvolledig aanleveren vergroot dus de vergoedingsgrondslag.",
+       "reviewed": false
+      },
+      "lid-4": {
+       "disposition": "autoriteit",
+       "note": "Rapporteert de CTPP inkomsten in een andere valuta dan de euro, dan rekent de lead overseer die om tegen de gemiddelde eurokoers over de boekingsperiode zoals gepubliceerd door de Europese Centrale Bank.",
+       "reviewed": false
+      }
+     },
+     "3": {
+      "lid-1": {
+       "disposition": "autoriteit",
+       "note": "Berekeningsformule per CTPP: de jaarlijkse oversightvergoeding voor jaar n is gelijk aan de geraamde totale jaarlijkse kosten (art. 1), aangepast met de omzetcoëfficiënt van lid 2 op basis van de toepasselijke omzet voor jaar n-2.",
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "autoriteit",
+       "note": "De omzetcoëfficiënt per CTPP wordt gebaseerd op de toepasselijke omzet van artikel 2 en berekend volgens de formule van dit lid (in de bekendgemaakte tekst als afbeelding opgenomen).",
+       "reviewed": false
+      },
+      "lid-3": {
+       "disposition": "ctpp",
+       "steps": [
+        "pa.ov5"
+       ],
+       "note": "Minimumvergoeding: de CTPP betaalt in geen geval een jaarlijkse oversightvergoeding van minder dan 50 000 EUR.",
+       "reviewed": false
+      }
+     },
+     "4": {
+      "lid-1": {
+       "disposition": "autoriteit",
+       "note": "Afwijking van art. 3 voor de eerste gepubliceerde lijst van aangewezen CTPP's (art. 31, lid 9, DORA): de vergoedingen worden gelijkelijk verdeeld — per aanbieder de totale geraamde uitgaven van de lead overseers gedeeld door het aantal aangewezen CTPP's.",
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "ctpp",
+       "steps": [
+        "pa.ov5"
+       ],
+       "note": "In het eerste jaar van aanwijzing betaalt de aanbieder een vaste vergoeding gelijk aan het lid-1-bedrag; beslaat de oversightperiode geen volledig jaar, dan pro rata naar het aantal kalenderdagen vanaf de aanwijzing tot het einde van dat jaar.",
+       "reviewed": false
+      },
+      "lid-3": {
+       "disposition": "ctpp",
+       "note": "Wie op grond van art. 31, lid 11, DORA vrijwillig om aanwijzing als kritiek verzoekt, betaalt een vaste opt-in-vergoeding van 50 000 EUR; de ontvangende ETA betaalt die niet terug bij afwijzing of intrekking van het verzoek.",
+       "reviewed": false
+      }
+     },
+     "5": {
+      "lid-1": {
+       "disposition": "ctpp",
+       "steps": [
+        "pa.ov5"
+       ],
+       "note": "De CTPP betaalt de oversightvergoedingen van art. 43 DORA jaarlijks aan de lead overseer.",
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "ctpp",
+       "steps": [
+        "pa.ov5"
+       ],
+       "note": "Facturering en betaling gebeuren in euro; de debetnota's hanteren betalingstermijnen van ten minste 30 dagen.",
+       "reviewed": false
+      },
+      "lid-3": {
+       "disposition": "ctpp",
+       "steps": [
+        "pa.ov5"
+       ],
+       "note": "Betaling in één keer: wie op 1 januari van een jaar aan oversight onderworpen zal zijn, betaalt de debetnota uiterlijk 30 april van dat jaar; wie in de loop van het jaar is aangewezen, betaalt de vergoedingen van art. 4 uiterlijk 31 december van dat jaar in één keer.",
+       "reviewed": false
+      },
+      "lid-4": {
+       "disposition": "ctpp",
+       "steps": [
+        "pa.ov5"
+       ],
+       "note": "Bij betalingsachterstand is de achterstandsrente van art. 99 van Verordening (EU, Euratom) 2018/1046 (het Financieel Reglement) verschuldigd.",
+       "reviewed": false
+      }
+     },
+     "6": {
+      "inhoud": {
+       "disposition": "ctpp",
+       "steps": [
+        "pa.ov2"
+       ],
+       "note": "Alle communicatie tussen de ETA's en CTPP's voor de toepassing van deze verordening — dus in beide richtingen, inclusief het aanleveren van omzetcijfers en de debetnota's — verloopt elektronisch.",
+       "reviewed": false
+      }
+     },
+     "7": {
+      "inhoud": {
+       "disposition": "slotbepaling",
+       "note": "Inwerkingtreding op de twintigste dag na bekendmaking in het Publicatieblad.",
+       "reviewed": false
+      }
+     }
+    },
     "bijlagen": {}
    },
    "oversight": {
-    "artikelen": {},
-    "bijlagen": {}
+    "artikelen": {
+     "1": {
+      "lid-1": {
+       "disposition": "ctpp",
+       "steps": [
+        "pa.ov1"
+       ],
+       "note": "De dertien informatie-elementen (punten a) tot en met m)) van het met redenen omklede vrijwillige verzoek om aanwijzing als cruciaal (art. 31, lid 11 DORA): van identificatie- en structuurgegevens, marktaandeelramingen en dienst- en klantenlijsten tot de substitueerbaarheids-zelfbeoordeling, de toekomstige bedrijfsstrategie en als CTPP aangewezen subcontractanten.",
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "ctpp",
+       "steps": [
+        "pa.ov1"
+       ],
+       "note": "Groepsregel bij het opt-in-verzoek: behoort de aanbieder tot een groep, dan wordt de informatie verstrekt voor de ICT-diensten die de groep als geheel verleent — spiegel van art. 31, lid 3 DORA.",
+       "reviewed": false
+      }
+     },
+     "2": {
+      "lid-1": {
+       "disposition": "ctpp",
+       "steps": [
+        "pa.ov2"
+       ],
+       "note": "De kernleverplicht: de CTPP verstrekt de lead overseer op verzoek alle informatie die deze voor zijn oversighttaken nodig heeft.",
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "ctpp",
+       "steps": [
+        "pa.ov2"
+       ],
+       "note": "Niet-limitatieve catalogus (punten a) tot en met x)) van wat die informatie 'onder meer' omvat: contracten met klanten én subcontractanten, structuur- en aandeelhoudersinformatie, governance en notulen, ICT-beveiliging en gegevensbescherming, datacenterlocaties en derde-landendienstverlening, de risico-, incident-, verandering- en continuïteitskaders, SLA- en beveiligingsmonitoring, het beheerskader voor subcontractanten, systeemuittreksels, audit- en conformiteitsverslagen, geschiktheidsbeoordelingen van sleutelfunctionarissen, correctieplannen, opleidingsprogramma's en financiële overzichten.",
+       "reviewed": false
+      }
+     },
+     "3": {
+      "lid-1": {
+       "disposition": "ctpp",
+       "steps": [
+        "pa.ov4"
+       ],
+       "note": "Verslag met correctieplan na aanbevelingen: per geconstateerd risico de voorgenomen corrigerende maatregelen, binnen de termijnen die de lead overseer per aanbeveling heeft gesteld.",
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "ctpp",
+       "steps": [
+        "pa.ov4"
+       ],
+       "note": "Op verzoek deelt de CTPP tussentijdse voortgangsverslagen en eindverslagen met ondersteunende documentatie, zodat de lead overseer de uitvoering van de corrigerende maatregelen kan monitoren.",
+       "reviewed": false
+      }
+     },
+     "4": {
+      "lid-1": {
+       "disposition": "ctpp",
+       "steps": [
+        "pa.ov2"
+       ],
+       "note": "Indiening via de door de lead overseer in diens verzoek aangegeven speciale veilige elektronische kanalen en in de door hem aangegeven vorm.",
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "ctpp",
+       "steps": [
+        "pa.ov2"
+       ],
+       "note": "De structuur van het informatieverzoek volgen en duidelijk aangeven waar de relevante informatie-elementen in de ingediende documentatie te vinden zijn.",
+       "reviewed": false
+      },
+      "lid-3": {
+       "disposition": "ctpp",
+       "steps": [
+        "pa.ov2"
+       ],
+       "note": "Taalvereiste: alle bij of aan de lead overseer ingediende, bekendgemaakte of gerapporteerde informatie is gesteld in een in internationale financiële kringen gebruikelijke taal.",
+       "reviewed": false
+      }
+     },
+     "5": {
+      "inhoud": {
+       "disposition": "ctpp",
+       "steps": [
+        "pa.ov2"
+       ],
+       "note": "Informatie over onderaannemingsovereenkomsten wordt aan de lead overseer verstrekt volgens het model van de bijlage (Bijlage I).",
+       "reviewed": false
+      }
+     },
+     "6": {
+      "lid-1": {
+       "disposition": "autoriteit",
+       "note": "De bevoegde autoriteit — niet de aanbieder — beoordeelt in haar toezicht op financiële entiteiten de gevolgen van de maatregelen die de CTPP op basis van de aanbevelingen van de lead overseer heeft genomen, met inachtneming van het evenredigheidsbeginsel; invulling van het mandaat van art. 41, lid 1, punt d) DORA.",
+       "reviewed": false
+      },
+      "lid-2": {
+       "disposition": "autoriteit",
+       "note": "De vier wegingsfactoren van die beoordeling: toereikendheid en samenhang van de corrigerende maatregelen van de financiële entiteiten zelf, de nalevingsbeoordeling door de lead overseer voor zover die de blootstelling raakt, de standpunten van overeenkomstig art. 42, lid 5 DORA geraadpleegde autoriteiten en het oordeel van de lead overseer over de toereikendheid van de CTPP-maatregelen.",
+       "reviewed": false
+      },
+      "lid-3": {
+       "disposition": "autoriteit",
+       "note": "Op verzoek van de lead overseer levert de bevoegde autoriteit de beoordelingsresultaten binnen een redelijke termijn; de lead overseer neemt daarbij evenredigheid en de (grensoverschrijdende) omvang van de geconstateerde risico's in acht.",
+       "reviewed": false
+      },
+      "lid-4": {
+       "disposition": "autoriteit",
+       "note": "Waar relevant verzoekt de bevoegde autoriteit financiële entiteiten de voor de beoordeling van lid 1 benodigde informatie te verstrekken — entiteiten kunnen dus uitvragen over de opvolging van CTPP-aanbevelingen verwachten (sluit aan op pe.o2).",
+       "reviewed": false,
+       "steps": [
+        "pe.o2"
+       ]
+      }
+     },
+     "7": {
+      "inhoud": {
+       "disposition": "slotbepaling",
+       "note": "Standaard inwerkingtreding (twintigste dag na bekendmaking in het Publicatieblad); geen afwijkende toepassingsdata.",
+       "reviewed": false
+      }
+     }
+    },
+    "bijlagen": {
+     "i": {
+      "disposition": "ctpp",
+      "steps": [
+       "pa.ov2"
+      ],
+      "note": "Het model voor het delen van informatie over onderaannemingsovereenkomsten: tien informatiecategorieën — algemene informatie, overzicht van de onderaannemingsovereenkomsten, gegevens van de subcontractanten, beschrijving van hun diensten, governance en toezicht, risicobeheer en naleving, bedrijfscontinuïteits- en noodplannen, verslaglegging, correctie en incidentbeheer, en certificeringen en audits.",
+      "reviewed": false
+     }
+    }
    },
    "onderzoeksteams": {
     "artikelen": {
@@ -18394,15 +18658,15 @@
    "entiteit": 108,
    "aanbieder": 20
   },
-  "coverageEntries": 620,
+  "coverageEntries": 654,
   "dispositions": {
    "toepassingsgebied": 10,
-   "context": 11,
+   "context": 12,
    "definitie": 3,
    "stap": 403,
-   "autoriteit": 159,
-   "ctpp": 17,
-   "slotbepaling": 17
+   "autoriteit": 170,
+   "ctpp": 37,
+   "slotbepaling": 19
   }
  }
 }
