@@ -112,11 +112,17 @@ get_coverage); pilot criticaliteit 20/20 gedekt. Epic 12 (juli 2026)
 dekte DORA volledig: 267/267 leden, 56 entity-stappen (f0/f2–f8), 65
 begrippen op /playbook/entiteit/f1. Epic 13 (juli 2026) dekte de acht
 entity-relevante level-2-instrumenten met 52 nieuwe stappen in eigen
-id-families (pe.rb/rv/ic/im/tl/cb/oa/ir, fases f3–f6) — dekking
-600/654; alleen het oversight-cluster (oversight/vergoedingen/
-onderzoeksteams, 54 entries) staat op 0. Openstaand: (a)
-playbook-content epics 14–16 (zie docs/epics/epic-13-entity-level2.md);
-(b) menselijke review van de recital-map (complete=false) — alle 284
-entries zijn gedraft en adversarieel gereviewd (drafter→refuter; twee
-REVIEW:-gemarkeerde disputen wachten op arbitrage), maar nog
+id-families (pe.rb/rv/ic/im/tl/cb/oa/ir, fases f3–f6) — dekking 600/654.
+Epic 14 (juli 2026) sloot de matrix op **654/654**: het oversight-cluster
+(oversight 16/16, vergoedingen 18/18, onderzoeksteams 20/20) gedekt en de
+aanbieder-playbook verdiept van 5 naar 20 stappen (fases f1–f5:
+pa.sc/cg/oa/kv/ov), met de 17 DORA-ctpp-leden nu naar echte f5-steps.
+`meta.complete` blijft `false` — de flip + count-pin zijn epic 15.
+Bijvangst: parser-fix voor figure-afbeeldingen (GV 2024/1505 art 3(2)
+formule; nieuwe ContentNode `figure`). Openstaand: (a) epic 15 (menselijke
+review playbook, `complete:true` + pins, corrigendum-check op twee
+bron-eigenaardigheden — zie docs/epics/epic-14-oversight-aanbieder.md);
+epic 16 (UX); (b) menselijke review van de recital-map (complete=false) —
+alle 284 entries zijn gedraft en adversarieel gereviewd (drafter→refuter;
+twee REVIEW:-gemarkeerde disputen wachten op arbitrage), maar nog
 `reviewed: false`.

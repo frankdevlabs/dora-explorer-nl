@@ -10,14 +10,16 @@ check list change with nearly every epic. Update them in the same commit as
 the feature; a mismatch usually means this skill is stale, not that the app
 is broken — check `git log` before debugging.
 
-> **Epic-13 state:** full app, 13 instruments (DORA + 12 level-2 acts;
+> **Epic-14 state:** full app, 13 instruments (DORA + 12 level-2 acts;
 > **563 exported HTML pages**). Verify chain: verify-data (563 refs, 1031
 > search docs), verify-assessment (entity 18/57, supplier 11/48),
-> verify-playbook (draft mode: dekking 600/654 — alles gedekt behalve het
-> oversight-cluster oversight/vergoedingen/onderzoeksteams; 113 stappen;
-> 65 begrippen), verify-roi (15 templates / 98 kolommen),
-> verify-recital-map (359 pairs, two-regime, all drafted, human review
-> open), verify-l2-map (26 links), verify-search (32 golden queries).
+> verify-playbook (draft mode: dekking **654/654** — hele universum gedekt;
+> **128 stappen** (108 entiteit pe.*, 20 aanbieder pa.*); 65 begrippen;
+> complete=false, 654-pin komt epic 15), verify-roi (15 templates / 98
+> kolommen), verify-recital-map (359 pairs, two-regime, all drafted, human
+> review open), verify-l2-map (26 links), verify-search (32 golden queries).
+> Epic 14 voegde de figure-ContentNode toe (GV 2024/1505 art 3(2)
+> formule-afbeelding) — enige figure in het corpus.
 
 ## 1. Build (includes data verification)
 
@@ -71,6 +73,11 @@ curl -s "http://localhost:$PORT/playbook/dekking/risicobeheer" | grep -c "pe.rv7
 curl -s "http://localhost:$PORT/playbook/dekking/tlpt" | grep -c "pe.tl1"           # >= 1 (77/77 rijen)
 curl -s "http://localhost:$PORT/playbook/entiteit/f5" | grep -c "purple-teaming"    # >= 1 (tlpt-afsluitfase)
 curl -s "http://localhost:$PORT/playbook/entiteit/f6" | grep -c "onderaanneming"    # >= 1 (pe.oa*)
+# epic 14: oversight-cluster gedekt (654/654) + aanbieder f2-f5 gevuld
+curl -s "http://localhost:$PORT/playbook/dekking/oversight" | grep -c "nog niet gedekt" # 0 sinds epic 14
+curl -s "http://localhost:$PORT/playbook/aanbieder/f5" | grep -c "worden nog samengesteld" # 0 (was leeg tot epic 14)
+curl -s "http://localhost:$PORT/playbook/dekking/onderzoeksteams" | grep -c "lead overseer" # >= 1 (autoriteit-notes)
+curl -s "http://localhost:$PORT/oversightvergoedingen/artikel/3" | grep -c "data:image"    # 1 (formule-figure, epic 14 parser-fix)
 ```
 
 ## 3. Browser checks (Playwright, optional but thorough)

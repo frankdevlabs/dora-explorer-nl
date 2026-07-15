@@ -276,7 +276,7 @@ export function createServer(): McpServer {
       description:
         "Practical DORA-compliance playbook steps (Dutch) with legal-basis deep links. " +
         'kind "entiteit" (financial entity) or "aanbieder" (ICT third-party provider incl. CTPP); ' +
-        'optional fase id ("f0".."f8") narrows to one phase. Curation in progress: phases may be empty.',
+        'optional fase id narrows to one phase (entiteit: "f0".."f8", aanbieder: "f1".."f5").',
       inputSchema: {
         kind: z.enum(["entiteit", "aanbieder"]).describe("Which playbook"),
         fase: z.string().optional().describe('Fase id, e.g. "f1"'),
