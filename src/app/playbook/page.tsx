@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
-import { getCoverage, getPlaybook, getPlaybookCounts } from "@/lib/playbook/data";
+import {
+  PlaybookIndexCards,
+  type DekkingCard,
+  type IndexCard,
+} from "@/components/playbook/PlaybookIndexCards";
+import { getCoverage, getPlaybook } from "@/lib/playbook/data";
 
 export const metadata: Metadata = {
   title: "DORA-playbook",
@@ -9,56 +13,63 @@ export const metadata: Metadata = {
     "Praktische playbooks om aan DORA te voldoen: concrete stappen met verwijzingen naar elke bepaling van de verordening en alle level-2-handelingen, plus een dekkingsregister dat laat zien dat geen artikel of lid is overgeslagen.",
 };
 
+const TAG: Record<IndexCard["key"], string> = {
+  entiteit: "Verordening (EU) 2022/2554",
+  aanbieder: "Art. 28–44 · incl. CTPP",
+};
+const MONO: Record<IndexCard["key"], string> = { entiteit: "FE", aanbieder: "3P" };
+const TITEL: Record<IndexCard["key"], string> = {
+  entiteit: "Financiële entiteit",
+  aanbieder: "Derde aanbieder van ICT-diensten",
+};
+const BESCHRIJVING: Record<IndexCard["key"], string> = {
+  entiteit:
+    "Van scopebepaling tot oversight-interactie: governance, ICT-risicobeheerkader (volledig én vereenvoudigd regime), incidenten, testen/TLPT, derdenrisico en het informatieregister.",
+  aanbieder:
+    "Positiebepaling en criticaliteitszelftoets, contractuele gereedheid, onderaanneming, ondersteuning van klantverplichtingen en het CTPP-oversightregime.",
+};
+
 export default function PlaybookPage() {
   const entiteit = getPlaybook("entiteit");
-  const counts = getPlaybookCounts();
-  const complete = getCoverage().meta.complete;
   const universe = 654; // 637 leden + 17 bijlagen; asserted by verify-playbook
+
+  const playbooks: IndexCard[] = (["entiteit", "aanbieder"] as const).map((key) => {
+    const pb = getPlaybook(key);
+    const stepIds = pb.fases.flatMap((f) => f.stappen.map((s) => s.id));
+    return {
+      key,
+      mono: MONO[key],
+      tag: TAG[key],
+      titel: TITEL[key],
+      beschrijving: BESCHRIJVING[key],
+      faseCount: pb.fases.length,
+      stapCount: stepIds.length,
+      stepIds,
+    };
+  });
+
+  const cov = getCoverage();
+  const covered = Object.values(cov.instruments).reduce(
+    (n, block) =>
+      n +
+      Object.values(block.artikelen).reduce((m, byAnchor) => m + Object.keys(byAnchor).length, 0) +
+      Object.keys(block.bijlagen).length,
+    0,
+  );
+  const dekking: DekkingCard = { covered, universe, complete: cov.meta.complete };
+
   return (
     <div>
       <Breadcrumbs crumbs={[{ label: "Playbook" }]} />
-      <h1 className="mb-2 text-2xl font-bold">DORA-playbook</h1>
-      <p className="mb-6 text-sm text-muted">
-        Praktische stappen om aan DORA en alle level-2-handelingen te voldoen, met per stap de
-        wettelijke basis. Het dekkingsregister verantwoordt elke bepaling van het corpus:
-        actie, definitie, autoriteitsbepaling of slotbepaling.
+      <p className="font-mono text-[11px] tracking-wider text-muted uppercase">Overzicht</p>
+      <h1 className="mt-1 mb-2 text-2xl font-bold">Kies uw route naar DORA-naleving</h1>
+      <p className="mb-8 max-w-2xl text-sm text-muted">
+        Twee playbooks, elk opgebouwd uit gefaseerde stappen met acties, bewijsstukken en directe
+        verwijzingen naar de wettelijke basis. Volg de fasen op volgorde of spring naar het
+        dekkingsregister voor de status per verplichting.
       </p>
 
-      <div className="mb-6 grid gap-3 sm:grid-cols-2">
-        <Link
-          href="/playbook/entiteit"
-          className="group rounded-lg border border-line p-4 hover:border-accent"
-        >
-          <p className="font-semibold group-hover:text-accent">Financiële entiteit</p>
-          <p className="mt-1 text-sm text-muted">
-            Van scopebepaling tot oversight-interactie: governance, ICT-risicobeheerkader
-            (volledig én vereenvoudigd regime), incidenten, testen/TLPT, derdenrisico en het
-            informatieregister. {counts.steps.entiteit} stappen.
-          </p>
-        </Link>
-        <Link
-          href="/playbook/aanbieder"
-          className="group rounded-lg border border-line p-4 hover:border-accent"
-        >
-          <p className="font-semibold group-hover:text-accent">Derde aanbieder van ICT-diensten</p>
-          <p className="mt-1 text-sm text-muted">
-            Positiebepaling en criticaliteitszelftoets, contractuele gereedheid, onderaanneming,
-            ondersteuning van klantverplichtingen en het CTPP-oversightregime.{" "}
-            {counts.steps.aanbieder} stappen.
-          </p>
-        </Link>
-      </div>
-
-      <Link
-        href="/playbook/dekking"
-        className="group mb-6 block rounded-lg border border-line p-4 hover:border-accent"
-      >
-        <p className="font-semibold group-hover:text-accent">Dekkingsregister</p>
-        <p className="mt-1 text-sm text-muted">
-          Verantwoording per artikel en lid van alle 13 instrumenten ({counts.coverageEntries} van{" "}
-          {universe} bepalingen gedekt{complete ? " en gereviewd" : " — in opbouw"}).
-        </p>
-      </Link>
+      <PlaybookIndexCards playbooks={playbooks} dekking={dekking} />
 
       <p className="rounded-md border border-line bg-surface px-3 py-2 text-xs text-muted">
         {entiteit.meta.disclaimer}

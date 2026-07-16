@@ -68,12 +68,18 @@ export default async function PlaybookFasePage({
           { label: `Fase ${f.nr}` },
         ]}
       />
-      <h1 className="mb-2 text-2xl font-bold">
-        Fase {f.nr} — {f.titel}
-      </h1>
-      {f.intro && typeof f.intro === "string" && (
-        <p className="mb-6 text-sm text-muted">{f.intro}</p>
-      )}
+      <div className="mb-6 flex items-start gap-4">
+        <span className="grid size-12 shrink-0 place-items-center rounded-xl bg-accent font-mono text-lg font-medium text-white">
+          {String(f.nr).padStart(2, "0")}
+        </span>
+        <div className="min-w-0">
+          <p className="font-mono text-[11px] tracking-wider text-muted uppercase">Fase {f.nr}</p>
+          <h1 className="mt-0.5 text-2xl font-bold">{f.titel}</h1>
+          {f.intro && typeof f.intro === "string" && (
+            <p className="mt-2 max-w-2xl text-sm text-muted">{f.intro}</p>
+          )}
+        </div>
+      </div>
 
       {f.id === "f1" && (pb.begrippen?.length ?? 0) > 0 && (
         <dl className="mb-6 space-y-2">

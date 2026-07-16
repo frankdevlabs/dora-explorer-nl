@@ -25,33 +25,37 @@ export default function DekkingIndexPage() {
   return (
     <div>
       <Breadcrumbs crumbs={[{ label: "Playbook", href: "/playbook" }, { label: "Dekking" }]} />
-      <h1 className="mb-2 text-2xl font-bold">Dekkingsregister</h1>
-      <p className="mb-6 text-sm text-muted">
+      <p className="font-mono text-[11px] tracking-wider text-muted uppercase">Dekking</p>
+      <h1 className="mt-1 mb-2 text-2xl font-bold">Dekkingsregister</h1>
+      <p className="mb-6 max-w-2xl text-sm text-muted">
         Elke bepaling van het corpus krijgt hier een verantwoording: gedekt door een of meer
         playbook-stappen, of gemarkeerd als definitie, toepassingsgebied, autoriteitsbepaling of
-        slotbepaling. Zo is controleerbaar dat geen artikel of lid is overgeslagen.
+        slotbepaling. Kies een instrument om zijn register te openen.
       </p>
-      <ul className="space-y-2">
-        {rows.map(({ id, universe, covered }) => (
-          <li key={id}>
-            <Link
-              href={`/playbook/dekking/${id}`}
-              className="group flex items-baseline justify-between gap-3 rounded-lg border border-line px-4 py-3 hover:border-accent"
-            >
-              <span>
-                <span className="font-medium group-hover:text-accent">
-                  {INSTRUMENTS[id].label}
-                </span>{" "}
-                <span className="text-sm text-muted">{INSTRUMENTS[id].citation}</span>
-              </span>
-              <span
-                className={`shrink-0 text-sm ${covered === universe ? "text-green-700 dark:text-green-400" : "text-muted"}`}
+      <ul className="space-y-2.5">
+        {rows.map(({ id, universe, covered }) => {
+          const full = covered === universe;
+          return (
+            <li key={id}>
+              <Link
+                href={`/playbook/dekking/${id}`}
+                className="group flex items-center justify-between gap-3 rounded-lg border border-line p-4 hover:border-accent"
               >
-                {covered}/{universe}
-              </span>
-            </Link>
-          </li>
-        ))}
+                <span className="min-w-0">
+                  <span className="font-medium group-hover:text-accent">
+                    {INSTRUMENTS[id].label}
+                  </span>{" "}
+                  <span className="text-sm text-muted">{INSTRUMENTS[id].citation}</span>
+                </span>
+                <span
+                  className={`shrink-0 font-mono text-sm ${full ? "text-green-700 dark:text-green-400" : "text-muted"}`}
+                >
+                  {covered}/{universe}
+                </span>
+              </Link>
+            </li>
+          );
+        })}
       </ul>
     </div>
   );
