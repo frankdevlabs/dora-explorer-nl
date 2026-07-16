@@ -78,6 +78,42 @@ zijn daar ook vindbaar (geen filtering). `verify-data` re-pin **1031→1159**
 bestaande pin (`ranking toeleveringsketen`) bewust versoepeld naar `topN` omdat
 stap-pe.ir1 nu meerangt. `verify-playbook`-pins (654/654) ongewijzigd.
 
+## Redesign (juli 2026, Claude Design)
+
+Visuele + interactie-vernieuwing van de vier playbook-schermen op de bevroren
+data, geïmporteerd uit het Claude Design-project "Playbook design improvement"
+(`Playbook Redesign.dc.html`). Prototype hardcodeerde light-mode hex + Geist;
+poort vertaalt dat naar de app-tokens (`--accent` etc.) zodat dark mode blijft
+werken. Nieuw gedeeld **`src/lib/playbook/ui.ts`** — `PRIO_ORDER` + label/klasse-
+map voor het prioriteitspalet (fundament→accent, kern→teal, verdieping→muted/
+slate), plus `PRIO_FALLBACK`/`prioStyle()`.
+
+- **Scherm 1 `/playbook`** — nieuw client-eiland `PlaybookIndexCards.tsx`:
+  icoon-tegels (FE/3P), instrument-tags, live voortgangsbalk + pct per playbook
+  (`useDone`), en de dekkings-kaart. `page.tsx` levert plain props (kind, mono,
+  tag, titel, beschrijving, faseCount, stapCount, stepIds + dekking covered/
+  universe/complete) en zet eyebrow + h1.
+- **Scherm 2 `PlaybookProgress.tsx`** — kop-pct + "x/y voltooid", nummertegels
+  (gevuld accent bij 100%), per-fase inline balk, `uitgewerkt`/`referentie`-
+  badge (0 stappen = referentie, bv. f1 begrippenkader). Reset-knop behouden.
+- **Scherm 3 `PlaybookSteps.tsx`** — regimefilter behouden; nieuw:
+  samenvattingskaart (pct + segmentbalk per prioriteitsgroep + legenda +
+  alles-uit/inklappen), prioriteitsgroepering (`PRIO_ORDER` + overig-bucket),
+  inklapbare stapkaarten (lokale `useState`, default dicht: checkbox + titel +
+  meta `id · rollen · N refs` + prioriteitschip + chevron; open toont doel/
+  acties/bewijs/`RefRow`/Vereist-eerst). **Hash-open** (`useEffect` +
+  `hashchange`): deeplinks/SearchDocs/Cmd-K naar `#<stepId>` klappen de kaart
+  open en scrollen — cruciaal nu kaarten default dicht zijn.
+- **Scherm 4 dekking** — `dekking/[instrument]/page.tsx` kreeg een instrument-
+  pillselector (alle `INSTRUMENT_IDS` als `<Link>`, actieve gemarkeerd,
+  covered/universe) + dekkingssamenvatting-balk (stap vs definitie/context vs
+  open, server-side getald) + gecardde tabel; **routes behouden** (deeplinks,
+  SearchDocs, MCP). `dekking/page.tsx` (index) meegestyled.
+
+UI-only: geen data/parser/generated/store-wijziging; `verify-playbook` 654/654
+en alle count-pins ongewijzigd, `npm run build` groen. Gedeployd via
+`scripts/deploy-site.sh` naar https://dora.mrfrank.dev.
+
 ## Openstaand
 
 - **Menselijke review van de recital-map** (`complete=false`) — 284 entries

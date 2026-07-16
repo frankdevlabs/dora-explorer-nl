@@ -142,3 +142,17 @@ verify-playbook 654/654 ongewijzigd. Openstaand: menselijke review van de
 recital-map (complete=false) — alle 284 entries zijn gedraft en adversarieel
 gereviewd (drafter→refuter; twee REVIEW:-gemarkeerde disputen wachten op
 arbitrage), maar nog `reviewed: false`.
+Playbook UI-redesign (juli 2026, uit Claude Design "Playbook Redesign.dc.html"):
+de vier bestaande schermen (`/playbook`, `/playbook/[kind]`, `.../[fase]`,
+`/playbook/dekking[/instrument]`) visueel + interactief vernieuwd op de bevroren
+data. Nieuw gedeeld `src/lib/playbook/ui.ts` (prioriteitspalet fundament→accent /
+kern→teal / verdieping→muted, dark-aware — designs light-hex naar CSS-var-tokens
+vertaald). Index: nieuw client-eiland `PlaybookIndexCards` (icoon-tegels, tags,
+live voortgangsbalken per playbook). Fase-lijst (`PlaybookProgress`): kop-pct,
+nummertegels, per-fase balken, uitgewerkt/referentie-badges. Stappen
+(`PlaybookSteps`): prioriteitsgroepering + inklapbare stapkaarten (default dicht)
++ samenvattingskaart met segmentbalk/legenda + alles-uit/inklappen + hash-open
+(deeplinks/SearchDocs/Cmd-K openen de kaart); regimefilter behouden. Dekking:
+instrument-pillselector + dekkingssamenvatting-balk, per-instrument routes
+behouden. UI-only — geen data/parser/generated/store-wijziging, verify-playbook
+654/654 ongewijzigd; live op https://dora.mrfrank.dev.
