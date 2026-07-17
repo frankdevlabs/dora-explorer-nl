@@ -156,3 +156,27 @@ nummertegels, per-fase balken, uitgewerkt/referentie-badges. Stappen
 instrument-pillselector + dekkingssamenvatting-balk, per-instrument routes
 behouden. UI-only — geen data/parser/generated/store-wijziging, verify-playbook
 654/654 ongewijzigd; live op https://dora.mrfrank.dev.
+Epic 17 (juli 2026, Documentenregister): de verwachte documentatie per stap
+(`bewijsstukken`) opgetild tot eersteklas, refereerbare documenten — de
+juridische-verwijzingsspine één niveau hoger. Nieuwe redactionele laag
+(rule 2b) `data/playbook/documenten-v1.json`: **167 canonieke documenttypes**,
+elk met eigen wettelijke basis (`refs` naar DORA + de twaalf L2-handelingen).
+Alle 339 stapdeliverables (128 stappen) zijn nu gestructureerde
+`{docId, detail}`-refs (nul vrije tekst); `Bewijsstuk = string | DocRef`-unie +
+`isDocRef` in `src/lib/playbook/types.ts` maakte de migratie stap-voor-stap
+mogelijk zonder stap-id-/localStorage-wijziging. Nieuw
+`/playbook/documenten`-register = reverse-index (document → producerende
+stappen + wettelijke basis), spiegel van `/playbook/dekking`; stapkaarten
+tonen elk deliverable als hover-preview `RefLink` (`docLookup`-prop, RSC-safe).
+Build (`build-playbook.ts`) leidt `byDoc` + `type:"document"` SearchDocs af;
+zoeken (resultaten + Cmd-K) en MCP (`get_documents`, `get_playbook`-DocRefs,
+`search_dora` type `document`) uitgebreid. Curatie via drafter→merge→
+adversarieel-refute (epic-15-methode): seed 22 cross-cutting canonicals + 9
+fase-drafters + 4 domein-refuters (26 dedup-merges + 15 basis-/categoriefixes,
+o.a. 19 over-granulaire TLPT-subartefacten samengevoegd); `meta.complete:true`,
+alle entries `reviewed:true`. Pins: verify-playbook `documents:167` /
+`docRefs:279` (0 orphans, 0 vrije tekst, strikte regime), verify-data
+search-docs `1159→1326` (+167 document-docs), verify-search 3 domeinqueries
+bewust herricht (documenten verslaan nu terecht de kale artikelen, rule 3).
+`scripts/apply-bewijs-mapping.mjs` = formatting-preserving migratiehelper.
+Openstaand: PR #1 mergen; recital-map human-review (nog complete=false).
