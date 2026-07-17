@@ -1,5 +1,11 @@
 import playbookJson from "../../../data/generated/playbook.json";
-import type { GeneratedPlaybook, Playbook, PlaybookStepIndexEntry } from "./types";
+import type {
+  DocIndexEntry,
+  DocumentType,
+  GeneratedPlaybook,
+  Playbook,
+  PlaybookStepIndexEntry,
+} from "./types";
 
 const gen = playbookJson as unknown as GeneratedPlaybook;
 
@@ -17,6 +23,14 @@ export function getCoverage() {
 
 export function getStepIndex(): Record<string, PlaybookStepIndexEntry> {
   return gen.byStep;
+}
+
+export function getDocuments(): DocumentType[] {
+  return gen.documenten;
+}
+
+export function getDocIndex(): Record<string, DocIndexEntry> {
+  return gen.byDoc;
 }
 
 export function getPlaybookCounts() {

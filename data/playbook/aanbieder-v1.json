@@ -30,8 +30,8 @@
             "Leg de scopeconclusie per dienst en per groepsentiteit bestuurlijk vast met peildatum, markeer daarbij welke diensten volgens uw klantcontracten kritieke of belangrijke functies ondersteunen (artikel 3, punt 22) als input voor de voetafdrukanalyse (pa.p1), en herhaal de toets bij wijzigingen in dienstenportfolio, klantenkring of groepsstructuur."
           ],
           "bewijsstukken": [
-            "Scopeconclusie-memo per groepsentiteit met peildatum en motivering per uitsluiting/randgeval",
-            "Dienstencatalogus met per dienst de ICT-dienst-kwalificatie (artikel 3, punt 21) en KOF-markering"
+            { "docId": "doc.scopememo", "detail": "per groepsentiteit; peildatum en motivering per uitsluiting/randgeval" },
+            { "docId": "doc.dienstencatalogus-kof", "detail": "per dienst de ICT-dienst-kwalificatie (art. 3, punt 21) en KOF-markering" }
           ],
           "rollen": [
             "juridisch",
@@ -89,8 +89,8 @@
             "Leg vast welke onderaannemers u inzet voor de diensten die kritieke of belangrijke functies van deze klanten ondersteunen (subcriterium 1.4)."
           ],
           "bewijsstukken": [
-            "Klantenoverzicht per DORA-categorie met markering kritieke/belangrijke functies en MSI-/ASI-status",
-            "Overzicht ingezette onderaannemers per dienst"
+            { "docId": "doc.financiele-voetafdruk-register", "detail": "klanten per DORA-categorie; KOF- en MSI-/ASI-markering" },
+            { "docId": "doc.onderaannemingsketen-register", "detail": "ingezette onderaannemers per dienst" }
           ],
           "rollen": [
             "sales/accountmanagement",
@@ -133,8 +133,7 @@
             "Leg per subcriterium de berekening, brondata en peildatum vast; benader EU-brede noemers met publieke ECB-/EBA-statistieken (schatting, geen officiële uitkomst) en herhaal de toets bij materiële wijzigingen in de klantportefeuille."
           ],
           "bewijsstukken": [
-            "Berekeningsdossier per subcriterium (1.1, 1.2, 2.1, 2.2, 4.1, 4.2) met brondata en peildatum",
-            "Managementrapportage met conclusie over het verwachte stap 1-resultaat"
+            { "docId": "doc.criticaliteit-zelftoetsdossier", "detail": "kwantitatieve stap 1: berekening per subcriterium (1.1, 1.2, 2.1, 2.2, 4.1, 4.2) met brondata/peildatum en managementconclusie over het verwachte stap 1-resultaat" }
           ],
           "rollen": [
             "risk",
@@ -200,9 +199,8 @@
             "Onderbouw de substitueerbaarheid per dienst: reële (ook gedeeltelijke) alternatieven, uw marktaandeel, technische complexiteit en eigendomstechnologie (artikel 5, lid 5, jo. artikel 31, lid 2, punt d), i), DORA)."
           ],
           "bewijsstukken": [
-            "Impact- en verwevenheidsanalyse per ICT-dienst",
-            "Overzicht onderaannemersafhankelijkheden met mitigerende maatregelen",
-            "Substitueerbaarheidsonderbouwing per dienst"
+            { "docId": "doc.criticaliteit-zelftoetsdossier", "detail": "kwalitatieve stap 2: impact- en verwevenheidsanalyse en substitueerbaarheidsonderbouwing per ICT-dienst" },
+            { "docId": "doc.onderaannemingsketen-register", "detail": "onderaannemersafhankelijkheden met mitigerende maatregelen" }
           ],
           "rollen": [
             "risk",
@@ -250,8 +248,7 @@
             "Plan de jaarlijkse actualisatie van deze gegevens vóór 31 december, omdat de ETA's rekenen met de gegevens die uiterlijk dan beschikbaar zijn."
           ],
           "bewijsstukken": [
-            "Aanleverdossier registerdata per klant",
-            "Wijzigingslog van contract- en dienstgegevens"
+            { "docId": "doc.informatieregister", "detail": "aanleverdossier registerdata per klant en wijzigingslog van contract- en dienstgegevens" }
           ],
           "rollen": [
             "sales/accountmanagement",
@@ -301,9 +298,9 @@
             "Richt uw contractproces zo in dat u de door het klant-contractbeleid vereiste formalisering van materiële wijzigingen — een door alle partijen gedateerd en ondertekend schriftelijk document — en de daarin vermelde verlengingsprocedure kunt bedienen (art. 8, lid 4, GV 2024/1773); toets uw templates bij onderhandelingen aan door overheidsinstanties ontwikkelde modelcontractbepalingen voor specifieke diensten en documenteer die afweging (art. 30, lid 4)."
           ],
           "bewijsstukken": [
-            "Contracttemplate-set (basisset + KOF-variant) met mapping per element van art. 30, lid 2 en lid 3",
-            "Gap-analyse van het lopende klantcontractenbestand tegen art. 30 met herstelplan (addenda)",
-            "Wijzigings- en verlengingsprocedure voor contracten met dateer- en ondertekenvereiste"
+            { "docId": "doc.tpp-contractsjabloon", "detail": "basisset + KOF-variant; mapping per element van art. 30, lid 2 en lid 3" },
+            { "docId": "doc.contract-gapanalyse", "detail": "lopend klantcontractenbestand tegen art. 30, met herstelplan/addenda" },
+            { "docId": "doc.contractwijzigingsprocedure" }
           ],
           "rollen": [
             "juridisch",
@@ -362,10 +359,11 @@
             "Borg en documenteer dat u over voldoende middelen beschikt om de naleving door uw klanten van al hun wettelijke en regelgevingsvereisten voor de KOF-ondersteunende ICT-diensten te ondersteunen (art. 3, lid 4)."
           ],
           "bewijsstukken": [
-            "Standaard due-diligence-informatiepakket per dienst, gestructureerd langs art. 6, lid 1, GV 2024/1773",
-            "Auditfaciliteringsprocedure (eigen, derden- en gebundelde audits/ICT-tests) met toegangsregeling voor gegevens en gebouwen",
-            "Actuele certificeringen en auditverslagen met scope-mapping op essentiële systemen en controles van klanten",
-            "Rapportagekalender met voorbeeldrapportages en incidentkennisgevingsprocedure per klanttype"
+            { "docId": "doc.due-diligence-informatiepakket", "detail": "per dienst; gestructureerd langs art. 6, lid 1, GV 2024/1773" },
+            { "docId": "doc.auditfaciliteringsprocedure", "detail": "eigen, derden- en gebundelde audits/ICT-tests; toegang tot gegevens en gebouwen" },
+            { "docId": "doc.certificeringen-auditrapporten", "detail": "scope-mapping op essentiële systemen en controls van klanten" },
+            { "docId": "doc.klantrapportagekalender", "detail": "met voorbeeldrapportages per klanttype" },
+            { "docId": "doc.klantincidentkennisgeving", "detail": "per klanttype" }
           ],
           "rollen": [
             "compliance",
@@ -439,9 +437,9 @@
             "Operationaliseer de beëindigingsgronden van art. 28, lid 7, die u via uw templates als klantrecht hebt toegekend: richt uw interne escalatie- en overdrachtsprocedures zo in dat een opzegging op die gronden niet tot obstructie leidt en de klant kan beëindigen zonder verstoring van zijn bedrijfsactiviteiten, zonder beperking van zijn regelnaleving en zonder afbreuk aan de continuïteit en kwaliteit van de aan zijn cliënten geleverde diensten (art. 28, lid 8)."
           ],
           "bewijsstukken": [
-            "Exit- en transitiedraaiboek per dienst(categorie) met overgangsperiode-afspraken",
-            "Gegevensoverdrachts- en verwijderprocedure met formaat- en integriteitsspecificaties",
-            "Verslagen van met klanten uitgevoerde exit-tests of -walkthroughs"
+            { "docId": "doc.exitstrategie-exitplan", "detail": "exit- en transitiedraaiboek per dienst(categorie), met overgangsperiode-afspraken (aanbiederzijde)" },
+            { "docId": "doc.gegevensoverdracht-verwijderprocedure", "detail": "formaat- en integriteitsspecificaties" },
+            { "docId": "doc.exittest-verslag", "detail": "met klanten uitgevoerde exit-tests/-walkthroughs" }
           ],
           "rollen": [
             "juridisch",
@@ -503,9 +501,9 @@
             "Lever klanten gestructureerd de keteninformatie voor hun eigen beoordelingen onder art. 3, lid 1, punten f) tot en met j) (eigen monitoringcapaciteit, impact van falen van een onderaannemer, locatierisico's, ICT-concentratierisico, audit- en toegangsbelemmeringen) en voor de periodieke herhaling daarvan bij veranderingen in de zakelijke omgeving (lid 2); klanten mogen op uw risicobeoordelingen van onderaannemers steunen zonder dat dit hun eindverantwoordelijkheid beperkt (lid 3) — lever die beoordelingen dus gedocumenteerd en actueel aan, met een diepgang die aansluit op de ketenfactoren van art. 1 (o.a. soort dienst, locatie, ketenlengte en -complexiteit, aard van de gedeelde data, concentratie en impact van storingen)."
           ],
           "bewijsstukken": [
-            "Due-diligence-dossier per (potentiële) onderaannemer van KOF-ondersteunende diensten",
-            "Actueel ketenoverzicht per klant met alle KOF-ondersteunende onderaannemers",
-            "Informatiepakket art. 3-voorwaarden per klant, met uw risicobeoordelingen van onderaannemers"
+            { "docId": "doc.due-diligence-dossier", "detail": "per (potentiële) onderaannemer van KOF-ondersteunende diensten" },
+            { "docId": "doc.onderaannemingsketen-register", "detail": "per klant; alle KOF-ondersteunende onderaannemers" },
+            { "docId": "doc.onderaanneming-voorwaarden-informatiepakket", "detail": "art. 3-voorwaarden per klant, met eigen risicobeoordelingen" }
           ],
           "rollen": [
             "inkoop",
@@ -557,10 +555,10 @@
             "Werk mee aan het tijdig en zo spoedig mogelijk implementeren van veranderingen in lopende klantcontracten die nodig zijn geworden om aan de verordening te voldoen, en lever de input voor het tijdschema dat de klant daarvoor documenteert (art. 4, lid 2)."
           ],
           "bewijsstukken": [
-            "Subcontract-template met mapping per element van art. 4, lid 1, GV 2025/532",
-            "Ketenmonitoring- en rapportageprocedure met rapportagevoorbeelden per klant",
-            "Locatierisico- en datalocatieregister per onderaannemer",
-            "Continuïteitsdraaiboek keten bij niet-nakoming door een onderaannemer"
+            { "docId": "doc.subcontract-sjabloon", "detail": "mapping per element van art. 4, lid 1, GV 2025/532" },
+            { "docId": "doc.ketenmonitoring-procedure", "detail": "met rapportagevoorbeelden per klant" },
+            { "docId": "doc.onderaannemingsketen-register", "detail": "locatierisico- en datalocatiegegevens per onderaannemer" },
+            { "docId": "doc.ketencontinuiteitsdraaiboek", "detail": "bij niet-nakoming door een onderaannemer" }
           ],
           "rollen": [
             "juridisch",
@@ -612,9 +610,9 @@
             "Actualiseer na elke doorgevoerde wijziging het ketenoverzicht en de registerdata die u aan klanten aanlevert (pa.p4), zodat hun informatieregister en herbeoordelingen op de actuele keten steunen."
           ],
           "bewijsstukken": [
-            "Wijzigingsprocedure onderaannemingsketen met kennisgevings- en termijnbewaking per klant",
-            "Log van kennisgevingen, klantbeoordelingen, goedkeuringen en bezwaren per contract",
-            "Escalatie- en aanpassingsdossier bij bezwaar van een klant"
+            { "docId": "doc.keten-wijzigingsprocedure", "detail": "kennisgevings- en termijnbewaking per klant" },
+            { "docId": "doc.keten-wijzigingslog", "detail": "kennisgevingen, klantbeoordelingen, goedkeuringen en bezwaren per contract" },
+            { "docId": "doc.keten-bezwaar-escalatiedossier", "detail": "bij bezwaar van een klant" }
           ],
           "rollen": [
             "juridisch",
@@ -683,10 +681,9 @@
             "Voert u als dienstverlener de rapportageverplichtingen van artikel 19 voor een klant uit (uitbesteding, art. 19, lid 5, DORA): regel contractueel de meldtermijnen, het modelgebruik, escalatie en tijdige informatieaanlevering, en richt uw proces zo in dat de klant — die volledig verantwoordelijk blijft voor de naleving van de rapportagevereisten — daarop aantoonbaar kan steunen."
           ],
           "bewijsstukken": [
-            "Incidentkennisgevings- en escalatieprocedure per klant(type) met contactpunten, kanalen en termijnafspraken",
-            "Standaard incidentinformatiepakket gestructureerd langs de classificatiecriteria van art. 18, lid 1, DORA",
-            "Incidentdossiers met geleverde eerste feiten, tussentijdse actualisaties en oorzaakanalyses",
-            "Bij uitbestede rapportage: procesbeschrijving met termijn- en modelborging en verantwoordelijkheidsverdeling"
+            { "docId": "doc.incident-meldprocedure" },
+            { "docId": "doc.incidentbeheerprocedure", "detail": "standaard incidentinformatiepakket gestructureerd langs de classificatiecriteria van art. 18, lid 1 DORA" },
+            { "docId": "doc.incidentregister", "detail": "klant-incidentdossiers: geleverde eerste feiten, tussentijdse actualisaties en oorzaakanalyses" }
           ],
           "rollen": [
             "CISO",
@@ -746,10 +743,10 @@
             "Werk mee aan de afsluiting: herstel bevindingen die uw systemen of diensten raken en lever input voor de root cause analysis en de remediërende maatregelen in het remediëringsplan van de klant (art. 13, lid 2, GV 2025/1190); uw deelname wordt in voorkomend geval vermeld in het TLPT-attest (bijlage VIII GV 2025/1190)."
           ],
           "bewijsstukken": [
-            "Intern TLPT-draaiboek (aanspreekpunt, geheimhoudingsinstructie, codenaamgebruik, ontdekkingsmeldprotocol)",
-            "Afwegingsdossier gebundelde test per klant(groep) met de schriftelijke overeenkomst en de contractuele overeenkomst met de externe tester",
-            "Scoping-informatiepakket per klant (systemen, processen, technologieën en afhankelijkheden binnen de scope)",
-            "Remediëringsdossier met herstelde TLPT-bevindingen en geleverde root-cause-input"
+            { "docId": "doc.tlpt-deelnamedraaiboek" },
+            { "docId": "doc.tlpt-gebundelde-test-dossier" },
+            { "docId": "doc.tlpt-scoping", "detail": "scoping-informatiepakket per klant: systemen, processen, technologieen en afhankelijkheden binnen scope" },
+            { "docId": "doc.tlpt-testrapport-remediering", "detail": "remedieringsdossier: herstelde TLPT-bevindingen en geleverde root-cause-input" }
           ],
           "rollen": [
             "CISO",
@@ -827,9 +824,8 @@
             "Houd de gegevensset actueel: meld elke wijziging in diensten, onderaannemersketen of identificatiegegevens proactief aan uw klanten, die de registerinformatie regelmatig moeten evalueren en geconstateerde fouten of afwijkingen onmiddellijk moeten corrigeren (art. 3, lid 3, UV 2024/2956), en sluit uw aanlevermoment aan op de actualisatiecyclus die u in pa.p4 hebt gepland."
           ],
           "bewijsstukken": [
-            "Registergegevensset per klant en per contract (LEI/EUID, S01–S19-typering, ketenoverzicht met rankings) met versiebeheer",
-            "LEI/EUID-aanleverclausule in onderaannemingscontracten voor KOF-ondersteunende diensten",
-            "Wijzigingslog registerdata, aansluitend op het aanleverdossier van pa.p4"
+            { "docId": "doc.informatieregister" },
+            { "docId": "doc.tpp-contractsjabloon", "detail": "LEI/EUID-aanleverclausule in onderaannemingscontracten voor KOF-ondersteunende diensten" }
           ],
           "rollen": [
             "sales/accountmanagement",
@@ -901,8 +897,8 @@
             "Houd uw onderaannemersanalyse actueel: de lead overseer past subcriterium 1.4 (afhankelijkheid van dezelfde onderaannemers) sinds 16 januari 2025 toe."
           ],
           "bewijsstukken": [
-            "Draaiboek reactie op voorgenomen aanwijzing",
-            "Indieningsklaar conceptdossier met redenen omklede verklaring"
+            { "docId": "doc.aanwijzing-reactiedraaiboek" },
+            { "docId": "doc.gemotiveerde-verklaring-aanwijzing" }
           ],
           "rollen": [
             "bestuur",
@@ -945,11 +941,11 @@
             "Overweegt u als niet op de CTPP-lijst opgenomen aanbieder een vrijwillige aanwijzing: dien een met redenen omkleed verzoek in bij de EBA, de ESMA of de Eiopa met alle informatie-elementen van art. 1 GV 2025/295 — naam en identificatiecode van de rechtspersoon, contactpersoon met contactgegevens, land van de maatschappelijke zetel, de ondernemingsstructuur (moedermaatschappij en verwante ondernemingen die ICT-diensten aan financiële entiteiten in de Unie verlenen), marktaandeelramingen (totaal en per soort financiële entiteit, voor het indieningsjaar en het jaar ervoor), een beschrijving van elke ICT-dienst aan financiële entiteiten in de Unie, een lijst van de bediende financiële entiteiten, een lijst van de in de meest recente gepubliceerde ETA-lijst opgenomen kritieke derde aanbieders, een zelfbeoordeling van de substitueerbaarheid per dienst en van bekende alternatieve aanbieders, de toekomstige bedrijfsstrategie, uw als CTPP aangewezen subcontractanten en andere voor het verzoek relevante aspecten; behoort u tot een groep, verstrek de informatie dan voor de ICT-diensten die de groep als geheel verleent. Reken op een vaste, niet-terugbetaalbare opt-in-vergoeding van 50 000 EUR en op een besluit binnen zes maanden."
           ],
           "bewijsstukken": [
-            "Aanwijzingsdossier (kennisgevingen van de ETA's en de lead overseer, aanvangsdatum oversight)",
-            "Kennisgeving van de aanwijzing aan alle financiële klanten",
-            "Mandaat en aanwijzingsbesluit van het (groeps)coördinatiepunt",
-            "Reacties op ontwerp-oversightplannen (binnen 15 kalenderdagen)",
-            "Opt-in-verzoekdossier conform art. 1 GV 2025/295 (indien van toepassing)"
+            { "docId": "doc.oversight-aanwijzingsdossier" },
+            { "docId": "doc.klant-aanwijzingskennisgeving" },
+            { "docId": "doc.coordinatiepunt-mandaat" },
+            { "docId": "doc.reactie-oversightplan" },
+            { "docId": "doc.opt-in-verzoekdossier" }
           ],
           "rollen": [
             "bestuur",
@@ -1019,10 +1015,10 @@
             "Dien jaarlijks uiterlijk op 31 december gecontroleerde omzetcijfers over het voorafgaande jaar in (het vergoedingsjaar n rekent met de omzet van jaar n-2), afgebakend tot de in de Unie gegenereerde inkomsten uit de in de technische uitvoeringsnormen op grond van art. 28, lid 9 DORA opgenomen ICT-diensten verleend aan financiële entiteiten; ontbreekt die afbakening of de aanlevering, dan hanteert de lead overseer een ruimere grondslag — tot en met de wereldwijde omzet ongeacht het soort cliënten — en valt de vergoeding dus mogelijk hoger uit. Voer alle communicatie met de ETA's hierover elektronisch."
           ],
           "bewijsstukken": [
-            "Register van informatieverzoeken met rechtsgrondslag, termijn en afhandeling",
-            "Dossierstructuur per informatiecategorie van art. 2, lid 2 GV 2025/295",
-            "Ingediende Bijlage I-modellen over onderaannemingsovereenkomsten",
-            "Gecontroleerde omzetopgave met indieningsbewijs (jaarlijks uiterlijk op 31 december)"
+            { "docId": "doc.oversight-informatieverzoeken-register" },
+            { "docId": "doc.oversight-informatiedossier" },
+            { "docId": "doc.oversight-onderaannemingsmodel" },
+            { "docId": "doc.oversight-omzetopgave" }
           ],
           "rollen": [
             "compliance",
@@ -1100,9 +1096,9 @@
             "Verzet u niet tegen een gelaste inspectie: de lead overseer stelt u dan in kennis van de gevolgen, met inbegrip van de mogelijkheid dat de bevoegde autoriteiten van uw klanten die verplichten hun contractuele overeenkomsten met u te beëindigen; leg voor inspecties in bedrijfsruimten in een derde land een interne besluitlijn vast — uw instemming is daarvoor een wettelijke voorwaarde."
           ],
           "bewijsstukken": [
-            "Draaiboek onderzoeken en inspecties met de rol van het coördinatiepunt",
-            "Logboek per oversightactiviteit (machtiging/besluit, verstrekte stukken, verzegelingen, gegeven toelichtingen)",
-            "Personeelsinstructie voor onderzoeken en inspecties ter plaatse"
+            { "docId": "doc.onderzoek-inspectie-draaiboek" },
+            { "docId": "doc.oversight-activiteitenlogboek" },
+            { "docId": "doc.inspectie-personeelsinstructie" }
           ],
           "rollen": [
             "juridisch",
@@ -1180,10 +1176,10 @@
             "Weeg de klantgevolgen van niet-opvolging expliciet mee in de bestuursbesluitvorming: bevoegde autoriteiten kunnen uw klanten als laatste redmiddel verplichten het gebruik van uw dienst geheel of gedeeltelijk tijdelijk te staken of hun contractuele overeenkomsten geheel of gedeeltelijk te beëindigen; wordt zo'n besluit genomen, werk dan volledig samen met de getroffen financiële entiteiten, met name bij het tijdelijk staken of beëindigen van de contracten."
           ],
           "bewijsstukken": [
-            "Termijnenkalender per aanbeveling (30- en 60-dagentermijnen en de door de lead overseer gestelde correctietermijnen)",
-            "Kennisgevingen en gemotiveerde verklaringen aan de lead overseer",
-            "Verslag met correctieplan plus tussentijdse voortgangs- en eindverslagen",
-            "Bestuursbesluitvorming over (niet-)opvolging met klantimpactanalyse"
+            { "docId": "doc.aanbevelingen-termijnenkalender" },
+            { "docId": "doc.aanbeveling-kennisgeving" },
+            { "docId": "doc.oversight-correctieplan" },
+            { "docId": "doc.bestuursbesluitenregister-ict", "detail": "bestuursbesluitvorming over (niet-)opvolging van aanbevelingen met klantimpactanalyse" }
           ],
           "rollen": [
             "bestuur",
@@ -1264,8 +1260,8 @@
             "Koppel de vergoedingscyclus aan de jaarlijkse omzetaanlevering van pa.ov2: in reguliere jaren wordt de vergoeding berekend als de geraamde totale kosten aangepast met de omzetcoëfficiënt op de toepasselijke omzet van jaar n-2 (art. 3, lid 1 GV 2024/1505; voor de eerste CTPP-lijst en het aanwijzingsjaar gelden de afwijkingen van art. 4), en zonder correct afgebakende gecontroleerde cijfers hanteert de lead overseer een ruimere (tot wereldwijde) omzetgrondslag."
           ],
           "bewijsstukken": [
-            "Budgetpost en betaalbewijs oversightvergoeding per jaar",
-            "Betalingsbewakingsprocedure met de termijnen van 30 april en 31 december"
+            { "docId": "doc.oversightvergoeding-betaaldossier" },
+            { "docId": "doc.oversightvergoeding-betaalbewaking" }
           ],
           "rollen": [
             "finance",

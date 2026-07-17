@@ -6,7 +6,14 @@ import { RefLink } from "@/components/content/RefLink";
 import { PrevNextNav } from "@/components/layout/PrevNextNav";
 import { PlaybookSteps } from "@/components/playbook/PlaybookSteps";
 import { buildPlaybookRefPreviews } from "@/components/playbook/ref-previews";
-import { getPlaybook, getStepIndex, PLAYBOOK_KINDS, type PlaybookKind } from "@/lib/playbook/data";
+import type { DocLookup } from "@/components/playbook/PlaybookSteps";
+import {
+  getDocuments,
+  getPlaybook,
+  getStepIndex,
+  PLAYBOOK_KINDS,
+  type PlaybookKind,
+} from "@/lib/playbook/data";
 
 export const dynamicParams = false;
 
@@ -43,6 +50,17 @@ export default async function PlaybookFasePage({
   if (!f) notFound();
   const previews = buildPlaybookRefPreviews(pb);
   const stepIndex = getStepIndex();
+  // Plain, serializable lookup for the client island: docId -> display data +
+  // a deep link into the Documentenregister (RSC boundary: no Map).
+  const docLookup: DocLookup = {};
+  for (const doc of getDocuments()) {
+    docLookup[doc.id] = {
+      naam: doc.naam,
+      category: doc.category,
+      omschrijving: doc.omschrijving,
+      href: `/playbook/documenten#${doc.id}`,
+    };
+  }
   // deps may live in another fase: link across pages via the step index.
   // Precompute a plain href map so the client island needs no step index.
   const depHrefs: Record<string, string> = {};
@@ -112,6 +130,7 @@ export default async function PlaybookFasePage({
           steps={f.stappen}
           previews={previews}
           depHrefs={depHrefs}
+          docLookup={docLookup}
         />
       )}
 

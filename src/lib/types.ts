@@ -98,9 +98,10 @@ export interface Toc {
 
 export interface SearchDoc {
   id: string;
-  type: "artikel" | "overweging" | "bijlage" | "stap";
-  /** Legal instrument (dora | its | rts | …), or the playbook kind
-   * (entiteit | aanbieder) for type "stap". */
+  type: "artikel" | "overweging" | "bijlage" | "stap" | "document";
+  /** Legal instrument (dora | its | rts | …), the playbook kind
+   * (entiteit | aanbieder) for type "stap", or the sentinel "documenten"
+   * for type "document". */
   instrument: string;
   ref: string;
   heading: string;

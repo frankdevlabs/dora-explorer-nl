@@ -3,9 +3,10 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import {
   PlaybookIndexCards,
   type DekkingCard,
+  type DocumentenCard,
   type IndexCard,
 } from "@/components/playbook/PlaybookIndexCards";
-import { getCoverage, getPlaybook } from "@/lib/playbook/data";
+import { getCoverage, getDocuments, getPlaybook } from "@/lib/playbook/data";
 
 export const metadata: Metadata = {
   title: "DORA-playbook",
@@ -58,6 +59,11 @@ export default function PlaybookPage() {
   );
   const dekking: DekkingCard = { covered, universe, complete: cov.meta.complete };
 
+  // Epic 17: full curation finished — every step deliverable is a catalog doc,
+  // meta.complete pinned in verify-playbook.
+  const docs = getDocuments();
+  const documenten: DocumentenCard = { count: docs.length, complete: true };
+
   return (
     <div>
       <Breadcrumbs crumbs={[{ label: "Playbook" }]} />
@@ -69,7 +75,7 @@ export default function PlaybookPage() {
         dekkingsregister voor de status per verplichting.
       </p>
 
-      <PlaybookIndexCards playbooks={playbooks} dekking={dekking} />
+      <PlaybookIndexCards playbooks={playbooks} dekking={dekking} documenten={documenten} />
 
       <p className="rounded-md border border-line bg-surface px-3 py-2 text-xs text-muted">
         {entiteit.meta.disclaimer}
