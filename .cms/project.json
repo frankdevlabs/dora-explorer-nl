@@ -1,0 +1,25 @@
+{
+  "id": "dora",
+  "title": "DORA Explorer NL",
+  "commands": {
+    "parse": "npm run parse",
+    "verifyAll": "npm run verify"
+  },
+  "layers": [
+    {
+      "id": "recital-map",
+      "title": "Recital–artikel-map",
+      "file": "data/source/recital-article-map.json",
+      "schema": "recital-map-v1",
+      "format": { "indent": 1 },
+      "verify": "npm run parse && npx tsx scripts/verify-recital-map.ts",
+      "context": {
+        "recitals": "data/generated/{inst}/recitals.json",
+        "articles": "data/generated/{inst}/articles.json"
+      },
+      "generated": [
+        "data/generated/recital-map.json"
+      ]
+    }
+  ]
+}
