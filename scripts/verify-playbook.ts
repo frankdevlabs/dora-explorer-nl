@@ -18,10 +18,14 @@ import type { Annex, Article } from "../src/lib/types";
 import type {
   CoverageEntry,
   CoverageFile,
+  DocCategory,
+  DocumentCatalogFile,
   Disposition,
   Playbook,
   PlaybookRegime,
 } from "../src/lib/playbook/types";
+import { isDocRef } from "../src/lib/playbook/types";
+import { CATEGORY_ORDER } from "../src/lib/playbook/ui";
 import { buildCorpusIndex, makeCheckRef } from "./lib/corpus-index";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -30,6 +34,7 @@ const load = <T>(rel: string): T => JSON.parse(readFileSync(join(root, rel), "ut
 const entiteit = load<Playbook>("data/playbook/entiteit-v1.json");
 const aanbieder = load<Playbook>("data/playbook/aanbieder-v1.json");
 const coverage = load<CoverageFile>("data/playbook/coverage-v1.json");
+const docCatalog = load<DocumentCatalogFile>("data/playbook/documenten-v1.json");
 
 const corpus = buildCorpusIndex();
 const checkRef = makeCheckRef(corpus);
@@ -43,6 +48,13 @@ const RETIRED_STEP_IDS: Record<string, string[]> = {
   entiteit: [],
   aanbieder: [],
 };
+
+/**
+ * Retired document-catalog ids (epic 17). A document id may appear in step
+ * bewijsstukken; a retired id must NEVER be reused with different semantics.
+ * Append here when removing a catalog entry; never shrink this list.
+ */
+const RETIRED_DOC_IDS: string[] = [];
 
 const DISPOSITIONS: Disposition[] = [
   "stap",
@@ -58,6 +70,36 @@ const REGIMES: Record<string, PlaybookRegime[]> = {
   entiteit: ["volledig", "vereenvoudigd"],
   aanbieder: ["aanbieder", "ctpp"],
 };
+
+const ALL_REGIMES = new Set<PlaybookRegime>([...REGIMES.entiteit, ...REGIMES.aanbieder]);
+
+// ------------------------------------------------- document-type catalog (epic 17)
+
+const DOC_CATEGORIES = new Set<DocCategory>(CATEGORY_ORDER);
+const validDocIds = new Set<string>();
+const seenDocId = new Set<string>();
+
+for (const doc of docCatalog.documenten) {
+  const owner = `document ${doc.id}`;
+  assert.ok(doc.id.startsWith("doc."), `${owner}: id-prefix moet "doc." zijn`);
+  assert.ok(!seenDocId.has(doc.id), `catalogus: dubbele document-id ${doc.id}`);
+  assert.ok(!RETIRED_DOC_IDS.includes(doc.id), `${owner}: id is retired en mag niet terugkomen`);
+  assert.ok(DOC_CATEGORIES.has(doc.category), `${owner}: onbekende category ${doc.category}`);
+  assert.ok(doc.naam.trim().length > 0, `${owner}: naam leeg`);
+  assert.ok(doc.omschrijving.trim().length > 0, `${owner}: omschrijving leeg`);
+  assert.ok(doc.refs.length >= 1, `${owner}: minstens één ref (wettelijke basis)`);
+  for (const ref of doc.refs) checkRef(owner, ref.href);
+  for (const r of doc.appliesTo ?? []) {
+    assert.ok(ALL_REGIMES.has(r), `${owner}: appliesTo "${r}" buiten domein`);
+  }
+  seenDocId.add(doc.id);
+  validDocIds.add(doc.id);
+}
+
+/** doc ids actually cited by a step's bewijsstukken (for the orphan check). */
+const citedDocIds = new Set<string>();
+/** number of migrated (structured) bewijsstukken across all steps. */
+let docRefCount = 0;
 
 // ------------------------------------------------- playbook structural checks
 
@@ -88,6 +130,15 @@ function checkPlaybook(name: string, pb: Playbook): void {
       assert.ok(step.acties.length >= 1, `${name} ${step.id}: minstens één actie`);
       assert.ok(step.refs.length >= 1, `${name} ${step.id}: minstens één ref (wettelijke basis)`);
       for (const ref of step.refs) checkRef(`${name} ${step.id}`, ref.href);
+      for (const b of step.bewijsstukken ?? []) {
+        if (!isDocRef(b)) continue;
+        assert.ok(
+          validDocIds.has(b.docId),
+          `${name} ${step.id}: bewijsstuk verwijst naar onbekend document ${b.docId}`,
+        );
+        citedDocIds.add(b.docId);
+        docRefCount++;
+      }
       assert.ok(step.appliesTo.length >= 1, `${name} ${step.id}: appliesTo leeg`);
       for (const r of step.appliesTo) {
         assert.ok(
@@ -221,6 +272,46 @@ for (const stepId of allStepIds) {
   assert.ok(
     citedSteps.has(stepId),
     `stap ${stepId} wordt door geen enkele dekkingsentry geciteerd (orphan)`,
+  );
+}
+
+// ------------------------------------------------- document catalog regime (epic 17)
+
+// Count remaining legacy free-text bewijsstukken (un-migrated deliverables).
+let freeTextBewijs = 0;
+for (const pb of [entiteit, aanbieder]) {
+  for (const fase of pb.fases) {
+    for (const step of fase.stappen) {
+      for (const b of step.bewijsstukken ?? []) if (!isDocRef(b)) freeTextBewijs++;
+    }
+  }
+}
+
+const unusedDocs = [...validDocIds].filter((id) => !citedDocIds.has(id));
+
+if (docCatalog.meta.complete) {
+  // Final mode: every catalog document must be produced by >= 1 step (no
+  // orphans) and every deliverable must be migrated to a structured docId.
+  assert.equal(unusedDocs.length, 0, `catalogus: ongebruikte documenten: ${unusedDocs.join(", ")}`);
+  assert.equal(
+    freeTextBewijs,
+    0,
+    `catalogus: ${freeTextBewijs} bewijsstukken nog niet gemigreerd naar de catalogus`,
+  );
+  // Pinned in epic 17 (juli 2026) after the full drafter→refute curation of the
+  // 339 step deliverables into the document catalog: 167 canonical document
+  // types (after 26 dedup merges), 279 structured bewijsstukken (DocRefs) across
+  // all 128 steps, zero free-text remaining. Every doc is cited by >= 1 step
+  // (orphan check above) and every doc ref anchor resolves (checkRef above).
+  const EXPECTED_DOCS = {
+    documents: 167,
+    docRefs: 279,
+  };
+  assert.equal(docCatalog.documenten.length, EXPECTED_DOCS.documents, "pin: documents");
+  assert.equal(docRefCount, EXPECTED_DOCS.docRefs, "pin: docRefs");
+} else {
+  console.log(
+    `verify-playbook: documentcatalogus in curatie — ${docCatalog.documenten.length} documenten, ${docRefCount} gemigreerde bewijsstukken, ${freeTextBewijs} nog vrije tekst, ${unusedDocs.length} ongebruikt`,
   );
 }
 

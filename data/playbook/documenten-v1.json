@@ -1,0 +1,3221 @@
+{
+  "meta": {
+    "version": 1,
+    "complete": true
+  },
+  "documenten": [
+    {
+      "id": "doc.ict-governance-charter",
+      "naam": "Bestuursreglement / governance-charter (ICT-risico)",
+      "category": "beleid",
+      "omschrijving": "Bestuursreglement of governance-charter dat de ICT-risicotaken en -verantwoordelijkheden van het leidinggevend orgaan vastlegt.",
+      "refs": [
+        {
+          "label": "Art. 5, lid 1 DORA",
+          "href": "/artikel/5#lid-1"
+        },
+        {
+          "label": "Art. 5, lid 2 DORA",
+          "href": "/artikel/5#lid-2"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "bestuur",
+      "reviewed": true
+    },
+    {
+      "id": "doc.bestuursbesluitenregister-ict",
+      "naam": "Besluitenregister / notulen bestuur (ICT-risico)",
+      "category": "verslag",
+      "omschrijving": "Besluitenregister of notulen waarin de periodieke goedkeuringen en besluiten van het leidinggevend orgaan over ICT-risico zijn vastgelegd.",
+      "refs": [
+        {
+          "label": "Art. 5, lid 2 DORA",
+          "href": "/artikel/5#lid-2"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "bestuur",
+      "reviewed": true
+    },
+    {
+      "id": "doc.bestuurlijke-meldingskanalen",
+      "naam": "Beschrijving meldingskanalen naar het bestuur",
+      "category": "procedure",
+      "omschrijving": "Beschrijving van de meldings- en escalatiekanalen waarlangs ICT-risico's en -incidenten het leidinggevend orgaan bereiken.",
+      "refs": [
+        {
+          "label": "Art. 5, lid 2 DORA",
+          "href": "/artikel/5#lid-2"
+        }
+      ],
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.rolbeschrijving-derdenrisicotoezicht",
+      "naam": "Benoemingsbesluit / rolbeschrijving toezicht derde-aanbieders",
+      "category": "beleid",
+      "omschrijving": "Benoemingsbesluit of taak-/functiebeschrijving voor de rol die toeziet op de overeenkomsten met derde ICT-aanbieders.",
+      "refs": [
+        {
+          "label": "Art. 5, lid 3 DORA",
+          "href": "/artikel/5#lid-3"
+        }
+      ],
+      "eigenaar": "bestuur",
+      "reviewed": true
+    },
+    {
+      "id": "doc.rapportage-derdenrisico-bestuur",
+      "naam": "Rapportage derde-aanbiedersrisico aan het bestuur",
+      "category": "rapportage",
+      "omschrijving": "Periodieke rapportage aan het leidinggevend orgaan over het risico van overeenkomsten met derde ICT-aanbieders.",
+      "refs": [
+        {
+          "label": "Art. 5, lid 2, punt i) DORA",
+          "href": "/artikel/5#lid-2-i"
+        },
+        {
+          "label": "Art. 5, lid 3 DORA",
+          "href": "/artikel/5#lid-3"
+        }
+      ],
+      "cadans": "periodiek",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.ict-opleidingsplan-bestuur",
+      "naam": "Opleidingsplan ICT-kennis leidinggevend orgaan",
+      "category": "plan",
+      "omschrijving": "Opleidingsplan dat het actueel houden van de ICT-kennis van het leidinggevend orgaan borgt.",
+      "refs": [
+        {
+          "label": "Art. 5, lid 4 DORA",
+          "href": "/artikel/5#lid-4"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "HR",
+      "reviewed": true
+    },
+    {
+      "id": "doc.ict-opleidingsregister-bestuur",
+      "naam": "Deelnameregistratie ICT-opleidingen bestuur",
+      "category": "register",
+      "omschrijving": "Deelnameregistratie van de ICT-opleidingen die het leidinggevend orgaan heeft gevolgd.",
+      "refs": [
+        {
+          "label": "Art. 5, lid 4 DORA",
+          "href": "/artikel/5#lid-4"
+        }
+      ],
+      "eigenaar": "HR",
+      "reviewed": true
+    },
+    {
+      "id": "doc.bestuursevaluatie-ict-kennis",
+      "naam": "Verslag kennisonderhoud in bestuursevaluatie",
+      "category": "verslag",
+      "omschrijving": "Agendapunt of verslag over ICT-kennisonderhoud in de periodieke evaluatie van het leidinggevend orgaan.",
+      "refs": [
+        {
+          "label": "Art. 5, lid 4 DORA",
+          "href": "/artikel/5#lid-4"
+        }
+      ],
+      "cadans": "periodiek",
+      "eigenaar": "bestuur",
+      "reviewed": true
+    },
+    {
+      "id": "doc.informatieregister",
+      "naam": "Informatieregister (ITS-formaat)",
+      "category": "register",
+      "omschrijving": "Register van alle contractuele overeenkomsten over ICT-diensten op entiteits-, gesubconsolideerd en geconsolideerd niveau, gestructureerd volgens de ITS-templates met LEI/EUID-identificatie, diensttypologie S01–S19 en de onderaannemingsketen met rankings.",
+      "refs": [
+        {
+          "label": "Art. 28, lid 3 DORA",
+          "href": "/artikel/28#lid-3"
+        },
+        {
+          "label": "Art. 3, lid 2 UV 2024/2956",
+          "href": "/its-register/artikel/3#lid-2"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.ict-risicobeheerkader",
+      "naam": "ICT-risicobeheerkader",
+      "category": "beleid",
+      "omschrijving": "Solide, alomvattend en gedocumenteerd kader voor ICT-risicobeheer als onderdeel van het algemene risicobeheersysteem, inclusief het TPRM-hoofdstuk en de mapping op de technische normen van GV 2024/1774.",
+      "refs": [
+        {
+          "label": "Art. 6, lid 1 DORA",
+          "href": "/artikel/6#lid-1"
+        },
+        {
+          "label": "Art. 3 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/3#inhoud"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.informatiebeveiligingsbeleid",
+      "naam": "Informatiebeveiligingsbeleid",
+      "category": "beleid",
+      "omschrijving": "Beleid inzake informatiebeveiliging dat de regels vastlegt ter bescherming van de beschikbaarheid, authenticiteit, integriteit en vertrouwelijkheid van gegevens en ICT-activa, met de algemene vormeisen van GV 2024/1774.",
+      "refs": [
+        {
+          "label": "Art. 9, lid 4, punt a) DORA",
+          "href": "/artikel/9#lid-4-a"
+        },
+        {
+          "label": "Art. 2, lid 1 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/2#lid-1"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.ict-continuiteitsbeleid",
+      "naam": "ICT-bedrijfscontinuïteitsbeleid",
+      "category": "beleid",
+      "omschrijving": "Alomvattend ICT-bedrijfscontinuïteitsbeleid dat de continuïteit van kritieke of belangrijke functies borgt, met de verplichte onderdelen van GV 2024/1774.",
+      "refs": [
+        {
+          "label": "Art. 11, lid 1 DORA",
+          "href": "/artikel/11#lid-1"
+        },
+        {
+          "label": "Art. 24, lid 1 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/24#lid-1"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.ict-respons-herstelplan",
+      "naam": "ICT-respons- en herstelplan",
+      "category": "plan",
+      "omschrijving": "Scenario-gebaseerde ICT-respons- en herstelplannen met activeringscriteria die na een incident de continuïteit van de bedrijfsactiviteiten borgen, onderworpen aan onafhankelijke interne audit.",
+      "refs": [
+        {
+          "label": "Art. 11, lid 3 DORA",
+          "href": "/artikel/11#lid-3"
+        },
+        {
+          "label": "Art. 26, lid 1 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/26#lid-1"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.backupbeleid",
+      "naam": "Back-upbeleid en -procedures",
+      "category": "beleid",
+      "omschrijving": "Back-upbeleid en terugzettings- en herstelprocedures met scope en minimale frequenties per gegevenscategorie om ICT-systemen en gegevens met minimale uitval te herstellen.",
+      "refs": [
+        {
+          "label": "Art. 12, lid 1 DORA",
+          "href": "/artikel/12#lid-1"
+        }
+      ],
+      "cadans": "periodiek",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.activa-inventaris",
+      "naam": "Activa-inventaris (CMDB) / assetregister",
+      "category": "register",
+      "omschrijving": "Actuele inventaris van alle informatie- en ICT-activa met criticaliteitsmarkering, configuratiegegevens en de mapping van bedrijfsfuncties op activa en afhankelijkheden.",
+      "refs": [
+        {
+          "label": "Art. 8, lid 1 DORA",
+          "href": "/artikel/8#lid-1"
+        },
+        {
+          "label": "Art. 8, lid 4 DORA",
+          "href": "/artikel/8#lid-4"
+        },
+        {
+          "label": "Art. 5, lid 1 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/5#lid-1"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.toegangsbeheerbeleid",
+      "naam": "Toegangsbeheer- / IAM-beleid",
+      "category": "beleid",
+      "omschrijving": "Beleid en procedures voor identiteits- en toegangsbeheer die de fysieke en logische toegang tot informatie- en ICT-activa beperken, met lifecycle-proces en periodieke hercertificering.",
+      "refs": [
+        {
+          "label": "Art. 9, lid 4, punt c) DORA",
+          "href": "/artikel/9#lid-4-c"
+        },
+        {
+          "label": "Art. 21 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/21#inhoud"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.incidentbeheerprocedure",
+      "naam": "Beheerproces voor ICT-incidenten",
+      "category": "procedure",
+      "omschrijving": "Vastgesteld proces om ICT-gerelateerde incidenten te detecteren, te beheren en te melden, met rollen-, escalatie- en oorzaakanalysestappen.",
+      "refs": [
+        {
+          "label": "Art. 17, lid 1 DORA",
+          "href": "/artikel/17#lid-1"
+        },
+        {
+          "label": "Art. 22 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/22#inhoud"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.incident-classificatiemethodiek",
+      "naam": "Classificatiemethodiek ICT-incidenten",
+      "category": "procedure",
+      "omschrijving": "Methodiek met beslisboom en drempeltabel om ICT-incidenten en cyberdreigingen te classificeren volgens de criteria van art. 18 DORA en de materialiteitsdrempels van GV 2024/1772, inclusief de meet-, tel- en ramingsconventies.",
+      "refs": [
+        {
+          "label": "Art. 18, lid 1 DORA",
+          "href": "/artikel/18#lid-1"
+        },
+        {
+          "label": "Art. 9, lid 1 GV 2024/1772",
+          "href": "/rts-classificatie/artikel/9#lid-1"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.incident-meldprocedure",
+      "naam": "Meldprocedure ernstige ICT-incidenten",
+      "category": "procedure",
+      "omschrijving": "Meldprocedure met termijnentabel, autorisatiematrix, meldkanaal en de verplichte datavelden voor de eerste kennisgeving en het tussentijdse en eindverslag conform GV 2025/301 en UV 2025/302.",
+      "refs": [
+        {
+          "label": "Art. 19, lid 1 DORA",
+          "href": "/artikel/19#lid-1"
+        },
+        {
+          "label": "Art. 5, lid 1 GV 2025/301",
+          "href": "/rts-incidentrapportage/artikel/5#lid-1"
+        },
+        {
+          "label": "Art. 1, lid 1 UV 2025/302",
+          "href": "/its-incidentrapportage/artikel/1#lid-1"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.incidentregister",
+      "naam": "Incidentregister",
+      "category": "register",
+      "omschrijving": "Register van alle ICT-gerelateerde incidenten en significante cyberdreigingen met classificatie- en meldvelden, oorzaakanalyses en de kosten- en verliesadministratie per incident.",
+      "refs": [
+        {
+          "label": "Art. 17, lid 2 DORA",
+          "href": "/artikel/17#lid-2"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.tlpt-scoping",
+      "naam": "TLPT-scoping-, voorbereidings- en governancedossier",
+      "category": "plan",
+      "omschrijving": "Gevalideerd scoping-, voorbereidings- en governancedossier (project charter) voor de TLPT: bepaalt de onderliggende ICT-systemen, -processen en -technologieën ter ondersteuning van kritieke of belangrijke functies (incl. uitbestede) binnen de scope met goedkeuring van het leidinggevend orgaan, en bundelt de organisatorische regelingen (control team, need-to-know/geheimhouding, blue-team-afscherming), de TLPT-risicobeoordeling en -beheersmaatregelen, de selectie en conformiteit van dreigingsinformatie-aanbieders en testers, het Target Threat Intelligence Report en het red-teamtestplan, alsook de aanwijzings-/frequentie- en validatiecorrespondentie met de TLPT-autoriteit.",
+      "refs": [
+        {
+          "label": "Art. 26, lid 2 DORA",
+          "href": "/artikel/26#lid-2"
+        },
+        {
+          "label": "Art. 26, lid 5 DORA",
+          "href": "/artikel/26#lid-5"
+        },
+        {
+          "label": "Art. 26, lid 8 DORA",
+          "href": "/artikel/26#lid-8"
+        },
+        {
+          "label": "Art. 27, lid 1 DORA",
+          "href": "/artikel/27#lid-1"
+        },
+        {
+          "label": "Art. 4, lid 1 GV 2025/1190",
+          "href": "/rts-tlpt/artikel/4#lid-1"
+        },
+        {
+          "label": "Art. 5, lid 1 GV 2025/1190",
+          "href": "/rts-tlpt/artikel/5#lid-1"
+        },
+        {
+          "label": "Art. 7, lid 1 GV 2025/1190",
+          "href": "/rts-tlpt/artikel/7#lid-1"
+        },
+        {
+          "label": "Art. 9, lid 6 GV 2025/1190",
+          "href": "/rts-tlpt/artikel/9#lid-6"
+        },
+        {
+          "label": "Bijlage II GV 2025/1190",
+          "href": "/rts-tlpt/bijlage/ii"
+        },
+        {
+          "label": "Bijlage III GV 2025/1190",
+          "href": "/rts-tlpt/bijlage/iii"
+        },
+        {
+          "label": "Bijlage IV GV 2025/1190",
+          "href": "/rts-tlpt/bijlage/iv"
+        }
+      ],
+      "cadans": "ad hoc",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.tlpt-testrapport-remediering",
+      "naam": "TLPT-testrapport en remediëringsplan",
+      "category": "rapportage",
+      "omschrijving": "Samenvatting van de relevante TLPT-bevindingen met correctie-/remediëringsplan en het door de autoriteit verstrekte attest, inclusief de onderliggende red-team- en blue-team-testrapporten, het replay-/purple-teamingverslag, de voortgangs- en testverlooplogging, de root-cause-analyse, de opvolging van de herstelmaatregelen en de kennisgeving/indiening aan de bevoegde autoriteit.",
+      "refs": [
+        {
+          "label": "Art. 26, lid 6 DORA",
+          "href": "/artikel/26#lid-6"
+        },
+        {
+          "label": "Art. 26, lid 7 DORA",
+          "href": "/artikel/26#lid-7"
+        },
+        {
+          "label": "Art. 12, lid 2 GV 2025/1190",
+          "href": "/rts-tlpt/artikel/12#lid-2"
+        },
+        {
+          "label": "Art. 13, lid 2 GV 2025/1190",
+          "href": "/rts-tlpt/artikel/13#lid-2"
+        },
+        {
+          "label": "Art. 14, lid 1 GV 2025/1190",
+          "href": "/rts-tlpt/artikel/14#lid-1"
+        },
+        {
+          "label": "Bijlage V GV 2025/1190",
+          "href": "/rts-tlpt/bijlage/v"
+        },
+        {
+          "label": "Bijlage VI GV 2025/1190",
+          "href": "/rts-tlpt/bijlage/vi"
+        },
+        {
+          "label": "Bijlage VIII GV 2025/1190",
+          "href": "/rts-tlpt/bijlage/viii"
+        }
+      ],
+      "cadans": "ad hoc",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.exitstrategie-exitplan",
+      "naam": "Exitstrategie en getest exitplan",
+      "category": "plan",
+      "omschrijving": "Per KOF-ondersteunende ICT-dienst een exitstrategie met een getest, realistisch exitplan op basis van plausibele scenario's, met alternatieve oplossingen en een uitvoeringstiming die verenigbaar is met de contractuele beëindigingsvoorwaarden.",
+      "refs": [
+        {
+          "label": "Art. 28, lid 8 DORA",
+          "href": "/artikel/28#lid-8"
+        },
+        {
+          "label": "Art. 10 GV 2024/1773",
+          "href": "/rts-contractbeleid/artikel/10#inhoud"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.tpp-contractsjabloon",
+      "naam": "TPP-contractsjabloon / clausulebibliotheek",
+      "category": "overeenkomst",
+      "omschrijving": "Contractsjabloon of clausulebibliotheek (basisset gemapt op art. 30, lid 2 en KOF-variant op art. 30, lid 3) met de verplichte contractuele bepalingen, inclusief de onderaannemingsclausules van GV 2025/532.",
+      "refs": [
+        {
+          "label": "Art. 30, lid 2 DORA",
+          "href": "/artikel/30#lid-2"
+        },
+        {
+          "label": "Art. 30, lid 3 DORA",
+          "href": "/artikel/30#lid-3"
+        },
+        {
+          "label": "Art. 8, lid 1 GV 2024/1773",
+          "href": "/rts-contractbeleid/artikel/8#lid-1"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "juridisch",
+      "reviewed": true
+    },
+    {
+      "id": "doc.due-diligence-dossier",
+      "naam": "Due-diligence-dossier derde aanbieder",
+      "category": "verslag",
+      "omschrijving": "Beoordelingsdossier per (potentiële) derde aanbieder of onderaannemer langs de zes zorgvuldigheidscriteria van GV 2024/1773, met de conclusie over geschiktheid en over passende informatiebeveiligingsnormen.",
+      "refs": [
+        {
+          "label": "Art. 28, lid 5 DORA",
+          "href": "/artikel/28#lid-5"
+        },
+        {
+          "label": "Art. 6, lid 1 GV 2024/1773",
+          "href": "/rts-contractbeleid/artikel/6#lid-1"
+        }
+      ],
+      "cadans": "ad hoc",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.onderaannemingsketen-register",
+      "naam": "Onderaannemingsketen-register / ketenoverzicht",
+      "category": "register",
+      "omschrijving": "Actueel overzicht van de onderaannemingsketen van KOF-ondersteunende ICT-diensten met ranking per contractuele overeenkomst en de locatie-, concentratie- en ketenrisicobeoordeling.",
+      "refs": [
+        {
+          "label": "Art. 30, lid 2, punt a) DORA",
+          "href": "/artikel/30#lid-2-a"
+        },
+        {
+          "label": "Art. 4, lid 1 GV 2025/532",
+          "href": "/rts-onderaanneming/artikel/4#lid-1"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "inkoop",
+      "reviewed": true
+    },
+    {
+      "id": "doc.ict-auditplan",
+      "naam": "ICT-auditplan",
+      "category": "plan",
+      "omschrijving": "Risicogebaseerd auditplan op grond waarvan het ICT-risicobeheerkader periodiek aan interne audit wordt onderworpen, met deskundigheids- en onafhankelijkheidstoets van de auditors.",
+      "refs": [
+        {
+          "label": "Art. 6, lid 6 DORA",
+          "href": "/artikel/6#lid-6"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.auditbevindingen-register",
+      "naam": "Follow-upregister ICT-auditbevindingen",
+      "category": "register",
+      "omschrijving": "Register van kritieke ICT-auditbevindingen met per bevinding de eigenaar, corrigerende maatregel, deadline en opvolgstatus.",
+      "refs": [
+        {
+          "label": "Art. 6, lid 6 DORA",
+          "href": "/artikel/6#lid-6"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.scopememo",
+      "naam": "Scopeconclusie-memo",
+      "category": "memo",
+      "omschrijving": "Bestuurlijk vastgestelde memo met de conclusie of en als welk type de onderneming onder DORA valt, per entiteit/dienst en met peildatum, inclusief beoordeelde uitsluitingen, opt-outs en NIS2-samenloop.",
+      "refs": [
+        {
+          "label": "Art. 2, lid 1 DORA",
+          "href": "/artikel/2#lid-1"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.evenredigheidsdossier",
+      "naam": "Evenredigheidsdossier",
+      "category": "verslag",
+      "omschrijving": "Dossier met de grootteclassificatie (brondata en peildatum) en de onderbouwing per open norm van de evenredige toepassing, met het bestuursbesluit over het toepasselijke regime (volledig of vereenvoudigd kader).",
+      "refs": [
+        {
+          "label": "Art. 4, lid 1 DORA",
+          "href": "/artikel/4#lid-1"
+        },
+        {
+          "label": "Art. 4, lid 2 DORA",
+          "href": "/artikel/4#lid-2"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.dienstencatalogus-kof",
+      "naam": "Dienstencatalogus met KOF-markering",
+      "category": "register",
+      "omschrijving": "Catalogus van alle geleverde diensten met per dienst de kwalificatie als ICT-dienst en de markering of de dienst kritieke of belangrijke functies van klanten ondersteunt (KOF).",
+      "refs": [
+        {
+          "label": "Art. 3, punt 21 DORA",
+          "href": "/artikel/3#punt-21"
+        },
+        {
+          "label": "Art. 3, punt 22 DORA",
+          "href": "/artikel/3#punt-22"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.financiele-voetafdruk-register",
+      "naam": "Voetafdruk-/klantenregister financiële sector",
+      "category": "register",
+      "omschrijving": "Overzicht van de financiële-sectorklanten per DORA-categorie met markering van de ondersteunde kritieke of belangrijke functies en de MSI-/ASI-status, als basis voor de voetafdruk- en criticaliteitsbeoordeling.",
+      "refs": [
+        {
+          "label": "Art. 2, lid 1 GV 2024/1502",
+          "href": "/criticaliteitscriteria/artikel/2#lid-1"
+        },
+        {
+          "label": "Art. 3, lid 1 GV 2024/1502",
+          "href": "/criticaliteitscriteria/artikel/3#lid-1"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.criticaliteit-zelftoetsdossier",
+      "naam": "CTPP-criticaliteitszelftoetsdossier",
+      "category": "verslag",
+      "omschrijving": "Zelftoetsdossier voor de mogelijke aanwijzing als kritieke derde aanbieder (CTPP): per (sub)criterium de kwantitatieve stap 1-berekening met brondata en peildatum, de kwalitatieve stap 2-beoordeling (impact, verwevenheid, substitueerbaarheid) en de managementconclusie.",
+      "refs": [
+        {
+          "label": "Art. 1, lid 1 GV 2024/1502",
+          "href": "/criticaliteitscriteria/artikel/1#lid-1"
+        },
+        {
+          "label": "Art. 2, lid 2 GV 2024/1502",
+          "href": "/criticaliteitscriteria/artikel/2#lid-2"
+        },
+        {
+          "label": "Art. 3, lid 2 GV 2024/1502",
+          "href": "/criticaliteitscriteria/artikel/3#lid-2"
+        },
+        {
+          "label": "Art. 4 GV 2024/1502",
+          "href": "/criticaliteitscriteria/artikel/4#inhoud"
+        },
+        {
+          "label": "Art. 5, lid 1 GV 2024/1502",
+          "href": "/criticaliteitscriteria/artikel/5#lid-1"
+        },
+        {
+          "label": "Art. 31, lid 2 DORA",
+          "href": "/artikel/31#lid-2"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.contract-gapanalyse",
+      "naam": "Gap-analyse klantcontracten tegen art. 30",
+      "category": "verslag",
+      "omschrijving": "Gap-analyse van het lopende klantcontractenbestand tegen de minimuminhoud van artikel 30 DORA, met herstelplan en addenda per contract.",
+      "refs": [
+        {
+          "label": "Art. 30, lid 2 DORA",
+          "href": "/artikel/30#lid-2"
+        },
+        {
+          "label": "Art. 30, lid 3 DORA",
+          "href": "/artikel/30#lid-3"
+        },
+        {
+          "label": "Art. 8, lid 1 GV 2024/1773",
+          "href": "/rts-contractbeleid/artikel/8#lid-1"
+        }
+      ],
+      "cadans": "ad hoc",
+      "eigenaar": "juridisch",
+      "reviewed": true
+    },
+    {
+      "id": "doc.contractwijzigingsprocedure",
+      "naam": "Wijzigings- en verlengingsprocedure klantcontracten",
+      "category": "procedure",
+      "omschrijving": "Procedure voor wijziging en verlenging van klantcontracten met dateer- en ondertekenvereiste.",
+      "refs": [
+        {
+          "label": "Art. 30, lid 1 DORA",
+          "href": "/artikel/30#lid-1"
+        },
+        {
+          "label": "Art. 8, lid 4 GV 2024/1773",
+          "href": "/rts-contractbeleid/artikel/8#lid-4"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "juridisch",
+      "reviewed": true
+    },
+    {
+      "id": "doc.due-diligence-informatiepakket",
+      "naam": "Due-diligence-informatiepakket voor klanten",
+      "category": "register",
+      "omschrijving": "Standaard informatiepakket per dienst waarmee de aanbieder klanten in staat stelt hun zorgvuldigheidsonderzoek uit te voeren, gestructureerd langs de criteria van artikel 6, lid 1, GV 2024/1773.",
+      "refs": [
+        {
+          "label": "Art. 6, lid 1 GV 2024/1773",
+          "href": "/rts-contractbeleid/artikel/6#lid-1"
+        },
+        {
+          "label": "Art. 28, lid 4 DORA",
+          "href": "/artikel/28#lid-4"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.auditfaciliteringsprocedure",
+      "naam": "Auditfaciliteringsprocedure",
+      "category": "procedure",
+      "omschrijving": "Procedure voor het faciliteren van eigen, derden- en gebundelde audits en ICT-tests door klanten, met toegangsregeling voor gegevens, systemen en gebouwen.",
+      "refs": [
+        {
+          "label": "Art. 30, lid 3, punt e) DORA",
+          "href": "/artikel/30#lid-3-e"
+        },
+        {
+          "label": "Art. 8, lid 2 GV 2024/1773",
+          "href": "/rts-contractbeleid/artikel/8#lid-2"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.certificeringen-auditrapporten",
+      "naam": "Certificeringen en auditverslagen",
+      "category": "rapportage",
+      "omschrijving": "Actuele certificeringen en onafhankelijke auditverslagen met scope-mapping op de essentiële systemen en controls die klanten afnemen.",
+      "refs": [
+        {
+          "label": "Art. 6, lid 3 GV 2024/1773",
+          "href": "/rts-contractbeleid/artikel/6#lid-3"
+        },
+        {
+          "label": "Art. 9, lid 2 GV 2024/1773",
+          "href": "/rts-contractbeleid/artikel/9#lid-2"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.klantrapportagekalender",
+      "naam": "Rapportagekalender per klanttype",
+      "category": "plan",
+      "omschrijving": "Rapportagekalender met voorbeeldrapportages per klanttype over de dienstverlening en prestaties.",
+      "refs": [
+        {
+          "label": "Art. 9, lid 2 GV 2024/1773",
+          "href": "/rts-contractbeleid/artikel/9#lid-2"
+        },
+        {
+          "label": "Art. 30, lid 2 DORA",
+          "href": "/artikel/30#lid-2"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.klantincidentkennisgeving",
+      "naam": "Incidentkennisgevingsprocedure klanten",
+      "category": "procedure",
+      "omschrijving": "Procedure voor het kennisgeven van ICT-incidenten aan klanten per klanttype, conform de contractuele meld- en bijstandsafspraken.",
+      "refs": [
+        {
+          "label": "Art. 30, lid 3 DORA",
+          "href": "/artikel/30#lid-3"
+        },
+        {
+          "label": "Art. 9, lid 2 GV 2024/1773",
+          "href": "/rts-contractbeleid/artikel/9#lid-2"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.gegevensoverdracht-verwijderprocedure",
+      "naam": "Gegevensoverdrachts- en verwijderprocedure",
+      "category": "procedure",
+      "omschrijving": "Procedure voor overdracht en verwijdering van klantgegevens bij exit, met formaat- en integriteitsspecificaties.",
+      "refs": [
+        {
+          "label": "Art. 28, lid 8 DORA",
+          "href": "/artikel/28#lid-8"
+        },
+        {
+          "label": "Art. 10 GV 2024/1773",
+          "href": "/rts-contractbeleid/artikel/10#inhoud"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.exittest-verslag",
+      "naam": "Verslag exit-test/-walkthrough met klant",
+      "category": "verslag",
+      "omschrijving": "Verslagen van met klanten uitgevoerde exit-tests of -walkthroughs, met bevindingen en opvolgacties.",
+      "refs": [
+        {
+          "label": "Art. 28, lid 8 DORA",
+          "href": "/artikel/28#lid-8"
+        },
+        {
+          "label": "Art. 10 GV 2024/1773",
+          "href": "/rts-contractbeleid/artikel/10#inhoud"
+        }
+      ],
+      "cadans": "ad hoc",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.onderaanneming-voorwaarden-informatiepakket",
+      "naam": "Informatiepakket art. 3-voorwaarden onderaanneming",
+      "category": "verslag",
+      "omschrijving": "Informatiepakket per klant met de invulling van de artikel 3-voorwaarden voor de inzet van KOF-ondersteunende onderaannemers, inclusief de eigen risicobeoordelingen van die onderaannemers.",
+      "refs": [
+        {
+          "label": "Art. 3, lid 1 GV 2025/532",
+          "href": "/rts-onderaanneming/artikel/3#lid-1"
+        },
+        {
+          "label": "Art. 30, lid 2, punt a) DORA",
+          "href": "/artikel/30#lid-2-a"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "inkoop",
+      "reviewed": true
+    },
+    {
+      "id": "doc.subcontract-sjabloon",
+      "naam": "Onderaannemingscontract-sjabloon",
+      "category": "overeenkomst",
+      "omschrijving": "Sjabloon voor onderaannemingscontracten met mapping per element van artikel 4, lid 1, GV 2025/532, zodat de klantcontractvoorwaarden door de keten worden doorgezet.",
+      "refs": [
+        {
+          "label": "Art. 4, lid 1 GV 2025/532",
+          "href": "/rts-onderaanneming/artikel/4#lid-1"
+        },
+        {
+          "label": "Art. 30, lid 2, punt a) DORA",
+          "href": "/artikel/30#lid-2-a"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "juridisch",
+      "reviewed": true
+    },
+    {
+      "id": "doc.ketenmonitoring-procedure",
+      "naam": "Ketenmonitoring- en rapportageprocedure",
+      "category": "procedure",
+      "omschrijving": "Procedure voor het monitoren van en rapporteren over de onderaannemingsketen, met rapportagevoorbeelden per klant.",
+      "refs": [
+        {
+          "label": "Art. 4, lid 2 GV 2025/532",
+          "href": "/rts-onderaanneming/artikel/4#lid-2"
+        },
+        {
+          "label": "Art. 30, lid 2, punt a) DORA",
+          "href": "/artikel/30#lid-2-a"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "inkoop",
+      "reviewed": true
+    },
+    {
+      "id": "doc.ketencontinuiteitsdraaiboek",
+      "naam": "Continuïteitsdraaiboek onderaannemingsketen",
+      "category": "plan",
+      "omschrijving": "Continuïteitsdraaiboek voor de keten bij niet-nakoming door een onderaannemer, met alternatieven en overbruggingsmaatregelen.",
+      "refs": [
+        {
+          "label": "Art. 30, lid 2, punt a) DORA",
+          "href": "/artikel/30#lid-2-a"
+        },
+        {
+          "label": "Art. 4, lid 1 GV 2025/532",
+          "href": "/rts-onderaanneming/artikel/4#lid-1"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "inkoop",
+      "reviewed": true
+    },
+    {
+      "id": "doc.keten-wijzigingsprocedure",
+      "naam": "Wijzigingsprocedure onderaannemingsketen",
+      "category": "procedure",
+      "omschrijving": "Procedure voor wijzigingen in de onderaannemingsketen met vooraankondiging, kennisgevings- en termijnbewaking per klant.",
+      "refs": [
+        {
+          "label": "Art. 5, lid 1 GV 2025/532",
+          "href": "/rts-onderaanneming/artikel/5#lid-1"
+        },
+        {
+          "label": "Art. 5, lid 2 GV 2025/532",
+          "href": "/rts-onderaanneming/artikel/5#lid-2"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "inkoop",
+      "reviewed": true
+    },
+    {
+      "id": "doc.keten-wijzigingslog",
+      "naam": "Log ketenwijzigingen en klantbeslissingen",
+      "category": "register",
+      "omschrijving": "Log per contract van kennisgevingen, klantbeoordelingen, goedkeuringen en bezwaren bij wijzigingen in de onderaannemingsketen.",
+      "refs": [
+        {
+          "label": "Art. 5, lid 3 GV 2025/532",
+          "href": "/rts-onderaanneming/artikel/5#lid-3"
+        },
+        {
+          "label": "Art. 5, lid 4 GV 2025/532",
+          "href": "/rts-onderaanneming/artikel/5#lid-4"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "inkoop",
+      "reviewed": true
+    },
+    {
+      "id": "doc.keten-bezwaar-escalatiedossier",
+      "naam": "Escalatie- en aanpassingsdossier klantbezwaar",
+      "category": "verslag",
+      "omschrijving": "Escalatie- en aanpassingsdossier bij bezwaar van een klant tegen een ketenwijziging, met de doorgevoerde maatregelen of beëindiging.",
+      "refs": [
+        {
+          "label": "Art. 5, lid 4 GV 2025/532",
+          "href": "/rts-onderaanneming/artikel/5#lid-4"
+        },
+        {
+          "label": "Art. 6 GV 2025/532",
+          "href": "/rts-onderaanneming/artikel/6#inhoud"
+        }
+      ],
+      "cadans": "ad hoc",
+      "eigenaar": "inkoop",
+      "reviewed": true
+    },
+    {
+      "id": "doc.tlpt-deelnamedraaiboek",
+      "naam": "Intern TLPT-deelnamedraaiboek",
+      "category": "procedure",
+      "omschrijving": "Intern draaiboek voor deelname aan TLPT's van klanten met aanspreekpunt, geheimhoudingsinstructie, codenaamgebruik en ontdekkingsmeldprotocol.",
+      "refs": [
+        {
+          "label": "Art. 26, lid 2 DORA",
+          "href": "/artikel/26#lid-2"
+        },
+        {
+          "label": "Art. 26, lid 3 DORA",
+          "href": "/artikel/26#lid-3"
+        },
+        {
+          "label": "Art. 11, lid 9 GV 2025/1190",
+          "href": "/rts-tlpt/artikel/11#lid-9"
+        },
+        {
+          "label": "Art. 11, lid 10 GV 2025/1190",
+          "href": "/rts-tlpt/artikel/11#lid-10"
+        }
+      ],
+      "cadans": "per test",
+      "eigenaar": "TLPT-coordinator",
+      "reviewed": true
+    },
+    {
+      "id": "doc.tlpt-gebundelde-test-dossier",
+      "naam": "Afwegings- en overeenkomstendossier gebundelde TLPT",
+      "category": "verslag",
+      "omschrijving": "Afwegings- en overeenkomstendossier voor een gebundelde (pooled) TLPT per klant(groep), inclusief de schriftelijke overeenkomst en het contract met de externe tester.",
+      "refs": [
+        {
+          "label": "Art. 26, lid 4 DORA",
+          "href": "/artikel/26#lid-4"
+        },
+        {
+          "label": "Art. 11, lid 9 GV 2025/1190",
+          "href": "/rts-tlpt/artikel/11#lid-9"
+        },
+        {
+          "label": "Art. 13, lid 2 GV 2025/1190",
+          "href": "/rts-tlpt/artikel/13#lid-2"
+        }
+      ],
+      "cadans": "per test",
+      "eigenaar": "TLPT-coordinator",
+      "reviewed": true
+    },
+    {
+      "id": "doc.aanwijzing-reactiedraaiboek",
+      "naam": "Draaiboek reactie op voorgenomen CTPP-aanwijzing",
+      "category": "procedure",
+      "omschrijving": "Draaiboek voor de reactie op een voorgenomen aanwijzing als kritieke derde aanbieder van ICT-diensten.",
+      "refs": [
+        {
+          "label": "Art. 31, lid 5 DORA",
+          "href": "/artikel/31#lid-5"
+        },
+        {
+          "label": "Art. 1, lid 2 GV 2024/1502",
+          "href": "/criticaliteitscriteria/artikel/1#lid-2"
+        },
+        {
+          "label": "Art. 7 GV 2024/1502",
+          "href": "/criticaliteitscriteria/artikel/7#inhoud"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.gemotiveerde-verklaring-aanwijzing",
+      "naam": "Gemotiveerde verklaring tegen voorgenomen aanwijzing",
+      "category": "memo",
+      "omschrijving": "Indieningsklaar conceptdossier met de met redenen omklede verklaring naar aanleiding van een voorgenomen aanwijzing.",
+      "refs": [
+        {
+          "label": "Art. 31, lid 5 DORA",
+          "href": "/artikel/31#lid-5"
+        }
+      ],
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.oversight-aanwijzingsdossier",
+      "naam": "Oversight-aanwijzingsdossier",
+      "category": "register",
+      "omschrijving": "Dossier met de aanwijzingskennisgevingen van de ETA's en de lead overseer en de aanvangsdatum van het oversight.",
+      "refs": [
+        {
+          "label": "Art. 31, lid 11 DORA",
+          "href": "/artikel/31#lid-11"
+        },
+        {
+          "label": "Art. 31, lid 12 DORA",
+          "href": "/artikel/31#lid-12"
+        },
+        {
+          "label": "Art. 31, lid 13 DORA",
+          "href": "/artikel/31#lid-13"
+        },
+        {
+          "label": "Art. 33, lid 1 DORA",
+          "href": "/artikel/33#lid-1"
+        }
+      ],
+      "cadans": "bij aanwijzing",
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.klant-aanwijzingskennisgeving",
+      "naam": "Kennisgeving aanwijzing aan financiele klanten",
+      "category": "memo",
+      "omschrijving": "Kennisgeving aan alle financiele klanten dat de aanbieder als cruciaal is aangewezen.",
+      "refs": [
+        {
+          "label": "Art. 31, lid 12 DORA",
+          "href": "/artikel/31#lid-12"
+        },
+        {
+          "label": "Art. 33, lid 1 DORA",
+          "href": "/artikel/33#lid-1"
+        }
+      ],
+      "cadans": "bij aanwijzing",
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.coordinatiepunt-mandaat",
+      "naam": "Mandaat en aanwijzingsbesluit (groeps)coordinatiepunt",
+      "category": "beleid",
+      "omschrijving": "Mandaat en aanwijzingsbesluit van het (groeps)coordinatiepunt dat als contactpunt voor het oversight optreedt.",
+      "refs": [
+        {
+          "label": "Art. 33, lid 1 DORA",
+          "href": "/artikel/33#lid-1"
+        },
+        {
+          "label": "Art. 1, lid 1 GV 2025/295",
+          "href": "/rts-oversight/artikel/1#lid-1"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "bestuur",
+      "reviewed": true
+    },
+    {
+      "id": "doc.reactie-oversightplan",
+      "naam": "Reactie op ontwerp-oversightplan",
+      "category": "memo",
+      "omschrijving": "Reacties op de ontwerp-oversightplannen van de lead overseer, in te dienen binnen 15 kalenderdagen.",
+      "refs": [
+        {
+          "label": "Art. 33, lid 4 DORA",
+          "href": "/artikel/33#lid-4"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.opt-in-verzoekdossier",
+      "naam": "Opt-in-verzoekdossier CTPP-aanwijzing",
+      "category": "verslag",
+      "omschrijving": "Met redenen omkleed opt-in-verzoek om als cruciaal te worden aangewezen, conform art. 1 GV 2025/295.",
+      "refs": [
+        {
+          "label": "Art. 31, lid 11 DORA",
+          "href": "/artikel/31#lid-11"
+        },
+        {
+          "label": "Art. 1, lid 1 GV 2025/295",
+          "href": "/rts-oversight/artikel/1#lid-1"
+        },
+        {
+          "label": "Art. 1, lid 2 GV 2025/295",
+          "href": "/rts-oversight/artikel/1#lid-2"
+        }
+      ],
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.oversight-informatieverzoeken-register",
+      "naam": "Register informatieverzoeken lead overseer",
+      "category": "register",
+      "omschrijving": "Register van informatieverzoeken van de lead overseer met rechtsgrondslag, termijn en afhandeling.",
+      "refs": [
+        {
+          "label": "Art. 37, lid 1 DORA",
+          "href": "/artikel/37#lid-1"
+        },
+        {
+          "label": "Art. 37, lid 4 DORA",
+          "href": "/artikel/37#lid-4"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.oversight-informatiedossier",
+      "naam": "Oversight-informatiedossier per categorie",
+      "category": "memo",
+      "omschrijving": "Dossierstructuur per informatiecategorie van art. 2, lid 2 GV 2025/295, in het voorgeschreven formaat en de voorgeschreven kanalen.",
+      "refs": [
+        {
+          "label": "Art. 2, lid 1 GV 2025/295",
+          "href": "/rts-oversight/artikel/2#lid-1"
+        },
+        {
+          "label": "Art. 2, lid 2 GV 2025/295",
+          "href": "/rts-oversight/artikel/2#lid-2"
+        },
+        {
+          "label": "Art. 4, lid 1 GV 2025/295",
+          "href": "/rts-oversight/artikel/4#lid-1"
+        }
+      ],
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.oversight-onderaannemingsmodel",
+      "naam": "Ingediende Bijlage I-modellen onderaanneming",
+      "category": "rapportage",
+      "omschrijving": "Ingediende Bijlage I-modellen over onderaannemingsovereenkomsten conform het voorgeschreven model.",
+      "refs": [
+        {
+          "label": "Art. 4, lid 1 GV 2025/295",
+          "href": "/rts-oversight/artikel/4#lid-1"
+        },
+        {
+          "label": "Art. 5 GV 2025/295",
+          "href": "/rts-oversight/artikel/5#inhoud"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.oversight-omzetopgave",
+      "naam": "Gecontroleerde omzetopgave oversightvergoeding",
+      "category": "rapportage",
+      "omschrijving": "Gecontroleerde omzetopgave met indieningsbewijs, jaarlijks uiterlijk op 31 december in te dienen.",
+      "refs": [
+        {
+          "label": "Art. 2, lid 2 GV 2024/1505",
+          "href": "/oversightvergoedingen/artikel/2#lid-2"
+        },
+        {
+          "label": "Art. 2, lid 3 GV 2024/1505",
+          "href": "/oversightvergoedingen/artikel/2#lid-3"
+        },
+        {
+          "label": "Art. 6 GV 2024/1505",
+          "href": "/oversightvergoedingen/artikel/6#inhoud"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "finance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.onderzoek-inspectie-draaiboek",
+      "naam": "Draaiboek onderzoeken en inspecties",
+      "category": "procedure",
+      "omschrijving": "Draaiboek voor algemene onderzoeken en inspecties met de rol van het coordinatiepunt.",
+      "refs": [
+        {
+          "label": "Art. 38, lid 2 DORA",
+          "href": "/artikel/38#lid-2"
+        },
+        {
+          "label": "Art. 39, lid 1 DORA",
+          "href": "/artikel/39#lid-1"
+        },
+        {
+          "label": "Art. 40, lid 2 DORA",
+          "href": "/artikel/40#lid-2"
+        }
+      ],
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.oversight-activiteitenlogboek",
+      "naam": "Logboek oversightactiviteiten",
+      "category": "register",
+      "omschrijving": "Logboek per oversightactiviteit met machtiging/besluit, verstrekte stukken, verzegelingen en gegeven toelichtingen.",
+      "refs": [
+        {
+          "label": "Art. 38, lid 2 DORA",
+          "href": "/artikel/38#lid-2"
+        },
+        {
+          "label": "Art. 39, lid 2 DORA",
+          "href": "/artikel/39#lid-2"
+        },
+        {
+          "label": "Art. 39, lid 4 DORA",
+          "href": "/artikel/39#lid-4"
+        },
+        {
+          "label": "Art. 39, lid 5 DORA",
+          "href": "/artikel/39#lid-5"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.inspectie-personeelsinstructie",
+      "naam": "Personeelsinstructie inspecties ter plaatse",
+      "category": "procedure",
+      "omschrijving": "Personeelsinstructie voor de medewerking aan onderzoeken en inspecties ter plaatse.",
+      "refs": [
+        {
+          "label": "Art. 39, lid 1 DORA",
+          "href": "/artikel/39#lid-1"
+        },
+        {
+          "label": "Art. 39, lid 4 DORA",
+          "href": "/artikel/39#lid-4"
+        }
+      ],
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.aanbevelingen-termijnenkalender",
+      "naam": "Termijnenkalender per aanbeveling",
+      "category": "plan",
+      "omschrijving": "Termijnenkalender per aanbeveling met de 30- en 60-dagentermijnen en de door de lead overseer gestelde correctietermijnen.",
+      "refs": [
+        {
+          "label": "Art. 42, lid 1 DORA",
+          "href": "/artikel/42#lid-1"
+        },
+        {
+          "label": "Art. 35, lid 6 DORA",
+          "href": "/artikel/35#lid-6"
+        },
+        {
+          "label": "Art. 35, lid 8 DORA",
+          "href": "/artikel/35#lid-8"
+        }
+      ],
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.aanbeveling-kennisgeving",
+      "naam": "Kennisgeving en verklaring aan lead overseer",
+      "category": "memo",
+      "omschrijving": "Kennisgevingen en gemotiveerde verklaringen aan de lead overseer over het al dan niet opvolgen van aanbevelingen.",
+      "refs": [
+        {
+          "label": "Art. 42, lid 1 DORA",
+          "href": "/artikel/42#lid-1"
+        },
+        {
+          "label": "Art. 42, lid 2 DORA",
+          "href": "/artikel/42#lid-2"
+        }
+      ],
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.oversight-correctieplan",
+      "naam": "Correctieplan en opvolgverslagen",
+      "category": "plan",
+      "omschrijving": "Verslag met correctieplan plus tussentijdse voortgangs- en eindverslagen naar aanleiding van de aanbevelingen.",
+      "refs": [
+        {
+          "label": "Art. 3, lid 1 GV 2025/295",
+          "href": "/rts-oversight/artikel/3#lid-1"
+        },
+        {
+          "label": "Art. 3, lid 2 GV 2025/295",
+          "href": "/rts-oversight/artikel/3#lid-2"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.oversightvergoeding-betaaldossier",
+      "naam": "Betaaldossier oversightvergoeding",
+      "category": "verslag",
+      "omschrijving": "Budgetpost en betaalbewijs van de jaarlijkse oversightvergoeding.",
+      "refs": [
+        {
+          "label": "Art. 43, lid 1 DORA",
+          "href": "/artikel/43#lid-1"
+        },
+        {
+          "label": "Art. 5, lid 1 GV 2024/1505",
+          "href": "/oversightvergoedingen/artikel/5#lid-1"
+        },
+        {
+          "label": "Art. 3, lid 1 GV 2024/1505",
+          "href": "/oversightvergoedingen/artikel/3#lid-1"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "finance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.oversightvergoeding-betaalbewaking",
+      "naam": "Betalingsbewakingsprocedure oversightvergoeding",
+      "category": "procedure",
+      "omschrijving": "Betalingsbewakingsprocedure met de termijnen van 30 april en 31 december.",
+      "refs": [
+        {
+          "label": "Art. 5, lid 2 GV 2024/1505",
+          "href": "/oversightvergoedingen/artikel/5#lid-2"
+        },
+        {
+          "label": "Art. 5, lid 3 GV 2024/1505",
+          "href": "/oversightvergoedingen/artikel/5#lid-3"
+        },
+        {
+          "label": "Art. 5, lid 4 GV 2024/1505",
+          "href": "/oversightvergoedingen/artikel/5#lid-4"
+        },
+        {
+          "label": "Art. 4, lid 2 GV 2024/1505",
+          "href": "/oversightvergoedingen/artikel/4#lid-2"
+        }
+      ],
+      "eigenaar": "finance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.ict-controlefunctie-mandaat",
+      "naam": "Mandaat / rolbeschrijving onafhankelijke ICT-controlefunctie",
+      "category": "beleid",
+      "omschrijving": "Organogram en functie-/mandaatbeschrijving van de controlefunctie die het beheer van en toezicht op ICT-risico toegewezen krijgt, met borging van een passend niveau van onafhankelijkheid om belangenconflicten te voorkomen.",
+      "refs": [
+        {
+          "label": "Art. 6, lid 4 DORA",
+          "href": "/artikel/6#lid-4"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "bestuur",
+      "reviewed": true
+    },
+    {
+      "id": "doc.controlefunctie-uitbestedingsovereenkomst",
+      "naam": "Uitbestedingsovereenkomst ICT-verificatietaken",
+      "category": "overeenkomst",
+      "omschrijving": "Overeenkomst waarmee de verificatietaken inzake naleving van de ICT-risicobeheervereisten aan een intragroeps- of externe onderneming worden uitbesteed, met de clausule dat de financiële entiteit volledig verantwoordelijk blijft.",
+      "refs": [
+        {
+          "label": "Art. 6, lid 10 DORA",
+          "href": "/artikel/6#lid-10"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "juridisch",
+      "reviewed": true
+    },
+    {
+      "id": "doc.kaderevaluatie-verslag",
+      "naam": "Evaluatieverslag ICT-risicobeheerkader",
+      "category": "verslag",
+      "omschrijving": "Evaluatiekalender met triggers en het periodieke evaluatieverslag van het (vereenvoudigde) ICT-risicobeheerkader in het door de RTS voorgeschreven format en inhoud.",
+      "refs": [
+        {
+          "label": "Art. 6, lid 5 DORA",
+          "href": "/artikel/6#lid-5"
+        },
+        {
+          "label": "Art. 27, lid 1 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/27#lid-1"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.digitale-weerbaarheidsstrategie",
+      "naam": "Strategie voor digitale operationele weerbaarheid",
+      "category": "beleid",
+      "omschrijving": "Strategie voor digitale operationele weerbaarheid met ICT-doelstellingen, KPI's, kernrisicomaatstaven en risicotolerantieniveaus, inclusief een eventuele holistische multivendorstrategie op ICT-gebied.",
+      "refs": [
+        {
+          "label": "Art. 6, lid 8 DORA",
+          "href": "/artikel/6#lid-8"
+        },
+        {
+          "label": "Art. 6, lid 9 DORA",
+          "href": "/artikel/6#lid-9"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.capaciteits-prestatiebeheer",
+      "naam": "Capaciteits- en prestatiebeheerrapportage (lifecycle)",
+      "category": "rapportage",
+      "omschrijving": "Lifecycle-, capaciteits- en prestatiebeheerrapportage die aantoont dat de ICT-systemen, -protocollen en -instrumenten geactualiseerd en passend blijven, met de onderbouwde besluitvorming over vervanging of versterking.",
+      "refs": [
+        {
+          "label": "Art. 7 DORA",
+          "href": "/artikel/7#inhoud"
+        },
+        {
+          "label": "Art. 9, lid 1 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/9#lid-1"
+        }
+      ],
+      "cadans": "periodiek",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.risicobeoordeling-wijzigingen",
+      "naam": "Risicobeoordelingsdossier belangrijke wijzigingen",
+      "category": "verslag",
+      "omschrijving": "Dossier met de risicobeoordeling die bij elke belangrijke wijziging in de netwerk- en informatiesysteeminfrastructuur, processen of procedures wordt verricht.",
+      "refs": [
+        {
+          "label": "Art. 8, lid 3 DORA",
+          "href": "/artikel/8#lid-3"
+        }
+      ],
+      "cadans": "ad hoc",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.legacy-systemen-register",
+      "naam": "Legacy-systemenoverzicht met risicobeoordeling",
+      "category": "register",
+      "omschrijving": "Overzicht van legacy-ICT-systemen met de datum en uitkomst van de ten minste jaarlijkse specifieke ICT-risicobeoordeling, ook voor en na aansluiting van technologieën, toepassingen of systemen.",
+      "refs": [
+        {
+          "label": "Art. 8, lid 7 DORA",
+          "href": "/artikel/8#lid-7"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.cryptografiebeleid",
+      "naam": "Cryptografie- en encryptiebeleid",
+      "category": "beleid",
+      "omschrijving": "Beleid voor encryptie en cryptografische controles, inclusief sleutelbeheer, ter bescherming van gegevens in rusttoestand, bij gebruik en bij doorvoer.",
+      "refs": [
+        {
+          "label": "Art. 9, lid 2 DORA",
+          "href": "/artikel/9#lid-2"
+        },
+        {
+          "label": "Art. 6, lid 1 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/6#lid-1"
+        },
+        {
+          "label": "Art. 7, lid 1 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/7#lid-1"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.detectie-monitoringbeleid",
+      "naam": "Detectie- en monitoringarchitectuur (SIEM)",
+      "category": "beleid",
+      "omschrijving": "Beschrijving van de detectie- en monitoringarchitectuur (monitoring/SIEM/logging) met meerdere controlelagen, waarschuwingsdrempels en criteria om de incidentrespons in werking te stellen.",
+      "refs": [
+        {
+          "label": "Art. 10, lid 1 DORA",
+          "href": "/artikel/10#lid-1"
+        },
+        {
+          "label": "Art. 23, lid 1 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/23#lid-1"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.testrapportage-weerbaarheid",
+      "naam": "Testkalender en -verslagen operationele weerbaarheid",
+      "category": "verslag",
+      "omschrijving": "Gedeelde testkalender en testverslagen voor de operationele-weerbaarheidstests: detectiemechanismen, continuïteits-, respons- en herstelplannen en terugzettings-/hersteltests, per plan en scenario.",
+      "refs": [
+        {
+          "label": "Art. 11, lid 6 DORA",
+          "href": "/artikel/11#lid-6"
+        },
+        {
+          "label": "Art. 12, lid 2 DORA",
+          "href": "/artikel/12#lid-2"
+        },
+        {
+          "label": "Art. 25, lid 1 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/25#lid-1"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.bia-rapport",
+      "naam": "Bedrijfsimpactanalyse (BIA) en RTO/RPO-matrix",
+      "category": "verslag",
+      "omschrijving": "BIA-rapport van de blootstelling aan ernstige verstoringen met criteria, scenario's en peildatum, en de daaruit afgeleide hersteltijd- en herstelpuntdoelstellingen (RTO/RPO) per functie.",
+      "refs": [
+        {
+          "label": "Art. 11, lid 5 DORA",
+          "href": "/artikel/11#lid-5"
+        },
+        {
+          "label": "Art. 12, lid 6 DORA",
+          "href": "/artikel/12#lid-6"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.verbetermaatregelen-register",
+      "naam": "Verbeterregister test- en incidentbevindingen",
+      "category": "register",
+      "omschrijving": "Register met de opvolging van verbetermaatregelen die voortvloeien uit test- en post-incidentbevindingen, met eigenaar, maatregel, deadline en status.",
+      "refs": [
+        {
+          "label": "Art. 11, lid 6 DORA",
+          "href": "/artikel/11#lid-6"
+        },
+        {
+          "label": "Art. 13, lid 2 DORA",
+          "href": "/artikel/13#lid-2"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.crisisbeheerprocedure",
+      "naam": "Crisisbeheerprocedure",
+      "category": "procedure",
+      "omschrijving": "Procedure van de crisisbeheerfunctie met rolverdeling en communicatielijnen voor het beheer van interne en externe crisiscommunicatie bij activering van de continuïteits- en herstelplannen.",
+      "refs": [
+        {
+          "label": "Art. 11, lid 7 DORA",
+          "href": "/artikel/11#lid-7"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.activerings-logboek",
+      "naam": "Activeringslogboek continuïteits- en herstelplannen",
+      "category": "register",
+      "omschrijving": "Gemakkelijk toegankelijk register van de activiteiten vóór en tijdens storingen wanneer de ICT-bedrijfscontinuïteits-, respons- en herstelplannen worden geactiveerd.",
+      "refs": [
+        {
+          "label": "Art. 11, lid 8 DORA",
+          "href": "/artikel/11#lid-8"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.redundantie-ontwerp",
+      "naam": "Redundantie- en capaciteitsontwerp",
+      "category": "verslag",
+      "omschrijving": "Ontwerp en onderbouwing van de ICT-reservecapaciteit en, voor centrale effectenbewaarinstellingen, de documentatie van de secundaire verwerkingslocatie.",
+      "refs": [
+        {
+          "label": "Art. 12, lid 4 DORA",
+          "href": "/artikel/12#lid-4"
+        },
+        {
+          "label": "Art. 12, lid 5 DORA",
+          "href": "/artikel/12#lid-5"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.post-incident-evaluatie",
+      "naam": "Post-incidentevaluatieverslag",
+      "category": "verslag",
+      "omschrijving": "ICT-gerelateerde post-incidentevaluatie na verstoring van kernactiviteiten, met oorzaakanalyse en de te treffen verbetermaatregelen.",
+      "refs": [
+        {
+          "label": "Art. 13, lid 2 DORA",
+          "href": "/artikel/13#lid-2"
+        }
+      ],
+      "cadans": "ad hoc",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.dreigingsbeeld-trendanalyse",
+      "naam": "Dreigings- en risicobeeld met trendanalyse",
+      "category": "verslag",
+      "omschrijving": "Actueel dreigings- en risicobeeld op basis van verzamelde informatie over kwetsbaarheden en cyberdreigingen, met trendanalyse van de frequentie, types en evolutie van ICT-risico's in de tijd.",
+      "refs": [
+        {
+          "label": "Art. 13, lid 1 DORA",
+          "href": "/artikel/13#lid-1"
+        },
+        {
+          "label": "Art. 13, lid 4 DORA",
+          "href": "/artikel/13#lid-4"
+        }
+      ],
+      "cadans": "periodiek",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.jaarlijkse-ict-bestuursrapportage",
+      "naam": "Jaarlijkse ICT-rapportage aan het leidinggevend orgaan",
+      "category": "rapportage",
+      "omschrijving": "Ten minste jaarlijks verslag van het leidinggevend ICT-personeel aan het leidinggevend orgaan over de bevindingen uit de leer- en verbetercyclus, met aanbevelingen.",
+      "refs": [
+        {
+          "label": "Art. 13, lid 5 DORA",
+          "href": "/artikel/13#lid-5"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.awareness-opleidingsprogramma",
+      "naam": "Awareness- en opleidingsprogramma ICT-beveiliging",
+      "category": "plan",
+      "omschrijving": "Verplichte bewustmakings- en opleidingsmodules inzake ICT-beveiliging en digitale operationele weerbaarheid voor alle werknemers en hoger management, met deelnameregistratie.",
+      "refs": [
+        {
+          "label": "Art. 13, lid 6 DORA",
+          "href": "/artikel/13#lid-6"
+        },
+        {
+          "label": "Art. 19 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/19#inhoud"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "HR",
+      "reviewed": true
+    },
+    {
+      "id": "doc.technologiewatch-rapportage",
+      "naam": "Technologiewatch- / trendrapportage",
+      "category": "rapportage",
+      "omschrijving": "Rapportage van het doorlopende toezicht op relevante technologische ontwikkelingen en de mogelijke effecten daarvan op de ICT-beveiligingsvereisten en digitale operationele weerbaarheid.",
+      "refs": [
+        {
+          "label": "Art. 13, lid 7 DORA",
+          "href": "/artikel/13#lid-7"
+        }
+      ],
+      "cadans": "periodiek",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.crisiscommunicatieplan",
+      "naam": "Crisiscommunicatieplan",
+      "category": "plan",
+      "omschrijving": "Crisiscommunicatieplan met doelgroepen en kanalen voor verantwoorde bekendmaking van ernstige ICT-incidenten of kwetsbaarheden, en de aanwijzing van een woordvoerder met vervangingsregeling.",
+      "refs": [
+        {
+          "label": "Art. 14, lid 1 DORA",
+          "href": "/artikel/14#lid-1"
+        },
+        {
+          "label": "Art. 14, lid 2 DORA",
+          "href": "/artikel/14#lid-2"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "communicatie",
+      "reviewed": true
+    },
+    {
+      "id": "doc.gapanalyse-gv1774",
+      "naam": "Gap-analyse GV 2024/1774",
+      "category": "verslag",
+      "omschrijving": "Gap-analyse van de technische normen van GV 2024/1774 (volledig of vereenvoudigd kader) met de mapping op het eigen beleid en de eigen controles.",
+      "refs": [
+        {
+          "label": "Art. 15 DORA",
+          "href": "/artikel/15#inhoud"
+        },
+        {
+          "label": "Art. 1 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/1#inhoud"
+        }
+      ],
+      "cadans": "ad hoc",
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.remedieringsplan-gv1774",
+      "naam": "Remediëringsplan GV 2024/1774",
+      "category": "plan",
+      "omschrijving": "Remediëringsplan dat de in de gap-analyse van GV 2024/1774 geconstateerde tekortkomingen belegt met eigenaren en deadlines.",
+      "refs": [
+        {
+          "label": "Art. 15 DORA",
+          "href": "/artikel/15#inhoud"
+        },
+        {
+          "label": "Art. 3 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/3#inhoud"
+        }
+      ],
+      "cadans": "ad hoc",
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.ict-beleidsmonitoring-rapportage",
+      "naam": "Rapportage monitoring ICT-beveiligingsbeleid",
+      "category": "rapportage",
+      "omschrijving": "Periodieke rapportage met de indicatoren en maatstaven waarmee de implementatie van de ICT-beveiligingsbeleidslijnen wordt gemonitord.",
+      "refs": [
+        {
+          "label": "Art. 2, lid 2 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/2#lid-2"
+        },
+        {
+          "label": "Art. 9, lid 2 DORA",
+          "href": "/artikel/9#lid-2"
+        }
+      ],
+      "cadans": "periodiek",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.ict-beveiliging-uitzonderingenregister",
+      "naam": "Uitzonderingenregister ICT-beveiligingsbeleid",
+      "category": "register",
+      "omschrijving": "Register van uitzonderingen op de implementatie van de ICT-beveiligingsbeleidslijnen, met de compenserende maatregelen die de digitale operationele weerbaarheid borgen.",
+      "refs": [
+        {
+          "label": "Art. 2, lid 2 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/2#lid-2"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.ict-restrisicoregister",
+      "naam": "Register geaccepteerde ICT-restrisico's",
+      "category": "register",
+      "omschrijving": "Inventaris van de geaccepteerde ICT-restrisico's met verantwoording en de ten minste jaarlijkse evaluatie van die restrisico's.",
+      "refs": [
+        {
+          "label": "Art. 3 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/3#punt-d"
+        },
+        {
+          "label": "Art. 6, lid 8 DORA",
+          "href": "/artikel/6#lid-8"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.ict-assetbeheerbeleid",
+      "naam": "ICT-assetbeheerbeleid en -procedure",
+      "category": "beleid",
+      "omschrijving": "Beleid en procedure voor het beheer van ICT-assets die de levenscyclus, de verplichte vastleggingsvelden en de kritikaliteitsbeoordelingscriteria van informatie- en ICT-assets bepalen.",
+      "refs": [
+        {
+          "label": "Art. 4, lid 2 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/4#lid-2"
+        },
+        {
+          "label": "Art. 5, lid 2 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/5#lid-2"
+        },
+        {
+          "label": "Art. 8, lid 1 DORA",
+          "href": "/artikel/8#lid-1"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.certificatenregister",
+      "naam": "Certificatenregister",
+      "category": "register",
+      "omschrijving": "Register van alle certificaten en opslagapparaten voor certificaten voor ICT-assets die kritieke of belangrijke functies ondersteunen, met bewaking van verloop en tijdige verlenging.",
+      "refs": [
+        {
+          "label": "Art. 7, lid 4 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/7#lid-4"
+        },
+        {
+          "label": "Art. 7, lid 5 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/7#lid-5"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.ict-operatiesbeleid",
+      "naam": "Beleidslijnen en procedures ICT-operaties",
+      "category": "beleid",
+      "omschrijving": "Beleidslijnen en procedures voor het beheer van ICT-operaties die specificeren hoe ICT-assets worden geopereerd, gemonitord, gecontroleerd en hersteld.",
+      "refs": [
+        {
+          "label": "Art. 8, lid 1 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/8#lid-1"
+        },
+        {
+          "label": "Art. 8, lid 2 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/8#lid-2"
+        },
+        {
+          "label": "Art. 9, lid 2 DORA",
+          "href": "/artikel/9#lid-2"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.productietest-register",
+      "naam": "Register tests in productieomgeving",
+      "category": "register",
+      "omschrijving": "Register van tests die in de productieomgeving zijn goedgekeurd, met de argumentatie, de betrokken goedkeurende functie en de beperkte looptijd.",
+      "refs": [
+        {
+          "label": "Art. 8, lid 2 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/8#lid-2"
+        },
+        {
+          "label": "Art. 16, lid 6 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/16#lid-6"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.kwetsbaarheden-patchbeheerprocedure",
+      "naam": "Procedures kwetsbaarheden- en patchmanagement",
+      "category": "procedure",
+      "omschrijving": "Procedures voor risicogebaseerd kwetsbaarhedenbeheer en patchmanagement, met scanfrequenties, prioritering en termijnen voor het verhelpen van kwetsbaarheden.",
+      "refs": [
+        {
+          "label": "Art. 10, lid 2 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/10#lid-2"
+        },
+        {
+          "label": "Art. 10, lid 4 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/10#lid-4"
+        },
+        {
+          "label": "Art. 9, lid 2 DORA",
+          "href": "/artikel/9#lid-2"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.kwetsbaarheden-patchrapportage",
+      "naam": "Rapportage kwetsbaarheidsscans en patching",
+      "category": "rapportage",
+      "omschrijving": "Rapportage over de geautomatiseerde kwetsbaarheidsscans en de uitrol van patches, met termijnbewaking en escalaties voor kritieke assets.",
+      "refs": [
+        {
+          "label": "Art. 10, lid 2 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/10#lid-2"
+        },
+        {
+          "label": "Art. 10, lid 4 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/10#lid-4"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.gegevens-systeembeveiligingsprocedure",
+      "naam": "Procedure gegevens- en systeembeveiliging",
+      "category": "procedure",
+      "omschrijving": "Procedure voor gegevens- en systeembeveiliging die de beveiligingsmaatregelen per classificatieniveau voor gegevens, systemen en endpoints vastlegt.",
+      "refs": [
+        {
+          "label": "Art. 11, lid 2 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/11#lid-2"
+        },
+        {
+          "label": "Art. 9, lid 2 DORA",
+          "href": "/artikel/9#lid-2"
+        },
+        {
+          "label": "Art. 9, lid 3 DORA",
+          "href": "/artikel/9#lid-3"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.veilige-configuratiebaselines",
+      "naam": "Register veilige configuratiebaselines",
+      "category": "register",
+      "omschrijving": "Overzicht van de veilige configuratiebaselines voor ICT-assets met de periodieke compliance-controle op de daadwerkelijke uitrol ervan.",
+      "refs": [
+        {
+          "label": "Art. 11, lid 2 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/11#lid-2"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.gegevensvernietiging-logboek",
+      "naam": "Logboek veilig wissen en afvoer opslagapparaten",
+      "category": "register",
+      "omschrijving": "Logboek van het veilig wissen van gegevens en het afvoeren of ontmantelen van opslagapparaten die vertrouwelijke informatie bevatten.",
+      "refs": [
+        {
+          "label": "Art. 11, lid 2 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/11#lid-2"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.loggingbeleid",
+      "naam": "Loggingbeleid",
+      "category": "beleid",
+      "omschrijving": "Loggingbeleid met -procedures, -protocollen en -tools die de bij te houden events, retentietermijnen, logbescherming en kloksynchronisatie bepalen.",
+      "refs": [
+        {
+          "label": "Art. 12, lid 2 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/12#lid-2"
+        },
+        {
+          "label": "Art. 9, lid 2 DORA",
+          "href": "/artikel/9#lid-2"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.logintegriteit-beschermingsbewijs",
+      "naam": "Bewijs integriteitsbescherming log- en detectievastleggingen",
+      "category": "verslag",
+      "omschrijving": "Bewijs van de toegangs- en integriteitsbescherming van logging- en detectievastleggingen tegen manipulatie, wissen en ongeautoriseerde toegang.",
+      "refs": [
+        {
+          "label": "Art. 12, lid 2 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/12#lid-2"
+        },
+        {
+          "label": "Art. 23, lid 3 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/23#lid-3"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.netwerkbeveiligingsbeleid",
+      "naam": "Netwerkbeveiligingsbeleid",
+      "category": "beleid",
+      "omschrijving": "Beleidslijnen, procedures, protocollen en tools voor netwerkbeveiliging, met segmentatieontwerp, gegevensstroomdocumentatie en de bescherming van informatie in transit.",
+      "refs": [
+        {
+          "label": "Art. 13 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/13#inhoud"
+        },
+        {
+          "label": "Art. 14, lid 1 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/14#lid-1"
+        },
+        {
+          "label": "Art. 9, lid 2 DORA",
+          "href": "/artikel/9#lid-2"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.firewall-netwerkarchitectuur-review",
+      "naam": "Reviewverslagen firewall en netwerkarchitectuur",
+      "category": "verslag",
+      "omschrijving": "Evaluatieverslagen van firewallregels en verbindingsfilters (halfjaarlijks voor kritieke systemen) en de jaarlijkse evaluatie van de netwerkarchitectuur.",
+      "refs": [
+        {
+          "label": "Art. 13, punt h) GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/13#punt-h"
+        },
+        {
+          "label": "Art. 13, punt i) GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/13#punt-i"
+        }
+      ],
+      "cadans": "halfjaarlijks",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.geheimhoudingsovereenkomst",
+      "naam": "Geheimhoudingsafspraken (NDA's)",
+      "category": "overeenkomst",
+      "omschrijving": "Vertrouwelijkheids- of geheimhoudingsafspraken (NDA's) met medewerkers en derde partijen, die periodiek worden geëvalueerd.",
+      "refs": [
+        {
+          "label": "Art. 14, lid 1 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/14#lid-1"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "juridisch",
+      "reviewed": true
+    },
+    {
+      "id": "doc.ict-projectmanagementbeleid",
+      "naam": "ICT-projectmanagementbeleid",
+      "category": "beleid",
+      "omschrijving": "Beleid voor ICT-projectmanagement dat governance, planning, risicobeoordeling, mijlpalen en testgoedkeuring van ICT-projecten regelt.",
+      "refs": [
+        {
+          "label": "Art. 15 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/15#lid-1"
+        },
+        {
+          "label": "Art. 9, lid 2 DORA",
+          "href": "/artikel/9#lid-2"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.ict-projectdossier",
+      "naam": "ICT-projectdossier (risicobeoordeling en testgoedkeuring)",
+      "category": "verslag",
+      "omschrijving": "Per ICT-project de risicobeoordeling en de testgoedkeuringen vóór de uitrol van het ICT-systeem in de productieomgeving.",
+      "refs": [
+        {
+          "label": "Art. 15, lid 3 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/15#lid-3"
+        }
+      ],
+      "cadans": "ad hoc",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.ict-projectportfolio-rapportage",
+      "naam": "Bestuursrapportage ICT-projectportfolio",
+      "category": "rapportage",
+      "omschrijving": "Rapportage aan het leidinggevend orgaan over de opzet, voortgang en risico's van ICT-projecten met impact op kritieke of belangrijke functies.",
+      "refs": [
+        {
+          "label": "Art. 15, lid 5 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/15#lid-5"
+        }
+      ],
+      "cadans": "periodiek",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.systeemontwikkelingsbeleid",
+      "naam": "Beleid aanschaf, ontwikkeling en onderhoud ICT-systemen",
+      "category": "beleid",
+      "omschrijving": "Beleid voor aanschaf, ontwikkeling en onderhoud van ICT-systemen met de test- en goedkeuringsprocedure en de beheersmaatregelen voor broncode-integriteit.",
+      "refs": [
+        {
+          "label": "Art. 16, lid 1 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/16#lid-1"
+        },
+        {
+          "label": "Art. 16, lid 2 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/16#lid-2"
+        },
+        {
+          "label": "Art. 9, lid 2 DORA",
+          "href": "/artikel/9#lid-2"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.systeemtest-goedkeuringsverslag",
+      "naam": "Testplannen en goedkeuringsverslagen ICT-systemen",
+      "category": "verslag",
+      "omschrijving": "Testplannen en goedkeuringsverslagen voor ICT-systemen vóór de ingebruikname en na onderhoud, evenredig aan het kritieke karakter van de betrokken processen.",
+      "refs": [
+        {
+          "label": "Art. 16, lid 2 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/16#lid-2"
+        }
+      ],
+      "cadans": "ad hoc",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.euc-inventaris",
+      "naam": "EUC-inventaris",
+      "category": "register",
+      "omschrijving": "Inventaris van door eindgebruikers buiten de ICT-functie ontwikkelde of beheerde ICT-systemen (EUC), met een risicogebaseerde beoordeling.",
+      "refs": [
+        {
+          "label": "Art. 16, lid 9 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/16#lid-9"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.broncodereview-rapportage",
+      "naam": "Rapportage broncodereviews en beveiligingstests",
+      "category": "rapportage",
+      "omschrijving": "Rapportages van broncodereviews en statische en dynamische beveiligingstests, met de actieplannen om geconstateerde kwetsbaarheden en anomalieën aan te pakken.",
+      "refs": [
+        {
+          "label": "Art. 16, lid 3 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/16#lid-3"
+        }
+      ],
+      "cadans": "ad hoc",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.testdatabeheer-procedure",
+      "naam": "Procedure testdatabeheer",
+      "category": "procedure",
+      "omschrijving": "Procedure voor testdatabeheer die het gebruik van geanonimiseerde of gepseudonimiseerde gegevens borgt en het gebruik van productiegegevens goedkeurt en aan de risicofunctie meldt.",
+      "refs": [
+        {
+          "label": "Art. 16, lid 5 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/16#lid-5"
+        },
+        {
+          "label": "Art. 16, lid 6 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/16#lid-6"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.wijzigingsbeheerprocedure",
+      "naam": "ICT-wijzigingsbeheerprocedure",
+      "category": "procedure",
+      "omschrijving": "ICT-wijzigingsbeheerprocedure voor alle wijzigingen van software, hardware, firmware, systemen of beveiligingsparameters, met verificatie, functiescheiding, fall-back en noodwijzigingen.",
+      "refs": [
+        {
+          "label": "Art. 17, lid 1 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/17#lid-1"
+        },
+        {
+          "label": "Art. 9, lid 4 DORA",
+          "href": "/artikel/9#lid-4"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.wijzigingsregister",
+      "naam": "Wijzigingsregister (incl. noodwijzigingen)",
+      "category": "register",
+      "omschrijving": "Register van ICT-wijzigingen met goedkeuringen, testresultaten en fall-back, inclusief de noodwijzigingen met de beoordeling achteraf.",
+      "refs": [
+        {
+          "label": "Art. 17, lid 1 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/17#lid-1"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.fysieke-beveiligingsbeleid",
+      "naam": "Beleid fysieke beveiliging en milieubeveiliging",
+      "category": "beleid",
+      "omschrijving": "Beleid voor fysieke beveiliging en milieubeveiliging dat bedrijfslocaties, datacentra en gevoelige zones met ICT- en informatieassets beschermt, met zonering per locatie.",
+      "refs": [
+        {
+          "label": "Art. 18, lid 1 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/18#lid-1"
+        },
+        {
+          "label": "Art. 18, lid 2 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/18#lid-2"
+        },
+        {
+          "label": "Art. 9, lid 2 DORA",
+          "href": "/artikel/9#lid-2"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.fysieke-onderhoud-inspectieregister",
+      "naam": "Onderhouds- en inspectieregister fysieke beveiliging",
+      "category": "register",
+      "omschrijving": "Registraties van onderhoud en inspecties van de ICT-assets, informatieassets en apparatuur voor fysieke toegangscontrole.",
+      "refs": [
+        {
+          "label": "Art. 18, lid 2 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/18#lid-2"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.hr-ict-beveiligingsbeleid",
+      "naam": "HR-beleid met ICT-beveiligingselementen",
+      "category": "beleid",
+      "omschrijving": "Humanresourcesbeleid met de ICT-beveiligingselementen, waaronder toewijzing van verantwoordelijkheden, bewustwording en teruggave van assets bij uitdiensttreding.",
+      "refs": [
+        {
+          "label": "Art. 19 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/19#inhoud"
+        },
+        {
+          "label": "Art. 15 DORA",
+          "href": "/artikel/15#inhoud"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "HR",
+      "reviewed": true
+    },
+    {
+      "id": "doc.onboarding-offboarding-checklist",
+      "naam": "Onboarding-/offboardingchecklist met asset-teruggave",
+      "category": "procedure",
+      "omschrijving": "Onboarding- en offboardingchecklists die de teruggave van ICT- en materiële informatieassets bij beëindiging van het dienstverband borgen.",
+      "refs": [
+        {
+          "label": "Art. 19 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/19#punt-b"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "HR",
+      "reviewed": true
+    },
+    {
+      "id": "doc.personeel-ict-clausules",
+      "naam": "ICT-beveiligingsclausules arbeids- en inhuurcontracten",
+      "category": "overeenkomst",
+      "omschrijving": "ICT-beveiligingsclausules in arbeids- en inhuurcontracten voor medewerkers en derde aanbieders die toegang hebben tot ICT-assets.",
+      "refs": [
+        {
+          "label": "Art. 19 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/19#punt-b"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "HR",
+      "reviewed": true
+    },
+    {
+      "id": "doc.toegangsrechten-hercertificering-rapportage",
+      "naam": "Hercertificeringsrapportage toegangsrechten",
+      "category": "rapportage",
+      "omschrijving": "Rapportages van de periodieke hercertificering van toegangsrechten (jaarlijks, halfjaarlijks voor systemen die kritieke of belangrijke functies ondersteunen).",
+      "refs": [
+        {
+          "label": "Art. 21 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/21#punt-e"
+        },
+        {
+          "label": "Art. 9, lid 4 DORA",
+          "href": "/artikel/9#lid-4"
+        }
+      ],
+      "cadans": "halfjaarlijks",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.fysieke-toegang-log",
+      "naam": "PAM-inrichting en log fysieke toegang",
+      "category": "verslag",
+      "omschrijving": "Inrichting van Privileged Access Management en de logging van de fysieke toegang tot bedrijfslocaties, datacentra en gevoelige zones met ICT- en informatieassets.",
+      "refs": [
+        {
+          "label": "Art. 21 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/21#punt-g"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.detectie-monitoring-configuratie",
+      "naam": "Configuratie detectie- en monitoringtools (SIEM/alerting)",
+      "category": "verslag",
+      "omschrijving": "Configuratie van de detectie- en monitoringtools (SIEM/alerting) met prioriteringsregels en detectieregels op de integriteit van logbestanden.",
+      "refs": [
+        {
+          "label": "Art. 23, lid 2 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/23#lid-2"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.herstelopties-tpp-analyse",
+      "naam": "Analyse alternatieve herstelopties en TPP-falen-mitigaties",
+      "category": "verslag",
+      "omschrijving": "Analyse van alternatieve herstelopties en van de continuïteitsmaatregelen die het falen van derde aanbieders van ICT-diensten mitigeren.",
+      "refs": [
+        {
+          "label": "Art. 26, lid 3 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/26#lid-3"
+        },
+        {
+          "label": "Art. 26, lid 4 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/26#lid-4"
+        },
+        {
+          "label": "Art. 11, lid 3 DORA",
+          "href": "/artikel/11#lid-3"
+        }
+      ],
+      "cadans": "ad hoc",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.incident-communicatieplan",
+      "naam": "Communicatieplan ICT-incidenten",
+      "category": "plan",
+      "omschrijving": "Communicatieplan voor ICT-gerelateerde incidenten dat de interne en externe communicatie naar personeel, media, cliënten en tegenpartijen regelt, inclusief de procedure en geaccordeerde sjablonen voor cliëntkennisgeving.",
+      "refs": [
+        {
+          "label": "Art. 14, lid 2 DORA",
+          "href": "/artikel/14#lid-2"
+        },
+        {
+          "label": "Art. 19, lid 3 DORA",
+          "href": "/artikel/19#lid-3"
+        },
+        {
+          "label": "Art. 17, lid 3, punt d) DORA",
+          "href": "/artikel/17#lid-3-d"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.incident-bestuursrapportage",
+      "naam": "Bestuurs-/MT-rapportage ernstige ICT-incidenten",
+      "category": "rapportage",
+      "omschrijving": "Rapportage aan het leidinggevend orgaan of MT over ernstige ICT-gerelateerde incidenten, ter borging van bestuurlijke betrokkenheid bij het incidentbeheerproces.",
+      "refs": [
+        {
+          "label": "Art. 5, lid 2 DORA",
+          "href": "/artikel/5#lid-2"
+        },
+        {
+          "label": "Art. 17, lid 1 DORA",
+          "href": "/artikel/17#lid-1"
+        }
+      ],
+      "cadans": "periodiek",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.incident-classificatiedossier",
+      "naam": "Classificatiedossier per ICT-incident",
+      "category": "verslag",
+      "omschrijving": "Per-incident dossier met de gedocumenteerde onderbouwing van de classificatie tegen de criteria en materialiteitsdrempels, inclusief ramingen en eventuele herclassificatie.",
+      "refs": [
+        {
+          "label": "Art. 8, lid 1 GV 2024/1772",
+          "href": "/rts-classificatie/artikel/8#lid-1"
+        },
+        {
+          "label": "Art. 18, lid 1 DORA",
+          "href": "/artikel/18#lid-1"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.incident-oefenverslag",
+      "naam": "Test-/oefenverslag incidentprocessen",
+      "category": "verslag",
+      "omschrijving": "Verslag van het testen of oefenen van de incidentdetectie-, classificatie- en meldprocessen (o.a. beslisboom op casuïstiek, oefenmelding, toegangstest meldkanaal) met bevindingen en opvolging.",
+      "refs": [
+        {
+          "label": "Art. 22 GV 2024/1774",
+          "href": "/rts-risicobeheer/artikel/22#inhoud"
+        },
+        {
+          "label": "Art. 17, lid 1 DORA",
+          "href": "/artikel/17#lid-1"
+        }
+      ],
+      "cadans": "periodiek",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.melduitbesteding-regeling",
+      "naam": "Regeling uitbesteding meldverplichtingen",
+      "category": "memo",
+      "omschrijving": "Vastlegging van het besluit om de rapportageverplichtingen voor ernstige ICT-incidenten uit te besteden aan een derde partij, met de verantwoordelijkheidsclausule en de kennisgeving daarvan aan de bevoegde autoriteit.",
+      "refs": [
+        {
+          "label": "Art. 19, lid 5 DORA",
+          "href": "/artikel/19#lid-5"
+        },
+        {
+          "label": "Art. 6, lid 1 UV 2025/302",
+          "href": "/its-incidentrapportage/artikel/6#lid-1"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.betalingsincident-scopememo",
+      "naam": "Scopememo betalingsgerelateerde incidenten",
+      "category": "memo",
+      "omschrijving": "Memo dat afbakent welke betalingsgerelateerde operationele of beveiligingsincidenten onder het incidentbeheer- en meldregime van hoofdstuk III DORA vallen.",
+      "refs": [
+        {
+          "label": "Art. 23 DORA",
+          "href": "/artikel/23#inhoud"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.relevante-tegenpartijen-register",
+      "naam": "Lijst relevante cliënten en financiële tegenpartijen",
+      "category": "register",
+      "omschrijving": "Onderhouden lijst van de als relevant aangemerkte cliënten en financiële tegenpartijen die dient als noemer- en referentiebasis bij de incidentclassificatie.",
+      "refs": [
+        {
+          "label": "Art. 1, lid 3 GV 2024/1772",
+          "href": "/rts-classificatie/artikel/1#lid-3"
+        },
+        {
+          "label": "Art. 1, lid 5 GV 2024/1772",
+          "href": "/rts-classificatie/artikel/1#lid-5"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.geaggregeerde-melding-toetsingsmemo",
+      "naam": "Toetsingsmemo geaggregeerde rapportage",
+      "category": "memo",
+      "omschrijving": "Memo waarin wordt getoetst of aan de voorwaarden voor geaggregeerde rapportage van ernstige ICT-incidenten via een derde dienstverlener is voldaan.",
+      "refs": [
+        {
+          "label": "Art. 7, lid 1 UV 2025/302",
+          "href": "/its-incidentrapportage/artikel/7#lid-1"
+        },
+        {
+          "label": "Art. 7, lid 2 UV 2025/302",
+          "href": "/its-incidentrapportage/artikel/7#lid-2"
+        }
+      ],
+      "cadans": "ad hoc",
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.terugkerende-incidenten-toets",
+      "naam": "Toets terugkerende incidenten",
+      "category": "verslag",
+      "omschrijving": "Periodieke (maandelijkse) toets die terugkerende incidenten opspoort en beoordeelt of zij samen als ernstig incident moeten worden aangemerkt, met opvolging van verbetermaatregelen.",
+      "refs": [
+        {
+          "label": "Art. 17, lid 2 DORA",
+          "href": "/artikel/17#lid-2"
+        },
+        {
+          "label": "Art. 8, lid 2 GV 2024/1772",
+          "href": "/rts-classificatie/artikel/8#lid-2"
+        }
+      ],
+      "cadans": "maandelijks",
+      "eigenaar": "CISO",
+      "reviewed": true
+    },
+    {
+      "id": "doc.testprogramma-weerbaarheid",
+      "naam": "Testprogramma digitale operationele weerbaarheid",
+      "category": "plan",
+      "omschrijving": "Risicogebaseerd programma dat scope, toe te passen testvormen en frequenties voor het testen van de digitale operationele weerbaarheid vastlegt.",
+      "refs": [
+        {
+          "label": "Art. 24, lid 1 DORA",
+          "href": "/artikel/24#lid-1"
+        },
+        {
+          "label": "Art. 24, lid 2 DORA",
+          "href": "/artikel/24#lid-2"
+        }
+      ],
+      "cadans": "jaarlijks herzien",
+      "eigenaar": "ICT-risicobeheerfunctie",
+      "reviewed": true
+    },
+    {
+      "id": "doc.weerbaarheidstestkalender",
+      "naam": "Testkalender en uitvoeringsregister weerbaarheidstests",
+      "category": "register",
+      "omschrijving": "Jaarplanning en uitvoeringsregistratie van weerbaarheidstests op alle ICT-systemen en -toepassingen die kritieke of belangrijke functies ondersteunen.",
+      "refs": [
+        {
+          "label": "Art. 24, lid 6 DORA",
+          "href": "/artikel/24#lid-6"
+        },
+        {
+          "label": "Art. 25, lid 3 DORA",
+          "href": "/artikel/25#lid-3"
+        }
+      ],
+      "cadans": "ten minste jaarlijks",
+      "eigenaar": "ICT-risicobeheerfunctie",
+      "reviewed": true
+    },
+    {
+      "id": "doc.weerbaarheidstestrapport",
+      "naam": "Weerbaarheidstestrapport per testvorm",
+      "category": "rapportage",
+      "omschrijving": "Rapportage van de resultaten per uitgevoerde weerbaarheidstestvorm, inclusief validatie- en hertesten van gesloten bevindingen.",
+      "refs": [
+        {
+          "label": "Art. 25, lid 1 DORA",
+          "href": "/artikel/25#lid-1"
+        },
+        {
+          "label": "Art. 24, lid 4 DORA",
+          "href": "/artikel/24#lid-4"
+        }
+      ],
+      "eigenaar": "ICT-risicobeheerfunctie",
+      "reviewed": true
+    },
+    {
+      "id": "doc.tester-onafhankelijkheidsregister",
+      "naam": "Onafhankelijkheids- en belangenconflictenregister testers",
+      "category": "register",
+      "omschrijving": "Registratie van de onafhankelijkheid en (afwezigheid van) belangenconflicten van interne of externe partijen die weerbaarheidstests uitvoeren.",
+      "refs": [
+        {
+          "label": "Art. 24, lid 4 DORA",
+          "href": "/artikel/24#lid-4"
+        }
+      ],
+      "eigenaar": "ICT-risicobeheerfunctie",
+      "reviewed": true
+    },
+    {
+      "id": "doc.testbevindingen-beleid",
+      "naam": "Beleid en procedure testbevindingenmanagement",
+      "category": "procedure",
+      "omschrijving": "Vastgesteld beleid en procedure om problemen die uit weerbaarheidstests naar voren komen te prioriteren, te classificeren, te verhelpen en te herstellen.",
+      "refs": [
+        {
+          "label": "Art. 24, lid 5 DORA",
+          "href": "/artikel/24#lid-5"
+        }
+      ],
+      "eigenaar": "ICT-risicobeheerfunctie",
+      "reviewed": true
+    },
+    {
+      "id": "doc.gebundelde-tlpt-overeenkomst",
+      "naam": "Overeenkomst gebundelde of gezamenlijke TLPT",
+      "category": "overeenkomst",
+      "omschrijving": "Schriftelijke overeenkomst voor een gepoolde of gezamenlijke TLPT met rolverdeling, scope en verantwoordelijkheden van de deelnemende entiteiten.",
+      "refs": [
+        {
+          "label": "Art. 26, lid 4 DORA",
+          "href": "/artikel/26#lid-4"
+        },
+        {
+          "label": "Art. 6, lid 1 GV 2025/1190",
+          "href": "/rts-tlpt/artikel/6#lid-1"
+        },
+        {
+          "label": "Art. 8, lid 1 GV 2025/1190",
+          "href": "/rts-tlpt/artikel/8#lid-1"
+        }
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "doc.tlpt-aanbieder-contract",
+      "naam": "Contract met TLPT-aanbieders",
+      "category": "overeenkomst",
+      "omschrijving": "Overeenkomst met de dreigingsinformatie-aanbieders en testers met herstelprocedures en een opsomming van verboden activiteiten.",
+      "refs": [
+        {
+          "label": "Art. 7, lid 2 GV 2025/1190",
+          "href": "/rts-tlpt/artikel/7#lid-2"
+        },
+        {
+          "label": "Art. 27, lid 3 DORA",
+          "href": "/artikel/27#lid-3"
+        }
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "doc.tlpt-interne-testers-beleid",
+      "naam": "Beleid en dossier inzet interne TLPT-testers",
+      "category": "beleid",
+      "omschrijving": "Beleid, autoriteitsgoedkeuring en onderbouwend dossier voor de inzet van interne testers bij de TLPT: de beleidsvoorwaarden en revisiehistorie, het bewijs van goedkeuring door de bevoegde autoriteit, en de bezetting, het dienstverband en de opleiding van het interne testteam.",
+      "refs": [
+        {
+          "label": "Art. 26, lid 8 DORA",
+          "href": "/artikel/26#lid-8"
+        },
+        {
+          "label": "Art. 27, lid 2 DORA",
+          "href": "/artikel/27#lid-2"
+        },
+        {
+          "label": "Art. 15, lid 1 GV 2025/1190",
+          "href": "/rts-tlpt/artikel/15#lid-1"
+        },
+        {
+          "label": "Art. 15, lid 3 GV 2025/1190",
+          "href": "/rts-tlpt/artikel/15#lid-3"
+        },
+        {
+          "label": "Art. 15, lid 4 GV 2025/1190",
+          "href": "/rts-tlpt/artikel/15#lid-4"
+        }
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "doc.derdenrisico-strategie",
+      "naam": "Strategie inzake ICT-derdenrisico",
+      "category": "beleid",
+      "omschrijving": "Door het leidinggevend orgaan vastgestelde strategie inzake het ICT-risico van derde aanbieders, met inbegrip van een meervoudige-aanbiedersbenadering en de periodieke risico-evaluatie.",
+      "refs": [
+        {
+          "label": "Art. 28, lid 2 DORA",
+          "href": "/artikel/28#lid-2"
+        },
+        {
+          "label": "Art. 6, lid 9 DORA",
+          "href": "/artikel/6#lid-9"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.contractbeleid-ict-diensten",
+      "naam": "Beleid inzake het gebruik van ICT-diensten (contractbeleid)",
+      "category": "beleid",
+      "omschrijving": "Beleid inzake het gebruik van door derde aanbieders verleende ICT-diensten die kritieke of belangrijke functies ondersteunen, uitgewerkt volgens de eisen van GV 2024/1773.",
+      "refs": [
+        {
+          "label": "Art. 28, lid 2 DORA",
+          "href": "/artikel/28#lid-2"
+        },
+        {
+          "label": "Art. 1 GV 2024/1773",
+          "href": "/rts-contractbeleid/artikel/1#inhoud"
+        },
+        {
+          "label": "Art. 3 GV 2024/1773",
+          "href": "/rts-contractbeleid/artikel/3#lid-1"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.register-indiening-autoriteit",
+      "naam": "Indiening informatieregister bij de bevoegde autoriteit",
+      "category": "rapportage",
+      "omschrijving": "Bewijs van de jaarlijkse indiening van het informatieregister bij de bevoegde autoriteit, met de ontvangst-/indieningsbevestiging.",
+      "refs": [
+        {
+          "label": "Art. 28, lid 3 DORA",
+          "href": "/artikel/28#lid-3"
+        },
+        {
+          "label": "Art. 5 UV 2024/2956",
+          "href": "/its-register/artikel/5#lid-1"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.kennisgevingsprocedure-kof",
+      "naam": "Kennisgevingsprocedure geplande KOF-contracten en herclassificaties",
+      "category": "procedure",
+      "omschrijving": "Procedure voor de tijdige kennisgeving aan de bevoegde autoriteit van geplande contractuele overeenkomsten over kritieke of belangrijke functies en van functies die als zodanig worden geherclassificeerd.",
+      "refs": [
+        {
+          "label": "Art. 28, lid 3 DORA",
+          "href": "/artikel/28#lid-3"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.precontractueel-beoordelingsdossier",
+      "naam": "Precontractueel beoordelingsdossier ICT-diensten",
+      "category": "verslag",
+      "omschrijving": "Per contractuele overeenkomst het beoordelingsdossier vóór contractering, met de KOF-classificatie, de negen risicocategorieën en de belangenconflicten.",
+      "refs": [
+        {
+          "label": "Art. 28, lid 4 DORA",
+          "href": "/artikel/28#lid-4"
+        },
+        {
+          "label": "Art. 5 GV 2024/1773",
+          "href": "/rts-contractbeleid/artikel/5#lid-1"
+        }
+      ],
+      "cadans": "ad hoc",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.concentratierisico-beoordeling",
+      "naam": "Concentratierisicobeoordeling ICT-diensten",
+      "category": "verslag",
+      "omschrijving": "Voorlopige beoordeling van het ICT-concentratierisico op entiteitsniveau per beoogd KOF-contract, met alternatievenafweging en de derde-landketentoets.",
+      "refs": [
+        {
+          "label": "Art. 29, lid 1 DORA",
+          "href": "/artikel/29#lid-1"
+        },
+        {
+          "label": "Art. 28, lid 4 DORA",
+          "href": "/artikel/28#lid-4"
+        }
+      ],
+      "cadans": "ad hoc",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.contract-remediatieplan",
+      "naam": "Gap-analyse en remediatieplan bestaande ICT-contracten",
+      "category": "plan",
+      "omschrijving": "Gap-analyse van het bestaande contractenbestand tegen de verplichte contractuele bepalingen, met een gedocumenteerd herstel-/tijdschema om contracten op de DORA-basisset te brengen.",
+      "refs": [
+        {
+          "label": "Art. 30, lid 1 DORA",
+          "href": "/artikel/30#lid-1"
+        },
+        {
+          "label": "Art. 30, lid 2 DORA",
+          "href": "/artikel/30#lid-2"
+        }
+      ],
+      "cadans": "ad hoc",
+      "eigenaar": "juridisch",
+      "reviewed": true
+    },
+    {
+      "id": "doc.kof-contract-clausuleregister",
+      "naam": "Clausule-vindplaatsoverzicht KOF-contracten",
+      "category": "register",
+      "omschrijving": "Overzicht per KOF-contract met voor elk verplicht element van art. 30, lid 3 DORA de vindplaats van de betreffende contractuele clausule.",
+      "refs": [
+        {
+          "label": "Art. 30, lid 3 DORA",
+          "href": "/artikel/30#lid-3"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "juridisch",
+      "reviewed": true
+    },
+    {
+      "id": "doc.contractbeleid-consistentietoets",
+      "naam": "Consistentietoets contractbeleid",
+      "category": "memo",
+      "omschrijving": "Toets waarin de consistentie van het contractbeleid met het ICT-risicobeheerkader, het informatiebeveiligings- en het bedrijfscontinuïteitsbeleid wordt vastgesteld.",
+      "refs": [
+        {
+          "label": "Art. 3, lid 6 GV 2024/1773",
+          "href": "/rts-contractbeleid/artikel/3#lid-6"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.belangenconflictenregister-ict",
+      "naam": "Belangenconflictenregister ICT-aanbieders",
+      "category": "register",
+      "omschrijving": "Register van belangenconflicten die voortvloeien uit het gebruik van derde ICT-aanbieders, met monitoringcyclus en objectiviteitsonderbouwing bij intra-groepscontracten.",
+      "refs": [
+        {
+          "label": "Art. 7 GV 2024/1773",
+          "href": "/rts-contractbeleid/artikel/7#lid-1"
+        },
+        {
+          "label": "Art. 28, lid 4 DORA",
+          "href": "/artikel/28#lid-4"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.aanbieder-prestatiemonitoring",
+      "naam": "Prestatiemonitoring KOF-aanbieders",
+      "category": "rapportage",
+      "omschrijving": "Monitoring van de prestaties van KOF-aanbieders met KPI-/KCI-dashboard, SLA-nalevingsrapportage en periodieke prestatiebeoordelingen die doorwerken naar de risicobeoordeling.",
+      "refs": [
+        {
+          "label": "Art. 9 GV 2024/1773",
+          "href": "/rts-contractbeleid/artikel/9#lid-1"
+        },
+        {
+          "label": "Art. 30, lid 3 DORA",
+          "href": "/artikel/30#lid-3"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.tekortkomingenregister-aanbieders",
+      "naam": "Tekortkomingenregister ICT-aanbieders",
+      "category": "register",
+      "omschrijving": "Register van tekortkomingen van derde ICT-aanbieders met de getroffen maatregelen, termijnen en opvolgstatus.",
+      "refs": [
+        {
+          "label": "Art. 9 GV 2024/1773",
+          "href": "/rts-contractbeleid/artikel/9#lid-1"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.onderaanneming-beoordelingsdossier",
+      "naam": "Beoordelingsdossier onderaanneming KOF-diensten",
+      "category": "verslag",
+      "omschrijving": "Per KOF-contract het toestemmingsbesluit en toetsingsdossier over onderaanneming langs de voorwaarden van art. 3 GV 2025/532, met eigen impact-, locatie- en concentratiebeoordeling en herbeoordelingslog.",
+      "refs": [
+        {
+          "label": "Art. 3, lid 1 GV 2025/532",
+          "href": "/rts-onderaanneming/artikel/3#lid-1"
+        },
+        {
+          "label": "Art. 30, lid 2 DORA",
+          "href": "/artikel/30#lid-2"
+        }
+      ],
+      "cadans": "ad hoc",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.onderaanneming-wijzigingsprocedure",
+      "naam": "Beoordelingsprocedure materiële wijzigingen onderaannemingsketen",
+      "category": "procedure",
+      "omschrijving": "Procesbeschrijving voor de beoordeling van en het bezwaar tegen materiële wijzigingen in de onderaannemingsketen, met kennisgevings- en termijnbewaking.",
+      "refs": [
+        {
+          "label": "Art. 5, lid 1 GV 2025/532",
+          "href": "/rts-onderaanneming/artikel/5#lid-1"
+        },
+        {
+          "label": "Art. 30, lid 3 DORA",
+          "href": "/artikel/30#lid-3"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.threat-intel-deelnamebeleid",
+      "naam": "Beleid/besluit deelname cyberdreigingsinformatie-uitwisseling",
+      "category": "beleid",
+      "omschrijving": "Bestuurlijk vastgelegd besluit en beleid over de deelname aan een regeling voor uitwisseling van informatie en inlichtingen over cyberdreiging, met toetsing aan de voorwaarden van artikel 45, lid 1.",
+      "refs": [
+        {
+          "label": "Art. 45, lid 1 DORA",
+          "href": "/artikel/45#lid-1"
+        },
+        {
+          "label": "Art. 45, lid 2 DORA",
+          "href": "/artikel/45#lid-2"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "security",
+      "reviewed": true
+    },
+    {
+      "id": "doc.threat-intel-deelnameovereenkomst",
+      "naam": "Gedragsregels / deelnameovereenkomst dreigingsinformatie-uitwisseling",
+      "category": "overeenkomst",
+      "omschrijving": "Gedragsregels of deelnameovereenkomst van de informatie-uitwisselingsregeling, met de voorwaarden voor bescherming van vertrouwelijkheid, persoonsgegevens en gebruik van gedeelde dreigingsinformatie.",
+      "refs": [
+        {
+          "label": "Art. 45, lid 1 DORA",
+          "href": "/artikel/45#lid-1"
+        },
+        {
+          "label": "Art. 45, lid 2 DORA",
+          "href": "/artikel/45#lid-2"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "security",
+      "reviewed": true
+    },
+    {
+      "id": "doc.threat-intel-kennisgeving-autoriteit",
+      "naam": "Kennisgeving deelname/beëindiging aan bevoegde autoriteit",
+      "category": "rapportage",
+      "omschrijving": "Kennisgeving(en) aan de bevoegde autoriteit van de deelname aan en de eventuele beëindiging van deelname aan een regeling voor uitwisseling van cyberdreigingsinformatie.",
+      "refs": [
+        {
+          "label": "Art. 45, lid 3 DORA",
+          "href": "/artikel/45#lid-3"
+        },
+        {
+          "label": "Art. 46 DORA",
+          "href": "/artikel/46#inhoud"
+        }
+      ],
+      "cadans": "bij gebeurtenis",
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.compliance-kalender",
+      "naam": "Compliance-kalender kennisgevings- en rapportagetriggers",
+      "category": "register",
+      "omschrijving": "Compliance-kalender met de wettelijke kennisgevings-, meldings- en rapportagetriggers uit DORA en hun termijnen, waaronder de kennisgeving van deelname en beëindiging aan de bevoegde autoriteit.",
+      "refs": [
+        {
+          "label": "Art. 45, lid 3 DORA",
+          "href": "/artikel/45#lid-3"
+        },
+        {
+          "label": "Art. 46 DORA",
+          "href": "/artikel/46#inhoud"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "compliance",
+      "reviewed": true
+    },
+    {
+      "id": "doc.ctpp-toetsdossier",
+      "naam": "Toetsdossier kritieke derde aanbieders (CTPP-lijst)",
+      "category": "register",
+      "omschrijving": "Dossier met de periodieke toets van de lijst van aangewezen kritieke derde aanbieders van ICT-diensten, met markering per aanbieder en de vestigingsbewijzen van EU-dochterondernemingen per in een derde land gevestigde CTPP.",
+      "refs": [
+        {
+          "label": "Art. 31, lid 9 DORA",
+          "href": "/artikel/31#lid-9"
+        },
+        {
+          "label": "Art. 31, lid 12 DORA",
+          "href": "/artikel/31#lid-12"
+        }
+      ],
+      "cadans": "jaarlijks",
+      "eigenaar": "inkoop",
+      "reviewed": true
+    },
+    {
+      "id": "doc.oversightsignalen-register",
+      "naam": "Register oversightsignalen kritieke aanbieders",
+      "category": "register",
+      "omschrijving": "Log van de van de lead overseer en bevoegde autoriteiten ontvangen oversightsignalen en aanbevelingen over kritieke derde aanbieders, met de opvolging per signaal in het derde-aanbiedersrisicobeheer.",
+      "refs": [
+        {
+          "label": "Art. 42, lid 3 DORA",
+          "href": "/artikel/42#lid-3"
+        },
+        {
+          "label": "Art. 42, lid 2 DORA",
+          "href": "/artikel/42#lid-2"
+        },
+        {
+          "label": "Art. 35, lid 1 DORA",
+          "href": "/artikel/35#lid-1"
+        },
+        {
+          "label": "Art. 35, lid 10 DORA",
+          "href": "/artikel/35#lid-10"
+        }
+      ],
+      "cadans": "doorlopend",
+      "eigenaar": "risk",
+      "reviewed": true
+    },
+    {
+      "id": "doc.oversight-escalatiedraaiboek",
+      "naam": "Escalatiedraaiboek opschorting/beëindiging kritieke aanbieder",
+      "category": "procedure",
+      "omschrijving": "Draaiboek voor de voorbereiding en uitvoering van een besluit van de bevoegde autoriteit om het gebruik of de uitbesteding van diensten van een kritieke derde aanbieder op te schorten of te beëindigen, als bedoeld in artikel 42, lid 6.",
+      "refs": [
+        {
+          "label": "Art. 42, lid 4 DORA",
+          "href": "/artikel/42#lid-4"
+        },
+        {
+          "label": "Art. 42, lid 6 DORA",
+          "href": "/artikel/42#lid-6"
+        },
+        {
+          "label": "Art. 42, lid 8 DORA",
+          "href": "/artikel/42#lid-8"
+        },
+        {
+          "label": "Art. 39, lid 7 DORA",
+          "href": "/artikel/39#lid-7"
+        }
+      ],
+      "cadans": "bij wijziging",
+      "eigenaar": "risk",
+      "reviewed": true
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ChevronRight, Table2 } from "lucide-react";
+import { ChevronRight, FileStack, Table2 } from "lucide-react";
 import type { PlaybookKind } from "@/lib/playbook/data";
 import { useDone } from "@/lib/playbook/store";
 
@@ -22,6 +22,11 @@ export interface DekkingCard {
   complete: boolean;
 }
 
+export interface DocumentenCard {
+  count: number;
+  complete: boolean;
+}
+
 const TILE: Record<PlaybookKind, string> = {
   entiteit: "bg-accent/10 text-accent",
   aanbieder: "bg-teal-600/10 text-teal-700 dark:text-teal-300",
@@ -31,9 +36,11 @@ const TILE: Record<PlaybookKind, string> = {
 export function PlaybookIndexCards({
   playbooks,
   dekking,
+  documenten,
 }: {
   playbooks: IndexCard[];
   dekking: DekkingCard;
+  documenten: DocumentenCard;
 }) {
   const done = useDone();
 
@@ -90,6 +97,28 @@ export function PlaybookIndexCards({
             Elke bepaling van alle 13 instrumenten afgezet tegen de stappen die haar afdekken —
             zie in één register waar bewijs ontbreekt ({dekking.covered} van {dekking.universe}{" "}
             bepalingen gedekt{dekking.complete ? " en gereviewd" : " — in opbouw"}).
+          </p>
+        </div>
+        <span className="flex shrink-0 items-center gap-1 font-mono text-xs text-accent">
+          Openen <ChevronRight className="size-4" />
+        </span>
+      </Link>
+
+      <Link
+        href="/playbook/documenten"
+        className="group mb-6 flex items-center gap-5 rounded-xl border border-line p-6 hover:border-accent"
+      >
+        <span className="grid size-10 shrink-0 place-items-center rounded-lg bg-surface text-muted">
+          <FileStack className="size-5" />
+        </span>
+        <div className="min-w-0 flex-1">
+          <p className="font-semibold group-hover:text-accent">Documentenregister</p>
+          <p className="mt-1 text-sm text-muted">
+            Alle documenten, beleidsstukken, registers en plannen die DORA verwacht — elk met zijn
+            wettelijke basis en de stappen die het opleveren
+            {documenten.count > 0
+              ? ` (${documenten.count} documenten${documenten.complete ? " en gereviewd" : " — in opbouw"}).`
+              : " (in opbouw)."}
           </p>
         </div>
         <span className="flex shrink-0 items-center gap-1 font-mono text-xs text-accent">

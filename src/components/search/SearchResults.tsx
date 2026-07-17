@@ -13,6 +13,7 @@ const TYPE_LABEL = {
   overweging: "Overweging",
   bijlage: "Bijlage",
   stap: "Stap",
+  document: "Document",
 } as const;
 
 /** Badge label for stap hits, whose instrument is the playbook kind. */
@@ -59,7 +60,7 @@ export function SearchResults() {
           autoFocus
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Zoek in artikelen, overwegingen, bijlagen en playbook-stappen…"
+          placeholder="Zoek in artikelen, overwegingen, bijlagen, playbook-stappen en documenten…"
           className="h-11 w-full bg-transparent outline-none placeholder:text-muted"
         />
       </form>
@@ -81,6 +82,10 @@ export function SearchResults() {
               {h.type === "stap" ? (
                 <span className="ml-2 rounded border border-line px-1.5 py-0.5 text-[10px] font-medium uppercase tracking-wide text-muted">
                   {PLAYBOOK_LABEL[h.instrument] ?? h.instrument}
+                </span>
+              ) : h.type === "document" ? (
+                <span className="ml-2 rounded border border-line px-1.5 py-0.5 text-[10px] font-medium uppercase tracking-wide text-muted">
+                  {h.ref}
                 </span>
               ) : (
                 h.instrument !== "dora" && (

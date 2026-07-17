@@ -71,14 +71,19 @@ const GOLDEN: Golden[] = [
   { q: "informatieregister handhaven actualiseren", top1: "dora-art-28-lid-3" },
   { q: "kritieke of belangrijke functie definitie", topN: { id: "dora-art-3-inhoud", n: 3 } },
   { q: "dreigingsgestuurde penetratietests", topN: { id: "dora-art-26-lid-2", n: 3 } },
-  { q: "exitstrategie", topN: { id: "dora-art-28-lid-8", n: 5 } },
+  // epic 17: the document-catalog docs (doc.exitstrategie-exitplan etc.) now
+  // legitimately co-rank for "exitstrategie", so the statutory lid sits a few
+  // ranks lower — still within the top ranks.
+  { q: "exitstrategie", topN: { id: "dora-art-28-lid-8", n: 8 } },
   // epic 16: the playbook step "Breng de ICT-toeleveringsketen in kaart met
   // rankings" (stap-pe.ir1) carries both query terms in its heading and now
   // co-ranks at the top; the ITS ranking article stays within the top ranks.
   { q: "ranking toeleveringsketen", topN: { id: "its-art-2-inhoud", n: 3 } },
   { q: "soort ICT-diensten", topN: { id: "its-anx-iii-1", n: 3 } },
   // typeahead surface: typo tolerance (fuzzy) and mid-word prefix
-  { q: "informatieregster", surface: "site", top1: "its-anx-i-", note: "fuzzy match still reaches informatieregister docs" },
+  // epic 17: the informatieregister document-catalog entry now legitimately
+  // tops this fuzzy query; the ITS RoI-annex stays within reach.
+  { q: "informatieregster", surface: "site", topN: { id: "document-doc.informatieregister", n: 5 }, note: "fuzzy match reaches the informatieregister doc" },
   // epic 10: the ten level-2 acts — one reference + one domain query each
   { q: "tlpt artikel 3", top1: "tlpt-art-3-" },
   { q: "classificatie artikel 9", top1: "classificatie-art-9-" },
@@ -101,7 +106,13 @@ const GOLDEN: Golden[] = [
   // epic 16 remainder: playbook steps (type:"stap") are now in the corpus —
   // one entiteit step + one aanbieder step reachable by their action language
   { q: "leidinggevend orgaan rollen verantwoordelijkheden", topN: { id: "stap-pe.rb20", n: 5 } },
-  { q: "onderaannemingsketen monitoren", topN: { id: "stap-pa.oa2", n: 5 } },
+  // epic 17: document-catalog docs now dominate this domain phrase; the
+  // onderaannemingsketen-register doc is the on-point top hit.
+  { q: "onderaannemingsketen monitoren", topN: { id: "document-doc.onderaannemingsketen-register", n: 5 } },
+  // epic 17: document-catalog entries (type:"document") are now in the corpus —
+  // reachable by their naam/omschrijving language.
+  { q: "opleidingsplan ICT-kennis leidinggevend orgaan", topN: { id: "document-doc.ict-opleidingsplan-bestuur", n: 5 } },
+  { q: "governance-charter ICT-risicotaken bestuur", topN: { id: "document-doc.ict-governance-charter", n: 5 } },
 ];
 
 for (const g of GOLDEN) {

@@ -1,7 +1,7 @@
 "use client";
 
 import { Command } from "cmdk";
-import { FileText, Landmark, ListChecks, ScrollText, Search } from "lucide-react";
+import { FileStack, FileText, Landmark, ListChecks, ScrollText, Search } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import { OPEN_SEARCH_EVENT } from "@/components/layout/Header";
@@ -14,6 +14,7 @@ const TYPE_META = {
   overweging: { label: "Overwegingen", icon: ScrollText },
   bijlage: { label: "Bijlagen", icon: Landmark },
   stap: { label: "Playbook-stappen", icon: ListChecks },
+  document: { label: "Documenten", icon: FileStack },
 } as const;
 
 /** Badge label for stap hits, whose instrument is the playbook kind. */
@@ -88,7 +89,7 @@ export function SearchPalette() {
         <Command.Input
           value={query}
           onValueChange={setQuery}
-          placeholder="Zoek in artikelen, overwegingen, bijlagen en playbook-stappen…"
+          placeholder="Zoek in artikelen, overwegingen, bijlagen, playbook-stappen en documenten…"
           className="h-12 w-full bg-transparent outline-none placeholder:text-muted"
         />
         <kbd className="rounded border border-line bg-surface px-1.5 py-0.5 text-[10px] text-muted">
@@ -131,6 +132,10 @@ export function SearchPalette() {
                       {h.type === "stap" ? (
                         <span className="ml-2 rounded border border-line px-1 py-0.5 align-middle text-[10px] font-medium uppercase tracking-wide text-muted">
                           {PLAYBOOK_LABEL[h.instrument] ?? h.instrument}
+                        </span>
+                      ) : h.type === "document" ? (
+                        <span className="ml-2 rounded border border-line px-1 py-0.5 align-middle text-[10px] font-medium uppercase tracking-wide text-muted">
+                          {h.ref}
                         </span>
                       ) : (
                         h.instrument !== "dora" && (

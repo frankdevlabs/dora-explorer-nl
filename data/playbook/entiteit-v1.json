@@ -356,8 +356,7 @@
             "Leg de scopeconclusie (categorie(ën), groepsstructuur, toegepaste uitsluitingen, NIS2-samenloop) bestuurlijk vast met peildatum en herhaal de toets bij vergunningswijzigingen, fusies, nieuwe activiteiten of wijziging van de nationale opt-out."
           ],
           "bewijsstukken": [
-            "Scopememo met entiteitscategorie(ën), beoordeelde uitsluitingen/opt-outs en NIS2-samenloop, bestuurlijk vastgesteld",
-            "Uitkomst van het assessment (/assessment) met peildatum"
+            { "docId": "doc.scopememo", "detail": "inclusief assessment-uitkomst (/assessment) met peildatum als onderbouwing" }
           ],
           "rollen": [
             "juridisch",
@@ -404,8 +403,8 @@
             "Actualiseer classificatie en dossier bij materiële wijziging van personeelsomvang, omzet, balanstotaal of dienstenportfolio."
           ],
           "bewijsstukken": [
-            "Evenredigheidsdossier met grootteclassificatie (brondata en peildatum) en onderbouwing per open norm",
-            "Bestuursbesluit over het toepasselijke regime (volledig of vereenvoudigd kader)"
+            { "docId": "doc.evenredigheidsdossier" },
+            { "docId": "doc.bestuursbesluitenregister-ict", "detail": "besluit over het toepasselijke regime (volledig of vereenvoudigd kader)" }
           ],
           "rollen": [
             "compliance",
@@ -480,9 +479,9 @@
             "Richt meldingskanalen op bedrijfsniveau in waarmee het bestuur wordt geinformeerd over overeenkomsten met derde ICT-aanbieders, elke relevante geplande materiele wijziging daarin en de potentiele effecten op kritieke of belangrijke functies, inclusief een samenvatting van de risicoanalyse, ernstige ICT-incidenten en respons-, herstel- en corrigerende maatregelen."
           ],
           "bewijsstukken": [
-            "Bestuursreglement of governance-charter met de ICT-risicotaken van artikel 5, lid 2",
-            "Besluitenregister of notulen van de periodieke goedkeuringen",
-            "Beschrijving van de meldingskanalen naar het bestuur"
+            { "docId": "doc.ict-governance-charter", "detail": "met de ICT-risicotaken van artikel 5, lid 2" },
+            { "docId": "doc.bestuursbesluitenregister-ict", "detail": "van de periodieke goedkeuringen" },
+            { "docId": "doc.bestuurlijke-meldingskanalen" }
           ],
           "rollen": [
             "bestuur",
@@ -517,8 +516,8 @@
             "Sluit de taak aan op de meldingskanalen van artikel 5, lid 2, punt i), en op het informatieregister; gebruik de registerwerkbank (/register) als gedeelde databron."
           ],
           "bewijsstukken": [
-            "Benoemingsbesluit of taak-/functiebeschrijving",
-            "Periodieke rapportage over derde-aanbiedersrisico aan het bestuur"
+            { "docId": "doc.rolbeschrijving-derdenrisicotoezicht" },
+            { "docId": "doc.rapportage-derdenrisico-bestuur" }
           ],
           "rollen": [
             "bestuur",
@@ -553,8 +552,9 @@
             "Voed de opleidingsmomenten met actuele dreigings-, incident- en testinformatie uit de eigen organisatie, zodat het bestuur op reele casuistiek traint."
           ],
           "bewijsstukken": [
-            "Opleidingsplan en deelnameregistratie van het bestuur",
-            "Agendapunt of verslag kennisonderhoud in de bestuursevaluatie"
+            { "docId": "doc.ict-opleidingsplan-bestuur" },
+            { "docId": "doc.ict-opleidingsregister-bestuur" },
+            { "docId": "doc.bestuursevaluatie-ict-kennis" }
           ],
           "rollen": [
             "bestuur",
@@ -598,8 +598,7 @@
             "Richt een aanleverprocedure in zodat volledige en geactualiseerde informatie over ICT-risico en het kader op verzoek aan de bevoegde autoriteit kan worden verstrekt, met een benoemde eigenaar."
           ],
           "bewijsstukken": [
-            "Kaderdocument met versiebeheer en bestuursgoedkeuring",
-            "Mapping van het kader op het algemene risicobeheersysteem"
+            { "docId": "doc.ict-risicobeheerkader" }
           ],
           "rollen": [
             "CISO",
@@ -638,8 +637,8 @@
             "Besteedt u verificatietaken inzake de naleving van ICT-risicobeheervereisten uit aan intragroeps- of externe ondernemingen, leg dan contractueel en in de governance vast dat de volledige verantwoordelijkheid voor de nalevingscontrole bij de eigen entiteit blijft."
           ],
           "bewijsstukken": [
-            "Organogram en functiebeschrijving van de controlefunctie",
-            "Uitbestedingsovereenkomst met verantwoordelijkheidsclausule"
+            { "docId": "doc.ict-controlefunctie-mandaat", "detail": "Organogram en functiebeschrijving van de controlefunctie" },
+            { "docId": "doc.controlefunctie-uitbestedingsovereenkomst", "detail": "Met verantwoordelijkheidsclausule" }
           ],
           "rollen": [
             "bestuur",
@@ -674,8 +673,7 @@
             "Gebruik voor het evaluatieverslag het format en de inhoud van artikel 27 GV 2024/1774 en houd het in een elektronisch doorzoekbaar formaat beschikbaar, zodat het bij een verzoek van de bevoegde autoriteit zonder vertraging kan worden ingediend."
           ],
           "bewijsstukken": [
-            "Evaluatiekalender met triggers (incident, toezichtinstructie, test/audit)",
-            "Evaluatieverslag conform art. 27 GV 2024/1774"
+            { "docId": "doc.kaderevaluatie-verslag" }
           ],
           "rollen": [
             "CISO",
@@ -710,8 +708,8 @@
             "Laat het leidinggevend orgaan de interne ICT-auditplannen, de ICT-audits en materiele wijzigingen daarvan goedkeuren en periodiek evalueren."
           ],
           "bewijsstukken": [
-            "ICT-auditplan met risicogebaseerde frequentie",
-            "Follow-upregister van kritieke auditbevindingen met eigenaar en deadline"
+            { "docId": "doc.ict-auditplan", "detail": "Met risicogebaseerde frequentie" },
+            { "docId": "doc.auditbevindingen-register", "detail": "Follow-up van kritieke auditbevindingen met eigenaar en deadline" }
           ],
           "rollen": [
             "bestuur",
@@ -751,9 +749,8 @@
             "Herijk de strategie in de jaarlijkse kaderevaluatie (stap pe.r3) op basis van de incidenttrends en maturiteitsanalyse van artikel 13, lid 4."
           ],
           "bewijsstukken": [
-            "Vastgestelde weerbaarheidsstrategie met KPI's, kernrisicomaatstaven en risicotolerantie",
-            "Bestuursbesluit tot vaststelling",
-            "Multivendorstrategie of gedocumenteerd besluit daarover"
+            { "docId": "doc.digitale-weerbaarheidsstrategie" },
+            { "docId": "doc.bestuursbesluitenregister-ict", "detail": "Bestuursbesluit tot vaststelling van de weerbaarheidsstrategie" }
           ],
           "rollen": [
             "bestuur",
@@ -793,8 +790,7 @@
             "Koppel verouderingssignalen (end-of-support, legacy-status) aan de jaarlijkse legacy-risicobeoordeling van artikel 8, lid 7 (stap pe.r8)."
           ],
           "bewijsstukken": [
-            "Lifecycle- en capaciteitsrapportage met beoordelingsdata",
-            "Besluitvorming over vervanging of versterking van systemen"
+            { "docId": "doc.capaciteits-prestatiebeheer" }
           ],
           "rollen": [
             "IT-operations",
@@ -830,9 +826,7 @@
             "Actualiseer alle inventarissen periodiek en telkens wanneer zich een belangrijke wijziging als bedoeld in artikel 8, lid 3, voordoet."
           ],
           "bewijsstukken": [
-            "Activa-inventaris (CMDB) met criticaliteitsmarkering en configuratiegegevens",
-            "Mapping van bedrijfsfuncties op informatie- en ICT-activa",
-            "Vastlegging van de jaarlijkse evaluatie van classificatie en risicoscenario's"
+            { "docId": "doc.activa-inventaris" }
           ],
           "rollen": [
             "IT-operations",
@@ -883,8 +877,8 @@
             "Leg per beoordeling scope, uitkomst en mitigerende maatregelen vast en registreer geaccepteerde restrisico's in het risicoregister."
           ],
           "bewijsstukken": [
-            "Risicobeoordelingsdossiers per belangrijke wijziging",
-            "Legacy-systemenoverzicht met beoordelingsdatum en uitkomst"
+            { "docId": "doc.risicobeoordeling-wijzigingen", "detail": "Per belangrijke wijziging" },
+            { "docId": "doc.legacy-systemen-register", "detail": "Met beoordelingsdatum en uitkomst" }
           ],
           "rollen": [
             "risk",
@@ -923,9 +917,10 @@
             "Selecteer ICT-oplossingen en -processen (geschikt overeenkomstig artikel 4) die de beveiliging van gegevensoverdracht waarborgen, het risico op aantasting of verlies van gegevens, ongeoorloofde toegang en technische gebreken beperken, en gegevens beschermen tegen gegevensbeheerrisico's zoals slecht bestuur, verwerkingsrisico's en menselijke fouten (art. 9, lid 3)."
           ],
           "bewijsstukken": [
-            "Informatiebeveiligingsbeleid met vaststellingsdatum",
-            "Toegangsbeheer-, authenticatie- en cryptografiebeleid",
-            "Wijzigingsbeheer- en patchmanagementprocedure met registraties"
+            { "docId": "doc.informatiebeveiligingsbeleid", "detail": "Met vaststellingsdatum" },
+            { "docId": "doc.toegangsbeheerbeleid", "detail": "Toegangsbeheer- en authenticatiebeleid" },
+            { "docId": "doc.cryptografiebeleid", "detail": "Cryptografiebeleid" },
+            { "docId": "doc.wijzigingsbeheerprocedure", "detail": "Wijzigingsbeheer- en patchmanagementprocedure met registraties" }
           ],
           "rollen": [
             "CISO",
@@ -974,8 +969,8 @@
             "Aanbieders van datarapporteringsdiensten: richt daarnaast systemen in die transactiemeldingen doeltreffend op volledigheid controleren, omissies en aperte fouten opsporen en om hernieuwde transmissie kunnen verzoeken."
           ],
           "bewijsstukken": [
-            "Beschrijving van de detectiearchitectuur (monitoring/SIEM) met drempels en criteria",
-            "Testverslagen van de detectiemechanismen"
+            { "docId": "doc.detectie-monitoringbeleid", "detail": "Detectiearchitectuur (monitoring/SIEM) met drempels en criteria" },
+            { "docId": "doc.testrapportage-weerbaarheid", "detail": "Testverslagen van de detectiemechanismen" }
           ],
           "rollen": [
             "CISO",
@@ -1023,9 +1018,8 @@
             "Handhaaf en test de ICT-bedrijfscontinuiteitsplannen periodiek, met bijzondere aandacht voor kritieke of belangrijke functies die zijn uitbesteed aan of gecontracteerd bij derde ICT-aanbieders."
           ],
           "bewijsstukken": [
-            "Vastgesteld ICT-bedrijfscontinuiteitsbeleid met bestuursgoedkeuring",
-            "ICT-respons- en herstelplannen met auditverslag",
-            "Continuiteitsplannen voor uitbestede kritieke of belangrijke functies"
+            { "docId": "doc.ict-continuiteitsbeleid" },
+            { "docId": "doc.ict-respons-herstelplan", "detail": "Met auditverslag" }
           ],
           "rollen": [
             "IT-operations",
@@ -1079,8 +1073,7 @@
             "Herijk de BIA bij materiele wijzigingen en gebruik de uitkomsten als input voor de teststrategie en het back-upbeleid (stappen pe.r13 en pe.r15)."
           ],
           "bewijsstukken": [
-            "BIA-rapport met criteria, scenario's en peildatum",
-            "RTO/RPO-matrix per functie"
+            { "docId": "doc.bia-rapport" }
           ],
           "rollen": [
             "risk",
@@ -1116,8 +1109,8 @@
             "Centrale effectenbewaarinstellingen: verstrek de bevoegde autoriteiten kopieen van de resultaten van de ICT-bedrijfscontinuiteitstests of soortgelijke oefeningen."
           ],
           "bewijsstukken": [
-            "Testkalender en testverslagen per plan en scenario",
-            "Verbeterregister met opvolging van testbevindingen"
+            { "docId": "doc.testrapportage-weerbaarheid", "detail": "Testkalender en testverslagen per plan en scenario" },
+            { "docId": "doc.verbetermaatregelen-register", "detail": "Opvolging van testbevindingen" }
           ],
           "rollen": [
             "IT-operations",
@@ -1157,9 +1150,9 @@
             "Registreer kosten en verliezen van ernstige ICT-incidenten zodanig dat op verzoek van de bevoegde autoriteit een raming van de geaggregeerde jaarlijkse kosten en verliezen kan worden verstrekt (verplicht voor andere entiteiten dan micro-ondernemingen); volg daarbij de gemeenschappelijke richtsnoeren van de ETA's als bedoeld in artikel 11, lid 11."
           ],
           "bewijsstukken": [
-            "Crisisbeheerprocedure met rolverdeling en communicatielijnen",
-            "Activeringslogboek van continuiteits- en herstelplannen",
-            "Registratie van kosten en verliezen door ernstige ICT-incidenten"
+            { "docId": "doc.crisisbeheerprocedure", "detail": "Met rolverdeling en communicatielijnen" },
+            { "docId": "doc.activerings-logboek", "detail": "Activeringslogboek van continuïteits- en herstelplannen" },
+            { "docId": "doc.incidentregister", "detail": "Registratie van kosten en verliezen door ernstige ICT-incidenten" }
           ],
           "rollen": [
             "bestuur",
@@ -1201,9 +1194,8 @@
             "Sectorspecifiek: centrale tegenpartijen zorgen dat herstelplannen het herstel van alle transacties ten tijde van de verstoring mogelijk maken; aanbieders van datarapporteringsdiensten houden voldoende middelen en back-up- en terugzetfaciliteiten aan om hun diensten te allen tijde aan te bieden."
           ],
           "bewijsstukken": [
-            "Back-upbeleid met scope en minimale frequenties per gegevenscategorie",
-            "Testverslagen van terugzettings- en hersteltests",
-            "Vastlegging van integriteitscontroles bij herstel"
+            { "docId": "doc.backupbeleid" },
+            { "docId": "doc.testrapportage-weerbaarheid", "detail": "Testverslagen van terugzettings- en hersteltests" }
           ],
           "rollen": [
             "IT-operations",
@@ -1245,8 +1237,7 @@
             "Toets de omschakeling naar reservecapaciteit en -faciliteiten mee in de jaarlijkse tests (stap pe.r13)."
           ],
           "bewijsstukken": [
-            "Redundantie- en capaciteitsontwerp met onderbouwing",
-            "Documentatie van de secundaire verwerkingslocatie (voor centrale effectenbewaarinstellingen)"
+            { "docId": "doc.redundantie-ontwerp" }
           ],
           "rollen": [
             "IT-operations",
@@ -1282,9 +1273,9 @@
             "Laat het leidinggevend ICT-personeel ten minste jaarlijks aan het leidinggevend orgaan verslag uitbrengen over deze bevindingen, met aanbevelingen."
           ],
           "bewijsstukken": [
-            "Post-incidentevaluatieverslagen met verbetermaatregelen",
-            "Jaarlijkse ICT-rapportage aan het leidinggevend orgaan",
-            "Actueel dreigings- en risicobeeld met trendanalyse"
+            { "docId": "doc.post-incident-evaluatie", "detail": "Met verbetermaatregelen" },
+            { "docId": "doc.jaarlijkse-ict-bestuursrapportage", "detail": "Jaarlijkse ICT-rapportage aan het leidinggevend orgaan" },
+            { "docId": "doc.dreigingsbeeld-trendanalyse", "detail": "Actueel dreigings- en risicobeeld met trendanalyse" }
           ],
           "rollen": [
             "CISO",
@@ -1333,8 +1324,8 @@
             "Stem het opleidings- en awarenessbudget af met het leidinggevend orgaan (artikel 5, lid 2, punt g))."
           ],
           "bewijsstukken": [
-            "Opleidingscurriculum met verplichte modules en deelnameregistratie",
-            "Technologiewatch- of trendrapportages"
+            { "docId": "doc.awareness-opleidingsprogramma", "detail": "Opleidingscurriculum met verplichte modules en deelnameregistratie" },
+            { "docId": "doc.technologiewatch-rapportage", "detail": "Technologiewatch- of trendrapportages" }
           ],
           "rollen": [
             "HR",
@@ -1374,8 +1365,7 @@
             "Test de crisiscommunicatieplannen mee in de jaarlijkse tests van artikel 11, lid 6 (stap pe.r13)."
           ],
           "bewijsstukken": [
-            "Crisiscommunicatieplan met doelgroepen en kanalen",
-            "Benoemingsbesluit woordvoerder met vervangingsregeling"
+            { "docId": "doc.crisiscommunicatieplan" }
           ],
           "rollen": [
             "communicatie",
@@ -1414,8 +1404,8 @@
             "Pas het evenredigheidsbeginsel toe conform artikel 1 GV 2024/1774 (omvang, algemeen risicoprofiel en aard, schaal en complexiteit van de dienstverlening) en documenteer de gemaakte keuzes; gebruik het assessment (/assessment) om de dekking te toetsen."
           ],
           "bewijsstukken": [
-            "Gap-analyse GV 2024/1774 met mapping op eigen beleid en controles",
-            "Remedieringsplan met eigenaren en deadlines"
+            { "docId": "doc.gapanalyse-gv1774", "detail": "Met mapping op eigen beleid en controles" },
+            { "docId": "doc.remedieringsplan-gv1774", "detail": "Met eigenaren en deadlines" }
           ],
           "rollen": [
             "CISO",
@@ -1455,9 +1445,9 @@
             "Documenteer en evalueer het kader op gezette tijden overeenkomstig de toezichtinstructies en bij ernstige ICT-incidenten, verbeter het voortdurend op basis van lessen uit uitvoering en monitoring, en dien het evaluatieverslag op verzoek in bij de bevoegde autoriteit."
           ],
           "bewijsstukken": [
-            "Gedocumenteerd vereenvoudigd kader met vaststellingsdatum",
-            "Testverslagen van continuiteitsplannen en controles",
-            "Evaluatieverslag van het vereenvoudigde kader"
+            { "docId": "doc.ict-risicobeheerkader", "detail": "Vereenvoudigd kader (art. 16) met vaststellingsdatum" },
+            { "docId": "doc.testrapportage-weerbaarheid", "detail": "Testverslagen van continuïteitsplannen en controles" },
+            { "docId": "doc.kaderevaluatie-verslag", "detail": "Evaluatieverslag van het vereenvoudigde kader" }
           ],
           "rollen": [
             "bestuur",
@@ -1492,8 +1482,8 @@
             "Gebruik voor het evaluatieverslag van het vereenvoudigde kader het format en de inhoud van artikel 41 GV 2024/1774."
           ],
           "bewijsstukken": [
-            "Gap-analyse art. 28-41 GV 2024/1774",
-            "Evaluatieverslag conform art. 41 GV 2024/1774"
+            { "docId": "doc.gapanalyse-gv1774", "detail": "Gap-analyse art. 28-41 GV 2024/1774 (vereenvoudigd kader)" },
+            { "docId": "doc.kaderevaluatie-verslag", "detail": "Evaluatieverslag conform art. 41 GV 2024/1774" }
           ],
           "rollen": [
             "CISO",
@@ -1531,9 +1521,9 @@
             "Registreer uitzonderingen op de beleidsimplementatie centraal, met compenserende maatregelen en een herbeoordelingsdatum per uitzondering."
           ],
           "bewijsstukken": [
-            "Beleidsdocumenten met goedkeuringsdatum en versiehistorie",
-            "Indicatoren-/maatstavenrapportage over beleidsimplementatie",
-            "Uitzonderingenregister met compenserende maatregelen"
+            { "docId": "doc.informatiebeveiligingsbeleid", "detail": "alle ICT-beveiligingsbeleidslijnen met goedkeuringsdatum en versiehistorie (art. 2, lid 2 GV 2024/1774-detaileisen)" },
+            { "docId": "doc.ict-beleidsmonitoring-rapportage", "detail": "indicatoren en maatstaven over beleidsimplementatie" },
+            { "docId": "doc.ict-beveiliging-uitzonderingenregister", "detail": "met compenserende maatregelen" }
           ],
           "rollen": [
             "CISO",
@@ -1573,9 +1563,9 @@
             "Monitor doorlopend veranderingen in het ICT-risico- en cyberdreigingslandschap en in interne en externe kwetsbaarheden, en verwerk wijzigingen in de bedrijfsstrategie en de weerbaarheidsstrategie in de risicobeoordeling."
           ],
           "bewijsstukken": [
-            "Gedocumenteerde ICT-risicobeoordelingsmethodiek",
-            "Restrisicoregister met jaarlijkse evaluatieverslagen",
-            "Monitoringrapportage dreigingslandschap"
+            { "docId": "doc.ict-risicobeheerkader", "detail": "gedocumenteerde ICT-risicobeoordelingsmethodiek (art. 3 GV 2024/1774-detaileisen)" },
+            { "docId": "doc.ict-restrisicoregister", "detail": "met jaarlijkse evaluatieverslagen" },
+            { "docId": "doc.dreigingsbeeld-trendanalyse" }
           ],
           "rollen": [
             "risk",
@@ -1615,9 +1605,8 @@
             "Koppel de vastleggingen aan de inventarissen van stap pe.r7 en gebruik de end-of-support-data als input voor de jaarlijkse legacy-risicobeoordeling (stap pe.r8)."
           ],
           "bewijsstukken": [
-            "ICT-assetbeheerbeleid en -procedure",
-            "Assetregister-extract met de verplichte velden",
-            "Vastgelegde kritikaliteitsbeoordelingscriteria met beoordelingsresultaten"
+            { "docId": "doc.ict-assetbeheerbeleid" },
+            { "docId": "doc.activa-inventaris", "detail": "register-extract met de verplichte velden (art. 4, lid 2 GV 2024/1774)" }
           ],
           "rollen": [
             "IT-operations",
@@ -1657,9 +1646,8 @@
             "Houd ten minste voor ICT-assets die kritieke of belangrijke functies ondersteunen een actueel register bij van alle certificaten en certificaatopslagapparaten, en borg dat certificaten direct vóór hun vervaldatum worden verlengd."
           ],
           "bewijsstukken": [
-            "Beleid encryptie en cryptografische controles incl. sleutelbeheer",
-            "Certificatenregister met verloopbewaking",
-            "Vastlegging en onderbouwing van mitigatiemaatregelen bij afwijkingen"
+            { "docId": "doc.cryptografiebeleid" },
+            { "docId": "doc.certificatenregister", "detail": "met verloopbewaking" }
           ],
           "rollen": [
             "CISO",
@@ -1703,9 +1691,9 @@
             "Richt procedures voor capaciteits- en performancemanagement in: capaciteitsvereisten per ICT-systeem, resource-optimalisatie en monitoring gericht op beschikbaarheid van gegevens en systemen, efficiëntie en het voorkomen van capaciteitstekorten, met passende maatregelen voor ICT-systemen met lange of complexe aankoop- of goedkeuringsprocessen of hulpbronnenintensieve systemen."
           ],
           "bewijsstukken": [
-            "Beleidslijnen en procedures ICT-operaties",
-            "Register van goedgekeurde tests in productie met argumentatie en looptijd",
-            "Capaciteits- en performancemonitoringrapportage"
+            { "docId": "doc.ict-operatiesbeleid", "detail": "beleidslijnen en procedures ICT-operaties (art. 8)" },
+            { "docId": "doc.productietest-register", "detail": "goedgekeurde tests in productie met argumentatie en looptijd (art. 8, lid 2, punt b), vii))" },
+            { "docId": "doc.capaciteits-prestatiebeheer" }
           ],
           "rollen": [
             "IT-operations",
@@ -1750,9 +1738,8 @@
             "Regel patchmanagement: inventariseer en evalueer beschikbare software- en hardwarepatches (zo veel mogelijk met geautomatiseerde tools), voorzie in noodprocedures voor patching en updating, test patches en rol ze uit via de gescheiden omgevingen van artikel 8, en stel installatietermijnen vast met escalatieprocedures wanneer termijnen niet haalbaar zijn."
           ],
           "bewijsstukken": [
-            "Procedures kwetsbaarheden- en patchmanagement",
-            "Scanrapportages met wekelijkse frequentie voor kritieke assets",
-            "Patchrapportage met termijnbewaking en escalaties"
+            { "docId": "doc.kwetsbaarheden-patchbeheerprocedure", "detail": "procedures kwetsbaarheden- en patchmanagement (art. 10)" },
+            { "docId": "doc.kwetsbaarheden-patchrapportage" }
           ],
           "rollen": [
             "CISO",
@@ -1793,9 +1780,9 @@
             "Leg voor ICT-assets of -diensten die door een derde aanbieder worden geopereerd weerbaarheidsvereisten vast: implementatie van leveranciersaanbevolen instellingen, een duidelijke rolverdeling voor informatiebeveiliging met behoud van de volledige eigen aansprakelijkheid, voldoende interne competenties voor beheer en beveiliging van de dienst, en technische en organisatorische maatregelen voor de infrastructuur van de aanbieder."
           ],
           "bewijsstukken": [
-            "Procedure gegevens- en systeembeveiliging",
-            "Configuratiebaselines met compliance-controlerapportage",
-            "Logboek veilig wissen en afvoer/ontmanteling van opslagapparaten"
+            { "docId": "doc.gegevens-systeembeveiligingsprocedure", "detail": "procedure gegevens- en systeembeveiliging (art. 11)" },
+            { "docId": "doc.veilige-configuratiebaselines", "detail": "met compliance-controlerapportage (art. 11, lid 2, punt b))" },
+            { "docId": "doc.gegevensvernietiging-logboek", "detail": "veilig wissen en afvoer/ontmanteling van opslagapparaten (art. 11, lid 2, punten g)-h))" }
           ],
           "rollen": [
             "CISO",
@@ -1835,9 +1822,8 @@
             "Synchroniseer de klokken van alle ICT-systemen met één gedocumenteerde betrouwbare referentietijdbron."
           ],
           "bewijsstukken": [
-            "Loggingbeleid met eventlijst, detailniveau en retentietermijnen",
-            "Configuratiebewijs kloksynchronisatie",
-            "Toegangs- en integriteitscontroles op loggingsystemen"
+            { "docId": "doc.loggingbeleid" },
+            { "docId": "doc.logintegriteit-beschermingsbewijs", "detail": "toegangs- en integriteitscontroles op loggingsystemen (art. 12, lid 2, punt d))" }
           ],
           "rollen": [
             "IT-operations",
@@ -1875,9 +1861,9 @@
             "Bescherm informatie in transit op basis van de goedgekeurde dataclassificatie en risicobeoordeling: borg beschikbaarheid, authenticiteit, integriteit en vertrouwelijkheid tijdens netwerkdoorgifte met procedures om de naleving te beoordelen, voorkom en detecteer datalekken bij overdracht tussen de entiteit en externe partijen, en implementeer, documenteer en evalueer regelmatig vertrouwelijkheids- en geheimhoudingsafspraken voor medewerkers en derden."
           ],
           "bewijsstukken": [
-            "Netwerkbeveiligingsbeleid met segmentatieontwerp en gegevensstroomdocumentatie",
-            "Halfjaarlijkse firewallreviewverslagen voor kritieke systemen en jaarlijkse netwerkarchitectuurevaluatie",
-            "Geheimhoudingsafspraken met evaluatiecyclus"
+            { "docId": "doc.netwerkbeveiligingsbeleid", "detail": "met segmentatieontwerp en gegevensstroomdocumentatie (art. 13)" },
+            { "docId": "doc.firewall-netwerkarchitectuur-review", "detail": "halfjaarlijkse firewallreviews en jaarlijkse netwerkarchitectuurevaluatie (art. 13, punten h)-i))" },
+            { "docId": "doc.geheimhoudingsovereenkomst", "detail": "met evaluatiecyclus (art. 14, lid 1, punt c))" }
           ],
           "rollen": [
             "IT-operations",
@@ -1916,9 +1902,9 @@
             "Rapporteer opzet, voortgang en risico's van ICT-projecten met impact op kritieke of belangrijke functies aan het leidinggevend orgaan: individueel of geaggregeerd afhankelijk van belang en omvang, periodiek en waar nodig event-driven; leg de frequentie in het beleid vast."
           ],
           "bewijsstukken": [
-            "ICT-projectmanagementbeleid",
-            "Projectrisicobeoordelingen en testgoedkeuringen per project",
-            "Bestuursrapportage over de ICT-projectportfolio"
+            { "docId": "doc.ict-projectmanagementbeleid", "detail": "ICT-projectmanagementbeleid (art. 15)" },
+            { "docId": "doc.ict-projectdossier", "detail": "projectrisicobeoordelingen en testgoedkeuringen per project (art. 15, lid 3)" },
+            { "docId": "doc.ict-projectportfolio-rapportage", "detail": "bestuursrapportage ICT-projectportfolio (art. 15, lid 5)" }
           ],
           "rollen": [
             "IT-operations",
@@ -1954,9 +1940,9 @@
             "Pas het beleid en de procedure risicogebaseerd ook toe op ICT-systemen die buiten de ICT-functie door eindgebruikers worden ontwikkeld of beheerd (end-user computing) en houd daarvan een inventaris bij."
           ],
           "bewijsstukken": [
-            "Beleid aanschaf, ontwikkeling en onderhoud van ICT-systemen",
-            "Testplannen en goedkeuringsverslagen vóór productiegang",
-            "EUC-inventaris met risicobeoordeling"
+            { "docId": "doc.systeemontwikkelingsbeleid", "detail": "beleid aanschaf, ontwikkeling en onderhoud ICT-systemen (art. 16, lid 1)" },
+            { "docId": "doc.systeemtest-goedkeuringsverslag", "detail": "testplannen en goedkeuringsverslagen vóór productiegang (art. 16, lid 2)" },
+            { "docId": "doc.euc-inventaris", "detail": "met risicobeoordeling (art. 16, lid 9)" }
           ],
           "rollen": [
             "IT-operations",
@@ -2000,9 +1986,9 @@
             "Implementeer beheersmaatregelen die de integriteit beschermen van broncode die intern is ontwikkeld of door een derde aanbieder van ICT-diensten is ontwikkeld en geleverd."
           ],
           "bewijsstukken": [
-            "Rapportages van broncodereviews en beveiligingstests met actieplannen",
-            "Procedure testdatabeheer met goedkeuringen en meldingen aan de risicofunctie",
-            "Integriteits- en toegangscontroles op broncoderepository's"
+            { "docId": "doc.broncodereview-rapportage", "detail": "broncodereviews en beveiligingstests met actieplannen (art. 16, lid 3)" },
+            { "docId": "doc.testdatabeheer-procedure", "detail": "met goedkeuringen en meldingen aan de risicofunctie (art. 16, leden 5-6)" },
+            { "docId": "doc.systeemontwikkelingsbeleid", "detail": "beheersmaatregelen broncode-integriteit en repository-toegang (art. 16, leden 7-8)" }
           ],
           "rollen": [
             "IT-operations",
@@ -2041,9 +2027,8 @@
             "Beoordeel per wijziging de potentiële impact op bestaande ICT-beveiligingsmaatregelen en of de wijziging aanvullende beveiligingsmaatregelen vereist."
           ],
           "bewijsstukken": [
-            "ICT-wijzigingsbeheerprocedure",
-            "Wijzigingsregistraties met goedkeuringen, testresultaten en fall-back",
-            "Register van noodwijzigingen met beoordeling achteraf"
+            { "docId": "doc.wijzigingsbeheerprocedure", "detail": "ICT-wijzigingsbeheerprocedure (art. 17, lid 1)" },
+            { "docId": "doc.wijzigingsregister" }
           ],
           "rollen": [
             "IT-operations",
@@ -2078,9 +2063,8 @@
             "Voer een clear-deskbeleid voor papier en een clear-screenbeleid voor informatieverwerkende faciliteiten in en controleer de naleving daarvan."
           ],
           "bewijsstukken": [
-            "Beleid fysieke beveiliging en milieubeveiliging",
-            "Zonering en beveiligingsmaatregelen per locatie/datacenter",
-            "Onderhouds- en inspectieregistraties"
+            { "docId": "doc.fysieke-beveiligingsbeleid" },
+            { "docId": "doc.fysieke-onderhoud-inspectieregister", "detail": "onderhouds- en inspectieregistraties (art. 18, lid 2, punt d))" }
           ],
           "rollen": [
             "CISO",
@@ -2116,9 +2100,9 @@
             "Richt het offboardingsproces zo in dat vertrekkende medewerkers alle ICT-assets en materiële informatieassets van de entiteit aantoonbaar teruggeven."
           ],
           "bewijsstukken": [
-            "HR-beleid met ICT-beveiligingselementen",
-            "Onboarding-/offboardingchecklists met asset-teruggave",
-            "Contract- en inhuurclausules over ICT-beveiliging"
+            { "docId": "doc.hr-ict-beveiligingsbeleid", "detail": "HR-beleid met ICT-beveiligingselementen (art. 19)" },
+            { "docId": "doc.onboarding-offboarding-checklist", "detail": "met asset-teruggave (art. 19, punt b), iii))" },
+            { "docId": "doc.personeel-ict-clausules", "detail": "contract- en inhuurclausules over ICT-beveiliging (art. 19, punt b))" }
           ],
           "rollen": [
             "HR",
@@ -2156,9 +2140,9 @@
             "Implementeer fysieke toegangscontrole: identificeer en log personen met geautoriseerde toegang tot locaties, datacentra en gevoelige zones (evenredig aan belang en kritiek karakter), verleen fysieke toegang tot kritieke ICT-assets uitsluitend op ad-hocbasis aan geautoriseerden, monitor de toegang en herzie rechten met prompte intrekking van wat niet nodig is."
           ],
           "bewijsstukken": [
-            "IAM-beleid en -procedures met lifecycle-proces",
-            "Hercertificeringsrapportages (jaarlijks; halfjaarlijks voor kritieke of belangrijke functies)",
-            "PAM-inrichting en logs van fysieke toegang"
+            { "docId": "doc.toegangsbeheerbeleid", "detail": "IAM-beleid en -procedures met lifecycle-proces (art. 20-21 GV 2024/1774-detaileisen)" },
+            { "docId": "doc.toegangsrechten-hercertificering-rapportage", "detail": "jaarlijks; halfjaarlijks voor kritieke of belangrijke functies (art. 21, punt e), iv))" },
+            { "docId": "doc.fysieke-toegang-log", "detail": "PAM-inrichting en logs van fysieke toegang (art. 21, punten e)-g))" }
           ],
           "rollen": [
             "CISO",
@@ -2200,9 +2184,9 @@
             "Leg de criteria vast voor activering van de detectie- en responsprocessen — aanwijzingen voor kwaadwillige activiteit of compromittering, datalekken, negatieve impact op transacties en operaties, onbeschikbaarheid van ICT-systemen of -netwerk — en weeg daarbij het kritieke karakter van de getroffen diensten mee."
           ],
           "bewijsstukken": [
-            "Detectie- en responsprocedure met rollen en activeringscriteria",
-            "SIEM-/alertconfiguratie met prioriteringsregels en detectieregels op logintegriteit",
-            "Bewijs van integriteitsbescherming van detectievastleggingen"
+            { "docId": "doc.detectie-monitoringbeleid", "detail": "met rollen en activeringscriteria (art. 23)" },
+            { "docId": "doc.detectie-monitoring-configuratie", "detail": "SIEM-/alertconfiguratie met prioriteringsregels en detectieregels op logintegriteit (art. 23, lid 2)" },
+            { "docId": "doc.logintegriteit-beschermingsbewijs", "detail": "integriteitsbescherming van detectievastleggingen (art. 23, lid 3)" }
           ],
           "rollen": [
             "CISO",
@@ -2241,9 +2225,8 @@
             "Betrek clearingleden en cliënten, interoperabele centrale tegenpartijen en andere belanghebbenden, respectievelijk gebruikers, leveranciers van kritieke voorzieningen en diensten, externe leveranciers, andere CSD's en andere marktinfrastructuren en afhankelijke instellingen, waar nodig bij de opzet en uitvoering van systeemtests vóór ingebruikname, de tests van continuïteitsplannen en de strenge stresstests (gesimuleerde stresssituaties) na significante ICT-wijzigingen."
           ],
           "bewijsstukken": [
-            "Continuïteitsbeleid met onderbouwde RTO's (≤ 2 uur) en locatiestrategie",
-            "Failover-testverslagen van de secundaire verwerkingslocatie",
-            "Testverslagen met deelname van clearingleden, gebruikers en ketenpartijen"
+            { "docId": "doc.ict-continuiteitsbeleid", "detail": "aanvullende CTP/CSD/handelsplatform-eisen: onderbouwde RTO's (≤ 2 uur) en locatiestrategie (art. 24, leden 2-4 GV 2024/1774)" },
+            { "docId": "doc.testrapportage-weerbaarheid" }
           ],
           "rollen": [
             "IT-operations",
@@ -2305,9 +2288,8 @@
             "Onderzoek en implementeer continuïteitsmaatregelen die het falen van derde aanbieders van ICT-diensten voor kritieke of belangrijke functies mitigeren."
           ],
           "bewijsstukken": [
-            "ICT-respons- en -herstelplannen met activeringscriteria en scenariocatalogus",
-            "Bewijs van distributie en noodtoegankelijkheid van de plannen",
-            "Analyse van alternatieve herstelopties en TPP-falen-mitigaties"
+            { "docId": "doc.ict-respons-herstelplan" },
+            { "docId": "doc.herstelopties-tpp-analyse", "detail": "alternatieve herstelopties en TPP-falen-mitigaties (art. 26, leden 3-4)" }
           ],
           "rollen": [
             "IT-operations",
@@ -2347,9 +2329,10 @@
             "Richt de follow-up in: tijdige controle op en remediëring van kritieke ICT-auditbevindingen, met per bevinding een eigenaar en een deadline."
           ],
           "bewijsstukken": [
-            "Governancedocument met taakverdeling ICT-functies en bestuursbesluiten (doelstellingen, budget, rapportageregelingen)",
-            "ICT-auditplan met deskundigheids- en onafhankelijkheidstoets van de auditors",
-            "Follow-upregister van kritieke auditbevindingen met eigenaar en deadline"
+            { "docId": "doc.ict-governance-charter", "detail": "taakverdeling ICT-functies, vereenvoudigd kader" },
+            { "docId": "doc.bestuursbesluitenregister-ict", "detail": "bestuursbesluiten over doelstellingen, budget en rapportageregelingen" },
+            { "docId": "doc.ict-auditplan", "detail": "met deskundigheids- en onafhankelijkheidstoets, vereenvoudigd kader" },
+            { "docId": "doc.auditbevindingen-register", "detail": "kritieke auditbevindingen met eigenaar en deadline, vereenvoudigd kader" }
           ],
           "rollen": [
             "bestuur",
@@ -2406,9 +2389,9 @@
             "Breng alle kritieke of belangrijke functies in kaart die door derde ICT-aanbieders worden ondersteund en houd dit overzicht consistent met het informatieregister (registerwerkbank op /register)."
           ],
           "bewijsstukken": [
-            "Vastgesteld informatiebeveiligingsbeleid met versie- en goedkeuringsdatum",
-            "Inventaris van kritieke of belangrijke functies en assets met classificatie en afhankelijkheden",
-            "Overzicht van door derde aanbieders ondersteunde kritieke of belangrijke functies"
+            { "docId": "doc.informatiebeveiligingsbeleid", "detail": "vastgesteld met versie- en goedkeuringsdatum, vereenvoudigd kader" },
+            { "docId": "doc.activa-inventaris", "detail": "kritieke/belangrijke functies en assets met classificatie en afhankelijkheden, vereenvoudigd kader" },
+            { "docId": "doc.informatieregister", "detail": "overzicht door derde aanbieders ondersteunde kritieke/belangrijke functies, vereenvoudigd kader" }
           ],
           "rollen": [
             "CISO",
@@ -2457,9 +2440,8 @@
             "Stel alarmdrempels en -criteria vast voor het activeren en initiëren van de ICT-incidentresponsprocessen en sluit deze aan op het incidentproces van fase 4."
           ],
           "bewijsstukken": [
-            "Risicoregister met tolerantieniveaus, mitigatiestrategieën en monitoringsuitkomsten",
-            "Vastlegging van de periodieke risicobeoordeling met datum en scope",
-            "Document met alarmdrempels en -criteria voor incidentrespons"
+            { "docId": "doc.ict-risicobeheerkader" },
+            { "docId": "doc.incidentbeheerprocedure", "detail": "alarmdrempels en -criteria voor incidentrespons, vereenvoudigd kader" }
           ],
           "rollen": [
             "risk",
@@ -2506,9 +2488,8 @@
             "Gegevens en netwerk: bescherm data in gebruik, in transit en in rust; beveilig software, opslagmedia, systemen en endpoints; voorkom en detecteer ongeautoriseerde netwerkverbindingen en beveilig het verkeer tussen interne netwerken, internet en andere externe verbindingen; richt processen in voor het veilig wissen van niet langer benodigde gegevens en het afvoeren of ontmantelen van gegevensdragers met vertrouwelijke informatie; en tref maatregelen zodat thuiswerk en privé-endpoints de veilige uitvoering van kritieke activiteiten niet raken."
           ],
           "bewijsstukken": [
-            "Toegangsbeheerprocedure met accountbeheer, logging van privileged access en periodieke reviewverslagen",
-            "Kwetsbaarheidsscan- en patchrapportages plus loggingbeleid",
-            "Ontwerp van netwerk- en gegevensbeveiliging inclusief wis- en afvoerproces en thuiswerkmaatregelen"
+            { "docId": "doc.toegangsbeheerbeleid", "detail": "accountbeheer, logging van privileged access en periodieke reviewverslagen, vereenvoudigd kader" },
+            { "docId": "doc.informatiebeveiligingsbeleid" }
           ],
           "rollen": [
             "CISO",
@@ -2559,9 +2540,7 @@
             "Documenteer een procedure voor ICT-projectmanagement die alle stadia van initiëren tot afsluiten omvat met gespecificeerde rollen en verantwoordelijkheden, en een procedure voor ICT-wijzigingsbeheer waarin alle wijzigingen beheerst worden vastgelegd, getest, beoordeeld, goedgekeurd, geïmplementeerd en geverifieerd."
           ],
           "bewijsstukken": [
-            "Testplan ICT-beveiliging met testverslagen en opvolging van bevindingen",
-            "Procedure aanschaf, ontwikkeling en onderhoud met goedkeuringsvastlegging",
-            "Project- en wijzigingsbeheerprocedure met wijzigingsregister"
+            { "docId": "doc.informatiebeveiligingsbeleid" }
           ],
           "rollen": [
             "CISO",
@@ -2614,9 +2593,8 @@
             "Documenteer de testuitkomsten, analyseer en verhelp geconstateerde tekortkomingen en rapporteer deze aan het leidinggevend orgaan."
           ],
           "bewijsstukken": [
-            "Door het bestuur goedgekeurd ICT-bedrijfscontinuïteitsplan met versiebeheer",
-            "Testkalender en testverslagen van de jaarlijkse back-up- en hersteltests",
-            "Rapportage van tekortkomingen en opvolging aan het leidinggevend orgaan"
+            { "docId": "doc.ict-continuiteitsbeleid" },
+            { "docId": "doc.backupbeleid", "detail": "testkalender en testverslagen jaarlijkse back-up- en hersteltests, vereenvoudigd kader" }
           ],
           "rollen": [
             "IT-operations",
@@ -2668,7 +2646,7 @@
             "Laat het verslag goedkeuren door het leidinggevend orgaan en archiveer versie en indieningsbewijs."
           ],
           "bewijsstukken": [
-            "Evaluatieverslag in elektronisch doorzoekbaar formaat met goedkeurings- en indieningsvastlegging"
+            { "docId": "doc.ict-risicobeheerkader", "detail": "periodiek evaluatieverslag van het vereenvoudigde kader in elektronisch doorzoekbaar formaat met goedkeurings- en indieningsvastlegging" }
           ],
           "rollen": [
             "risk",
@@ -2725,9 +2703,9 @@
             "Stel responsprocedures vast die de effecten beperken en de diensten tijdig operationeel en veilig maken."
           ],
           "bewijsstukken": [
-            "Vastgestelde incidentbeheerprocedure met rollen- en escalatiematrix",
-            "Communicatieplan incidenten (personeel, media, cliënten, tegenpartijen)",
-            "Bestuurs-/MT-rapportage over ernstige incidenten"
+            { "docId": "doc.incidentbeheerprocedure", "detail": "met rollen- en escalatiematrix" },
+            { "docId": "doc.incident-communicatieplan", "detail": "personeel, media, cliënten en tegenpartijen" },
+            { "docId": "doc.incident-bestuursrapportage" }
           ],
           "rollen": [
             "CISO",
@@ -2774,9 +2752,8 @@
             "Beoordeel maandelijks of er terugkerende incidenten zijn: twee of meer incidenten binnen zes maanden met dezelfde kennelijk onderliggende oorzaak gelden samen als één ernstig incident wanneer zij gezamenlijk aan de ernstig-criteria voldoen (art. 8, lid 2, GV 2024/1772; dit hele lid geldt niet voor micro-ondernemingen en art. 16-entiteiten)."
           ],
           "bewijsstukken": [
-            "Incidentregister met classificatie- en meldvelden",
-            "Oorzaakanalyses met opvolgstatus van verbetermaatregelen",
-            "Maandelijkse toets terugkerende incidenten"
+            { "docId": "doc.incidentregister" },
+            { "docId": "doc.terugkerende-incidenten-toets" }
           ],
           "rollen": [
             "IT-operations",
@@ -2818,9 +2795,9 @@
             "Leg per incident de classificatie-uitkomst en onderbouwing vast in het incidentregister en test de beslisboom periodiek op casuïstiek, ook op betalingsgerelateerde scenario's."
           ],
           "bewijsstukken": [
-            "Classificatiebeslisboom met drempeltabel per criterium",
-            "Classificatiedossiers van recente incidenten met onderbouwing",
-            "Testverslag van de beslisboom op casuïstiek"
+            { "docId": "doc.incident-classificatiemethodiek", "detail": "beslisboom met drempeltabel per criterium" },
+            { "docId": "doc.incident-classificatiedossier", "detail": "recente incidenten met onderbouwing" },
+            { "docId": "doc.incident-oefenverslag", "detail": "test van de classificatiebeslisboom op casuïstiek" }
           ],
           "rollen": [
             "CISO",
@@ -2872,9 +2849,8 @@
             "Oefen het volledige meldproces ten minste jaarlijks met een scenario, inclusief het invullen van het model tegen de klok."
           ],
           "bewijsstukken": [
-            "Meldprocedure met termijnentabel (4/24 uur, 72 uur, 1 maand) en autorisatiematrix",
-            "Oefenverslag meldproces met ingevulde testmelding",
-            "Overzicht meldkanaal en contactgegevens bevoegde autoriteit"
+            { "docId": "doc.incident-meldprocedure" },
+            { "docId": "doc.incident-oefenverslag", "detail": "oefening meldproces met ingevulde testmelding" }
           ],
           "rollen": [
             "CISO",
@@ -2927,9 +2903,8 @@
             "Registreer elke cliëntkennisgeving (tijdstip, doelgroep, inhoud, kanaal) in het incidentdossier."
           ],
           "bewijsstukken": [
-            "Procedure cliëntkennisgeving met trigger en doorlooptijd",
-            "Geaccordeerde communicatiesjablonen",
-            "Log van verzonden cliëntkennisgevingen per incident"
+            { "docId": "doc.incident-communicatieplan" },
+            { "docId": "doc.incidentregister", "detail": "log van verzonden cliëntkennisgevingen per incident" }
           ],
           "rollen": [
             "communicatie",
@@ -2966,8 +2941,8 @@
             "Verwerk in de afweging dat de bevoegde autoriteit de informatie kan delen met de in artikel 19, lid 6, genoemde autoriteiten en dat lidstaten doorzending naar CSIRT's mogelijk kunnen maken."
           ],
           "bewijsstukken": [
-            "Beleidsparagraaf vrijwillige dreigingsmelding met beslisbevoegdheid",
-            "Eventuele ingediende kennisgevingen met interne afweging"
+            { "docId": "doc.incident-meldprocedure", "detail": "beleidsparagraaf vrijwillige melding significante cyberdreigingen met beslisbevoegdheid" },
+            { "docId": "doc.incidentregister", "detail": "ingediende vrijwillige kennisgevingen met interne afweging" }
           ],
           "rollen": [
             "CISO",
@@ -3018,9 +2993,8 @@
             "Stel de bevoegde autoriteit in kennis zodra de uitbestedingsovereenkomst is gesloten en in elk geval vóór de eerste indiening van een kennisgeving of verslag; verstrek daarbij naam, contactgegevens en identificatiecode van de derde partij, actualiseer de kennisgeving bij wijzigingen en meld beëindiging van de uitbesteding onmiddellijk (art. 6 UV 2025/302)."
           ],
           "bewijsstukken": [
-            "Uitbestedingsbesluit met verantwoordelijkheidsclausule",
-            "Contractbepalingen over termijnen en aanlevering",
-            "Kennisgeving aan de bevoegde autoriteit"
+            { "docId": "doc.melduitbesteding-regeling" },
+            { "docId": "doc.tpp-contractsjabloon", "detail": "contractbepalingen over meldtermijnen en aanlevering" }
           ],
           "rollen": [
             "compliance",
@@ -3065,8 +3039,9 @@
             "Controleer dat scenario-oefeningen van het meldproces ook een betalingsgerelateerd incident zonder ICT-oorzaak bevatten."
           ],
           "bewijsstukken": [
-            "Scopedocument betalingsgerelateerde incidenten",
-            "Aangepaste classificatie- en meldprocedure met betalingsscenario's"
+            { "docId": "doc.betalingsincident-scopememo" },
+            { "docId": "doc.incident-classificatiemethodiek", "detail": "aangevuld met betalingsscenario's" },
+            { "docId": "doc.incident-meldprocedure", "detail": "aangevuld met betalingsscenario's" }
           ],
           "rollen": [
             "CISO",
@@ -3103,9 +3078,9 @@
             "Stel een ramingsprotocol vast: raam aantallen en hoeveelheden (cliënten, tegenpartijen, transacties) die niet werkelijk bepaald kunnen worden op basis van beschikbare gegevens uit vergelijkbare referentieperioden, en raam tijdstippen en bedragen op basis van de bij rapportage beschikbare gegevens, en documenteer elke raming met bron en aanname in het classificatiedossier."
           ],
           "bewijsstukken": [
-            "Meet- en telregeldocument per classificatiecriterium (incl. noemers per dienst)",
-            "Lijst van als relevant aangemerkte cliënten en financiële tegenpartijen",
-            "Classificatiedossiers met gedocumenteerde ramingen"
+            { "docId": "doc.incident-classificatiemethodiek", "detail": "meet- en telregels per classificatiecriterium incl. noemers per dienst" },
+            { "docId": "doc.relevante-tegenpartijen-register" },
+            { "docId": "doc.incident-classificatiedossier", "detail": "met gedocumenteerde ramingen" }
           ],
           "rollen": [
             "IT-operations",
@@ -3150,8 +3125,7 @@
             "Bereken op basis van de bij rapportage beschikbare gegevens, raam ontbrekende werkelijke bedragen en actualiseer de bedragen bij het tussentijdse en het eindverslag."
           ],
           "bewijsstukken": [
-            "Kostensjabloon incidentkosten met de acht kostensoorten en uitsluitingen",
-            "Kostenreconstructie van een recent (ernstig) incident met drempeltoets"
+            { "docId": "doc.incidentregister" }
           ],
           "rollen": [
             "risk",
@@ -3193,9 +3167,7 @@
             "Voer vóór elke indiening een vier-ogencontrole uit op volledigheid en nauwkeurigheid, met het glossarium en de instructies van bijlage II (veldtype, keuzelijsten) als toetssteen."
           ],
           "bewijsstukken": [
-            "Veldenmatrix meldtemplate ↔ bronsystemen per meldfase",
-            "Ingerichte meldtemplate of -tooling met verplichte velden",
-            "Vier-ogencontrolelijst per indiening"
+            { "docId": "doc.incident-meldprocedure" }
           ],
           "rollen": [
             "CISO",
@@ -3252,8 +3224,8 @@
             "Neem herclassificatie-informatie ook op in de eerste kennisgeving wanneer de afschaling zich al bij die melding aftekent."
           ],
           "bewijsstukken": [
-            "Procedureparagraaf gecombineerde/geaggregeerde indiening en herclassificatie",
-            "Herclassificatiekennisgevingen met interne herbeoordeling"
+            { "docId": "doc.incident-meldprocedure", "detail": "procedureparagraaf gecombineerde/geaggregeerde indiening en herclassificatie" },
+            { "docId": "doc.incident-classificatiedossier", "detail": "herclassificatiekennisgevingen met interne herbeoordeling" }
           ],
           "rollen": [
             "CISO",
@@ -3296,9 +3268,8 @@
             "Beheer de toegangsmiddelen actief: registreer vervaldatums van certificaten en accounts en controleer de werking ten minste jaarlijks, bijvoorbeeld als onderdeel van de meldoefening uit pe.i4."
           ],
           "bewijsstukken": [
-            "Accountregistratie meldportaal met beheerders en vervaldatums",
-            "Terugvalprocedure kanaalstoring",
-            "Testlog toegang meldkanaal"
+            { "docId": "doc.incident-meldprocedure" },
+            { "docId": "doc.incident-oefenverslag", "detail": "testlog toegang meldkanaal" }
           ],
           "rollen": [
             "IT-operations",
@@ -3339,8 +3310,8 @@
             "Controleer bij elke geaggregeerde indiening dat de namen en LEI-codes van alle betrokken financiële entiteiten zijn opgenomen."
           ],
           "bewijsstukken": [
-            "Toetsingsmemo voorwaarden geaggregeerde rapportage",
-            "Contractafspraken over individuele en geaggregeerde melding"
+            { "docId": "doc.geaggregeerde-melding-toetsingsmemo" },
+            { "docId": "doc.tpp-contractsjabloon", "detail": "contractafspraken over individuele en geaggregeerde melding" }
           ],
           "rollen": [
             "compliance",
@@ -3402,8 +3373,8 @@
             "Bent u een micro-onderneming: combineer een risicogebaseerde aanpak met een strategische ICT-testplanning en documenteer de afweging tussen beschikbare middelen en tijd enerzijds en urgentie, risicotype en kritikaliteit anderzijds."
           ],
           "bewijsstukken": [
-            "Vastgesteld testprogramma met scope, testvormen en frequenties",
-            "Jaarlijkse testkalender voor systemen die kritieke of belangrijke functies ondersteunen, met uitvoeringsregistratie"
+            { "docId": "doc.testprogramma-weerbaarheid", "detail": "vastgesteld programma met scope, testvormen en frequenties" },
+            { "docId": "doc.weerbaarheidstestkalender", "detail": "jaarlijkse kalender voor systemen die kritieke of belangrijke functies ondersteunen, met uitvoeringsregistratie" }
           ],
           "rollen": [
             "CISO",
@@ -3455,8 +3426,8 @@
             "Bent u een centrale effectenbewaarinstelling of centrale tegenpartij: voer een kwetsbaarheidsbeoordeling uit vóór elke inzet of herinzet van nieuwe of bestaande toepassingen, infrastructuurcomponenten en ICT-diensten die kritieke of belangrijke functies ondersteunen, en neem dit als verplichte stap op in het releaseproces."
           ],
           "bewijsstukken": [
-            "Testrapporten per uitgevoerde testvorm",
-            "Onafhankelijkheids- en belangenconflictenregistratie van (interne) testers"
+            { "docId": "doc.weerbaarheidstestrapport", "detail": "per uitgevoerde testvorm" },
+            { "docId": "doc.tester-onafhankelijkheidsregister", "detail": "onafhankelijkheid en belangenconflicten van (interne) testers" }
           ],
           "rollen": [
             "CISO",
@@ -3496,9 +3467,9 @@
             "Rapporteer openstaande bevindingen en doorlooptijden periodiek aan het bestuur en voer de lessen terug in het ICT-risicobeheerkader en het testprogramma."
           ],
           "bewijsstukken": [
-            "Beleid en procedure testbevindingenmanagement",
-            "Bevindingenregister met classificatie, eigenaar, termijn en status",
-            "Validatie- of hertestrapporten van gesloten bevindingen"
+            { "docId": "doc.testbevindingen-beleid" },
+            { "docId": "doc.auditbevindingen-register", "detail": "testbevindingen met classificatie, eigenaar, termijn en status" },
+            { "docId": "doc.weerbaarheidstestrapport", "detail": "validatie- of hertestrapporten van gesloten bevindingen" }
           ],
           "rollen": [
             "CISO",
@@ -3536,8 +3507,7 @@
             "Richt de interne organisatie voor de TLPT in (control team, geheimhouding, betrokkenheid van het bestuur) volgens art. 4 GV 2025/1190."
           ],
           "bewijsstukken": [
-            "Aanwijzings- en frequentiecorrespondentie met de bevoegde autoriteit",
-            "Gevalideerd scoping-document met functie- en systeeminventarisatie"
+            { "docId": "doc.tlpt-scoping" }
           ],
           "rollen": [
             "CISO",
@@ -3588,8 +3558,8 @@
             "Zorg dat een gebundelde test het relevante gamma van ICT-diensten voor kritieke of belangrijke functies dekt, stem het aantal deelnemende entiteiten af op complexiteit en aard van de diensten en volg het risicomanagement en de bepalingen voor gepoolde/gezamenlijke tests van art. 6 en 8 GV 2025/1190."
           ],
           "bewijsstukken": [
-            "TLPT-medewerkingsclausules in contracten met derde aanbieders",
-            "Schriftelijke overeenkomst gebundelde test met rolverdeling en scope"
+            { "docId": "doc.tpp-contractsjabloon", "detail": "TLPT-medewerkingsclausules in contracten met derde aanbieders" },
+            { "docId": "doc.gebundelde-tlpt-overeenkomst", "detail": "schriftelijke overeenkomst met rolverdeling en scope" }
           ],
           "rollen": [
             "inkoop",
@@ -3633,9 +3603,8 @@
             "Pas tijdens de test, samen met derde aanbieders en testers maar zonder de bevoegde autoriteiten, doeltreffende risicobeheerscontroles toe (art. 5 GV 2025/1190) om effecten op gegevens, activa en kritieke of belangrijke functies bij uzelf, uw tegenpartijen of de sector te mitigeren."
           ],
           "bewijsstukken": [
-            "Testerselectiedossier met certificeringen, referenties en verzekeringsbewijs",
-            "Goedkeuring van de autoriteit voor inzet van interne testers",
-            "TLPT-risicoanalyse en risicobeheersplan"
+            { "docId": "doc.tlpt-scoping" },
+            { "docId": "doc.tlpt-interne-testers-beleid", "detail": "goedkeuring autoriteit voor inzet interne testers" }
           ],
           "rollen": [
             "inkoop",
@@ -3695,9 +3664,7 @@
             "Voer het remediëringsplan uit via het reguliere testbevindingenproces (pe.t3); houd er rekening mee dat het attest u niet ontslaat van de volledige verantwoordelijkheid voor de gevolgen van de test."
           ],
           "bewijsstukken": [
-            "Samenvatting van bevindingen en correctieplan zoals ingediend",
-            "TLPT-attest",
-            "Kennisgeving aan de relevante bevoegde autoriteit"
+            { "docId": "doc.tlpt-testrapport-remediering" }
           ],
           "rollen": [
             "CISO",
@@ -3753,9 +3720,7 @@
             "Voer geheimhoudingsregelingen in die gelden voor het eigen personeel, het personeel van betrokken derde aanbieders van ICT-diensten, de testers en de aanbieder van dreigingsinformatie, en borg dat het control team op verzoek alle TLPT-informatie aan de testmanagers verstrekt."
           ],
           "bewijsstukken": [
-            "Aanstellingsbesluit leider control team en door de TLPT-autoriteit gevalideerde teamsamenstelling",
-            "Need-to-know- en geheimhoudingsregeling voor de TLPT, inclusief codenaamgebruik",
-            "Procedure blue-team-afscherming, ontdekkingsmelding en escalatie-indamming"
+            { "docId": "doc.tlpt-scoping" }
           ],
           "rollen": [
             "CISO",
@@ -3796,8 +3761,7 @@
             "Voer bij een gepoolde of gezamenlijke TLPT als elk deelnemend control team een eigen risicobeoordeling met eigen beheersmaatregelen uit; is uw entiteit de aangewezen entiteit, beoordeel dan ook de risico's van de betrokkenheid van meerdere entiteiten en breng samen met de andere control teams de gezamenlijke risico's in kaart."
           ],
           "bewijsstukken": [
-            "TLPT-risicobeoordeling met beheersmaatregelen en actualisatiehistorie",
-            "Verslag van de raadpleging van de testmanagers over risicobeoordeling en maatregelen"
+            { "docId": "doc.tlpt-scoping" }
           ],
           "rollen": [
             "risk",
@@ -3850,9 +3814,8 @@
             "Huurt u in uitzonderlijke omstandigheden een aanbieder in die niet aan alle vereisten van art. 7, lid 1, punten a) tot en met f) voldoet: neem passende, gedocumenteerde maatregelen om de daaraan verbonden risico's te mitigeren."
           ],
           "bewijsstukken": [
-            "Selectiedossier per TLPT-aanbieder (cv's, certificeringen, referenties, verzekeringsbewijs)",
-            "Conformiteitsbewijs aan de testmanagers vóór contractering",
-            "Contracten met herstelprocedures en verboden activiteiten"
+            { "docId": "doc.tlpt-scoping" },
+            { "docId": "doc.tlpt-aanbieder-contract", "detail": "contracten met herstelprocedures en verboden activiteiten" }
           ],
           "rollen": [
             "inkoop",
@@ -3902,9 +3865,8 @@
             "Verwerk de validatie-opmerkingen van de TLPT-autoriteit op de initiëringsinformatie, de samenstelling van het control team en het scoping-document totdat de goedkeuringskennisgevingen zijn ontvangen."
           ],
           "bewijsstukken": [
-            "Ingediend project charter en scoping-document met goedkeuring van het leidinggevend orgaan",
-            "Validatie- en goedkeuringskennisgevingen van de TLPT-autoriteit",
-            "Bewijs dat contractering van TLPT-aanbieders vóór de testfase is afgerond"
+            { "docId": "doc.tlpt-scoping" },
+            { "docId": "doc.tlpt-aanbieder-contract", "detail": "bewijs dat contractering van TLPT-aanbieders vóór de testfase is afgerond" }
           ],
           "rollen": [
             "CISO",
@@ -3965,7 +3927,7 @@
             "Ontvang het Target Threat Intelligence Report met de geselecteerde scenario's (bijlage III) en leg het via de testmanager ter goedkeuring voor aan de TLPT-autoriteit; start de red-teamfase pas na die goedkeuring."
           ],
           "bewijsstukken": [
-            "Goedgekeurd Target Threat Intelligence Report met scenarioselectie en onderbouwing"
+            { "docId": "doc.tlpt-scoping", "detail": "goedgekeurd, met scenarioselectie en onderbouwing" }
           ],
           "rollen": [
             "CISO",
@@ -4022,9 +3984,8 @@
             "Stel bij ontdekking van testwerkzaamheden door personeel — in overleg met de testers — aan de testmanagers maatregelen ter validatie voor waarmee de test geheim kan worden voortgezet; laat de leider van het control team de TLPT bij buitengewone risico's voor data, activa of kritieke functies opschorten, of zet als laatste redmiddel en na voorafgaande validatie door de TLPT-autoriteit voort met een beperkte purple-teamingoefening (die meetelt voor de minimumduur van twaalf weken)."
           ],
           "bewijsstukken": [
-            "Goedgekeurd red-teamtestplan",
-            "Wekelijkse voortgangsrapportages van de testers",
-            "Log van leg-ups, planwijzigingen en eventuele opschortings- of purple-teamingbesluiten"
+            { "docId": "doc.tlpt-scoping", "detail": "goedgekeurd" },
+            { "docId": "doc.tlpt-testrapport-remediering" }
           ],
           "rollen": [
             "CISO",
@@ -4085,9 +4046,7 @@
             "Verstrek binnen acht weken na die kennisgeving het remediëringsplan en de documentatie aan de TLPT-autoriteit en, indien verschillend, aan uw bevoegde autoriteit; neem per bevinding op: beschrijving van de tekortkomingen, voorgestelde maatregelen met prioritering en verwachte voltooiing, een root cause analysis, de verantwoordelijke personen of functies en de risico's van niet-uitvoering (en in voorkomend geval van uitvoering)."
           ],
           "bewijsstukken": [
-            "Red-team- en blue-team-testrapporten met indieningstijdstempels",
-            "Verslag van replay- en purple-teamingoefeningen en feedbackronde",
-            "Goedgekeurd samenvattend bevindingenrapport en ingediend remediëringsplan"
+            { "docId": "doc.tlpt-testrapport-remediering" }
           ],
           "rollen": [
             "CISO",
@@ -4156,9 +4115,9 @@
             "Vermeld de inzet van interne testers expliciet in de testinitiëringsinformatie, het red-team-testrapport en het samenvattende bevindingenrapport."
           ],
           "bewijsstukken": [
-            "Beleid interne testers met revisiehistorie",
-            "Bezettings-, dienstverband- en opleidingsdossier van het interne testteam",
-            "Vermelding van interne-testerinzet in initiëringsinformatie en testrapporten"
+            { "docId": "doc.tlpt-interne-testers-beleid" },
+            { "docId": "doc.tlpt-scoping", "detail": "vermelding interne-testerinzet in initiëringsinformatie" },
+            { "docId": "doc.tlpt-testrapport-remediering", "detail": "vermelding interne-testerinzet in testrapporten" }
           ],
           "rollen": [
             "CISO",
@@ -4216,8 +4175,8 @@
             "Toets de opzet met module 15 van het assessment (/assessment)."
           ],
           "bewijsstukken": [
-            "TPRM-hoofdstuk of -paragraaf in het ICT-risicobeheerkader",
-            "Bestuursbesluit met verantwoordelijkheids- en evenredigheidsuitgangspunten"
+            { "docId": "doc.ict-risicobeheerkader", "detail": "TPRM-hoofdstuk of -paragraaf" },
+            { "docId": "doc.bestuursbesluitenregister-ict", "detail": "bestuursbesluit met verantwoordelijkheids- en evenredigheidsuitgangspunten voor derdenrisico" }
           ],
           "rollen": [
             "bestuur",
@@ -4254,9 +4213,9 @@
             "Agendeer bij het leidinggevend orgaan de regelmatige evaluatie van de vastgestelde risico's van KOF-ondersteunende contracten, op basis van het algehele risicoprofiel en de schaal en complexiteit van de zakelijke diensten, en notuleer de uitkomsten."
           ],
           "bewijsstukken": [
-            "Vastgestelde strategie inzake ICT-derdenrisico met herzieningshistorie",
-            "Beleid KOF-ondersteunende ICT-diensten getoetst aan GV 2024/1773",
-            "Bestuursnotulen van de periodieke risico-evaluatie"
+            { "docId": "doc.derdenrisico-strategie", "detail": "vastgestelde strategie met herzieningshistorie" },
+            { "docId": "doc.contractbeleid-ict-diensten", "detail": "beleid KOF-ondersteunende ICT-diensten getoetst aan GV 2024/1773" },
+            { "docId": "doc.bestuursbesluitenregister-ict", "detail": "notulen periodieke risico-evaluatie derdenrisico" }
           ],
           "rollen": [
             "bestuur",
@@ -4301,9 +4260,9 @@
             "Borg de tijdige kennisgeving aan de autoriteit van geplande KOF-ondersteunende contracten en van het moment waarop een bestaande functie kritiek of belangrijk wordt; koppel dit als vast controlepunt aan het contracterings- en wijzigingsproces."
           ],
           "bewijsstukken": [
-            "Informatieregister in ITS-formaat met actualisatielog",
-            "Indieningsbevestiging jaarlijkse rapportage aan de bevoegde autoriteit",
-            "Procedure kennisgeving geplande KOF-contracten en herclassificaties"
+            { "docId": "doc.informatieregister", "detail": "in ITS-formaat met actualisatielog" },
+            { "docId": "doc.register-indiening-autoriteit", "detail": "indieningsbevestiging jaarlijkse rapportage" },
+            { "docId": "doc.kennisgevingsprocedure-kof" }
           ],
           "rollen": [
             "compliance",
@@ -4348,9 +4307,8 @@
             "Gebruik het leveranciersassessment (/assessment/leverancier) om de beoordeling per overeenkomst vast te leggen; de uitkomst voedt direct het informatieregister."
           ],
           "bewijsstukken": [
-            "Precontractueel beoordelingsdossier per overeenkomst (KOF-classificatie, risico's, belangenconflicten)",
-            "Due-diligencerapport met geschiktheidsconclusie",
-            "Onderbouwing informatiebeveiligingsnormen van de aanbieder"
+            { "docId": "doc.precontractueel-beoordelingsdossier", "detail": "per overeenkomst: KOF-classificatie, risico's, belangenconflicten" },
+            { "docId": "doc.due-diligence-dossier" }
           ],
           "rollen": [
             "inkoop",
@@ -4401,8 +4359,8 @@
             "Beoordeel of lange of complexe uitbestedingsketens uw monitoringvermogen en het toezichtvermogen van de bevoegde autoriteit aantasten, en stel zo nodig contractuele beperkingen aan verdere uitbesteding."
           ],
           "bewijsstukken": [
-            "Concentratierisicobeoordeling per beoogd KOF-contract met alternatievenafweging",
-            "Ketenanalyse onderaanneming inclusief derde-landtoets"
+            { "docId": "doc.concentratierisico-beoordeling", "detail": "per beoogd KOF-contract met alternatievenafweging" },
+            { "docId": "doc.onderaannemingsketen-register", "detail": "ketenanalyse onderaanneming inclusief derde-landtoets" }
           ],
           "rollen": [
             "risk",
@@ -4447,9 +4405,8 @@
             "Registreer bevindingen en opvolging per audit en koppel materiële bevindingen terug naar de risicobeoordeling van de betrokken overeenkomst en het beëindigingsafwegingskader (art. 28, lid 7, punt b)."
           ],
           "bewijsstukken": [
-            "Risicogebaseerd auditplan derde aanbieders",
-            "Competentieverificatie auditors bij technisch complexe contracten",
-            "Auditrapporten met opvolgingsregistratie"
+            { "docId": "doc.ict-auditplan" },
+            { "docId": "doc.auditbevindingen-register", "detail": "auditrapporten met opvolgingsregistratie" }
           ],
           "rollen": [
             "risk",
@@ -4490,9 +4447,7 @@
             "Ontwikkel overgangsplannen voor het verwijderen van diensten en gegevens bij de aanbieder en de veilige, integrale overdracht aan een alternatieve aanbieder of terugname in eigen beheer, plus noodmaatregelen om de bedrijfscontinuïteit intussen te handhaven."
           ],
           "bewijsstukken": [
-            "Exitstrategie en getest exitplan per KOF-ondersteunende dienst",
-            "Overgangsplan met alternatieve oplossingen",
-            "Test- en evaluatielog exitplannen"
+            { "docId": "doc.exitstrategie-exitplan" }
           ],
           "rollen": [
             "risk",
@@ -4539,8 +4494,8 @@
             "Voer een gap-analyse over het bestaande contractenbestand en herstel afwijkingen via addenda; module 17 van het assessment (/assessment) helpt bij de zelftoets."
           ],
           "bewijsstukken": [
-            "Contractsjabloon of clausulebibliotheek gemapt op art. 30, lid 2",
-            "Gap-analyse bestaand contractenbestand met herstelplan"
+            { "docId": "doc.tpp-contractsjabloon", "detail": "basisset gemapt op art. 30, lid 2" },
+            { "docId": "doc.contract-remediatieplan", "detail": "gap-analyse bestaand contractenbestand met herstelplan" }
           ],
           "rollen": [
             "juridisch",
@@ -4591,8 +4546,8 @@
             "Regel de voorwaarden voor verdere uitbesteding van KOF-ondersteunende diensten conform GV (EU) 2025/532, inclusief de gevallen waarin uitbesteding is toegestaan en de omgang met materiële wijzigingen in de keten."
           ],
           "bewijsstukken": [
-            "KOF-contractaddendum of -sjabloon gemapt op art. 30, lid 3",
-            "Overzicht KOF-contracten met per element de vindplaats van de clausule"
+            { "docId": "doc.tpp-contractsjabloon", "detail": "KOF-addendum/-variant gemapt op art. 30, lid 3" },
+            { "docId": "doc.kof-contract-clausuleregister", "detail": "per element de vindplaats van de clausule" }
           ],
           "rollen": [
             "juridisch",
@@ -4640,9 +4595,9 @@
             "Beschrijf in het beleid de eisen per levenscyclusfase (besluitvorming bestuur, planning met risicobeoordeling en due diligence, betrokkenheid bedrijfseenheden en interne controles, uitvoering en monitoring, documentatie/register, exit), verplicht een onafhankelijke evaluatie van KOF-diensten met opname in het auditplan, en formaliseer materiële contractwijzigingen in een door alle partijen gedateerd en ondertekend schriftelijk document met een vaste verlengingsprocedure."
           ],
           "bewijsstukken": [
-            "Door het leidinggevend orgaan vastgesteld en jaarlijks geëvalueerd beleid met versiehistorie en implementatietijdschema",
-            "RACI/rolbeschrijving contractbeheer met rapportagekalender aan het bestuur",
-            "Consistentietoets van het beleid tegen risicobeheerkader, informatiebeveiligings- en continuïteitsbeleid"
+            { "docId": "doc.contractbeleid-ict-diensten", "detail": "door het leidinggevend orgaan vastgesteld en jaarlijks geëvalueerd, met versiehistorie en implementatietijdschema" },
+            { "docId": "doc.rolbeschrijving-derdenrisicotoezicht", "detail": "RACI/rolbeschrijving contractbeheer met rapportagekalender aan het bestuur" },
+            { "docId": "doc.contractbeleid-consistentietoets", "detail": "tegen risicobeheerkader, informatiebeveiligings- en continuïteitsbeleid" }
           ],
           "rollen": [
             "bestuur",
@@ -4696,8 +4651,7 @@
             "Actualiseer deze risicobeoordeling met de uitkomsten van de doorlopende prestatiebeoordeling van de aanbieder (koppeling met pe.cb6) en met de relevante eisen uit sectorale Uniewetgeving."
           ],
           "bewijsstukken": [
-            "Sjabloon precontractuele risicobeoordeling met de negen risicocategorieën",
-            "Ingevulde beoordelingen per gesloten KOF-contract, inclusief groepsniveau waar van toepassing"
+            { "docId": "doc.precontractueel-beoordelingsdossier" }
           ],
           "rollen": [
             "risk",
@@ -4734,8 +4688,7 @@
             "Toets bij aanbieders binnen de groep dezelfde criteria; verlicht hooguit de diepgang op basis van gedocumenteerde evenredigheidsargumenten, niet de criteria zelf."
           ],
           "bewijsstukken": [
-            "Due-diligence-checklist met de zes criteria en het bepaalde zekerheidsniveau per contract",
-            "Dossier met gebruikte bewijsbronnen (auditrapporten, certificeringen, assurance-verslagen) per aanbieder"
+            { "docId": "doc.due-diligence-dossier" }
           ],
           "rollen": [
             "inkoop",
@@ -4771,8 +4724,7 @@
             "Koppel de conflictentoets aan de precontractuele beoordeling van art. 28, lid 4, punt d DORA zodat één gedocumenteerde beoordeling beide vereisten dekt."
           ],
           "bewijsstukken": [
-            "Belangenconflictenregister met monitoringcyclus",
-            "Objectiviteitsonderbouwing (prijs- en voorwaardenvergelijking) per intra-groeps-ICT-contract"
+            { "docId": "doc.belangenconflictenregister-ict" }
           ],
           "rollen": [
             "compliance",
@@ -4809,9 +4761,9 @@
             "Leg de gekozen zekerheidsmix per KOF-contract vast en herbeoordeel die bij contractverlenging en bij materiële wijzigingen."
           ],
           "bewijsstukken": [
-            "Contractclausules audit-, toegangs- en testrechten per KOF-contract",
-            "Beoordelingsdossier per gebruikte certificering/auditverslag tegen de acht voorwaarden",
-            "Zekerheidsmix-overzicht per aanbieder gekoppeld aan het auditplan"
+            { "docId": "doc.tpp-contractsjabloon", "detail": "clausules audit-, toegangs- en testrechten per KOF-contract" },
+            { "docId": "doc.due-diligence-dossier", "detail": "beoordeling per gebruikte certificering/auditverslag tegen de acht voorwaarden" },
+            { "docId": "doc.ict-auditplan", "detail": "zekerheidsmix-overzicht per aanbieder gekoppeld aan het auditplan" }
           ],
           "rollen": [
             "risk",
@@ -4853,9 +4805,8 @@
             "Stel vooraf de maatregelenladder vast voor geconstateerde tekortkomingen (incl. incidenten) en monitor de uitvoering ervan op daadwerkelijke naleving binnen een bepaalde termijn, gewogen naar het relatieve belang van de tekortkoming; escaleer volgens de rapportagelijnen van pe.cb1."
           ],
           "bewijsstukken": [
-            "KPI-/KCI-dashboard per KOF-aanbieder met SLA-nalevingsrapportage",
-            "Gedocumenteerde periodieke prestatiebeoordelingen met doorwerking naar de risicobeoordeling",
-            "Tekortkomingenregister met maatregelen, termijnen en opvolgstatus"
+            { "docId": "doc.aanbieder-prestatiemonitoring" },
+            { "docId": "doc.tekortkomingenregister-aanbieders", "detail": "met maatregelen, termijnen en opvolgstatus" }
           ],
           "rollen": [
             "IT-operations",
@@ -4898,9 +4849,7 @@
             "Gebruik risicobeoordelingen die de aanbieder van zijn onderaannemers maakt alleen als input: laat elke conclusie intern valideren en leg vast dat de eindverantwoordelijkheid voor naleving bij de eigen entiteit blijft."
           ],
           "bewijsstukken": [
-            "Toestemmingsbesluit onderaanneming per KOF-contract",
-            "Toetsingsdossier art. 3-voorwaarden met eigen impact-, locatie- en concentratiebeoordeling",
-            "Herbeoordelingslog met vastgelegde frequentie"
+            { "docId": "doc.onderaanneming-beoordelingsdossier" }
           ],
           "rollen": [
             "risk",
@@ -4951,8 +4900,8 @@
             "Breng bestaande KOF-contracten via de gap-analyse (pe.d8) in lijn met deze verordening: implementeer noodzakelijke contractwijzigingen tijdig en zo spoedig mogelijk en documenteer per contract het geplande tijdschema."
           ],
           "bewijsstukken": [
-            "KOF-contractclausules of addendum gemapt op art. 4 en 6 GV 2025/532",
-            "Remediatieplan bestaande contracten met gedocumenteerd tijdschema"
+            { "docId": "doc.tpp-contractsjabloon", "detail": "clausules/addendum gemapt op art. 4 en 6 GV 2025/532" },
+            { "docId": "doc.contract-remediatieplan", "detail": "remediatieplan bestaande KOF-contracten (onderaanneming) met tijdschema" }
           ],
           "rollen": [
             "juridisch",
@@ -5002,8 +4951,8 @@
             "Gaat de wijziging uw risicotolerantie te boven: informeer de aanbieder voor het einde van de opzegtermijn, maak bezwaar en eis aanpassingen voordat wordt geimplementeerd; escaleer naar het beeindigingstraject (art. 6 GV 2025/532, pe.d7) wanneer de aanbieder toch implementeert."
           ],
           "bewijsstukken": [
-            "Wijzigingenlog onderaannemingsketen met kennisgevingen, beoordelingen en besluiten",
-            "Procesbeschrijving beoordeling materiele wijzigingen met termijnbewaking"
+            { "docId": "doc.onderaannemingsketen-register", "detail": "wijzigingenlog met kennisgevingen, beoordelingen en besluiten" },
+            { "docId": "doc.onderaanneming-wijzigingsprocedure", "detail": "beoordeling materiële wijzigingen met termijnbewaking" }
           ],
           "rollen": [
             "risk",
@@ -5052,8 +5001,8 @@
             "Actualiseer rankings en ketengegevens bij elke gemelde wijziging in de onderaannemingsketen en verwerk correcties direct in het register."
           ],
           "bewijsstukken": [
-            "Ketenoverzicht met ranking per contractuele overeenkomst",
-            "Contractclausule LEI/EUID-aanlevering onderaannemers in KOF-contracten"
+            { "docId": "doc.onderaannemingsketen-register", "detail": "ketenoverzicht met ranking per contractuele overeenkomst" },
+            { "docId": "doc.tpp-contractsjabloon", "detail": "clausule LEI/EUID-aanlevering onderaannemers in KOF-contracten" }
           ],
           "rollen": [
             "inkoop",
@@ -5098,8 +5047,7 @@
             "Richt periodieke datakwaliteitscontroles in op de zes beginselen — nauwkeurigheid, volledigheid, consistentie, integriteit, uniformiteit, geldigheid — en corrigeer geconstateerde fouten of afwijkingen onmiddellijk; log evaluaties en correcties."
           ],
           "bewijsstukken": [
-            "Validatie-/datakwaliteitslog van het informatieregister",
-            "Ingevuld terminologiemodel B_99.01"
+            { "docId": "doc.informatieregister" }
           ],
           "rollen": [
             "compliance",
@@ -5144,8 +5092,7 @@
             "Vul alle gegevenselementen in op elk toepasselijk niveau (entiteits-, gesubconsolideerd en geconsolideerd) en leg vast welke groepsentiteit verantwoordelijk is voor het bijhouden per niveau."
           ],
           "bewijsstukken": [
-            "Gedocumenteerde consolidatiekring van het informatieregister",
-            "Aansluitingsanalyse entiteitsregisters vs. geconsolideerd register"
+            { "docId": "doc.informatieregister" }
           ],
           "rollen": [
             "compliance",
@@ -5204,9 +5151,8 @@
             "Richt een intern proces in voor wat u deelt en ontvangt: classificatie en goedkeuring vooraf van te delen indicatoren (IoC's, TTP's, waarschuwingen, configuratie-instrumenten) en verwerking van ontvangen dreigingsinformatie in uw detectie- en responsprocessen."
           ],
           "bewijsstukken": [
-            "Vastgelegd deelnamebesluit met toetsing aan de voorwaarden van artikel 45, lid 1",
-            "Gedragsregels of deelnameovereenkomst van de informatie-uitwisselingsregeling",
-            "Interne procedure voor het delen en verwerken van dreigingsinformatie"
+            { "docId": "doc.threat-intel-deelnamebeleid" },
+            { "docId": "doc.threat-intel-deelnameovereenkomst" }
           ],
           "rollen": [
             "CISO",
@@ -5239,8 +5185,8 @@
             "Neem beide kennisgevingstriggers op in uw compliance-kalender en archiveer de verzonden kennisgevingen."
           ],
           "bewijsstukken": [
-            "Kennisgeving(en) aan de bevoegde autoriteit van deelname en eventuele beëindiging",
-            "Compliance-kalender met de kennisgevingstriggers"
+            { "docId": "doc.threat-intel-kennisgeving-autoriteit" },
+            { "docId": "doc.compliance-kalender", "detail": "met de kennisgevingstriggers voor deelname en beëindiging" }
           ],
           "rollen": [
             "compliance"
@@ -5287,8 +5233,7 @@
             "Ontbreekt de EU-dochter na twaalf maanden, blokkeer dan nieuwe afname en activeer de exitstrategie voor de betrokken diensten: verder gebruik is dan niet toegestaan."
           ],
           "bewijsstukken": [
-            "Jaarlijkse toets van de CTPP-lijst met markering per aanbieder",
-            "Vestigingsbewijs van de EU-dochteronderneming per derde-landen-CTPP"
+            { "docId": "doc.ctpp-toetsdossier" }
           ],
           "rollen": [
             "inkoop",
@@ -5329,8 +5274,8 @@
             "Rapporteer de weging en de gekozen maatregelen aan het leidinggevend orgaan als onderdeel van de periodieke TPRM-rapportage."
           ],
           "bewijsstukken": [
-            "Log van ontvangen oversightsignalen met opvolging per signaal",
-            "Geactualiseerde risicobeoordeling per betrokken contractuele regeling"
+            { "docId": "doc.oversightsignalen-register", "detail": "log met opvolging per signaal" },
+            { "docId": "doc.due-diligence-dossier", "detail": "geactualiseerde risicobeoordeling per betrokken contractuele regeling na oversightsignaal" }
           ],
           "rollen": [
             "risk",
@@ -5375,8 +5320,8 @@
             "Houd rekening met het scenario dat de autoriteit beëindiging kan vereisen wanneer de aanbieder zich tegen een inspectie verzet, en toets of uw contract die beëindiging zonder onredelijke kosten of termijnen toelaat."
           ],
           "bewijsstukken": [
-            "Escalatiedraaiboek voor een besluit als bedoeld in art. 42, lid 6, DORA",
-            "Actueel exit- en transitieplan voor regelingen met kritieke derde aanbieders"
+            { "docId": "doc.oversight-escalatiedraaiboek", "detail": "escalatiedraaiboek voor een besluit als bedoeld in art. 42, lid 6" },
+            { "docId": "doc.exitstrategie-exitplan", "detail": "actueel exit- en transitieplan voor regelingen met kritieke derde aanbieders" }
           ],
           "rollen": [
             "bestuur",

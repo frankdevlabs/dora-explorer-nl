@@ -3,10 +3,18 @@
 import { useCallback, useEffect, useState } from "react";
 import { ChevronDown, ChevronRight } from "lucide-react";
 import { RefRow, type Previews } from "@/components/assessment/shared";
+import { RefLink } from "@/components/content/RefLink";
 import type { PlaybookKind } from "@/lib/playbook/data";
-import type { PlaybookRegime, PlaybookStep, Prioriteit } from "@/lib/playbook/types";
+import { isDocRef } from "@/lib/playbook/types";
+import type { DocCategory, PlaybookRegime, PlaybookStep, Prioriteit } from "@/lib/playbook/types";
 import { setRegime, toggleStep, useDone, useRegime } from "@/lib/playbook/store";
 import { PRIO, PRIO_FALLBACK, PRIO_ORDER, prioStyle } from "@/lib/playbook/ui";
+
+/** Plain, serializable docId -> display data map passed from the fase page. */
+export type DocLookup = Record<
+  string,
+  { naam: string; category: DocCategory; omschrijving: string; href: string }
+>;
 
 const REGIME_LABEL: Record<PlaybookRegime, string> = {
   volledig: "volledig regime",
@@ -27,6 +35,8 @@ interface PlaybookStepsProps {
   previews: Previews;
   /** step id -> href for its afhankelijkVan deps (may point to another fase). */
   depHrefs: Record<string, string>;
+  /** docId -> display data for structured bewijsstukken (epic 17). */
+  docLookup: DocLookup;
 }
 
 interface Group {
@@ -35,7 +45,7 @@ interface Group {
   steps: PlaybookStep[];
 }
 
-export function PlaybookSteps({ kind, steps, previews, depHrefs }: PlaybookStepsProps) {
+export function PlaybookSteps({ kind, steps, previews, depHrefs, docLookup }: PlaybookStepsProps) {
   const done = useDone();
   const regime = useRegime();
   const [open, setOpen] = useState<Record<string, boolean>>({});
@@ -204,6 +214,7 @@ export function PlaybookSteps({ kind, steps, previews, depHrefs }: PlaybookSteps
                       prio={step.prioriteit}
                       previews={previews}
                       depHrefs={depHrefs}
+                      docLookup={docLookup}
                     />
                   ))}
                 </ol>
@@ -224,9 +235,19 @@ interface StepCardProps {
   prio: Prioriteit | undefined;
   previews: Previews;
   depHrefs: Record<string, string>;
+  docLookup: DocLookup;
 }
 
-function StepCard({ step, isDone, isOpen, onToggleOpen, prio, previews, depHrefs }: StepCardProps) {
+function StepCard({
+  step,
+  isDone,
+  isOpen,
+  onToggleOpen,
+  prio,
+  previews,
+  depHrefs,
+  docLookup,
+}: StepCardProps) {
   const style = prioStyle(prio);
   const meta = [
     step.id,
@@ -305,14 +326,39 @@ function StepCard({ step, isDone, isOpen, onToggleOpen, prio, previews, depHrefs
                   Bewijsstukken
                 </p>
                 <ul className="mt-2 space-y-1 text-xs text-muted">
-                  {step.bewijsstukken.map((b, i) => (
-                    <li key={i} className="flex gap-2">
-                      <span className="text-line" aria-hidden>
-                        —
-                      </span>
-                      <span>{b}</span>
-                    </li>
-                  ))}
+                  {step.bewijsstukken.map((b, i) => {
+                    // Legacy free-text deliverable: render as today's dashed item.
+                    if (!isDocRef(b)) {
+                      return (
+                        <li key={i} className="flex gap-2">
+                          <span className="text-line" aria-hidden>
+                            —
+                          </span>
+                          <span>{b}</span>
+                        </li>
+                      );
+                    }
+                    // Structured catalog reference: link into the Documentenregister
+                    // with a hover preview, exactly like a legal ref.
+                    const doc = docLookup[b.docId];
+                    return (
+                      <li key={i} className="flex gap-2">
+                        <span className="text-line" aria-hidden>
+                          —
+                        </span>
+                        <span>
+                          {doc ? (
+                            <RefLink href={doc.href} title={doc.naam} snippet={doc.omschrijving}>
+                              {doc.naam}
+                            </RefLink>
+                          ) : (
+                            b.docId
+                          )}
+                          {b.detail && <span className="text-muted"> — {b.detail}</span>}
+                        </span>
+                      </li>
+                    );
+                  })}
                 </ul>
               </div>
             )}

@@ -10429,5 +10429,1508 @@
   "heading": "Betaal de jaarlijkse oversightvergoeding op tijd",
   "url": "/playbook/aanbieder/f5#pa.ov5",
   "text": "CTPP-oversightregime. De jaarlijkse oversightvergoeding is begroot en wordt in euro, in één keer en binnen de geldende termijn betaald, zonder achterstandsrente. Neem de oversightvergoeding structureel op in de budgetcyclus: de vergoeding dekt de noodzakelijke oversightuitgaven van de lead overseer volledig (inclusief de kosten van het gezamenlijke onderzoeksteam en van het advies van onafhankelijke deskundigen bij directe oversightactiviteiten), staat in verhouding tot uw omzet en bedraagt in geen geval minder dan 50 000 EUR per jaar. Betaal debetnota's in euro en in één keer, binnen de gestelde betalingstermijn van ten minste 30 dagen: bent u op 1 januari van een jaar aan oversightactiviteiten onderworpen, betaal dan uiterlijk op 30 april van dat jaar; bent u in de loop van het jaar aangewezen, betaal de vergoeding voor het aanwijzingsjaar dan uiterlijk op 31 december van dat jaar. Richt betalingsbewaking in die achterstanden voorkomt: bij betalingsachterstand is de achterstandsrente van art. 99 Verordening (EU, Euratom) 2018/1046 verschuldigd. Koppel de vergoedingscyclus aan de jaarlijkse omzetaanlevering van pa.ov2: in reguliere jaren wordt de vergoeding berekend als de geraamde totale kosten aangepast met de omzetcoëfficiënt op de toepasselijke omzet van jaar n-2 (art. 3, lid 1 GV 2024/1505; voor de eerste CTPP-lijst en het aanwijzingsjaar gelden de afwijkingen van art. 4), en zonder correct afgebakende gecontroleerde cijfers hanteert de lead overseer een ruimere (tot wereldwijde) omzetgrondslag."
+ },
+ {
+  "id": "document-doc.ict-governance-charter",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Beleid",
+  "heading": "Bestuursreglement / governance-charter (ICT-risico)",
+  "url": "/playbook/documenten#doc.ict-governance-charter",
+  "text": "Bestuursreglement / governance-charter (ICT-risico). Bestuursreglement of governance-charter dat de ICT-risicotaken en -verantwoordelijkheden van het leidinggevend orgaan vastlegt. Art. 5, lid 1 DORA Art. 5, lid 2 DORA"
+ },
+ {
+  "id": "document-doc.bestuursbesluitenregister-ict",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Besluitenregister / notulen bestuur (ICT-risico)",
+  "url": "/playbook/documenten#doc.bestuursbesluitenregister-ict",
+  "text": "Besluitenregister / notulen bestuur (ICT-risico). Besluitenregister of notulen waarin de periodieke goedkeuringen en besluiten van het leidinggevend orgaan over ICT-risico zijn vastgelegd. Art. 5, lid 2 DORA"
+ },
+ {
+  "id": "document-doc.bestuurlijke-meldingskanalen",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Procedure",
+  "heading": "Beschrijving meldingskanalen naar het bestuur",
+  "url": "/playbook/documenten#doc.bestuurlijke-meldingskanalen",
+  "text": "Beschrijving meldingskanalen naar het bestuur. Beschrijving van de meldings- en escalatiekanalen waarlangs ICT-risico's en -incidenten het leidinggevend orgaan bereiken. Art. 5, lid 2 DORA"
+ },
+ {
+  "id": "document-doc.rolbeschrijving-derdenrisicotoezicht",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Beleid",
+  "heading": "Benoemingsbesluit / rolbeschrijving toezicht derde-aanbieders",
+  "url": "/playbook/documenten#doc.rolbeschrijving-derdenrisicotoezicht",
+  "text": "Benoemingsbesluit / rolbeschrijving toezicht derde-aanbieders. Benoemingsbesluit of taak-/functiebeschrijving voor de rol die toeziet op de overeenkomsten met derde ICT-aanbieders. Art. 5, lid 3 DORA"
+ },
+ {
+  "id": "document-doc.rapportage-derdenrisico-bestuur",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Rapportage",
+  "heading": "Rapportage derde-aanbiedersrisico aan het bestuur",
+  "url": "/playbook/documenten#doc.rapportage-derdenrisico-bestuur",
+  "text": "Rapportage derde-aanbiedersrisico aan het bestuur. Periodieke rapportage aan het leidinggevend orgaan over het risico van overeenkomsten met derde ICT-aanbieders. Art. 5, lid 2, punt i) DORA Art. 5, lid 3 DORA"
+ },
+ {
+  "id": "document-doc.ict-opleidingsplan-bestuur",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Plan",
+  "heading": "Opleidingsplan ICT-kennis leidinggevend orgaan",
+  "url": "/playbook/documenten#doc.ict-opleidingsplan-bestuur",
+  "text": "Opleidingsplan ICT-kennis leidinggevend orgaan. Opleidingsplan dat het actueel houden van de ICT-kennis van het leidinggevend orgaan borgt. Art. 5, lid 4 DORA"
+ },
+ {
+  "id": "document-doc.ict-opleidingsregister-bestuur",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Deelnameregistratie ICT-opleidingen bestuur",
+  "url": "/playbook/documenten#doc.ict-opleidingsregister-bestuur",
+  "text": "Deelnameregistratie ICT-opleidingen bestuur. Deelnameregistratie van de ICT-opleidingen die het leidinggevend orgaan heeft gevolgd. Art. 5, lid 4 DORA"
+ },
+ {
+  "id": "document-doc.bestuursevaluatie-ict-kennis",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Verslag kennisonderhoud in bestuursevaluatie",
+  "url": "/playbook/documenten#doc.bestuursevaluatie-ict-kennis",
+  "text": "Verslag kennisonderhoud in bestuursevaluatie. Agendapunt of verslag over ICT-kennisonderhoud in de periodieke evaluatie van het leidinggevend orgaan. Art. 5, lid 4 DORA"
+ },
+ {
+  "id": "document-doc.informatieregister",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Informatieregister (ITS-formaat)",
+  "url": "/playbook/documenten#doc.informatieregister",
+  "text": "Informatieregister (ITS-formaat). Register van alle contractuele overeenkomsten over ICT-diensten op entiteits-, gesubconsolideerd en geconsolideerd niveau, gestructureerd volgens de ITS-templates met LEI/EUID-identificatie, diensttypologie S01–S19 en de onderaannemingsketen met rankings. Art. 28, lid 3 DORA Art. 3, lid 2 UV 2024/2956"
+ },
+ {
+  "id": "document-doc.ict-risicobeheerkader",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Beleid",
+  "heading": "ICT-risicobeheerkader",
+  "url": "/playbook/documenten#doc.ict-risicobeheerkader",
+  "text": "ICT-risicobeheerkader. Solide, alomvattend en gedocumenteerd kader voor ICT-risicobeheer als onderdeel van het algemene risicobeheersysteem, inclusief het TPRM-hoofdstuk en de mapping op de technische normen van GV 2024/1774. Art. 6, lid 1 DORA Art. 3 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.informatiebeveiligingsbeleid",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Beleid",
+  "heading": "Informatiebeveiligingsbeleid",
+  "url": "/playbook/documenten#doc.informatiebeveiligingsbeleid",
+  "text": "Informatiebeveiligingsbeleid. Beleid inzake informatiebeveiliging dat de regels vastlegt ter bescherming van de beschikbaarheid, authenticiteit, integriteit en vertrouwelijkheid van gegevens en ICT-activa, met de algemene vormeisen van GV 2024/1774. Art. 9, lid 4, punt a) DORA Art. 2, lid 1 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.ict-continuiteitsbeleid",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Beleid",
+  "heading": "ICT-bedrijfscontinuïteitsbeleid",
+  "url": "/playbook/documenten#doc.ict-continuiteitsbeleid",
+  "text": "ICT-bedrijfscontinuïteitsbeleid. Alomvattend ICT-bedrijfscontinuïteitsbeleid dat de continuïteit van kritieke of belangrijke functies borgt, met de verplichte onderdelen van GV 2024/1774. Art. 11, lid 1 DORA Art. 24, lid 1 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.ict-respons-herstelplan",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Plan",
+  "heading": "ICT-respons- en herstelplan",
+  "url": "/playbook/documenten#doc.ict-respons-herstelplan",
+  "text": "ICT-respons- en herstelplan. Scenario-gebaseerde ICT-respons- en herstelplannen met activeringscriteria die na een incident de continuïteit van de bedrijfsactiviteiten borgen, onderworpen aan onafhankelijke interne audit. Art. 11, lid 3 DORA Art. 26, lid 1 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.backupbeleid",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Beleid",
+  "heading": "Back-upbeleid en -procedures",
+  "url": "/playbook/documenten#doc.backupbeleid",
+  "text": "Back-upbeleid en -procedures. Back-upbeleid en terugzettings- en herstelprocedures met scope en minimale frequenties per gegevenscategorie om ICT-systemen en gegevens met minimale uitval te herstellen. Art. 12, lid 1 DORA"
+ },
+ {
+  "id": "document-doc.activa-inventaris",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Activa-inventaris (CMDB) / assetregister",
+  "url": "/playbook/documenten#doc.activa-inventaris",
+  "text": "Activa-inventaris (CMDB) / assetregister. Actuele inventaris van alle informatie- en ICT-activa met criticaliteitsmarkering, configuratiegegevens en de mapping van bedrijfsfuncties op activa en afhankelijkheden. Art. 8, lid 1 DORA Art. 8, lid 4 DORA Art. 5, lid 1 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.toegangsbeheerbeleid",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Beleid",
+  "heading": "Toegangsbeheer- / IAM-beleid",
+  "url": "/playbook/documenten#doc.toegangsbeheerbeleid",
+  "text": "Toegangsbeheer- / IAM-beleid. Beleid en procedures voor identiteits- en toegangsbeheer die de fysieke en logische toegang tot informatie- en ICT-activa beperken, met lifecycle-proces en periodieke hercertificering. Art. 9, lid 4, punt c) DORA Art. 21 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.incidentbeheerprocedure",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Procedure",
+  "heading": "Beheerproces voor ICT-incidenten",
+  "url": "/playbook/documenten#doc.incidentbeheerprocedure",
+  "text": "Beheerproces voor ICT-incidenten. Vastgesteld proces om ICT-gerelateerde incidenten te detecteren, te beheren en te melden, met rollen-, escalatie- en oorzaakanalysestappen. Art. 17, lid 1 DORA Art. 22 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.incident-classificatiemethodiek",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Procedure",
+  "heading": "Classificatiemethodiek ICT-incidenten",
+  "url": "/playbook/documenten#doc.incident-classificatiemethodiek",
+  "text": "Classificatiemethodiek ICT-incidenten. Methodiek met beslisboom en drempeltabel om ICT-incidenten en cyberdreigingen te classificeren volgens de criteria van art. 18 DORA en de materialiteitsdrempels van GV 2024/1772, inclusief de meet-, tel- en ramingsconventies. Art. 18, lid 1 DORA Art. 9, lid 1 GV 2024/1772"
+ },
+ {
+  "id": "document-doc.incident-meldprocedure",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Procedure",
+  "heading": "Meldprocedure ernstige ICT-incidenten",
+  "url": "/playbook/documenten#doc.incident-meldprocedure",
+  "text": "Meldprocedure ernstige ICT-incidenten. Meldprocedure met termijnentabel, autorisatiematrix, meldkanaal en de verplichte datavelden voor de eerste kennisgeving en het tussentijdse en eindverslag conform GV 2025/301 en UV 2025/302. Art. 19, lid 1 DORA Art. 5, lid 1 GV 2025/301 Art. 1, lid 1 UV 2025/302"
+ },
+ {
+  "id": "document-doc.incidentregister",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Incidentregister",
+  "url": "/playbook/documenten#doc.incidentregister",
+  "text": "Incidentregister. Register van alle ICT-gerelateerde incidenten en significante cyberdreigingen met classificatie- en meldvelden, oorzaakanalyses en de kosten- en verliesadministratie per incident. Art. 17, lid 2 DORA"
+ },
+ {
+  "id": "document-doc.tlpt-scoping",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Plan",
+  "heading": "TLPT-scoping-, voorbereidings- en governancedossier",
+  "url": "/playbook/documenten#doc.tlpt-scoping",
+  "text": "TLPT-scoping-, voorbereidings- en governancedossier. Gevalideerd scoping-, voorbereidings- en governancedossier (project charter) voor de TLPT: bepaalt de onderliggende ICT-systemen, -processen en -technologieën ter ondersteuning van kritieke of belangrijke functies (incl. uitbestede) binnen de scope met goedkeuring van het leidinggevend orgaan, en bundelt de organisatorische regelingen (control team, need-to-know/geheimhouding, blue-team-afscherming), de TLPT-risicobeoordeling en -beheersmaatregelen, de selectie en conformiteit van dreigingsinformatie-aanbieders en testers, het Target Threat Intelligence Report en het red-teamtestplan, alsook de aanwijzings-/frequentie- en validatiecorrespondentie met de TLPT-autoriteit. Art. 26, lid 2 DORA Art. 26, lid 5 DORA Art. 26, lid 8 DORA Art. 27, lid 1 DORA Art. 4, lid 1 GV 2025/1190 Art. 5, lid 1 GV 2025/1190 Art. 7, lid 1 GV 2025/1190 Art. 9, lid 6 GV 2025/1190 Bijlage II GV 2025/1190 Bijlage III GV 2025/1190 Bijlage IV GV 2025/1190"
+ },
+ {
+  "id": "document-doc.tlpt-testrapport-remediering",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Rapportage",
+  "heading": "TLPT-testrapport en remediëringsplan",
+  "url": "/playbook/documenten#doc.tlpt-testrapport-remediering",
+  "text": "TLPT-testrapport en remediëringsplan. Samenvatting van de relevante TLPT-bevindingen met correctie-/remediëringsplan en het door de autoriteit verstrekte attest, inclusief de onderliggende red-team- en blue-team-testrapporten, het replay-/purple-teamingverslag, de voortgangs- en testverlooplogging, de root-cause-analyse, de opvolging van de herstelmaatregelen en de kennisgeving/indiening aan de bevoegde autoriteit. Art. 26, lid 6 DORA Art. 26, lid 7 DORA Art. 12, lid 2 GV 2025/1190 Art. 13, lid 2 GV 2025/1190 Art. 14, lid 1 GV 2025/1190 Bijlage V GV 2025/1190 Bijlage VI GV 2025/1190 Bijlage VIII GV 2025/1190"
+ },
+ {
+  "id": "document-doc.exitstrategie-exitplan",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Plan",
+  "heading": "Exitstrategie en getest exitplan",
+  "url": "/playbook/documenten#doc.exitstrategie-exitplan",
+  "text": "Exitstrategie en getest exitplan. Per KOF-ondersteunende ICT-dienst een exitstrategie met een getest, realistisch exitplan op basis van plausibele scenario's, met alternatieve oplossingen en een uitvoeringstiming die verenigbaar is met de contractuele beëindigingsvoorwaarden. Art. 28, lid 8 DORA Art. 10 GV 2024/1773"
+ },
+ {
+  "id": "document-doc.tpp-contractsjabloon",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Overeenkomst",
+  "heading": "TPP-contractsjabloon / clausulebibliotheek",
+  "url": "/playbook/documenten#doc.tpp-contractsjabloon",
+  "text": "TPP-contractsjabloon / clausulebibliotheek. Contractsjabloon of clausulebibliotheek (basisset gemapt op art. 30, lid 2 en KOF-variant op art. 30, lid 3) met de verplichte contractuele bepalingen, inclusief de onderaannemingsclausules van GV 2025/532. Art. 30, lid 2 DORA Art. 30, lid 3 DORA Art. 8, lid 1 GV 2024/1773"
+ },
+ {
+  "id": "document-doc.due-diligence-dossier",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Due-diligence-dossier derde aanbieder",
+  "url": "/playbook/documenten#doc.due-diligence-dossier",
+  "text": "Due-diligence-dossier derde aanbieder. Beoordelingsdossier per (potentiële) derde aanbieder of onderaannemer langs de zes zorgvuldigheidscriteria van GV 2024/1773, met de conclusie over geschiktheid en over passende informatiebeveiligingsnormen. Art. 28, lid 5 DORA Art. 6, lid 1 GV 2024/1773"
+ },
+ {
+  "id": "document-doc.onderaannemingsketen-register",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Onderaannemingsketen-register / ketenoverzicht",
+  "url": "/playbook/documenten#doc.onderaannemingsketen-register",
+  "text": "Onderaannemingsketen-register / ketenoverzicht. Actueel overzicht van de onderaannemingsketen van KOF-ondersteunende ICT-diensten met ranking per contractuele overeenkomst en de locatie-, concentratie- en ketenrisicobeoordeling. Art. 30, lid 2, punt a) DORA Art. 4, lid 1 GV 2025/532"
+ },
+ {
+  "id": "document-doc.ict-auditplan",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Plan",
+  "heading": "ICT-auditplan",
+  "url": "/playbook/documenten#doc.ict-auditplan",
+  "text": "ICT-auditplan. Risicogebaseerd auditplan op grond waarvan het ICT-risicobeheerkader periodiek aan interne audit wordt onderworpen, met deskundigheids- en onafhankelijkheidstoets van de auditors. Art. 6, lid 6 DORA"
+ },
+ {
+  "id": "document-doc.auditbevindingen-register",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Follow-upregister ICT-auditbevindingen",
+  "url": "/playbook/documenten#doc.auditbevindingen-register",
+  "text": "Follow-upregister ICT-auditbevindingen. Register van kritieke ICT-auditbevindingen met per bevinding de eigenaar, corrigerende maatregel, deadline en opvolgstatus. Art. 6, lid 6 DORA"
+ },
+ {
+  "id": "document-doc.scopememo",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Memo",
+  "heading": "Scopeconclusie-memo",
+  "url": "/playbook/documenten#doc.scopememo",
+  "text": "Scopeconclusie-memo. Bestuurlijk vastgestelde memo met de conclusie of en als welk type de onderneming onder DORA valt, per entiteit/dienst en met peildatum, inclusief beoordeelde uitsluitingen, opt-outs en NIS2-samenloop. Art. 2, lid 1 DORA"
+ },
+ {
+  "id": "document-doc.evenredigheidsdossier",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Evenredigheidsdossier",
+  "url": "/playbook/documenten#doc.evenredigheidsdossier",
+  "text": "Evenredigheidsdossier. Dossier met de grootteclassificatie (brondata en peildatum) en de onderbouwing per open norm van de evenredige toepassing, met het bestuursbesluit over het toepasselijke regime (volledig of vereenvoudigd kader). Art. 4, lid 1 DORA Art. 4, lid 2 DORA"
+ },
+ {
+  "id": "document-doc.dienstencatalogus-kof",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Dienstencatalogus met KOF-markering",
+  "url": "/playbook/documenten#doc.dienstencatalogus-kof",
+  "text": "Dienstencatalogus met KOF-markering. Catalogus van alle geleverde diensten met per dienst de kwalificatie als ICT-dienst en de markering of de dienst kritieke of belangrijke functies van klanten ondersteunt (KOF). Art. 3, punt 21 DORA Art. 3, punt 22 DORA"
+ },
+ {
+  "id": "document-doc.financiele-voetafdruk-register",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Voetafdruk-/klantenregister financiële sector",
+  "url": "/playbook/documenten#doc.financiele-voetafdruk-register",
+  "text": "Voetafdruk-/klantenregister financiële sector. Overzicht van de financiële-sectorklanten per DORA-categorie met markering van de ondersteunde kritieke of belangrijke functies en de MSI-/ASI-status, als basis voor de voetafdruk- en criticaliteitsbeoordeling. Art. 2, lid 1 GV 2024/1502 Art. 3, lid 1 GV 2024/1502"
+ },
+ {
+  "id": "document-doc.criticaliteit-zelftoetsdossier",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "CTPP-criticaliteitszelftoetsdossier",
+  "url": "/playbook/documenten#doc.criticaliteit-zelftoetsdossier",
+  "text": "CTPP-criticaliteitszelftoetsdossier. Zelftoetsdossier voor de mogelijke aanwijzing als kritieke derde aanbieder (CTPP): per (sub)criterium de kwantitatieve stap 1-berekening met brondata en peildatum, de kwalitatieve stap 2-beoordeling (impact, verwevenheid, substitueerbaarheid) en de managementconclusie. Art. 1, lid 1 GV 2024/1502 Art. 2, lid 2 GV 2024/1502 Art. 3, lid 2 GV 2024/1502 Art. 4 GV 2024/1502 Art. 5, lid 1 GV 2024/1502 Art. 31, lid 2 DORA"
+ },
+ {
+  "id": "document-doc.contract-gapanalyse",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Gap-analyse klantcontracten tegen art. 30",
+  "url": "/playbook/documenten#doc.contract-gapanalyse",
+  "text": "Gap-analyse klantcontracten tegen art. 30. Gap-analyse van het lopende klantcontractenbestand tegen de minimuminhoud van artikel 30 DORA, met herstelplan en addenda per contract. Art. 30, lid 2 DORA Art. 30, lid 3 DORA Art. 8, lid 1 GV 2024/1773"
+ },
+ {
+  "id": "document-doc.contractwijzigingsprocedure",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Procedure",
+  "heading": "Wijzigings- en verlengingsprocedure klantcontracten",
+  "url": "/playbook/documenten#doc.contractwijzigingsprocedure",
+  "text": "Wijzigings- en verlengingsprocedure klantcontracten. Procedure voor wijziging en verlenging van klantcontracten met dateer- en ondertekenvereiste. Art. 30, lid 1 DORA Art. 8, lid 4 GV 2024/1773"
+ },
+ {
+  "id": "document-doc.due-diligence-informatiepakket",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Due-diligence-informatiepakket voor klanten",
+  "url": "/playbook/documenten#doc.due-diligence-informatiepakket",
+  "text": "Due-diligence-informatiepakket voor klanten. Standaard informatiepakket per dienst waarmee de aanbieder klanten in staat stelt hun zorgvuldigheidsonderzoek uit te voeren, gestructureerd langs de criteria van artikel 6, lid 1, GV 2024/1773. Art. 6, lid 1 GV 2024/1773 Art. 28, lid 4 DORA"
+ },
+ {
+  "id": "document-doc.auditfaciliteringsprocedure",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Procedure",
+  "heading": "Auditfaciliteringsprocedure",
+  "url": "/playbook/documenten#doc.auditfaciliteringsprocedure",
+  "text": "Auditfaciliteringsprocedure. Procedure voor het faciliteren van eigen, derden- en gebundelde audits en ICT-tests door klanten, met toegangsregeling voor gegevens, systemen en gebouwen. Art. 30, lid 3, punt e) DORA Art. 8, lid 2 GV 2024/1773"
+ },
+ {
+  "id": "document-doc.certificeringen-auditrapporten",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Rapportage",
+  "heading": "Certificeringen en auditverslagen",
+  "url": "/playbook/documenten#doc.certificeringen-auditrapporten",
+  "text": "Certificeringen en auditverslagen. Actuele certificeringen en onafhankelijke auditverslagen met scope-mapping op de essentiële systemen en controls die klanten afnemen. Art. 6, lid 3 GV 2024/1773 Art. 9, lid 2 GV 2024/1773"
+ },
+ {
+  "id": "document-doc.klantrapportagekalender",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Plan",
+  "heading": "Rapportagekalender per klanttype",
+  "url": "/playbook/documenten#doc.klantrapportagekalender",
+  "text": "Rapportagekalender per klanttype. Rapportagekalender met voorbeeldrapportages per klanttype over de dienstverlening en prestaties. Art. 9, lid 2 GV 2024/1773 Art. 30, lid 2 DORA"
+ },
+ {
+  "id": "document-doc.klantincidentkennisgeving",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Procedure",
+  "heading": "Incidentkennisgevingsprocedure klanten",
+  "url": "/playbook/documenten#doc.klantincidentkennisgeving",
+  "text": "Incidentkennisgevingsprocedure klanten. Procedure voor het kennisgeven van ICT-incidenten aan klanten per klanttype, conform de contractuele meld- en bijstandsafspraken. Art. 30, lid 3 DORA Art. 9, lid 2 GV 2024/1773"
+ },
+ {
+  "id": "document-doc.gegevensoverdracht-verwijderprocedure",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Procedure",
+  "heading": "Gegevensoverdrachts- en verwijderprocedure",
+  "url": "/playbook/documenten#doc.gegevensoverdracht-verwijderprocedure",
+  "text": "Gegevensoverdrachts- en verwijderprocedure. Procedure voor overdracht en verwijdering van klantgegevens bij exit, met formaat- en integriteitsspecificaties. Art. 28, lid 8 DORA Art. 10 GV 2024/1773"
+ },
+ {
+  "id": "document-doc.exittest-verslag",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Verslag exit-test/-walkthrough met klant",
+  "url": "/playbook/documenten#doc.exittest-verslag",
+  "text": "Verslag exit-test/-walkthrough met klant. Verslagen van met klanten uitgevoerde exit-tests of -walkthroughs, met bevindingen en opvolgacties. Art. 28, lid 8 DORA Art. 10 GV 2024/1773"
+ },
+ {
+  "id": "document-doc.onderaanneming-voorwaarden-informatiepakket",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Informatiepakket art. 3-voorwaarden onderaanneming",
+  "url": "/playbook/documenten#doc.onderaanneming-voorwaarden-informatiepakket",
+  "text": "Informatiepakket art. 3-voorwaarden onderaanneming. Informatiepakket per klant met de invulling van de artikel 3-voorwaarden voor de inzet van KOF-ondersteunende onderaannemers, inclusief de eigen risicobeoordelingen van die onderaannemers. Art. 3, lid 1 GV 2025/532 Art. 30, lid 2, punt a) DORA"
+ },
+ {
+  "id": "document-doc.subcontract-sjabloon",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Overeenkomst",
+  "heading": "Onderaannemingscontract-sjabloon",
+  "url": "/playbook/documenten#doc.subcontract-sjabloon",
+  "text": "Onderaannemingscontract-sjabloon. Sjabloon voor onderaannemingscontracten met mapping per element van artikel 4, lid 1, GV 2025/532, zodat de klantcontractvoorwaarden door de keten worden doorgezet. Art. 4, lid 1 GV 2025/532 Art. 30, lid 2, punt a) DORA"
+ },
+ {
+  "id": "document-doc.ketenmonitoring-procedure",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Procedure",
+  "heading": "Ketenmonitoring- en rapportageprocedure",
+  "url": "/playbook/documenten#doc.ketenmonitoring-procedure",
+  "text": "Ketenmonitoring- en rapportageprocedure. Procedure voor het monitoren van en rapporteren over de onderaannemingsketen, met rapportagevoorbeelden per klant. Art. 4, lid 2 GV 2025/532 Art. 30, lid 2, punt a) DORA"
+ },
+ {
+  "id": "document-doc.ketencontinuiteitsdraaiboek",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Plan",
+  "heading": "Continuïteitsdraaiboek onderaannemingsketen",
+  "url": "/playbook/documenten#doc.ketencontinuiteitsdraaiboek",
+  "text": "Continuïteitsdraaiboek onderaannemingsketen. Continuïteitsdraaiboek voor de keten bij niet-nakoming door een onderaannemer, met alternatieven en overbruggingsmaatregelen. Art. 30, lid 2, punt a) DORA Art. 4, lid 1 GV 2025/532"
+ },
+ {
+  "id": "document-doc.keten-wijzigingsprocedure",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Procedure",
+  "heading": "Wijzigingsprocedure onderaannemingsketen",
+  "url": "/playbook/documenten#doc.keten-wijzigingsprocedure",
+  "text": "Wijzigingsprocedure onderaannemingsketen. Procedure voor wijzigingen in de onderaannemingsketen met vooraankondiging, kennisgevings- en termijnbewaking per klant. Art. 5, lid 1 GV 2025/532 Art. 5, lid 2 GV 2025/532"
+ },
+ {
+  "id": "document-doc.keten-wijzigingslog",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Log ketenwijzigingen en klantbeslissingen",
+  "url": "/playbook/documenten#doc.keten-wijzigingslog",
+  "text": "Log ketenwijzigingen en klantbeslissingen. Log per contract van kennisgevingen, klantbeoordelingen, goedkeuringen en bezwaren bij wijzigingen in de onderaannemingsketen. Art. 5, lid 3 GV 2025/532 Art. 5, lid 4 GV 2025/532"
+ },
+ {
+  "id": "document-doc.keten-bezwaar-escalatiedossier",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Escalatie- en aanpassingsdossier klantbezwaar",
+  "url": "/playbook/documenten#doc.keten-bezwaar-escalatiedossier",
+  "text": "Escalatie- en aanpassingsdossier klantbezwaar. Escalatie- en aanpassingsdossier bij bezwaar van een klant tegen een ketenwijziging, met de doorgevoerde maatregelen of beëindiging. Art. 5, lid 4 GV 2025/532 Art. 6 GV 2025/532"
+ },
+ {
+  "id": "document-doc.tlpt-deelnamedraaiboek",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Procedure",
+  "heading": "Intern TLPT-deelnamedraaiboek",
+  "url": "/playbook/documenten#doc.tlpt-deelnamedraaiboek",
+  "text": "Intern TLPT-deelnamedraaiboek. Intern draaiboek voor deelname aan TLPT's van klanten met aanspreekpunt, geheimhoudingsinstructie, codenaamgebruik en ontdekkingsmeldprotocol. Art. 26, lid 2 DORA Art. 26, lid 3 DORA Art. 11, lid 9 GV 2025/1190 Art. 11, lid 10 GV 2025/1190"
+ },
+ {
+  "id": "document-doc.tlpt-gebundelde-test-dossier",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Afwegings- en overeenkomstendossier gebundelde TLPT",
+  "url": "/playbook/documenten#doc.tlpt-gebundelde-test-dossier",
+  "text": "Afwegings- en overeenkomstendossier gebundelde TLPT. Afwegings- en overeenkomstendossier voor een gebundelde (pooled) TLPT per klant(groep), inclusief de schriftelijke overeenkomst en het contract met de externe tester. Art. 26, lid 4 DORA Art. 11, lid 9 GV 2025/1190 Art. 13, lid 2 GV 2025/1190"
+ },
+ {
+  "id": "document-doc.aanwijzing-reactiedraaiboek",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Procedure",
+  "heading": "Draaiboek reactie op voorgenomen CTPP-aanwijzing",
+  "url": "/playbook/documenten#doc.aanwijzing-reactiedraaiboek",
+  "text": "Draaiboek reactie op voorgenomen CTPP-aanwijzing. Draaiboek voor de reactie op een voorgenomen aanwijzing als kritieke derde aanbieder van ICT-diensten. Art. 31, lid 5 DORA Art. 1, lid 2 GV 2024/1502 Art. 7 GV 2024/1502"
+ },
+ {
+  "id": "document-doc.gemotiveerde-verklaring-aanwijzing",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Memo",
+  "heading": "Gemotiveerde verklaring tegen voorgenomen aanwijzing",
+  "url": "/playbook/documenten#doc.gemotiveerde-verklaring-aanwijzing",
+  "text": "Gemotiveerde verklaring tegen voorgenomen aanwijzing. Indieningsklaar conceptdossier met de met redenen omklede verklaring naar aanleiding van een voorgenomen aanwijzing. Art. 31, lid 5 DORA"
+ },
+ {
+  "id": "document-doc.oversight-aanwijzingsdossier",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Oversight-aanwijzingsdossier",
+  "url": "/playbook/documenten#doc.oversight-aanwijzingsdossier",
+  "text": "Oversight-aanwijzingsdossier. Dossier met de aanwijzingskennisgevingen van de ETA's en de lead overseer en de aanvangsdatum van het oversight. Art. 31, lid 11 DORA Art. 31, lid 12 DORA Art. 31, lid 13 DORA Art. 33, lid 1 DORA"
+ },
+ {
+  "id": "document-doc.klant-aanwijzingskennisgeving",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Memo",
+  "heading": "Kennisgeving aanwijzing aan financiele klanten",
+  "url": "/playbook/documenten#doc.klant-aanwijzingskennisgeving",
+  "text": "Kennisgeving aanwijzing aan financiele klanten. Kennisgeving aan alle financiele klanten dat de aanbieder als cruciaal is aangewezen. Art. 31, lid 12 DORA Art. 33, lid 1 DORA"
+ },
+ {
+  "id": "document-doc.coordinatiepunt-mandaat",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Beleid",
+  "heading": "Mandaat en aanwijzingsbesluit (groeps)coordinatiepunt",
+  "url": "/playbook/documenten#doc.coordinatiepunt-mandaat",
+  "text": "Mandaat en aanwijzingsbesluit (groeps)coordinatiepunt. Mandaat en aanwijzingsbesluit van het (groeps)coordinatiepunt dat als contactpunt voor het oversight optreedt. Art. 33, lid 1 DORA Art. 1, lid 1 GV 2025/295"
+ },
+ {
+  "id": "document-doc.reactie-oversightplan",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Memo",
+  "heading": "Reactie op ontwerp-oversightplan",
+  "url": "/playbook/documenten#doc.reactie-oversightplan",
+  "text": "Reactie op ontwerp-oversightplan. Reacties op de ontwerp-oversightplannen van de lead overseer, in te dienen binnen 15 kalenderdagen. Art. 33, lid 4 DORA"
+ },
+ {
+  "id": "document-doc.opt-in-verzoekdossier",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Opt-in-verzoekdossier CTPP-aanwijzing",
+  "url": "/playbook/documenten#doc.opt-in-verzoekdossier",
+  "text": "Opt-in-verzoekdossier CTPP-aanwijzing. Met redenen omkleed opt-in-verzoek om als cruciaal te worden aangewezen, conform art. 1 GV 2025/295. Art. 31, lid 11 DORA Art. 1, lid 1 GV 2025/295 Art. 1, lid 2 GV 2025/295"
+ },
+ {
+  "id": "document-doc.oversight-informatieverzoeken-register",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Register informatieverzoeken lead overseer",
+  "url": "/playbook/documenten#doc.oversight-informatieverzoeken-register",
+  "text": "Register informatieverzoeken lead overseer. Register van informatieverzoeken van de lead overseer met rechtsgrondslag, termijn en afhandeling. Art. 37, lid 1 DORA Art. 37, lid 4 DORA"
+ },
+ {
+  "id": "document-doc.oversight-informatiedossier",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Memo",
+  "heading": "Oversight-informatiedossier per categorie",
+  "url": "/playbook/documenten#doc.oversight-informatiedossier",
+  "text": "Oversight-informatiedossier per categorie. Dossierstructuur per informatiecategorie van art. 2, lid 2 GV 2025/295, in het voorgeschreven formaat en de voorgeschreven kanalen. Art. 2, lid 1 GV 2025/295 Art. 2, lid 2 GV 2025/295 Art. 4, lid 1 GV 2025/295"
+ },
+ {
+  "id": "document-doc.oversight-onderaannemingsmodel",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Rapportage",
+  "heading": "Ingediende Bijlage I-modellen onderaanneming",
+  "url": "/playbook/documenten#doc.oversight-onderaannemingsmodel",
+  "text": "Ingediende Bijlage I-modellen onderaanneming. Ingediende Bijlage I-modellen over onderaannemingsovereenkomsten conform het voorgeschreven model. Art. 4, lid 1 GV 2025/295 Art. 5 GV 2025/295"
+ },
+ {
+  "id": "document-doc.oversight-omzetopgave",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Rapportage",
+  "heading": "Gecontroleerde omzetopgave oversightvergoeding",
+  "url": "/playbook/documenten#doc.oversight-omzetopgave",
+  "text": "Gecontroleerde omzetopgave oversightvergoeding. Gecontroleerde omzetopgave met indieningsbewijs, jaarlijks uiterlijk op 31 december in te dienen. Art. 2, lid 2 GV 2024/1505 Art. 2, lid 3 GV 2024/1505 Art. 6 GV 2024/1505"
+ },
+ {
+  "id": "document-doc.onderzoek-inspectie-draaiboek",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Procedure",
+  "heading": "Draaiboek onderzoeken en inspecties",
+  "url": "/playbook/documenten#doc.onderzoek-inspectie-draaiboek",
+  "text": "Draaiboek onderzoeken en inspecties. Draaiboek voor algemene onderzoeken en inspecties met de rol van het coordinatiepunt. Art. 38, lid 2 DORA Art. 39, lid 1 DORA Art. 40, lid 2 DORA"
+ },
+ {
+  "id": "document-doc.oversight-activiteitenlogboek",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Logboek oversightactiviteiten",
+  "url": "/playbook/documenten#doc.oversight-activiteitenlogboek",
+  "text": "Logboek oversightactiviteiten. Logboek per oversightactiviteit met machtiging/besluit, verstrekte stukken, verzegelingen en gegeven toelichtingen. Art. 38, lid 2 DORA Art. 39, lid 2 DORA Art. 39, lid 4 DORA Art. 39, lid 5 DORA"
+ },
+ {
+  "id": "document-doc.inspectie-personeelsinstructie",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Procedure",
+  "heading": "Personeelsinstructie inspecties ter plaatse",
+  "url": "/playbook/documenten#doc.inspectie-personeelsinstructie",
+  "text": "Personeelsinstructie inspecties ter plaatse. Personeelsinstructie voor de medewerking aan onderzoeken en inspecties ter plaatse. Art. 39, lid 1 DORA Art. 39, lid 4 DORA"
+ },
+ {
+  "id": "document-doc.aanbevelingen-termijnenkalender",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Plan",
+  "heading": "Termijnenkalender per aanbeveling",
+  "url": "/playbook/documenten#doc.aanbevelingen-termijnenkalender",
+  "text": "Termijnenkalender per aanbeveling. Termijnenkalender per aanbeveling met de 30- en 60-dagentermijnen en de door de lead overseer gestelde correctietermijnen. Art. 42, lid 1 DORA Art. 35, lid 6 DORA Art. 35, lid 8 DORA"
+ },
+ {
+  "id": "document-doc.aanbeveling-kennisgeving",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Memo",
+  "heading": "Kennisgeving en verklaring aan lead overseer",
+  "url": "/playbook/documenten#doc.aanbeveling-kennisgeving",
+  "text": "Kennisgeving en verklaring aan lead overseer. Kennisgevingen en gemotiveerde verklaringen aan de lead overseer over het al dan niet opvolgen van aanbevelingen. Art. 42, lid 1 DORA Art. 42, lid 2 DORA"
+ },
+ {
+  "id": "document-doc.oversight-correctieplan",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Plan",
+  "heading": "Correctieplan en opvolgverslagen",
+  "url": "/playbook/documenten#doc.oversight-correctieplan",
+  "text": "Correctieplan en opvolgverslagen. Verslag met correctieplan plus tussentijdse voortgangs- en eindverslagen naar aanleiding van de aanbevelingen. Art. 3, lid 1 GV 2025/295 Art. 3, lid 2 GV 2025/295"
+ },
+ {
+  "id": "document-doc.oversightvergoeding-betaaldossier",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Betaaldossier oversightvergoeding",
+  "url": "/playbook/documenten#doc.oversightvergoeding-betaaldossier",
+  "text": "Betaaldossier oversightvergoeding. Budgetpost en betaalbewijs van de jaarlijkse oversightvergoeding. Art. 43, lid 1 DORA Art. 5, lid 1 GV 2024/1505 Art. 3, lid 1 GV 2024/1505"
+ },
+ {
+  "id": "document-doc.oversightvergoeding-betaalbewaking",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Procedure",
+  "heading": "Betalingsbewakingsprocedure oversightvergoeding",
+  "url": "/playbook/documenten#doc.oversightvergoeding-betaalbewaking",
+  "text": "Betalingsbewakingsprocedure oversightvergoeding. Betalingsbewakingsprocedure met de termijnen van 30 april en 31 december. Art. 5, lid 2 GV 2024/1505 Art. 5, lid 3 GV 2024/1505 Art. 5, lid 4 GV 2024/1505 Art. 4, lid 2 GV 2024/1505"
+ },
+ {
+  "id": "document-doc.ict-controlefunctie-mandaat",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Beleid",
+  "heading": "Mandaat / rolbeschrijving onafhankelijke ICT-controlefunctie",
+  "url": "/playbook/documenten#doc.ict-controlefunctie-mandaat",
+  "text": "Mandaat / rolbeschrijving onafhankelijke ICT-controlefunctie. Organogram en functie-/mandaatbeschrijving van de controlefunctie die het beheer van en toezicht op ICT-risico toegewezen krijgt, met borging van een passend niveau van onafhankelijkheid om belangenconflicten te voorkomen. Art. 6, lid 4 DORA"
+ },
+ {
+  "id": "document-doc.controlefunctie-uitbestedingsovereenkomst",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Overeenkomst",
+  "heading": "Uitbestedingsovereenkomst ICT-verificatietaken",
+  "url": "/playbook/documenten#doc.controlefunctie-uitbestedingsovereenkomst",
+  "text": "Uitbestedingsovereenkomst ICT-verificatietaken. Overeenkomst waarmee de verificatietaken inzake naleving van de ICT-risicobeheervereisten aan een intragroeps- of externe onderneming worden uitbesteed, met de clausule dat de financiële entiteit volledig verantwoordelijk blijft. Art. 6, lid 10 DORA"
+ },
+ {
+  "id": "document-doc.kaderevaluatie-verslag",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Evaluatieverslag ICT-risicobeheerkader",
+  "url": "/playbook/documenten#doc.kaderevaluatie-verslag",
+  "text": "Evaluatieverslag ICT-risicobeheerkader. Evaluatiekalender met triggers en het periodieke evaluatieverslag van het (vereenvoudigde) ICT-risicobeheerkader in het door de RTS voorgeschreven format en inhoud. Art. 6, lid 5 DORA Art. 27, lid 1 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.digitale-weerbaarheidsstrategie",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Beleid",
+  "heading": "Strategie voor digitale operationele weerbaarheid",
+  "url": "/playbook/documenten#doc.digitale-weerbaarheidsstrategie",
+  "text": "Strategie voor digitale operationele weerbaarheid. Strategie voor digitale operationele weerbaarheid met ICT-doelstellingen, KPI's, kernrisicomaatstaven en risicotolerantieniveaus, inclusief een eventuele holistische multivendorstrategie op ICT-gebied. Art. 6, lid 8 DORA Art. 6, lid 9 DORA"
+ },
+ {
+  "id": "document-doc.capaciteits-prestatiebeheer",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Rapportage",
+  "heading": "Capaciteits- en prestatiebeheerrapportage (lifecycle)",
+  "url": "/playbook/documenten#doc.capaciteits-prestatiebeheer",
+  "text": "Capaciteits- en prestatiebeheerrapportage (lifecycle). Lifecycle-, capaciteits- en prestatiebeheerrapportage die aantoont dat de ICT-systemen, -protocollen en -instrumenten geactualiseerd en passend blijven, met de onderbouwde besluitvorming over vervanging of versterking. Art. 7 DORA Art. 9, lid 1 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.risicobeoordeling-wijzigingen",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Risicobeoordelingsdossier belangrijke wijzigingen",
+  "url": "/playbook/documenten#doc.risicobeoordeling-wijzigingen",
+  "text": "Risicobeoordelingsdossier belangrijke wijzigingen. Dossier met de risicobeoordeling die bij elke belangrijke wijziging in de netwerk- en informatiesysteeminfrastructuur, processen of procedures wordt verricht. Art. 8, lid 3 DORA"
+ },
+ {
+  "id": "document-doc.legacy-systemen-register",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Legacy-systemenoverzicht met risicobeoordeling",
+  "url": "/playbook/documenten#doc.legacy-systemen-register",
+  "text": "Legacy-systemenoverzicht met risicobeoordeling. Overzicht van legacy-ICT-systemen met de datum en uitkomst van de ten minste jaarlijkse specifieke ICT-risicobeoordeling, ook voor en na aansluiting van technologieën, toepassingen of systemen. Art. 8, lid 7 DORA"
+ },
+ {
+  "id": "document-doc.cryptografiebeleid",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Beleid",
+  "heading": "Cryptografie- en encryptiebeleid",
+  "url": "/playbook/documenten#doc.cryptografiebeleid",
+  "text": "Cryptografie- en encryptiebeleid. Beleid voor encryptie en cryptografische controles, inclusief sleutelbeheer, ter bescherming van gegevens in rusttoestand, bij gebruik en bij doorvoer. Art. 9, lid 2 DORA Art. 6, lid 1 GV 2024/1774 Art. 7, lid 1 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.detectie-monitoringbeleid",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Beleid",
+  "heading": "Detectie- en monitoringarchitectuur (SIEM)",
+  "url": "/playbook/documenten#doc.detectie-monitoringbeleid",
+  "text": "Detectie- en monitoringarchitectuur (SIEM). Beschrijving van de detectie- en monitoringarchitectuur (monitoring/SIEM/logging) met meerdere controlelagen, waarschuwingsdrempels en criteria om de incidentrespons in werking te stellen. Art. 10, lid 1 DORA Art. 23, lid 1 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.testrapportage-weerbaarheid",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Testkalender en -verslagen operationele weerbaarheid",
+  "url": "/playbook/documenten#doc.testrapportage-weerbaarheid",
+  "text": "Testkalender en -verslagen operationele weerbaarheid. Gedeelde testkalender en testverslagen voor de operationele-weerbaarheidstests: detectiemechanismen, continuïteits-, respons- en herstelplannen en terugzettings-/hersteltests, per plan en scenario. Art. 11, lid 6 DORA Art. 12, lid 2 DORA Art. 25, lid 1 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.bia-rapport",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Bedrijfsimpactanalyse (BIA) en RTO/RPO-matrix",
+  "url": "/playbook/documenten#doc.bia-rapport",
+  "text": "Bedrijfsimpactanalyse (BIA) en RTO/RPO-matrix. BIA-rapport van de blootstelling aan ernstige verstoringen met criteria, scenario's en peildatum, en de daaruit afgeleide hersteltijd- en herstelpuntdoelstellingen (RTO/RPO) per functie. Art. 11, lid 5 DORA Art. 12, lid 6 DORA"
+ },
+ {
+  "id": "document-doc.verbetermaatregelen-register",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Verbeterregister test- en incidentbevindingen",
+  "url": "/playbook/documenten#doc.verbetermaatregelen-register",
+  "text": "Verbeterregister test- en incidentbevindingen. Register met de opvolging van verbetermaatregelen die voortvloeien uit test- en post-incidentbevindingen, met eigenaar, maatregel, deadline en status. Art. 11, lid 6 DORA Art. 13, lid 2 DORA"
+ },
+ {
+  "id": "document-doc.crisisbeheerprocedure",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Procedure",
+  "heading": "Crisisbeheerprocedure",
+  "url": "/playbook/documenten#doc.crisisbeheerprocedure",
+  "text": "Crisisbeheerprocedure. Procedure van de crisisbeheerfunctie met rolverdeling en communicatielijnen voor het beheer van interne en externe crisiscommunicatie bij activering van de continuïteits- en herstelplannen. Art. 11, lid 7 DORA"
+ },
+ {
+  "id": "document-doc.activerings-logboek",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Activeringslogboek continuïteits- en herstelplannen",
+  "url": "/playbook/documenten#doc.activerings-logboek",
+  "text": "Activeringslogboek continuïteits- en herstelplannen. Gemakkelijk toegankelijk register van de activiteiten vóór en tijdens storingen wanneer de ICT-bedrijfscontinuïteits-, respons- en herstelplannen worden geactiveerd. Art. 11, lid 8 DORA"
+ },
+ {
+  "id": "document-doc.redundantie-ontwerp",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Redundantie- en capaciteitsontwerp",
+  "url": "/playbook/documenten#doc.redundantie-ontwerp",
+  "text": "Redundantie- en capaciteitsontwerp. Ontwerp en onderbouwing van de ICT-reservecapaciteit en, voor centrale effectenbewaarinstellingen, de documentatie van de secundaire verwerkingslocatie. Art. 12, lid 4 DORA Art. 12, lid 5 DORA"
+ },
+ {
+  "id": "document-doc.post-incident-evaluatie",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Post-incidentevaluatieverslag",
+  "url": "/playbook/documenten#doc.post-incident-evaluatie",
+  "text": "Post-incidentevaluatieverslag. ICT-gerelateerde post-incidentevaluatie na verstoring van kernactiviteiten, met oorzaakanalyse en de te treffen verbetermaatregelen. Art. 13, lid 2 DORA"
+ },
+ {
+  "id": "document-doc.dreigingsbeeld-trendanalyse",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Dreigings- en risicobeeld met trendanalyse",
+  "url": "/playbook/documenten#doc.dreigingsbeeld-trendanalyse",
+  "text": "Dreigings- en risicobeeld met trendanalyse. Actueel dreigings- en risicobeeld op basis van verzamelde informatie over kwetsbaarheden en cyberdreigingen, met trendanalyse van de frequentie, types en evolutie van ICT-risico's in de tijd. Art. 13, lid 1 DORA Art. 13, lid 4 DORA"
+ },
+ {
+  "id": "document-doc.jaarlijkse-ict-bestuursrapportage",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Rapportage",
+  "heading": "Jaarlijkse ICT-rapportage aan het leidinggevend orgaan",
+  "url": "/playbook/documenten#doc.jaarlijkse-ict-bestuursrapportage",
+  "text": "Jaarlijkse ICT-rapportage aan het leidinggevend orgaan. Ten minste jaarlijks verslag van het leidinggevend ICT-personeel aan het leidinggevend orgaan over de bevindingen uit de leer- en verbetercyclus, met aanbevelingen. Art. 13, lid 5 DORA"
+ },
+ {
+  "id": "document-doc.awareness-opleidingsprogramma",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Plan",
+  "heading": "Awareness- en opleidingsprogramma ICT-beveiliging",
+  "url": "/playbook/documenten#doc.awareness-opleidingsprogramma",
+  "text": "Awareness- en opleidingsprogramma ICT-beveiliging. Verplichte bewustmakings- en opleidingsmodules inzake ICT-beveiliging en digitale operationele weerbaarheid voor alle werknemers en hoger management, met deelnameregistratie. Art. 13, lid 6 DORA Art. 19 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.technologiewatch-rapportage",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Rapportage",
+  "heading": "Technologiewatch- / trendrapportage",
+  "url": "/playbook/documenten#doc.technologiewatch-rapportage",
+  "text": "Technologiewatch- / trendrapportage. Rapportage van het doorlopende toezicht op relevante technologische ontwikkelingen en de mogelijke effecten daarvan op de ICT-beveiligingsvereisten en digitale operationele weerbaarheid. Art. 13, lid 7 DORA"
+ },
+ {
+  "id": "document-doc.crisiscommunicatieplan",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Plan",
+  "heading": "Crisiscommunicatieplan",
+  "url": "/playbook/documenten#doc.crisiscommunicatieplan",
+  "text": "Crisiscommunicatieplan. Crisiscommunicatieplan met doelgroepen en kanalen voor verantwoorde bekendmaking van ernstige ICT-incidenten of kwetsbaarheden, en de aanwijzing van een woordvoerder met vervangingsregeling. Art. 14, lid 1 DORA Art. 14, lid 2 DORA"
+ },
+ {
+  "id": "document-doc.gapanalyse-gv1774",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Gap-analyse GV 2024/1774",
+  "url": "/playbook/documenten#doc.gapanalyse-gv1774",
+  "text": "Gap-analyse GV 2024/1774. Gap-analyse van de technische normen van GV 2024/1774 (volledig of vereenvoudigd kader) met de mapping op het eigen beleid en de eigen controles. Art. 15 DORA Art. 1 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.remedieringsplan-gv1774",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Plan",
+  "heading": "Remediëringsplan GV 2024/1774",
+  "url": "/playbook/documenten#doc.remedieringsplan-gv1774",
+  "text": "Remediëringsplan GV 2024/1774. Remediëringsplan dat de in de gap-analyse van GV 2024/1774 geconstateerde tekortkomingen belegt met eigenaren en deadlines. Art. 15 DORA Art. 3 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.ict-beleidsmonitoring-rapportage",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Rapportage",
+  "heading": "Rapportage monitoring ICT-beveiligingsbeleid",
+  "url": "/playbook/documenten#doc.ict-beleidsmonitoring-rapportage",
+  "text": "Rapportage monitoring ICT-beveiligingsbeleid. Periodieke rapportage met de indicatoren en maatstaven waarmee de implementatie van de ICT-beveiligingsbeleidslijnen wordt gemonitord. Art. 2, lid 2 GV 2024/1774 Art. 9, lid 2 DORA"
+ },
+ {
+  "id": "document-doc.ict-beveiliging-uitzonderingenregister",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Uitzonderingenregister ICT-beveiligingsbeleid",
+  "url": "/playbook/documenten#doc.ict-beveiliging-uitzonderingenregister",
+  "text": "Uitzonderingenregister ICT-beveiligingsbeleid. Register van uitzonderingen op de implementatie van de ICT-beveiligingsbeleidslijnen, met de compenserende maatregelen die de digitale operationele weerbaarheid borgen. Art. 2, lid 2 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.ict-restrisicoregister",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Register geaccepteerde ICT-restrisico's",
+  "url": "/playbook/documenten#doc.ict-restrisicoregister",
+  "text": "Register geaccepteerde ICT-restrisico's. Inventaris van de geaccepteerde ICT-restrisico's met verantwoording en de ten minste jaarlijkse evaluatie van die restrisico's. Art. 3 GV 2024/1774 Art. 6, lid 8 DORA"
+ },
+ {
+  "id": "document-doc.ict-assetbeheerbeleid",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Beleid",
+  "heading": "ICT-assetbeheerbeleid en -procedure",
+  "url": "/playbook/documenten#doc.ict-assetbeheerbeleid",
+  "text": "ICT-assetbeheerbeleid en -procedure. Beleid en procedure voor het beheer van ICT-assets die de levenscyclus, de verplichte vastleggingsvelden en de kritikaliteitsbeoordelingscriteria van informatie- en ICT-assets bepalen. Art. 4, lid 2 GV 2024/1774 Art. 5, lid 2 GV 2024/1774 Art. 8, lid 1 DORA"
+ },
+ {
+  "id": "document-doc.certificatenregister",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Certificatenregister",
+  "url": "/playbook/documenten#doc.certificatenregister",
+  "text": "Certificatenregister. Register van alle certificaten en opslagapparaten voor certificaten voor ICT-assets die kritieke of belangrijke functies ondersteunen, met bewaking van verloop en tijdige verlenging. Art. 7, lid 4 GV 2024/1774 Art. 7, lid 5 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.ict-operatiesbeleid",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Beleid",
+  "heading": "Beleidslijnen en procedures ICT-operaties",
+  "url": "/playbook/documenten#doc.ict-operatiesbeleid",
+  "text": "Beleidslijnen en procedures ICT-operaties. Beleidslijnen en procedures voor het beheer van ICT-operaties die specificeren hoe ICT-assets worden geopereerd, gemonitord, gecontroleerd en hersteld. Art. 8, lid 1 GV 2024/1774 Art. 8, lid 2 GV 2024/1774 Art. 9, lid 2 DORA"
+ },
+ {
+  "id": "document-doc.productietest-register",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Register tests in productieomgeving",
+  "url": "/playbook/documenten#doc.productietest-register",
+  "text": "Register tests in productieomgeving. Register van tests die in de productieomgeving zijn goedgekeurd, met de argumentatie, de betrokken goedkeurende functie en de beperkte looptijd. Art. 8, lid 2 GV 2024/1774 Art. 16, lid 6 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.kwetsbaarheden-patchbeheerprocedure",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Procedure",
+  "heading": "Procedures kwetsbaarheden- en patchmanagement",
+  "url": "/playbook/documenten#doc.kwetsbaarheden-patchbeheerprocedure",
+  "text": "Procedures kwetsbaarheden- en patchmanagement. Procedures voor risicogebaseerd kwetsbaarhedenbeheer en patchmanagement, met scanfrequenties, prioritering en termijnen voor het verhelpen van kwetsbaarheden. Art. 10, lid 2 GV 2024/1774 Art. 10, lid 4 GV 2024/1774 Art. 9, lid 2 DORA"
+ },
+ {
+  "id": "document-doc.kwetsbaarheden-patchrapportage",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Rapportage",
+  "heading": "Rapportage kwetsbaarheidsscans en patching",
+  "url": "/playbook/documenten#doc.kwetsbaarheden-patchrapportage",
+  "text": "Rapportage kwetsbaarheidsscans en patching. Rapportage over de geautomatiseerde kwetsbaarheidsscans en de uitrol van patches, met termijnbewaking en escalaties voor kritieke assets. Art. 10, lid 2 GV 2024/1774 Art. 10, lid 4 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.gegevens-systeembeveiligingsprocedure",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Procedure",
+  "heading": "Procedure gegevens- en systeembeveiliging",
+  "url": "/playbook/documenten#doc.gegevens-systeembeveiligingsprocedure",
+  "text": "Procedure gegevens- en systeembeveiliging. Procedure voor gegevens- en systeembeveiliging die de beveiligingsmaatregelen per classificatieniveau voor gegevens, systemen en endpoints vastlegt. Art. 11, lid 2 GV 2024/1774 Art. 9, lid 2 DORA Art. 9, lid 3 DORA"
+ },
+ {
+  "id": "document-doc.veilige-configuratiebaselines",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Register veilige configuratiebaselines",
+  "url": "/playbook/documenten#doc.veilige-configuratiebaselines",
+  "text": "Register veilige configuratiebaselines. Overzicht van de veilige configuratiebaselines voor ICT-assets met de periodieke compliance-controle op de daadwerkelijke uitrol ervan. Art. 11, lid 2 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.gegevensvernietiging-logboek",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Logboek veilig wissen en afvoer opslagapparaten",
+  "url": "/playbook/documenten#doc.gegevensvernietiging-logboek",
+  "text": "Logboek veilig wissen en afvoer opslagapparaten. Logboek van het veilig wissen van gegevens en het afvoeren of ontmantelen van opslagapparaten die vertrouwelijke informatie bevatten. Art. 11, lid 2 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.loggingbeleid",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Beleid",
+  "heading": "Loggingbeleid",
+  "url": "/playbook/documenten#doc.loggingbeleid",
+  "text": "Loggingbeleid. Loggingbeleid met -procedures, -protocollen en -tools die de bij te houden events, retentietermijnen, logbescherming en kloksynchronisatie bepalen. Art. 12, lid 2 GV 2024/1774 Art. 9, lid 2 DORA"
+ },
+ {
+  "id": "document-doc.logintegriteit-beschermingsbewijs",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Bewijs integriteitsbescherming log- en detectievastleggingen",
+  "url": "/playbook/documenten#doc.logintegriteit-beschermingsbewijs",
+  "text": "Bewijs integriteitsbescherming log- en detectievastleggingen. Bewijs van de toegangs- en integriteitsbescherming van logging- en detectievastleggingen tegen manipulatie, wissen en ongeautoriseerde toegang. Art. 12, lid 2 GV 2024/1774 Art. 23, lid 3 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.netwerkbeveiligingsbeleid",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Beleid",
+  "heading": "Netwerkbeveiligingsbeleid",
+  "url": "/playbook/documenten#doc.netwerkbeveiligingsbeleid",
+  "text": "Netwerkbeveiligingsbeleid. Beleidslijnen, procedures, protocollen en tools voor netwerkbeveiliging, met segmentatieontwerp, gegevensstroomdocumentatie en de bescherming van informatie in transit. Art. 13 GV 2024/1774 Art. 14, lid 1 GV 2024/1774 Art. 9, lid 2 DORA"
+ },
+ {
+  "id": "document-doc.firewall-netwerkarchitectuur-review",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Reviewverslagen firewall en netwerkarchitectuur",
+  "url": "/playbook/documenten#doc.firewall-netwerkarchitectuur-review",
+  "text": "Reviewverslagen firewall en netwerkarchitectuur. Evaluatieverslagen van firewallregels en verbindingsfilters (halfjaarlijks voor kritieke systemen) en de jaarlijkse evaluatie van de netwerkarchitectuur. Art. 13, punt h) GV 2024/1774 Art. 13, punt i) GV 2024/1774"
+ },
+ {
+  "id": "document-doc.geheimhoudingsovereenkomst",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Overeenkomst",
+  "heading": "Geheimhoudingsafspraken (NDA's)",
+  "url": "/playbook/documenten#doc.geheimhoudingsovereenkomst",
+  "text": "Geheimhoudingsafspraken (NDA's). Vertrouwelijkheids- of geheimhoudingsafspraken (NDA's) met medewerkers en derde partijen, die periodiek worden geëvalueerd. Art. 14, lid 1 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.ict-projectmanagementbeleid",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Beleid",
+  "heading": "ICT-projectmanagementbeleid",
+  "url": "/playbook/documenten#doc.ict-projectmanagementbeleid",
+  "text": "ICT-projectmanagementbeleid. Beleid voor ICT-projectmanagement dat governance, planning, risicobeoordeling, mijlpalen en testgoedkeuring van ICT-projecten regelt. Art. 15 GV 2024/1774 Art. 9, lid 2 DORA"
+ },
+ {
+  "id": "document-doc.ict-projectdossier",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "ICT-projectdossier (risicobeoordeling en testgoedkeuring)",
+  "url": "/playbook/documenten#doc.ict-projectdossier",
+  "text": "ICT-projectdossier (risicobeoordeling en testgoedkeuring). Per ICT-project de risicobeoordeling en de testgoedkeuringen vóór de uitrol van het ICT-systeem in de productieomgeving. Art. 15, lid 3 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.ict-projectportfolio-rapportage",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Rapportage",
+  "heading": "Bestuursrapportage ICT-projectportfolio",
+  "url": "/playbook/documenten#doc.ict-projectportfolio-rapportage",
+  "text": "Bestuursrapportage ICT-projectportfolio. Rapportage aan het leidinggevend orgaan over de opzet, voortgang en risico's van ICT-projecten met impact op kritieke of belangrijke functies. Art. 15, lid 5 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.systeemontwikkelingsbeleid",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Beleid",
+  "heading": "Beleid aanschaf, ontwikkeling en onderhoud ICT-systemen",
+  "url": "/playbook/documenten#doc.systeemontwikkelingsbeleid",
+  "text": "Beleid aanschaf, ontwikkeling en onderhoud ICT-systemen. Beleid voor aanschaf, ontwikkeling en onderhoud van ICT-systemen met de test- en goedkeuringsprocedure en de beheersmaatregelen voor broncode-integriteit. Art. 16, lid 1 GV 2024/1774 Art. 16, lid 2 GV 2024/1774 Art. 9, lid 2 DORA"
+ },
+ {
+  "id": "document-doc.systeemtest-goedkeuringsverslag",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Testplannen en goedkeuringsverslagen ICT-systemen",
+  "url": "/playbook/documenten#doc.systeemtest-goedkeuringsverslag",
+  "text": "Testplannen en goedkeuringsverslagen ICT-systemen. Testplannen en goedkeuringsverslagen voor ICT-systemen vóór de ingebruikname en na onderhoud, evenredig aan het kritieke karakter van de betrokken processen. Art. 16, lid 2 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.euc-inventaris",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "EUC-inventaris",
+  "url": "/playbook/documenten#doc.euc-inventaris",
+  "text": "EUC-inventaris. Inventaris van door eindgebruikers buiten de ICT-functie ontwikkelde of beheerde ICT-systemen (EUC), met een risicogebaseerde beoordeling. Art. 16, lid 9 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.broncodereview-rapportage",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Rapportage",
+  "heading": "Rapportage broncodereviews en beveiligingstests",
+  "url": "/playbook/documenten#doc.broncodereview-rapportage",
+  "text": "Rapportage broncodereviews en beveiligingstests. Rapportages van broncodereviews en statische en dynamische beveiligingstests, met de actieplannen om geconstateerde kwetsbaarheden en anomalieën aan te pakken. Art. 16, lid 3 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.testdatabeheer-procedure",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Procedure",
+  "heading": "Procedure testdatabeheer",
+  "url": "/playbook/documenten#doc.testdatabeheer-procedure",
+  "text": "Procedure testdatabeheer. Procedure voor testdatabeheer die het gebruik van geanonimiseerde of gepseudonimiseerde gegevens borgt en het gebruik van productiegegevens goedkeurt en aan de risicofunctie meldt. Art. 16, lid 5 GV 2024/1774 Art. 16, lid 6 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.wijzigingsbeheerprocedure",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Procedure",
+  "heading": "ICT-wijzigingsbeheerprocedure",
+  "url": "/playbook/documenten#doc.wijzigingsbeheerprocedure",
+  "text": "ICT-wijzigingsbeheerprocedure. ICT-wijzigingsbeheerprocedure voor alle wijzigingen van software, hardware, firmware, systemen of beveiligingsparameters, met verificatie, functiescheiding, fall-back en noodwijzigingen. Art. 17, lid 1 GV 2024/1774 Art. 9, lid 4 DORA"
+ },
+ {
+  "id": "document-doc.wijzigingsregister",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Wijzigingsregister (incl. noodwijzigingen)",
+  "url": "/playbook/documenten#doc.wijzigingsregister",
+  "text": "Wijzigingsregister (incl. noodwijzigingen). Register van ICT-wijzigingen met goedkeuringen, testresultaten en fall-back, inclusief de noodwijzigingen met de beoordeling achteraf. Art. 17, lid 1 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.fysieke-beveiligingsbeleid",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Beleid",
+  "heading": "Beleid fysieke beveiliging en milieubeveiliging",
+  "url": "/playbook/documenten#doc.fysieke-beveiligingsbeleid",
+  "text": "Beleid fysieke beveiliging en milieubeveiliging. Beleid voor fysieke beveiliging en milieubeveiliging dat bedrijfslocaties, datacentra en gevoelige zones met ICT- en informatieassets beschermt, met zonering per locatie. Art. 18, lid 1 GV 2024/1774 Art. 18, lid 2 GV 2024/1774 Art. 9, lid 2 DORA"
+ },
+ {
+  "id": "document-doc.fysieke-onderhoud-inspectieregister",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Onderhouds- en inspectieregister fysieke beveiliging",
+  "url": "/playbook/documenten#doc.fysieke-onderhoud-inspectieregister",
+  "text": "Onderhouds- en inspectieregister fysieke beveiliging. Registraties van onderhoud en inspecties van de ICT-assets, informatieassets en apparatuur voor fysieke toegangscontrole. Art. 18, lid 2 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.hr-ict-beveiligingsbeleid",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Beleid",
+  "heading": "HR-beleid met ICT-beveiligingselementen",
+  "url": "/playbook/documenten#doc.hr-ict-beveiligingsbeleid",
+  "text": "HR-beleid met ICT-beveiligingselementen. Humanresourcesbeleid met de ICT-beveiligingselementen, waaronder toewijzing van verantwoordelijkheden, bewustwording en teruggave van assets bij uitdiensttreding. Art. 19 GV 2024/1774 Art. 15 DORA"
+ },
+ {
+  "id": "document-doc.onboarding-offboarding-checklist",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Procedure",
+  "heading": "Onboarding-/offboardingchecklist met asset-teruggave",
+  "url": "/playbook/documenten#doc.onboarding-offboarding-checklist",
+  "text": "Onboarding-/offboardingchecklist met asset-teruggave. Onboarding- en offboardingchecklists die de teruggave van ICT- en materiële informatieassets bij beëindiging van het dienstverband borgen. Art. 19 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.personeel-ict-clausules",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Overeenkomst",
+  "heading": "ICT-beveiligingsclausules arbeids- en inhuurcontracten",
+  "url": "/playbook/documenten#doc.personeel-ict-clausules",
+  "text": "ICT-beveiligingsclausules arbeids- en inhuurcontracten. ICT-beveiligingsclausules in arbeids- en inhuurcontracten voor medewerkers en derde aanbieders die toegang hebben tot ICT-assets. Art. 19 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.toegangsrechten-hercertificering-rapportage",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Rapportage",
+  "heading": "Hercertificeringsrapportage toegangsrechten",
+  "url": "/playbook/documenten#doc.toegangsrechten-hercertificering-rapportage",
+  "text": "Hercertificeringsrapportage toegangsrechten. Rapportages van de periodieke hercertificering van toegangsrechten (jaarlijks, halfjaarlijks voor systemen die kritieke of belangrijke functies ondersteunen). Art. 21 GV 2024/1774 Art. 9, lid 4 DORA"
+ },
+ {
+  "id": "document-doc.fysieke-toegang-log",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "PAM-inrichting en log fysieke toegang",
+  "url": "/playbook/documenten#doc.fysieke-toegang-log",
+  "text": "PAM-inrichting en log fysieke toegang. Inrichting van Privileged Access Management en de logging van de fysieke toegang tot bedrijfslocaties, datacentra en gevoelige zones met ICT- en informatieassets. Art. 21 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.detectie-monitoring-configuratie",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Configuratie detectie- en monitoringtools (SIEM/alerting)",
+  "url": "/playbook/documenten#doc.detectie-monitoring-configuratie",
+  "text": "Configuratie detectie- en monitoringtools (SIEM/alerting). Configuratie van de detectie- en monitoringtools (SIEM/alerting) met prioriteringsregels en detectieregels op de integriteit van logbestanden. Art. 23, lid 2 GV 2024/1774"
+ },
+ {
+  "id": "document-doc.herstelopties-tpp-analyse",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Analyse alternatieve herstelopties en TPP-falen-mitigaties",
+  "url": "/playbook/documenten#doc.herstelopties-tpp-analyse",
+  "text": "Analyse alternatieve herstelopties en TPP-falen-mitigaties. Analyse van alternatieve herstelopties en van de continuïteitsmaatregelen die het falen van derde aanbieders van ICT-diensten mitigeren. Art. 26, lid 3 GV 2024/1774 Art. 26, lid 4 GV 2024/1774 Art. 11, lid 3 DORA"
+ },
+ {
+  "id": "document-doc.incident-communicatieplan",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Plan",
+  "heading": "Communicatieplan ICT-incidenten",
+  "url": "/playbook/documenten#doc.incident-communicatieplan",
+  "text": "Communicatieplan ICT-incidenten. Communicatieplan voor ICT-gerelateerde incidenten dat de interne en externe communicatie naar personeel, media, cliënten en tegenpartijen regelt, inclusief de procedure en geaccordeerde sjablonen voor cliëntkennisgeving. Art. 14, lid 2 DORA Art. 19, lid 3 DORA Art. 17, lid 3, punt d) DORA"
+ },
+ {
+  "id": "document-doc.incident-bestuursrapportage",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Rapportage",
+  "heading": "Bestuurs-/MT-rapportage ernstige ICT-incidenten",
+  "url": "/playbook/documenten#doc.incident-bestuursrapportage",
+  "text": "Bestuurs-/MT-rapportage ernstige ICT-incidenten. Rapportage aan het leidinggevend orgaan of MT over ernstige ICT-gerelateerde incidenten, ter borging van bestuurlijke betrokkenheid bij het incidentbeheerproces. Art. 5, lid 2 DORA Art. 17, lid 1 DORA"
+ },
+ {
+  "id": "document-doc.incident-classificatiedossier",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Classificatiedossier per ICT-incident",
+  "url": "/playbook/documenten#doc.incident-classificatiedossier",
+  "text": "Classificatiedossier per ICT-incident. Per-incident dossier met de gedocumenteerde onderbouwing van de classificatie tegen de criteria en materialiteitsdrempels, inclusief ramingen en eventuele herclassificatie. Art. 8, lid 1 GV 2024/1772 Art. 18, lid 1 DORA"
+ },
+ {
+  "id": "document-doc.incident-oefenverslag",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Test-/oefenverslag incidentprocessen",
+  "url": "/playbook/documenten#doc.incident-oefenverslag",
+  "text": "Test-/oefenverslag incidentprocessen. Verslag van het testen of oefenen van de incidentdetectie-, classificatie- en meldprocessen (o.a. beslisboom op casuïstiek, oefenmelding, toegangstest meldkanaal) met bevindingen en opvolging. Art. 22 GV 2024/1774 Art. 17, lid 1 DORA"
+ },
+ {
+  "id": "document-doc.melduitbesteding-regeling",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Memo",
+  "heading": "Regeling uitbesteding meldverplichtingen",
+  "url": "/playbook/documenten#doc.melduitbesteding-regeling",
+  "text": "Regeling uitbesteding meldverplichtingen. Vastlegging van het besluit om de rapportageverplichtingen voor ernstige ICT-incidenten uit te besteden aan een derde partij, met de verantwoordelijkheidsclausule en de kennisgeving daarvan aan de bevoegde autoriteit. Art. 19, lid 5 DORA Art. 6, lid 1 UV 2025/302"
+ },
+ {
+  "id": "document-doc.betalingsincident-scopememo",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Memo",
+  "heading": "Scopememo betalingsgerelateerde incidenten",
+  "url": "/playbook/documenten#doc.betalingsincident-scopememo",
+  "text": "Scopememo betalingsgerelateerde incidenten. Memo dat afbakent welke betalingsgerelateerde operationele of beveiligingsincidenten onder het incidentbeheer- en meldregime van hoofdstuk III DORA vallen. Art. 23 DORA"
+ },
+ {
+  "id": "document-doc.relevante-tegenpartijen-register",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Lijst relevante cliënten en financiële tegenpartijen",
+  "url": "/playbook/documenten#doc.relevante-tegenpartijen-register",
+  "text": "Lijst relevante cliënten en financiële tegenpartijen. Onderhouden lijst van de als relevant aangemerkte cliënten en financiële tegenpartijen die dient als noemer- en referentiebasis bij de incidentclassificatie. Art. 1, lid 3 GV 2024/1772 Art. 1, lid 5 GV 2024/1772"
+ },
+ {
+  "id": "document-doc.geaggregeerde-melding-toetsingsmemo",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Memo",
+  "heading": "Toetsingsmemo geaggregeerde rapportage",
+  "url": "/playbook/documenten#doc.geaggregeerde-melding-toetsingsmemo",
+  "text": "Toetsingsmemo geaggregeerde rapportage. Memo waarin wordt getoetst of aan de voorwaarden voor geaggregeerde rapportage van ernstige ICT-incidenten via een derde dienstverlener is voldaan. Art. 7, lid 1 UV 2025/302 Art. 7, lid 2 UV 2025/302"
+ },
+ {
+  "id": "document-doc.terugkerende-incidenten-toets",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Toets terugkerende incidenten",
+  "url": "/playbook/documenten#doc.terugkerende-incidenten-toets",
+  "text": "Toets terugkerende incidenten. Periodieke (maandelijkse) toets die terugkerende incidenten opspoort en beoordeelt of zij samen als ernstig incident moeten worden aangemerkt, met opvolging van verbetermaatregelen. Art. 17, lid 2 DORA Art. 8, lid 2 GV 2024/1772"
+ },
+ {
+  "id": "document-doc.testprogramma-weerbaarheid",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Plan",
+  "heading": "Testprogramma digitale operationele weerbaarheid",
+  "url": "/playbook/documenten#doc.testprogramma-weerbaarheid",
+  "text": "Testprogramma digitale operationele weerbaarheid. Risicogebaseerd programma dat scope, toe te passen testvormen en frequenties voor het testen van de digitale operationele weerbaarheid vastlegt. Art. 24, lid 1 DORA Art. 24, lid 2 DORA"
+ },
+ {
+  "id": "document-doc.weerbaarheidstestkalender",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Testkalender en uitvoeringsregister weerbaarheidstests",
+  "url": "/playbook/documenten#doc.weerbaarheidstestkalender",
+  "text": "Testkalender en uitvoeringsregister weerbaarheidstests. Jaarplanning en uitvoeringsregistratie van weerbaarheidstests op alle ICT-systemen en -toepassingen die kritieke of belangrijke functies ondersteunen. Art. 24, lid 6 DORA Art. 25, lid 3 DORA"
+ },
+ {
+  "id": "document-doc.weerbaarheidstestrapport",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Rapportage",
+  "heading": "Weerbaarheidstestrapport per testvorm",
+  "url": "/playbook/documenten#doc.weerbaarheidstestrapport",
+  "text": "Weerbaarheidstestrapport per testvorm. Rapportage van de resultaten per uitgevoerde weerbaarheidstestvorm, inclusief validatie- en hertesten van gesloten bevindingen. Art. 25, lid 1 DORA Art. 24, lid 4 DORA"
+ },
+ {
+  "id": "document-doc.tester-onafhankelijkheidsregister",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Onafhankelijkheids- en belangenconflictenregister testers",
+  "url": "/playbook/documenten#doc.tester-onafhankelijkheidsregister",
+  "text": "Onafhankelijkheids- en belangenconflictenregister testers. Registratie van de onafhankelijkheid en (afwezigheid van) belangenconflicten van interne of externe partijen die weerbaarheidstests uitvoeren. Art. 24, lid 4 DORA"
+ },
+ {
+  "id": "document-doc.testbevindingen-beleid",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Procedure",
+  "heading": "Beleid en procedure testbevindingenmanagement",
+  "url": "/playbook/documenten#doc.testbevindingen-beleid",
+  "text": "Beleid en procedure testbevindingenmanagement. Vastgesteld beleid en procedure om problemen die uit weerbaarheidstests naar voren komen te prioriteren, te classificeren, te verhelpen en te herstellen. Art. 24, lid 5 DORA"
+ },
+ {
+  "id": "document-doc.gebundelde-tlpt-overeenkomst",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Overeenkomst",
+  "heading": "Overeenkomst gebundelde of gezamenlijke TLPT",
+  "url": "/playbook/documenten#doc.gebundelde-tlpt-overeenkomst",
+  "text": "Overeenkomst gebundelde of gezamenlijke TLPT. Schriftelijke overeenkomst voor een gepoolde of gezamenlijke TLPT met rolverdeling, scope en verantwoordelijkheden van de deelnemende entiteiten. Art. 26, lid 4 DORA Art. 6, lid 1 GV 2025/1190 Art. 8, lid 1 GV 2025/1190"
+ },
+ {
+  "id": "document-doc.tlpt-aanbieder-contract",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Overeenkomst",
+  "heading": "Contract met TLPT-aanbieders",
+  "url": "/playbook/documenten#doc.tlpt-aanbieder-contract",
+  "text": "Contract met TLPT-aanbieders. Overeenkomst met de dreigingsinformatie-aanbieders en testers met herstelprocedures en een opsomming van verboden activiteiten. Art. 7, lid 2 GV 2025/1190 Art. 27, lid 3 DORA"
+ },
+ {
+  "id": "document-doc.tlpt-interne-testers-beleid",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Beleid",
+  "heading": "Beleid en dossier inzet interne TLPT-testers",
+  "url": "/playbook/documenten#doc.tlpt-interne-testers-beleid",
+  "text": "Beleid en dossier inzet interne TLPT-testers. Beleid, autoriteitsgoedkeuring en onderbouwend dossier voor de inzet van interne testers bij de TLPT: de beleidsvoorwaarden en revisiehistorie, het bewijs van goedkeuring door de bevoegde autoriteit, en de bezetting, het dienstverband en de opleiding van het interne testteam. Art. 26, lid 8 DORA Art. 27, lid 2 DORA Art. 15, lid 1 GV 2025/1190 Art. 15, lid 3 GV 2025/1190 Art. 15, lid 4 GV 2025/1190"
+ },
+ {
+  "id": "document-doc.derdenrisico-strategie",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Beleid",
+  "heading": "Strategie inzake ICT-derdenrisico",
+  "url": "/playbook/documenten#doc.derdenrisico-strategie",
+  "text": "Strategie inzake ICT-derdenrisico. Door het leidinggevend orgaan vastgestelde strategie inzake het ICT-risico van derde aanbieders, met inbegrip van een meervoudige-aanbiedersbenadering en de periodieke risico-evaluatie. Art. 28, lid 2 DORA Art. 6, lid 9 DORA"
+ },
+ {
+  "id": "document-doc.contractbeleid-ict-diensten",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Beleid",
+  "heading": "Beleid inzake het gebruik van ICT-diensten (contractbeleid)",
+  "url": "/playbook/documenten#doc.contractbeleid-ict-diensten",
+  "text": "Beleid inzake het gebruik van ICT-diensten (contractbeleid). Beleid inzake het gebruik van door derde aanbieders verleende ICT-diensten die kritieke of belangrijke functies ondersteunen, uitgewerkt volgens de eisen van GV 2024/1773. Art. 28, lid 2 DORA Art. 1 GV 2024/1773 Art. 3 GV 2024/1773"
+ },
+ {
+  "id": "document-doc.register-indiening-autoriteit",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Rapportage",
+  "heading": "Indiening informatieregister bij de bevoegde autoriteit",
+  "url": "/playbook/documenten#doc.register-indiening-autoriteit",
+  "text": "Indiening informatieregister bij de bevoegde autoriteit. Bewijs van de jaarlijkse indiening van het informatieregister bij de bevoegde autoriteit, met de ontvangst-/indieningsbevestiging. Art. 28, lid 3 DORA Art. 5 UV 2024/2956"
+ },
+ {
+  "id": "document-doc.kennisgevingsprocedure-kof",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Procedure",
+  "heading": "Kennisgevingsprocedure geplande KOF-contracten en herclassificaties",
+  "url": "/playbook/documenten#doc.kennisgevingsprocedure-kof",
+  "text": "Kennisgevingsprocedure geplande KOF-contracten en herclassificaties. Procedure voor de tijdige kennisgeving aan de bevoegde autoriteit van geplande contractuele overeenkomsten over kritieke of belangrijke functies en van functies die als zodanig worden geherclassificeerd. Art. 28, lid 3 DORA"
+ },
+ {
+  "id": "document-doc.precontractueel-beoordelingsdossier",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Precontractueel beoordelingsdossier ICT-diensten",
+  "url": "/playbook/documenten#doc.precontractueel-beoordelingsdossier",
+  "text": "Precontractueel beoordelingsdossier ICT-diensten. Per contractuele overeenkomst het beoordelingsdossier vóór contractering, met de KOF-classificatie, de negen risicocategorieën en de belangenconflicten. Art. 28, lid 4 DORA Art. 5 GV 2024/1773"
+ },
+ {
+  "id": "document-doc.concentratierisico-beoordeling",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Concentratierisicobeoordeling ICT-diensten",
+  "url": "/playbook/documenten#doc.concentratierisico-beoordeling",
+  "text": "Concentratierisicobeoordeling ICT-diensten. Voorlopige beoordeling van het ICT-concentratierisico op entiteitsniveau per beoogd KOF-contract, met alternatievenafweging en de derde-landketentoets. Art. 29, lid 1 DORA Art. 28, lid 4 DORA"
+ },
+ {
+  "id": "document-doc.contract-remediatieplan",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Plan",
+  "heading": "Gap-analyse en remediatieplan bestaande ICT-contracten",
+  "url": "/playbook/documenten#doc.contract-remediatieplan",
+  "text": "Gap-analyse en remediatieplan bestaande ICT-contracten. Gap-analyse van het bestaande contractenbestand tegen de verplichte contractuele bepalingen, met een gedocumenteerd herstel-/tijdschema om contracten op de DORA-basisset te brengen. Art. 30, lid 1 DORA Art. 30, lid 2 DORA"
+ },
+ {
+  "id": "document-doc.kof-contract-clausuleregister",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Clausule-vindplaatsoverzicht KOF-contracten",
+  "url": "/playbook/documenten#doc.kof-contract-clausuleregister",
+  "text": "Clausule-vindplaatsoverzicht KOF-contracten. Overzicht per KOF-contract met voor elk verplicht element van art. 30, lid 3 DORA de vindplaats van de betreffende contractuele clausule. Art. 30, lid 3 DORA"
+ },
+ {
+  "id": "document-doc.contractbeleid-consistentietoets",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Memo",
+  "heading": "Consistentietoets contractbeleid",
+  "url": "/playbook/documenten#doc.contractbeleid-consistentietoets",
+  "text": "Consistentietoets contractbeleid. Toets waarin de consistentie van het contractbeleid met het ICT-risicobeheerkader, het informatiebeveiligings- en het bedrijfscontinuïteitsbeleid wordt vastgesteld. Art. 3, lid 6 GV 2024/1773"
+ },
+ {
+  "id": "document-doc.belangenconflictenregister-ict",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Belangenconflictenregister ICT-aanbieders",
+  "url": "/playbook/documenten#doc.belangenconflictenregister-ict",
+  "text": "Belangenconflictenregister ICT-aanbieders. Register van belangenconflicten die voortvloeien uit het gebruik van derde ICT-aanbieders, met monitoringcyclus en objectiviteitsonderbouwing bij intra-groepscontracten. Art. 7 GV 2024/1773 Art. 28, lid 4 DORA"
+ },
+ {
+  "id": "document-doc.aanbieder-prestatiemonitoring",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Rapportage",
+  "heading": "Prestatiemonitoring KOF-aanbieders",
+  "url": "/playbook/documenten#doc.aanbieder-prestatiemonitoring",
+  "text": "Prestatiemonitoring KOF-aanbieders. Monitoring van de prestaties van KOF-aanbieders met KPI-/KCI-dashboard, SLA-nalevingsrapportage en periodieke prestatiebeoordelingen die doorwerken naar de risicobeoordeling. Art. 9 GV 2024/1773 Art. 30, lid 3 DORA"
+ },
+ {
+  "id": "document-doc.tekortkomingenregister-aanbieders",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Tekortkomingenregister ICT-aanbieders",
+  "url": "/playbook/documenten#doc.tekortkomingenregister-aanbieders",
+  "text": "Tekortkomingenregister ICT-aanbieders. Register van tekortkomingen van derde ICT-aanbieders met de getroffen maatregelen, termijnen en opvolgstatus. Art. 9 GV 2024/1773"
+ },
+ {
+  "id": "document-doc.onderaanneming-beoordelingsdossier",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Verslag",
+  "heading": "Beoordelingsdossier onderaanneming KOF-diensten",
+  "url": "/playbook/documenten#doc.onderaanneming-beoordelingsdossier",
+  "text": "Beoordelingsdossier onderaanneming KOF-diensten. Per KOF-contract het toestemmingsbesluit en toetsingsdossier over onderaanneming langs de voorwaarden van art. 3 GV 2025/532, met eigen impact-, locatie- en concentratiebeoordeling en herbeoordelingslog. Art. 3, lid 1 GV 2025/532 Art. 30, lid 2 DORA"
+ },
+ {
+  "id": "document-doc.onderaanneming-wijzigingsprocedure",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Procedure",
+  "heading": "Beoordelingsprocedure materiële wijzigingen onderaannemingsketen",
+  "url": "/playbook/documenten#doc.onderaanneming-wijzigingsprocedure",
+  "text": "Beoordelingsprocedure materiële wijzigingen onderaannemingsketen. Procesbeschrijving voor de beoordeling van en het bezwaar tegen materiële wijzigingen in de onderaannemingsketen, met kennisgevings- en termijnbewaking. Art. 5, lid 1 GV 2025/532 Art. 30, lid 3 DORA"
+ },
+ {
+  "id": "document-doc.threat-intel-deelnamebeleid",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Beleid",
+  "heading": "Beleid/besluit deelname cyberdreigingsinformatie-uitwisseling",
+  "url": "/playbook/documenten#doc.threat-intel-deelnamebeleid",
+  "text": "Beleid/besluit deelname cyberdreigingsinformatie-uitwisseling. Bestuurlijk vastgelegd besluit en beleid over de deelname aan een regeling voor uitwisseling van informatie en inlichtingen over cyberdreiging, met toetsing aan de voorwaarden van artikel 45, lid 1. Art. 45, lid 1 DORA Art. 45, lid 2 DORA"
+ },
+ {
+  "id": "document-doc.threat-intel-deelnameovereenkomst",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Overeenkomst",
+  "heading": "Gedragsregels / deelnameovereenkomst dreigingsinformatie-uitwisseling",
+  "url": "/playbook/documenten#doc.threat-intel-deelnameovereenkomst",
+  "text": "Gedragsregels / deelnameovereenkomst dreigingsinformatie-uitwisseling. Gedragsregels of deelnameovereenkomst van de informatie-uitwisselingsregeling, met de voorwaarden voor bescherming van vertrouwelijkheid, persoonsgegevens en gebruik van gedeelde dreigingsinformatie. Art. 45, lid 1 DORA Art. 45, lid 2 DORA"
+ },
+ {
+  "id": "document-doc.threat-intel-kennisgeving-autoriteit",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Rapportage",
+  "heading": "Kennisgeving deelname/beëindiging aan bevoegde autoriteit",
+  "url": "/playbook/documenten#doc.threat-intel-kennisgeving-autoriteit",
+  "text": "Kennisgeving deelname/beëindiging aan bevoegde autoriteit. Kennisgeving(en) aan de bevoegde autoriteit van de deelname aan en de eventuele beëindiging van deelname aan een regeling voor uitwisseling van cyberdreigingsinformatie. Art. 45, lid 3 DORA Art. 46 DORA"
+ },
+ {
+  "id": "document-doc.compliance-kalender",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Compliance-kalender kennisgevings- en rapportagetriggers",
+  "url": "/playbook/documenten#doc.compliance-kalender",
+  "text": "Compliance-kalender kennisgevings- en rapportagetriggers. Compliance-kalender met de wettelijke kennisgevings-, meldings- en rapportagetriggers uit DORA en hun termijnen, waaronder de kennisgeving van deelname en beëindiging aan de bevoegde autoriteit. Art. 45, lid 3 DORA Art. 46 DORA"
+ },
+ {
+  "id": "document-doc.ctpp-toetsdossier",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Toetsdossier kritieke derde aanbieders (CTPP-lijst)",
+  "url": "/playbook/documenten#doc.ctpp-toetsdossier",
+  "text": "Toetsdossier kritieke derde aanbieders (CTPP-lijst). Dossier met de periodieke toets van de lijst van aangewezen kritieke derde aanbieders van ICT-diensten, met markering per aanbieder en de vestigingsbewijzen van EU-dochterondernemingen per in een derde land gevestigde CTPP. Art. 31, lid 9 DORA Art. 31, lid 12 DORA"
+ },
+ {
+  "id": "document-doc.oversightsignalen-register",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Register",
+  "heading": "Register oversightsignalen kritieke aanbieders",
+  "url": "/playbook/documenten#doc.oversightsignalen-register",
+  "text": "Register oversightsignalen kritieke aanbieders. Log van de van de lead overseer en bevoegde autoriteiten ontvangen oversightsignalen en aanbevelingen over kritieke derde aanbieders, met de opvolging per signaal in het derde-aanbiedersrisicobeheer. Art. 42, lid 3 DORA Art. 42, lid 2 DORA Art. 35, lid 1 DORA Art. 35, lid 10 DORA"
+ },
+ {
+  "id": "document-doc.oversight-escalatiedraaiboek",
+  "type": "document",
+  "instrument": "documenten",
+  "ref": "Procedure",
+  "heading": "Escalatiedraaiboek opschorting/beëindiging kritieke aanbieder",
+  "url": "/playbook/documenten#doc.oversight-escalatiedraaiboek",
+  "text": "Escalatiedraaiboek opschorting/beëindiging kritieke aanbieder. Draaiboek voor de voorbereiding en uitvoering van een besluit van de bevoegde autoriteit om het gebruik of de uitbesteding van diensten van een kritieke derde aanbieder op te schorten of te beëindigen, als bedoeld in artikel 42, lid 6. Art. 42, lid 4 DORA Art. 42, lid 6 DORA Art. 42, lid 8 DORA Art. 39, lid 7 DORA"
  }
 ]

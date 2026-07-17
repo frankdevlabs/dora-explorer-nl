@@ -6,7 +6,7 @@
  * PlaybookSteps (grouping, chips, segmented bar), PlaybookProgress and
  * PlaybookIndexCards. Data-side priorities live in src/lib/playbook/types.ts.
  */
-import type { Prioriteit } from "./types";
+import type { DocCategory, Prioriteit } from "./types";
 
 /** Display order of the priority groups (design: fundament → kern → verdieping). */
 export const PRIO_ORDER: readonly Prioriteit[] = ["fundament", "kern", "verdieping"];
@@ -59,3 +59,43 @@ export const PRIO_FALLBACK: PrioStyle = {
 export function prioStyle(p: Prioriteit | undefined): PrioStyle {
   return p ? PRIO[p] : PRIO_FALLBACK;
 }
+
+// ---------------------------------------------------------------------------
+// Document-type catalog (epic 17). Single source of truth for the category
+// label + pill styling, shared by the Documentenregister, the step card and
+// the search results/palette. Data-side categories live in types.ts.
+
+/** Display order of the document categories (register groups + selector). */
+export const CATEGORY_ORDER: readonly DocCategory[] = [
+  "beleid",
+  "register",
+  "plan",
+  "procedure",
+  "verslag",
+  "rapportage",
+  "overeenkomst",
+  "memo",
+];
+
+export const CATEGORY_LABEL: Record<DocCategory, string> = {
+  beleid: "Beleid",
+  register: "Register",
+  plan: "Plan",
+  procedure: "Procedure",
+  verslag: "Verslag",
+  rapportage: "Rapportage",
+  overeenkomst: "Overeenkomst",
+  memo: "Memo",
+};
+
+/** Pill styling (border + background + text) per category. */
+export const CATEGORY_STYLE: Record<DocCategory, string> = {
+  beleid: "border-accent/50 bg-accent/10 text-accent",
+  register: "border-teal-600/40 bg-teal-600/10 text-teal-700 dark:text-teal-300",
+  plan: "border-indigo-500/40 bg-indigo-500/10 text-indigo-700 dark:text-indigo-300",
+  procedure: "border-amber-500/40 bg-amber-500/10 text-amber-700 dark:text-amber-300",
+  verslag: "border-line bg-surface text-muted",
+  rapportage: "border-rose-500/40 bg-rose-500/10 text-rose-700 dark:text-rose-300",
+  overeenkomst: "border-emerald-500/40 bg-emerald-500/10 text-emerald-700 dark:text-emerald-300",
+  memo: "border-line bg-surface text-muted",
+};

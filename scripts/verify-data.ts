@@ -512,8 +512,10 @@ const docs = load<SearchDoc[]>("data/generated/search-docs.json");
 // (vergoedingen 27 + onderzoeksteams 30 + classificatie 46 + contractbeleid
 // 42 + rapportage 21 docs) → 820 (risicobeheer 141) → 1031 (oversight 27 +
 // tlpt 149 + formulieren 35). Epic 16 remainder: +128 stap-docs (108 entiteit +
-// 20 aanbieder, one per playbook step) → 1159
-assert.equal(docs.length, 1159, "search docs: total count");
+// 20 aanbieder, one per playbook step) → 1159. Epic 17: +167 document-docs (one
+// per document-catalog entry, full curation of all 339 step deliverables) →
+// 1326 (1031 corpus + 128 stap + 167 document).
+assert.equal(docs.length, 1326, "search docs: total count");
 const ids = new Set(docs.map((d) => d.id));
 assert.equal(ids.size, docs.length, "search docs: duplicate ids");
 for (const d of docs) {
@@ -522,6 +524,14 @@ for (const d of docs) {
     // URL (no legal-instrument prefix), so the checks below don't apply.
     assert.ok(d.id.startsWith("stap-"), `stap doc ${d.id}: id prefix`);
     assert.ok(d.url.startsWith("/playbook/"), `stap doc ${d.id}: url (${d.url})`);
+  } else if (d.type === "document") {
+    // Document-catalog entries (epic 17) carry the sentinel instrument
+    // "documenten" and a /playbook/documenten#… URL, not a legal-instrument id.
+    assert.ok(d.id.startsWith("document-"), `document doc ${d.id}: id prefix`);
+    assert.ok(
+      d.url.startsWith("/playbook/documenten#"),
+      `document doc ${d.id}: url (${d.url})`,
+    );
   } else {
     assert.ok(
       (INSTRUMENT_IDS as string[]).includes(d.instrument),

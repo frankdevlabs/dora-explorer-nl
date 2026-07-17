@@ -16,7 +16,9 @@ import {
   playbook,
   recitalMap,
 } from "./data.js";
-import type { PlaybookStep } from "../../src/lib/playbook/types.js";
+import type { DocCategory, PlaybookStep } from "../../src/lib/playbook/types.js";
+import { isDocRef } from "../../src/lib/playbook/types.js";
+import { CATEGORY_LABEL, CATEGORY_ORDER } from "../../src/lib/playbook/ui.js";
 import { renderAnnex, renderArticle, renderText } from "./render.js";
 
 const text = (md: string) => ({ content: [{ type: "text" as const, text: md }] });
@@ -71,14 +73,14 @@ export function createServer(): McpServer {
         ". Query in Dutch works best. Reference queries also work: \"artikel 28 lid 3\", " +
         '"its artikel 2", "its bijlage iii" (instrument ids: ' +
         INSTRUMENT_IDS.join(", ") +
-        "). Use type:\"stap\" for playbook steps only.",
+        "). Use type:\"stap\" for playbook steps, type:\"document\" for expected-documentation catalog entries.",
       inputSchema: {
         query: z.string().min(2).describe("Search terms (Dutch)"),
         limit: z.number().int().min(1).max(50).optional().describe("Max results, default 10"),
         type: z
-          .enum(["artikel", "overweging", "bijlage", "stap"])
+          .enum(["artikel", "overweging", "bijlage", "stap", "document"])
           .optional()
-          .describe("Restrict to articles, recitals, annexes or playbook steps"),
+          .describe("Restrict to articles, recitals, annexes, playbook steps or documents"),
         instrument: instrumentEnum,
       },
     },
@@ -99,9 +101,11 @@ export function createServer(): McpServer {
           const tag =
             h.type === "stap"
               ? ` [playbook: ${h.instrument}]`
-              : h.instrument === "dora"
-                ? ""
-                : ` [${INSTRUMENTS[h.instrument as InstrumentId].label}]`;
+              : h.type === "document"
+                ? ` [document: ${h.ref}]`
+                : h.instrument === "dora"
+                  ? ""
+                  : ` [${INSTRUMENTS[h.instrument as InstrumentId].label}]`;
           return `### ${h.heading}${tag}\n${BASE_URL}${h.url}\n_Gevonden termen: ${terms}_\n> ${quoted.replace(/\n+/g, " ")}`;
         })
         .join("\n\n");
@@ -267,7 +271,16 @@ export function createServer(): McpServer {
       `*${s.doel}*`,
       ...s.acties.map((a) => `- ${a}`),
     ];
-    if (s.bewijsstukken?.length) lines.push(`**Bewijsstukken:** ${s.bewijsstukken.join(" · ")}`);
+    if (s.bewijsstukken?.length) {
+      const bew = s.bewijsstukken.map((b) => {
+        if (!isDocRef(b)) return b;
+        const doc = playbook.byDoc[b.docId]?.doc;
+        const naam = doc?.naam ?? b.docId;
+        const label = b.detail ? `${naam} — ${b.detail}` : naam;
+        return `[${label}](${BASE_URL}/playbook/documenten#${b.docId})`;
+      });
+      lines.push(`**Bewijsstukken:** ${bew.join(" · ")}`);
+    }
     if (s.rollen?.length) lines.push(`**Rollen:** ${s.rollen.join(", ")}`);
     lines.push(
       `**Geldt voor:** ${s.appliesTo.join(", ")} — **Basis:** ${s.refs
@@ -365,6 +378,67 @@ export function createServer(): McpServer {
       return text(
         `# Dekking — artikel ${article.number} ${INSTRUMENTS[inst].citation}\n_${article.title}_\n\n${summary}\n\n${lines.join("\n")}`,
       );
+    },
+  );
+
+  const categoryEnum = z
+    .enum(CATEGORY_ORDER as unknown as [DocCategory, ...DocCategory[]])
+    .optional()
+    .describe("Restrict to one document category");
+
+  server.registerTool(
+    "get_documents",
+    {
+      title: "Documentenregister: welke documentatie verwacht DORA?",
+      description:
+        "The expected-documentation catalog: every document, policy, register, plan, procedure, " +
+        "report or contract DORA and its level-2 acts expect an organisation to produce. Per " +
+        "document the legal basis (deep links) and the playbook steps that produce it. Register: " +
+        `${BASE_URL}/playbook/documenten. Curation in progress; optionally filter by category.`,
+      inputSchema: {
+        category: categoryEnum,
+      },
+    },
+    async ({ category }) => {
+      const docs = category
+        ? playbook.documenten.filter((d) => d.category === category)
+        : playbook.documenten;
+      if (!docs.length) {
+        return text(
+          category
+            ? `Geen documenten in categorie "${category}" (curatie loopt).`
+            : "De documentcatalogus wordt nog samengesteld.",
+        );
+      }
+      const body = docs
+        .map((doc) => {
+          const basis = doc.refs
+            .map((r) => `[${r.label}](${BASE_URL}${r.href})`)
+            .join(" · ");
+          const steps = (playbook.byDoc[doc.id]?.steps ?? [])
+            .map((s) => {
+              const loc = playbook.byStep[s];
+              return loc
+                ? `[\`${s}\`](${BASE_URL}/playbook/${loc.playbook}/${loc.faseId}#${s})`
+                : `\`${s}\``;
+            })
+            .join(", ");
+          const lines = [
+            `### ${doc.naam} [${CATEGORY_LABEL[doc.category]}]`,
+            `${BASE_URL}/playbook/documenten#${doc.id}`,
+            `*${doc.omschrijving}*`,
+          ];
+          if (doc.cadans || doc.eigenaar) {
+            lines.push(
+              `**${[doc.cadans, doc.eigenaar].filter(Boolean).join(" · ")}**`,
+            );
+          }
+          lines.push(`**Basis:** ${basis}`);
+          if (steps) lines.push(`**Geproduceerd door:** ${steps}`);
+          return lines.join("\n");
+        })
+        .join("\n\n");
+      return text(`# Documentenregister\n\n${body}`);
     },
   );
 

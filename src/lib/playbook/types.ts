@@ -30,8 +30,14 @@ export interface PlaybookStep {
   doel: string;
   /** Concrete practical actions (Dutch, imperative) — no legal paraphrase. */
   acties: string[];
-  /** Deliverables/evidence an auditor would ask for. */
-  bewijsstukken?: string[];
+  /**
+   * Deliverables/evidence an auditor would ask for. Each item is either legacy
+   * free-text OR a structured reference into the document-type catalog
+   * (data/playbook/documenten-v1.json). The union is the migration path: a
+   * string flips to a {docId} entry-by-entry without touching step ids or
+   * localStorage. See isDocRef and the Documentenregister.
+   */
+  bewijsstukken?: Bewijsstuk[];
   /** Responsible roles, e.g. "bestuur", "CISO", "risk", "inkoop", "juridisch". */
   rollen?: string[];
   /** Deep links into the corpus; every step cites its legal basis (>= 1). */
@@ -51,6 +57,69 @@ export interface PlaybookFase {
   /** Which instruments feed this phase (UI badges). */
   instrumenten: InstrumentId[];
   stappen: PlaybookStep[];
+}
+
+// ---------------------------------------------------------------------------
+// Document-type catalog (data/playbook/documenten-v1.json) — the "expected
+// documentation" spine. Mirrors the legal-reference spine one level up: a
+// step's bewijsstukken deep-link into this catalog exactly as its refs
+// deep-link into the corpus, and each catalog entry itself carries refs back
+// into the corpus. The /playbook/documenten register is its reverse index,
+// just as /playbook/dekking is the reverse index of the coverage matrix.
+
+/** Coarse deliverable bucket — the register's category filter. */
+export type DocCategory =
+  | "beleid" // policy / framework / strategy
+  | "register" // register / inventory / log (CMDB, RoI, follow-up)
+  | "plan" // plan (BCP, response-and-recovery, testing, exit)
+  | "procedure" // procedure / process description
+  | "verslag" // minutes / decision record / board resolution
+  | "rapportage" // report / reporting to board or authority
+  | "overeenkomst" // contract / SLA / clause set
+  | "memo"; // memo / analysis / dossier (scope, proportionality)
+
+/** One canonical DORA-mandated document type — a corpus entry, like an Article. */
+export interface DocumentType {
+  /** Stable id, prefixed "doc.". Never reuse a retired id (RETIRED_DOC_IDS). */
+  id: string;
+  naam: string;
+  category: DocCategory;
+  /** One-sentence Dutch description of what the document must contain. */
+  omschrijving: string;
+  /** Provisions that mandate/mention this document (>= 1). Deep links, like a step's refs. */
+  refs: QRef[];
+  /** Optional production/review cadence hint, e.g. "jaarlijks", "doorlopend", "ad hoc". */
+  cadans?: string;
+  /** Optional owning-role hint (same vocabulary as PlaybookStep.rollen). */
+  eigenaar?: string;
+  /** Optional regime scope; absent = all regimes. */
+  appliesTo?: PlaybookRegime[];
+  /** Flipped to true only by the human review pass. */
+  reviewed?: boolean;
+}
+
+export interface DocumentCatalogFile {
+  meta: {
+    version: number;
+    /** false while curation is in progress; true flips verify to final mode. */
+    complete: boolean;
+  };
+  documenten: DocumentType[];
+}
+
+/** Structured reference from a step to a catalog document (the "bewijsstuk-as-QRef"). */
+export interface DocRef {
+  docId: string;
+  /** Step-specific specialization of the generic document, e.g. "met criticaliteitsmarkering". */
+  detail?: string;
+}
+
+/** A deliverable on a step: legacy free-text OR a structured catalog reference. */
+export type Bewijsstuk = string | DocRef;
+
+/** Type guard: a structured catalog reference (vs. a legacy free-text string). */
+export function isDocRef(b: Bewijsstuk): b is DocRef {
+  return typeof b === "object" && b !== null;
 }
 
 /** Glossary entry: one defined term with its corpus anchor. */
@@ -144,16 +213,30 @@ export interface CoverageIndexEntry {
   entry: CoverageEntry;
 }
 
+/** doc id -> the catalog entry + the step ids (either playbook) that produce it. */
+export interface DocIndexEntry {
+  doc: DocumentType;
+  steps: string[];
+}
+
 export interface GeneratedPlaybook {
   entiteit: Playbook;
   aanbieder: Playbook;
   coverage: CoverageFile;
+  /** The document-type catalog (data/playbook/documenten-v1.json). */
+  documenten: DocumentType[];
   /** step id -> location (for /playbook/dekking step links and MCP). */
   byStep: Record<string, PlaybookStepIndexEntry>;
+  /** doc id -> catalog entry + producing steps (for /playbook/documenten and MCP). */
+  byDoc: Record<string, DocIndexEntry>;
   counts: {
     steps: Record<string, number>;
     coverageEntries: number;
     dispositions: Record<string, number>;
+    /** number of catalog document types. */
+    documents: number;
+    /** number of migrated (structured) bewijsstukken across all steps. */
+    docRefs: number;
   };
 }
 
