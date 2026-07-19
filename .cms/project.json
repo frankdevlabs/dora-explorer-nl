@@ -23,6 +23,55 @@
       "pin": {
         "script": "scripts/verify-recital-map.ts"
       }
+    },
+    {
+      "id": "stappen-entiteit",
+      "title": "Playbook — stappen (entiteit)",
+      "file": "data/playbook/entiteit-v1.json",
+      "schema": "playbook-steps-v1",
+      "format": { "indent": 2, "inline": "bewijsstukken" },
+      "verify": "npm run parse && npx tsx scripts/verify-playbook.ts",
+      "context": {
+        "articles": "data/generated/{inst}/articles.json",
+        "annexes": "data/generated/{inst}/annexes.json",
+        "documenten": "data/playbook/documenten-v1.json"
+      },
+      "generated": [
+        "data/generated/playbook.json"
+      ]
+    },
+    {
+      "id": "stappen-aanbieder",
+      "title": "Playbook — stappen (aanbieder)",
+      "file": "data/playbook/aanbieder-v1.json",
+      "schema": "playbook-steps-v1",
+      "format": { "indent": 2, "inline": "bewijsstukken" },
+      "verify": "npm run parse && npx tsx scripts/verify-playbook.ts",
+      "context": {
+        "articles": "data/generated/{inst}/articles.json",
+        "annexes": "data/generated/{inst}/annexes.json",
+        "documenten": "data/playbook/documenten-v1.json"
+      },
+      "generated": [
+        "data/generated/playbook.json"
+      ]
+    },
+    {
+      "id": "dekking",
+      "title": "Playbook — dekkingsmatrix",
+      "file": "data/playbook/coverage-v1.json",
+      "schema": "coverage-v1",
+      "format": { "indent": 2 },
+      "verify": "npm run parse && npx tsx scripts/verify-playbook.ts",
+      "context": {
+        "articles": "data/generated/{inst}/articles.json",
+        "annexes": "data/generated/{inst}/annexes.json",
+        "steps-entiteit": "data/playbook/entiteit-v1.json",
+        "steps-aanbieder": "data/playbook/aanbieder-v1.json"
+      },
+      "generated": [
+        "data/generated/playbook.json"
+      ]
     }
   ]
 }
